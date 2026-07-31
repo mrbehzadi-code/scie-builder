@@ -1,0 +1,16 @@
+project:
+  name: SCIE Builder
+  version: 0.1.0
+
+mission:
+  goal: Build Discovery Engine
+
+phase:
+  current: 1
+  name: Initialize Builder
+
+task:
+  current: Read mission
+
+status:
+  READY
