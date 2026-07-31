@@ -1,44 +1,54 @@
 import argparse
 from pathlib import Path
-
 import yaml
-
 
 MISSION_FILE = Path("mission.yaml")
 
-
-def load_mission():
-    with open(MISSION_FILE, "r", encoding="utf-8") as f:
+def load():
+    with open(MISSION_FILE,"r",encoding="utf-8") as f:
         return yaml.safe_load(f)
 
+def status():
+    m=load()
 
-def show_status():
-    mission = load_mission()
-
-    print("=" * 50)
+    print("="*60)
     print("SCIE Builder")
-    print("=" * 50)
-    print("Mission :", mission["mission"]["goal"])
-    print("Phase   :", mission["phase"]["name"])
-    print("Task    :", mission["task"]["current"])
-    print("Status  :", mission["status"])
-    print("=" * 50)
+    print("="*60)
+    print("Mission :",m["mission"]["goal"])
+    print("Phase   :",m["phase"]["name"])
+    print("Task    :",m["task"]["current"])
+    print("Status  :",m["status"])
+    print("="*60)
 
+def mission():
+    print(load()["mission"]["goal"])
 
-def show_mission():
-    mission = load_mission()
+def planner():
+
+    tasks=[
+        "Initialize Discovery Engine",
+        "Create Web Crawlers",
+        "Build Extraction Engine",
+        "Entity Resolution",
+        "Knowledge Graph",
+        "Dashboard"
+    ]
 
     print()
-    print(mission["mission"]["goal"])
+    print("SCIE Planner")
+    print("-"*60)
+
+    for i,t in enumerate(tasks,1):
+        print(f"[{i}] {t}")
+
     print()
 
+def cont():
+    planner()
 
 def main():
 
-    parser = argparse.ArgumentParser(
-        prog="builder",
-        description="SCIE Builder CLI"
-    )
+    parser=argparse.ArgumentParser()
 
     parser.add_argument(
         "command",
@@ -47,25 +57,24 @@ def main():
         choices=[
             "status",
             "mission",
+            "planner",
             "continue"
         ]
     )
 
-    args = parser.parse_args()
+    args=parser.parse_args()
 
-    if args.command == "status":
-        show_status()
+    if args.command=="status":
+        status()
 
-    elif args.command == "mission":
-        show_mission()
+    elif args.command=="mission":
+        mission()
 
-    elif args.command == "continue":
-        print()
-        print("Next Task:")
-        print("Build Planner")
-        print()
+    elif args.command=="planner":
+        planner()
 
+    elif args.command=="continue":
+        cont()
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
-    
