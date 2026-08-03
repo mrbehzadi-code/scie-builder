@@ -1,0 +1,14 @@
+{
+  "surnames": [
+    "Shaker", "Hatefi", "Fattahi", "Fotouhi", "Behzadi Moghaddam",
+    "Morovati", "Barkhordari", "Taghavi", "Haeri", "Haerian",
+    "Tabesh", "Sanaei", "Khatami", "Davari Ardakani", "Mohaghegh Damad",
+    "Kamali", "Shafizadeh", "Pourdehghan", "Taghdari", "Fakhar",
+    "Fakhari", "Taghdarian", "Abutalebi", "Motallehi", "Kordi",
+    "Sarafraz", "Nasiri", "Sarvi", "Ghafouri", "Khajeh Sarvi",
+    "Moradi", "Afkhami", "Piri", "Behjati", "Farzan", "Fatemi"
+  ],
+  "country_code": "ir",
+  "max_results_per_surname": 5,
+  "note": "Matching a surname + Iranian institution affiliation does NOT prove Ardakan ancestry -- these surnames are common across Iran. Treat results as CANDIDATES for human review, not confirmed matches. Sorted by 'confidence' = share of the person's known institutions located in Iran."
+}
