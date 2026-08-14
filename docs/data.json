@@ -4,14 +4,14 @@
   "target": 100,
   "stats": {
     "web_records": 6,
-    "people": 342,
-    "academic_candidates": 270,
-    "regional_evidence": 164,
+    "people": 341,
+    "academic_candidates": 284,
+    "regional_evidence": 178,
     "sources": {
       "OpenAlex Discovery": 270,
-      "GitHub Discovery": 57
-    },
-    "lead_guided_records": 15
+      "GitHub Discovery": 57,
+      "Lead-guided OpenAlex Discovery": 14
+    }
   },
   "people": [
     {
@@ -4581,7 +4581,7 @@
       "confidence": "low"
     },
     {
-      "name": "ر. فرزان پی",
+      "name": "بهروز فرزان",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
       "detail": "OpenAlex result for «فرزان»",
@@ -4590,7 +4590,7 @@
         "lead: فرزان",
         "query: فرزان"
       ],
-      "url": "https://openalex.org/A5086048218",
+      "url": "https://openalex.org/A5076693318",
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1786742219317
@@ -4611,96 +4611,6 @@
       "lead_id": 1786742219317
     },
     {
-      "name": "فرزام فرزان",
-      "type": "کاندیدای کشف از سرنخ",
-      "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «فرزان»",
-      "location": "Ardakan signal",
-      "evidence": [
-        "lead: فرزان",
-        "query: فرزان"
-      ],
-      "url": "https://openalex.org/A5046327076",
-      "verification": "needs_review",
-      "confidence": "low",
-      "lead_id": 1786742219317
-    },
-    {
-      "name": "فرزان قالیچی",
-      "type": "کاندیدای کشف از سرنخ",
-      "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «فرزان»",
-      "location": "Ardakan signal",
-      "evidence": [
-        "lead: فرزان",
-        "query: فرزان"
-      ],
-      "url": "https://openalex.org/A5070603396",
-      "verification": "needs_review",
-      "confidence": "low",
-      "lead_id": 1786742219317
-    },
-    {
-      "name": "منصوره فرزان مهر",
-      "type": "کاندیدای کشف از سرنخ",
-      "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «فرزان»",
-      "location": "Ardakan signal",
-      "evidence": [
-        "lead: فرزان",
-        "query: فرزان"
-      ],
-      "url": "https://openalex.org/A5018848292",
-      "verification": "needs_review",
-      "confidence": "low",
-      "lead_id": 1786742219317
-    },
-    {
-      "name": "فرزان فرزان",
-      "type": "کاندیدای کشف از سرنخ",
-      "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «فرزان»",
-      "location": "Ardakan signal",
-      "evidence": [
-        "lead: فرزان",
-        "query: فرزان"
-      ],
-      "url": "https://openalex.org/A5045157921",
-      "verification": "needs_review",
-      "confidence": "low",
-      "lead_id": 1786742219317
-    },
-    {
-      "name": "بهروز فرزان",
-      "type": "کاندیدای کشف از سرنخ",
-      "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «فرزان»",
-      "location": "Ardakan signal",
-      "evidence": [
-        "lead: فرزان",
-        "query: فرزان"
-      ],
-      "url": "https://openalex.org/A5076693318",
-      "verification": "needs_review",
-      "confidence": "low",
-      "lead_id": 1786742219317
-    },
-    {
-      "name": "فرزان کیانارثی",
-      "type": "کاندیدای کشف از سرنخ",
-      "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «فرزان»",
-      "location": "Ardakan signal",
-      "evidence": [
-        "lead: فرزان",
-        "query: فرزان"
-      ],
-      "url": "https://openalex.org/A5088764589",
-      "verification": "needs_review",
-      "confidence": "low",
-      "lead_id": 1786742219317
-    },
-    {
       "name": "علی فرزان",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
@@ -4711,6 +4621,36 @@
         "query: فرزان"
       ],
       "url": "https://openalex.org/A5016723152",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1786742219317
+    },
+    {
+      "name": "فاطمه فرزان",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: فرزان",
+        "query: فرزان"
+      ],
+      "url": "https://openalex.org/A5063438346",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1786742219317
+    },
+    {
+      "name": "فرزام فرزان",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: فرزان",
+        "query: فرزان"
+      ],
+      "url": "https://openalex.org/A5046327076",
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1786742219317
@@ -4746,7 +4686,7 @@
       "lead_id": 1786742219317
     },
     {
-      "name": "نسرین فرزان",
+      "name": "فرزان فرزان",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
       "detail": "OpenAlex result for «فرزان»",
@@ -4755,7 +4695,52 @@
         "lead: فرزان",
         "query: فرزان"
       ],
-      "url": "https://openalex.org/A5051575008",
+      "url": "https://openalex.org/A5045157921",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1786742219317
+    },
+    {
+      "name": "فرزان قالیچی",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: فرزان",
+        "query: فرزان"
+      ],
+      "url": "https://openalex.org/A5070603396",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1786742219317
+    },
+    {
+      "name": "فرزان کیانارثی",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: فرزان",
+        "query: فرزان"
+      ],
+      "url": "https://openalex.org/A5088764589",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1786742219317
+    },
+    {
+      "name": "فرهاد فرزان",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: فرزان",
+        "query: فرزان"
+      ],
+      "url": "https://openalex.org/A5075758485",
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1786742219317
@@ -4776,7 +4761,7 @@
       "lead_id": 1786742219317
     },
     {
-      "name": "فاطمه فرزان",
+      "name": "منصوره فرزان مهر",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
       "detail": "OpenAlex result for «فرزان»",
@@ -4785,13 +4770,13 @@
         "lead: فرزان",
         "query: فرزان"
       ],
-      "url": "https://openalex.org/A5063438346",
+      "url": "https://openalex.org/A5018848292",
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1786742219317
     },
     {
-      "name": "فرهاد فرزان",
+      "name": "نسرین فرزان",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
       "detail": "OpenAlex result for «فرزان»",
@@ -4800,7 +4785,7 @@
         "lead: فرزان",
         "query: فرزان"
       ],
-      "url": "https://openalex.org/A5075758485",
+      "url": "https://openalex.org/A5051575008",
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1786742219317
