@@ -11,6 +11,17 @@
       "created_at": "2026-08-15T00:00:00Z",
       "issue_number": 12,
       "submitted_at": "2026-08-14T21:14:11Z"
+    },
+    {
+      "id": 1723680002000,
+      "type": "free",
+      "type_label": "سرنخ آزاد",
+      "value": "دانشگاه اردکان",
+      "location": "اردکان",
+      "note": "تست نهایی چرخه سرنخ تا Snapshot پس از رفع همزمانی Writerها",
+      "created_at": "2026-08-15T00:00:02Z",
+      "issue_number": 14,
+      "submitted_at": "2026-08-14T21:15:51Z"
     }
   ]
 }

@@ -8,6 +8,14 @@
       "status": "completed",
       "new_records": 0,
       "completed_at": "2026-08-14T21:14:12Z"
+    },
+    {
+      "lead_id": 1723680002000,
+      "issue_number": 14,
+      "value": "دانشگاه اردکان",
+      "status": "completed",
+      "new_records": 0,
+      "completed_at": "2026-08-14T21:15:53Z"
     }
   ]
 }
