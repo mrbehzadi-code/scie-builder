@@ -10,7 +10,8 @@
     "sources": {
       "OpenAlex Discovery": 270,
       "GitHub Discovery": 57
-    }
+    },
+    "lead_guided_records": 0
   },
   "people": [
     {

@@ -1,4 +1,16 @@
 {
   "schema": "scie-discovery-leads-v1",
-  "leads": []
+  "leads": [
+    {
+      "id": 1723680000000,
+      "type": "expertise",
+      "type_label": "تخصص / حوزه",
+      "value": "مهندس برق اردکان",
+      "location": "اردکان",
+      "note": "تست عملی چرخه سرنخ انسانی → Discovery → Snapshot",
+      "created_at": "2026-08-15T00:00:00Z",
+      "issue_number": 12,
+      "submitted_at": "2026-08-14T21:14:11Z"
+    }
+  ]
 }
