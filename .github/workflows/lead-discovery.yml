@@ -1,0 +1,49 @@
+name: SCIE Lead Guided Discovery
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  discover:
+    if: startsWith(github.event.issue.title, '[SCIE LEAD]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run lead-guided discovery
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: python engines/lead_issue_runner.py
+
+      - name: Commit discovery results
+        run: |
+          git config user.name "scie-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add input/discovery_leads.json docs/data.json docs/lead_runs.json
+          git commit -m "data: process human discovery lead" || exit 0
+          git push
+
+      - name: Report result
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const p = JSON.parse(fs.readFileSync('docs/lead_runs.json','utf8'));
+            const run = p.runs[p.runs.length-1];
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `SCIE Discovery completed.\n\nNew candidate records: **${run.new_records}**\nStatus: **${run.status}**\n\nThe dashboard will read the updated snapshot automatically.`
+            });
