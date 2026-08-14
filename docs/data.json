@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-08-14",
+  "notice": "این داده‌ها snapshot عمومی فعلی SCIE هستند. سیگنال کشف با هویت قطعی یکسان نیست.",
+  "stats": {
+    "web_records": 6,
+    "people": 6,
+    "academic_candidates": 3,
+    "regional_evidence": 6
+  },
+  "people": [
+    {
+      "name": "Hamed",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "Backend developer · Python, Django",
+      "location": "Iran / Yazd / Ardakan",
+      "evidence": ["location: Ardakan", "public GitHub profile"],
+      "url": "https://github.com/Hamed-Aarabi"
+    },
+    {
+      "name": "Alireza Dashti",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "EEFA CERAM CO",
+      "location": "Ardakan (Yazd)",
+      "evidence": ["location: Ardakan", "public GitHub profile"],
+      "url": "https://github.com/AlirezaDashti"
+    },
+    {
+      "name": "Abolfazl Kamali Ardakani",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "پروفایل عمومی GitHub",
+      "location": "Ardakan, Yazd, Iran",
+      "evidence": ["location: Ardakan", "name signal", "public GitHub profile"],
+      "url": "https://github.com/AbolfazlKamaliArdakani"
+    },
+    {
+      "name": "Zahra Afkhami Ardakani",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "پروفایل عمومی GitHub",
+      "location": "Iran, Yazd, Ardakan",
+      "evidence": ["location: Ardakan", "name signal", "public GitHub profile"],
+      "url": "https://github.com/Zahra121377"
+    },
+    {
+      "name": "Amirho3ein Roustaei",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "Python · Django · Technoosite",
+      "location": "Iran, Yazd, Ardakan",
+      "evidence": ["location: Ardakan", "public GitHub profile"],
+      "url": "https://github.com/amirhoseinardakanei"
+    },
+    {
+      "name": "Ali",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "Video game developer / enthusiast",
+      "location": "Iran, Yazd, Ardakan",
+      "evidence": ["location: Ardakan", "public GitHub profile"],
+      "url": "https://github.com/Ardakaniali"
+    },
+    {
+      "name": "Hamed Davari Ardakani",
+      "type": "کاندیدای دانشگاهی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Kharazmi University",
+      "location": "—",
+      "evidence": ["surname: Davari Ardakani", "OpenAlex author record"],
+      "url": "https://openalex.org/A5040055781",
+      "verification": "needs_review"
+    },
+    {
+      "name": "Negar Davari Ardakani",
+      "type": "کاندیدای دانشگاهی",
+      "source": "OpenAlex Discovery",
+      "detail": "17 اثر علمی · ORCID موجود",
+      "location": "—",
+      "evidence": ["surname: Davari Ardakani", "OpenAlex author record", "ORCID"],
+      "url": "https://openalex.org/A5070143779",
+      "verification": "needs_review"
+    },
+    {
+      "name": "Davari Ardakani Hamed",
+      "type": "کاندیدای دانشگاهی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Amirkabir University of Technology",
+      "location": "—",
+      "evidence": ["surname: Davari Ardakani", "OpenAlex author record"],
+      "url": "https://openalex.org/A5088235006",
+      "verification": "needs_review"
+    }
+  ]
+}
