@@ -8,13 +8,14 @@
     "name": "Discovery Intelligence"
   },
   "task": {
-    "current": "Project dashboard integration"
+    "current": "Live public dashboard data integration"
   },
   "status": "IN_PROGRESS",
   "patches": {
     "applied": [
       "patch_004_001",
-      "sprint_007_dashboard"
+      "sprint_007_dashboard",
+      "sprint_010_live_dashboard_data"
     ],
     "pending": []
   },
@@ -28,6 +29,11 @@
       "patch": "sprint_007_dashboard",
       "event": "implemented",
       "message": "Added dashboard command and pipeline status view"
+    },
+    {
+      "patch": "sprint_010_live_dashboard_data",
+      "event": "implemented",
+      "message": "Connected the public user dashboard to a committed SCIE data snapshot with real discovered profiles and labeled academic candidates."
     }
   ]
 }
