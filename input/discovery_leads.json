@@ -22,6 +22,17 @@
       "created_at": "2026-08-15T00:00:02Z",
       "issue_number": 14,
       "submitted_at": "2026-08-14T21:15:51Z"
+    },
+    {
+      "id": 1786742219317,
+      "type": "surname",
+      "type_label": "فامیلی",
+      "value": "فرزان",
+      "location": "",
+      "note": "خانواده دکترهای فرزان در اردکان مشهور هستند",
+      "created_at": "2026-08-14T21:16:59.317Z",
+      "issue_number": 15,
+      "submitted_at": "2026-08-14T21:17:28Z"
     }
   ]
 }
