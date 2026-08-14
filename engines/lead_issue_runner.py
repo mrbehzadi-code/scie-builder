@@ -9,10 +9,10 @@ DATA=ROOT/'docs/data.json'; LEADS=ROOT/'input/discovery_leads.json'; RUNS=ROOT/'
 
 def norm(s): return re.sub(r'\s+',' ',str(s or '').strip()).casefold()
 def fetch(url, headers=None, timeout=25):
-    h={'User-Agent':'SCIE-Lead-Discovery/1.2'}; h.update(headers or {})
+    h={'User-Agent':'SCIE-Lead-Discovery/1.3'}; h.update(headers or {})
     with urlopen(Request(url,headers=h),timeout=timeout) as r: return r.read().decode('utf-8','ignore')
 def lead_queries(lead):
-    v=lead.get('value','').strip(); loc=lead.get('location','').strip() or 'اردکان'; typ=lead.get('type')
+    v=lead.get('value','').strip(); typ=lead.get('type')
     qs=[v,f'{v} Ardakan',f'Ardakan {v}',f'{v} اردکان',f'اردکان {v}']
     if typ=='surname': qs += [f'{v} Ardakan family',f'{v} اردکان خانواده']
     if typ=='organization': qs += [f'{v} Ardakan company',f'{v} اردکان شرکت']
@@ -53,6 +53,11 @@ def add_candidate(people,existing,lead,name,url,source,detail,evidence):
     key=(norm(name),norm(url))
     if not name or key in existing: return False
     people.append({'name':name,'type':'کاندیدای کشف از سرنخ','source':source,'detail':detail,'location':lead.get('location') or 'Ardakan signal','evidence':evidence,'url':url,'verification':'needs_review','confidence':'low','lead_id':lead.get('id')}); existing.add(key); return True
+def source_counts(people):
+    out={}
+    for p in people:
+        s=p.get('source','unknown'); out[s]=out.get(s,0)+1
+    return dict(sorted(out.items()))
 def main():
     event=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text(encoding='utf-8')); issue=event.get('issue',{}); body=issue.get('body','') or ''
     if not issue.get('title','').startswith('[SCIE LEAD]'): return
@@ -74,8 +79,13 @@ def main():
                 if add_candidate(people,existing,lead,title,url,'Lead-guided Web Discovery',f"نتیجه وب برای سرنخ «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'query: {q}']): found+=1
                 if found>=30: break
             if found>=30: break
-    data['generated_at']=time.strftime('%Y-%m-%d'); data.setdefault('stats',{})['people']=len(people); data['stats']['lead_guided_records']=sum(1 for p in people if p.get('source','').startswith('Lead-guided'))
+    data['generated_at']=time.strftime('%Y-%m-%d')
+    stats=data.setdefault('stats',{})
+    stats['people']=len(people)
+    stats['lead_guided_records']=sum(1 for p in people if p.get('source','').startswith('Lead-guided'))
+    stats['sources']=source_counts(people)
+    stats['last_lead']={'id':lead.get('id'),'issue_number':lead.get('issue_number'),'type':lead.get('type'),'value':lead.get('value'),'completed_at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'new_records':found}
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
-    runs=json.loads(RUNS.read_text(encoding='utf-8')) if RUNS.exists() else {'runs':[]}; runs['runs'].append({'lead_id':lead.get('id'),'issue_number':lead.get('issue_number'),'value':lead.get('value'),'status':'completed','new_records':found,'completed_at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())}); runs['runs']=runs['runs'][-50:]; RUNS.write_text(json.dumps(runs,ensure_ascii=False,indent=2),encoding='utf-8')
+    runs=json.loads(RUNS.read_text(encoding='utf-8')) if RUNS.exists() else {'runs':[]}; runs['runs'].append({'lead_id':lead.get('id'),'issue_number':lead.get('issue_number'),'value':lead.get('value'),'status':'completed','new_records':found,'pool_size':len(people),'completed_at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())}); runs['runs']=runs['runs'][-50:]; RUNS.write_text(json.dumps(runs,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'Lead discovery complete: {found} new records; pool={len(people)}')
 if __name__=='__main__': main()
