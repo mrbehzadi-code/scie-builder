@@ -1,30 +1,3657 @@
 {
   "generated_at": "2026-08-14",
-  "notice": "این داده‌ها snapshot عمومی فعلی SCIE هستند. سیگنال کشف با هویت قطعی یکسان نیست.",
+  "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
+  "target": 100,
   "stats": {
     "web_records": 6,
-    "people": 6,
-    "academic_candidates": 3,
-    "regional_evidence": 6
+    "people": 327,
+    "academic_candidates": 270,
+    "regional_evidence": 164,
+    "sources": {
+      "OpenAlex Discovery": 270,
+      "GitHub Discovery": 57
+    }
   },
   "people": [
     {
-      "name": "Hamed",
-      "type": "پروفایل وب",
-      "source": "GitHub Discovery",
-      "detail": "Backend developer · Python, Django",
-      "location": "Iran / Yazd / Ardakan",
-      "evidence": ["location: Ardakan", "public GitHub profile"],
-      "url": "https://github.com/Hamed-Aarabi"
+      "name": "A Firozabadi Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5035043589",
+      "verification": "needs_review",
+      "confidence": "medium"
     },
     {
-      "name": "Alireza Dashti",
-      "type": "پروفایل وب",
-      "source": "GitHub Discovery",
-      "detail": "EEFA CERAM CO",
-      "location": "Ardakan (Yazd)",
-      "evidence": ["location: Ardakan", "public GitHub profile"],
-      "url": "https://github.com/AlirezaDashti"
+      "name": "A Yasini Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · Islamic Azad University, Yazd",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5059509963",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "A. Falahi-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی · University of Maryland, College Park",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5076407063",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Abbas Ghasempour Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "73 اثر علمی · Shiraz University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5017263077",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Abbas Salahi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "20 اثر علمی · Soil Conservation and Watershed Management Research",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5090710230",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Abbas Taghavi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "27 اثر علمی · Kashan University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5034438179",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Abolfazl Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · University of Malaya",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5051526185",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Abouei Ardakan Mostafa",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Isfahan University of Technology",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5033001745",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Aboyee Ardakan Mohammad",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5061536202",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Adel Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "18 اثر علمی · Amman Arab University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5025069061",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ahmad Fatahi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "19 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5069264751",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ahmad Haerian-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "16 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5071391165",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ahoo Malekafzali Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "7 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5079798994",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Akbar Beiki‐Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Princess Margaret Cancer Centre",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5076036480",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Akbar Beiki‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "66 اثر علمی · University Health Network",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5052625843",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Akhtar Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "18 اثر علمی · University of New Hampshire",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5068105756",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ali Abbasian Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "83 اثر علمی · Danube Private University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5038775624",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ali Afzali-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "17 اثر علمی · IBM Research - Thomas J. Watson Research Center",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5048032023",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ali Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "13 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5069294859",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ali Ghanei Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5092837753",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ali Jahanbani Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "26 اثر علمی · Iowa State University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5111843188",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ali Reza Mokhtari Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5046790894",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ali Sarkargar Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "14 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5109273712",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alireza Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "47 اثر علمی · Imam Khomeini International University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5008853250",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alireza Hekmat Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5048667150",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alireza Hekmat‐Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "18 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5055656814",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alireza Khodaei Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "6 اثر علمی · Islamic Azad University, Science and Research Branch",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5092730357",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Amir Adabi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "47 اثر علمی · Islamic Azad University, Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5031006951",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Arash Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "38 اثر علمی · University of California, Berkeley",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5064497251",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Azra Mohammad Panah Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Ardahan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5095912565",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Azra Mohammadpanah Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "28 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5023807722",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Azra Mohammadpanah-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5141155761",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Azra Mohammahpanah Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5120661025",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "B Ardakani Abedi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5010445001",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Davood Andalib Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "17 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5078507522",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "E Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5048052736",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "E Mirabzadeh Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Pasteur Institute of Iran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5067296905",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ebrahim Kamali Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Amirkabir University of Technology",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5040033760",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Emad M. Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "12 اثر علمی · Murdoch University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5020878651",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ezoddini Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5116209353",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Fateme Fattahi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Islamic Azad University, Science and Research Branch",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5078019176",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Fatemeh Behjati Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Ardahan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5095912566",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Fatemeh Behjati Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "40 اثر علمی · Goethe University Frankfurt",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5089837706",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Fatemeh Ezoddini Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "39 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5000163703",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Fatemeh Ezoddini-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "16 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5111402632",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Fatemeh Jahanbani Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "21 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5079994485",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Fatemeh Mokhtari ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Islamic Azad University, Marvdasht",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5060857774",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hamed Davari‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "21 اثر علمی · Kharazmi University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5071604207",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hamid Alemi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "26 اثر علمی · University of Exeter",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5055730498",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hamidreza Jahanbani‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "44 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5113847926",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hasan Mansouri‐Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Agricultural Bank of China",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5004166588",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hasan Mohiti Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5143645227",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hassan-Ali Vahedian-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "22 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5042161984",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hassanali Vahedian-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5107076639",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hasti Asayesh-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Michigan Technological University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5045374817",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hasti Asayesh‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "30 اثر علمی · Michigan Technological University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5051751001",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hesam Anvari Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · Michigan Technological University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5067988933",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hesamoddin Razi-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "15 اثر علمی · Sharif University of Technology",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5089526615",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hossein Anaraki‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "110 اثر علمی · Islamic Azad University, Karaj",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5033401005",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hossein Davari Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "23 اثر علمی · University of Cincinnati",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5057234979",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hossein Malekafzali Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "16 اثر علمی · Tehran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5111983210",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hossein Talepour Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Islamic Azad University, Science and Research Branch",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5120158762",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kazem Majdzadeh‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "9 اثر علمی · University of Michigan",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5034464668",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kimya Hassani‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "6 اثر علمی · Jewish General Hospital",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5042034485",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Leili Shaker Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · Islamic Azad University, Yazd",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5074729523",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "M Abouei Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5006264010",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "M. Alemi-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · University of British Columbia",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5032097007",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "M. Mahdi Ghazaei Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "16 اثر علمی · Lund University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5018190451",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "M. S. Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "21 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5058832261",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "M.G. Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "19 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5110864754",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mahboobi Ardakan Peyman",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5002473239",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mahboobi-Ardakan Payman",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Shahed University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5096730994",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mahdi Ghanei Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5143635663",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mahdi Qane`i Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5088161120",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mahmoud Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "14 اثر علمی · Imperial College London",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5110335101",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Malek Afzali Ardakan Hossein",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5109889710",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mansoor Dashti Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "43 اثر علمی · Université du Québec à Montréal",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5008306365",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Maria Tavakoli‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "45 اثر علمی · Shahid Beheshti University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5063950164",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Maryam Haghighi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "20 اثر علمی · University of Alberta",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5055356218",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Maryam Tajali Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "13 اثر علمی · Yasuj University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5028024200",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Masoud Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "238 اثر علمی · University of Alberta",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5008826983",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mehdi B. Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5114735516",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mehdi Hatefi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "47 اثر علمی · Vali Asr University of Rafsanjan",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5073621432",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mehran Mirabzadeh Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "20 اثر علمی · Tehran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5070989121",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Aboei Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5107756610",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Abooye Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5054706854",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Abooyee Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "22 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5036933388",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Aboyee Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5046540711",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Abuei Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5065405394",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Afkhami Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "25 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5009482370",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Ali Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5027157409",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Ali Hakimzadeh Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "41 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5024487821",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Fotouhi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "15 اثر علمی · University of Isfahan",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5003193273",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Javad Ehsani Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "42 اثر علمی · Shahid Beheshti University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5112245620",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Karimizadeh Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "52 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5028506481",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Mazloum‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "321 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5007237854",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Mehdi Mokhtari Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "7 اثر علمی · Tehran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5011283022",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad meysam Salahi ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5137762924",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Raza Khodaie Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · University of Social Welfare and Rehabilitation Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5114614996",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Reza Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "171 اثر علمی · Islamic Azad University, Karaj",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5043163406",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Reza Khodaei-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · University of Social Welfare and Rehabilitation Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5050556382",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Reza Khodaie Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "53 اثر علمی · University of Social Welfare and Rehabilitation Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5022947811",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Reza Talebi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "18 اثر علمی · Shahid Beheshti University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5103681781",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Roayaei Ardakani‬",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "64 اثر علمی · Shahid Chamran University of Ahvaz",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5056919320",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammad-Javad Ehsani-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Shahid Beheshti University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5020844862",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammadpanah Ardakan Azra",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5032369274",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammadreza Shams‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "18 اثر علمی · Iran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5074747217",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohammadreza Talebi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "25 اثر علمی · Shahid Beheshti University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5082278384",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohiti Ardakan Mohammad Ali",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5042747462",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mohsen Barzegari Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5065144227",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mojtaba Sahraee Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · University of California, Los Angeles",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5033027600",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mojtaba Sahraee-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "20 اثر علمی · Google (United States)",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5112288354",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mojtaba Yassini-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5053950271",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Morteza Shaker Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "9 اثر علمی · Michigan Technological University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5025735951",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mostafa Abouei Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "48 اثر علمی · Kharazmi University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5014168862",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mostafa Behjati‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "46 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5048794164",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mostafa K. Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "28 اثر علمی · Kent State University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5090107762",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mostafa Mokhtari Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Payame Noor University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5019103078",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mostafa Sahraei‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "114 اثر علمی · University of Utah",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5012407311",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Muhammad Ali Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5084143716",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Nasser Fotouhi‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "17 اثر علمی · Hôpital Maisonneuve-Rosemont",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5009832736",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Nima Mesbah Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "90 اثر علمی · The University of Western Australia",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5040207260",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "NN Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5144560359",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Nooshin Gholhovallahi Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Iran University of Science and Technology",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5098670086",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Omid H. Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "178 اثر علمی · Natural Resources Canada",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5088280948",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Omid M. Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "52 اثر علمی · Georgia Southern University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5068978592",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Payman Mahboobi Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5073791763",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Payman Mahboobi-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Shahed University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5040391277",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Pourdehghan Ardakan Mostafa",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5022068633",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Pouya Khodaie Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5140187224",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Razieh Jamaati Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · Ardahan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5026247099",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Reza Behjatmanesh-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5129514623",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Reza Behjatmanesh‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "190 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5027537948",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Reza Fotouhi-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "29 اثر علمی · Shahid Beheshti University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5020312448",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Saeed Hatefi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "15 اثر علمی · University of Waterloo",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5047411750",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Saeid Pourroostaei Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "78 اثر علمی · Queen Mary University of London",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5026023968",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Samira Salek‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "29 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5084749729",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Seyed Ali Yasini Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "39 اثر علمی · Ohio Northern University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5015471662",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Seyed Sina Moeini-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "11 اثر علمی · Massachusetts Institute of Technology",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5031719607",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Shabnam Raayai-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "21 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5018120871",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Shahram Salek-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Therapeutics Clinical Research",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5024592459",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Shahram Salek‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "92 اثر علمی · Inhibrx (United States)",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5013760474",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Shahrzad Jooya Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "10 اثر علمی · University of British Columbia",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5081389938",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Shiva Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی · Seton Medical Center",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5069466029",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Sina Moeini Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5013075494",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Soheil Sobhanardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "265 اثر علمی · Islamic Azad University, Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5010144677",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Somayah شاکر اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5038248087",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Taghavi Ardakan M",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Iran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5024238706",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Tahereh Azimpour-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Islamic Azad University, Science and Research Branch",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5086794397",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yalda H. Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "69 اثر علمی · Tehran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5011798315",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yaser Masoumi‐Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "54 اثر علمی · Kerman University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5005392281",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Z Behjati Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "27 اثر علمی · Academic Center for Education, Culture and Research",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5041024674",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Zahra Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "22 اثر علمی · University of Salento",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5053949791",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Zahra Jafari-Ardakan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5095935200",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "؛ محیطی اردکانی، جواد",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5025210535",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "احسان اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5009584371",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "احسان فتاحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5060716066",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "احسان کردی اردکانی کردی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5014239826",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "احمد اردکانی فتاحی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5075637278",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "احمد شاکر اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5071097429",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "احمد شاکر اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "15 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5047062936",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "احمد فتاحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5079120079",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "اردکانی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5050241507",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "اردکانی محمدعلی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5037221292",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "اردکانیMArdekani اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5022435428",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "اسلامی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "9 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5058363656",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "الهام اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5048930987",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "الهیار اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5045231383",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "امید متقی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5059590483",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "امیر محسن مختاری اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5033022174",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "امیرحسین هاتفی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5028022441",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "امیررضا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5086364837",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "جواد بیابانی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5035880167",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "جواد علیمحمدی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5032406455",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "حامد داوری اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5049836775",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "حسن محیطی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5039679937",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "حسین اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "6 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5071536546",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "حسین ملکافضلی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5016599902",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "حمید اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5078731936",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "حمیده افخمی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5025282102",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "داود عندلیب اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "7 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5076595521",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "رضا راستی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5063675948",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "رضا فتوحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5016329371",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "رضا پوردهقان اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5021628811",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "زهرا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5009544091",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "زهرا جمشیدی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5089532344",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "زهرا پورآقایی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "6 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5012063654",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سبحان اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5016145642",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سرافراز اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5082306345",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سعید اردکان زاده یزدی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5069519160",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سعید اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5006710714",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سعید سعیدا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "45 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5060706198",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سعید پور روستایی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5048067294",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سعید پورروستایی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5073359831",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سعیده انوری اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5057169085",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سمانه انتظاریان اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5050100981",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سهیل سبحان اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "78 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5022342634",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سید حسن هاشمی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5085219826",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سید مجتبی یاسینی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "10 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5080674162",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "شایسته قرایی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5051723510",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "ضرغام اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5082322122",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "طاهره اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5028885248",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "عاطفه ترابی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5052335481",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "عباس گلناری اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5055728739",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "عذرا محمد پناه اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5005072892",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "عذرا محمدپناه اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "10 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5030698474",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5057951516",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علی جعفری اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5082588701",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علی صلاحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5017920623",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علی فیروزی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5066525699",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علی قانعی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5024745680",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علی متولی زاده اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5069062625",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علی مقیمی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5084756020",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علیرضا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "18 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5071335226",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "فائزه پورحسینی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5022154409",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "فاطمه بحجتی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5081760371",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "فاطمه صادقی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5053214971",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "فتاحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5061717564",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "قاضی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5079608513",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محسن صحرایی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5017786624",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محسن فتاحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5015850408",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد ابویى اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5057283816",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد ابویی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "36 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5078027488",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد ایوبی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5053206853",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد جواد احسانی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5048323557",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد رضا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "31 اثر علمی · Islamic Azad University, Karaj",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5037268864",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد شاکر اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "14 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5090158049",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد عابدی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5016020452",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد علی محیطی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5053253668",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد مظلوم اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5063862594",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد مقیمی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5052327792",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد میثم صلاحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Iranian Fisheries Research Organization",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5019477491",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمد کریمی زاده اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "19 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5070117676",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمدرضا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "59 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5018909574",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمدعلی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5027882823",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمدعلی حکیم زاده اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5086371470",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمدعلی محیطی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5027824163",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمود ابویی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5058862937",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محیطی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5041070957",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مریم اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5059066129",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مریم دهستانی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "30 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5017675238",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مریم دهستانی اردکانی دهستانی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Ardakan University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5034916060",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مصطفی ابویی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5042628041",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مصطفی قطب زاده اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5085256322",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مصطفی مختاری اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5064305082",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مصطفی پوردهقان اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5026591004",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "معصومه اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5009719461",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مهدی افخمی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5027205504",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مهدی راستی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5029691307",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مهدی قانعی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5076733172",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مهدی ناظمی اردکانی مهدی ناظمی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5082883056",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "مهناز مظلومی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5097442493",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "میترا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5049931788",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "ندا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5072843682",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "نگار داوری اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "16 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5072546748",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "ه اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5023079685",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "هاشمی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5038967777",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "پریسا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5030235437",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "پیمان محبوبی اردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان"
+      ],
+      "url": "https://openalex.org/A5081073167",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "کمالی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5004167223",
+      "verification": "needs_review",
+      "confidence": "medium"
     },
     {
       "name": "Abolfazl Kamali Ardakani",
@@ -32,26 +3659,54 @@
       "source": "GitHub Discovery",
       "detail": "پروفایل عمومی GitHub",
       "location": "Ardakan, Yazd, Iran",
-      "evidence": ["location: Ardakan", "name signal", "public GitHub profile"],
+      "evidence": [
+        "location: Ardakan",
+        "name signal",
+        "public GitHub profile"
+      ],
       "url": "https://github.com/AbolfazlKamaliArdakani"
     },
     {
-      "name": "Zahra Afkhami Ardakani",
-      "type": "پروفایل وب",
+      "name": "AbolfazlKamaliArdakani",
+      "type": "پروفایل فنی",
       "source": "GitHub Discovery",
-      "detail": "پروفایل عمومی GitHub",
-      "location": "Iran, Yazd, Ardakan",
-      "evidence": ["location: Ardakan", "name signal", "public GitHub profile"],
-      "url": "https://github.com/Zahra121377"
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/AbolfazlKamaliArdakani",
+      "verification": "needs_review",
+      "confidence": "low"
     },
     {
-      "name": "Amirho3ein Roustaei",
-      "type": "پروفایل وب",
+      "name": "AbolfazlKamalli",
+      "type": "پروفایل فنی",
       "source": "GitHub Discovery",
-      "detail": "Python · Django · Technoosite",
-      "location": "Iran, Yazd, Ardakan",
-      "evidence": ["location: Ardakan", "public GitHub profile"],
-      "url": "https://github.com/amirhoseinardakanei"
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/AbolfazlKamalli",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Ahmad Mahboubi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "50 اثر علمی · Shahid Beheshti University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5031687745",
+      "verification": "needs_review",
+      "confidence": "low"
     },
     {
       "name": "Ali",
@@ -59,28 +3714,609 @@
       "source": "GitHub Discovery",
       "detail": "Video game developer / enthusiast",
       "location": "Iran, Yazd, Ardakan",
-      "evidence": ["location: Ardakan", "public GitHub profile"],
+      "evidence": [
+        "location: Ardakan",
+        "public GitHub profile"
+      ],
       "url": "https://github.com/Ardakaniali"
     },
     {
-      "name": "Hamed Davari Ardakani",
-      "type": "کاندیدای دانشگاهی",
+      "name": "Ali Reza Kamali",
+      "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
-      "detail": "4 اثر علمی · Kharazmi University",
+      "detail": "292 اثر علمی · University of Cambridge",
       "location": "—",
-      "evidence": ["surname: Davari Ardakani", "OpenAlex author record"],
-      "url": "https://openalex.org/A5040055781",
-      "verification": "needs_review"
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5087777101",
+      "verification": "needs_review",
+      "confidence": "low"
     },
     {
-      "name": "Negar Davari Ardakani",
-      "type": "کاندیدای دانشگاهی",
+      "name": "Alireza Dashti",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "EEFA CERAM CO",
+      "location": "Ardakan (Yazd)",
+      "evidence": [
+        "location: Ardakan",
+        "public GitHub profile"
+      ],
+      "url": "https://github.com/AlirezaDashti"
+    },
+    {
+      "name": "Alireza Haerian",
+      "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
-      "detail": "17 اثر علمی · ORCID موجود",
+      "detail": "42 اثر علمی · University of British Columbia",
       "location": "—",
-      "evidence": ["surname: Davari Ardakani", "OpenAlex author record", "ORCID"],
-      "url": "https://openalex.org/A5070143779",
-      "verification": "needs_review"
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5101988058",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "AmidArdakani",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/AmidArdakani",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "AmirhArdakani",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/AmirhArdakani",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Amirho3ein Roustaei",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "Python · Django · Technoosite",
+      "location": "Iran, Yazd, Ardakan",
+      "evidence": [
+        "location: Ardakan",
+        "public GitHub profile"
+      ],
+      "url": "https://github.com/amirhoseinardakanei"
+    },
+    {
+      "name": "amirhosein8127",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/amirhosein8127",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "arashardakani",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/arashardakani",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "arbit3rr",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/arbit3rr",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakan",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakan",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakan111",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakan111",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakan12",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakan12",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Ardakan125",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/Ardakan125",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakan1717-star",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakan1717-star",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakan40-lab",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakan40-lab",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakananeva-sazorland",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakananeva-sazorland",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ArdaKanat",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ArdaKanat",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakanata",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakanata",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ArdaKanbur",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ArdaKanbur",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakancan41-del",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakancan41-del",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakandemir",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakandemir",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakaner",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakaner",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakani",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/ardakani",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Ardakani1",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/Ardakani1",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Ardakani79",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/Ardakani79",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakaniahmadali-arch",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakaniahmadali-arch",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Ardakaniali",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/Ardakaniali",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakaniamirhossein1993",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakaniamirhossein1993",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakanian",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakanian",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakanian-bidgely",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakanian-bidgely",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakanim",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakanim",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakanim50-lab",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/ardakanim50-lab",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakanimd",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/ardakanimd",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Ardakaniz",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/Ardakaniz",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakankasra",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakankasra",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Ardakann",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/Ardakann",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakansu",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakansu",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakantar",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakantar",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakantarci",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakantarci",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakantes",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakantes",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakantrci",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakantrci",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Behinsomnia9",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/Behinsomnia9",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Darkshiira",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/Darkshiira",
+      "verification": "needs_review",
+      "confidence": "low"
     },
     {
       "name": "Davari Ardakani Hamed",
@@ -88,9 +4324,260 @@
       "source": "OpenAlex Discovery",
       "detail": "1 اثر علمی · Amirkabir University of Technology",
       "location": "—",
-      "evidence": ["surname: Davari Ardakani", "OpenAlex author record"],
+      "evidence": [
+        "surname: Davari Ardakani",
+        "OpenAlex author record"
+      ],
       "url": "https://openalex.org/A5088235006",
       "verification": "needs_review"
+    },
+    {
+      "name": "Esmat Mirabzadeh",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "35 اثر علمی · Pasteur Institute of Iran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5049724332",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "farhaddashtia",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/farhaddashtia",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Hamed",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "Backend developer · Python, Django",
+      "location": "Iran / Yazd / Ardakan",
+      "evidence": [
+        "location: Ardakan",
+        "public GitHub profile"
+      ],
+      "url": "https://github.com/Hamed-Aarabi"
+    },
+    {
+      "name": "Hamed Davari Ardakani",
+      "type": "کاندیدای دانشگاهی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Kharazmi University",
+      "location": "—",
+      "evidence": [
+        "surname: Davari Ardakani",
+        "OpenAlex author record"
+      ],
+      "url": "https://openalex.org/A5040055781",
+      "verification": "needs_review"
+    },
+    {
+      "name": "Hami-Hafezi",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/Hami-Hafezi",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Hamid R. Zare",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "220 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5106072834",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "koushkoush",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/koushkoush",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "mahsamajd",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/mahsamajd",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Masoud Hafezi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "31 اثر علمی · Isfahan University of Technology",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5064443743",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "MohamadAli92",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/MohamadAli92",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "mohammadnabia",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/mohammadnabia",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "mojtabasah",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/mojtabasah",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Negar Davari Ardakani",
+      "type": "کاندیدای دانشگاهی",
+      "source": "OpenAlex Discovery",
+      "detail": "17 اثر علمی · ORCID موجود",
+      "location": "—",
+      "evidence": [
+        "surname: Davari Ardakani",
+        "OpenAlex author record",
+        "ORCID"
+      ],
+      "url": "https://openalex.org/A5070143779",
+      "verification": "needs_review"
+    },
+    {
+      "name": "Parsa-Ardakani",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/Parsa-Ardakani",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "pedramardakani",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/pedramardakani",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Soheila Khodakarim",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "224 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5084854801",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Zahra Afkhami Ardakani",
+      "type": "پروفایل وب",
+      "source": "GitHub Discovery",
+      "detail": "پروفایل عمومی GitHub",
+      "location": "Iran, Yazd, Ardakan",
+      "evidence": [
+        "location: Ardakan",
+        "name signal",
+        "public GitHub profile"
+      ],
+      "url": "https://github.com/Zahra121377"
+    },
+    {
+      "name": "Zahra121377",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/Zahra121377",
+      "verification": "needs_review",
+      "confidence": "low"
     }
   ]
 }
