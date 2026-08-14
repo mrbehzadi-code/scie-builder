@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>اطلس سرمایه‌های اجتماعی اردکان</title>
+<style>
+:root{--bg:#f5f7fb;--surface:#fff;--ink:#162033;--muted:#687386;--line:#e5e9f0;--accent:#315efb;--accent-soft:#eef2ff;--ok:#16845b;--warn:#b7791f;--shadow:0 12px 32px rgba(22,32,51,.07)}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,"Segoe UI",Arial,sans-serif}.wrap{max-width:1180px;margin:auto;padding:28px 20px 56px}.hero{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow);margin-bottom:20px}.brand{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}.eyebrow{color:var(--accent);font-size:13px;font-weight:700;margin-bottom:9px}.title{font-size:29px;margin:0 0 8px}.subtitle{margin:0;color:var(--muted);line-height:1.9}.badge{background:var(--accent-soft);color:var(--accent);padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}.search{display:flex;gap:10px;margin-top:24px}.search input{flex:1;border:1px solid var(--line);border-radius:14px;padding:15px 17px;font:inherit;background:#fff;outline:none}.search input:focus{border-color:#9aaefc}.search button{border:0;border-radius:14px;padding:0 24px;background:var(--accent);color:#fff;font:inherit;cursor:pointer}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}.card,.panel{background:var(--surface);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}.card{padding:20px}.num{font-size:29px;font-weight:800}.label{color:var(--muted);font-size:13px;margin-top:7px}.grid{display:grid;grid-template-columns:2fr 1fr;gap:20px}.panel{padding:22px}.panel h2{font-size:18px;margin:0 0 17px}.person{display:flex;justify-content:space-between;gap:15px;padding:15px 0;border-bottom:1px solid var(--line)}.person:last-child{border-bottom:0}.name{font-weight:700}.meta{color:var(--muted);font-size:13px;margin-top:6px;line-height:1.7}.type{background:#f0f3f8;color:#475569;padding:6px 9px;border-radius:999px;height:max-content;font-size:11px;white-space:nowrap}.empty{text-align:center;color:var(--muted);padding:35px 10px;line-height:2}.status{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}.status:last-child{border-bottom:0}.ok{color:var(--ok);font-weight:700}.pending{color:var(--warn);font-weight:700}.foot{color:var(--muted);font-size:12px;text-align:center;margin-top:22px}@media(max-width:820px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}@media(max-width:520px){.wrap{padding:15px 12px 35px}.hero{padding:22px}.brand{display:block}.badge{display:inline-block;margin-top:15px}.title{font-size:23px}.search{display:block}.search button{height:48px;width:100%;margin-top:9px}.stats{grid-template-columns:1fr}.panel{padding:18px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="hero">
+<div class="brand"><div><div class="eyebrow">SCIE · Social Capital Intelligence</div><h1 class="title">اطلس سرمایه‌های اجتماعی اردکان</h1><p class="subtitle">سامانه کشف، تحلیل و ارتباط ظرفیت‌های انسانی، علمی و سازمانی شهرستان اردکان</p></div><span class="badge">نسخه عمومی</span></div>
+<form class="search" id="search"><input id="q" placeholder="جست‌وجوی فرد، تخصص، نهاد یا حوزه..." autocomplete="off"><button>جست‌وجو</button></form>
+</section>
+<section class="stats"><div class="card"><div class="num" id="web">—</div><div class="label">رکوردهای کشف‌شده</div></div><div class="card"><div class="num" id="entities">—</div><div class="label">موجودیت‌ها</div></div><div class="card"><div class="num" id="academic">—</div><div class="label">پژوهشگران</div></div><div class="card"><div class="num" id="clean">—</div><div class="label">موجودیت‌های پالایش‌شده</div></div></section>
+<section class="grid"><div class="panel"><h2>افراد و ظرفیت‌های کشف‌شده</h2><div id="people" class="empty">در حال دریافت داده...</div></div><aside class="panel"><h2>وضعیت سامانه</h2><div class="status"><span>کشف وب</span><span class="ok">فعال</span></div><div class="status"><span>کشف دانشگاهی</span><span id="academicStatus" class="pending">در حال توسعه</span></div><div class="status"><span>حل هویت</span><span class="pending">در حال توسعه</span></div><div class="status"><span>امتیازدهی شواهد</span><span class="pending">در انتظار</span></div><div class="status"><span>گراف دانش</span><span class="pending">در انتظار</span></div></aside></section>
+<p class="foot">اطلاعات این صفحه از داده‌های SCIE تأمین می‌شود. داده‌ای که هنوز اعتبارسنجی نشده باشد به‌عنوان واقعیت نمایش داده نمی‌شود.</p>
+</main>
+<script>
+const $=id=>document.getElementById(id);let all=[];
+const rawBase='https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/';
+async function json(path,fallback){try{const r=await fetch(rawBase+path+'?t='+Date.now());if(!r.ok)throw 0;return await r.json()}catch{return fallback}}
+function setStats(s){$('web').textContent=s.web??'—';$('entities').textContent=s.entities??'—';$('academic').textContent=s.academic??'—';$('clean').textContent=s.clean??'—';$('academicStatus').textContent=(s.academic??0)>0?'فعال':'در حال توسعه'}
+function render(items){if(!items.length){$('people').innerHTML='<div class="empty">هنوز داده عمومی قابل نمایش برای این سامانه منتشر نشده است.<br>زیرساخت Dashboard آماده است و با انتشار داده‌های معتبر، این قسمت به‌صورت خودکار پر می‌شود.</div>';return}$('people').innerHTML=items.slice(0,40).map(p=>`<div class="person"><div><div class="name">${esc(p.name||'بدون نام')}</div><div class="meta">${esc(p.source||'کشف‌شده')} · ${esc(p.detail||'')}</div></div><span class="type">${esc(p.type||'موجودیت')}</span></div>`).join('')}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+async function load(){const state=await json('state.json',{});const applied=state?.patches?.applied||[];const s={web:'—',entities:'—',academic:'—',clean:'—'};setStats(s);render([]);if(applied.length)$('academicStatus').textContent='زیرساخت آماده'}
+$('search').addEventListener('submit',e=>{e.preventDefault();const q=$('q').value.trim().toLowerCase();render(q?all.filter(p=>JSON.stringify(p).toLowerCase().includes(q)):all)});load();
+</script>
+</body>
+</html>
