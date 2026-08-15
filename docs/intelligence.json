@@ -1,0 +1,421 @@
+{
+  "generated_at": "2026-08-15",
+  "candidate_count": 341,
+  "metrics": {
+    "unique_name_keys": 334,
+    "possible_duplicate_groups": 7,
+    "shared_organization_groups": 23,
+    "shared_location_groups": 2,
+    "evidence_items": 685,
+    "organizations_detected": 79,
+    "locations_detected": 4
+  },
+  "sources": {
+    "OpenAlex Discovery": 270,
+    "GitHub Discovery": 57,
+    "Lead-guided OpenAlex Discovery": 14
+  },
+  "capacity_types": {
+    "کاندیدای پژوهشی": 267,
+    "پروفایل وب": 6,
+    "پروفایل فنی": 51,
+    "کاندیدای دانشگاهی": 3,
+    "کاندیدای کشف از سرنخ": 14
+  },
+  "evidence_types": {
+    "OpenAlex author search": 267,
+    "query: ardakan": 61,
+    "query: ardakani": 99,
+    "query: اردکانی": 83,
+    "query: اردکان": 24,
+    "location: Ardakan": 6,
+    "name signal": 2,
+    "public GitHub profile": 6,
+    "GitHub user search": 51,
+    "query: ardakani in:bio": 21,
+    "query: Ardakan in:bio": 30,
+    "surname: Davari Ardakani": 3,
+    "OpenAlex author record": 3,
+    "ORCID": 1,
+    "lead: فرزان": 14,
+    "query: فرزان": 14
+  },
+  "possible_duplicates": [
+    {
+      "key": "alireza hekmat ardakan",
+      "candidate_indexes": [
+        24,
+        25
+      ],
+      "count": 2
+    },
+    {
+      "key": "azra mohammadpanah ardakan",
+      "candidate_indexes": [
+        30,
+        31
+      ],
+      "count": 2
+    },
+    {
+      "key": "fatemeh ezoddini ardakani",
+      "candidate_indexes": [
+        43,
+        44
+      ],
+      "count": 2
+    },
+    {
+      "key": "hamed davari ardakani",
+      "candidate_indexes": [
+        47,
+        312
+      ],
+      "count": 2
+    },
+    {
+      "key": "mohammad javad ehsani ardakani",
+      "candidate_indexes": [
+        93,
+        104
+      ],
+      "count": 2
+    },
+    {
+      "key": "mojtaba sahraee ardakan",
+      "candidate_indexes": [
+        110,
+        111
+      ],
+      "count": 2
+    },
+    {
+      "key": "payman mahboobi ardakan",
+      "candidate_indexes": [
+        126,
+        127
+      ],
+      "count": 2
+    }
+  ],
+  "organization_links": [
+    {
+      "organization": "shahid sadoughi university of medical sciences and health services",
+      "candidate_indexes": [
+        0,
+        11,
+        43,
+        52,
+        53,
+        89,
+        112,
+        115,
+        126
+      ],
+      "count": 9
+    },
+    {
+      "organization": "islamic azad university yazd",
+      "candidate_indexes": [
+        1,
+        64
+      ],
+      "count": 2
+    },
+    {
+      "organization": "isfahan university of technology",
+      "candidate_indexes": [
+        7,
+        317
+      ],
+      "count": 2
+    },
+    {
+      "organization": "ardakan university",
+      "candidate_indexes": [
+        10,
+        68,
+        131,
+        132,
+        161,
+        183,
+        201,
+        204,
+        205,
+        240,
+        241
+      ],
+      "count": 11
+    },
+    {
+      "organization": "yazd university",
+      "candidate_indexes": [
+        19,
+        30,
+        32,
+        34,
+        45,
+        91,
+        95,
+        314
+      ],
+      "count": 8
+    },
+    {
+      "organization": "islamic azad university science and research branch",
+      "candidate_indexes": [
+        26,
+        40,
+        61,
+        148
+      ],
+      "count": 4
+    },
+    {
+      "organization": "islamic azad university tehran",
+      "candidate_indexes": [
+        27,
+        145
+      ],
+      "count": 2
+    },
+    {
+      "organization": "ardahan university",
+      "candidate_indexes": [
+        29,
+        41,
+        130
+      ],
+      "count": 3
+    },
+    {
+      "organization": "pasteur institute of iran",
+      "candidate_indexes": [
+        36,
+        309
+      ],
+      "count": 2
+    },
+    {
+      "organization": "amirkabir university of technology",
+      "candidate_indexes": [
+        37,
+        308
+      ],
+      "count": 2
+    },
+    {
+      "organization": "kharazmi university",
+      "candidate_indexes": [
+        47,
+        114,
+        312
+      ],
+      "count": 3
+    },
+    {
+      "organization": "shiraz university of medical sciences",
+      "candidate_indexes": [
+        49,
+        324
+      ],
+      "count": 2
+    },
+    {
+      "organization": "michigan technological university",
+      "candidate_indexes": [
+        54,
+        55,
+        56,
+        113
+      ],
+      "count": 4
+    },
+    {
+      "organization": "islamic azad university karaj",
+      "candidate_indexes": [
+        58,
+        99,
+        225
+      ],
+      "count": 3
+    },
+    {
+      "organization": "tehran university of medical sciences",
+      "candidate_indexes": [
+        60,
+        83,
+        96,
+        149
+      ],
+      "count": 4
+    },
+    {
+      "organization": "university of british columbia",
+      "candidate_indexes": [
+        66,
+        142,
+        267
+      ],
+      "count": 3
+    },
+    {
+      "organization": "shahed university",
+      "candidate_indexes": [
+        71,
+        127
+      ],
+      "count": 2
+    },
+    {
+      "organization": "university of tehran",
+      "candidate_indexes": [
+        75,
+        84,
+        85,
+        86,
+        87,
+        94,
+        153
+      ],
+      "count": 7
+    },
+    {
+      "organization": "shahid beheshti university of medical sciences",
+      "candidate_indexes": [
+        77,
+        93,
+        102,
+        104,
+        107,
+        133
+      ],
+      "count": 6
+    },
+    {
+      "organization": "university of alberta",
+      "candidate_indexes": [
+        78,
+        80
+      ],
+      "count": 2
+    },
+    {
+      "organization": "university of social welfare and rehabilitation sciences",
+      "candidate_indexes": [
+        98,
+        100,
+        101
+      ],
+      "count": 3
+    },
+    {
+      "organization": "iran university of medical sciences",
+      "candidate_indexes": [
+        106,
+        147
+      ],
+      "count": 2
+    },
+    {
+      "organization": "international society of automation",
+      "candidate_indexes": [
+        196,
+        208,
+        214,
+        215,
+        224,
+        226,
+        227,
+        232,
+        235,
+        254
+      ],
+      "count": 10
+    }
+  ],
+  "location_links": [
+    {
+      "location": "ardakan signal",
+      "candidate_indexes": [
+        261,
+        262,
+        268,
+        269,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        310,
+        313,
+        315,
+        316,
+        318,
+        319,
+        320,
+        322,
+        323,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340
+      ],
+      "count": 65
+    },
+    {
+      "location": "iran yazd ardakan",
+      "candidate_indexes": [
+        264,
+        270,
+        311,
+        325
+      ],
+      "count": 4
+    }
+  ],
+  "notice": "Signals are analytical candidates, not verified identities or relationships."
+}
