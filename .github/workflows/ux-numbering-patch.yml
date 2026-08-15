@@ -18,42 +18,25 @@ jobs:
           from pathlib import Path
           p = Path('docs/index.html')
           s = p.read_text(encoding='utf-8')
+          old = '''<article class="person" data-i="${start+i}"><div class="head"><span class="name">${esc(x.name||'بدون نام')}</span><span class="tag">${esc(x.type||'سایر')}</span></div>'''
+          new = '''<article class="person" data-i="${start+i}"><div class="head"><span class="record-no">${start+i+1}</span><span class="name">${esc(x.name||'بدون نام')}</span><span class="tag">${esc(x.type||'سایر')}</span></div>'''
+          if old in s:
+              s = s.replace(old, new, 1)
           marker = '</body>'
-          patch = '''<script id="scie-record-numbering-v5">
-          (function(){
-            function applyNumbers(){
-              const list=document.getElementById('list');
-              if(!list) return;
-              const cards=[...list.querySelectorAll('.person')];
-              const currentPage=(typeof page==='number'&&page>0)?page:1;
-              const perPage=(typeof PAGE==='number'&&PAGE>0)?PAGE:25;
-              cards.forEach((card,i)=>{
-                let badge=card.querySelector('.record-no');
-                if(!badge){ badge=document.createElement('span'); badge.className='record-no'; card.querySelector('.head')?.prepend(badge); }
-                badge.textContent=String((currentPage-1)*perPage+i+1);
-              });
-            }
-            const list=document.getElementById('list');
-            if(list) new MutationObserver(()=>requestAnimationFrame(applyNumbers)).observe(list,{childList:true,subtree:true});
-            document.addEventListener('click',()=>requestAnimationFrame(applyNumbers));
-            setInterval(applyNumbers,800);
-            requestAnimationFrame(applyNumbers);
-          })();
-          </script>
-          <style id="scie-numbering-v5">
-          .record-no{flex:0 0 34px;min-width:34px;height:34px;display:inline-flex!important;align-items:center;justify-content:center;border-radius:10px;background:#eef2ff;color:#315efb;font-weight:900;font-size:12px;margin-left:9px}
+          patch = '''<style id="scie-numbering-direct-v6">
+          .record-no{flex:0 0 34px;min-width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;background:#eef2ff;color:#315efb;font-weight:900;font-size:12px;margin-left:9px}
           .person .head{display:flex;align-items:center;gap:8px}
           .person .head .name{flex:1}
           </style>
           '''
-          if 'scie-record-numbering-v5' not in s:
-              s=s.replace(marker,patch+marker)
-              p.write_text(s,encoding='utf-8')
+          if 'scie-numbering-direct-v6' not in s:
+              s = s.replace(marker, patch + marker)
+          p.write_text(s, encoding='utf-8')
           PY
       - name: Commit dashboard patch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/index.html
-          git diff --cached --quiet || git commit -m "fix: show sequential record numbers in dashboard"
+          git diff --cached --quiet || git commit -m "fix: render sequential record numbers directly"
           git push
