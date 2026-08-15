@@ -8,7 +8,7 @@ on:
       - '.github/workflows/pages.yml'
   workflow_dispatch:
   workflow_run:
-    workflows: ["UX numbering patch"]
+    workflows: ["UX numbering patch", "Repair dashboard loader"]
     types: [completed]
 
 permissions:
