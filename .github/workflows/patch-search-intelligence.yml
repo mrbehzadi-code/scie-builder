@@ -1,0 +1,34 @@
+name: SCIE Search Intelligence Patch
+on:
+  push:
+    paths:
+      - 'docs/index.html'
+      - '.github/workflows/patch-search-intelligence.yml'
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch search engine safely
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('docs/index.html')
+          s=p.read_text(encoding='utf-8')
+          old="""function match(x){const text=[x.name,x.type,x.source,x.detail,x.location,...(x.evidence||[])].join(' ').toLowerCase();return(!query||text.includes(query.toLowerCase()))&&(cat==='all'||(x.type||'سایر')===cat)&&(source==='all'||x.source===source)}"""
+          new="""function match(x){const q=query.toLowerCase().trim();if(!q)return(cat==='all'||(x.type||'سایر')===cat)&&(source==='all'||x.source===source);const base=[x.name,x.type,x.source,x.detail,x.location,x.organization,x.expertise,x.address,...(x.evidence||[])].filter(Boolean).join(' ').toLowerCase();let related='';if(INT){const i=all.indexOf(x);const orgs=(INT.organization_links||[]).filter(o=>(o.candidate_indexes||[]).includes(i)).map(o=>o.organization||o.name||'').join(' ');const locs=(INT.location_links||[]).filter(o=>(o.candidate_indexes||[]).includes(i)).map(o=>o.location||o.name||'').join(' ');related=[orgs,locs].join(' ').toLowerCase()}const hit=(base+' '+related).includes(q);return hit&&(cat==='all'||(x.type||'سایر')===cat)&&(source==='all'||x.source===source)}"""
+          if old not in s:
+              print('Search function already patched or source changed; no write needed.')
+              raise SystemExit(0)
+          p.write_text(s.replace(old,new),encoding='utf-8')
+          PY
+      - name: Commit patch
+        run: |
+          git config user.name 'SCIE Builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m 'feat: intelligence-aware dashboard search'
+          git push
