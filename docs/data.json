@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-15",
+  "generated_at": "2026-08-16",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 100,
   "stats": {
     "web_records": 6,
-    "people": 341,
+    "people": 343,
     "academic_candidates": 284,
-    "regional_evidence": 178,
+    "regional_evidence": 180,
     "sources": {
       "OpenAlex Discovery": 270,
-      "GitHub Discovery": 57,
+      "GitHub Discovery": 59,
       "Lead-guided OpenAlex Discovery": 14
     }
   },
@@ -4194,6 +4194,20 @@
       "confidence": "low"
     },
     {
+      "name": "ArdaKanka07",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ArdaKanka07",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
       "name": "ardakankasra",
       "type": "پروفایل فنی",
       "source": "GitHub Discovery",
@@ -4288,6 +4302,20 @@
         "query: Ardakan in:bio"
       ],
       "url": "https://github.com/ardakantrci",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakanzi",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakanzi",
       "verification": "needs_review",
       "confidence": "low"
     },
