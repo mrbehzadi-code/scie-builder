@@ -21,7 +21,9 @@
 @media(max-width:950px){.overview{grid-template-columns:repeat(3,1fr)}.grid{grid-template-columns:1fr}.int-grid{grid-template-columns:1fr 1fr}.lead-grid{grid-template-columns:1fr}.lead textarea,.wide{grid-column:span 1}}
 @media(max-width:560px){.overview{grid-template-columns:1fr 1fr}.int-grid{grid-template-columns:1fr}.top{display:block}.search{display:block}.search .btn{width:100%;margin-top:7px}.history{left:0;top:105px}.record-no{min-width:30px;height:30px}}
 </style>
-</head>
+<style id="scie-ux-v3">
+.record-no{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:34px;border-radius:10px;background:#eef2ff;color:#315efb;font-weight:900;font-size:12px;margin-left:9px}.person .head{align-items:center}.uxbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0;padding:10px;border:1px solid #e5e9f0;border-radius:14px;background:#f8faff}.uxbar .hint{font-size:11px;color:#667085;flex:1}.quick{border:1px solid #e5e9f0;background:#fff;border-radius:10px;padding:8px 11px;font:inherit;cursor:pointer}.quick:hover{background:#eef2ff;color:#315efb}.result-meta{font-size:11px;color:#667085;margin-top:4px}.person{padding:14px 8px;border-radius:12px}.person:hover{background:#f8faff}@media(max-width:560px){.record-no{min-width:30px;height:30px}}
+</style></head>
 <body>
 <main class="wrap">
 <section class="hero">
@@ -89,5 +91,28 @@ async function loadJSON(path){const url=new URL(path,location.href);url.searchPa
 async function boot(){try{const[d,i]=await Promise.all([loadJSON('data.json'),loadJSON('intelligence.json')]);if(!d||!Array.isArray(d.people))throw new Error('ساختار data.json معتبر نیست');DATA=d;INT=i||{};all=d.people;buildOverview();buildFilters();renderPeople();renderIntelligence();renderOrganizations();renderSearchHistory();renderLeadHistory();$('loadState').textContent=`Snapshot آماده · ${all.length} رکورد`;$('loadState').style.background='#eaf8f1';$('loadState').style.color='var(--ok)'}catch(err){console.error(err);$('loadState').textContent='خطا در دریافت Snapshot';$('loadState').style.background='#fff1f1';$('loadState').style.color='#9b2c2c';$('list').innerHTML=`<div class="error"><b>Dashboard نتوانست Snapshot را بخواند.</b><br><span class="meta">${esc(err.message)}</span><br><button class="btn" style="margin-top:10px" onclick="location.reload()">تلاش دوباره</button></div>`;$('count').textContent='داده بارگذاری نشد'}}
 boot();
 </script>
-</body>
+<script id="SCIE_UX_V3_RECORD_NUMBERING">
+(function(){
+  const list=document.getElementById('list');
+  if(!list)return;
+  function enhance(){
+    const items=[...list.querySelectorAll('.person')];
+    const currentPage=window.page||1; const pageSize=window.PAGE||25;
+    items.forEach((el,i)=>{
+      let n=el.querySelector('.record-no');
+      if(!n){n=document.createElement('span');n.className='record-no';el.querySelector('.head')?.prepend(n)}
+      n.textContent=String((currentPage-1)*pageSize+i+1);
+    });
+  }
+  new MutationObserver(enhance).observe(list,{childList:true,subtree:true});
+  setInterval(enhance,500);
+  const search=document.getElementById('search');
+  if(search&&!document.getElementById('uxbar')){
+    const bar=document.createElement('div');bar.id='uxbar';bar.className='uxbar';
+    bar.innerHTML='<span class="hint">جست‌وجو، فیلتر و شماره رکوردها در همین صفحه در دسترس‌اند.</span><button class="quick" data-q="">همه رکوردها</button><button class="quick" data-q="اردکان">اردکان</button><button class="quick" data-q="دانشگاه اردکان">دانشگاه اردکان</button>';
+    search.after(bar);
+    bar.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const q=document.getElementById('q');q.value=b.dataset.q;q.dispatchEvent(new Event('input',{bubbles:true}));document.getElementById('search').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}))});
+  }
+})();
+</script></body>
 </html>
