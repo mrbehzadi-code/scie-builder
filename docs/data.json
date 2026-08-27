@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-16",
+  "generated_at": "2026-08-27",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 100,
   "stats": {
     "web_records": 6,
-    "people": 343,
-    "academic_candidates": 284,
-    "regional_evidence": 180,
+    "people": 363,
+    "academic_candidates": 302,
+    "regional_evidence": 200,
     "sources": {
-      "OpenAlex Discovery": 270,
-      "GitHub Discovery": 59,
+      "OpenAlex Discovery": 288,
+      "GitHub Discovery": 61,
       "Lead-guided OpenAlex Discovery": 14
     }
   },
@@ -2199,6 +2199,20 @@
       "confidence": "medium"
     },
     {
+      "name": "احسان امیری اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5046971951",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "احسان فتاحی اردکانی",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -2283,6 +2297,20 @@
       "confidence": "medium"
     },
     {
+      "name": "احمدرضا حبیبی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5025641778",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "اردکانی اردکانی",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -2335,6 +2363,34 @@
         "query: اردکانی"
       ],
       "url": "https://openalex.org/A5058363656",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "اشرف حسینی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5048680351",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "اطهر تجلی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5016924196",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -2451,6 +2507,20 @@
       "confidence": "medium"
     },
     {
+      "name": "حامد احمدی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5026386665",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "حامد داوری اردکانی",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -2461,6 +2531,20 @@
         "query: اردکانی"
       ],
       "url": "https://openalex.org/A5049836775",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "حسن اسلامی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5056222041",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -2489,6 +2573,20 @@
         "query: اردکانی"
       ],
       "url": "https://openalex.org/A5071536546",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "حسین حایریان اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5044995410",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -2545,6 +2643,20 @@
         "query: اردکانی"
       ],
       "url": "https://openalex.org/A5076595521",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "رضا داوری اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "15 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5011400263",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -2787,6 +2899,20 @@
       "confidence": "medium"
     },
     {
+      "name": "سید سعیدا اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5017480844",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "سید مجتبی یاسینی اردکانی",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -2797,6 +2923,20 @@
         "query: اردکانی"
       ],
       "url": "https://openalex.org/A5080674162",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "سیدمجتبی یاسینی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5026660373",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -2857,6 +2997,34 @@
       "confidence": "medium"
     },
     {
+      "name": "عباس صلاحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "7 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5052777983",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "عباس پایدار اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5023306909",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "عباس گلناری اردکانی",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -2899,6 +3067,20 @@
       "confidence": "medium"
     },
     {
+      "name": "عزیز الله اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5055800140",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "علی اردکانی",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -2937,6 +3119,20 @@
         "query: اردکانی"
       ],
       "url": "https://openalex.org/A5017920623",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "علی ضالحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5020756186",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -3179,6 +3375,20 @@
       "confidence": "medium"
     },
     {
+      "name": "محمد رعایایی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "10 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5064800571",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "محمد شاکر اردکانی",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -3277,6 +3487,20 @@
       "confidence": "medium"
     },
     {
+      "name": "محمدجواد غاضی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5014220358",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "محمدرضا اردکانی",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -3287,6 +3511,20 @@
         "query: اردکانی"
       ],
       "url": "https://openalex.org/A5018909574",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمدرضا افخمی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5047580744",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -3329,6 +3567,20 @@
         "query: اردکان"
       ],
       "url": "https://openalex.org/A5027824163",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "محمدمیثم صلاحی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Iranian Fisheries Research Organization",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی"
+      ],
+      "url": "https://openalex.org/A5045425268",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -4176,6 +4428,34 @@
         "query: ardakani in:bio"
       ],
       "url": "https://github.com/ardakanimd",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ArdaKANIPEK",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ArdaKANIPEK",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "ardakanisaba",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakanisaba",
       "verification": "needs_review",
       "confidence": "low"
     },
