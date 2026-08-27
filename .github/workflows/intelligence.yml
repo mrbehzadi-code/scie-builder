@@ -7,6 +7,9 @@ on:
       - 'docs/data.json'
       - 'engine/intelligence.py'
       - '.github/workflows/intelligence.yml'
+  workflow_run:
+    workflows: ["SCIE Discovery Expansion", "SCIE Lead Guided Discovery"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -14,6 +17,7 @@ permissions:
 
 jobs:
   analyze:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,5 +40,6 @@ jobs:
             echo 'No intelligence changes.'
           else
             git commit -m 'Update intelligence layer'
+            git pull --rebase origin main
             git push
           fi
