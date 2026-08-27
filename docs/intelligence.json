@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-15",
-  "candidate_count": 341,
+  "generated_at": "2026-08-16",
+  "candidate_count": 343,
   "metrics": {
-    "unique_name_keys": 334,
+    "unique_name_keys": 336,
     "possible_duplicate_groups": 7,
     "shared_organization_groups": 23,
     "shared_location_groups": 2,
-    "evidence_items": 685,
+    "evidence_items": 689,
     "organizations_detected": 79,
     "locations_detected": 4
   },
   "sources": {
     "OpenAlex Discovery": 270,
-    "GitHub Discovery": 57,
+    "GitHub Discovery": 59,
     "Lead-guided OpenAlex Discovery": 14
   },
   "capacity_types": {
     "کاندیدای پژوهشی": 267,
     "پروفایل وب": 6,
-    "پروفایل فنی": 51,
+    "پروفایل فنی": 53,
     "کاندیدای دانشگاهی": 3,
     "کاندیدای کشف از سرنخ": 14
   },
@@ -31,9 +31,9 @@
     "location: Ardakan": 6,
     "name signal": 2,
     "public GitHub profile": 6,
-    "GitHub user search": 51,
+    "GitHub user search": 53,
     "query: ardakani in:bio": 21,
-    "query: Ardakan in:bio": 30,
+    "query: Ardakan in:bio": 32,
     "surname: Davari Ardakani": 3,
     "OpenAlex author record": 3,
     "ORCID": 1,
@@ -69,7 +69,7 @@
       "key": "hamed davari ardakani",
       "candidate_indexes": [
         47,
-        312
+        314
       ],
       "count": 2
     },
@@ -126,7 +126,7 @@
       "organization": "isfahan university of technology",
       "candidate_indexes": [
         7,
-        317
+        319
       ],
       "count": 2
     },
@@ -157,7 +157,7 @@
         45,
         91,
         95,
-        314
+        316
       ],
       "count": 8
     },
@@ -192,7 +192,7 @@
       "organization": "pasteur institute of iran",
       "candidate_indexes": [
         36,
-        309
+        311
       ],
       "count": 2
     },
@@ -200,7 +200,7 @@
       "organization": "amirkabir university of technology",
       "candidate_indexes": [
         37,
-        308
+        310
       ],
       "count": 2
     },
@@ -209,7 +209,7 @@
       "candidate_indexes": [
         47,
         114,
-        312
+        314
       ],
       "count": 3
     },
@@ -217,7 +217,7 @@
       "organization": "shiraz university of medical sciences",
       "candidate_indexes": [
         49,
-        324
+        326
       ],
       "count": 2
     },
@@ -379,17 +379,17 @@
         305,
         306,
         307,
-        310,
-        313,
+        308,
+        309,
+        312,
         315,
-        316,
+        317,
         318,
-        319,
         320,
+        321,
         322,
-        323,
-        326,
-        327,
+        324,
+        325,
         328,
         329,
         330,
@@ -402,17 +402,19 @@
         337,
         338,
         339,
-        340
+        340,
+        341,
+        342
       ],
-      "count": 65
+      "count": 67
     },
     {
       "location": "iran yazd ardakan",
       "candidate_indexes": [
         264,
         270,
-        311,
-        325
+        313,
+        327
       ],
       "count": 4
     }
