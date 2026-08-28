@@ -30,14 +30,57 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Harden dashboard data loading
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p = Path('docs/index.html')
+          s = p.read_text(encoding='utf-8')
+          pattern = r"async function loadJSON\(path\)\{.*?\}\nasync function boot\(\)"
+          replacement = r'''async function loadJSON(path){
+          const urls=[
+            new URL(path,location.href),
+            new URL('https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/'+path),
+            new URL('https://api.github.com/repos/mrbehzadi-code/scie-builder/contents/docs/'+path+'?ref=main')
+          ];
+          const errors=[];
+          for(const u of urls){
+            try{
+              u.searchParams.set('v',Date.now());
+              const r=await fetch(u.href,{cache:'no-store',headers:{Accept:'application/json'}});
+              if(!r.ok){errors.push(`${u.href}: HTTP ${r.status}`);continue}
+              if(u.hostname==='api.github.com'){
+                const j=await r.json();
+                if(!j.content) throw new Error('GitHub API content missing');
+                const bin=atob(j.content.replace(/\\s/g,''));
+                const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));
+                return JSON.parse(new TextDecoder('utf-8').decode(bytes));
+              }
+              return await r.json();
+            }catch(e){errors.push(`${u.href}: ${e.message}`)}
+          }
+          throw new Error(errors.join(' | '))
+          }
+          async function boot()'''
+          ns, n = re.subn(pattern, replacement, s, count=1, flags=re.S)
+          if n != 1:
+            raise SystemExit('Dashboard loader signature not found; refusing deployment')
+          p.write_text(ns, encoding='utf-8')
+          print('Dashboard loader hardened successfully')
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
