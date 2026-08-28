@@ -1,0 +1,43 @@
+name: Direct dashboard deploy
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/dashboard-source.html'
+      - '.github/workflows/dashboard-direct-deploy.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build deterministic dashboard
+        run: cp docs/dashboard-source.html docs/index.html
+      - name: Commit canonical dashboard
+        run: |
+          git config user.name 'scie-bot'
+          git config user.email 'scie-bot@users.noreply.github.com'
+          git add docs/index.html
+          if git diff --cached --quiet; then echo 'index already current'; else git commit -m 'build: publish deterministic dashboard'; git push; fi
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
