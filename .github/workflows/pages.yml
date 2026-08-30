@@ -7,9 +7,6 @@ on:
       - 'docs/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
-  workflow_run:
-    workflows: ["UX numbering patch", "Repair dashboard loader", "SCIE Intelligence Layer"]
-    types: [completed]
 
 permissions:
   contents: read
@@ -22,65 +19,50 @@ concurrency:
 
 jobs:
   deploy:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Harden dashboard data loading
+      - name: Build self-contained dashboard
         run: |
           python - <<'PY'
           from pathlib import Path
-          import re
+          import json
           p = Path('docs/index.html')
-          s = p.read_text(encoding='utf-8')
-          pattern = r"async function loadJSON\(path\)\{.*?\}\nasync function boot\(\)"
-          replacement = r'''async function loadJSON(path){
-          const urls=[
-            new URL(path,location.href),
-            new URL('https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/'+path),
-            new URL('https://api.github.com/repos/mrbehzadi-code/scie-builder/contents/docs/'+path+'?ref=main')
-          ];
-          const errors=[];
-          for(const u of urls){
-            try{
-              u.searchParams.set('v',Date.now());
-              const r=await fetch(u.href,{cache:'no-store',headers:{Accept:'application/json'}});
-              if(!r.ok){errors.push(`${u.href}: HTTP ${r.status}`);continue}
-              if(u.hostname==='api.github.com'){
-                const j=await r.json();
-                if(!j.content) throw new Error('GitHub API content missing');
-                const bin=atob(j.content.replace(/\\s/g,''));
-                const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));
-                return JSON.parse(new TextDecoder('utf-8').decode(bytes));
-              }
-              return await r.json();
-            }catch(e){errors.push(`${u.href}: ${e.message}`)}
-          }
-          throw new Error(errors.join(' | '))
-          }
-          async function boot()'''
-          ns, n = re.subn(pattern, replacement, s, count=1, flags=re.S)
-          if n != 1:
-            raise SystemExit('Dashboard loader signature not found; refusing deployment')
-          p.write_text(ns, encoding='utf-8')
-          print('Dashboard loader hardened successfully')
+          data = json.loads(Path('docs/data.json').read_text(encoding='utf-8'))
+          people = data.get('people', [])
+          if not people:
+              raise SystemExit('Refusing deployment: docs/data.json contains no people')
+          if not all(isinstance(x, dict) and str(x.get('name','')).strip() for x in people):
+              raise SystemExit('Refusing deployment: one or more people records have no name')
+          html = p.read_text(encoding='utf-8')
+          marker = '<script>\nconst PAGE=25;'
+          if marker not in html:
+              raise SystemExit('Refusing deployment: dashboard script marker not found')
+          embedded = '<script>window.__SCIE_DATA__=' + json.dumps(data, ensure_ascii=False, separators=(',',':')) + ';</script>\n'
+          html = html.replace('<script>\nconst PAGE=25;', embedded + '<script>\nconst PAGE=25;', 1)
+          old = 'async function load(){let err=\'\';for(const u of [new URL(\'data.json\',location.href).href,\'https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/data.json?x=\'+Date.now()]){'
+          new = "async function load(){if(window.__SCIE_DATA__){snap=window.__SCIE_DATA__;people=Array.isArray(snap.people)?snap.people:Array.isArray(snap.records)?snap.records:Array.isArray(snap)?snap:[];if(people.length)return;}let err='';for(const u of [new URL('data.json',location.href).href,'https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/data.json?x='+Date.now()]){"
+          if old not in html:
+              raise SystemExit('Refusing deployment: loader signature not found')
+          html = html.replace(old, new, 1)
+          p.write_text(html, encoding='utf-8')
+          # Validate the exact data that the browser will receive.
+          if people[0].get('name') not in html:
+              raise SystemExit('Refusing deployment: first person name was not embedded')
+          print(f'Validated dashboard artifact: {len(people)} named records embedded')
           PY
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
-
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
