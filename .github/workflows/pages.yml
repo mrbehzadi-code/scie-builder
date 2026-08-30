@@ -26,37 +26,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Build self-contained dashboard
+      - name: Validate dashboard data
         run: |
           python - <<'PY'
           from pathlib import Path
           import json
-          p = Path('docs/index.html')
           data = json.loads(Path('docs/data.json').read_text(encoding='utf-8'))
           people = data.get('people', [])
           if not people:
               raise SystemExit('Refusing deployment: docs/data.json contains no people')
-          if not all(isinstance(x, dict) and str(x.get('name','')).strip() for x in people):
-              raise SystemExit('Refusing deployment: one or more people records have no name')
-          html = p.read_text(encoding='utf-8')
-          marker = '<script>\nconst PAGE=25;'
-          if marker not in html:
-              raise SystemExit('Refusing deployment: dashboard script marker not found')
-          embedded = '<script>window.__SCIE_DATA__=' + json.dumps(data, ensure_ascii=False, separators=(',',':')) + ';</script>\n'
-          html = html.replace('<script>\nconst PAGE=25;', embedded + '<script>\nconst PAGE=25;', 1)
-          old = 'async function load(){let err=\'\';for(const u of [new URL(\'data.json\',location.href).href,\'https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/data.json?x=\'+Date.now()]){'
-          new = "async function load(){if(window.__SCIE_DATA__){snap=window.__SCIE_DATA__;people=Array.isArray(snap.people)?snap.people:Array.isArray(snap.records)?snap.records:Array.isArray(snap)?snap:[];if(people.length)return;}let err='';for(const u of [new URL('data.json',location.href).href,'https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/data.json?x='+Date.now()]){"
-          if old not in html:
-              raise SystemExit('Refusing deployment: loader signature not found')
-          html = html.replace(old, new, 1)
-          p.write_text(html, encoding='utf-8')
-          # Validate the exact data that the browser will receive.
-          if people[0].get('name') not in html:
-              raise SystemExit('Refusing deployment: first person name was not embedded')
-          print(f'Validated dashboard artifact: {len(people)} named records embedded')
+          unnamed = [i + 1 for i, x in enumerate(people) if not isinstance(x, dict) or not str(x.get('name','')).strip()]
+          if unnamed:
+              raise SystemExit(f'Refusing deployment: unnamed records {unnamed[:10]}')
+          html = Path('docs/index.html').read_text(encoding='utf-8')
+          required = ['loadData','function render','data.json','id="list"','class="no"']
+          missing = [x for x in required if x not in html]
+          if missing:
+              raise SystemExit('Refusing deployment: missing dashboard components: ' + ', '.join(missing))
+          print(f'Validated dashboard: {len(people)} named records')
+          print(f'First record: {people[0]["name"]}')
           PY
-
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
