@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-08-30",
-  "candidate_count": 363,
+  "generated_at": "2026-09-02",
+  "candidate_count": 364,
   "metrics": {
-    "unique_name_keys": 356,
+    "unique_name_keys": 357,
     "possible_duplicate_groups": 7,
     "shared_organization_groups": 24,
     "shared_location_groups": 2,
-    "evidence_items": 729,
+    "evidence_items": 731,
     "organizations_detected": 79,
     "locations_detected": 4
   },
   "sources": {
-    "OpenAlex Discovery": 288,
+    "OpenAlex Discovery": 289,
     "GitHub Discovery": 61,
     "Lead-guided OpenAlex Discovery": 14
   },
   "capacity_types": {
-    "کاندیدای پژوهشی": 285,
+    "کاندیدای پژوهشی": 286,
     "پروفایل وب": 6,
     "پروفایل فنی": 55,
     "کاندیدای دانشگاهی": 3,
     "کاندیدای کشف از سرنخ": 14
   },
   "evidence_types": {
-    "OpenAlex author search": 285,
+    "OpenAlex author search": 286,
     "query: ardakan": 61,
-    "query: ardakani": 99,
+    "query: ardakani": 100,
     "query: اردکانی": 101,
     "query: اردکان": 24,
     "location: Ardakan": 6,
@@ -110,9 +110,10 @@
         89,
         112,
         115,
-        126
+        126,
+        341
       ],
-      "count": 9
+      "count": 10
     },
     {
       "organization": "islamic azad university yazd",
@@ -217,7 +218,7 @@
       "organization": "shiraz university of medical sciences",
       "candidate_indexes": [
         49,
-        346
+        347
       ],
       "count": 2
     },
@@ -397,11 +398,10 @@
         337,
         338,
         340,
-        341,
         342,
-        344,
+        343,
         345,
-        348,
+        346,
         349,
         350,
         351,
@@ -415,7 +415,8 @@
         359,
         360,
         361,
-        362
+        362,
+        363
       ],
       "count": 69
     },
@@ -425,7 +426,7 @@
         282,
         288,
         333,
-        347
+        348
       ],
       "count": 4
     }
