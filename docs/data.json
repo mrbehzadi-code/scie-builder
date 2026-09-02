@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-30",
+  "generated_at": "2026-09-02",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 100,
   "stats": {
     "web_records": 6,
-    "people": 363,
-    "academic_candidates": 302,
+    "people": 364,
+    "academic_candidates": 303,
     "regional_evidence": 200,
     "sources": {
-      "OpenAlex Discovery": 288,
+      "OpenAlex Discovery": 289,
       "GitHub Discovery": 61,
       "Lead-guided OpenAlex Discovery": 14
     }
@@ -4774,6 +4774,20 @@
         "query: ardakani in:bio"
       ],
       "url": "https://github.com/MohamadAli92",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Mohammad Reza Sobhan",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "58 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5035036831",
       "verification": "needs_review",
       "confidence": "low"
     },
