@@ -1,37 +1,21 @@
 name: SCIE Dashboard Patch
 on:
+  workflow_dispatch:
   push:
     paths:
-      - 'docs/index.html'
       - '.github/workflows/patch-search-intelligence.yml'
 jobs:
-  patch:
+  validate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Apply safe dashboard enhancements
+      - name: Validate dashboard source
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('docs/index.html')
-          s=p.read_text(encoding='utf-8')
-          marker='SCIE_UX_V3_RECORD_NUMBERING'
-          if marker in s:
-              print('UX v3 already present; nothing to patch.')
-              raise SystemExit(0)
-          css='''<style id="scie-ux-v3">\n.record-no{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:34px;border-radius:10px;background:#eef2ff;color:#315efb;font-weight:900;font-size:12px;margin-left:9px}.person .head{align-items:center}.uxbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0;padding:10px;border:1px solid #e5e9f0;border-radius:14px;background:#f8faff}.uxbar .hint{font-size:11px;color:#667085;flex:1}.quick{border:1px solid #e5e9f0;background:#fff;border-radius:10px;padding:8px 11px;font:inherit;cursor:pointer}.quick:hover{background:#eef2ff;color:#315efb}.result-meta{font-size:11px;color:#667085;margin-top:4px}.person{padding:14px 8px;border-radius:12px}.person:hover{background:#f8faff}@media(max-width:560px){.record-no{min-width:30px;height:30px}}\n</style>'''
-          s=s.replace('</head>',css+'</head>',1)
-          js='''<script id="SCIE_UX_V3_RECORD_NUMBERING">\n(function(){\n  const list=document.getElementById('list');\n  if(!list)return;\n  function enhance(){\n    const items=[...list.querySelectorAll('.person')];\n    const currentPage=window.page||1; const pageSize=window.PAGE||25;\n    items.forEach((el,i)=>{\n      let n=el.querySelector('.record-no');\n      if(!n){n=document.createElement('span');n.className='record-no';el.querySelector('.head')?.prepend(n)}\n      n.textContent=String((currentPage-1)*pageSize+i+1);\n    });\n  }\n  new MutationObserver(enhance).observe(list,{childList:true,subtree:true});\n  setInterval(enhance,500);\n  const search=document.getElementById('search');\n  if(search&&!document.getElementById('uxbar')){\n    const bar=document.createElement('div');bar.id='uxbar';bar.className='uxbar';\n    bar.innerHTML='<span class="hint">جست‌وجو، فیلتر و شماره رکوردها در همین صفحه در دسترس‌اند.</span><button class="quick" data-q="">همه رکوردها</button><button class="quick" data-q="اردکان">اردکان</button><button class="quick" data-q="دانشگاه اردکان">دانشگاه اردکان</button>';\n    search.after(bar);\n    bar.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const q=document.getElementById('q');q.value=b.dataset.q;q.dispatchEvent(new Event('input',{bubbles:true}));document.getElementById('search').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}))});\n  }\n})();\n</script>'''
-          s=s.replace('</body>',js+'</body>',1)
-          p.write_text(s,encoding='utf-8')
-          PY
-      - name: Commit patch
-        run: |
-          git config user.name 'SCIE Builder'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/index.html
-          git diff --cached --quiet && exit 0
-          git commit -m 'feat: user friendly dashboard and numbered records'
-          git push
+          test -s docs/index.html
+          grep -q 'id="list"' docs/index.html
+          grep -q 'async function loadData' docs/index.html
+          grep -q 'data.json' docs/index.html
+          grep -q 'PAGE=25' docs/index.html
+          echo 'Dashboard source validation passed.'
