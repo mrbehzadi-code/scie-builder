@@ -1,36 +1,14 @@
-name: Repair dashboard loader
+name: Repair dashboard loader (disabled)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/repair-dashboard-loader.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  repair:
+  disabled:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Repair live data loader
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('docs/index.html')
-          s = p.read_text(encoding='utf-8')
-          old = "async function getJSON(path,fallback){const b=Date.now();const urls=[new URL(path+'.json?v='+b,new URL('.',location.href)).href,fallback+'.json?v='+b];for(const u of urls){try{const r=await fetch(u,{cache:'no-store'});if(!r.ok)throw Error(r.status);return await r.json()}catch(e){}}throw Error('دریافت داده ناموفق بود')}"
-          new = "async function getJSON(path,fallback){const b=Date.now();const base=new URL('.',location.href);const urls=[new URL(path+'.json?v='+b,base).href, fallback+'.json?v='+b];for(const u of urls){try{const r=await fetch(u,{cache:'no-store'});if(!r.ok)throw Error(r.status);const text=await r.text();return JSON.parse(text)}catch(e){}}throw Error('دریافت داده ناموفق بود')}"
-          if old not in s:
-              raise SystemExit('target loader not found; refusing to modify file')
-          p.write_text(s.replace(old,new),encoding='utf-8')
-          PY
-      - name: Commit repair
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/index.html
-          git diff --cached --quiet || git commit -m 'fix: make dashboard data loader robust'
-          git push
+      - run: echo "Disabled: dashboard/index changes are now controlled by pages.yml."
