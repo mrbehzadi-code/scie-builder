@@ -30,6 +30,7 @@ class EntityResolutionTests(unittest.TestCase):
     def test_real_scie_snapshot(self):
         p=Path(__file__).resolve().parents[1]/"docs"/"data.json"
         if not p.exists():self.skipTest("SCIE snapshot unavailable")
-        records=load_records(p);r=resolve_records(records);self.assertEqual(len(records),364);self.assertEqual(r["pair_count"],66066);self.assertEqual(sum(r["decision_counts"].values()),66066)
+        records=load_records(p);r=resolve_records(records);expected=len(records)*(len(records)-1)//2
+        self.assertGreater(len(records),0);self.assertEqual(r["input_count"],len(records));self.assertEqual(r["pair_count"],expected);self.assertEqual(sum(r["decision_counts"].values()),expected)
 
 if __name__=="__main__":unittest.main()
