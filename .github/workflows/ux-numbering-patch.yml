@@ -1,42 +1,14 @@
-name: UX numbering patch
+name: UX numbering patch (disabled)
+
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/ux-numbering-patch.yml'
+  workflow_dispatch:
+
 permissions:
-  contents: write
+  contents: read
+
 jobs:
-  patch:
+  disabled:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Patch dashboard numbering
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          p = Path('docs/index.html')
-          s = p.read_text(encoding='utf-8')
-          old = '''<article class="person" data-i="${start+i}"><div class="head"><span class="name">${esc(x.name||'بدون نام')}</span><span class="tag">${esc(x.type||'سایر')}</span></div>'''
-          new = '''<article class="person" data-i="${start+i}"><div class="head"><span class="record-no">${start+i+1}</span><span class="name">${esc(x.name||'بدون نام')}</span><span class="tag">${esc(x.type||'سایر')}</span></div>'''
-          if old in s:
-              s = s.replace(old, new, 1)
-          marker = '</body>'
-          patch = '''<style id="scie-numbering-direct-v6">
-          .record-no{flex:0 0 34px;min-width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;background:#eef2ff;color:#315efb;font-weight:900;font-size:12px;margin-left:9px}
-          .person .head{display:flex;align-items:center;gap:8px}
-          .person .head .name{flex:1}
-          </style>
-          '''
-          if 'scie-numbering-direct-v6' not in s:
-              s = s.replace(marker, patch + marker)
-          p.write_text(s, encoding='utf-8')
-          PY
-      - name: Commit dashboard patch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html
-          git diff --cached --quiet || git commit -m "fix: render sequential record numbers directly"
-          git push
+      - run: echo "Disabled: dashboard numbering is part of the canonical index renderer."
