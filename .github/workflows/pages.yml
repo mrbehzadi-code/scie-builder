@@ -26,26 +26,49 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Validate dashboard data
+      - name: Validate canonical dashboard and snapshots
         run: |
           python - <<'PY'
           from pathlib import Path
           import json
+          import re
           data = json.loads(Path('docs/data.json').read_text(encoding='utf-8'))
+          intelligence = json.loads(Path('docs/intelligence.json').read_text(encoding='utf-8'))
           people = data.get('people', [])
           if not people:
               raise SystemExit('Refusing deployment: docs/data.json contains no people')
           unnamed = [i + 1 for i, x in enumerate(people) if not isinstance(x, dict) or not str(x.get('name','')).strip()]
           if unnamed:
               raise SystemExit(f'Refusing deployment: unnamed records {unnamed[:10]}')
+          if intelligence.get('candidate_count') != len(people):
+              raise SystemExit('Refusing deployment: intelligence/data candidate counts differ')
+          if intelligence.get('generated_at') != data.get('generated_at'):
+              raise SystemExit('Refusing deployment: intelligence/data snapshot dates differ')
           html = Path('docs/index.html').read_text(encoding='utf-8')
-          required = ['loadData','function render','data.json','id="list"','class="no"']
+          required = [
+              'async function loadData()',
+              'function render()',
+              'function buildMetrics()',
+              'function buildIntel()',
+              'function buildOrgs()',
+              'function leads()',
+              'data.json',
+              'intelligence',
+              'id="list"',
+              'class="no"',
+              'SCIE_UX_V3_RECORD_NUMBERING',
+          ]
           missing = [x for x in required if x not in html]
           if missing:
-              raise SystemExit('Refusing deployment: missing dashboard components: ' + ', '.join(missing))
-          print(f'Validated dashboard: {len(people)} named records')
-          print(f'First record: {people[0]["name"]}')
+              raise SystemExit('Refusing deployment: missing canonical dashboard components: ' + ', '.join(missing))
+          scripts = re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>', html, flags=re.S)
+          if not scripts:
+              raise SystemExit('Refusing deployment: no inline dashboard script found')
+          Path('/tmp/dashboard.js').write_text('\n'.join(scripts), encoding='utf-8')
+          print(f'Validated canonical dashboard: {len(people)} named records')
+          print(f'Snapshot: {data["generated_at"]}')
           PY
+          node --check /tmp/dashboard.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
