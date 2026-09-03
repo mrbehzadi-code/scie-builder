@@ -5,6 +5,7 @@ from .state_manager import load_state
 from .dashboard import dashboard
 from engines.discovery import discover
 from engines.academic import discover_academics
+from engines.entity_resolution import main as entity_resolution_main
 
 
 def run(command):
@@ -32,6 +33,9 @@ def run(command):
     elif command == "discover-academics":
         discover_academics()
 
+    elif command == "entity-resolution":
+        entity_resolution_main()
+
     elif command == "state":
         state = load_state()
         print("=" * 60)
@@ -48,4 +52,4 @@ def run(command):
 
     else:
         print(f"Unknown command: '{command}'")
-        print("Available commands: status, dashboard, planner, discover, discover-academics, state, continue")
+        print("Available commands: status, dashboard, planner, discover, discover-academics, entity-resolution, state, continue")
