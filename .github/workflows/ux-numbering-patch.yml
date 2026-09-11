@@ -8,7 +8,9 @@ permissions:
 
 jobs:
   disabled:
-    if: ${{ false }}
+    if: false
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Disabled: dashboard numbering is part of the canonical index renderer."
+      - name: Explain disabled workflow
+        run: |
+          echo "Disabled: numbering is owned by the canonical dashboard renderer."

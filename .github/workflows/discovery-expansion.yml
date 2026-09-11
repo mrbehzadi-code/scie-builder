@@ -3,8 +3,14 @@ name: SCIE Discovery Expansion
 on:
   push:
     branches: [main, 'sprint/**']
-    paths-ignore:
-      - 'docs/data.json'
+    paths:
+      - 'engines/discovery_expansion.py'
+      - 'outputs/academic_candidates.json'
+      - 'docs/web_candidates.json'
+      - 'docs/web_candidates_extended.json'
+      - 'academic_search_config.json'
+      - 'discovery_config.json'
+      - '.github/workflows/discovery-expansion.yml'
   workflow_dispatch:
 
 concurrency:

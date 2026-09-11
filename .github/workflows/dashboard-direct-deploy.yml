@@ -5,12 +5,12 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   disabled:
-    if: ${{ false }}
+    if: false
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Disabled: pages.yml is the sole dashboard publisher."
+      - name: Explain disabled workflow
+        run: |
+          echo "Disabled: pages.yml is the sole dashboard publisher."
