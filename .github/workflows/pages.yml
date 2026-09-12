@@ -119,7 +119,10 @@ jobs:
               } catch (error) {
                 const state = await page.locator('#state').textContent().catch(() => 'missing #state');
                 const count = await page.locator('#count').textContent().catch(() => 'missing #count');
-                console.log(`Attempt ${attempt}: dashboard not ready; state=${state}; count=${count}`);
+                const listText = await page.locator('#list').textContent().catch(() => 'missing #list');
+                console.log(`Attempt ${attempt}: dashboard not ready; state=${state}; count=${count}; dataStatus=${dataStatus}; list=${listText}`);
+                console.log('Recent console errors:', consoleErrors.slice(-5));
+                console.log('Recent failed requests:', failedRequests.slice(-5));
                 await page.waitForTimeout(5000);
               }
             }
