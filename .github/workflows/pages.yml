@@ -108,8 +108,22 @@ jobs:
               if (/\/data\.json(?:\?|$)/.test(response.url())) dataStatus = response.status();
             });
 
-            await page.goto(process.env.DASHBOARD_URL, { waitUntil: 'networkidle' });
-            await page.waitForSelector('#list .person', { timeout: 30000 });
+            let loaded = false;
+            for (let attempt = 1; attempt <= 12; attempt++) {
+              const url = `${process.env.DASHBOARD_URL}?v=${process.env.GITHUB_SHA}-${attempt}`;
+              await page.goto(url, { waitUntil: 'domcontentloaded' });
+              try {
+                await page.waitForSelector('#list .person', { timeout: 10000 });
+                loaded = true;
+                break;
+              } catch (error) {
+                const state = await page.locator('#state').textContent().catch(() => 'missing #state');
+                const count = await page.locator('#count').textContent().catch(() => 'missing #count');
+                console.log(`Attempt ${attempt}: dashboard not ready; state=${state}; count=${count}`);
+                await page.waitForTimeout(5000);
+              }
+            }
+            if (!loaded) throw new Error('Dashboard never rendered person records after deploy propagation retries');
 
             const snapshotCount = await page.locator('#list .person').count();
             if (snapshotCount !== 25) throw new Error(`Expected 25 records on page 1, got ${snapshotCount}`);
