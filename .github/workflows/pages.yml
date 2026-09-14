@@ -34,6 +34,8 @@ jobs:
           import re
           data = json.loads(Path('docs/data.json').read_text(encoding='utf-8'))
           intelligence = json.loads(Path('docs/intelligence.json').read_text(encoding='utf-8'))
+          entities = json.loads(Path('docs/entities.json').read_text(encoding='utf-8'))
+          knowledge_graph = json.loads(Path('docs/knowledge_graph.json').read_text(encoding='utf-8'))
           people = data.get('people', [])
           if not people:
               raise SystemExit('Refusing deployment: docs/data.json contains no people')
@@ -44,6 +46,14 @@ jobs:
               raise SystemExit('Refusing deployment: intelligence/data candidate counts differ')
           if intelligence.get('generated_at') != data.get('generated_at'):
               raise SystemExit('Refusing deployment: intelligence/data snapshot dates differ')
+          canonical_count = entities.get('metrics', {}).get('canonical_entities')
+          graph_metrics = knowledge_graph.get('metrics', {})
+          if graph_metrics.get('canonical_entity_count') != canonical_count:
+              raise SystemExit('Refusing deployment: knowledge graph/canonical entity counts differ')
+          if graph_metrics.get('connected_entities') != canonical_count:
+              raise SystemExit('Refusing deployment: not all canonical entities are connected in graph')
+          if graph_metrics.get('nodes', 0) <= canonical_count or graph_metrics.get('edges', 0) <= 0:
+              raise SystemExit('Refusing deployment: knowledge graph is empty or incomplete')
           html = Path('docs/index.html').read_text(encoding='utf-8')
           required = [
               'async function loadData()',
@@ -101,6 +111,7 @@ jobs:
             let entityResolutionStatus = null;
             let profileEnrichmentStatus = null;
             let entitiesStatus = null;
+            let knowledgeGraphStatus = null;
 
             page.on('console', message => {
               if (message.type() === 'error') consoleErrors.push(message.text());
@@ -114,6 +125,7 @@ jobs:
               if (/\/entity_resolution\.json(?:\?|$)/.test(response.url())) entityResolutionStatus = response.status();
               if (/\/profile_enrichment\.json(?:\?|$)/.test(response.url())) profileEnrichmentStatus = response.status();
               if (/\/entities\.json(?:\?|$)/.test(response.url())) entitiesStatus = response.status();
+              if (/\/knowledge_graph\.json(?:\?|$)/.test(response.url())) knowledgeGraphStatus = response.status();
             });
 
             let loaded = false;
@@ -143,6 +155,7 @@ jobs:
             if (entityResolutionStatus !== 200) throw new Error(`entity_resolution.json returned HTTP ${entityResolutionStatus}`);
             if (profileEnrichmentStatus !== 200) throw new Error(`profile_enrichment.json returned HTTP ${profileEnrichmentStatus}`);
             if (entitiesStatus !== 200) throw new Error(`entities.json returned HTTP ${entitiesStatus}`);
+            if (knowledgeGraphStatus !== 200) throw new Error(`knowledge_graph.json returned HTTP ${knowledgeGraphStatus}`);
 
             const qualityBadge = (await page.locator('#list .person .quality').first().textContent()).trim();
             if (!/^کیفیت \d+$/.test(qualityBadge)) throw new Error(`Quality badge missing or invalid: ${qualityBadge}`);
@@ -206,6 +219,7 @@ jobs:
               entityResolutionStatus,
               profileEnrichmentStatus,
               entitiesStatus,
+              knowledgeGraphStatus,
               qualityBadge,
               profileBadge,
               pageOneRecords: snapshotCount,
@@ -215,6 +229,9 @@ jobs:
               sourceFilter: { before: beforeFilter, after: afterFilter },
               detailOpened: true,
               canonicalRows,
+              graphCircles,
+              graphLines,
+              graphHubRows,
               duplicateRows,
               resolutionRows,
               consoleErrors: seriousConsoleErrors.length,
