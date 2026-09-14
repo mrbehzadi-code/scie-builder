@@ -1,9 +1,9 @@
 {
   "input_count": 364,
-  "group_count": 14,
-  "pair_count": 14,
+  "group_count": 17,
+  "pair_count": 17,
   "decision_counts": {
-    "SAME_PERSON": 0,
+    "SAME_PERSON": 3,
     "LIKELY_SAME_PERSON": 5,
     "UNCERTAIN": 9,
     "LIKELY_DIFFERENT_PERSON": 0
@@ -423,6 +423,72 @@
       "conflicts": [],
       "human_review_required": true,
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 278,
+      "candidate_b": 279,
+      "name_a": "Abolfazl Kamali Ardakani",
+      "name_b": "AbolfazlKamaliArdakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://github.com/abolfazlkamaliardakani"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 282,
+      "candidate_b": 309,
+      "name_a": "Ali",
+      "name_b": "Ardakaniali",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://github.com/ardakaniali"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 348,
+      "candidate_b": 349,
+      "name_a": "Zahra Afkhami Ardakani",
+      "name_b": "Zahra121377",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://github.com/zahra121377"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
     }
   ],
   "notice": "Derived identity suggestions only. No raw candidate records were merged."
