@@ -97,6 +97,7 @@ jobs:
             const consoleErrors = [];
             const failedRequests = [];
             let dataStatus = null;
+            let intelligenceStatus = null;
 
             page.on('console', message => {
               if (message.type() === 'error') consoleErrors.push(message.text());
@@ -106,6 +107,7 @@ jobs:
             });
             page.on('response', response => {
               if (/\/data\.json(?:\?|$)/.test(response.url())) dataStatus = response.status();
+              if (/\/intelligence\.json(?:\?|$)/.test(response.url())) intelligenceStatus = response.status();
             });
 
             let loaded = false;
@@ -131,6 +133,10 @@ jobs:
             const snapshotCount = await page.locator('#list .person').count();
             if (snapshotCount !== 25) throw new Error(`Expected 25 records on page 1, got ${snapshotCount}`);
             if (dataStatus !== 200) throw new Error(`data.json returned HTTP ${dataStatus}`);
+            if (intelligenceStatus !== 200) throw new Error(`intelligence.json returned HTTP ${intelligenceStatus}`);
+
+            const qualityBadge = (await page.locator('#list .person .quality').first().textContent()).trim();
+            if (!/^کیفیت \d+$/.test(qualityBadge)) throw new Error(`Quality badge missing or invalid: ${qualityBadge}`);
 
             const firstName = (await page.locator('#list .person .name').first().textContent()).trim();
             if (!firstName || firstName === 'بدون نام') throw new Error('First record has no real name');
@@ -155,6 +161,17 @@ jobs:
 
             await page.locator('#list .person').first().click();
             if (!(await page.locator('#detail').isVisible())) throw new Error('Detail view did not open');
+            const detailText = await page.locator('#dmeta').textContent();
+            if (!detailText.includes('کیفیت شواهد')) throw new Error('Detail view is missing quality evidence');
+            await page.click('#close');
+
+            await page.click('[data-tab="intelligence"]');
+            const intelText = await page.locator('#intelligence').textContent();
+            if (!intelText.includes('کیفیت قوی') || !intelText.includes('تکرارهای احتمالی نیازمند بررسی')) {
+              throw new Error('Intelligence quality/duplicate section is missing');
+            }
+            const duplicateRows = await page.locator('#dupes .dup').count();
+            if (duplicateRows < 1) throw new Error('Expected at least one duplicate-review row');
 
             const seriousConsoleErrors = consoleErrors.filter(x => !/favicon/i.test(x));
             const snapshotFailures = failedRequests.filter(x => /data\.json|intelligence\.json/.test(x));
@@ -164,12 +181,15 @@ jobs:
             console.log(JSON.stringify({
               dashboard: process.env.DASHBOARD_URL,
               dataStatus,
+              intelligenceStatus,
+              qualityBadge,
               pageOneRecords: snapshotCount,
               firstName,
               pageTwoStartsAt: pageTwoNumber,
               searchName,
               sourceFilter: { before: beforeFilter, after: afterFilter },
               detailOpened: true,
+              duplicateRows,
               consoleErrors: seriousConsoleErrors.length,
               snapshotRequestFailures: snapshotFailures.length
             }, null, 2));
