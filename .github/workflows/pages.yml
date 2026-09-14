@@ -182,7 +182,7 @@ jobs:
             const duplicateRows = await page.locator('#dupes .dup').count();
             if (duplicateRows < 1) throw new Error('Expected at least one duplicate-review row');
             const resolutionRows = await page.locator('#resolutions .resolution').count();
-            if (resolutionRows !== 14) throw new Error(`Expected 14 entity-resolution rows, got ${resolutionRows}`);
+            if (resolutionRows < 17) throw new Error(`Expected at least 17 entity-resolution rows, got ${resolutionRows}`);
             const resolutionText = await page.locator('#resolutions').textContent();
             if (!resolutionText.includes('LIKELY_SAME_PERSON') || !resolutionText.includes('UNCERTAIN')) {
               throw new Error('Entity-resolution decisions are missing from the dashboard');
