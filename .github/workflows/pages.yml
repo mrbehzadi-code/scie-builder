@@ -207,6 +207,12 @@ jobs:
               throw new Error('Entity-resolution decisions are missing from the dashboard');
             }
 
+            await page.click('[data-tab="network"]');
+            const graphCircles = await page.locator('#graphSvg circle').count();
+            const graphLines = await page.locator('#graphSvg line').count();
+            const graphHubRows = await page.locator('#network .hubrow').count();
+            if (graphCircles < 10 || graphLines < 10 || graphHubRows < 5) throw new Error('Knowledge graph preview did not render');
+
             const seriousConsoleErrors = consoleErrors.filter(x => !/favicon/i.test(x));
             const snapshotFailures = failedRequests.filter(x => /data\.json|intelligence\.json/.test(x));
             if (seriousConsoleErrors.length) throw new Error('Console errors: ' + seriousConsoleErrors.join(' | '));
@@ -229,6 +235,9 @@ jobs:
               sourceFilter: { before: beforeFilter, after: afterFilter },
               detailOpened: true,
               canonicalRows,
+              graphCircles,
+              graphLines,
+              graphHubRows,
               duplicateRows,
               resolutionRows,
               consoleErrors: seriousConsoleErrors.length,
