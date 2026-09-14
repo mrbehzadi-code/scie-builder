@@ -5,6 +5,7 @@
     "unique_name_keys": 357,
     "possible_duplicate_groups": 7,
     "variant_duplicate_groups": 7,
+    "stable_identifier_duplicate_groups": 3,
     "quality_strong": 6,
     "quality_medium": 358,
     "quality_weak": 0,
@@ -172,6 +173,38 @@
       "count": 2,
       "review_status": "needs_review",
       "reason": "ardakan/ardakani spelling normalization"
+    }
+  ],
+  "possible_duplicate_stable_ids": [
+    {
+      "key": "https://github.com/abolfazlkamaliardakani",
+      "candidate_indexes": [
+        278,
+        279
+      ],
+      "count": 2,
+      "review_status": "same_source_profile",
+      "reason": "exact stable provider URL"
+    },
+    {
+      "key": "https://github.com/ardakaniali",
+      "candidate_indexes": [
+        282,
+        309
+      ],
+      "count": 2,
+      "review_status": "same_source_profile",
+      "reason": "exact stable provider URL"
+    },
+    {
+      "key": "https://github.com/zahra121377",
+      "candidate_indexes": [
+        348,
+        349
+      ],
+      "count": 2,
+      "review_status": "same_source_profile",
+      "reason": "exact stable provider URL"
     }
   ],
   "candidate_quality": [
