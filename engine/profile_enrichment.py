@@ -44,7 +44,7 @@ def parse_academic_detail(detail: str) -> tuple[int | None, str | None]:
 def normalize_location(value: str) -> dict:
     raw = (value or "").strip()
     if raw in {"", "—", "-"}:
-        return {"raw": raw or None, "city": None, "province": None, "country": None, "ardakan_signal": False}
+        return {"raw": None, "city": None, "province": None, "country": None, "ardakan_signal": False}
     low = raw.lower()
     ardakan = "ardakan" in low or "اردکان" in raw
     city = "Ardakan" if ardakan else None
