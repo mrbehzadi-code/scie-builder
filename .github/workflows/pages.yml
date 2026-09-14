@@ -100,6 +100,7 @@ jobs:
             let intelligenceStatus = null;
             let entityResolutionStatus = null;
             let profileEnrichmentStatus = null;
+            let entitiesStatus = null;
 
             page.on('console', message => {
               if (message.type() === 'error') consoleErrors.push(message.text());
@@ -112,6 +113,7 @@ jobs:
               if (/\/intelligence\.json(?:\?|$)/.test(response.url())) intelligenceStatus = response.status();
               if (/\/entity_resolution\.json(?:\?|$)/.test(response.url())) entityResolutionStatus = response.status();
               if (/\/profile_enrichment\.json(?:\?|$)/.test(response.url())) profileEnrichmentStatus = response.status();
+              if (/\/entities\.json(?:\?|$)/.test(response.url())) entitiesStatus = response.status();
             });
 
             let loaded = false;
@@ -140,6 +142,7 @@ jobs:
             if (intelligenceStatus !== 200) throw new Error(`intelligence.json returned HTTP ${intelligenceStatus}`);
             if (entityResolutionStatus !== 200) throw new Error(`entity_resolution.json returned HTTP ${entityResolutionStatus}`);
             if (profileEnrichmentStatus !== 200) throw new Error(`profile_enrichment.json returned HTTP ${profileEnrichmentStatus}`);
+            if (entitiesStatus !== 200) throw new Error(`entities.json returned HTTP ${entitiesStatus}`);
 
             const qualityBadge = (await page.locator('#list .person .quality').first().textContent()).trim();
             if (!/^کیفیت \d+$/.test(qualityBadge)) throw new Error(`Quality badge missing or invalid: ${qualityBadge}`);
@@ -172,6 +175,7 @@ jobs:
             const detailText = await page.locator('#dmeta').textContent();
             if (!detailText.includes('کیفیت شواهد')) throw new Error('Detail view is missing quality evidence');
             if (!detailText.includes('کامل بودن پروفایل') || !detailText.includes('OpenAlex ID')) throw new Error('Detail view is missing profile enrichment');
+            if (!detailText.includes('Entity ID')) throw new Error('Detail view is missing canonical entity id');
             await page.click('#close');
 
             await page.click('[data-tab="intelligence"]');
@@ -179,6 +183,8 @@ jobs:
             if (!intelText.includes('کیفیت قوی') || !intelText.includes('تکرارهای احتمالی نیازمند بررسی') || !intelText.includes('دارای سازمان') || !intelText.includes('دارای مکان')) {
               throw new Error('Intelligence quality/duplicate section is missing');
             }
+            const canonicalRows = await page.locator('#canonical .entityrow').count();
+            if (canonicalRows !== 3) throw new Error(`Expected 3 multi-record canonical entities, got ${canonicalRows}`);
             const duplicateRows = await page.locator('#dupes .dup').count();
             if (duplicateRows < 1) throw new Error('Expected at least one duplicate-review row');
             const resolutionRows = await page.locator('#resolutions .resolution').count();
@@ -199,6 +205,7 @@ jobs:
               intelligenceStatus,
               entityResolutionStatus,
               profileEnrichmentStatus,
+              entitiesStatus,
               qualityBadge,
               profileBadge,
               pageOneRecords: snapshotCount,
@@ -207,6 +214,7 @@ jobs:
               searchName,
               sourceFilter: { before: beforeFilter, after: afterFilter },
               detailOpened: true,
+              canonicalRows,
               duplicateRows,
               resolutionRows,
               consoleErrors: seriousConsoleErrors.length,
