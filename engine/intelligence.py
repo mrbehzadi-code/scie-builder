@@ -109,6 +109,7 @@ def build(snapshot: dict) -> dict:
     variant_names = defaultdict(list)
     org_people = defaultdict(list)
     location_people = defaultdict(list)
+    stable_id_people = defaultdict(list)
     evidence = Counter()
     source = Counter()
     types = Counter()
@@ -121,6 +122,9 @@ def build(snapshot: dict) -> dict:
         variant_key = duplicate_key(name)
         if variant_key:
             variant_names[variant_key].append(idx)
+        url = str(person.get("url") or person.get("source_url") or "").strip().lower().rstrip("/")
+        if url and ("github.com/" in url or "openalex.org/" in url or "orcid.org/" in url):
+            stable_id_people[url].append(idx)
         src = person.get("source", "unknown")
         source[src] += 1
         types[person.get("type", "سایر")] += 1
@@ -158,6 +162,17 @@ def build(snapshot: dict) -> dict:
         quality.append(item)
         quality_counts[item["evidence_strength"]] += 1
 
+    stable_id_groups = [
+        {
+            "key": key,
+            "candidate_indexes": indexes,
+            "count": len(indexes),
+            "review_status": "same_source_profile",
+            "reason": "exact stable provider URL",
+        }
+        for key, indexes in stable_id_people.items() if len(indexes) > 1
+    ]
+
     organization_links = []
     for org, indexes in org_people.items():
         if len(indexes) > 1:
@@ -175,6 +190,7 @@ def build(snapshot: dict) -> dict:
             "unique_name_keys": len(names),
             "possible_duplicate_groups": len(duplicate_groups),
             "variant_duplicate_groups": len(variant_duplicate_groups),
+            "stable_identifier_duplicate_groups": len(stable_id_groups),
             "quality_strong": quality_counts.get("strong", 0),
             "quality_medium": quality_counts.get("medium", 0),
             "quality_weak": quality_counts.get("weak", 0),
@@ -189,6 +205,7 @@ def build(snapshot: dict) -> dict:
         "evidence_types": dict(evidence),
         "possible_duplicates": duplicate_groups[:500],
         "possible_duplicate_variants": variant_duplicate_groups[:500],
+        "possible_duplicate_stable_ids": stable_id_groups[:500],
         "candidate_quality": quality,
         "organization_links": organization_links[:500],
         "location_links": location_links[:500],
