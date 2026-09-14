@@ -49,7 +49,7 @@ def _ids(r:dict[str,Any])->set[str]:
         v=r.get(k)
         if v:
             s=str(v).lower()
-            if "openalex.org/" in s or "orcid.org/" in s:out.add(s)
+            if "openalex.org/" in s or "orcid.org/" in s or "github.com/" in s:out.add(s.rstrip("/"))
     return out
 
 def _academic(r):return _values(r,("publication","publications","works","topics","affiliations","institutions"))
@@ -157,6 +157,7 @@ def load_groups(path:Path)->list[dict[str,Any]]:
     if isinstance(data,dict):
         groups.extend(x for x in data.get("possible_duplicates",[]) if isinstance(x,dict))
         groups.extend(x for x in data.get("possible_duplicate_variants",[]) if isinstance(x,dict))
+        groups.extend(x for x in data.get("possible_duplicate_stable_ids",[]) if isinstance(x,dict))
     return groups
 
 def load_records(path:Path)->list[dict[str,Any]]:
