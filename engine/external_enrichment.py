@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 from collections import Counter
 from pathlib import Path
@@ -16,9 +17,29 @@ from urllib import error, parse, request
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "docs" / "profile_enrichment.json"
 OUTPUT = ROOT / "docs" / "external_enrichment.json"
+ACADEMIC_CACHE = ROOT / "outputs" / "academic_candidates.json"
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OPENALEX_API_KEY = os.environ.get("OPENALEX_API_KEY", "")
+
+
+def openalex_cache() -> dict[str, dict]:
+    if not ACADEMIC_CACHE.exists():
+        return {}
+    try:
+        rows = json.loads(ACADEMIC_CACHE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    out = {}
+    for row in rows if isinstance(rows, list) else []:
+        raw = str(row.get("openalex_id") or "")
+        m = re.search(r"(A\d+)", raw, flags=re.I)
+        if m:
+            out[m.group(1).upper()] = row
+    return out
+
+
+OPENALEX_CACHE = openalex_cache()
 
 
 def get_json(url: str, headers: dict[str, str] | None = None) -> dict:
@@ -56,7 +77,21 @@ def enrich_github(username: str) -> dict:
 
 def enrich_openalex(author_id: str) -> dict:
     if not OPENALEX_API_KEY:
-        return {"provider": "OpenAlex", "skipped": "OPENALEX_API_KEY not configured"}
+        cached = OPENALEX_CACHE.get(author_id.upper())
+        if cached:
+            return {
+                "provider": "OpenAlex",
+                "source": "cached_academic_discovery",
+                "display_name": cached.get("name"),
+                "orcid": cached.get("orcid"),
+                "works_count": cached.get("works_count"),
+                "institutions": cached.get("institutions") or [],
+                "matched_surname": cached.get("matched_surname"),
+                "iran_affiliation_ratio": cached.get("iran_affiliation_ratio"),
+                "provider_url": cached.get("openalex_id"),
+                "cached": True,
+            }
+        return {"provider": "OpenAlex", "skipped": "OPENALEX_API_KEY not configured and no cached academic record"}
     url = f"https://api.openalex.org/authors/{parse.quote(author_id)}?api_key={parse.quote(OPENALEX_API_KEY)}"
     data = get_json(url)
     last_known = data.get("last_known_institutions") or []
@@ -121,8 +156,9 @@ def main() -> None:
                     counts["openalex_skipped"] += 1
                 else:
                     row["status"] = "enriched"
-                    counts["openalex_enriched"] += 1
-                    time.sleep(0.08)
+                    counts["openalex_cached_enriched" if data.get("cached") else "openalex_enriched"] += 1
+                    if not data.get("cached"):
+                        time.sleep(0.08)
             else:
                 row["status"] = "skipped"
                 counts["unsupported_or_missing_id"] += 1
