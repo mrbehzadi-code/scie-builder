@@ -1,0 +1,4326 @@
+{
+  "generated_at": "2026-09-11",
+  "candidate_count": 364,
+  "metrics": {
+    "openalex_skipped": 303,
+    "github_enriched": 61,
+    "errors": 0,
+    "enriched_total": 61,
+    "skipped_total": 303
+  },
+  "failures": {},
+  "profiles": [
+    {
+      "candidate_index": 0,
+      "name": "A Firozabadi Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 1,
+      "name": "A Yasini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 2,
+      "name": "A. Falahi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 3,
+      "name": "Abbas Ghasempour Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 4,
+      "name": "Abbas Salahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 5,
+      "name": "Abbas Taghavi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 6,
+      "name": "Abolfazl Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 7,
+      "name": "Abouei Ardakan Mostafa",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 8,
+      "name": "Aboyee Ardakan Mohammad",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 9,
+      "name": "Adel Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 10,
+      "name": "Ahmad Fatahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 11,
+      "name": "Ahmad Haerian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 12,
+      "name": "Ahoo Malekafzali Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 13,
+      "name": "Akbar Beiki‐Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 14,
+      "name": "Akbar Beiki‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 15,
+      "name": "Akhtar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 16,
+      "name": "Ali Abbasian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 17,
+      "name": "Ali Afzali-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 18,
+      "name": "Ali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 19,
+      "name": "Ali Ghanei Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 20,
+      "name": "Ali Jahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 21,
+      "name": "Ali Reza Mokhtari Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 22,
+      "name": "Ali Sarkargar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 23,
+      "name": "Alireza Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 24,
+      "name": "Alireza Hekmat Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 25,
+      "name": "Alireza Hekmat‐Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 26,
+      "name": "Alireza Khodaei Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 27,
+      "name": "Amir Adabi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 28,
+      "name": "Arash Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 29,
+      "name": "Azra Mohammad Panah Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 30,
+      "name": "Azra Mohammadpanah Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 31,
+      "name": "Azra Mohammadpanah-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 32,
+      "name": "Azra Mohammahpanah Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 33,
+      "name": "B Ardakani Abedi",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 34,
+      "name": "Davood Andalib Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 35,
+      "name": "E Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 36,
+      "name": "E Mirabzadeh Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 37,
+      "name": "Ebrahim Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 38,
+      "name": "Emad M. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 39,
+      "name": "Ezoddini Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 40,
+      "name": "Fateme Fattahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 41,
+      "name": "Fatemeh Behjati Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 42,
+      "name": "Fatemeh Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 43,
+      "name": "Fatemeh Ezoddini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 44,
+      "name": "Fatemeh Ezoddini-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 45,
+      "name": "Fatemeh Jahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 46,
+      "name": "Fatemeh Mokhtari ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 47,
+      "name": "Hamed Davari‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 48,
+      "name": "Hamid Alemi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 49,
+      "name": "Hamidreza Jahanbani‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 50,
+      "name": "Hasan Mansouri‐Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 51,
+      "name": "Hasan Mohiti Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 52,
+      "name": "Hassan-Ali Vahedian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 53,
+      "name": "Hassanali Vahedian-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 54,
+      "name": "Hasti Asayesh-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 55,
+      "name": "Hasti Asayesh‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 56,
+      "name": "Hesam Anvari Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 57,
+      "name": "Hesamoddin Razi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 58,
+      "name": "Hossein Anaraki‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 59,
+      "name": "Hossein Davari Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 60,
+      "name": "Hossein Malekafzali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 61,
+      "name": "Hossein Talepour Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 62,
+      "name": "Kazem Majdzadeh‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 63,
+      "name": "Kimya Hassani‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 64,
+      "name": "Leili Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 65,
+      "name": "M Abouei Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 66,
+      "name": "M. Alemi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 67,
+      "name": "M. Mahdi Ghazaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 68,
+      "name": "M. S. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 69,
+      "name": "M.G. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 70,
+      "name": "Mahboobi Ardakan Peyman",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 71,
+      "name": "Mahboobi-Ardakan Payman",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 72,
+      "name": "Mahdi Ghanei Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 73,
+      "name": "Mahdi Qane`i Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 74,
+      "name": "Mahmoud Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 75,
+      "name": "Malek Afzali Ardakan Hossein",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 76,
+      "name": "Mansoor Dashti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 77,
+      "name": "Maria Tavakoli‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 78,
+      "name": "Maryam Haghighi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 79,
+      "name": "Maryam Tajali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 80,
+      "name": "Masoud Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 81,
+      "name": "Mehdi B. Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 82,
+      "name": "Mehdi Hatefi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 83,
+      "name": "Mehran Mirabzadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 84,
+      "name": "Mohammad Aboei Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 85,
+      "name": "Mohammad Abooye Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 86,
+      "name": "Mohammad Abooyee Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 87,
+      "name": "Mohammad Aboyee Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 88,
+      "name": "Mohammad Abuei Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 89,
+      "name": "Mohammad Afkhami Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 90,
+      "name": "Mohammad Ali Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 91,
+      "name": "Mohammad Ali Hakimzadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 92,
+      "name": "Mohammad Fotouhi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 93,
+      "name": "Mohammad Javad Ehsani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 94,
+      "name": "Mohammad Karimizadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 95,
+      "name": "Mohammad Mazloum‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 96,
+      "name": "Mohammad Mehdi Mokhtari Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 97,
+      "name": "Mohammad meysam Salahi ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 98,
+      "name": "Mohammad Raza Khodaie Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 99,
+      "name": "Mohammad Reza Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 100,
+      "name": "Mohammad Reza Khodaei-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 101,
+      "name": "Mohammad Reza Khodaie Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 102,
+      "name": "Mohammad Reza Talebi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 103,
+      "name": "Mohammad Roayaei Ardakani‬",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 104,
+      "name": "Mohammad-Javad Ehsani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 105,
+      "name": "Mohammadpanah Ardakan Azra",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 106,
+      "name": "Mohammadreza Shams‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 107,
+      "name": "Mohammadreza Talebi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 108,
+      "name": "Mohiti Ardakan Mohammad Ali",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 109,
+      "name": "Mohsen Barzegari Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 110,
+      "name": "Mojtaba Sahraee Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 111,
+      "name": "Mojtaba Sahraee-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 112,
+      "name": "Mojtaba Yassini-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 113,
+      "name": "Morteza Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 114,
+      "name": "Mostafa Abouei Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 115,
+      "name": "Mostafa Behjati‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 116,
+      "name": "Mostafa K. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 117,
+      "name": "Mostafa Mokhtari Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 118,
+      "name": "Mostafa Sahraei‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 119,
+      "name": "Muhammad Ali Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 120,
+      "name": "Nasser Fotouhi‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 121,
+      "name": "Nima Mesbah Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 122,
+      "name": "NN Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 123,
+      "name": "Nooshin Gholhovallahi Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 124,
+      "name": "Omid H. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 125,
+      "name": "Omid M. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 126,
+      "name": "Payman Mahboobi Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 127,
+      "name": "Payman Mahboobi-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 128,
+      "name": "Pourdehghan Ardakan Mostafa",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 129,
+      "name": "Pouya Khodaie Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 130,
+      "name": "Razieh Jamaati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 131,
+      "name": "Reza Behjatmanesh-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 132,
+      "name": "Reza Behjatmanesh‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 133,
+      "name": "Reza Fotouhi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 134,
+      "name": "Saeed Hatefi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 135,
+      "name": "Saeid Pourroostaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 136,
+      "name": "Samira Salek‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 137,
+      "name": "Seyed Ali Yasini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 138,
+      "name": "Seyed Sina Moeini-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 139,
+      "name": "Shabnam Raayai-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 140,
+      "name": "Shahram Salek-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 141,
+      "name": "Shahram Salek‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 142,
+      "name": "Shahrzad Jooya Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 143,
+      "name": "Shiva Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 144,
+      "name": "Sina Moeini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 145,
+      "name": "Soheil Sobhanardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 146,
+      "name": "Somayah شاکر اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 147,
+      "name": "Taghavi Ardakan M",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 148,
+      "name": "Tahereh Azimpour-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 149,
+      "name": "Yalda H. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 150,
+      "name": "Yaser Masoumi‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 151,
+      "name": "Z Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 152,
+      "name": "Zahra Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 153,
+      "name": "Zahra Jafari-Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 154,
+      "name": "؛ محیطی اردکانی، جواد",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 155,
+      "name": "احسان اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 156,
+      "name": "احسان امیری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 157,
+      "name": "احسان فتاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 158,
+      "name": "احسان کردی اردکانی کردی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 159,
+      "name": "احمد اردکانی فتاحی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 160,
+      "name": "احمد شاکر اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 161,
+      "name": "احمد شاکر اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 162,
+      "name": "احمد فتاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 163,
+      "name": "احمدرضا حبیبی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 164,
+      "name": "اردکانی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 165,
+      "name": "اردکانی محمدعلی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 166,
+      "name": "اردکانیMArdekani اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 167,
+      "name": "اسلامی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 168,
+      "name": "اشرف حسینی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 169,
+      "name": "اطهر تجلی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 170,
+      "name": "الهام اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 171,
+      "name": "الهیار اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 172,
+      "name": "امید متقی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 173,
+      "name": "امیر محسن مختاری اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 174,
+      "name": "امیرحسین هاتفی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 175,
+      "name": "امیررضا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 176,
+      "name": "جواد بیابانی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 177,
+      "name": "جواد علیمحمدی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 178,
+      "name": "حامد احمدی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 179,
+      "name": "حامد داوری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 180,
+      "name": "حسن اسلامی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 181,
+      "name": "حسن محیطی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 182,
+      "name": "حسین اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 183,
+      "name": "حسین حایریان اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 184,
+      "name": "حسین ملکافضلی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 185,
+      "name": "حمید اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 186,
+      "name": "حمیده افخمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 187,
+      "name": "داود عندلیب اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 188,
+      "name": "رضا داوری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 189,
+      "name": "رضا راستی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 190,
+      "name": "رضا فتوحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 191,
+      "name": "رضا پوردهقان اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 192,
+      "name": "زهرا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 193,
+      "name": "زهرا جمشیدی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 194,
+      "name": "زهرا پورآقایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 195,
+      "name": "سبحان اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 196,
+      "name": "سرافراز اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 197,
+      "name": "سعید اردکان زاده یزدی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 198,
+      "name": "سعید اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 199,
+      "name": "سعید سعیدا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 200,
+      "name": "سعید پور روستایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 201,
+      "name": "سعید پورروستایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 202,
+      "name": "سعیده انوری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 203,
+      "name": "سمانه انتظاریان اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 204,
+      "name": "سهیل سبحان اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 205,
+      "name": "سید حسن هاشمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 206,
+      "name": "سید سعیدا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 207,
+      "name": "سید مجتبی یاسینی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 208,
+      "name": "سیدمجتبی یاسینی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 209,
+      "name": "شایسته قرایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 210,
+      "name": "ضرغام اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 211,
+      "name": "طاهره اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 212,
+      "name": "عاطفه ترابی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 213,
+      "name": "عباس صلاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 214,
+      "name": "عباس پایدار اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 215,
+      "name": "عباس گلناری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 216,
+      "name": "عذرا محمد پناه اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 217,
+      "name": "عذرا محمدپناه اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 218,
+      "name": "عزیز الله اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 219,
+      "name": "علی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 220,
+      "name": "علی جعفری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 221,
+      "name": "علی صلاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 222,
+      "name": "علی ضالحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 223,
+      "name": "علی فیروزی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 224,
+      "name": "علی قانعی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 225,
+      "name": "علی متولی زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 226,
+      "name": "علی مقیمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 227,
+      "name": "علیرضا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 228,
+      "name": "فائزه پورحسینی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 229,
+      "name": "فاطمه بحجتی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 230,
+      "name": "فاطمه صادقی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 231,
+      "name": "فتاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 232,
+      "name": "قاضی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 233,
+      "name": "محسن صحرایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 234,
+      "name": "محسن فتاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 235,
+      "name": "محمد ابویى اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 236,
+      "name": "محمد ابویی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 237,
+      "name": "محمد ایوبی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 238,
+      "name": "محمد جواد احسانی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 239,
+      "name": "محمد رضا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 240,
+      "name": "محمد رعایایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 241,
+      "name": "محمد شاکر اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 242,
+      "name": "محمد عابدی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 243,
+      "name": "محمد علی محیطی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 244,
+      "name": "محمد مظلوم اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 245,
+      "name": "محمد مقیمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 246,
+      "name": "محمد میثم صلاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 247,
+      "name": "محمد کریمی زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 248,
+      "name": "محمدجواد غاضی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 249,
+      "name": "محمدرضا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 250,
+      "name": "محمدرضا افخمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 251,
+      "name": "محمدعلی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 252,
+      "name": "محمدعلی حکیم زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 253,
+      "name": "محمدعلی محیطی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 254,
+      "name": "محمدمیثم صلاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 255,
+      "name": "محمود ابویی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 256,
+      "name": "محیطی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 257,
+      "name": "مریم اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 258,
+      "name": "مریم دهستانی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 259,
+      "name": "مریم دهستانی اردکانی دهستانی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 260,
+      "name": "مصطفی ابویی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 261,
+      "name": "مصطفی قطب زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 262,
+      "name": "مصطفی مختاری اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 263,
+      "name": "مصطفی پوردهقان اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 264,
+      "name": "معصومه اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 265,
+      "name": "مهدی افخمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 266,
+      "name": "مهدی راستی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 267,
+      "name": "مهدی قانعی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 268,
+      "name": "مهدی ناظمی اردکانی مهدی ناظمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 269,
+      "name": "مهناز مظلومی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 270,
+      "name": "میترا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 271,
+      "name": "ندا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 272,
+      "name": "نگار داوری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 273,
+      "name": "ه اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 274,
+      "name": "هاشمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 275,
+      "name": "پریسا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 276,
+      "name": "پیمان محبوبی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 277,
+      "name": "کمالی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 278,
+      "name": "Abolfazl Kamali Ardakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AbolfazlKamaliArdakani",
+        "display_name": "Abolfazl Kamali Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Ardakan, Yazd, Iran",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 6,
+        "following": 11,
+        "created_at": "2023-02-02T15:41:26Z",
+        "updated_at": "2023-02-05T05:44:12Z",
+        "provider_url": "https://github.com/AbolfazlKamaliArdakani"
+      }
+    },
+    {
+      "candidate_index": 279,
+      "name": "AbolfazlKamaliArdakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AbolfazlKamaliArdakani",
+        "display_name": "Abolfazl Kamali Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Ardakan, Yazd, Iran",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 6,
+        "following": 11,
+        "created_at": "2023-02-02T15:41:26Z",
+        "updated_at": "2023-02-05T05:44:12Z",
+        "provider_url": "https://github.com/AbolfazlKamaliArdakani"
+      }
+    },
+    {
+      "candidate_index": 280,
+      "name": "AbolfazlKamalli",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AbolfazlKamalli",
+        "display_name": "Abolfazl Kamali Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Iran, Yazd",
+        "bio": null,
+        "public_repos": 9,
+        "followers": 13,
+        "following": 16,
+        "created_at": "2024-03-11T15:08:35Z",
+        "updated_at": "2026-09-10T12:18:24Z",
+        "provider_url": "https://github.com/AbolfazlKamalli"
+      }
+    },
+    {
+      "candidate_index": 281,
+      "name": "Ahmad Mahboubi",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 282,
+      "name": "Ali",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakaniali",
+        "display_name": "Ali",
+        "company": null,
+        "blog": null,
+        "location": "Islamic republic of Iran, Yazd, Ardakan",
+        "bio": "A video game lover from desert",
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2020-09-07T09:06:19Z",
+        "updated_at": "2020-09-07T09:11:29Z",
+        "provider_url": "https://github.com/Ardakaniali"
+      }
+    },
+    {
+      "candidate_index": 283,
+      "name": "Ali Reza Kamali",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 284,
+      "name": "Alireza Dashti",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AlirezaDashti",
+        "display_name": "Alireza Dashti",
+        "company": "EEFA CERAM CO",
+        "blog": null,
+        "location": "Ardakan (Yazd)",
+        "bio": "I am a human, a friend, a brother and a father",
+        "public_repos": 0,
+        "followers": 18,
+        "following": 15,
+        "created_at": "2015-06-26T06:50:20Z",
+        "updated_at": "2024-04-08T10:59:06Z",
+        "provider_url": "https://github.com/AlirezaDashti"
+      }
+    },
+    {
+      "candidate_index": 285,
+      "name": "Alireza Haerian",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 286,
+      "name": "AmidArdakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AmidArdakani",
+        "display_name": "Amid Ardakani",
+        "company": "FSU",
+        "blog": null,
+        "location": null,
+        "bio": "Associate Teaching Professor at Florida State University",
+        "public_repos": 3,
+        "followers": 0,
+        "following": 5,
+        "created_at": "2023-04-23T19:46:27Z",
+        "updated_at": "2026-09-12T02:38:16Z",
+        "provider_url": "https://github.com/AmidArdakani"
+      }
+    },
+    {
+      "candidate_index": 287,
+      "name": "AmirhArdakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AmirhArdakani",
+        "display_name": "Amir Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Iran | Shahroud",
+        "bio": null,
+        "public_repos": 6,
+        "followers": 7,
+        "following": 11,
+        "created_at": "2017-08-27T17:12:34Z",
+        "updated_at": "2026-04-24T17:45:54Z",
+        "provider_url": "https://github.com/AmirhArdakani"
+      }
+    },
+    {
+      "candidate_index": 288,
+      "name": "Amirho3ein Roustaei",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "amirhoseinardakanei",
+        "display_name": "Amirho3ein Roustaei",
+        "company": "Technoosite",
+        "blog": "technoosite.ir",
+        "location": "Iran, Yazd, Ardakan",
+        "bio": "My profession is Python programming and I work in the web field with the Django framework. :)",
+        "public_repos": 1,
+        "followers": 1,
+        "following": 2,
+        "created_at": "2025-01-23T09:09:59Z",
+        "updated_at": "2026-09-14T09:56:18Z",
+        "provider_url": "https://github.com/amirhoseinardakanei"
+      }
+    },
+    {
+      "candidate_index": 289,
+      "name": "amirhosein8127",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "amirhosein8127",
+        "display_name": "amir hosein ardakani",
+        "company": null,
+        "blog": null,
+        "location": "tehran",
+        "bio": ".",
+        "public_repos": 2,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2022-05-16T14:16:13Z",
+        "updated_at": "2022-05-16T14:28:30Z",
+        "provider_url": "https://github.com/amirhosein8127"
+      }
+    },
+    {
+      "candidate_index": 290,
+      "name": "arashardakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "arashardakani",
+        "display_name": "Arash Ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 9,
+        "followers": 5,
+        "following": 0,
+        "created_at": "2017-11-27T03:23:59Z",
+        "updated_at": "2026-09-04T17:07:08Z",
+        "provider_url": "https://github.com/arashardakani"
+      }
+    },
+    {
+      "candidate_index": 291,
+      "name": "arbit3rr",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "arbit3rr",
+        "display_name": "Amirhossein Heydarian Ardakani",
+        "company": null,
+        "blog": "https://scholar.google.com/citations?user=5U9fGhYAAAAJ&hl=en",
+        "location": null,
+        "bio": null,
+        "public_repos": 19,
+        "followers": 81,
+        "following": 36,
+        "created_at": "2019-10-03T10:24:52Z",
+        "updated_at": "2026-09-01T15:24:45Z",
+        "provider_url": "https://github.com/arbit3rr"
+      }
+    },
+    {
+      "candidate_index": 292,
+      "name": "ardakan",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-04-16T11:15:42Z",
+        "updated_at": "2023-04-16T11:15:42Z",
+        "provider_url": "https://github.com/ardakan"
+      }
+    },
+    {
+      "candidate_index": 293,
+      "name": "ardakan111",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan111",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2020-12-19T12:28:51Z",
+        "updated_at": "2020-12-19T12:28:51Z",
+        "provider_url": "https://github.com/ardakan111"
+      }
+    },
+    {
+      "candidate_index": 294,
+      "name": "ardakan12",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan12",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-08-12T18:04:08Z",
+        "updated_at": "2023-08-12T18:04:08Z",
+        "provider_url": "https://github.com/ardakan12"
+      }
+    },
+    {
+      "candidate_index": 295,
+      "name": "Ardakan125",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakan125",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2024-11-19T10:16:47Z",
+        "updated_at": "2024-11-19T10:19:37Z",
+        "provider_url": "https://github.com/Ardakan125"
+      }
+    },
+    {
+      "candidate_index": 296,
+      "name": "ardakan1717-star",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan1717-star",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-04-09T18:23:21Z",
+        "updated_at": "2026-04-09T18:23:21Z",
+        "provider_url": "https://github.com/ardakan1717-star"
+      }
+    },
+    {
+      "candidate_index": 297,
+      "name": "ardakan40-lab",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan40-lab",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 2,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-07-07T04:24:31Z",
+        "updated_at": "2026-08-04T01:57:56Z",
+        "provider_url": "https://github.com/ardakan40-lab"
+      }
+    },
+    {
+      "candidate_index": 298,
+      "name": "ardakananeva-sazorland",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakananeva-sazorland",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-07-17T12:02:17Z",
+        "updated_at": "2026-07-17T12:02:17Z",
+        "provider_url": "https://github.com/ardakananeva-sazorland"
+      }
+    },
+    {
+      "candidate_index": 299,
+      "name": "ArdaKanat",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ArdaKanat",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2024-09-29T07:37:23Z",
+        "updated_at": "2024-09-29T07:37:26Z",
+        "provider_url": "https://github.com/ArdaKanat"
+      }
+    },
+    {
+      "candidate_index": 300,
+      "name": "ardakanata",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanata",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-11-11T11:49:03Z",
+        "updated_at": "2023-11-11T11:49:03Z",
+        "provider_url": "https://github.com/ardakanata"
+      }
+    },
+    {
+      "candidate_index": 301,
+      "name": "ArdaKanbur",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ArdaKanbur",
+        "display_name": "AKR",
+        "company": "Bigrise Technologies",
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 1,
+        "following": 1,
+        "created_at": "2021-11-25T11:02:39Z",
+        "updated_at": "2026-05-14T17:14:29Z",
+        "provider_url": "https://github.com/ArdaKanbur"
+      }
+    },
+    {
+      "candidate_index": 302,
+      "name": "ardakancan41-del",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakancan41-del",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-11-05T17:01:51Z",
+        "updated_at": "2025-11-05T17:01:51Z",
+        "provider_url": "https://github.com/ardakancan41-del"
+      }
+    },
+    {
+      "candidate_index": 303,
+      "name": "ardakandemir",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakandemir",
+        "display_name": "Arda Kandemir",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2018-12-28T17:02:39Z",
+        "updated_at": "2026-08-16T19:54:21Z",
+        "provider_url": "https://github.com/ardakandemir"
+      }
+    },
+    {
+      "candidate_index": 304,
+      "name": "ardakaner",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakaner",
+        "display_name": "Arda",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "no bio yet.",
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-04-16T20:47:20Z",
+        "updated_at": "2026-07-14T19:52:05Z",
+        "provider_url": "https://github.com/ardakaner"
+      }
+    },
+    {
+      "candidate_index": 305,
+      "name": "ardakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakani",
+        "display_name": "Behzad Ardakani",
+        "company": "Skillmatic AB",
+        "blog": null,
+        "location": "Västerås",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 1,
+        "following": 0,
+        "created_at": "2013-06-20T18:50:17Z",
+        "updated_at": "2026-08-07T20:17:34Z",
+        "provider_url": "https://github.com/ardakani"
+      }
+    },
+    {
+      "candidate_index": 306,
+      "name": "Ardakani1",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakani1",
+        "display_name": "Ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "you know excatly who i am....",
+        "public_repos": 14,
+        "followers": 5,
+        "following": 17,
+        "created_at": "2021-12-04T20:59:22Z",
+        "updated_at": "2026-08-17T09:33:03Z",
+        "provider_url": "https://github.com/Ardakani1"
+      }
+    },
+    {
+      "candidate_index": 307,
+      "name": "Ardakani79",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakani79",
+        "display_name": "Mohammad Hossein Shaker Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Isfahan-Iran",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 1,
+        "following": 3,
+        "created_at": "2023-04-11T15:13:35Z",
+        "updated_at": "2026-08-16T07:13:15Z",
+        "provider_url": "https://github.com/Ardakani79"
+      }
+    },
+    {
+      "candidate_index": 308,
+      "name": "ardakaniahmadali-arch",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakaniahmadali-arch",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-01-28T07:27:01Z",
+        "updated_at": "2026-01-28T07:27:01Z",
+        "provider_url": "https://github.com/ardakaniahmadali-arch"
+      }
+    },
+    {
+      "candidate_index": 309,
+      "name": "Ardakaniali",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakaniali",
+        "display_name": "Ali",
+        "company": null,
+        "blog": null,
+        "location": "Islamic republic of Iran, Yazd, Ardakan",
+        "bio": "A video game lover from desert",
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2020-09-07T09:06:19Z",
+        "updated_at": "2020-09-07T09:11:29Z",
+        "provider_url": "https://github.com/Ardakaniali"
+      }
+    },
+    {
+      "candidate_index": 310,
+      "name": "ardakaniamirhossein1993",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakaniamirhossein1993",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-07-07T12:04:47Z",
+        "updated_at": "2026-07-07T12:04:47Z",
+        "provider_url": "https://github.com/ardakaniamirhossein1993"
+      }
+    },
+    {
+      "candidate_index": 311,
+      "name": "ardakanian",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanian",
+        "display_name": "Omid Ardakanian",
+        "company": "University of Alberta @sustainable-computing ",
+        "blog": "http://webdocs.cs.ualberta.ca/~oardakan/",
+        "location": null,
+        "bio": null,
+        "public_repos": 2,
+        "followers": 20,
+        "following": 0,
+        "created_at": "2018-04-17T18:27:22Z",
+        "updated_at": "2026-09-02T02:21:31Z",
+        "provider_url": "https://github.com/ardakanian"
+      }
+    },
+    {
+      "candidate_index": 312,
+      "name": "ardakanian-bidgely",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanian-bidgely",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-11-07T19:17:06Z",
+        "updated_at": "2026-01-13T21:38:03Z",
+        "provider_url": "https://github.com/ardakanian-bidgely"
+      }
+    },
+    {
+      "candidate_index": 313,
+      "name": "ardakanim",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanim",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 1,
+        "following": 0,
+        "created_at": "2019-06-22T04:57:11Z",
+        "updated_at": "2019-06-22T04:57:11Z",
+        "provider_url": "https://github.com/ardakanim"
+      }
+    },
+    {
+      "candidate_index": 314,
+      "name": "ardakanim50-lab",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanim50-lab",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-01-08T12:41:01Z",
+        "updated_at": "2026-01-08T12:41:01Z",
+        "provider_url": "https://github.com/ardakanim50-lab"
+      }
+    },
+    {
+      "candidate_index": 315,
+      "name": "ardakanimd",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanimd",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-11-27T15:21:05Z",
+        "updated_at": "2026-08-14T23:56:29Z",
+        "provider_url": "https://github.com/ardakanimd"
+      }
+    },
+    {
+      "candidate_index": 316,
+      "name": "ArdaKANIPEK",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ArdaKANIPEK",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-04-30T16:50:01Z",
+        "updated_at": "2025-04-30T16:50:08Z",
+        "provider_url": "https://github.com/ArdaKANIPEK"
+      }
+    },
+    {
+      "candidate_index": 317,
+      "name": "ardakanisaba",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanisaba",
+        "display_name": "Saba Ardakani",
+        "company": "Utah Sate University",
+        "blog": null,
+        "location": "United States",
+        "bio": "Graduate Research Assistant at Utah State University",
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-06-11T14:53:06Z",
+        "updated_at": "2026-05-18T17:11:08Z",
+        "provider_url": "https://github.com/ardakanisaba"
+      }
+    },
+    {
+      "candidate_index": 318,
+      "name": "Ardakaniz",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakaniz",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": "Orsay, France",
+        "bio": "Personal projects ;\r\n\r\nFor academic projects see @arenaudineau",
+        "public_repos": 12,
+        "followers": 27,
+        "following": 26,
+        "created_at": "2015-02-12T11:07:17Z",
+        "updated_at": "2026-07-25T14:13:50Z",
+        "provider_url": "https://github.com/Ardakaniz"
+      }
+    },
+    {
+      "candidate_index": 319,
+      "name": "ArdaKanka07",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ArdaKanka07",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2021-09-09T13:45:03Z",
+        "updated_at": "2021-10-29T11:36:52Z",
+        "provider_url": "https://github.com/ArdaKanka07"
+      }
+    },
+    {
+      "candidate_index": 320,
+      "name": "ardakankasra",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakankasra",
+        "display_name": "Kasra Ardakan",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "a front-end developer with 2 month of experience.\r\nbased in IRAN. i'm open to any kind of challenge to test my skill.\r\ni started programming cause i love it.",
+        "public_repos": 1,
+        "followers": 6,
+        "following": 12,
+        "created_at": "2024-11-27T18:50:13Z",
+        "updated_at": "2026-09-10T13:46:15Z",
+        "provider_url": "https://github.com/ardakankasra"
+      }
+    },
+    {
+      "candidate_index": 321,
+      "name": "Ardakann",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakann",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2021-01-17T15:16:10Z",
+        "updated_at": "2024-02-13T23:06:45Z",
+        "provider_url": "https://github.com/Ardakann"
+      }
+    },
+    {
+      "candidate_index": 322,
+      "name": "ardakansu",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakansu",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2022-06-01T13:07:35Z",
+        "updated_at": "2022-06-01T13:07:35Z",
+        "provider_url": "https://github.com/ardakansu"
+      }
+    },
+    {
+      "candidate_index": 323,
+      "name": "ardakantar",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantar",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-03-07T21:44:09Z",
+        "updated_at": "2023-04-10T01:43:49Z",
+        "provider_url": "https://github.com/ardakantar"
+      }
+    },
+    {
+      "candidate_index": 324,
+      "name": "ardakantarci",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantarci",
+        "display_name": "Arda Kantarcı",
+        "company": null,
+        "blog": null,
+        "location": "Turkey, İstanbul",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2017-02-26T19:15:46Z",
+        "updated_at": "2026-09-10T10:26:46Z",
+        "provider_url": "https://github.com/ardakantarci"
+      }
+    },
+    {
+      "candidate_index": 325,
+      "name": "ardakantes",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantes",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 2,
+        "followers": 1,
+        "following": 0,
+        "created_at": "2021-10-21T09:24:59Z",
+        "updated_at": "2026-09-12T06:21:21Z",
+        "provider_url": "https://github.com/ardakantes"
+      }
+    },
+    {
+      "candidate_index": 326,
+      "name": "ardakantrci",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantrci",
+        "display_name": "Arda Kantarcı",
+        "company": null,
+        "blog": null,
+        "location": "Istanbul,Turkey",
+        "bio": null,
+        "public_repos": 1,
+        "followers": 6,
+        "following": 4,
+        "created_at": "2017-06-04T13:04:33Z",
+        "updated_at": "2018-07-03T06:40:01Z",
+        "provider_url": "https://github.com/ardakantrci"
+      }
+    },
+    {
+      "candidate_index": 327,
+      "name": "ardakanzi",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanzi",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2022-12-26T23:43:54Z",
+        "updated_at": "2022-12-26T23:43:54Z",
+        "provider_url": "https://github.com/ardakanzi"
+      }
+    },
+    {
+      "candidate_index": 328,
+      "name": "Behinsomnia9",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Behinsomnia9",
+        "display_name": "Behrad Ardakani Khezrzadeh",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "I have been in love with computers since as far as I can remember!",
+        "public_repos": 6,
+        "followers": 0,
+        "following": 3,
+        "created_at": "2023-11-21T11:52:57Z",
+        "updated_at": "2026-05-30T14:57:51Z",
+        "provider_url": "https://github.com/Behinsomnia9"
+      }
+    },
+    {
+      "candidate_index": 329,
+      "name": "Darkshiira",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Darkshiira",
+        "display_name": "Hanna ArefiArdakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "Future Fullstackdeveloper, follow my journey to learn new things!",
+        "public_repos": 33,
+        "followers": 7,
+        "following": 15,
+        "created_at": "2021-12-16T06:03:06Z",
+        "updated_at": "2026-04-21T15:53:30Z",
+        "provider_url": "https://github.com/Darkshiira"
+      }
+    },
+    {
+      "candidate_index": 330,
+      "name": "Davari Ardakani Hamed",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 331,
+      "name": "Esmat Mirabzadeh",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 332,
+      "name": "farhaddashtia",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "farhaddashtia",
+        "display_name": "Farhad Dashti Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Vancouver, Canada",
+        "bio": "Software Engineer at Huawei Canada\r\nMASc in Electrical and Computer Engineering, UBC",
+        "public_repos": 9,
+        "followers": 7,
+        "following": 4,
+        "created_at": "2019-11-16T20:31:14Z",
+        "updated_at": "2024-06-07T20:57:44Z",
+        "provider_url": "https://github.com/farhaddashtia"
+      }
+    },
+    {
+      "candidate_index": 333,
+      "name": "Hamed",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Hamed-Aarabi",
+        "display_name": "Hamed",
+        "company": null,
+        "blog": null,
+        "location": "iran/yazd/ardakan",
+        "bio": "Backend developer.\r\nPython, Django",
+        "public_repos": 9,
+        "followers": 56,
+        "following": 66,
+        "created_at": "2022-07-07T13:07:07Z",
+        "updated_at": "2024-04-26T14:48:46Z",
+        "provider_url": "https://github.com/Hamed-Aarabi"
+      }
+    },
+    {
+      "candidate_index": 334,
+      "name": "Hamed Davari Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 335,
+      "name": "Hami-Hafezi",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Hami-Hafezi",
+        "display_name": "Hami Hafezi Ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 4,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-12-22T21:11:23Z",
+        "updated_at": "2026-07-02T12:38:41Z",
+        "provider_url": "https://github.com/Hami-Hafezi"
+      }
+    },
+    {
+      "candidate_index": 336,
+      "name": "Hamid R. Zare",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 337,
+      "name": "koushkoush",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "koushkoush",
+        "display_name": "kousha ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 2,
+        "followers": 0,
+        "following": 1,
+        "created_at": "2021-05-10T21:36:11Z",
+        "updated_at": "2025-09-02T21:50:22Z",
+        "provider_url": "https://github.com/koushkoush"
+      }
+    },
+    {
+      "candidate_index": 338,
+      "name": "mahsamajd",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "mahsamajd",
+        "display_name": "Mahsa Majdzadeh Ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "Graduate student @ UofSC",
+        "public_repos": 6,
+        "followers": 0,
+        "following": 5,
+        "created_at": "2022-10-01T19:18:24Z",
+        "updated_at": "2026-07-11T15:43:07Z",
+        "provider_url": "https://github.com/mahsamajd"
+      }
+    },
+    {
+      "candidate_index": 339,
+      "name": "Masoud Hafezi",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 340,
+      "name": "MohamadAli92",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "MohamadAli92",
+        "display_name": "Mohammad Ali KazemiArdakani",
+        "company": null,
+        "blog": null,
+        "location": "Houston, Texas, USA",
+        "bio": null,
+        "public_repos": 23,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2021-11-28T13:05:44Z",
+        "updated_at": "2026-08-24T16:23:00Z",
+        "provider_url": "https://github.com/MohamadAli92"
+      }
+    },
+    {
+      "candidate_index": 341,
+      "name": "Mohammad Reza Sobhan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 342,
+      "name": "mohammadnabia",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "mohammadnabia",
+        "display_name": "Mohammad Nabizade Ardakani",
+        "company": null,
+        "blog": "https://www.linkedin.com/in/mohammad-nabizade-ardakani/",
+        "location": "Iran",
+        "bio": "BS Computer engineering & M.Sc IT engineering (multimedia systems)\r\n",
+        "public_repos": 17,
+        "followers": 1191,
+        "following": 991,
+        "created_at": "2019-07-26T07:47:04Z",
+        "updated_at": "2026-08-15T14:11:07Z",
+        "provider_url": "https://github.com/mohammadnabia"
+      }
+    },
+    {
+      "candidate_index": 343,
+      "name": "mojtabasah",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "mojtabasah",
+        "display_name": "Mojtaba Sahraee-Ardakan",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "PhD ECE, MS Statistics, UCLA",
+        "public_repos": 2,
+        "followers": 3,
+        "following": 2,
+        "created_at": "2015-06-03T22:04:58Z",
+        "updated_at": "2024-07-25T06:37:07Z",
+        "provider_url": "https://github.com/mojtabasah"
+      }
+    },
+    {
+      "candidate_index": 344,
+      "name": "Negar Davari Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 345,
+      "name": "Parsa-Ardakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Parsa-Ardakani",
+        "display_name": "Parsa Alimohammadi Ardakani",
+        "company": null,
+        "blog": "@ParsaArdakani",
+        "location": null,
+        "bio": null,
+        "public_repos": 5,
+        "followers": 1,
+        "following": 2,
+        "created_at": "2020-08-05T05:21:08Z",
+        "updated_at": "2026-04-02T17:50:06Z",
+        "provider_url": "https://github.com/Parsa-Ardakani"
+      }
+    },
+    {
+      "candidate_index": 346,
+      "name": "pedramardakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "pedramardakani",
+        "display_name": "Pedram Ashofteh-Ardakani",
+        "company": null,
+        "blog": "https://pedramardakani.wordpress.com",
+        "location": null,
+        "bio": "Full-Stack Developer | Python, TypeScript and C | GNU contributor | Free Software Supporter\r\n",
+        "public_repos": 49,
+        "followers": 43,
+        "following": 20,
+        "created_at": "2016-08-02T15:51:41Z",
+        "updated_at": "2026-07-28T12:40:22Z",
+        "provider_url": "https://github.com/pedramardakani"
+      }
+    },
+    {
+      "candidate_index": 347,
+      "name": "Soheila Khodakarim",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 348,
+      "name": "Zahra Afkhami Ardakani",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Zahra121377",
+        "display_name": "Zahra Afkhami Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Iran, Yazd, Ardakan",
+        "bio": null,
+        "public_repos": 7,
+        "followers": 3,
+        "following": 2,
+        "created_at": "2023-05-22T14:56:26Z",
+        "updated_at": "2025-11-30T22:41:18Z",
+        "provider_url": "https://github.com/Zahra121377"
+      }
+    },
+    {
+      "candidate_index": 349,
+      "name": "Zahra121377",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Zahra121377",
+        "display_name": "Zahra Afkhami Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Iran, Yazd, Ardakan",
+        "bio": null,
+        "public_repos": 7,
+        "followers": 3,
+        "following": 2,
+        "created_at": "2023-05-22T14:56:26Z",
+        "updated_at": "2025-11-30T22:41:18Z",
+        "provider_url": "https://github.com/Zahra121377"
+      }
+    },
+    {
+      "candidate_index": 350,
+      "name": "بهروز فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 351,
+      "name": "ر. فرزان پی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 352,
+      "name": "علی فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 353,
+      "name": "فاطمه فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 354,
+      "name": "فرزام فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 355,
+      "name": "فرزان خطیب",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 356,
+      "name": "فرزان رشیدی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 357,
+      "name": "فرزان فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 358,
+      "name": "فرزان قالیچی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 359,
+      "name": "فرزان کیانارثی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 360,
+      "name": "فرهاد فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 361,
+      "name": "مجید فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 362,
+      "name": "منصوره فرزان مهر",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    },
+    {
+      "candidate_index": 363,
+      "name": "نسرین فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured"
+      }
+    }
+  ],
+  "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."
+}
