@@ -42,6 +42,28 @@ def add_node(nodes: dict, kind: str, label: str, **attrs) -> str | None:
     return nid
 
 
+def add_entity_node(nodes: dict, entity_id: str, label: str, **attrs) -> str:
+    nid = f"entity:{entity_id}"
+    nodes[nid] = {
+        "id": nid,
+        "type": "entity",
+        "label": clean(label) or entity_id,
+        "entity_id": entity_id,
+        **attrs,
+    }
+    return nid
+
+
+def normalize_location_label(value: str) -> str | None:
+    raw = clean(value)
+    low = raw.lower()
+    if not raw or low in {"ardakan signal", "اردکان signal"}:
+        return None
+    if ("ardakan" in low or "اردکان" in raw) and ("yazd" in low or "یزد" in raw):
+        return "Ardakan, Yazd, Iran"
+    return raw
+
+
 def main() -> None:
     data = json.loads(DATA.read_text(encoding="utf-8"))
     entity_layer = json.loads(ENTITIES.read_text(encoding="utf-8"))
@@ -74,16 +96,13 @@ def main() -> None:
         eid = entity.get("entity_id")
         if not eid:
             continue
-        entity_node = add_node(
+        entity_node = add_entity_node(
             nodes,
-            "entity",
+            eid,
             entity.get("primary_name") or eid,
-            entity_id=eid,
             record_count=entity.get("record_count", 1),
             identity_status=entity.get("identity_status"),
         )
-        if not entity_node:
-            continue
 
         indexes = [i for i in entity.get("candidate_indexes", []) if isinstance(i, int) and 0 <= i < len(people)]
 
@@ -92,7 +111,8 @@ def main() -> None:
             edge(entity_node, oid, "AFFILIATED_WITH", "canonical entity profile")
 
         for loc in entity.get("locations", []) or []:
-            lid = add_node(nodes, "location", loc)
+            loc_label = normalize_location_label(loc)
+            lid = add_node(nodes, "location", loc_label) if loc_label else None
             edge(entity_node, lid, "LOCATED_IN", "canonical entity profile")
 
         for src in entity.get("sources", []) or []:
@@ -120,7 +140,7 @@ def main() -> None:
                     oid = add_node(nodes, "organization", company)
                     edge(entity_node, oid, "AFFILIATED_WITH", f"external provider candidate {idx}")
 
-                ext_location = clean(ext_data.get("location"))
+                ext_location = normalize_location_label(ext_data.get("location"))
                 if ext_location:
                     lid = add_node(nodes, "location", ext_location)
                     edge(entity_node, lid, "LOCATED_IN", f"external provider candidate {idx}")
@@ -167,9 +187,17 @@ def main() -> None:
         nodes.values(),
         key=lambda x: (-x.get("degree", 0), x["type"], x["label"].lower())
     )
-    selected = {n["id"] for n in hub_nodes if n["type"] != "entity" and n.get("degree", 0) >= 2}
-    selected.update(n["id"] for n in hub_nodes if n["type"] == "entity" and n.get("degree", 0) >= 3)
-    selected = set(list(selected)[:90])
+    selected_order = []
+    selected_seen = set()
+    for n in hub_nodes:
+        include = (
+            (n["type"] != "entity" and n.get("degree", 0) >= 2)
+            or (n["type"] == "entity" and n.get("degree", 0) >= 3)
+        )
+        if include and n["id"] not in selected_seen:
+            selected_order.append(n["id"])
+            selected_seen.add(n["id"])
+    selected = set(selected_order[:90])
 
     preview_edges = [e for e in edges if e["source"] in selected and e["target"] in selected][:180]
     preview_node_ids = {x for e in preview_edges for x in (e["source"], e["target"])}
@@ -182,6 +210,7 @@ def main() -> None:
             "edges": len(edges),
             "connected_entities": sum(1 for n in nodes.values() if n["type"] == "entity" and n.get("degree", 0) > 0),
             "isolated_entities": sum(1 for n in nodes.values() if n["type"] == "entity" and n.get("degree", 0) == 0),
+            "canonical_entity_count": len(entity_layer.get("entities", [])),
             "node_types": dict(type_counts),
             "relations": dict(relation_counts),
         },
