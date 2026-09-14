@@ -122,6 +122,43 @@ def resolve_records(records:list[dict[str,Any]])->dict[str,Any]:
         if i not in used:entities.append({"entity_id":f"entity-{len(entities)+1:05d}","candidate_indexes":[i]})
     return {"input_count":len(records),"pair_count":len(pairs),"decision_counts":counts,"human_review_count":sum(p["human_review_required"] for p in pairs),"entities":entities,"pairs":pairs}
 
+def resolve_candidate_groups(records:list[dict[str,Any]], groups:list[dict[str,Any]])->dict[str,Any]:
+    pairs=[];counts={d:0 for d in ("SAME_PERSON","LIKELY_SAME_PERSON","UNCERTAIN","LIKELY_DIFFERENT_PERSON")}
+    seen=set()
+    for group in groups:
+        indexes=[i for i in group.get("candidate_indexes",[]) if isinstance(i,int) and 0<=i<len(records)]
+        for x in range(len(indexes)):
+            for y in range(x+1,len(indexes)):
+                i,j=indexes[x],indexes[y]
+                key=(min(i,j),max(i,j))
+                if key in seen:continue
+                seen.add(key)
+                result=compare_pair(records[i],records[j]);counts[result["decision"]]+=1
+                pairs.append({
+                    "candidate_a":i,
+                    "candidate_b":j,
+                    "name_a":records[i].get("name",""),
+                    "name_b":records[j].get("name",""),
+                    **result,
+                })
+    return {
+        "input_count":len(records),
+        "group_count":len(groups),
+        "pair_count":len(pairs),
+        "decision_counts":counts,
+        "human_review_count":sum(p["human_review_required"] for p in pairs),
+        "pairs":pairs,
+        "notice":"Derived identity suggestions only. No raw candidate records were merged.",
+    }
+
+def load_groups(path:Path)->list[dict[str,Any]]:
+    data=json.loads(path.read_text(encoding="utf-8"))
+    groups=[]
+    if isinstance(data,dict):
+        groups.extend(x for x in data.get("possible_duplicates",[]) if isinstance(x,dict))
+        groups.extend(x for x in data.get("possible_duplicate_variants",[]) if isinstance(x,dict))
+    return groups
+
 def load_records(path:Path)->list[dict[str,Any]]:
     data=json.loads(path.read_text(encoding="utf-8"))
     if isinstance(data,dict) and isinstance(data.get("people"),list):return data["people"]
@@ -129,5 +166,19 @@ def load_records(path:Path)->list[dict[str,Any]]:
     raise ValueError("Expected a list of candidate records or an object containing 'people'.")
 
 def main()->int:
-    p=argparse.ArgumentParser(prog="entity-resolution");p.add_argument("input",type=Path,nargs="?",default=Path("docs/data.json"));p.add_argument("--output",type=Path,default=Path("outputs/entity_resolution.json"));a=p.parse_args();records=load_records(a.input);result=resolve_records(records);a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding="utf-8");print(f"Candidates: {result['input_count']}");print(f"Pairs: {result['pair_count']}");print("Decisions:",result["decision_counts"]);print(f"Human review: {result['human_review_count']}");print(f"Entities: {len(result['entities'])}");return 0
+    p=argparse.ArgumentParser(prog="entity-resolution")
+    p.add_argument("input",type=Path,nargs="?",default=Path("docs/data.json"))
+    p.add_argument("--output",type=Path,default=Path("outputs/entity_resolution.json"))
+    p.add_argument("--groups-file",type=Path,default=None,help="Optional intelligence JSON containing duplicate groups")
+    a=p.parse_args()
+    records=load_records(a.input)
+    result=resolve_candidate_groups(records,load_groups(a.groups_file)) if a.groups_file else resolve_records(records)
+    a.output.parent.mkdir(parents=True,exist_ok=True)
+    a.output.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding="utf-8")
+    print(f"Candidates: {result['input_count']}")
+    print(f"Pairs: {result['pair_count']}")
+    print("Decisions:",result["decision_counts"])
+    print(f"Human review: {result['human_review_count']}")
+    if "entities" in result:print(f"Entities: {len(result['entities'])}")
+    return 0
 if __name__=="__main__":raise SystemExit(main())
