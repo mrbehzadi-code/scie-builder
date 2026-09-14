@@ -9,6 +9,7 @@ on:
       - 'engines/entity_resolution.py'
       - 'engine/profile_enrichment.py'
       - 'engine/external_enrichment.py'
+      - 'engine/entity_profiles.py'
       - '.github/workflows/intelligence.yml'
   workflow_run:
     workflows: ["SCIE Discovery Expansion", "SCIE Lead Guided Discovery"]
@@ -46,6 +47,9 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python engine/external_enrichment.py
 
+      - name: Build canonical entity layer
+        run: python engine/entity_profiles.py
+
       - name: Repair dashboard data loading
         run: |
           python - <<'PY'
@@ -67,7 +71,7 @@ jobs:
         run: |
           git config user.name 'scie-bot'
           git config user.email 'scie-bot@users.noreply.github.com'
-          git add docs/intelligence.json docs/entity_resolution.json docs/profile_enrichment.json docs/external_enrichment.json docs/index.html
+          git add docs/intelligence.json docs/entity_resolution.json docs/profile_enrichment.json docs/external_enrichment.json docs/entities.json docs/index.html
           if git diff --cached --quiet; then
             echo 'No changes.'
           else
