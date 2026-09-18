@@ -78,12 +78,10 @@ async function loadBuildMeta(){
 function buildMetrics(){
   const graph=KG.metrics||{},entities=ENT.metrics||{},intel=INT.metrics||{},external=EXT.metrics||{};
   const metrics=[
-    ['رکوردهای کاندیدا',people.length,'داده‌های کشف‌شده','◎','#2459c4'],
-    ['هویت‌های یکتا',entities.canonical_entities,'لایه هویت کانونی','◇','#7957c8'],
-    ['سازمان‌ها',graph.node_types?.organization??intel.organizations_detected,'گره سازمانی واقعی','▦','#15936d'],
-    ['گره‌های گراف',graph.nodes,'ساختار دانش','⌘','#168899'],
-    ['یال‌های گراف',graph.edges,'پیوند شواهد','↗','#d18a16'],
-    ['پروفایل غنی‌شده',external.enriched_total,'منبع خارجی زنده یا Cache','＋','#14785b']
+    ['نامزد شناسایی‌شده',people.length,'افراد و رکوردهای کاندیدا','♙','#2873e6'],
+    ['هویت یکتا',entities.canonical_entities,'پس از حل هویت کانونی','◉','#ed7417'],
+    ['سازمان شناسایی‌شده',graph.node_types?.organization??intel.organizations_detected,'گره‌های سازمانی واقعی','▥','#159c58'],
+    ['ارتباط در گراف دانش',graph.edges,'یال‌های شواهد ساختاریافته','⌘','#6c2cad']
   ];
   $('metrics').innerHTML=metrics.map(([title,value,sub,icon,color])=>`<article class="metric" style="--accent:${color}"><div class="metric-top"><div class="metric-value">${esc(valueOrDash(value))}</div><span class="metric-icon">${icon}</span></div><div class="metric-title">${esc(title)}</div><div class="metric-sub">${esc(sub)}</div></article>`).join('');
   const snapshot=formatSnapshot(snap.generated_at||INT.generated_at||ENT.generated_at);
@@ -207,6 +205,7 @@ function openTab(id){document.querySelectorAll('[data-tab]').forEach(button=>{co
 function bindEvents(){
   document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>openTab(button.dataset.tab)));
   document.querySelectorAll('[data-open-tab]').forEach(button=>button.addEventListener('click',()=>openTab(button.dataset.openTab)));
+  document.querySelectorAll('[data-query]').forEach(button=>button.addEventListener('click',()=>{$('q').value=button.dataset.query;q=button.dataset.query;saveSearch(q);page=1;render();$('list').scrollIntoView({block:'start',behavior:'smooth'})}));
   $('search').addEventListener('submit',event=>{event.preventDefault();q=$('q').value.trim();saveSearch(q);page=1;render();$('history').classList.remove('open')});
   $('q').addEventListener('focus',showHistory);$('q').addEventListener('input',showHistory);
   $('history').addEventListener('click',event=>{const item=event.target.closest('.hist');if(!item)return;$('q').value=item.textContent;q=item.textContent;page=1;render();$('history').classList.remove('open')});
