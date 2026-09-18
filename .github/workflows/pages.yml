@@ -260,6 +260,11 @@ jobs:
             await page.screenshot({ path: 'dashboard-desktop.png', fullPage: true });
             const desktopOverflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 2);
             if (desktopOverflow) throw new Error('Desktop page has unintended horizontal overflow');
+            for (const width of [1024, 768]) {
+              await page.setViewportSize({ width, height: 900 });
+              const responsiveOverflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 2);
+              if (responsiveOverflow) throw new Error(`${width}px page has unintended horizontal overflow`);
+            }
             await page.setViewportSize({ width: 390, height: 844 });
             await page.click('[data-tab="people"]');
             const mobileOverflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 2);
@@ -300,6 +305,7 @@ jobs:
               organizationsRendered: true,
               leadsRendered: true,
               screenshots: ['dashboard-desktop.png', 'dashboard-mobile.png'],
+              responsiveWidthsChecked: [1440, 1024, 768, 390],
               consoleErrors: seriousConsoleErrors.length,
               snapshotRequestFailures: snapshotFailures.length
             }, null, 2));
