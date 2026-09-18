@@ -230,7 +230,7 @@ jobs:
 
             await page.click('[data-tab="intelligence"]');
             const intelText = await page.locator('#intelligence').textContent();
-            if (!intelText.includes('کیفیت قوی') || !intelText.includes('تکرارهای احتمالی نیازمند بررسی') || !intelText.includes('دارای سازمان') || !intelText.includes('دارای مکان')) {
+            if (!intelText.includes('کیفیت قوی') || !intelText.includes('تکرارهای احتمالی') || !intelText.includes('نیازمند بررسی انسانی') || !intelText.includes('دارای سازمان') || !intelText.includes('دارای مکان')) {
               throw new Error('Intelligence quality/duplicate section is missing');
             }
             const canonicalRows = await page.locator('#canonical .entityrow').count();
