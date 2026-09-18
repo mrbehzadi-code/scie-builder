@@ -56,6 +56,19 @@ jobs:
               raise SystemExit('Refusing deployment: knowledge graph is empty or incomplete')
           html = Path('docs/index.html').read_text(encoding='utf-8')
           required = [
+              'id="updateBar"',
+              'id="buildPersian"',
+              'id="snapshotTop"',
+              'id="list"',
+              'class="no"',
+              'app.js',
+              'styles.css',
+          ]
+          missing = [x for x in required if x not in html]
+          if missing:
+              raise SystemExit('Refusing deployment: missing canonical dashboard components: ' + ', '.join(missing))
+          script = Path('docs/app.js').read_text(encoding='utf-8')
+          required_js = [
               'async function loadData()',
               'function render()',
               'function buildMetrics()',
@@ -63,22 +76,34 @@ jobs:
               'function buildOrgs()',
               'function leads()',
               'data.json',
-              'intelligence',
-              'id="list"',
-              'class="no"',
-              'SCIE_UX_V3_RECORD_NUMBERING',
+              'localStorage',
           ]
-          missing = [x for x in required if x not in html]
-          if missing:
-              raise SystemExit('Refusing deployment: missing canonical dashboard components: ' + ', '.join(missing))
-          scripts = re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>', html, flags=re.S)
-          if not scripts:
-              raise SystemExit('Refusing deployment: no inline dashboard script found')
-          Path('/tmp/dashboard.js').write_text('\n'.join(scripts), encoding='utf-8')
+          missing_js = [x for x in required_js if x not in script]
+          if missing_js:
+              raise SystemExit('Refusing deployment: missing dashboard behavior: ' + ', '.join(missing_js))
           print(f'Validated canonical dashboard: {len(people)} named records')
           print(f'Snapshot: {data["generated_at"]}')
           PY
-          node --check /tmp/dashboard.js
+          node --check docs/app.js
+      - name: Generate deployment metadata
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+          BUILD_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import json
+          import os
+          metadata = {
+              'deployed_at_utc': datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z'),
+              'commit_sha': os.environ['COMMIT_SHA'],
+              'build_id': os.environ['BUILD_ID'],
+              'source': 'github-actions',
+          }
+          Path('docs/build_meta.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(metadata, indent=2))
+          PY
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
@@ -110,8 +135,10 @@ jobs:
             let intelligenceStatus = null;
             let entityResolutionStatus = null;
             let profileEnrichmentStatus = null;
+            let externalEnrichmentStatus = null;
             let entitiesStatus = null;
             let knowledgeGraphStatus = null;
+            let buildMetaStatus = null;
 
             page.on('console', message => {
               if (message.type() === 'error') consoleErrors.push(message.text());
@@ -124,8 +151,10 @@ jobs:
               if (/\/intelligence\.json(?:\?|$)/.test(response.url())) intelligenceStatus = response.status();
               if (/\/entity_resolution\.json(?:\?|$)/.test(response.url())) entityResolutionStatus = response.status();
               if (/\/profile_enrichment\.json(?:\?|$)/.test(response.url())) profileEnrichmentStatus = response.status();
+              if (/\/external_enrichment\.json(?:\?|$)/.test(response.url())) externalEnrichmentStatus = response.status();
               if (/\/entities\.json(?:\?|$)/.test(response.url())) entitiesStatus = response.status();
               if (/\/knowledge_graph\.json(?:\?|$)/.test(response.url())) knowledgeGraphStatus = response.status();
+              if (/\/build_meta\.json(?:\?|$)/.test(response.url())) buildMetaStatus = response.status();
             });
 
             let loaded = false;
@@ -154,8 +183,16 @@ jobs:
             if (intelligenceStatus !== 200) throw new Error(`intelligence.json returned HTTP ${intelligenceStatus}`);
             if (entityResolutionStatus !== 200) throw new Error(`entity_resolution.json returned HTTP ${entityResolutionStatus}`);
             if (profileEnrichmentStatus !== 200) throw new Error(`profile_enrichment.json returned HTTP ${profileEnrichmentStatus}`);
+            if (externalEnrichmentStatus !== 200) throw new Error(`external_enrichment.json returned HTTP ${externalEnrichmentStatus}`);
             if (entitiesStatus !== 200) throw new Error(`entities.json returned HTTP ${entitiesStatus}`);
             if (knowledgeGraphStatus !== 200) throw new Error(`knowledge_graph.json returned HTTP ${knowledgeGraphStatus}`);
+            if (buildMetaStatus !== 200) throw new Error(`build_meta.json returned HTTP ${buildMetaStatus}`);
+
+            if (!(await page.locator('#updateBar').isVisible())) throw new Error('Top update bar is not visible');
+            const buildTimestamp = (await page.locator('#buildPersian').textContent()).trim();
+            if (!buildTimestamp || /دریافت|دسترس نیست/.test(buildTimestamp)) throw new Error(`Invalid dashboard build timestamp: ${buildTimestamp}`);
+            const snapshotTimestamp = (await page.locator('#snapshotTop').textContent()).trim();
+            if (!snapshotTimestamp || snapshotTimestamp === '—') throw new Error('Data snapshot timestamp is not visible');
 
             const qualityBadge = (await page.locator('#list .person .quality').first().textContent()).trim();
             if (!/^کیفیت \d+$/.test(qualityBadge)) throw new Error(`Quality badge missing or invalid: ${qualityBadge}`);
@@ -213,6 +250,22 @@ jobs:
             const graphHubRows = await page.locator('#network .hubrow').count();
             if (graphCircles < 10 || graphLines < 10 || graphHubRows < 5) throw new Error('Knowledge graph preview did not render');
 
+            await page.click('[data-tab="organizations"]');
+            if (await page.locator('#orgs .org-card').count() < 1) throw new Error('Organizations tab did not render');
+            await page.click('[data-tab="leads"]');
+            if (!(await page.locator('#save').isVisible())) throw new Error('Leads tab did not render');
+
+            await page.setViewportSize({ width: 1440, height: 1000 });
+            await page.click('[data-tab="people"]');
+            await page.screenshot({ path: 'dashboard-desktop.png', fullPage: true });
+            const desktopOverflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 2);
+            if (desktopOverflow) throw new Error('Desktop page has unintended horizontal overflow');
+            await page.setViewportSize({ width: 390, height: 844 });
+            await page.click('[data-tab="people"]');
+            const mobileOverflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 2);
+            if (mobileOverflow) throw new Error('Mobile page has unintended horizontal overflow');
+            await page.screenshot({ path: 'dashboard-mobile.png', fullPage: true });
+
             const seriousConsoleErrors = consoleErrors.filter(x => !/favicon/i.test(x));
             const snapshotFailures = failedRequests.filter(x => /data\.json|intelligence\.json/.test(x));
             if (seriousConsoleErrors.length) throw new Error('Console errors: ' + seriousConsoleErrors.join(' | '));
@@ -224,8 +277,12 @@ jobs:
               intelligenceStatus,
               entityResolutionStatus,
               profileEnrichmentStatus,
+              externalEnrichmentStatus,
               entitiesStatus,
               knowledgeGraphStatus,
+              buildMetaStatus,
+              buildTimestamp,
+              snapshotTimestamp,
               qualityBadge,
               profileBadge,
               pageOneRecords: snapshotCount,
@@ -240,6 +297,9 @@ jobs:
               graphHubRows,
               duplicateRows,
               resolutionRows,
+              organizationsRendered: true,
+              leadsRendered: true,
+              screenshots: ['dashboard-desktop.png', 'dashboard-mobile.png'],
               consoleErrors: seriousConsoleErrors.length,
               snapshotRequestFailures: snapshotFailures.length
             }, null, 2));
