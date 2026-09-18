@@ -117,7 +117,7 @@ function render(){
   filtered=people.filter(person=>(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat));
   const pages=Math.max(1,Math.ceil(filtered.length/PAGE));page=Math.min(Math.max(1,page),pages);
   const start=(page-1)*PAGE,rows=filtered.slice(start,start+PAGE);
-  $('count').textContent=`${filtered.length.toLocaleString('fa-IR')} رکورد`;
+  $('count').textContent=`${filtered.length} رکورد`;
   $('pageinfo').textContent=`صفحه ${page.toLocaleString('fa-IR')} از ${pages.toLocaleString('fa-IR')}`;
   $('prev').disabled=page===1;$('next').disabled=page===pages;
   if(!rows.length){$('list').innerHTML='<div class="empty-state"><strong>نتیجه‌ای پیدا نشد</strong><small>عبارت جستجو یا فیلترها را تغییر دهید.</small><button type="button" class="button subtle" data-empty-reset>نمایش همه رکوردها</button></div>';return}
