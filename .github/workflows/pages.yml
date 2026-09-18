@@ -60,7 +60,6 @@ jobs:
               'id="buildPersian"',
               'id="snapshotTop"',
               'id="list"',
-              'class="no"',
               'app.js',
               'styles.css',
           ]
@@ -77,6 +76,7 @@ jobs:
               'function leads()',
               'data.json',
               'localStorage',
+              'class="no"',
           ]
           missing_js = [x for x in required_js if x not in script]
           if missing_js:
