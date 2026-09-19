@@ -205,6 +205,7 @@ function openTab(id){document.querySelectorAll('[data-tab]').forEach(button=>{co
 function bindEvents(){
   document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>openTab(button.dataset.tab)));
   document.querySelectorAll('[data-open-tab]').forEach(button=>button.addEventListener('click',()=>openTab(button.dataset.openTab)));
+  $('heroFilters').addEventListener('click',()=>{document.querySelector('.filters')?.scrollIntoView({block:'center',behavior:'smooth'});$('source').focus()});
   document.querySelectorAll('[data-query]').forEach(button=>button.addEventListener('click',()=>{$('q').value=button.dataset.query;q=button.dataset.query;saveSearch(q);page=1;render();$('list').scrollIntoView({block:'start',behavior:'smooth'})}));
   $('search').addEventListener('submit',event=>{event.preventDefault();q=$('q').value.trim();saveSearch(q);page=1;render();$('history').classList.remove('open')});
   $('q').addEventListener('focus',showHistory);$('q').addEventListener('input',showHistory);

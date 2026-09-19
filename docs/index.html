@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="poster.css">
 </head>
 <body>
   <div class="update-bar" id="updateBar" role="status" aria-live="polite">
@@ -40,6 +41,7 @@
         <label class="sr-only" for="q">جستجو در اطلس</label>
         <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg>
         <input id="q" autocomplete="off" placeholder="جستجو در افراد، سازمان‌ها، تخصص‌ها، مکان‌ها و شواهد…">
+        <button type="button" id="heroFilters" class="button hero-filter">فیلترها <span aria-hidden="true">▽</span></button>
         <button type="submit" class="button primary">جستجو</button>
         <div id="history" class="history" aria-label="تاریخچه جستجو"></div>
       </form>
