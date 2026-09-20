@@ -5,6 +5,25 @@ const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichme
 let people=[],filtered=[],page=1,q='',src='all',cat='all',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},BUILD={};
 const $=id=>document.getElementById(id);
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const FA_DIGITS='۰۱۲۳۴۵۶۷۸۹';
+const faDigits=value=>String(value??'').replace(/[0-9]/g,digit=>FA_DIGITS[digit]);
+function localizeVisibleDigits(root=document.body){
+  if(!root)return;
+  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:node=>{
+    const parent=node.parentElement;
+    return parent&&!['SCRIPT','STYLE','NOSCRIPT'].includes(parent.tagName)&&/[0-9]/.test(node.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+  }});
+  const nodes=[];
+  while(walker.nextNode())nodes.push(walker.currentNode);
+  nodes.forEach(node=>{node.nodeValue=faDigits(node.nodeValue)});
+}
+function installPersianDigitRendering(){
+  localizeVisibleDigits();
+  new MutationObserver(mutations=>mutations.forEach(mutation=>{
+    if(mutation.type==='characterData')localizeVisibleDigits(mutation.target.parentElement);
+    mutation.addedNodes.forEach(node=>localizeVisibleDigits(node.nodeType===Node.TEXT_NODE?node.parentElement:node));
+  })).observe(document.body,{subtree:true,childList:true,characterData:true});
+}
 const readLocalArray=key=>{try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[]}catch{return[]}};
 const valueOrDash=value=>value===undefined||value===null||value===''?'—':value;
 
@@ -218,7 +237,7 @@ function bindEvents(){
 }
 
 async function boot(){
-  bindEvents();loadBuildMeta();
+  installPersianDigitRendering();bindEvents();loadBuildMeta();
   try{
     await loadData();
     const layerState=await loadLayers();

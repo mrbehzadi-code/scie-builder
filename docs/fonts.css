@@ -1,0 +1,11 @@
+@font-face{font-family:"Vazirmatn";src:url("assets/fonts/Vazirmatn-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F,U+202A-202E}
+@font-face{font-family:"Vazirmatn";src:url("assets/fonts/Vazirmatn-Bold.woff2") format("woff2");font-style:normal;font-weight:700;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F,U+202A-202E}
+@font-face{font-family:"Vazirmatn";src:url("assets/fonts/Vazirmatn-ExtraBold.woff2") format("woff2");font-style:normal;font-weight:800 900;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F,U+202A-202E}
+@font-face{font-family:"Inter";src:url("assets/fonts/InterVariable.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
+:root{--font-fa:"Vazirmatn","Inter",Tahoma,"Segoe UI",sans-serif;--font-en:"Inter","Segoe UI",Arial,sans-serif}
+html,body,button,input,select,textarea{font-family:var(--font-fa);font-variant-numeric:tabular-nums}
+:lang(en),[lang="en"],[dir="ltr"],.latin,.hero-logo,.commit,#buildGregorian{font-family:var(--font-en)}
+.hero-logo strong,.hero-logo span{font-family:var(--font-en)!important}
+.hero h1,.section-head h2,.section-head h3,.page-heading h2,.name{font-family:var(--font-fa);font-weight:800}
+.metric-value,.analysis-card .big,.no,.result-count,.status-row b,.org-stats,.pagination{font-family:var(--font-fa);font-weight:800;font-variant-numeric:tabular-nums}
+.update-bar,.search,.tabs,.metric-title,.metric-sub,.people-list,.sidebar,.drawer,footer{font-family:var(--font-fa)}
