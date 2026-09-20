@@ -194,17 +194,18 @@ jobs:
             const snapshotTimestamp = (await page.locator('#snapshotTop').textContent()).trim();
             if (!snapshotTimestamp || snapshotTimestamp === '—') throw new Error('Data snapshot timestamp is not visible');
 
+            const parseFaNumber = text => Number((text.match(/[۰-۹]+/)?.[0] || '').replace(/[۰-۹]/g, digit => '۰۱۲۳۴۵۶۷۸۹'.indexOf(digit)));
             const qualityBadge = (await page.locator('#list .person .quality').first().textContent()).trim();
-            if (!/^کیفیت \d+$/.test(qualityBadge)) throw new Error(`Quality badge missing or invalid: ${qualityBadge}`);
+            if (!/^کیفیت [۰-۹]+$/.test(qualityBadge)) throw new Error(`Quality badge missing or invalid: ${qualityBadge}`);
             const profileBadge = (await page.locator('#list .person .complete').first().textContent()).trim();
-            if (!/^پروفایل \d+٪$/.test(profileBadge)) throw new Error(`Profile badge missing or invalid: ${profileBadge}`);
+            if (!/^پروفایل [۰-۹]+٪$/.test(profileBadge)) throw new Error(`Profile badge missing or invalid: ${profileBadge}`);
 
             const firstName = (await page.locator('#list .person .name').first().textContent()).trim();
             if (!firstName || firstName === 'بدون نام') throw new Error('First record has no real name');
 
             await page.click('#next');
             const pageTwoNumber = (await page.locator('#list .person .no').first().textContent()).trim();
-            if (pageTwoNumber !== '26') throw new Error(`Page 2 starts at ${pageTwoNumber}, expected 26`);
+            if (pageTwoNumber !== '۲۶') throw new Error(`Page 2 starts at ${pageTwoNumber}, expected ۲۶`);
 
             await page.fill('#q', 'A Firozabadi Ardakan');
             await page.locator('#search').evaluate(form => form.requestSubmit());
@@ -213,9 +214,9 @@ jobs:
             if (searchName !== 'A Firozabadi Ardakan') throw new Error(`Search returned ${searchName}`);
 
             await page.click('#reset');
-            const beforeFilter = Number((await page.locator('#count').textContent()).match(/\d+/)?.[0]);
+            const beforeFilter = parseFaNumber(await page.locator('#count').textContent());
             await page.selectOption('#source', 'GitHub Discovery');
-            const afterFilter = Number((await page.locator('#count').textContent()).match(/\d+/)?.[0]);
+            const afterFilter = parseFaNumber(await page.locator('#count').textContent());
             if (!(afterFilter > 0 && afterFilter < beforeFilter)) {
               throw new Error(`Source filter did not narrow results: ${beforeFilter} -> ${afterFilter}`);
             }
