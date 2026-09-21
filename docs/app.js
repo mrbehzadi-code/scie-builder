@@ -222,9 +222,21 @@ function buildOrgs(){
   $('orgs').innerHTML=rows.length?rows.map(([name,data])=>`<article class="org-card"><h3>${esc(name)}</h3><div class="org-stats"><span>${data.count.toLocaleString('fa-IR')} هویت پیوندخورده</span><span>${data.sources.size.toLocaleString('fa-IR')} منبع</span>${hubDegrees.has(name)?`<span>درجه اتصال ${esc(hubDegrees.get(name))}</span>`:''}</div></article>`).join(''):'<div class="empty-state"><strong>اطلاعات سازمانی موجود نیست</strong></div>';
 }
 
-function leads(){
-  const key='scie_leads',read=()=>readLocalArray(key),draw=()=>{$('leadHistory').innerHTML=read().map(item=>`<div class="lead-item"><strong>${esc(item.type)} · ${esc(item.value)}</strong><small>${esc(item.location||'بدون مکان')} · ${new Date(item.at).toLocaleDateString('fa-IR')}</small>${item.note?`<small>${esc(item.note)}</small>`:''}</div>`).join('')||'<div class="empty-state"><strong>هنوز سرنخی ثبت نشده است</strong><small>اولین سرنخ شما در همین مرورگر ذخیره می‌شود.</small></div>'};
-  $('save').addEventListener('click',()=>{const item={type:$('lt').value,value:$('lv').value.trim(),location:$('ll').value.trim(),note:$('ln').value.trim(),at:new Date().toISOString()};if(!item.value){$('leadStatus').textContent='مقدار سرنخ را وارد کنید';return}const items=read();items.unshift(item);localStorage.setItem(key,JSON.stringify(items.slice(0,100)));$('leadStatus').textContent='سرنخ در مرورگر ذخیره شد';$('lv').value='';$('ln').value='';draw()});
+async function leads(){
+  const key='scie_leads',read=()=>readLocalArray(key),typeMap={'نام یا فرد':'person','فامیلی':'surname','نشانی / محله':'address','سازمان / شرکت':'organization','تخصص / حوزه':'expertise','سرنخ آزاد':'free'};
+  const remote=await loadJSON('lead_runs.json').catch(()=>({runs:[]}));
+  const findRun=item=>[...(remote.runs||[])].reverse().find(run=>String(run.value||'').trim().toLocaleLowerCase('fa')===String(item.value||'').trim().toLocaleLowerCase('fa'));
+  const draw=()=>{$('leadHistory').innerHTML=read().map(item=>{const run=findRun(item),done=run?.status==='completed';return `<div class="lead-item"><div class="lead-item-head"><strong>${esc(item.type_label||item.type)} · ${esc(item.value)}</strong><span class="lead-state ${done?'done':'pending'}">${done?'پردازش‌شده':'در انتظار ارسال/پردازش'}</span></div><small>${esc(item.location||'بدون مکان')} · ${new Date(item.at||item.created_at).toLocaleDateString('fa-IR')}</small>${done?`<small class="lead-result">${esc(run.new_records||0)} نامزد جدید به فهرست افزوده شد</small>`:''}${item.note?`<small>${esc(item.note)}</small>`:''}${item.issue_url&&!done?`<a class="lead-link" href="${esc(item.issue_url)}" target="_blank" rel="noopener">ادامهٔ ارسال در GitHub ↗</a>`:''}</div>`}).join('')||'<div class="empty-state"><strong>هنوز سرنخی ثبت نشده است</strong><small>سرنخ نخست را برای جستجو و اعتبارسنجی ارسال کنید.</small></div>'};
+  $('save').addEventListener('click',()=>{
+    const label=$('lt').value,value=$('lv').value.trim(),location=$('ll').value.trim(),note=$('ln').value.trim(),at=new Date().toISOString();
+    if(!value){$('leadStatus').textContent='مقدار سرنخ را وارد کنید';return}
+    const payload={id:Date.now(),type:typeMap[label]||'free',type_label:label,value,location,note,created_at:at};
+    const body=`سرنخ انسانی ثبت‌شده برای خط لولهٔ کشف SCIE.\n\n<!--SCIE_LEAD\n${JSON.stringify(payload,null,2)}\nSCIE_LEAD-->\n\n- نوع: ${label}\n- مقدار: ${value}\n- مکان: ${location||'ثبت نشده'}\n- انتظار: جستجو، اعتبارسنجی و افزودن نامزدهای جدید به Snapshot داشبورد`;
+    const issueUrl=`https://github.com/mrbehzadi-code/scie-builder/issues/new?title=${encodeURIComponent(`[SCIE LEAD] ${value}`)}&body=${encodeURIComponent(body)}`;
+    const item={...payload,type:label,at,issue_url:issueUrl,status:'awaiting_submission'},items=read().filter(old=>old.value!==value);items.unshift(item);localStorage.setItem(key,JSON.stringify(items.slice(0,100)));
+    $('leadStatus').innerHTML='صفحهٔ ارسال باز شد؛ برای شروع پردازش، دکمهٔ <b>Submit new issue</b> را بزنید.';
+    window.open(issueUrl,'_blank','noopener');$('lv').value='';$('ln').value='';draw();
+  });
   $('export').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(read(),null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),anchor=document.createElement('a');anchor.href=url;anchor.download='scie-leads.json';anchor.click();URL.revokeObjectURL(url)});draw();
 }
 
@@ -256,7 +268,7 @@ async function boot(){
   try{
     await loadData();
     const layerState=await loadLayers();
-    applyIntelligence();buildMetrics();statusRows(layerState);setupFilters();buildIntel();renderKnowledgeGraph();buildOrgs();leads();render();
+    applyIntelligence();buildMetrics();statusRows(layerState);setupFilters();buildIntel();renderKnowledgeGraph();buildOrgs();await leads();render();
     $('state').className='hero-state ready';$('state').innerHTML=`<span class="pulse"></span>Snapshot فعال · ${people.length.toLocaleString('fa-IR')} رکورد واقعی`;
   }catch(error){
     console.error(error);$('state').className='hero-state error';$('state').textContent='خطا در دریافت Snapshot';$('list').innerHTML=`<div class="error-state"><strong>بارگذاری داده‌های اصلی شکست خورد</strong><small>${esc(error.message)}</small><button class="button subtle" type="button" onclick="location.reload()">تلاش دوباره</button></div>`;$('count').textContent='داده بارگذاری نشد';
