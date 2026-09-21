@@ -27,9 +27,10 @@ function installPersianDigitRendering(){
 const readLocalArray=key=>{try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[]}catch{return[]}};
 const valueOrDash=value=>value===undefined||value===null||value===''?'—':value;
 
-async function loadJSON(path,{fallback=true}={}){
-  const urls=[new URL(path,location.href)];
-  if(fallback)urls.push(new URL(`https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/${path}`));
+async function loadJSON(path,{fallback=true,preferRaw=false}={}){
+  const local=new URL(path,location.href),raw=new URL(`https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/${path}`);
+  const urls=preferRaw?[raw,local]:[local];
+  if(fallback&&!preferRaw)urls.push(raw);
   const errors=[];
   for(const url of urls){
     try{url.searchParams.set('v',Date.now());const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw Error(`HTTP ${response.status}`);return await response.json()}
@@ -39,7 +40,7 @@ async function loadJSON(path,{fallback=true}={}){
 }
 
 async function loadData(){
-  const raw=await loadJSON('data.json');
+  const raw=await loadJSON('data.json',{preferRaw:true});
   snap=raw&&raw.content?JSON.parse(raw.content):raw;
   people=Array.isArray(snap.people)?snap.people:Array.isArray(snap.records)?snap.records:Array.isArray(snap)?snap:[];
   if(!people.length)throw Error('Snapshot بدون رکورد است');
@@ -47,7 +48,7 @@ async function loadData(){
 
 async function loadLayers(){
   const targets=[['INT','intelligence.json'],['ER','entity_resolution.json'],['PROFILE','profile_enrichment.json'],['EXT','external_enrichment.json'],['ENT','entities.json'],['KG','knowledge_graph.json']];
-  const results=await Promise.allSettled(targets.map(([,file])=>loadJSON(file)));
+  const results=await Promise.allSettled(targets.map(([,file])=>loadJSON(file,{preferRaw:true})));
   const state={};
   results.forEach((result,index)=>{const [name,file]=targets[index];if(result.status==='fulfilled'){({INT,ER,PROFILE,EXT,ENT,KG}={INT,ER,PROFILE,EXT,ENT,KG,[name]:result.value});state[file]=true}else{console.warn(`${file} unavailable:`,result.reason);state[file]=false}});
   return state;
@@ -172,18 +173,7 @@ function openDetail(person){
   const externalOrganizations=Array.isArray(external.institutions)?external.institutions.join('، '):Array.isArray(external.last_known_institutions)?external.last_known_institutions.map(item=>item?.name).filter(Boolean).join('، '):external.company||'';
   const topics=Array.isArray(external.topics)?external.topics.map(item=>item?.name).filter(Boolean).join('، '):'';
   $('dname').textContent=person.name||'بدون نام';
-  $('dsummary').innerHTML=[`<span class="badge">${esc(person.type||'کاندیدا')}</span>`,quality.evidence_strength?`<span class="badge quality ${esc(quality.evidence_strength)}">کیفیت ${esc(quality.score)}</span>`:'',profile.profile_completeness!==undefined?`<span class="badge complete">پروفایل ${esc(profile.profile_completeness)}٪</span>`:''].join('');
-  $('dmeta').innerHTML=[
-    detailSection('هویت',[field('نام',person.name),field('نوع / ظرفیت',person.type),field('منبع',person.source),field('ارائه‌دهنده',profile.provider),field('وضعیت هویت',quality.verification||person.verification||entity.identity_status)]),
-    detailSection('سازمان و مکان',[field('سازمان',profile.organization||person.affiliation||person.organization),field('مکان',location.raw||person.location),field('سازمان در منبع خارجی',externalOrganizations),field('مکان در منبع خارجی',external.location)]),
-    detailSection('کیفیت شواهد',[field('کیفیت شواهد',quality.score!==undefined?`${quality.score} / 100 · ${quality.evidence_strength}`:''),field('کامل بودن پروفایل',profile.profile_completeness!==undefined?`${profile.profile_completeness}٪`:''),field('تعداد آثار علمی',profile.work_count??external.works_count),field('استنادها',external.cited_by_count)]),
-    detailSection('شناسه‌ها',[fieldAlways('Entity ID',person._entity_id),fieldAlways('OpenAlex ID',ids.openalex_id),fieldAlways('GitHub username',ids.github_username||external.login),fieldAlways('ORCID',ids.orcid||external.orcid),field('تعداد رکورد در هویت',entity.record_count)]),
-    detailSection('غنی‌سازی',[field('وضعیت داده تکمیلی',person._external?.status==='enriched'?(external.cached?'Cache معتبر':'Live provider'):''),field('نام در منبع',external.display_name),field('حوزه‌ها',topics),field('مخازن عمومی',external.public_repos),field('به‌روزرسانی منبع',external.updated_at)]),
-    detailSection('جزئیات',[field('شرح',person.detail),field('فیلدهای ناقص',(profile.missing_fields||[]).join('، '))])
-  ].join('');
-  $('devidence').innerHTML=(person.evidence||[]).map(item=>`<span>${esc(item)}</span>`).join('');
-  const url=person.url||person.source_url;$('durl').hidden=!url;$('durl').href=url||'#';
-  $('detail').hidden=false;document.body.classList.add('modal-open');$('close').focus();
+  $('dsummary').innerHTML=[`<span class="badge">${esc(person.type||'کاندیدا')}</span>`,quality.evidence_strength?`<span class="badge quality ${esc(quality.evidence_strength)}">کیفیت ${esc(quality.score)}</span>`:'',profile.profile_compl�m�G����ƭy�lassList.add('modal-open');$('close').focus();
 }
 function closeDetail(){$('detail').hidden=true;document.body.classList.remove('modal-open')}
 
@@ -224,9 +214,9 @@ function buildOrgs(){
 
 async function leads(){
   const key='scie_leads',read=()=>readLocalArray(key),typeMap={'نام یا فرد':'person','فامیلی':'surname','نشانی / محله':'address','سازمان / شرکت':'organization','تخصص / حوزه':'expertise','سرنخ آزاد':'free'};
-  const remote=await loadJSON('lead_runs.json').catch(()=>({runs:[]}));
+  const remote=await loadJSON('lead_runs.json',{preferRaw:true}).catch(()=>({runs:[]}));
   const findRun=item=>[...(remote.runs||[])].reverse().find(run=>String(run.value||'').trim().toLocaleLowerCase('fa')===String(item.value||'').trim().toLocaleLowerCase('fa'));
-  const draw=()=>{$('leadHistory').innerHTML=read().map(item=>{const run=findRun(item),done=run?.status==='completed';return `<div class="lead-item"><div class="lead-item-head"><strong>${esc(item.type_label||item.type)} · ${esc(item.value)}</strong><span class="lead-state ${done?'done':'pending'}">${done?'پردازش‌شده':'در انتظار ارسال/پردازش'}</span></div><small>${esc(item.location||'بدون مکان')} · ${new Date(item.at||item.created_at).toLocaleDateString('fa-IR')}</small>${done?`<small class="lead-result">${esc(run.new_records||0)} نامزد جدید به فهرست افزوده شد</small>`:''}${item.note?`<small>${esc(item.note)}</small>`:''}${item.issue_url&&!done?`<a class="lead-link" href="${esc(item.issue_url)}" target="_blank" rel="noopener">ادامهٔ ارسال در GitHub ↗</a>`:''}</div>`}).join('')||'<div class="empty-state"><strong>هنوز سرنخی ثبت نشده است</strong><small>سرنخ نخست را برای جستجو و اعتبارسنجی ارسال کنید.</small></div>'};
+  const draw=()=>{$('leadHistory').innerHTML=read().map(item=>{const run=findRun(item),done=run?.status==='completed',added=Number(run?.new_records||0);return `<div class="lead-item"><div class="lead-item-head"><strong>${esc(item.type_label||item.type)} · ${esc(item.value)}</strong><span class="lead-state ${done?'done':'pending'}">${done?'تکمیل‌شده':'در انتظار ارسال/پردازش'}</span></div><small>${esc(item.location||'بدون مکان')} · ${new Date(item.at||item.created_at).toLocaleDateString('fa-IR')}</small>${done?`<small class="lead-result">${added?`${esc(added)} نامزد جدید به فهرست افزوده شد`:'پردازش کامل شد؛ نتیجهٔ تازه‌ای پیدا نشد'}</small>`:''}${item.note?`<small>${esc(item.note)}</small>`:''}${item.issue_url&&!done?`<a class="lead-link" href="${esc(item.issue_url)}" target="_blank" rel="noopener">ادامهٔ ارسال در GitHub ↗</a>`:''}</div>`}).join('')||'<div class="empty-state"><strong>هنوز سرنخی ثبت نشده است</strong><small>سرنخ نخست را برای جستجو و اعتبارسنجی ارسال کنید.</small></div>'};
   $('save').addEventListener('click',()=>{
     const label=$('lt').value,value=$('lv').value.trim(),location=$('ll').value.trim(),note=$('ln').value.trim(),at=new Date().toISOString();
     if(!value){$('leadStatus').textContent='مقدار سرنخ را وارد کنید';return}
