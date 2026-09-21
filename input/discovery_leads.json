@@ -66,6 +66,17 @@
       "created_at": "2026-09-21T06:36:01.302Z",
       "issue_number": 18,
       "submitted_at": "2026-09-21T06:36:56Z"
+    },
+    {
+      "id": 1789980118396,
+      "type": "person",
+      "type_label": "نام یا فرد",
+      "value": "سید ولی الله فاطمی",
+      "location": "",
+      "note": "",
+      "created_at": "2026-09-21T08:41:58.396Z",
+      "issue_number": 19,
+      "submitted_at": "2026-09-21T08:42:11Z"
     }
   ]
 }

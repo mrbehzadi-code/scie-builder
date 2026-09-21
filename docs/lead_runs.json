@@ -51,6 +51,15 @@
       "new_records": 0,
       "pool_size": 370,
       "completed_at": "2026-09-21T06:36:58Z"
+    },
+    {
+      "lead_id": 1789980118396,
+      "issue_number": 19,
+      "value": "سید ولی الله فاطمی",
+      "status": "completed",
+      "new_records": 0,
+      "pool_size": 370,
+      "completed_at": "2026-09-21T08:42:13Z"
     }
   ]
 }
