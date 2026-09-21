@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-11",
-  "candidate_count": 364,
+  "generated_at": "2026-09-21",
+  "candidate_count": 369,
   "metrics": {
     "with_organization": 157,
-    "with_location": 75,
-    "with_stable_source_id": 364,
-    "ardakan_location_signal": 75,
+    "with_location": 80,
+    "with_stable_source_id": 369,
+    "ardakan_location_signal": 80,
     "completeness_high": 157,
-    "completeness_medium": 207,
+    "completeness_medium": 212,
     "completeness_low": 0
   },
   "providers": {
-    "OpenAlex": 303,
+    "OpenAlex": 308,
     "GitHub": 61
   },
   "profiles": [
@@ -14562,6 +14562,206 @@
       "evidence": [
         "lead: فرزان",
         "query: فرزان"
+      ],
+      "evidence_count": 2,
+      "quality_score": 58,
+      "evidence_strength": "medium",
+      "profile_completeness": 67,
+      "available_fields": [
+        "location",
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 364,
+      "name": "محمدرضا بهزادی مقدم بهزادی مقدم",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5072281142",
+      "identifiers": {
+        "openalex_id": "A5072281142",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "lead: بهزادی مقدم",
+        "query: بهزادی مقدم"
+      ],
+      "evidence_count": 2,
+      "quality_score": 58,
+      "evidence_strength": "medium",
+      "profile_completeness": 67,
+      "available_fields": [
+        "location",
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 365,
+      "name": "محمدرضا بهزادی مقدم",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5005453633",
+      "identifiers": {
+        "openalex_id": "A5005453633",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "lead: بهزادی مقدم",
+        "query: بهزادی مقدم"
+      ],
+      "evidence_count": 2,
+      "quality_score": 58,
+      "evidence_strength": "medium",
+      "profile_completeness": 67,
+      "available_fields": [
+        "location",
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 366,
+      "name": "نرجس بهزادی مقدم",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5012412146",
+      "identifiers": {
+        "openalex_id": "A5012412146",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "lead: بهزادی مقدم",
+        "query: بهزادی مقدم"
+      ],
+      "evidence_count": 2,
+      "quality_score": 58,
+      "evidence_strength": "medium",
+      "profile_completeness": 67,
+      "available_fields": [
+        "location",
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 367,
+      "name": "مرجان بهزادی مقدم",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5024995456",
+      "identifiers": {
+        "openalex_id": "A5024995456",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "lead: بهزادی مقدم",
+        "query: بهزادی مقدم"
+      ],
+      "evidence_count": 2,
+      "quality_score": 58,
+      "evidence_strength": "medium",
+      "profile_completeness": 67,
+      "available_fields": [
+        "location",
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 368,
+      "name": "ملیحه بهزادی مقدم",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5049435767",
+      "identifiers": {
+        "openalex_id": "A5049435767",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "lead: بهزادی مقدم",
+        "query: بهزادی مقدم"
       ],
       "evidence_count": 2,
       "quality_score": 58,

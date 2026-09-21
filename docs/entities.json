@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11",
+  "generated_at": "2026-09-21",
   "metrics": {
-    "candidate_records": 364,
-    "canonical_entities": 361,
+    "candidate_records": 369,
+    "canonical_entities": 366,
     "records_collapsed": 3,
     "same_person_pairs_applied": 3,
     "multi_record_entities": 3,
@@ -372,7 +372,12 @@
     "360": "scie-entity-00358",
     "361": "scie-entity-00359",
     "362": "scie-entity-00360",
-    "363": "scie-entity-00361"
+    "363": "scie-entity-00361",
+    "364": "scie-entity-00362",
+    "365": "scie-entity-00363",
+    "366": "scie-entity-00364",
+    "367": "scie-entity-00365",
+    "368": "scie-entity-00366"
   },
   "entities": [
     {
@@ -11385,6 +11390,161 @@
       "identifiers": {
         "openalex_ids": [
           "A5051575008"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00362",
+      "candidate_indexes": [
+        364
+      ],
+      "record_count": 1,
+      "primary_name": "محمدرضا بهزادی مقدم بهزادی مقدم",
+      "aliases": [
+        "محمدرضا بهزادی مقدم بهزادی مقدم"
+      ],
+      "sources": [
+        "Lead-guided OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5072281142"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان"
+      ],
+      "identifiers": {
+        "openalex_ids": [
+          "A5072281142"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00363",
+      "candidate_indexes": [
+        365
+      ],
+      "record_count": 1,
+      "primary_name": "محمدرضا بهزادی مقدم",
+      "aliases": [
+        "محمدرضا بهزادی مقدم"
+      ],
+      "sources": [
+        "Lead-guided OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5005453633"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان"
+      ],
+      "identifiers": {
+        "openalex_ids": [
+          "A5005453633"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00364",
+      "candidate_indexes": [
+        366
+      ],
+      "record_count": 1,
+      "primary_name": "نرجس بهزادی مقدم",
+      "aliases": [
+        "نرجس بهزادی مقدم"
+      ],
+      "sources": [
+        "Lead-guided OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5012412146"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان"
+      ],
+      "identifiers": {
+        "openalex_ids": [
+          "A5012412146"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00365",
+      "candidate_indexes": [
+        367
+      ],
+      "record_count": 1,
+      "primary_name": "مرجان بهزادی مقدم",
+      "aliases": [
+        "مرجان بهزادی مقدم"
+      ],
+      "sources": [
+        "Lead-guided OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5024995456"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان"
+      ],
+      "identifiers": {
+        "openalex_ids": [
+          "A5024995456"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00366",
+      "candidate_indexes": [
+        368
+      ],
+      "record_count": 1,
+      "primary_name": "ملیحه بهزادی مقدم",
+      "aliases": [
+        "ملیحه بهزادی مقدم"
+      ],
+      "sources": [
+        "Lead-guided OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5049435767"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان"
+      ],
+      "identifiers": {
+        "openalex_ids": [
+          "A5049435767"
         ],
         "github_usernames": [],
         "orcids": []
