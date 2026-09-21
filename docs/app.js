@@ -129,6 +129,13 @@ function searchable(person){
   return [person.name,person.source,person.type,person.detail,person.affiliation,person.organization,person.location,...(person.evidence||[])].filter(Boolean).join(' ').toLowerCase();
 }
 
+function avatarFor(name=''){
+  const parts=String(name).trim().split(/\s+/).filter(Boolean);
+  const initials=(parts.length>1?parts[0][0]+parts.at(-1)[0]:parts[0]?.slice(0,2)||'؟').toUpperCase();
+  const hue=[...String(name)].reduce((sum,char)=>sum+char.charCodeAt(0),0)%360;
+  return {initials,hue};
+}
+
 function render(){
   const query=q.toLocaleLowerCase('en');
   filtered=people.filter(person=>(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat));
@@ -138,15 +145,17 @@ function render(){
   $('pageinfo').textContent=`صفحه ${page.toLocaleString('fa-IR')} از ${pages.toLocaleString('fa-IR')}`;
   $('prev').disabled=page===1;$('next').disabled=page===pages;
   if(!rows.length){$('list').innerHTML='<div class="empty-state"><strong>نتیجه‌ای پیدا نشد</strong><small>عبارت جستجو یا فیلترها را تغییر دهید.</small><button type="button" class="button subtle" data-empty-reset>نمایش همه رکوردها</button></div>';return}
-  $('list').innerHTML=rows.map((person,index)=>{
+  const tableHead='<div class="directory-head" aria-hidden="true"><span>#</span><span>نام و مشخصات</span><span>حوزه و نقش</span><span>سازمان / وابستگی</span><span>کیفیت شواهد</span><span>عملیات</span></div>';
+  $('list').innerHTML=tableHead+rows.map((person,index)=>{
     const quality=person._quality||{},profile=person._profile||{},external=person._external||{};
     const organization=profile.organization||person.affiliation||person.organization||'';
     const location=profile.location?.raw||person.location||'';
+    const avatar=avatarFor(person.name);
     const qualityBadge=quality.evidence_strength?`<span class="badge quality ${esc(quality.evidence_strength)}">کیفیت ${esc(quality.score)}</span>`:'';
     const complete=profile.profile_completeness!==undefined?`<span class="badge complete">پروفایل ${esc(profile.profile_completeness)}٪</span>`:'';
     const entity=person._entity_id?`<span class="badge entity">${person._entity?.record_count>1?'هویت چندرکوردی':'شناسه کانونی'}</span>`:'';
     const enriched=external.status==='enriched'?`<span class="badge enriched">${external.data?.cached?'غنی‌شده · Cache':'غنی‌شده · زنده'}</span>`:'';
-    return `<button type="button" class="person" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="name">${esc(person.name||'بدون نام')}</span><span class="person-sub">${esc(person.source||'منبع نامشخص')} · ${esc(person.type||'کاندیدا')}</span></span><span class="person-context">${organization?`<span>${esc(organization)}</span>`:''}${location?`<span>${esc(location)}</span>`:''}</span><span class="badges">${qualityBadge}${complete}${entity}${enriched}</span></button>`;
+    return `<div class="person" role="button" tabindex="0" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span class="identity"><span class="name">${esc(person.name||'بدون نام')}</span><span class="person-sub">${esc(person.source||'منبع نامشخص')}</span></span></span><span class="person-role"><span>${esc(person.type||'کاندیدا')}</span><small>${profile.work_count!==undefined?`${esc(profile.work_count)} اثر ثبت‌شده`:'ظرفیت شناسایی‌شده'}</small></span><span class="person-context"><span>${esc(organization||'سازمان نامشخص')}</span>${location&&location!=='—'?`<small>${esc(location)}</small>`:''}</span><span class="badges">${qualityBadge}${complete}${entity}${enriched}</span><span class="row-actions"><button type="button" data-action="view" title="مشاهده جزئیات" aria-label="مشاهده جزئیات">◉</button><button type="button" data-action="save" title="نشان‌کردن" aria-label="نشان‌کردن">♡</button><button type="button" data-action="more" title="گزینه‌های بیشتر" aria-label="گزینه‌های بیشتر">•••</button></span></div>`;
   }).join('');
 }
 
@@ -232,7 +241,13 @@ function bindEvents(){
   document.addEventListener('click',event=>{if(!event.target.closest('.search'))$('history').classList.remove('open')});
   $('source').addEventListener('change',event=>{src=event.target.value;page=1;render()});$('reset').addEventListener('click',resetFilters);
   $('prev').addEventListener('click',()=>{if(page>1){page--;render();$('list').scrollIntoView({block:'start'})}});$('next').addEventListener('click',()=>{if(page<Math.ceil(filtered.length/PAGE)){page++;render();$('list').scrollIntoView({block:'start'})}});
-  $('list').addEventListener('click',event=>{const row=event.target.closest('.person');if(row)openDetail(people[Number(row.dataset.recordIndex)]);if(event.target.closest('[data-empty-reset]'))resetFilters()});
+  $('list').addEventListener('click',event=>{
+    const row=event.target.closest('.person'),action=event.target.closest('[data-action]');
+    if(action?.dataset.action==='save'){action.classList.toggle('saved');action.textContent=action.classList.contains('saved')?'♥':'♡';return}
+    if(row)openDetail(people[Number(row.dataset.recordIndex)]);
+    if(event.target.closest('[data-empty-reset]'))resetFilters();
+  });
+  $('list').addEventListener('keydown',event=>{const row=event.target.closest('.person');if(row&&(event.key==='Enter'||event.key===' ')){event.preventDefault();openDetail(people[Number(row.dataset.recordIndex)])}});
   $('close').addEventListener('click',closeDetail);document.querySelector('.detail-backdrop').addEventListener('click',closeDetail);document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!$('detail').hidden)closeDetail()});
 }
 
