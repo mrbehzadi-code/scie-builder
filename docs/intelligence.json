@@ -1,31 +1,31 @@
 {
   "generated_at": "2026-09-21",
-  "candidate_count": 369,
+  "candidate_count": 370,
   "metrics": {
-    "unique_name_keys": 362,
+    "unique_name_keys": 363,
     "possible_duplicate_groups": 7,
     "variant_duplicate_groups": 7,
     "stable_identifier_duplicate_groups": 3,
     "quality_strong": 6,
-    "quality_medium": 363,
+    "quality_medium": 364,
     "quality_weak": 0,
     "shared_organization_groups": 24,
     "shared_location_groups": 3,
-    "evidence_items": 741,
+    "evidence_items": 743,
     "organizations_detected": 79,
     "locations_detected": 5
   },
   "sources": {
     "OpenAlex Discovery": 289,
     "GitHub Discovery": 61,
-    "Lead-guided OpenAlex Discovery": 19
+    "Lead-guided OpenAlex Discovery": 20
   },
   "capacity_types": {
     "کاندیدای پژوهشی": 286,
     "پروفایل وب": 6,
     "پروفایل فنی": 55,
     "کاندیدای دانشگاهی": 3,
-    "کاندیدای کشف از سرنخ": 19
+    "کاندیدای کشف از سرنخ": 20
   },
   "evidence_types": {
     "OpenAlex author search": 286,
@@ -45,7 +45,9 @@
     "lead: فرزان": 14,
     "query: فرزان": 14,
     "lead: بهزادی مقدم": 5,
-    "query: بهزادی مقدم": 5
+    "query: بهزادی مقدم": 5,
+    "lead: محمود فرزان": 1,
+    "query: محمود فرزان": 1
   },
   "possible_duplicates": [
     {
@@ -5985,6 +5987,22 @@
         "location",
         "structured_source"
       ]
+    },
+    {
+      "candidate_index": 369,
+      "score": 58,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "structured_source"
+      ]
     }
   ],
   "organization_links": [
@@ -6305,9 +6323,10 @@
         360,
         361,
         362,
-        363
+        363,
+        369
       ],
-      "count": 69
+      "count": 70
     },
     {
       "location": "iran yazd ardakan",
