@@ -4,22 +4,22 @@
   "target": 100,
   "stats": {
     "web_records": 6,
-    "people": 369,
+    "people": 370,
     "academic_candidates": 303,
     "regional_evidence": 200,
     "sources": {
       "GitHub Discovery": 61,
-      "Lead-guided OpenAlex Discovery": 19,
+      "Lead-guided OpenAlex Discovery": 20,
       "OpenAlex Discovery": 289
     },
-    "lead_guided_records": 19,
+    "lead_guided_records": 20,
     "last_lead": {
-      "id": 1789971588189,
-      "issue_number": 16,
-      "type": "surname",
-      "value": "بهزادی مقدم",
-      "completed_at": "2026-09-21T06:20:06Z",
-      "new_records": 5
+      "id": 1789972561302,
+      "issue_number": 17,
+      "type": "person",
+      "value": "محمود فرزان",
+      "completed_at": "2026-09-21T06:36:25Z",
+      "new_records": 1
     }
   },
   "people": [
@@ -5195,6 +5195,21 @@
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1789971588189
+    },
+    {
+      "name": "محمود فرزان",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «محمود فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: محمود فرزان",
+        "query: محمود فرزان"
+      ],
+      "url": "https://openalex.org/A5003596359",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1789972561302
     }
   ]
 }
