@@ -15,11 +15,11 @@
     "lead_guided_records": 20,
     "last_lead": {
       "id": 1789972561302,
-      "issue_number": 17,
+      "issue_number": 18,
       "type": "person",
       "value": "محمود فرزان",
-      "completed_at": "2026-09-21T06:36:25Z",
-      "new_records": 1
+      "completed_at": "2026-09-21T06:36:58Z",
+      "new_records": 0
     }
   },
   "people": [

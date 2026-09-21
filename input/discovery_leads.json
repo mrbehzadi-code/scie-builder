@@ -55,6 +55,17 @@
       "created_at": "2026-09-21T06:36:01.302Z",
       "issue_number": 17,
       "submitted_at": "2026-09-21T06:36:23Z"
+    },
+    {
+      "id": 1789972561302,
+      "type": "person",
+      "type_label": "نام یا فرد",
+      "value": "محمود فرزان",
+      "location": "",
+      "note": "",
+      "created_at": "2026-09-21T06:36:01.302Z",
+      "issue_number": 18,
+      "submitted_at": "2026-09-21T06:36:56Z"
     }
   ]
 }
