@@ -129,12 +129,14 @@
           <label><span>نتیجهٔ بررسی</span><select id="vrVerdict"><option value="not_ardakani">اردکانی نیست</option><option value="ardakani">اردکانی است</option><option value="needs_evidence">نیازمند شواهد بیشتر</option></select></label>
           <label><span>دلیل اصلی</span><select id="vrReason"><option>محل تولد یا سکونت متفاوت</option><option>تشابه نام خانوادگی بدون ارتباط محلی</option><option>وابستگی سازمانی مربوط به شهر دیگری است</option><option>شناخت مستقیم و محلی</option><option>تعارض در منابع</option><option>دلیل دیگر</option></select></label>
           <label><span>توضیح و منبع تکمیلی</span><textarea id="vrNote" placeholder="دلیل، نشانی منبع عمومی یا توضیح شما"></textarea></label>
+          <label class="consent"><input id="vrConsent" type="checkbox"><span>می‌دانم این بازخورد برای شفافیت در مخزن عمومی پروژه ثبت می‌شود و اطلاعات خصوصی وارد نکرده‌ام.</span></label>
           <button id="vrSubmit" class="button primary" type="button">ثبت راستی‌آزمایی</button><span id="vrStatus" role="status" aria-live="polite"></span>
         </section>
         <section class="panel verification-form"><div class="section-head compact"><div><span class="kicker">ارتقای گراف ارتباطات</span><h3>ثبت رابطهٔ بین دو فرد</h3></div></div>
           <label><span>فرد اول</span><select id="relA"></select></label><label><span>فرد دوم</span><select id="relB"></select></label>
           <label><span>نوع رابطه</span><select id="relType"><option value="sibling">خواهر یا برادر</option><option value="parent">والد و فرزند</option><option value="relative">خویشاوند</option><option value="colleague">همکار</option><option value="partner">شریک حرفه‌ای</option><option value="teacher">استاد</option><option value="student">شاگرد</option></select></label>
           <label><span>توضیح یا شاهد عمومی</span><textarea id="relNote" placeholder="برای مثال: شناخت مستقیم، خبر عمومی یا صفحهٔ رسمی"></textarea></label>
+          <label class="consent"><input id="relConsent" type="checkbox"><span>انتشار عمومی این ادعای رابطه را تأیید می‌کنم و اطلاعات خصوصی وارد نکرده‌ام.</span></label>
           <button id="relSubmit" class="button primary" type="button">ثبت رابطه در صف بررسی</button><span id="relStatus" role="status" aria-live="polite"></span>
         </section>
       </div>
