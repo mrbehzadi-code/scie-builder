@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21",
+  "generated_at": "2026-09-22",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 100,
   "stats": {
@@ -14,11 +14,11 @@
     },
     "lead_guided_records": 20,
     "last_lead": {
-      "id": 1789980118396,
-      "issue_number": 19,
-      "type": "person",
-      "value": "سید ولی الله فاطمی",
-      "completed_at": "2026-09-21T08:42:13Z",
+      "id": 1789988000000,
+      "issue_number": 20,
+      "type": "surname",
+      "value": "بهزادی مقدم",
+      "completed_at": "2026-09-22T05:56:59Z",
       "new_records": 0
     }
   },

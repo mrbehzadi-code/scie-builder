@@ -60,6 +60,15 @@
       "new_records": 0,
       "pool_size": 370,
       "completed_at": "2026-09-21T08:42:13Z"
+    },
+    {
+      "lead_id": 1789988000000,
+      "issue_number": 20,
+      "value": "بهزادی مقدم",
+      "status": "completed",
+      "new_records": 0,
+      "pool_size": 370,
+      "completed_at": "2026-09-22T05:56:59Z"
     }
   ]
 }
