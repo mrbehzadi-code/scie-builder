@@ -2,7 +2,7 @@
   "schema": "scie-locality-assessment-v1",
   "counts": {
     "insufficient": 338,
-    "possible": 32,
+    "possible": 33,
     "probable": 1
   },
   "assessments": [
@@ -5991,6 +5991,23 @@
     {
       "candidate_index": 370,
       "name": "عبدالرضا فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 371,
+      "name": "عبدالناصر فرزان",
       "score": 20,
       "status": "possible",
       "reasons": [
