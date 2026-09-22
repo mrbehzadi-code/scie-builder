@@ -5207,9 +5207,15 @@
         "query: محمود فرزان"
       ],
       "url": "https://openalex.org/A5003596359",
-      "verification": "needs_review",
+      "verification": "community_confirmed",
       "confidence": "low",
-      "lead_id": 1789972561302
+      "lead_id": 1789972561302,
+      "community_review": {
+        "verdict": "ardakani",
+        "reason": "شناخت مستقیم و محلی",
+        "note": "استاد دانشگاه علوم پزشکی تهران",
+        "reviewed_at": "2026-09-22T10:43:33Z"
+      }
     },
     {
       "name": "عبدالرضا فرزان",

@@ -2,8 +2,9 @@
   "schema": "scie-locality-assessment-v1",
   "counts": {
     "insufficient": 338,
-    "possible": 33,
-    "probable": 1
+    "possible": 32,
+    "probable": 1,
+    "confirmed_by_human": 1
   },
   "assessments": [
     {
@@ -5975,7 +5976,7 @@
       "candidate_index": 369,
       "name": "محمود فرزان",
       "score": 20,
-      "status": "possible",
+      "status": "confirmed_by_human",
       "reasons": [
         {
           "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
@@ -5986,7 +5987,19 @@
           "weight": 10
         }
       ],
-      "needs_human_review": true
+      "needs_human_review": false,
+      "human_review": {
+        "id": 1790073799583,
+        "kind": "locality_review",
+        "created_at": "2026-09-22T10:43:22.396Z",
+        "record_index": 369,
+        "person_name": "محمود فرزان",
+        "verdict": "ardakani",
+        "reason": "شناخت مستقیم و محلی",
+        "note": "استاد دانشگاه علوم پزشکی تهران",
+        "issue_number": 24,
+        "processed_at": "2026-09-22T10:43:33Z"
+      }
     },
     {
       "candidate_index": 370,

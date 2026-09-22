@@ -1,4 +1,17 @@
 {
   "schema": "scie-user-feedback-v1",
-  "reviews": []
+  "reviews": [
+    {
+      "id": 1790073799583,
+      "kind": "locality_review",
+      "created_at": "2026-09-22T10:43:22.396Z",
+      "record_index": 369,
+      "person_name": "محمود فرزان",
+      "verdict": "ardakani",
+      "reason": "شناخت مستقیم و محلی",
+      "note": "استاد دانشگاه علوم پزشکی تهران",
+      "issue_number": 24,
+      "processed_at": "2026-09-22T10:43:33Z"
+    }
+  ]
 }
