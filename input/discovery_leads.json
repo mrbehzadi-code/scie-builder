@@ -110,6 +110,17 @@
       "created_at": "2026-09-22T06:09:32.503Z",
       "issue_number": 22,
       "submitted_at": "2026-09-22T06:09:41Z"
+    },
+    {
+      "id": 1790072139169,
+      "type": "person",
+      "type_label": "نام یا فرد",
+      "value": "عبدالناصر فرزان",
+      "location": "",
+      "note": "پزشک متخصص و استاد دانشگاه",
+      "created_at": "2026-09-22T10:15:41.923Z",
+      "issue_number": 23,
+      "submitted_at": "2026-09-22T10:15:50Z"
     }
   ]
 }

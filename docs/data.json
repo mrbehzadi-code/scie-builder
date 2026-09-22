@@ -4,21 +4,21 @@
   "target": 100,
   "stats": {
     "web_records": 6,
-    "people": 371,
+    "people": 372,
     "academic_candidates": 303,
     "regional_evidence": 200,
     "sources": {
       "GitHub Discovery": 61,
-      "Lead-guided OpenAlex Discovery": 21,
+      "Lead-guided OpenAlex Discovery": 22,
       "OpenAlex Discovery": 289
     },
-    "lead_guided_records": 21,
+    "lead_guided_records": 22,
     "last_lead": {
-      "id": 1790057370531,
-      "issue_number": 22,
+      "id": 1790072139169,
+      "issue_number": 23,
       "type": "person",
-      "value": "عبدالرضا فرزان",
-      "completed_at": "2026-09-22T06:09:45Z",
+      "value": "عبدالناصر فرزان",
+      "completed_at": "2026-09-22T10:15:53Z",
       "new_records": 1
     }
   },
@@ -5225,6 +5225,21 @@
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1790057370531
+    },
+    {
+      "name": "عبدالناصر فرزان",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «عبدالناصر فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: عبدالناصر فرزان",
+        "query: عبدالناصر فرزان"
+      ],
+      "url": "https://openalex.org/A5011428548",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1790072139169
     }
   ]
 }
