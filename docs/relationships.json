@@ -1,15 +1,4 @@
 {
   "schema": "scie-human-relationships-v1",
-  "relationships": [
-    {
-      "id": "user-statement-2026-09-22-farzan-siblings",
-      "kind": "relationship",
-      "person_a": "محمود فرزان",
-      "person_b": "عبدالرضا فرزان",
-      "relation": "sibling",
-      "note": "اظهار مستقیم کاربر: هر دو برادر هستند.",
-      "status": "human_asserted_unverified",
-      "created_at": "2026-09-22T00:00:00Z"
-    }
-  ]
+  "relationships": []
 }
