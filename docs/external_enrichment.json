@@ -1,13 +1,13 @@
 {
   "generated_at": "2026-09-22",
-  "candidate_count": 370,
+  "candidate_count": 371,
   "metrics": {
-    "openalex_skipped": 302,
+    "openalex_skipped": 303,
     "openalex_cached_enriched": 7,
     "github_enriched": 61,
     "errors": 0,
     "enriched_total": 68,
-    "skipped_total": 302
+    "skipped_total": 303
   },
   "failures": {},
   "profiles": [
@@ -4491,6 +4491,16 @@
     {
       "candidate_index": 369,
       "name": "محمود فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 370,
+      "name": "عبدالرضا فرزان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {

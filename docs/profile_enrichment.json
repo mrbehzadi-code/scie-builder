@@ -1,17 +1,17 @@
 {
   "generated_at": "2026-09-22",
-  "candidate_count": 370,
+  "candidate_count": 371,
   "metrics": {
     "with_organization": 157,
-    "with_location": 81,
-    "with_stable_source_id": 370,
-    "ardakan_location_signal": 81,
+    "with_location": 82,
+    "with_stable_source_id": 371,
+    "ardakan_location_signal": 82,
     "completeness_high": 157,
-    "completeness_medium": 213,
+    "completeness_medium": 214,
     "completeness_low": 0
   },
   "providers": {
-    "OpenAlex": 309,
+    "OpenAlex": 310,
     "GitHub": 61
   },
   "profiles": [
@@ -14802,6 +14802,46 @@
       "evidence": [
         "lead: محمود فرزان",
         "query: محمود فرزان"
+      ],
+      "evidence_count": 2,
+      "quality_score": 58,
+      "evidence_strength": "medium",
+      "profile_completeness": 67,
+      "available_fields": [
+        "location",
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 370,
+      "name": "عبدالرضا فرزان",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5080704547",
+      "identifiers": {
+        "openalex_id": "A5080704547",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan signal",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "lead: عبدالرضا فرزان",
+        "query: عبدالرضا فرزان"
       ],
       "evidence_count": 2,
       "quality_score": 58,

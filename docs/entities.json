@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-09-22",
   "metrics": {
-    "candidate_records": 370,
-    "canonical_entities": 367,
+    "candidate_records": 371,
+    "canonical_entities": 368,
     "records_collapsed": 3,
     "same_person_pairs_applied": 3,
     "multi_record_entities": 3,
@@ -378,7 +378,8 @@
     "366": "scie-entity-00364",
     "367": "scie-entity-00365",
     "368": "scie-entity-00366",
-    "369": "scie-entity-00367"
+    "369": "scie-entity-00367",
+    "370": "scie-entity-00368"
   },
   "entities": [
     {
@@ -11577,6 +11578,37 @@
       "identifiers": {
         "openalex_ids": [
           "A5003596359"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00368",
+      "candidate_indexes": [
+        370
+      ],
+      "record_count": 1,
+      "primary_name": "عبدالرضا فرزان",
+      "aliases": [
+        "عبدالرضا فرزان"
+      ],
+      "sources": [
+        "Lead-guided OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5080704547"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan signal"
+      ],
+      "identifiers": {
+        "openalex_ids": [
+          "A5080704547"
         ],
         "github_usernames": [],
         "orcids": []
