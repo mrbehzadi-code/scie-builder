@@ -225,18 +225,24 @@ function buildOrgs(){
 
 async function leads(){
   const key='scie_leads',read=()=>readLocalArray(key),typeMap={'نام یا فرد':'person','فامیلی':'surname','نشانی / محله':'address','سازمان / شرکت':'organization','تخصص / حوزه':'expertise','سرنخ آزاد':'free'};
-  const remote=await loadJSON('lead_runs.json',{preferRaw:true}).catch(()=>({runs:[]}));
+  const api='https://scie-lead-api.scie-builder.workers.dev';
+  let remote=await loadJSON('lead_runs.json',{preferRaw:true}).catch(()=>({runs:[]}));
   const findRun=item=>[...(remote.runs||[])].reverse().find(run=>String(run.value||'').trim().toLocaleLowerCase('fa')===String(item.value||'').trim().toLocaleLowerCase('fa'));
-  const draw=()=>{$('leadHistory').innerHTML=read().map(item=>{const run=findRun(item),done=run?.status==='completed',added=Number(run?.new_records||0);return `<div class="lead-item"><div class="lead-item-head"><strong>${esc(item.type_label||item.type)} · ${esc(item.value)}</strong><span class="lead-state ${done?'done':'pending'}">${done?'تکمیل‌شده':'در انتظار ارسال/پردازش'}</span></div><small>${esc(item.location||'بدون مکان')} · ${new Date(item.at||item.created_at).toLocaleDateString('fa-IR')}</small>${done?`<small class="lead-result">${added?`${esc(added)} نامزد جدید به فهرست افزوده شد`:'پردازش کامل شد؛ نتیجهٔ تازه‌ای پیدا نشد'}</small>`:''}${item.note?`<small>${esc(item.note)}</small>`:''}${item.issue_url&&!done?`<a class="lead-link" href="${esc(item.issue_url)}" target="_blank" rel="noopener">ادامهٔ ارسال در GitHub ↗</a>`:''}</div>`}).join('')||'<div class="empty-state"><strong>هنوز سرنخی ثبت نشده است</strong><small>سرنخ نخست را برای جستجو و اعتبارسنجی ارسال کنید.</small></div>'};
-  $('save').addEventListener('click',()=>{
+  const draw=()=>{$('leadHistory').innerHTML=read().map(item=>{const run=findRun(item),failed=item.status==='failed',done=run?.status==='completed',added=Number(run?.new_records||0),state=done?'تکمیل‌شده':failed?'ارسال ناموفق':item.status==='submitting'?'در حال ارسال':'در حال پردازش';return `<div class="lead-item"><div class="lead-item-head"><strong>${esc(item.type_label||item.type)} · ${esc(item.value)}</strong><span class="lead-state ${done?'done':'pending'}">${state}</span></div><small>${esc(item.location||'بدون مکان')} · ${new Date(item.at||item.created_at).toLocaleDateString('fa-IR')}</small>${done?`<small class="lead-result">${added?`${esc(added)} نامزد جدید به فهرست افزوده شد`:'پردازش کامل شد؛ نتیجهٔ تازه‌ای پیدا نشد'}</small>`:''}${failed?`<small class="lead-result">${esc(item.error||'ارسال ناموفق بود؛ دوباره تلاش کنید.')}</small>`:''}${item.note?`<small>${esc(item.note)}</small>`:''}</div>`}).join('')||'<div class="empty-state"><strong>هنوز سرنخی ثبت نشده است</strong><small>سرنخ نخست را برای جستجو و اعتبارسنجی ارسال کنید.</small></div>'};
+  const refresh=async()=>{remote=await loadJSON(`lead_runs.json?t=${Date.now()}`,{preferRaw:true}).catch(()=>remote);draw()};
+  $('save').addEventListener('click',async()=>{
     const label=$('lt').value,value=$('lv').value.trim(),location=$('ll').value.trim(),note=$('ln').value.trim(),at=new Date().toISOString();
     if(!value){$('leadStatus').textContent='مقدار سرنخ را وارد کنید';return}
     const payload={id:Date.now(),type:typeMap[label]||'free',type_label:label,value,location,note,created_at:at};
-    const body=`سرنخ انسانی ثبت‌شده برای خط لولهٔ کشف SCIE.\n\n<!--SCIE_LEAD\n${JSON.stringify(payload,null,2)}\nSCIE_LEAD-->\n\n- نوع: ${label}\n- مقدار: ${value}\n- مکان: ${location||'ثبت نشده'}\n- انتظار: جستجو، اعتبارسنجی و افزودن نامزدهای جدید به Snapshot داشبورد`;
-    const issueUrl=`https://github.com/mrbehzadi-code/scie-builder/issues/new?title=${encodeURIComponent(`[SCIE LEAD] ${value}`)}&body=${encodeURIComponent(body)}`;
-    const item={...payload,type:label,at,issue_url:issueUrl,status:'awaiting_submission'},items=read().filter(old=>old.value!==value);items.unshift(item);localStorage.setItem(key,JSON.stringify(items.slice(0,100)));
-    $('leadStatus').innerHTML='صفحهٔ ارسال باز شد؛ برای شروع پردازش، دکمهٔ <b>Submit new issue</b> را بزنید.';
-    window.open(issueUrl,'_blank','noopener');$('lv').value='';$('ln').value='';draw();
+    const button=$('save'),item={...payload,type:label,at,status:'submitting'},items=read().filter(old=>old.value!==value);items.unshift(item);localStorage.setItem(key,JSON.stringify(items.slice(0,100)));button.disabled=true;$('leadStatus').textContent='در حال ارسال امن و آغاز پردازش…';draw();
+    try{
+      const response=await fetch(api,{method:'POST',headers:{'content-type':'application/json','x-idempotency-key':String(payload.id)},body:JSON.stringify(payload)}),result=await response.json();
+      if(!response.ok||!result.ok)throw new Error(result.error||'ارسال سرنخ ناموفق بود.');
+      const saved=read(),current=saved.find(old=>old.id===payload.id);if(current){current.status='submitted';current.issue_number=result.issue_number;localStorage.setItem(key,JSON.stringify(saved))}
+      $('leadStatus').textContent='سرنخ ارسال شد؛ جستجو و اعتبارسنجی خودکار آغاز شد.';$('lv').value='';$('ln').value='';draw();
+      let attempts=0;const timer=setInterval(async()=>{await refresh();if(findRun(payload)||++attempts>=24)clearInterval(timer)},10000);
+    }catch(error){const saved=read(),current=saved.find(old=>old.id===payload.id);if(current){current.status='failed';current.error=error.message;localStorage.setItem(key,JSON.stringify(saved))}$('leadStatus').textContent=error.message;draw()}
+    finally{button.disabled=false}
   });
   $('export').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(read(),null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),anchor=document.createElement('a');anchor.href=url;anchor.download='scie-leads.json';anchor.click();URL.revokeObjectURL(url)});draw();
 }

@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "scie-lead-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-21",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGIN": "https://mrbehzadi-code.github.io",
+    "GITHUB_REPOSITORY": "mrbehzadi-code/scie-builder"
+  }
+}
