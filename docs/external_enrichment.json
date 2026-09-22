@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21",
+  "generated_at": "2026-09-22",
   "candidate_count": 370,
   "metrics": {
     "openalex_skipped": 302,
@@ -3701,7 +3701,7 @@
         "followers": 27,
         "following": 26,
         "created_at": "2015-02-12T11:07:17Z",
-        "updated_at": "2026-07-25T14:13:50Z",
+        "updated_at": "2026-09-21T17:10:20Z",
         "provider_url": "https://github.com/Ardakaniz"
       }
     },
@@ -3743,7 +3743,7 @@
         "followers": 6,
         "following": 12,
         "created_at": "2024-11-27T18:50:13Z",
-        "updated_at": "2026-09-10T13:46:15Z",
+        "updated_at": "2026-09-21T13:53:23Z",
         "provider_url": "https://github.com/ardakankasra"
       }
     },
@@ -4156,7 +4156,7 @@
         "location": "Iran",
         "bio": "BS Computer engineering & M.Sc IT engineering (multimedia systems)\r\n",
         "public_repos": 17,
-        "followers": 1193,
+        "followers": 1194,
         "following": 991,
         "created_at": "2019-07-26T07:47:04Z",
         "updated_at": "2026-09-14T20:43:19Z",
