@@ -4,22 +4,22 @@
   "target": 100,
   "stats": {
     "web_records": 6,
-    "people": 370,
+    "people": 371,
     "academic_candidates": 303,
     "regional_evidence": 200,
     "sources": {
       "GitHub Discovery": 61,
-      "Lead-guided OpenAlex Discovery": 20,
+      "Lead-guided OpenAlex Discovery": 21,
       "OpenAlex Discovery": 289
     },
-    "lead_guided_records": 20,
+    "lead_guided_records": 21,
     "last_lead": {
-      "id": 1790057322083,
-      "issue_number": 21,
+      "id": 1790057370531,
+      "issue_number": 22,
       "type": "person",
-      "value": "سید ولی الله فاطمی",
-      "completed_at": "2026-09-22T06:09:04Z",
-      "new_records": 0
+      "value": "عبدالرضا فرزان",
+      "completed_at": "2026-09-22T06:09:45Z",
+      "new_records": 1
     }
   },
   "people": [
@@ -5210,6 +5210,21 @@
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1789972561302
+    },
+    {
+      "name": "عبدالرضا فرزان",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «عبدالرضا فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: عبدالرضا فرزان",
+        "query: عبدالرضا فرزان"
+      ],
+      "url": "https://openalex.org/A5080704547",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1790057370531
     }
   ]
 }
