@@ -1,0 +1,44 @@
+name: SCIE Human Verification
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: scie-data-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  verify:
+    if: startsWith(github.event.issue.title, '[SCIE FEEDBACK]') || startsWith(github.event.issue.title, '[SCIE RELATIONSHIP]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply human feedback
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: |
+          python engines/feedback_issue_runner.py
+          python engine/locality_scoring.py
+          python engine/knowledge_graph.py
+      - name: Commit verified evidence
+        run: |
+          git config user.name "scie-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json docs/user_feedback.json docs/relationships.json docs/locality_assessment.json docs/knowledge_graph.json
+          git commit -m "data: apply human verification" || exit 0
+          git pull --rebase origin main
+          git push
+      - name: Confirm processing
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({owner:context.repo.owner,repo:context.repo.repo,issue_number:context.issue.number,body:'SCIE human feedback processed successfully.'});

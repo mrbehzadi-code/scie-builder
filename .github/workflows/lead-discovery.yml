@@ -30,11 +30,14 @@ jobs:
           GITHUB_EVENT_PATH: ${{ github.event_path }}
         run: python engines/lead_issue_runner.py
 
+      - name: Score locality evidence
+        run: python engine/locality_scoring.py
+
       - name: Commit discovery results
         run: |
           git config user.name "scie-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add input/discovery_leads.json docs/data.json docs/lead_runs.json
+          git add input/discovery_leads.json docs/data.json docs/lead_runs.json docs/locality_assessment.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "data: process human discovery lead"
           git pull --rebase origin main

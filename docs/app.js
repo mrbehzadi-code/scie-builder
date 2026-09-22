@@ -1,8 +1,8 @@
 'use strict';
 
 const PAGE=25;
-const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichment.json','external_enrichment.json','entities.json','knowledge_graph.json'];
-let people=[],filtered=[],page=1,q='',src='all',cat='all',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},BUILD={};
+const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichment.json','external_enrichment.json','entities.json','knowledge_graph.json','locality_assessment.json'];
+let people=[],filtered=[],page=1,q='',src='all',cat='all',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},BUILD={};
 const $=id=>document.getElementById(id);
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const FA_DIGITS='۰۱۲۳۴۵۶۷۸۹';
@@ -47,10 +47,10 @@ async function loadData(){
 }
 
 async function loadLayers(){
-  const targets=[['INT','intelligence.json'],['ER','entity_resolution.json'],['PROFILE','profile_enrichment.json'],['EXT','external_enrichment.json'],['ENT','entities.json'],['KG','knowledge_graph.json']];
+  const targets=[['INT','intelligence.json'],['ER','entity_resolution.json'],['PROFILE','profile_enrichment.json'],['EXT','external_enrichment.json'],['ENT','entities.json'],['KG','knowledge_graph.json'],['LOC','locality_assessment.json']];
   const results=await Promise.allSettled(targets.map(([,file])=>loadJSON(file,{preferRaw:true})));
   const state={};
-  results.forEach((result,index)=>{const [name,file]=targets[index];if(result.status==='fulfilled'){({INT,ER,PROFILE,EXT,ENT,KG}={INT,ER,PROFILE,EXT,ENT,KG,[name]:result.value});state[file]=true}else{console.warn(`${file} unavailable:`,result.reason);state[file]=false}});
+  results.forEach((result,index)=>{const [name,file]=targets[index];if(result.status==='fulfilled'){({INT,ER,PROFILE,EXT,ENT,KG,LOC}={INT,ER,PROFILE,EXT,ENT,KG,LOC,[name]:result.value});state[file]=true}else{console.warn(`${file} unavailable:`,result.reason);state[file]=false}});
   return state;
 }
 
@@ -58,6 +58,7 @@ function applyIntelligence(){
   (INT.candidate_quality||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._quality=item});
   (PROFILE.profiles||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._profile=item});
   (EXT.profiles||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._external=item});
+  (LOC.assessments||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._locality=item});
   const entityMap=new Map((ENT.entities||[]).map(item=>[item.entity_id,item]));
   const assignments=ENT.candidate_to_entity||{};
   people.forEach((person,index)=>{const id=assignments[String(index)];if(id){person._entity_id=id;person._entity=entityMap.get(id)||null}person._record_index=index});
@@ -156,7 +157,9 @@ function render(){
     const complete=profile.profile_completeness!==undefined?`<span class="badge complete">پروفایل ${esc(profile.profile_completeness)}٪</span>`:'';
     const entity=person._entity_id?`<span class="badge entity">${person._entity?.record_count>1?'هویت چندرکوردی':'شناسه کانونی'}</span>`:'';
     const enriched=external.status==='enriched'?`<span class="badge enriched">${external.data?.cached?'غنی‌شده · Cache':'غنی‌شده · زنده'}</span>`:'';
-    return `<div class="person" role="button" tabindex="0" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span class="identity"><span class="name">${esc(person.name||'بدون نام')}</span><span class="person-sub">${esc(person.source||'منبع نامشخص')}</span></span></span><span class="person-role"><span>${esc(person.type||'کاندیدا')}</span><small>${profile.work_count!==undefined?`${esc(profile.work_count)} اثر ثبت‌شده`:'ظرفیت شناسایی‌شده'}</small></span><span class="person-context"><span>${esc(organization||'سازمان نامشخص')}</span>${location&&location!=='—'?`<small>${esc(location)}</small>`:''}</span><span class="badges">${qualityBadge}${complete}${entity}${enriched}</span><span class="row-actions"><button type="button" data-action="view" title="مشاهده جزئیات" aria-label="مشاهده جزئیات">◉</button><button type="button" data-action="save" title="نشان‌کردن" aria-label="نشان‌کردن">♡</button><button type="button" data-action="more" title="گزینه‌های بیشتر" aria-label="گزینه‌های بیشتر">•••</button></span></div>`;
+    const locality=person._locality||{},localityLabel={confirmed:'اردکانی تأییدشده',confirmed_by_human:'تأیید انسانی',probable:'ارتباط محتمل',possible:'ارتباط ضعیف',insufficient:'شاهد ناکافی',rejected_by_human:'ردشده در بازبینی'}[locality.status]||'';
+    const localityBadge=localityLabel?`<span class="badge ${locality.status==='rejected_by_human'?'weak':locality.status.includes('confirmed')?'strong':'medium'}">${localityLabel} · ${esc(locality.score||0)}</span>`:'';
+    return `<div class="person" role="button" tabindex="0" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span class="identity"><span class="name">${esc(person.name||'بدون نام')}</span><span class="person-sub">${esc(person.source||'منبع نامشخص')}</span></span></span><span class="person-role"><span>${esc(person.type||'کاندیدا')}</span><small>${profile.work_count!==undefined?`${esc(profile.work_count)} اثر ثبت‌شده`:'ظرفیت شناسایی‌شده'}</small></span><span class="person-context"><span>${esc(organization||'سازمان نامشخص')}</span>${location&&location!=='—'?`<small>${esc(location)}</small>`:''}</span><span class="badges">${localityBadge}${qualityBadge}${complete}${entity}${enriched}</span><span class="row-actions"><button type="button" data-action="view" title="مشاهده جزئیات" aria-label="مشاهده جزئیات">◉</button><button type="button" data-action="save" title="نشان‌کردن" aria-label="نشان‌کردن">♡</button><button type="button" data-action="more" title="گزینه‌های بیشتر" aria-label="گزینه‌های بیشتر">•••</button></span></div>`;
   }).join('');
 }
 
@@ -169,7 +172,7 @@ function fieldAlways(label,value){return `<div class="detail-field"><span>${esc(
 function detailSection(title,fields){const body=fields.filter(Boolean).join('');return body?`<section class="detail-section"><h3>${esc(title)}</h3><div class="detail-grid">${body}</div></section>`:''}
 function openDetail(person){
   if(!person)return;
-  const profile=person._profile||{},ids=profile.identifiers||{},location=profile.location||{},external=person._external?.data||{},quality=person._quality||{},entity=person._entity||{};
+  const profile=person._profile||{},ids=profile.identifiers||{},location=profile.location||{},external=person._external?.data||{},quality=person._quality||{},entity=person._entity||{},locality=person._locality||{};
   const externalOrganizations=Array.isArray(external.institutions)?external.institutions.join('، '):Array.isArray(external.last_known_institutions)?external.last_known_institutions.map(item=>item?.name).filter(Boolean).join('، '):external.company||'';
   const topics=Array.isArray(external.topics)?external.topics.map(item=>item?.name).filter(Boolean).join('، '):'';
   $('dname').textContent=person.name||'بدون نام';
@@ -178,12 +181,14 @@ function openDetail(person){
     detailSection('هویت',[field('نام',person.name),field('نوع / ظرفیت',person.type),field('منبع',person.source),field('ارائه‌دهنده',profile.provider),field('وضعیت هویت',quality.verification||person.verification||entity.identity_status)]),
     detailSection('سازمان و مکان',[field('سازمان',profile.organization||person.affiliation||person.organization),field('مکان',location.raw||person.location),field('سازمان در منبع خارجی',externalOrganizations),field('مکان در منبع خارجی',external.location)]),
     detailSection('کیفیت شواهد',[field('کیفیت شواهد',quality.score!==undefined?`${quality.score} / 100 · ${quality.evidence_strength}`:''),field('کامل بودن پروفایل',profile.profile_completeness!==undefined?`${profile.profile_completeness}٪`:''),field('تعداد آثار علمی',profile.work_count??external.works_count),field('استنادها',external.cited_by_count)]),
+    detailSection('ارتباط با اردکان',[field('امتیاز ارتباط محلی',locality.score!==undefined?`${locality.score} / 100`:''),field('وضعیت',locality.status),field('نیازمند بررسی انسانی',locality.needs_human_review?'بله':'خیر'),field('شواهد امتیازدهی',(locality.reasons||[]).map(item=>item.signal).join('، '))]),
     detailSection('شناسه‌ها',[fieldAlways('Entity ID',person._entity_id),fieldAlways('OpenAlex ID',ids.openalex_id),fieldAlways('GitHub username',ids.github_username||external.login),fieldAlways('ORCID',ids.orcid||external.orcid),field('تعداد رکورد در هویت',entity.record_count)]),
     detailSection('غنی‌سازی',[field('وضعیت داده تکمیلی',person._external?.status==='enriched'?(external.cached?'Cache معتبر':'Live provider'):''),field('نام در منبع',external.display_name),field('حوزه‌ها',topics),field('مخازن عمومی',external.public_repos),field('به‌روزرسانی منبع',external.updated_at)]),
     detailSection('جزئیات',[field('شرح',person.detail),field('فیلدهای ناقص',(profile.missing_fields||[]).join('، '))])
   ].join('');
   $('devidence').innerHTML=(person.evidence||[]).map(item=>`<span>${esc(item)}</span>`).join('');
   const url=person.url||person.source_url;$('durl').hidden=!url;$('durl').href=url||'#';
+  $('verifyPerson').dataset.recordIndex=person._record_index;
   $('detail').hidden=false;document.body.classList.add('modal-open');$('close').focus();
 }
 function closeDetail(){$('detail').hidden=true;document.body.classList.remove('modal-open')}
@@ -221,6 +226,17 @@ function buildOrgs(){
   people.forEach(person=>{const name=person._profile?.organization||person.affiliation||person.organization;if(!name)return;const current=orgs.get(name)||{count:0,sources:new Set()};current.count++;if(person.source)current.sources.add(person.source);orgs.set(name,current)});
   const rows=[...orgs.entries()].sort((a,b)=>b[1].count-a[1].count).slice(0,60);
   $('orgs').innerHTML=rows.length?rows.map(([name,data])=>`<article class="org-card"><h3>${esc(name)}</h3><div class="org-stats"><span>${data.count.toLocaleString('fa-IR')} هویت پیوندخورده</span><span>${data.sources.size.toLocaleString('fa-IR')} منبع</span>${hubDegrees.has(name)?`<span>درجه اتصال ${esc(hubDegrees.get(name))}</span>`:''}</div></article>`).join(''):'<div class="empty-state"><strong>اطلاعات سازمانی موجود نیست</strong></div>';
+}
+
+function setupVerification(){
+  const api='https://scie-lead-api.scie-builder.workers.dev/feedback',options=people.map((person,index)=>`<option value="${index}">${esc(person.name||'بدون نام')} — ${esc(person.source||'منبع نامشخص')}</option>`).join('');
+  $('vrPerson').innerHTML=options;$('relA').innerHTML=options;$('relB').innerHTML=options;
+  if(people.length>1)$('relB').selectedIndex=1;
+  const counts=LOC.counts||{},cards=[['تأییدشده',Number(counts.confirmed||0)+Number(counts.confirmed_by_human||0)],['محتمل',counts.probable||0],['نیازمند بررسی',Number(counts.possible||0)+Number(counts.insufficient||0)],['ردشده با بازبینی انسانی',counts.rejected_by_human||0]];
+  $('localitySummary').innerHTML=cards.map(([label,value])=>`<article class="analysis-card"><div class="big">${Number(value).toLocaleString('fa-IR')}</div><div class="label">${label}</div></article>`).join('');
+  const send=async(payload,statusId,button)=>{button.disabled=true;$(statusId).textContent='در حال ثبت امن…';try{const response=await fetch(api,{method:'POST',headers:{'content-type':'application/json','x-idempotency-key':`${payload.kind}-${payload.id}`},body:JSON.stringify(payload)}),result=await response.json();if(!response.ok||!result.ok)throw Error(result.error||'ثبت بازخورد ناموفق بود.');$(statusId).textContent='ثبت شد؛ نتیجه پس از پردازش خودکار در داده‌ها و گراف اعمال می‌شود.'}catch(error){$(statusId).textContent=error.message}finally{button.disabled=false}};
+  $('vrSubmit').addEventListener('click',()=>{const index=Number($('vrPerson').value),person=people[index];if(!person)return;send({id:Date.now(),kind:'locality_review',record_index:index,person_name:person.name,verdict:$('vrVerdict').value,reason:$('vrReason').value,note:$('vrNote').value.trim()},'vrStatus',$('vrSubmit'))});
+  $('relSubmit').addEventListener('click',()=>{const a=people[Number($('relA').value)],b=people[Number($('relB').value)];if(!a||!b||a===b){$('relStatus').textContent='دو فرد متفاوت را انتخاب کنید.';return}send({id:Date.now(),kind:'relationship',person_a:a.name,person_b:b.name,relation:$('relType').value,note:$('relNote').value.trim()},'relStatus',$('relSubmit'))});
 }
 
 async function leads(){
@@ -265,6 +281,7 @@ function bindEvents(){
   $('history').addEventListener('click',event=>{const item=event.target.closest('.hist');if(!item)return;$('q').value=item.textContent;q=item.textContent;page=1;render();$('history').classList.remove('open')});
   document.addEventListener('click',event=>{if(!event.target.closest('.search'))$('history').classList.remove('open')});
   $('source').addEventListener('change',event=>{src=event.target.value;page=1;render()});$('reset').addEventListener('click',resetFilters);
+  $('verifyPerson').addEventListener('click',()=>{const index=$('verifyPerson').dataset.recordIndex;closeDetail();openTab('verification');$('vrPerson').value=index;$('vrPerson').focus()});
   $('prev').addEventListener('click',()=>{if(page>1){page--;render();$('list').scrollIntoView({block:'start'})}});$('next').addEventListener('click',()=>{if(page<Math.ceil(filtered.length/PAGE)){page++;render();$('list').scrollIntoView({block:'start'})}});
   $('list').addEventListener('click',event=>{
     const row=event.target.closest('.person'),action=event.target.closest('[data-action]');
@@ -281,7 +298,7 @@ async function boot(){
   try{
     await loadData();
     const layerState=await loadLayers();
-    applyIntelligence();buildMetrics();statusRows(layerState);setupFilters();buildIntel();renderKnowledgeGraph();buildOrgs();await leads();render();
+    applyIntelligence();buildMetrics();statusRows(layerState);setupFilters();buildIntel();renderKnowledgeGraph();buildOrgs();setupVerification();await leads();render();
     $('state').className='hero-state ready';$('state').innerHTML=`<span class="pulse"></span>Snapshot فعال · ${people.length.toLocaleString('fa-IR')} رکورد واقعی`;
   }catch(error){
     console.error(error);$('state').className='hero-state error';$('state').textContent='خطا در دریافت Snapshot';$('list').innerHTML=`<div class="error-state"><strong>بارگذاری داده‌های اصلی شکست خورد</strong><small>${esc(error.message)}</small><button class="button subtle" type="button" onclick="location.reload()">تلاش دوباره</button></div>`;$('count').textContent='داده بارگذاری نشد';

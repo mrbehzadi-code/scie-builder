@@ -1,0 +1,14 @@
+{
+  "schema": "scie-public-source-registry-v1",
+  "policy": "Only public, indexable pages. No private groups, login bypass, sensitive data, or access-control circumvention.",
+  "sources": [
+    {"id":"telegram","label":"کانال‌ها و گروه‌های عمومی تلگرام","domains":["t.me"],"query_templates":["site:t.me {value} اردکان","site:t.me {value} یزد"]},
+    {"id":"eitaa","label":"کانال‌های عمومی ایتا","domains":["eitaa.com"],"query_templates":["site:eitaa.com {value} اردکان","site:eitaa.com {value} یزد"]},
+    {"id":"instagram","label":"صفحه‌های عمومی اینستاگرام","domains":["instagram.com"],"query_templates":["site:instagram.com {value} اردکان","site:instagram.com {value} یزد"]},
+    {"id":"universities","label":"دانشگاه‌های داخلی و خارجی","domains":["ac.ir","edu"],"query_templates":["site:ac.ir {value} اردکان","site:edu {value} Ardakan","{value} faculty Ardakan"]},
+    {"id":"medical","label":"منابع عمومی پزشکی و حرفه‌ای","domains":["irimc.org","behdasht.gov.ir"],"query_templates":["site:irimc.org {value}","site:behdasht.gov.ir {value} اردکان"]},
+    {"id":"legal","label":"منابع عمومی حقوقی و وکالت","domains":["23055.ir","icbar.ir"],"query_templates":["{value} وکیل اردکان","{value} کانون وکلا یزد"]},
+    {"id":"government","label":"پایگاه‌های رسمی و سازمانی","domains":["gov.ir","ir"],"query_templates":["site:gov.ir {value} اردکان","{value} اداره اردکان"]},
+    {"id":"open_web","label":"وب عمومی و رسانه‌ها","domains":[],"query_templates":["{value} اردکان","{value} اهل اردکان","{value} متولد اردکان","{value} یزد"]}
+  ]
+}

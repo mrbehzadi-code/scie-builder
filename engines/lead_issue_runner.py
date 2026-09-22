@@ -5,20 +5,27 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT/'docs/data.json'; LEADS=ROOT/'input/discovery_leads.json'; RUNS=ROOT/'docs/lead_runs.json'
+DATA=ROOT/'docs/data.json'; LEADS=ROOT/'input/discovery_leads.json'; RUNS=ROOT/'docs/lead_runs.json'; SOURCES=ROOT/'discovery_sources.json'
 
 def norm(s): return re.sub(r'\s+',' ',str(s or '').strip()).casefold()
 def fetch(url, headers=None, timeout=25):
     h={'User-Agent':'SCIE-Lead-Discovery/1.3'}; h.update(headers or {})
     with urlopen(Request(url,headers=h),timeout=timeout) as r: return r.read().decode('utf-8','ignore')
 def lead_queries(lead):
-    v=lead.get('value','').strip(); typ=lead.get('type')
+    v=lead.get('value','').strip(); typ=lead.get('type'); context=' '.join(x for x in (lead.get('location','').strip(),lead.get('note','').strip()) if x)
     qs=[v,f'{v} Ardakan',f'Ardakan {v}',f'{v} اردکان',f'اردکان {v}']
+    if context: qs += [f'{v} {context}',f'{v} {context} اردکان']
     if typ=='surname': qs += [f'{v} Ardakan family',f'{v} اردکان خانواده']
     if typ=='organization': qs += [f'{v} Ardakan company',f'{v} اردکان شرکت']
     if typ=='expertise': qs += [f'{v} Ardakan expert',f'{v} اردکان متخصص']
     if typ=='address': qs += [f'{v} Ardakan',f'{v} اردکان']
-    return list(dict.fromkeys(qs))[:8]
+    return list(dict.fromkeys(qs))[:12]
+def targeted_queries(lead):
+    registry=json.loads(SOURCES.read_text(encoding='utf-8')) if SOURCES.exists() else {'sources':[]}; value=lead.get('value','').strip()
+    out=[]
+    for source in registry.get('sources',[]):
+        for template in source.get('query_templates',[]): out.append((source.get('label','وب عمومی'),template.format(value=value)))
+    return out
 def web_results(q):
     try:
         html=fetch('https://html.duckduckgo.com/html/?q='+quote(q))
@@ -52,7 +59,8 @@ def github(lead):
 def add_candidate(people,existing,lead,name,url,source,detail,evidence):
     key=(norm(name),norm(url))
     if not name or key in existing: return False
-    people.append({'name':name,'type':'کاندیدای کشف از سرنخ','source':source,'detail':detail,'location':lead.get('location') or 'Ardakan signal','evidence':evidence,'url':url,'verification':'needs_review','confidence':'low','lead_id':lead.get('id')}); existing.add(key); return True
+    combined=' '.join([name,url,detail,*evidence]).casefold(); explicit=any(x in combined for x in ('اردکان','ardakan'))
+    people.append({'name':name,'type':'کاندیدای کشف از سرنخ','source':source,'detail':detail,'location':lead.get('location') or '', 'evidence':evidence,'url':url,'verification':'needs_review','confidence':'medium' if explicit else 'low','locality_claim':'candidate_not_confirmed','lead_id':lead.get('id')}); existing.add(key); return True
 def source_counts(people):
     out={}
     for p in people:
@@ -74,11 +82,12 @@ def main():
             if add_candidate(people,existing,lead,name,url,'Lead-guided GitHub Discovery',f"GitHub result for «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'query: {q}']): found+=1
             if found>=25: break
     if found<30:
-        for q in lead_queries(lead):
+        queries=[('وب عمومی',q) for q in lead_queries(lead)]+targeted_queries(lead)
+        for source_label,q in queries:
             for title,url in web_results(q):
-                if add_candidate(people,existing,lead,title,url,'Lead-guided Web Discovery',f"نتیجه وب برای سرنخ «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'query: {q}']): found+=1
-                if found>=30: break
-            if found>=30: break
+                if add_candidate(people,existing,lead,title,url,f'Lead-guided {source_label}',f"نتیجه عمومی برای سرنخ «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'public source: {source_label}',f'query: {q}']): found+=1
+                if found>=45: break
+            if found>=45: break
     data['generated_at']=time.strftime('%Y-%m-%d')
     stats=data.setdefault('stats',{})
     stats['people']=len(people)

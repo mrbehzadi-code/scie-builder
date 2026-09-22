@@ -57,6 +57,7 @@
       <button data-tab="intelligence" aria-selected="false"><span class="tab-icon">◇</span>هوش اطلس</button>
       <button data-tab="network" aria-selected="false"><span class="tab-icon">⌘</span>شبکه</button>
       <button data-tab="organizations" aria-selected="false"><span class="tab-icon">▦</span>سازمان‌ها</button>
+      <button data-tab="verification" aria-selected="false"><span class="tab-icon">✓</span>راستی‌آزمایی</button>
       <button data-tab="leads" aria-selected="false"><span class="tab-icon">＋</span>سرنخ جدید</button>
     </nav>
 
@@ -119,6 +120,27 @@
       <div id="orgs" class="org-grid"></div>
     </section>
 
+    <section id="verification" class="section hidden">
+      <div class="page-heading"><span class="kicker">مشارکت انسانی و شواهد محلی</span><h2>راستی‌آزمایی و تکمیل شبکه</h2><p>نظر شما به‌عنوان یک ادعای مستند ثبت می‌شود؛ دادهٔ خام حذف نمی‌شود و سابقهٔ تصمیم حفظ خواهد شد.</p></div>
+      <div id="localitySummary" class="analysis-grid"></div>
+      <div class="verification-grid">
+        <section class="panel verification-form"><div class="section-head compact"><div><span class="kicker">بازبینی هویت محلی</span><h3>آیا این فرد اردکانی است؟</h3></div></div>
+          <label><span>فرد</span><select id="vrPerson"></select></label>
+          <label><span>نتیجهٔ بررسی</span><select id="vrVerdict"><option value="not_ardakani">اردکانی نیست</option><option value="ardakani">اردکانی است</option><option value="needs_evidence">نیازمند شواهد بیشتر</option></select></label>
+          <label><span>دلیل اصلی</span><select id="vrReason"><option>محل تولد یا سکونت متفاوت</option><option>تشابه نام خانوادگی بدون ارتباط محلی</option><option>وابستگی سازمانی مربوط به شهر دیگری است</option><option>شناخت مستقیم و محلی</option><option>تعارض در منابع</option><option>دلیل دیگر</option></select></label>
+          <label><span>توضیح و منبع تکمیلی</span><textarea id="vrNote" placeholder="دلیل، نشانی منبع عمومی یا توضیح شما"></textarea></label>
+          <button id="vrSubmit" class="button primary" type="button">ثبت راستی‌آزمایی</button><span id="vrStatus" role="status" aria-live="polite"></span>
+        </section>
+        <section class="panel verification-form"><div class="section-head compact"><div><span class="kicker">ارتقای گراف ارتباطات</span><h3>ثبت رابطهٔ بین دو فرد</h3></div></div>
+          <label><span>فرد اول</span><select id="relA"></select></label><label><span>فرد دوم</span><select id="relB"></select></label>
+          <label><span>نوع رابطه</span><select id="relType"><option value="sibling">خواهر یا برادر</option><option value="parent">والد و فرزند</option><option value="relative">خویشاوند</option><option value="colleague">همکار</option><option value="partner">شریک حرفه‌ای</option><option value="teacher">استاد</option><option value="student">شاگرد</option></select></label>
+          <label><span>توضیح یا شاهد عمومی</span><textarea id="relNote" placeholder="برای مثال: شناخت مستقیم، خبر عمومی یا صفحهٔ رسمی"></textarea></label>
+          <button id="relSubmit" class="button primary" type="button">ثبت رابطه در صف بررسی</button><span id="relStatus" role="status" aria-live="polite"></span>
+        </section>
+      </div>
+      <section class="panel source-catalog"><div class="section-head compact"><div><span class="kicker">دامنهٔ کشف عمومی</span><h3>منابع جدید فعال</h3></div></div><div class="source-grid"><span>کانال‌ها و گروه‌های عمومی تلگرام</span><span>کانال‌های عمومی ایتا</span><span>صفحه‌های عمومی اینستاگرام</span><span>دانشگاه‌های داخلی و خارجی</span><span>پایگاه‌های عمومی نظام پزشکی</span><span>کانون‌های وکلا و منابع حقوقی</span><span>ادارات و سازمان‌های رسمی</span><span>وب عمومی و رسانه‌ها</span></div><p class="meta">فقط صفحات عمومی و قابل استناد بررسی می‌شوند؛ گروه بسته، حساب خصوصی و دادهٔ پشت ورود در دامنهٔ سامانه نیست.</p></section>
+    </section>
+
     <section id="leads" class="section hidden">
       <div class="page-heading"><span class="kicker">خط لولهٔ کشف هدایت‌شده</span><h2>ثبت و پردازش سرنخ جدید</h2><p>سرنخ مستقیماً و به‌صورت خودکار جستجو و اعتبارسنجی می‌شود؛ نامزدهای تازه به Snapshot و فهرست افراد افزوده خواهند شد.</p></div>
       <div class="lead-layout">
@@ -138,7 +160,7 @@
 
   <div id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="dname" hidden>
     <button class="detail-backdrop" tabindex="-1" aria-label="بستن"></button>
-    <article class="drawer"><div class="drawer-head"><div><span class="kicker">پروفایل اطلس</span><h2 id="dname"></h2><div id="dsummary" class="drawer-summary"></div></div><button id="close" class="icon-button" aria-label="بستن جزئیات">×</button></div><div id="dmeta" class="detail-sections"></div><div class="drawer-footer"><div id="devidence" class="evidence"></div><a id="durl" class="button primary" target="_blank" rel="noopener">مشاهده منبع ↗</a></div></article>
+    <article class="drawer"><div class="drawer-head"><div><span class="kicker">پروفایل اطلس</span><h2 id="dname"></h2><div id="dsummary" class="drawer-summary"></div></div><button id="close" class="icon-button" aria-label="بستن جزئیات">×</button></div><div id="dmeta" class="detail-sections"></div><div class="drawer-footer"><div id="devidence" class="evidence"></div><a id="durl" class="button primary" target="_blank" rel="noopener">مشاهده منبع ↗</a><button id="verifyPerson" class="button subtle" type="button">راستی‌آزمایی این فرد</button></div></article>
   </div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
   <script src="app.js" defer></script>

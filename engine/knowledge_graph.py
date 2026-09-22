@@ -17,6 +17,7 @@ ENTITIES = ROOT / "docs" / "entities.json"
 PROFILE = ROOT / "docs" / "profile_enrichment.json"
 EXTERNAL = ROOT / "docs" / "external_enrichment.json"
 OUTPUT = ROOT / "docs" / "knowledge_graph.json"
+RELATIONSHIPS = ROOT / "docs" / "relationships.json"
 
 
 def clean(value) -> str:
@@ -165,6 +166,16 @@ def main() -> None:
                     if topic_name:
                         tid = add_node(nodes, "expertise", topic_name)
                         edge(entity_node, tid, "HAS_EXPERTISE", f"academic topic candidate {idx}")
+
+    # Human-reported social ties are represented explicitly as unverified claims.
+    relationship_data = json.loads(RELATIONSHIPS.read_text(encoding="utf-8")) if RELATIONSHIPS.exists() else {"relationships": []}
+    entity_by_name = {clean(n.get("label")).casefold(): nid for nid, n in nodes.items() if n.get("type") == "entity"}
+    relation_names = {"sibling":"SIBLING_OF","brother":"SIBLING_OF","sister":"SIBLING_OF","parent":"PARENT_OF","colleague":"COLLEAGUE_OF","partner":"PARTNER_OF","teacher":"TEACHER_OF","student":"STUDENT_OF","relative":"RELATED_TO"}
+    for item in relationship_data.get("relationships", []):
+        left = entity_by_name.get(clean(item.get("person_a")).casefold())
+        right = entity_by_name.get(clean(item.get("person_b")).casefold())
+        relation = relation_names.get(item.get("relation"), "RELATED_TO")
+        edge(left, right, relation, f"human asserted; unverified; issue {item.get('issue_number', '—')}")
 
     degree = Counter()
     relation_counts = Counter()

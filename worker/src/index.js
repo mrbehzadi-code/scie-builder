@@ -26,6 +26,25 @@ function issueBody(lead){
   return `سرنخ انسانی ثبت‌شده برای خط لولهٔ کشف SCIE.\n\n<!--SCIE_LEAD\n${JSON.stringify(lead,null,2)}\nSCIE_LEAD-->\n\n- نوع: ${lead.type_label||lead.type}\n- مقدار: ${lead.value}\n- مکان: ${lead.location||'ثبت نشده'}\n- انتظار: جستجو، اعتبارسنجی و افزودن نامزدهای جدید به Snapshot داشبورد`;
 }
 
+function validateFeedback(input){
+  const kind=clean(input?.kind,32),base={id:Number(input?.id)||Date.now(),kind,created_at:new Date().toISOString()};
+  if(kind==='locality_review'){
+    const verdict=clean(input?.verdict,32);if(!['ardakani','not_ardakani','needs_evidence'].includes(verdict))throw new Error('نتیجهٔ راستی‌آزمایی معتبر نیست.');
+    return {...base,record_index:Number(input?.record_index),person_name:clean(input?.person_name,180),verdict,reason:clean(input?.reason,120),note:clean(input?.note,1000)};
+  }
+  if(kind==='relationship'){
+    const value={...base,person_a:clean(input?.person_a,180),person_b:clean(input?.person_b,180),relation:clean(input?.relation,32),note:clean(input?.note,1000)};
+    if(!value.person_a||!value.person_b||value.person_a===value.person_b)throw new Error('دو فرد متفاوت را انتخاب کنید.');return value;
+  }
+  throw new Error('نوع بازخورد معتبر نیست.');
+}
+
+function feedbackIssue(item){
+  const relation=item.kind==='relationship',title=relation?`[SCIE RELATIONSHIP] ${item.person_a} ↔ ${item.person_b}`:`[SCIE FEEDBACK] ${item.person_name}`;
+  const body=`بازخورد انسانی برای پردازش SCIE.\n\n<!--SCIE_FEEDBACK\n${JSON.stringify(item,null,2)}\nSCIE_FEEDBACK-->\n\nاین ادعا تا زمان تأیید با شواهد مستقل، بازخورد انسانی محسوب می‌شود.`;
+  return {title,body};
+}
+
 export default {
   async fetch(request,env){
     const origin=request.headers.get('origin')||'',allowed=env.ALLOWED_ORIGIN;
@@ -34,14 +53,15 @@ export default {
     if(request.method!=='POST')return reply({ok:false,error:'متد درخواست مجاز نیست.'},405,origin,allowed);
     if(!env.GITHUB_TOKEN)return reply({ok:false,error:'سرویس هنوز پیکربندی نشده است.'},503,origin,allowed);
     try{
-      const lead=validate(await request.json());
-      const key=clean(request.headers.get('x-idempotency-key')||lead.id,100);
+      const feedback=new URL(request.url).pathname==='/feedback',item=feedback?validateFeedback(await request.json()):validate(await request.json());
+      const key=clean(request.headers.get('x-idempotency-key')||item.id,100);
       const cacheKey=new Request(`https://scie-idempotency.invalid/${encodeURIComponent(key)}`);
       const cached=await caches.default.match(cacheKey);if(cached)return new Response(cached.body,{status:cached.status,headers:cors(origin,allowed)});
-      const response=await fetch(`https://api.github.com/repos/${env.GITHUB_REPOSITORY}/issues`,{method:'POST',headers:{authorization:`Bearer ${env.GITHUB_TOKEN}`,accept:'application/vnd.github+json','content-type':'application/json','user-agent':'SCIE-Lead-API','x-github-api-version':'2022-11-28'},body:JSON.stringify({title:`[SCIE LEAD] ${lead.value}`,body:issueBody(lead)})});
+      const issue=feedback?feedbackIssue(item):{title:`[SCIE LEAD] ${item.value}`,body:issueBody(item)};
+      const response=await fetch(`https://api.github.com/repos/${env.GITHUB_REPOSITORY}/issues`,{method:'POST',headers:{authorization:`Bearer ${env.GITHUB_TOKEN}`,accept:'application/vnd.github+json','content-type':'application/json','user-agent':'SCIE-Lead-API','x-github-api-version':'2022-11-28'},body:JSON.stringify(issue)});
       const result=await response.json();
       if(!response.ok)return reply({ok:false,error:'ارسال سرنخ به خط لوله ناموفق بود.',detail:result?.message||''},502,origin,allowed);
-      const payload={ok:true,status:'submitted',issue_number:result.number,tracking_id:lead.id};
+      const payload={ok:true,status:'submitted',issue_number:result.number,tracking_id:item.id};
       const success=reply(payload,202,origin,allowed);await caches.default.put(cacheKey,new Response(JSON.stringify(payload),{status:202,headers:{...JSON_HEADERS,'cache-control':'max-age=600'}}));return success;
     }catch(error){return reply({ok:false,error:error?.message||'درخواست معتبر نیست.'},400,origin,allowed)}
   }

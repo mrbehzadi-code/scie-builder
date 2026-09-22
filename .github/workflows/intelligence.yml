@@ -11,6 +11,9 @@ on:
       - 'engine/external_enrichment.py'
       - 'engine/entity_profiles.py'
       - 'engine/knowledge_graph.py'
+      - 'engine/locality_scoring.py'
+      - 'docs/user_feedback.json'
+      - 'docs/relationships.json'
       - '.github/workflows/intelligence.yml'
   workflow_run:
     workflows: ["SCIE Discovery Expansion", "SCIE Lead Guided Discovery"]
@@ -51,6 +54,9 @@ jobs:
       - name: Build canonical entity layer
         run: python engine/entity_profiles.py
 
+      - name: Score Ardakan locality evidence
+        run: python engine/locality_scoring.py
+
       - name: Build knowledge graph v1
         run: python engine/knowledge_graph.py
 
@@ -75,7 +81,7 @@ jobs:
         run: |
           git config user.name 'scie-bot'
           git config user.email 'scie-bot@users.noreply.github.com'
-          git add docs/intelligence.json docs/entity_resolution.json docs/profile_enrichment.json docs/external_enrichment.json docs/entities.json docs/knowledge_graph.json docs/index.html
+          git add docs/intelligence.json docs/entity_resolution.json docs/profile_enrichment.json docs/external_enrichment.json docs/entities.json docs/knowledge_graph.json docs/locality_assessment.json docs/index.html
           if git diff --cached --quiet; then
             echo 'No changes.'
           else
