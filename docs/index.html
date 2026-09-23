@@ -25,7 +25,7 @@
     <div class="hero-pattern" aria-hidden="true"></div>
     <div class="container hero-inner">
       <div class="hero-logo" aria-label="SCIE Social Capital Intelligence Engine">
-        <svg viewBox="0 0 120 120" role="img" aria-label="نشان هندسی SCIE"><defs><linearGradient id="logoGradient" x1="0" x2="1"><stop stop-color="#174896"/><stop offset="1" stop-color="#2c83d5"/></linearGradient></defs><g fill="url(#logoGradient)"><path d="M55 7h10l8 24-13 13-13-13z"/><path d="m84 17 8 6-8 25-18 4-5-17z"/><path d="m105 43 3 10-21 16-17-8 2-18z"/><path d="m108 75-3 10-26-1-9-16 13-12z"/><path d="m92 101-8 6-21-15 2-18 18-3z"/><path d="M65 113H55L47 88l13-12 13 12z"/><path d="m36 107-8-6 8-25 18-4 5 17z"/><path d="M15 85 12 75l21-16 17 8-2 18z"/><path d="M12 53 15 43l26 1 9 16-13 12z"/><path d="m28 23 8-6 21 15-2 18-18 3z"/></g><circle cx="60" cy="60" r="11" fill="#fff" stroke="#2369ba" stroke-width="5"/></svg>
+        <svg viewBox="0 0 120 120" role="img" aria-label="نشان هندسی SCIE"><defs><radialGradient id="logoGradient" cx="52%" cy="43%" r="68%"><stop stop-color="#5aa0dc"/><stop offset=".48" stop-color="#2670b9"/><stop offset="1" stop-color="#123f82"/></radialGradient><filter id="logoShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0b326d" flood-opacity=".24"/></filter></defs><g fill="url(#logoGradient)" filter="url(#logoShadow)" stroke="#eef7ff" stroke-width="2.2" stroke-linejoin="round"><path d="M53 5h14l7 24-14 14-14-14z"/><path d="m82 13 13 7-4 25-19 8-8-17z"/><path d="m105 34 8 12-15 20-21-2-2-19z"/><path d="m115 64-3 14-24 8-16-12 7-18z"/><path d="m105 91-10 11-24-7-7-18 16-10z"/><path d="m79 111-14 4-16-19 6-19 19 4z"/><path d="m48 115-14-4-1-25 16-12 14 12z"/><path d="m20 102-10-11 10-23 20-4 9 17z"/><path d="M8 78 5 64l20-16 20 7-1 19z"/><path d="M7 47 15 34l25 2 12 16-13 14z"/><path d="m25 20 13-7 20 15-1 20-19 4z"/></g><g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".96"><path d="M60 28 42 49l7 25 26 2 8-24zM42 49l18 14 23-11M49 74l11-11 15 13M60 28v35M38 52l11 22-20 10M83 52 75 76l18 9M49 74l-5 22M75 76l-3 20"/></g><circle cx="60" cy="63" r="5.5" fill="#f7fbff" stroke="#1e64ad" stroke-width="2"/></svg>
         <div><strong>SCIE</strong><span>Social Capital<br>Intelligence Engine</span></div>
       </div>
       <div class="hero-copy">
@@ -141,6 +141,17 @@
         </section>
       </div>
       <section class="panel source-catalog"><div class="section-head compact"><div><span class="kicker">دامنهٔ کشف عمومی</span><h3>منابع جدید فعال</h3></div></div><div class="source-grid"><span>کانال‌ها و گروه‌های عمومی تلگرام</span><span>کانال‌های عمومی ایتا</span><span>صفحه‌های عمومی اینستاگرام</span><span>دانشگاه‌های داخلی و خارجی</span><span>پایگاه‌های عمومی نظام پزشکی</span><span>کانون‌های وکلا و منابع حقوقی</span><span>ادارات و سازمان‌های رسمی</span><span>وب عمومی و رسانه‌ها</span></div><p class="meta">فقط صفحات عمومی و قابل استناد بررسی می‌شوند؛ گروه بسته، حساب خصوصی و دادهٔ پشت ورود در دامنهٔ سامانه نیست.</p></section>
+      <section class="panel source-review-panel">
+        <div class="section-head"><div><span class="kicker">شواهد حفظ‌شده، بدون انتساب قطعی</span><h3>صف اعتبارسنجی منابع اجتماعی</h3><p>این نشانی‌ها بررسی شده‌اند، اما هنوز نام فرد و ارتباط او با اردکان با اطمینان استخراج نشده است.</p></div><span id="sourceReviewCount" class="result-count">در حال دریافت…</span></div>
+        <div id="sourceReviewQueue" class="source-review-queue"></div>
+        <div class="source-review-form">
+          <label><span>نشانی انتخاب‌شده</span><input id="sourceReviewUrl" readonly placeholder="ابتدا یک مورد را انتخاب کنید"></label>
+          <label><span>نتیجهٔ بررسی شما</span><select id="sourceReviewVerdict"><option value="person_candidate">مرتبط با یک فرد؛ دوباره استخراج شود</option><option value="relevant_nonperson">مرتبط با اردکان است، اما صفحهٔ شخص نیست</option><option value="irrelevant">نامرتبط است</option><option value="needs_evidence">نیازمند شاهد بیشتر است</option></select></label>
+          <label><span>نام فرد یا توضیح تکمیلی</span><textarea id="sourceReviewNote" placeholder="نام فرد و دلیل ارتباطش با اردکان را بنویسید؛ اطلاعات خصوصی وارد نکنید."></textarea></label>
+          <label class="consent"><input id="sourceReviewConsent" type="checkbox"><span>می‌دانم این بازخورد در مخزن عمومی ثبت می‌شود و اطلاعات خصوصی وارد نکرده‌ام.</span></label>
+          <button id="sourceReviewSubmit" class="button primary" type="button">ثبت نتیجهٔ اعتبارسنجی منبع</button><span id="sourceReviewStatus" role="status" aria-live="polite"></span>
+        </div>
+      </section>
     </section>
 
     <section id="leads" class="section hidden">

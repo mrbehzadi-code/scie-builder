@@ -36,11 +36,16 @@ function validateFeedback(input){
     const value={...base,person_a:clean(input?.person_a,180),person_b:clean(input?.person_b,180),relation:clean(input?.relation,32),note:clean(input?.note,1000)};
     if(!value.person_a||!value.person_b||value.person_a===value.person_b)throw new Error('دو فرد متفاوت را انتخاب کنید.');return value;
   }
+  if(kind==='source_review'){
+    const verdict=clean(input?.verdict,40);if(!['person_candidate','relevant_nonperson','irrelevant','needs_evidence'].includes(verdict))throw new Error('نتیجهٔ بررسی منبع معتبر نیست.');
+    const value={...base,source_url:clean(input?.source_url,600),platform:clean(input?.platform,40),verdict,note:clean(input?.note,1000)};
+    if(!/^https?:\/\//.test(value.source_url))throw new Error('نشانی منبع معتبر نیست.');return value;
+  }
   throw new Error('نوع بازخورد معتبر نیست.');
 }
 
 function feedbackIssue(item){
-  const relation=item.kind==='relationship',title=relation?`[SCIE RELATIONSHIP] ${item.person_a} ↔ ${item.person_b}`:`[SCIE FEEDBACK] ${item.person_name}`;
+  const relation=item.kind==='relationship',source=item.kind==='source_review',title=relation?`[SCIE RELATIONSHIP] ${item.person_a} ↔ ${item.person_b}`:source?`[SCIE SOURCE REVIEW] ${item.platform}`:`[SCIE FEEDBACK] ${item.person_name}`;
   const body=`بازخورد انسانی برای پردازش SCIE.\n\n<!--SCIE_FEEDBACK\n${JSON.stringify(item,null,2)}\nSCIE_FEEDBACK-->\n\nاین ادعا تا زمان تأیید با شواهد مستقل، بازخورد انسانی محسوب می‌شود.`;
   return {title,body};
 }
