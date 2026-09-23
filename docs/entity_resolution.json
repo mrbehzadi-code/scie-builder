@@ -1,44 +1,18 @@
 {
-  "input_count": 493,
-  "group_count": 23,
+  "input_count": 495,
+  "group_count": 27,
   "pair_count": 25,
   "decision_counts": {
-    "SAME_PERSON": 3,
+    "SAME_PERSON": 10,
     "LIKELY_SAME_PERSON": 5,
-    "UNCERTAIN": 17,
+    "UNCERTAIN": 10,
     "LIKELY_DIFFERENT_PERSON": 0
   },
-  "human_review_count": 22,
+  "human_review_count": 15,
   "pairs": [
     {
-      "candidate_a": 18,
-      "candidate_b": 419,
-      "name_a": "Ali Ardakani",
-      "name_b": "Ali Ardakani",
-      "decision": "UNCERTAIN",
-      "score": 1.0,
-      "confidence": 0.85,
-      "evidence": [
-        {
-          "type": "name",
-          "result": "strong_match",
-          "score": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "academic",
-        "location",
-        "organization",
-        "publication",
-        "technical"
-      ],
-      "conflicts": [],
-      "human_review_required": true,
-      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
-    },
-    {
-      "candidate_a": 24,
-      "candidate_b": 25,
+      "candidate_a": 29,
+      "candidate_b": 30,
       "name_a": "Alireza Hekmat Ardakan",
       "name_b": "Alireza Hekmat‐Ardakan",
       "decision": "UNCERTAIN",
@@ -63,8 +37,8 @@
       "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
-      "candidate_a": 30,
-      "candidate_b": 31,
+      "candidate_a": 39,
+      "candidate_b": 40,
       "name_a": "Azra Mohammadpanah Ardakan",
       "name_b": "Azra Mohammadpanah-Ardakan",
       "decision": "UNCERTAIN",
@@ -89,8 +63,8 @@
       "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
-      "candidate_a": 43,
-      "candidate_b": 44,
+      "candidate_a": 55,
+      "candidate_b": 56,
       "name_a": "Fatemeh Ezoddini Ardakani",
       "name_b": "Fatemeh Ezoddini-Ardakani",
       "decision": "UNCERTAIN",
@@ -115,8 +89,8 @@
       "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
-      "candidate_a": 47,
-      "candidate_b": 334,
+      "candidate_a": 60,
+      "candidate_b": 412,
       "name_a": "Hamed Davari‐Ardakani",
       "name_b": "Hamed Davari Ardakani",
       "decision": "LIKELY_SAME_PERSON",
@@ -145,8 +119,8 @@
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
     },
     {
-      "candidate_a": 52,
-      "candidate_b": 421,
+      "candidate_a": 68,
+      "candidate_b": 418,
       "name_a": "Hassan-Ali Vahedian-Ardakani",
       "name_b": "Hassan Ali Vahedian Ardakani",
       "decision": "UNCERTAIN",
@@ -171,34 +145,30 @@
       "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
-      "candidate_a": 92,
-      "candidate_b": 379,
-      "name_a": "Mohammad Fotouhi Ardakani",
-      "name_b": "Mohammad Fotouhi Ardakani",
-      "decision": "UNCERTAIN",
+      "candidate_a": 104,
+      "candidate_b": 105,
+      "name_a": "Maria Tavakoli Ardakani",
+      "name_b": "Maria Tavakoli‐Ardakani",
+      "decision": "SAME_PERSON",
       "score": 1.0,
-      "confidence": 0.85,
+      "confidence": 1.0,
       "evidence": [
         {
-          "type": "name",
-          "result": "strong_match",
-          "score": 1.0
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5063950164"
+          ]
         }
       ],
-      "missing_evidence": [
-        "academic",
-        "location",
-        "organization",
-        "publication",
-        "technical"
-      ],
+      "missing_evidence": [],
       "conflicts": [],
-      "human_review_required": true,
-      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
     },
     {
-      "candidate_a": 93,
-      "candidate_b": 104,
+      "candidate_a": 125,
+      "candidate_b": 139,
       "name_a": "Mohammad Javad Ehsani Ardakani",
       "name_b": "Mohammad-Javad Ehsani-Ardakani",
       "decision": "LIKELY_SAME_PERSON",
@@ -227,66 +197,8 @@
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
     },
     {
-      "candidate_a": 110,
-      "candidate_b": 111,
-      "name_a": "Mojtaba Sahraee Ardakan",
-      "name_b": "Mojtaba Sahraee-Ardakan",
-      "decision": "UNCERTAIN",
-      "score": 0.7738,
-      "confidence": 0.6577,
-      "evidence": [
-        {
-          "type": "name",
-          "result": "strong_match",
-          "score": 1.0
-        },
-        {
-          "type": "organization",
-          "result": "partial_match",
-          "score": 0.3214
-        }
-      ],
-      "missing_evidence": [
-        "academic",
-        "location",
-        "publication",
-        "technical"
-      ],
-      "conflicts": [
-        "organization"
-      ],
-      "human_review_required": true,
-      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
-    },
-    {
-      "candidate_a": 110,
-      "candidate_b": 386,
-      "name_a": "Mojtaba Sahraee Ardakan",
-      "name_b": "Mojtaba Sahraee Ardakan",
-      "decision": "UNCERTAIN",
-      "score": 1.0,
-      "confidence": 0.85,
-      "evidence": [
-        {
-          "type": "name",
-          "result": "strong_match",
-          "score": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "academic",
-        "location",
-        "organization",
-        "publication",
-        "technical"
-      ],
-      "conflicts": [],
-      "human_review_required": true,
-      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
-    },
-    {
-      "candidate_a": 111,
-      "candidate_b": 386,
+      "candidate_a": 147,
+      "candidate_b": 442,
       "name_a": "Mojtaba Sahraee-Ardakan",
       "name_b": "Mojtaba Sahraee Ardakan",
       "decision": "UNCERTAIN",
@@ -311,60 +223,8 @@
       "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
-      "candidate_a": 114,
-      "candidate_b": 382,
-      "name_a": "Mostafa Abouei Ardakan",
-      "name_b": "Mostafa Abouei Ardakan",
-      "decision": "UNCERTAIN",
-      "score": 1.0,
-      "confidence": 0.85,
-      "evidence": [
-        {
-          "type": "name",
-          "result": "strong_match",
-          "score": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "academic",
-        "location",
-        "organization",
-        "publication",
-        "technical"
-      ],
-      "conflicts": [],
-      "human_review_required": true,
-      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
-    },
-    {
-      "candidate_a": 123,
-      "candidate_b": 388,
-      "name_a": "Nooshin Gholhovallahi Ardakan",
-      "name_b": "Nooshin Gholhovallahi Ardakan",
-      "decision": "UNCERTAIN",
-      "score": 1.0,
-      "confidence": 0.85,
-      "evidence": [
-        {
-          "type": "name",
-          "result": "strong_match",
-          "score": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "academic",
-        "location",
-        "organization",
-        "publication",
-        "technical"
-      ],
-      "conflicts": [],
-      "human_review_required": true,
-      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
-    },
-    {
-      "candidate_a": 126,
-      "candidate_b": 127,
+      "candidate_a": 163,
+      "candidate_b": 164,
       "name_a": "Payman Mahboobi Ardakan",
       "name_b": "Payman Mahboobi-Ardakan",
       "decision": "UNCERTAIN",
@@ -395,34 +255,8 @@
       "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
     },
     {
-      "candidate_a": 348,
-      "candidate_b": 447,
-      "name_a": "Zahra Afkhami Ardakani",
-      "name_b": "Zahra Afkhami Ardakani",
-      "decision": "UNCERTAIN",
-      "score": 1.0,
-      "confidence": 0.85,
-      "evidence": [
-        {
-          "type": "name",
-          "result": "strong_match",
-          "score": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "academic",
-        "location",
-        "organization",
-        "publication",
-        "technical"
-      ],
-      "conflicts": [],
-      "human_review_required": true,
-      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
-    },
-    {
-      "candidate_a": 13,
-      "candidate_b": 14,
+      "candidate_a": 16,
+      "candidate_b": 17,
       "name_a": "Akbar Beiki‐Ardakan",
       "name_b": "Akbar Beiki‐Ardakani",
       "decision": "UNCERTAIN",
@@ -453,8 +287,8 @@
       "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
     },
     {
-      "candidate_a": 41,
-      "candidate_b": 42,
+      "candidate_a": 53,
+      "candidate_b": 54,
       "name_a": "Fatemeh Behjati Ardakan",
       "name_b": "Fatemeh Behjati Ardakani",
       "decision": "UNCERTAIN",
@@ -485,8 +319,30 @@
       "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
     },
     {
-      "candidate_a": 54,
-      "candidate_b": 55,
+      "candidate_a": 69,
+      "candidate_b": 70,
+      "name_a": "Hassanali Vahedian-Ardakan",
+      "name_b": "Hassanali Vahedian-Ardakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5107076639"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 71,
+      "candidate_b": 72,
       "name_a": "Hasti Asayesh-Ardakan",
       "name_b": "Hasti Asayesh‐Ardakani",
       "decision": "LIKELY_SAME_PERSON",
@@ -515,8 +371,8 @@
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
     },
     {
-      "candidate_a": 131,
-      "candidate_b": 132,
+      "candidate_a": 168,
+      "candidate_b": 169,
       "name_a": "Reza Behjatmanesh-Ardakan",
       "name_b": "Reza Behjatmanesh‐Ardakani",
       "decision": "LIKELY_SAME_PERSON",
@@ -545,8 +401,8 @@
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
     },
     {
-      "candidate_a": 140,
-      "candidate_b": 141,
+      "candidate_a": 183,
+      "candidate_b": 184,
       "name_a": "Shahram Salek-Ardakan",
       "name_b": "Shahram Salek‐Ardakani",
       "decision": "UNCERTAIN",
@@ -577,8 +433,8 @@
       "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
     },
     {
-      "candidate_a": 160,
-      "candidate_b": 161,
+      "candidate_a": 210,
+      "candidate_b": 211,
       "name_a": "احمد شاکر اردکان",
       "name_b": "احمد شاکر اردکانی",
       "decision": "UNCERTAIN",
@@ -603,8 +459,8 @@
       "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
-      "candidate_a": 292,
-      "candidate_b": 305,
+      "candidate_a": 365,
+      "candidate_b": 379,
       "name_a": "ardakan",
       "name_b": "ardakani",
       "decision": "LIKELY_SAME_PERSON",
@@ -633,8 +489,118 @@
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
     },
     {
-      "candidate_a": 278,
-      "candidate_b": 279,
+      "candidate_a": 2,
+      "candidate_b": 21,
+      "name_a": "A. Falahi-Ardakani",
+      "name_b": "Ali Falahi-Ardakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5076407063"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 90,
+      "candidate_b": 121,
+      "name_a": "M. Alemi-Ardakani",
+      "name_b": "Mohammad Alemi-Ardakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5032097007"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 160,
+      "candidate_b": 161,
+      "name_a": "Omid H. Ardakani",
+      "name_b": "Omid Haeri Ardakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5088280948"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 196,
+      "candidate_b": 197,
+      "name_a": "Yalda H. Ardakani",
+      "name_b": "Yalda Hosseinzadeh Ardakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5011798315"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 199,
+      "candidate_b": 203,
+      "name_a": "Z Behjati Ardakani",
+      "name_b": "Zohreh Behjati Ardakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5041024674"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 329,
+      "candidate_b": 330,
       "name_a": "Abolfazl Kamali Ardakani",
       "name_b": "AbolfazlKamaliArdakani",
       "decision": "SAME_PERSON",
@@ -655,8 +621,8 @@
       "explanation": "The records share the same stable academic identifier."
     },
     {
-      "candidate_a": 282,
-      "candidate_b": 309,
+      "candidate_a": 335,
+      "candidate_b": 383,
       "name_a": "Ali",
       "name_b": "Ardakaniali",
       "decision": "SAME_PERSON",
@@ -677,10 +643,10 @@
       "explanation": "The records share the same stable academic identifier."
     },
     {
-      "candidate_a": 348,
-      "candidate_b": 349,
-      "name_a": "Zahra Afkhami Ardakani",
-      "name_b": "Zahra121377",
+      "candidate_a": 416,
+      "candidate_b": 417,
+      "name_a": "Hamid R. Zare",
+      "name_b": "Hamid Reza Zare",
       "decision": "SAME_PERSON",
       "score": 1.0,
       "confidence": 1.0,
@@ -689,7 +655,7 @@
           "type": "stable_identifier",
           "result": "exact_match",
           "values": [
-            "https://github.com/zahra121377"
+            "https://openalex.org/a5106072834"
           ]
         }
       ],
