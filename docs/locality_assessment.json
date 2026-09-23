@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 447,
-    "possible": 41,
+    "insufficient": 448,
+    "possible": 42,
     "probable": 4,
     "confirmed_by_human": 1
   },
@@ -111,6 +111,19 @@
     },
     {
       "candidate_index": 6,
+      "name": "Abolfazl Aboutalebi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 7,
       "name": "Abolfazl Ardakan",
       "score": 18,
       "status": "insufficient",
@@ -127,7 +140,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 7,
+      "candidate_index": 8,
       "name": "Abouei Ardakan Mostafa",
       "score": 18,
       "status": "insufficient",
@@ -144,7 +157,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 8,
+      "candidate_index": 9,
       "name": "Aboyee Ardakan Mohammad",
       "score": 18,
       "status": "insufficient",
@@ -161,7 +174,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 9,
+      "candidate_index": 10,
       "name": "Adel Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -178,7 +191,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 10,
+      "candidate_index": 11,
       "name": "Ahmad Fatahi Ardakani",
       "score": 43,
       "status": "possible",
@@ -199,7 +212,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 11,
+      "candidate_index": 12,
       "name": "Ahmad Haerian-Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -216,7 +229,23 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 12,
+      "candidate_index": 13,
+      "name": "Ahmad Nouri",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 14,
+      "name": "Ahmadreza Hakimi",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 15,
       "name": "Ahoo Malekafzali Ardakan",
       "score": 18,
       "status": "insufficient",
@@ -233,7 +262,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 13,
+      "candidate_index": 16,
       "name": "Akbar Beiki‐Ardakan",
       "score": 18,
       "status": "insufficient",
@@ -250,7 +279,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 14,
+      "candidate_index": 17,
       "name": "Akbar Beiki‐Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -267,7 +296,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 15,
+      "candidate_index": 18,
       "name": "Akhtar Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -284,7 +313,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 16,
+      "candidate_index": 19,
       "name": "Ali Abbasian Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -301,7 +330,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 17,
+      "candidate_index": 20,
       "name": "Ali Afzali-Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -318,59 +347,8 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 18,
-      "name": "Ali Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 19,
-      "name": "Ali Ghanei Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 20,
-      "name": "Ali Jahanbani Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
       "candidate_index": 21,
-      "name": "Ali Reza Mokhtari Ardakan",
+      "name": "Ali Falahi-Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -387,7 +365,7 @@
     },
     {
       "candidate_index": 22,
-      "name": "Ali Sarkargar Ardakani",
+      "name": "Ali Ghanei Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -404,7 +382,7 @@
     },
     {
       "candidate_index": 23,
-      "name": "Alireza Ardakani",
+      "name": "Ali Jahanbani Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -421,24 +399,15 @@
     },
     {
       "candidate_index": 24,
-      "name": "Alireza Hekmat Ardakan",
-      "score": 18,
+      "name": "Ali Parsaeian",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 25,
-      "name": "Alireza Hekmat‐Ardakan",
+      "name": "Ali Reza Mokhtari Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -455,7 +424,7 @@
     },
     {
       "candidate_index": 26,
-      "name": "Alireza Khodaei Ardakan",
+      "name": "Ali Sarkargar Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -472,24 +441,15 @@
     },
     {
       "candidate_index": 27,
-      "name": "Amir Adabi Ardakani",
-      "score": 18,
+      "name": "Ali Tavakoli",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 28,
-      "name": "Arash Ardakani",
+      "name": "Alireza Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -506,7 +466,7 @@
     },
     {
       "candidate_index": 29,
-      "name": "Azra Mohammad Panah Ardakan",
+      "name": "Alireza Hekmat Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -523,7 +483,7 @@
     },
     {
       "candidate_index": 30,
-      "name": "Azra Mohammadpanah Ardakan",
+      "name": "Alireza Hekmat‐Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -540,7 +500,7 @@
     },
     {
       "candidate_index": 31,
-      "name": "Azra Mohammadpanah-Ardakan",
+      "name": "Alireza Khodaei Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -557,24 +517,15 @@
     },
     {
       "candidate_index": 32,
-      "name": "Azra Mohammahpanah Ardakan",
-      "score": 18,
+      "name": "Amin Tavakkoli",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 33,
-      "name": "B Ardakani Abedi",
+      "name": "Amir Adabi Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -591,31 +542,18 @@
     },
     {
       "candidate_index": 34,
-      "name": "Davood Andalib Ardakani",
-      "score": 18,
+      "name": "Amir Shahabizad",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 35,
-      "name": "E Ardakani",
-      "score": 18,
+      "name": "Amirali Rahimi",
+      "score": 10,
       "status": "insufficient",
       "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -625,7 +563,7 @@
     },
     {
       "candidate_index": 36,
-      "name": "E Mirabzadeh Ardakan",
+      "name": "Arash Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -642,24 +580,15 @@
     },
     {
       "candidate_index": 37,
-      "name": "Ebrahim Kamali Ardakani",
-      "score": 18,
+      "name": "Azam Jafari",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 38,
-      "name": "Emad M. Ardakani",
+      "name": "Azra Mohammad Panah Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -676,7 +605,7 @@
     },
     {
       "candidate_index": 39,
-      "name": "Ezoddini Ardakan",
+      "name": "Azra Mohammadpanah Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -693,7 +622,7 @@
     },
     {
       "candidate_index": 40,
-      "name": "Fateme Fattahi Ardakani",
+      "name": "Azra Mohammadpanah-Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -710,7 +639,7 @@
     },
     {
       "candidate_index": 41,
-      "name": "Fatemeh Behjati Ardakan",
+      "name": "Azra Mohammahpanah Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -727,7 +656,7 @@
     },
     {
       "candidate_index": 42,
-      "name": "Fatemeh Behjati Ardakani",
+      "name": "B Ardakani Abedi",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -744,24 +673,15 @@
     },
     {
       "candidate_index": 43,
-      "name": "Fatemeh Ezoddini Ardakani",
-      "score": 18,
+      "name": "Bashir Amiri",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 44,
-      "name": "Fatemeh Ezoddini-Ardakani",
+      "name": "Davood Andalib Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -778,7 +698,7 @@
     },
     {
       "candidate_index": 45,
-      "name": "Fatemeh Jahanbani Ardakani",
+      "name": "Davood Shojaaddiny Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -795,7 +715,7 @@
     },
     {
       "candidate_index": 46,
-      "name": "Fatemeh Mokhtari ardakan",
+      "name": "E Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -812,7 +732,7 @@
     },
     {
       "candidate_index": 47,
-      "name": "Hamed Davari‐Ardakani",
+      "name": "E Mirabzadeh Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -829,7 +749,7 @@
     },
     {
       "candidate_index": 48,
-      "name": "Hamid Alemi Ardakani",
+      "name": "Ebrahim Kamali Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -846,7 +766,7 @@
     },
     {
       "candidate_index": 49,
-      "name": "Hamidreza Jahanbani‐Ardakani",
+      "name": "Emad M. Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -863,7 +783,7 @@
     },
     {
       "candidate_index": 50,
-      "name": "Hasan Mansouri‐Ardakan",
+      "name": "Ezoddini Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -880,14 +800,10 @@
     },
     {
       "candidate_index": 51,
-      "name": "Hasan Mohiti Ardakan",
-      "score": 18,
+      "name": "Farshad Sayadi",
+      "score": 10,
       "status": "insufficient",
       "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -897,7 +813,7 @@
     },
     {
       "candidate_index": 52,
-      "name": "Hassan-Ali Vahedian-Ardakani",
+      "name": "Fateme Fattahi Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -914,7 +830,7 @@
     },
     {
       "candidate_index": 53,
-      "name": "Hassanali Vahedian-Ardakan",
+      "name": "Fatemeh Behjati Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -931,7 +847,7 @@
     },
     {
       "candidate_index": 54,
-      "name": "Hasti Asayesh-Ardakan",
+      "name": "Fatemeh Behjati Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -948,7 +864,7 @@
     },
     {
       "candidate_index": 55,
-      "name": "Hasti Asayesh‐Ardakani",
+      "name": "Fatemeh Ezoddini Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -965,7 +881,7 @@
     },
     {
       "candidate_index": 56,
-      "name": "Hesam Anvari Ardakani",
+      "name": "Fatemeh Ezoddini-Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -982,7 +898,7 @@
     },
     {
       "candidate_index": 57,
-      "name": "Hesamoddin Razi-Ardakani",
+      "name": "Fatemeh Jahanbani Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -999,24 +915,15 @@
     },
     {
       "candidate_index": 58,
-      "name": "Hossein Anaraki‐Ardakani",
-      "score": 18,
+      "name": "Fatemeh Khodaei",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 59,
-      "name": "Hossein Davari Ardakani",
+      "name": "Fatemeh Mokhtari ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1033,7 +940,7 @@
     },
     {
       "candidate_index": 60,
-      "name": "Hossein Malekafzali Ardakani",
+      "name": "Hamed Davari‐Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1050,7 +957,7 @@
     },
     {
       "candidate_index": 61,
-      "name": "Hossein Talepour Ardakan",
+      "name": "Hamid Alemi Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1067,30 +974,21 @@
     },
     {
       "candidate_index": 62,
-      "name": "Kazem Majdzadeh‐Ardakani",
-      "score": 18,
+      "name": "Hamid Dehghani",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 63,
-      "name": "Kimya Hassani‐Ardakani",
-      "score": 18,
-      "status": "insufficient",
+      "name": "Hamidreza Bana Bafrouei",
+      "score": 35,
+      "status": "possible",
       "reasons": [
         {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
+          "signal": "ardakan university",
+          "weight": 25
         },
         {
           "signal": "حداقل سه میدان مستقل",
@@ -1101,7 +999,7 @@
     },
     {
       "candidate_index": 64,
-      "name": "Leili Shaker Ardakani",
+      "name": "Hamidreza Jahanbani‐Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1118,24 +1016,20 @@
     },
     {
       "candidate_index": 65,
-      "name": "M Abouei Ardakan",
-      "score": 18,
+      "name": "Hamidreza Mohtashami Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
           "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
           "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 66,
-      "name": "M. Alemi-Ardakani",
+      "name": "Hasan Mansouri‐Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1152,7 +1046,7 @@
     },
     {
       "candidate_index": 67,
-      "name": "M. Mahdi Ghazaei Ardakani",
+      "name": "Hasan Mohiti Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1169,6 +1063,361 @@
     },
     {
       "candidate_index": 68,
+      "name": "Hassan-Ali Vahedian-Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 69,
+      "name": "Hassanali Vahedian-Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 70,
+      "name": "Hassanali Vahedian-Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 71,
+      "name": "Hasti Asayesh-Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 72,
+      "name": "Hasti Asayesh‐Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 73,
+      "name": "Hesam Anvari Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 74,
+      "name": "Hesamoddin Razi-Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 75,
+      "name": "Hojat Karimian",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 76,
+      "name": "Hossein Anaraki‐Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 77,
+      "name": "Hossein Davari Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 78,
+      "name": "Hossein Dehkhodaei",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 79,
+      "name": "Hossein Malekafzali Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 80,
+      "name": "Hossein Saadat",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 81,
+      "name": "Hossein Talepour Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 82,
+      "name": "Hossein Vosoughi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 83,
+      "name": "Jalal Mahmoudzadeh",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 84,
+      "name": "Kazem Majdzadeh‐Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 85,
+      "name": "Keyvan Kakoolaki",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 86,
+      "name": "Kimya Hassani‐Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 87,
+      "name": "Komeyl Afkhami",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 88,
+      "name": "Leili Shaker Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 89,
+      "name": "M Abouei Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 90,
+      "name": "M. Alemi-Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 91,
+      "name": "M. Mahdi Ghazaei Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 92,
       "name": "M. S. Ardakani",
       "score": 43,
       "status": "possible",
@@ -1189,7 +1438,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 69,
+      "candidate_index": 93,
       "name": "M.G. Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -1206,7 +1455,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 70,
+      "candidate_index": 94,
       "name": "Mahboobi Ardakan Peyman",
       "score": 18,
       "status": "insufficient",
@@ -1223,7 +1472,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 71,
+      "candidate_index": 95,
       "name": "Mahboobi-Ardakan Payman",
       "score": 18,
       "status": "insufficient",
@@ -1240,7 +1489,23 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 72,
+      "candidate_index": 96,
+      "name": "Mahdi Abolqasemi",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 97,
+      "name": "Mahdi Ashtian",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 98,
       "name": "Mahdi Ghanei Ardakan",
       "score": 18,
       "status": "insufficient",
@@ -1257,7 +1522,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 73,
+      "candidate_index": 99,
       "name": "Mahdi Qane`i Ardakan",
       "score": 18,
       "status": "insufficient",
@@ -1274,7 +1539,15 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 74,
+      "candidate_index": 100,
+      "name": "Mahdi Rezaei",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 101,
       "name": "Mahmoud Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -1291,7 +1564,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 75,
+      "candidate_index": 102,
       "name": "Malek Afzali Ardakan Hossein",
       "score": 18,
       "status": "insufficient",
@@ -1308,7 +1581,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 76,
+      "candidate_index": 103,
       "name": "Mansoor Dashti Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -1325,467 +1598,8 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 77,
-      "name": "Maria Tavakoli‐Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 78,
-      "name": "Maryam Haghighi Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 79,
-      "name": "Maryam Tajali Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 80,
-      "name": "Masoud Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 81,
-      "name": "Mehdi B. Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 82,
-      "name": "Mehdi Hatefi Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 83,
-      "name": "Mehran Mirabzadeh Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 84,
-      "name": "Mohammad Aboei Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 85,
-      "name": "Mohammad Abooye Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 86,
-      "name": "Mohammad Abooyee Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 87,
-      "name": "Mohammad Aboyee Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 88,
-      "name": "Mohammad Abuei Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 89,
-      "name": "Mohammad Afkhami Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 90,
-      "name": "Mohammad Ali Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 91,
-      "name": "Mohammad Ali Hakimzadeh Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 92,
-      "name": "Mohammad Fotouhi Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 93,
-      "name": "Mohammad Javad Ehsani Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 94,
-      "name": "Mohammad Karimizadeh Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 95,
-      "name": "Mohammad Mazloum‐Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 96,
-      "name": "Mohammad Mehdi Mokhtari Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 97,
-      "name": "Mohammad meysam Salahi ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 98,
-      "name": "Mohammad Raza Khodaie Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 99,
-      "name": "Mohammad Reza Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 100,
-      "name": "Mohammad Reza Khodaei-Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 101,
-      "name": "Mohammad Reza Khodaie Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 102,
-      "name": "Mohammad Reza Talebi Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 103,
-      "name": "Mohammad Roayaei Ardakani‬",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
       "candidate_index": 104,
-      "name": "Mohammad-Javad Ehsani-Ardakani",
+      "name": "Maria Tavakoli Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1802,7 +1616,7 @@
     },
     {
       "candidate_index": 105,
-      "name": "Mohammadpanah Ardakan Azra",
+      "name": "Maria Tavakoli‐Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1819,7 +1633,7 @@
     },
     {
       "candidate_index": 106,
-      "name": "Mohammadreza Shams‐Ardakani",
+      "name": "Maryam Haghighi Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1836,7 +1650,7 @@
     },
     {
       "candidate_index": 107,
-      "name": "Mohammadreza Talebi Ardakani",
+      "name": "Maryam Tajali Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1853,24 +1667,15 @@
     },
     {
       "candidate_index": 108,
-      "name": "Mohiti Ardakan Mohammad Ali",
-      "score": 18,
+      "name": "Masih Hosseinzadeh",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 109,
-      "name": "Mohsen Barzegari Ardakan",
+      "name": "Masoud Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1887,24 +1692,15 @@
     },
     {
       "candidate_index": 110,
-      "name": "Mojtaba Sahraee Ardakan",
-      "score": 18,
+      "name": "Masoud Moradi",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 111,
-      "name": "Mojtaba Sahraee-Ardakan",
+      "name": "Mehdi B. Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1921,7 +1717,7 @@
     },
     {
       "candidate_index": 112,
-      "name": "Mojtaba Yassini-Ardakani",
+      "name": "Mehdi Hatefi Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1938,7 +1734,7 @@
     },
     {
       "candidate_index": 113,
-      "name": "Morteza Shaker Ardakani",
+      "name": "Mehran Mirabzadeh Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1955,24 +1751,15 @@
     },
     {
       "candidate_index": 114,
-      "name": "Mostafa Abouei Ardakan",
-      "score": 18,
+      "name": "Moein Mahboub",
+      "score": 0,
       "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
+      "reasons": [],
       "needs_human_review": true
     },
     {
       "candidate_index": 115,
-      "name": "Mostafa Behjati‐Ardakani",
+      "name": "Mohammad Aboei Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -1989,7 +1776,7 @@
     },
     {
       "candidate_index": 116,
-      "name": "Mostafa K. Ardakani",
+      "name": "Mohammad Abooye Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2006,7 +1793,7 @@
     },
     {
       "candidate_index": 117,
-      "name": "Mostafa Mokhtari Ardakan",
+      "name": "Mohammad Abooyee Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2023,7 +1810,7 @@
     },
     {
       "candidate_index": 118,
-      "name": "Mostafa Sahraei‐Ardakani",
+      "name": "Mohammad Aboyee Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2040,7 +1827,7 @@
     },
     {
       "candidate_index": 119,
-      "name": "Muhammad Ali Ardakan",
+      "name": "Mohammad Abuei Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2057,7 +1844,7 @@
     },
     {
       "candidate_index": 120,
-      "name": "Nasser Fotouhi‐Ardakani",
+      "name": "Mohammad Afkhami Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2074,7 +1861,7 @@
     },
     {
       "candidate_index": 121,
-      "name": "Nima Mesbah Ardakani",
+      "name": "Mohammad Alemi-Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2091,7 +1878,7 @@
     },
     {
       "candidate_index": 122,
-      "name": "NN Ardakan",
+      "name": "Mohammad Ali Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2108,7 +1895,7 @@
     },
     {
       "candidate_index": 123,
-      "name": "Nooshin Gholhovallahi Ardakan",
+      "name": "Mohammad Ali Hakimzadeh Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2125,10 +1912,14 @@
     },
     {
       "candidate_index": 124,
-      "name": "Omid H. Ardakani",
-      "score": 18,
-      "status": "insufficient",
+      "name": "Mohammad Ebrahimzadeh Ardakani",
+      "score": 63,
+      "status": "probable",
       "reasons": [
+        {
+          "signal": "ardakan yazd",
+          "weight": 45
+        },
         {
           "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
           "weight": 8
@@ -2142,7 +1933,7 @@
     },
     {
       "candidate_index": 125,
-      "name": "Omid M. Ardakani",
+      "name": "Mohammad Javad Ehsani Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2159,7 +1950,7 @@
     },
     {
       "candidate_index": 126,
-      "name": "Payman Mahboobi Ardakan",
+      "name": "Mohammad Karimizadeh Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2176,7 +1967,7 @@
     },
     {
       "candidate_index": 127,
-      "name": "Payman Mahboobi-Ardakan",
+      "name": "Mohammad Mazloum‐Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2193,7 +1984,7 @@
     },
     {
       "candidate_index": 128,
-      "name": "Pourdehghan Ardakan Mostafa",
+      "name": "Mohammad Mehdi Mokhtari Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2210,7 +2001,7 @@
     },
     {
       "candidate_index": 129,
-      "name": "Pouya Khodaie Ardakan",
+      "name": "Mohammad meysam Salahi ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2227,7 +2018,7 @@
     },
     {
       "candidate_index": 130,
-      "name": "Razieh Jamaati Ardakani",
+      "name": "Mohammad Raza Khodaie Ardakan",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -2244,6 +2035,605 @@
     },
     {
       "candidate_index": 131,
+      "name": "Mohammad Reza Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 132,
+      "name": "Mohammad Reza Behjati",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 133,
+      "name": "Mohammad Reza Dinovi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 134,
+      "name": "Mohammad Reza Khodaei-Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 135,
+      "name": "Mohammad Reza Khodaie Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 136,
+      "name": "Mohammad Reza Shams Ardekani",
+      "score": 50,
+      "status": "probable",
+      "reasons": [
+        {
+          "signal": "born in ardakan",
+          "weight": 40
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 137,
+      "name": "Mohammad Reza Talebi Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 138,
+      "name": "Mohammad Roayaei Ardakani‬",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 139,
+      "name": "Mohammad-Javad Ehsani-Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 140,
+      "name": "Mohammadpanah Ardakan Azra",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 141,
+      "name": "Mohammadreza Dehestani",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 142,
+      "name": "Mohammadreza Shams‐Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 143,
+      "name": "Mohammadreza Talebi Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 144,
+      "name": "Mohiti Ardakan Mohammad Ali",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 145,
+      "name": "Mohsen Barzegari Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 146,
+      "name": "Mojtaba Majdian Ardakani",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 147,
+      "name": "Mojtaba Sahraee-Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 148,
+      "name": "Mojtaba Yassini-Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 149,
+      "name": "Morteza Shaker Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 150,
+      "name": "Mostafa Abouei Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 151,
+      "name": "Mostafa Behjati‐Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 152,
+      "name": "Mostafa Jalali",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 153,
+      "name": "Mostafa K. Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 154,
+      "name": "Mostafa Mokhtari Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 155,
+      "name": "Mostafa Sahraei‐Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 156,
+      "name": "Muhammad Ali Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 157,
+      "name": "Nasser Fotouhi‐Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 158,
+      "name": "Nima Mesbah Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 159,
+      "name": "NN Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 160,
+      "name": "Omid H. Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 161,
+      "name": "Omid Haeri Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 162,
+      "name": "Omid M. Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 163,
+      "name": "Payman Mahboobi Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 164,
+      "name": "Payman Mahboobi-Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 165,
+      "name": "Pourdehghan Ardakan Mostafa",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 166,
+      "name": "Pouya Khodaie Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 167,
+      "name": "Razieh Jamaati Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 168,
       "name": "Reza Behjatmanesh-Ardakan",
       "score": 43,
       "status": "possible",
@@ -2264,7 +2654,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 132,
+      "candidate_index": 169,
       "name": "Reza Behjatmanesh‐Ardakani",
       "score": 43,
       "status": "possible",
@@ -2285,7 +2675,28 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 133,
+      "candidate_index": 170,
+      "name": "Reza Davari Ardakani",
+      "score": 58,
+      "status": "probable",
+      "reasons": [
+        {
+          "signal": "born in ardakan",
+          "weight": 40
+        },
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 171,
       "name": "Reza Fotouhi-Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2302,7 +2713,33 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 134,
+      "candidate_index": 172,
+      "name": "Sadegh Shaker",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 173,
+      "name": "Saeed Banazadeh",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 174,
       "name": "Saeed Hatefi Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2319,7 +2756,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 135,
+      "candidate_index": 175,
       "name": "Saeid Pourroostaei Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2336,7 +2773,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 136,
+      "candidate_index": 176,
       "name": "Samira Salek‐Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2353,7 +2790,20 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 137,
+      "candidate_index": 177,
+      "name": "Seyed Ali Mahdizadeh",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 178,
       "name": "Seyed Ali Yasini Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2370,7 +2820,20 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 138,
+      "candidate_index": 179,
+      "name": "Seyed Mohammad Mirjafari",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 180,
       "name": "Seyed Sina Moeini-Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2387,7 +2850,15 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 139,
+      "candidate_index": 181,
+      "name": "Seyfaddin Shiri",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 182,
       "name": "Shabnam Raayai-Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2404,7 +2875,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 140,
+      "candidate_index": 183,
       "name": "Shahram Salek-Ardakan",
       "score": 18,
       "status": "insufficient",
@@ -2421,7 +2892,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 141,
+      "candidate_index": 184,
       "name": "Shahram Salek‐Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2438,7 +2909,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 142,
+      "candidate_index": 185,
       "name": "Shahrzad Jooya Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2455,7 +2926,15 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 143,
+      "candidate_index": 186,
+      "name": "Shakiba Sharifi",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 187,
       "name": "Shiva Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2472,7 +2951,20 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 144,
+      "candidate_index": 188,
+      "name": "Sina Khabir",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 189,
       "name": "Sina Moeini Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2489,7 +2981,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 145,
+      "candidate_index": 190,
       "name": "Soheil Sobhanardakani",
       "score": 10,
       "status": "insufficient",
@@ -2502,7 +2994,15 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 146,
+      "candidate_index": 191,
+      "name": "Soheila Amin Sadrabadi",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 192,
       "name": "Somayah شاکر اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2519,7 +3019,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 147,
+      "candidate_index": 193,
       "name": "Taghavi Ardakan M",
       "score": 18,
       "status": "insufficient",
@@ -2536,7 +3036,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 148,
+      "candidate_index": 194,
       "name": "Tahereh Azimpour-Ardakan",
       "score": 18,
       "status": "insufficient",
@@ -2553,7 +3053,20 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 149,
+      "candidate_index": 195,
+      "name": "Yadollah Morovati",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 196,
       "name": "Yalda H. Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2570,7 +3083,24 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 150,
+      "candidate_index": 197,
+      "name": "Yalda Hosseinzadeh Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 198,
       "name": "Yaser Masoumi‐Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2587,7 +3117,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 151,
+      "candidate_index": 199,
       "name": "Z Behjati Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2604,7 +3134,20 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 152,
+      "candidate_index": 200,
+      "name": "Zahra Afkhami Ardakani",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 201,
       "name": "Zahra Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -2621,7 +3164,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 153,
+      "candidate_index": 202,
       "name": "Zahra Jafari-Ardakan",
       "score": 18,
       "status": "insufficient",
@@ -2638,7 +3181,24 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 154,
+      "candidate_index": 203,
+      "name": "Zohreh Behjati Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 204,
       "name": "؛ محیطی اردکانی، جواد",
       "score": 18,
       "status": "insufficient",
@@ -2655,7 +3215,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 155,
+      "candidate_index": 205,
       "name": "احسان اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2672,7 +3232,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 156,
+      "candidate_index": 206,
       "name": "احسان امیری اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2689,7 +3249,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 157,
+      "candidate_index": 207,
       "name": "احسان فتاحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2706,7 +3266,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 158,
+      "candidate_index": 208,
       "name": "احسان کردی اردکانی کردی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2723,7 +3283,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 159,
+      "candidate_index": 209,
       "name": "احمد اردکانی فتاحی",
       "score": 18,
       "status": "insufficient",
@@ -2740,7 +3300,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 160,
+      "candidate_index": 210,
       "name": "احمد شاکر اردکان",
       "score": 10,
       "status": "insufficient",
@@ -2753,7 +3313,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 161,
+      "candidate_index": 211,
       "name": "احمد شاکر اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2770,7 +3330,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 162,
+      "candidate_index": 212,
       "name": "احمد فتاحی اردکانی",
       "score": 43,
       "status": "possible",
@@ -2791,7 +3351,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 163,
+      "candidate_index": 213,
       "name": "احمدرضا حبیبی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2808,7 +3368,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 164,
+      "candidate_index": 214,
       "name": "اردکانی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2825,7 +3385,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 165,
+      "candidate_index": 215,
       "name": "اردکانی محمدعلی",
       "score": 18,
       "status": "insufficient",
@@ -2842,7 +3402,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 166,
+      "candidate_index": 216,
       "name": "اردکانیMArdekani اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2859,7 +3419,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 167,
+      "candidate_index": 217,
       "name": "اسلامی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2876,7 +3436,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 168,
+      "candidate_index": 218,
       "name": "اشرف حسینی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2893,7 +3453,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 169,
+      "candidate_index": 219,
       "name": "اطهر تجلی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2910,7 +3470,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 170,
+      "candidate_index": 220,
       "name": "الهام اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2927,7 +3487,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 171,
+      "candidate_index": 221,
       "name": "الهیار اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2944,7 +3504,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 172,
+      "candidate_index": 222,
       "name": "امید متقی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2961,7 +3521,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 173,
+      "candidate_index": 223,
       "name": "امیر محسن مختاری اردکان",
       "score": 10,
       "status": "insufficient",
@@ -2974,7 +3534,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 174,
+      "candidate_index": 224,
       "name": "امیرحسین هاتفی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -2991,7 +3551,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 175,
+      "candidate_index": 225,
       "name": "امیررضا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3008,7 +3568,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 176,
+      "candidate_index": 226,
       "name": "جواد بیابانی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -3021,7 +3581,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 177,
+      "candidate_index": 227,
       "name": "جواد علیمحمدی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -3034,7 +3594,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 178,
+      "candidate_index": 228,
       "name": "حامد احمدی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3051,7 +3611,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 179,
+      "candidate_index": 229,
       "name": "حامد داوری اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3068,7 +3628,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 180,
+      "candidate_index": 230,
       "name": "حسن اسلامی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3085,7 +3645,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 181,
+      "candidate_index": 231,
       "name": "حسن محیطی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -3098,7 +3658,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 182,
+      "candidate_index": 232,
       "name": "حسین اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3115,7 +3675,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 183,
+      "candidate_index": 233,
       "name": "حسین حایریان اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3132,7 +3692,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 184,
+      "candidate_index": 234,
       "name": "حسین ملکافضلی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3149,7 +3709,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 185,
+      "candidate_index": 235,
       "name": "حمید اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3166,7 +3726,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 186,
+      "candidate_index": 236,
       "name": "حمیده افخمی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3183,7 +3743,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 187,
+      "candidate_index": 237,
       "name": "داود عندلیب اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3200,7 +3760,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 188,
+      "candidate_index": 238,
       "name": "رضا داوری اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3217,7 +3777,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 189,
+      "candidate_index": 239,
       "name": "رضا راستی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3234,7 +3794,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 190,
+      "candidate_index": 240,
       "name": "رضا فتوحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3251,7 +3811,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 191,
+      "candidate_index": 241,
       "name": "رضا پوردهقان اردکان",
       "score": 35,
       "status": "possible",
@@ -3268,7 +3828,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 192,
+      "candidate_index": 242,
       "name": "زهرا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3285,7 +3845,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 193,
+      "candidate_index": 243,
       "name": "زهرا جمشیدی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3302,7 +3862,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 194,
+      "candidate_index": 244,
       "name": "زهرا پورآقایی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3319,7 +3879,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 195,
+      "candidate_index": 245,
       "name": "سبحان اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3336,7 +3896,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 196,
+      "candidate_index": 246,
       "name": "سرافراز اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3353,7 +3913,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 197,
+      "candidate_index": 247,
       "name": "سعید اردکان زاده یزدی",
       "score": 10,
       "status": "insufficient",
@@ -3366,7 +3926,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 198,
+      "candidate_index": 248,
       "name": "سعید اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3383,7 +3943,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 199,
+      "candidate_index": 249,
       "name": "سعید سعیدا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3400,7 +3960,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 200,
+      "candidate_index": 250,
       "name": "سعید پور روستایی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3417,7 +3977,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 201,
+      "candidate_index": 251,
       "name": "سعید پورروستایی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3434,7 +3994,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 202,
+      "candidate_index": 252,
       "name": "سعیده انوری اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3451,7 +4011,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 203,
+      "candidate_index": 253,
       "name": "سمانه انتظاریان اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3468,7 +4028,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 204,
+      "candidate_index": 254,
       "name": "سهیل سبحان اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3485,7 +4045,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 205,
+      "candidate_index": 255,
       "name": "سید حسن هاشمی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3502,7 +4062,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 206,
+      "candidate_index": 256,
       "name": "سید سعیدا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3519,7 +4079,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 207,
+      "candidate_index": 257,
       "name": "سید مجتبی یاسینی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3536,7 +4096,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 208,
+      "candidate_index": 258,
       "name": "سیدمجتبی یاسینی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3553,7 +4113,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 209,
+      "candidate_index": 259,
       "name": "شایسته قرایی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3570,7 +4130,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 210,
+      "candidate_index": 260,
       "name": "ضرغام اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3587,7 +4147,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 211,
+      "candidate_index": 261,
       "name": "طاهره اردکانی",
       "score": 43,
       "status": "possible",
@@ -3608,7 +4168,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 212,
+      "candidate_index": 262,
       "name": "عاطفه ترابی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3625,7 +4185,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 213,
+      "candidate_index": 263,
       "name": "عباس صلاحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3642,7 +4202,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 214,
+      "candidate_index": 264,
       "name": "عباس پایدار اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3659,7 +4219,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 215,
+      "candidate_index": 265,
       "name": "عباس گلناری اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3676,7 +4236,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 216,
+      "candidate_index": 266,
       "name": "عذرا محمد پناه اردکان",
       "score": 35,
       "status": "possible",
@@ -3693,7 +4253,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 217,
+      "candidate_index": 267,
       "name": "عذرا محمدپناه اردکان",
       "score": 35,
       "status": "possible",
@@ -3710,7 +4270,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 218,
+      "candidate_index": 268,
       "name": "عزیز الله اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3727,7 +4287,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 219,
+      "candidate_index": 269,
       "name": "علی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3744,7 +4304,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 220,
+      "candidate_index": 270,
       "name": "علی جعفری اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3761,7 +4321,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 221,
+      "candidate_index": 271,
       "name": "علی صلاحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3778,7 +4338,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 222,
+      "candidate_index": 272,
       "name": "علی ضالحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3795,7 +4355,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 223,
+      "candidate_index": 273,
       "name": "علی فیروزی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -3808,7 +4368,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 224,
+      "candidate_index": 274,
       "name": "علی قانعی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -3821,7 +4381,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 225,
+      "candidate_index": 275,
       "name": "علی متولی زاده اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3838,7 +4398,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 226,
+      "candidate_index": 276,
       "name": "علی مقیمی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3855,7 +4415,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 227,
+      "candidate_index": 277,
       "name": "علیرضا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3872,7 +4432,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 228,
+      "candidate_index": 278,
       "name": "فائزه پورحسینی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3889,7 +4449,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 229,
+      "candidate_index": 279,
       "name": "فاطمه بحجتی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -3902,7 +4462,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 230,
+      "candidate_index": 280,
       "name": "فاطمه صادقی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3919,7 +4479,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 231,
+      "candidate_index": 281,
       "name": "فتاحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3936,7 +4496,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 232,
+      "candidate_index": 282,
       "name": "قاضی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3953,7 +4513,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 233,
+      "candidate_index": 283,
       "name": "محسن صحرایی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3970,7 +4530,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 234,
+      "candidate_index": 284,
       "name": "محسن فتاحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -3987,7 +4547,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 235,
+      "candidate_index": 285,
       "name": "محمد ابویى اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4000,7 +4560,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 236,
+      "candidate_index": 286,
       "name": "محمد ابویی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4013,7 +4573,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 237,
+      "candidate_index": 287,
       "name": "محمد ایوبی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4026,7 +4586,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 238,
+      "candidate_index": 288,
       "name": "محمد جواد احسانی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4043,7 +4603,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 239,
+      "candidate_index": 289,
       "name": "محمد رضا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4060,7 +4620,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 240,
+      "candidate_index": 290,
       "name": "محمد رعایایی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4077,7 +4637,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 241,
+      "candidate_index": 291,
       "name": "محمد شاکر اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4094,7 +4654,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 242,
+      "candidate_index": 292,
       "name": "محمد عابدی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4111,7 +4671,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 243,
+      "candidate_index": 293,
       "name": "محمد علی محیطی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4124,7 +4684,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 244,
+      "candidate_index": 294,
       "name": "محمد مظلوم اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4141,7 +4701,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 245,
+      "candidate_index": 295,
       "name": "محمد مقیمی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4158,7 +4718,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 246,
+      "candidate_index": 296,
       "name": "محمد میثم صلاحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4175,7 +4735,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 247,
+      "candidate_index": 297,
       "name": "محمد کریمی زاده اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4192,7 +4752,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 248,
+      "candidate_index": 298,
       "name": "محمدجواد غاضی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4209,7 +4769,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 249,
+      "candidate_index": 299,
       "name": "محمدرضا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4226,7 +4786,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 250,
+      "candidate_index": 300,
       "name": "محمدرضا افخمی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4243,7 +4803,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 251,
+      "candidate_index": 301,
       "name": "محمدعلی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4260,7 +4820,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 252,
+      "candidate_index": 302,
       "name": "محمدعلی حکیم زاده اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4277,7 +4837,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 253,
+      "candidate_index": 303,
       "name": "محمدعلی محیطی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4290,7 +4850,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 254,
+      "candidate_index": 304,
       "name": "محمدمیثم صلاحی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4307,7 +4867,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 255,
+      "candidate_index": 305,
       "name": "محمود ابویی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4320,7 +4880,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 256,
+      "candidate_index": 306,
       "name": "محیطی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4333,7 +4893,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 257,
+      "candidate_index": 307,
       "name": "مریم اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4350,7 +4910,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 258,
+      "candidate_index": 308,
       "name": "مریم دهستانی اردکانی",
       "score": 43,
       "status": "possible",
@@ -4371,7 +4931,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 259,
+      "candidate_index": 309,
       "name": "مریم دهستانی اردکانی دهستانی اردکانی",
       "score": 43,
       "status": "possible",
@@ -4392,7 +4952,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 260,
+      "candidate_index": 310,
       "name": "مصطفی ابویی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4405,7 +4965,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 261,
+      "candidate_index": 311,
       "name": "مصطفی قطب زاده اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4422,7 +4982,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 262,
+      "candidate_index": 312,
       "name": "مصطفی مختاری اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4435,7 +4995,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 263,
+      "candidate_index": 313,
       "name": "مصطفی پوردهقان اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4448,7 +5008,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 264,
+      "candidate_index": 314,
       "name": "معصومه اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4465,7 +5025,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 265,
+      "candidate_index": 315,
       "name": "مهدی افخمی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4482,7 +5042,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 266,
+      "candidate_index": 316,
       "name": "مهدی راستی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4499,7 +5059,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 267,
+      "candidate_index": 317,
       "name": "مهدی قانعی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4512,7 +5072,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 268,
+      "candidate_index": 318,
       "name": "مهدی ناظمی اردکانی مهدی ناظمی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4529,7 +5089,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 269,
+      "candidate_index": 319,
       "name": "مهناز مظلومی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4546,7 +5106,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 270,
+      "candidate_index": 320,
       "name": "میترا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4563,7 +5123,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 271,
+      "candidate_index": 321,
       "name": "ندا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4580,7 +5140,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 272,
+      "candidate_index": 322,
       "name": "نگار داوری اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4597,7 +5157,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 273,
+      "candidate_index": 323,
       "name": "ه اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4614,7 +5174,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 274,
+      "candidate_index": 324,
       "name": "هاشمی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4631,7 +5191,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 275,
+      "candidate_index": 325,
       "name": "پریسا اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4648,7 +5208,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 276,
+      "candidate_index": 326,
       "name": "پیمان محبوبی اردکان",
       "score": 10,
       "status": "insufficient",
@@ -4661,7 +5221,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 277,
+      "candidate_index": 327,
       "name": "کمالی اردکانی",
       "score": 18,
       "status": "insufficient",
@@ -4678,7 +5238,24 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 278,
+      "candidate_index": 328,
+      "name": "Abolfazl Azizian",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "ardakan university",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 329,
       "name": "Abolfazl Kamali Ardakani",
       "score": 63,
       "status": "probable",
@@ -4699,7 +5276,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 279,
+      "candidate_index": 330,
       "name": "AbolfazlKamaliArdakani",
       "score": 10,
       "status": "insufficient",
@@ -4712,7 +5289,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 280,
+      "candidate_index": 331,
       "name": "AbolfazlKamalli",
       "score": 10,
       "status": "insufficient",
@@ -4725,7 +5302,20 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 281,
+      "candidate_index": 332,
+      "name": "Aghkariz Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 333,
       "name": "Ahmad Mahboubi",
       "score": 10,
       "status": "insufficient",
@@ -4738,696 +5328,8 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 282,
-      "name": "Ali",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 283,
-      "name": "Ali Reza Kamali",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 284,
-      "name": "Alireza Dashti",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 285,
-      "name": "Alireza Haerian",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 286,
-      "name": "AmidArdakani",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 287,
-      "name": "AmirhArdakani",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 288,
-      "name": "Amirho3ein Roustaei",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 289,
-      "name": "amirhosein8127",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 290,
-      "name": "arashardakani",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 291,
-      "name": "arbit3rr",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 292,
-      "name": "ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 293,
-      "name": "ardakan111",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 294,
-      "name": "ardakan12",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 295,
-      "name": "Ardakan125",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 296,
-      "name": "ardakan1717-star",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 297,
-      "name": "ardakan40-lab",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 298,
-      "name": "ardakananeva-sazorland",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 299,
-      "name": "ArdaKanat",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 300,
-      "name": "ardakanata",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 301,
-      "name": "ArdaKanbur",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 302,
-      "name": "ardakancan41-del",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 303,
-      "name": "ardakandemir",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 304,
-      "name": "ardakaner",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 305,
-      "name": "ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 306,
-      "name": "Ardakani1",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 307,
-      "name": "Ardakani79",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 308,
-      "name": "ardakaniahmadali-arch",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 309,
-      "name": "Ardakaniali",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 310,
-      "name": "ardakaniamirhossein1993",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 311,
-      "name": "ardakanian",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 312,
-      "name": "ardakanian-bidgely",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 313,
-      "name": "ardakanim",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 314,
-      "name": "ardakanim50-lab",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 315,
-      "name": "ardakanimd",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 316,
-      "name": "ArdaKANIPEK",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 317,
-      "name": "ardakanisaba",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 318,
-      "name": "Ardakaniz",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 319,
-      "name": "ArdaKanka07",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 320,
-      "name": "ardakankasra",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 321,
-      "name": "Ardakann",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 322,
-      "name": "ardakansu",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 323,
-      "name": "ardakantar",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 324,
-      "name": "ardakantarci",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 325,
-      "name": "ardakantes",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 326,
-      "name": "ardakantrci",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 327,
-      "name": "ardakanzi",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 328,
-      "name": "Behinsomnia9",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 329,
-      "name": "Darkshiira",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 330,
-      "name": "Davari Ardakani Hamed",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 331,
-      "name": "Esmat Mirabzadeh",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 332,
-      "name": "farhaddashtia",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 333,
-      "name": "Hamed",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
       "candidate_index": 334,
-      "name": "Hamed Davari Ardakani",
+      "name": "Ahmad Taqdari Ardakani",
       "score": 18,
       "status": "insufficient",
       "reasons": [
@@ -5444,7 +5346,7 @@
     },
     {
       "candidate_index": 335,
-      "name": "Hami-Hafezi",
+      "name": "Ali",
       "score": 10,
       "status": "insufficient",
       "reasons": [
@@ -5457,259 +5359,231 @@
     },
     {
       "candidate_index": 336,
-      "name": "Hamid R. Zare",
-      "score": 10,
+      "name": "Ali Akbar Kamali Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 337,
-      "name": "koushkoush",
-      "score": 10,
+      "name": "Ali Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 338,
-      "name": "mahsamajd",
-      "score": 10,
+      "name": "Ali Azemi Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 339,
-      "name": "Masoud Hafezi",
-      "score": 10,
+      "name": "Ali Dehestani Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 340,
-      "name": "MohamadAli92",
-      "score": 10,
+      "name": "Ali Ebrahimzadeh Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 341,
-      "name": "Mohammad Reza Sobhan",
-      "score": 10,
+      "name": "Ali Fotouhi Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 342,
-      "name": "mohammadnabia",
-      "score": 10,
+      "name": "Ali Ghotbzade Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 343,
-      "name": "mojtabasah",
-      "score": 10,
+      "name": "Ali Kamali Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 344,
-      "name": "Negar Davari Ardakani",
-      "score": 18,
+      "name": "Ali Khademalhosseini Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
           "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
           "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 345,
-      "name": "Parsa-Ardakani",
-      "score": 18,
+      "name": "Ali Mahmoudi Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
           "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
           "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 346,
-      "name": "pedramardakani",
-      "score": 10,
+      "name": "Ali Molaee Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 347,
-      "name": "Soheila Khodakarim",
-      "score": 10,
+      "name": "Ali Moteallehi Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 348,
-      "name": "Zahra Afkhami Ardakani",
-      "score": 18,
+      "name": "Ali Nabizadeh Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
           "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
           "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 349,
-      "name": "Zahra121377",
-      "score": 10,
+      "name": "Ali Nazemi Ardakani",
+      "score": 8,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 350,
-      "name": "بهروز فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "Ali Pasha Ardakani",
+      "score": 8,
+      "status": "insufficient",
       "reasons": [
         {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 351,
-      "name": "ر. فرزان پی",
-      "score": 20,
-      "status": "possible",
+      "name": "Ali Paydar Ardakani",
+      "score": 8,
+      "status": "insufficient",
       "reasons": [
         {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 352,
-      "name": "علی فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "Ali Reza Ardakani",
+      "score": 8,
+      "status": "insufficient",
       "reasons": [
         {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 353,
-      "name": "فاطمه فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "Ali Reza Kamali",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5719,48 +5593,36 @@
     },
     {
       "candidate_index": 354,
-      "name": "فرزام فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "Ali Shaker Ardakani",
+      "score": 8,
+      "status": "insufficient",
       "reasons": [
         {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 355,
-      "name": "فرزان خطیب",
-      "score": 20,
-      "status": "possible",
+      "name": "Ali Shakker Ardakani",
+      "score": 8,
+      "status": "insufficient",
       "reasons": [
         {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         }
       ],
       "needs_human_review": true
     },
     {
       "candidate_index": 356,
-      "name": "فرزان رشیدی",
-      "score": 20,
-      "status": "possible",
+      "name": "Alireza Dashti",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5770,14 +5632,10 @@
     },
     {
       "candidate_index": 357,
-      "name": "فرزان فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "Alireza Haerian",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5787,14 +5645,10 @@
     },
     {
       "candidate_index": 358,
-      "name": "فرزان قالیچی",
-      "score": 20,
-      "status": "possible",
+      "name": "Alireza Mehrabadi",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5804,14 +5658,10 @@
     },
     {
       "candidate_index": 359,
-      "name": "فرزان کیانارثی",
-      "score": 20,
-      "status": "possible",
+      "name": "AmidArdakani",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5821,14 +5671,10 @@
     },
     {
       "candidate_index": 360,
-      "name": "فرهاد فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "AmirhArdakani",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5838,14 +5684,10 @@
     },
     {
       "candidate_index": 361,
-      "name": "مجید فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "Amirho3ein Roustaei",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5855,14 +5697,10 @@
     },
     {
       "candidate_index": 362,
-      "name": "منصوره فرزان مهر",
-      "score": 20,
-      "status": "possible",
+      "name": "amirhosein8127",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5872,14 +5710,10 @@
     },
     {
       "candidate_index": 363,
-      "name": "نسرین فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "arashardakani",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5889,14 +5723,10 @@
     },
     {
       "candidate_index": 364,
-      "name": "محمدرضا بهزادی مقدم بهزادی مقدم",
-      "score": 20,
-      "status": "possible",
+      "name": "arbit3rr",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5906,13 +5736,13 @@
     },
     {
       "candidate_index": 365,
-      "name": "محمدرضا بهزادی مقدم",
-      "score": 20,
-      "status": "possible",
+      "name": "ardakan",
+      "score": 18,
+      "status": "insufficient",
       "reasons": [
         {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         },
         {
           "signal": "حداقل سه میدان مستقل",
@@ -5923,13 +5753,13 @@
     },
     {
       "candidate_index": 366,
-      "name": "نرجس بهزادی مقدم",
-      "score": 20,
-      "status": "possible",
+      "name": "Ardakan Mehrnia",
+      "score": 18,
+      "status": "insufficient",
       "reasons": [
         {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
         },
         {
           "signal": "حداقل سه میدان مستقل",
@@ -5940,14 +5770,10 @@
     },
     {
       "candidate_index": 367,
-      "name": "مرجان بهزادی مقدم",
-      "score": 20,
-      "status": "possible",
+      "name": "ardakan111",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5957,14 +5783,10 @@
     },
     {
       "candidate_index": 368,
-      "name": "ملیحه بهزادی مقدم",
-      "score": 20,
-      "status": "possible",
+      "name": "ardakan12",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -5974,14 +5796,10 @@
     },
     {
       "candidate_index": 369,
-      "name": "محمود فرزان",
-      "score": 20,
+      "name": "Ardakan125",
+      "score": 10,
       "status": "confirmed_by_human",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -6003,14 +5821,10 @@
     },
     {
       "candidate_index": 370,
-      "name": "عبدالرضا فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "ardakan1717-star",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -6020,14 +5834,10 @@
     },
     {
       "candidate_index": 371,
-      "name": "عبدالناصر فرزان",
-      "score": 20,
-      "status": "possible",
+      "name": "ardakan40-lab",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
-          "weight": 10
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -6037,14 +5847,10 @@
     },
     {
       "candidate_index": 372,
-      "name": "Abolfazl Azizian",
-      "score": 35,
-      "status": "possible",
+      "name": "ardakananeva-sazorland",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "ardakan university",
-          "weight": 25
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -6054,6 +5860,495 @@
     },
     {
       "candidate_index": 373,
+      "name": "ArdaKanat",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 374,
+      "name": "ardakanata",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 375,
+      "name": "ArdaKanbur",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 376,
+      "name": "ardakancan41-del",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 377,
+      "name": "ardakandemir",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 378,
+      "name": "ardakaner",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 379,
+      "name": "ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 380,
+      "name": "Ardakani1",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 381,
+      "name": "Ardakani79",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 382,
+      "name": "ardakaniahmadali-arch",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 383,
+      "name": "Ardakaniali",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 384,
+      "name": "ardakaniamirhossein1993",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 385,
+      "name": "ardakanian",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 386,
+      "name": "ardakanian-bidgely",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 387,
+      "name": "ardakanim",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 388,
+      "name": "ardakanim50-lab",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 389,
+      "name": "ardakanimd",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 390,
+      "name": "ArdaKANIPEK",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 391,
+      "name": "ardakanisaba",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 392,
+      "name": "Ardakaniz",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 393,
+      "name": "ArdaKanka07",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 394,
+      "name": "ardakankasra",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 395,
+      "name": "Ardakann",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 396,
+      "name": "ardakansu",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 397,
+      "name": "ardakantar",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 398,
+      "name": "ardakantarci",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 399,
+      "name": "ardakantes",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 400,
+      "name": "ardakantrci",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 401,
+      "name": "ardakanzi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 402,
+      "name": "Arian Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 403,
+      "name": "Artin Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 404,
+      "name": "Behinsomnia9",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 405,
+      "name": "Chufa Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 406,
+      "name": "Darkshiira",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 407,
+      "name": "Davari Ardakani Hamed",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 408,
+      "name": "Esmat Mirabzadeh",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 409,
+      "name": "farhaddashtia",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 410,
       "name": "Hadi Kargar",
       "score": 35,
       "status": "possible",
@@ -6070,15 +6365,11 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 374,
-      "name": "Razieh Sheikhpour",
-      "score": 35,
-      "status": "possible",
+      "candidate_index": 411,
+      "name": "Hamed",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "ardakan university",
-          "weight": 25
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -6087,15 +6378,11 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 375,
-      "name": "Seyed Mojtaba Paydar Ardakani",
-      "score": 43,
-      "status": "possible",
+      "candidate_index": 412,
+      "name": "Hamed Davari Ardakani",
+      "score": 18,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "ardakan university",
-          "weight": 25
-        },
         {
           "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
           "weight": 8
@@ -6108,7 +6395,84 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 376,
+      "candidate_index": 413,
+      "name": "Hamed Mokhtari",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 414,
+      "name": "Hami-Hafezi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 415,
+      "name": "Hamid Nedafat Ardakan",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 416,
+      "name": "Hamid R. Zare",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 417,
+      "name": "Hamid Reza Zare",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 418,
+      "name": "Hassan Ali Vahedian Ardakani",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 419,
       "name": "Heidar Meftahizade",
       "score": 35,
       "status": "possible",
@@ -6125,24 +6489,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 377,
-      "name": "Mohammad Reza Barzegar-Bafrooei",
-      "score": 35,
-      "status": "possible",
-      "reasons": [
-        {
-          "signal": "ardakan university",
-          "weight": 25
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 378,
+      "candidate_index": 420,
       "name": "Jamal Dehghani Ashkezari",
       "score": 35,
       "status": "possible",
@@ -6159,7 +6506,154 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 379,
+      "candidate_index": 421,
+      "name": "Javad Shaker Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 422,
+      "name": "Kaan Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 423,
+      "name": "koushkoush",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 424,
+      "name": "Mahdi Qanei Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 425,
+      "name": "Mahmoud Hatefi Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 426,
+      "name": "mahsamajd",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 427,
+      "name": "Masoud Hafezi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 428,
+      "name": "Massumeh Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 429,
+      "name": "Mohamad Ali Behjati Ardakani",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 430,
+      "name": "MohamadAli92",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 431,
+      "name": "Mohammad Ali Ghotbzade Ardakani",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 432,
       "name": "Mohammad Fotouhi Ardakani",
       "score": 43,
       "status": "possible",
@@ -6180,62 +6674,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 380,
-      "name": "Mohammad Reza Shams Ardekani",
-      "score": 50,
-      "status": "probable",
-      "reasons": [
-        {
-          "signal": "born in ardakan",
-          "weight": 40
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 381,
-      "name": "Reza Davari Ardakani",
-      "score": 58,
-      "status": "probable",
-      "reasons": [
-        {
-          "signal": "born in ardakan",
-          "weight": 40
-        },
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 382,
-      "name": "Mostafa Abouei Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 383,
+      "candidate_index": 433,
       "name": "Mohammad Mehdi Zarei Mahmoudabadi",
       "score": 10,
       "status": "insufficient",
@@ -6248,8 +6687,8 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 384,
-      "name": "Hamidreza Bana Bafrouei",
+      "candidate_index": 434,
+      "name": "Mohammad Reza Barzegar-Bafrooei",
       "score": 35,
       "status": "possible",
       "reasons": [
@@ -6265,19 +6704,11 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 385,
-      "name": "Mohammad Ebrahimzadeh Ardakani",
-      "score": 63,
-      "status": "probable",
+      "candidate_index": 435,
+      "name": "Mohammad Reza Sobhan",
+      "score": 10,
+      "status": "insufficient",
       "reasons": [
-        {
-          "signal": "ardakan yazd",
-          "weight": 45
-        },
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -6286,296 +6717,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 386,
-      "name": "Mojtaba Sahraee Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 387,
-      "name": "Parastoo Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 388,
-      "name": "Nooshin Gholhovallahi Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 389,
-      "name": "Shiva Taghavi Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 390,
-      "name": "Negin Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 391,
-      "name": "Arian Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 392,
-      "name": "Seema Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 393,
-      "name": "Artin Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 394,
-      "name": "Zehra Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 395,
-      "name": "Ramin Ahmadieh Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 396,
-      "name": "Sepidan Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 397,
-      "name": "Zahra Ranjbar",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 398,
-      "name": "Massumeh Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 399,
-      "name": "Niayesh Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 400,
-      "name": "Mojri Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 401,
-      "name": "Shaghayegh Masaeli",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 402,
-      "name": "Aghkariz Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 403,
-      "name": "Sedaye Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 404,
-      "name": "Chufa Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 405,
-      "name": "Robert Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 406,
-      "name": "Ryan Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 407,
-      "name": "Mahdi Qanei Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 408,
-      "name": "Kaan Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 409,
+      "candidate_index": 436,
       "name": "Mohammad Roghanian Ardakan",
       "score": 8,
       "status": "insufficient",
@@ -6588,33 +6730,20 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 410,
-      "name": "Sam Ardakan",
-      "score": 8,
+      "candidate_index": 437,
+      "name": "mohammadnabia",
+      "score": 10,
       "status": "insufficient",
       "reasons": [
         {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
         }
       ],
       "needs_human_review": true
     },
     {
-      "candidate_index": 411,
-      "name": "Javad Shaker Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 412,
+      "candidate_index": 438,
       "name": "Mohandes Heydari (Ardakan)",
       "score": 8,
       "status": "insufficient",
@@ -6627,784 +6756,7 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 413,
-      "name": "Pegah Firoozi Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 414,
-      "name": "Hamed Mokhtari",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 415,
-      "name": "Zahra Jafari_Ardakan",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 416,
-      "name": "Noah Toroghi Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 417,
-      "name": "Reza Ahmadieh Ardakan",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 418,
-      "name": "Seyed Hamid Reza Mirahmadi Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 419,
-      "name": "Ali Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 420,
-      "name": "Ali Nazemi Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 421,
-      "name": "Hassan Ali Vahedian Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 422,
-      "name": "Ali Paydar Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 423,
-      "name": "Ali Molaee Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 424,
-      "name": "Ali Pasha Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 425,
-      "name": "Ali Nabizadeh Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 426,
-      "name": "Ali Kamali Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 427,
-      "name": "Ali Dehestani Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 428,
-      "name": "Ali Shakker Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 429,
-      "name": "Ali Fotouhi Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 430,
-      "name": "Ali Moteallehi Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 431,
-      "name": "Ali Akbar Kamali Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 432,
-      "name": "علی شاکر اردکانی",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 433,
-      "name": "Ali Ebrahimzadeh Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 434,
-      "name": "Ali Shaker Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 435,
-      "name": "Ali Azemi Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 436,
-      "name": "Ali Khademalhosseini Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 437,
-      "name": "Ali Ghotbzade Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 438,
-      "name": "Mohammad Ali Ghotbzade Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
       "candidate_index": 439,
-      "name": "Mohamad Ali Behjati Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 440,
-      "name": "Ali Reza Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 441,
-      "name": "Ali Mahmoudi Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 442,
-      "name": "Seyed Ali Hatafi Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 443,
-      "name": "Keyvan Kakoolaki",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 444,
-      "name": "Hamidreza Mohtashami Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 445,
-      "name": "Bashir Amiri",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 446,
-      "name": "Azam Jafari",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 447,
-      "name": "Zahra Afkhami Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 448,
-      "name": "Mohammadreza Dehestani",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 449,
-      "name": "Ahmadreza Hakimi",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 450,
-      "name": "Mahdi Ashtian",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 451,
-      "name": "Amir Shahabizad",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 452,
-      "name": "Masih Hosseinzadeh",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 453,
-      "name": "Masoud Moradi",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 454,
-      "name": "Seyfaddin Shiri",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 455,
-      "name": "Mahdi Abolqasemi",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 456,
-      "name": "Hojat Karimian",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 457,
-      "name": "Ali Parsaeian",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 458,
-      "name": "Jalal Mahmoudzadeh",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 459,
-      "name": "Hamid Dehghani",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 460,
-      "name": "Hossein Dehkhodaei",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 461,
-      "name": "Fatemeh Khodaei",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 462,
-      "name": "Ahmad Nouri",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 463,
-      "name": "Komeyl Afkhami",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 464,
-      "name": "Mojtaba Majdian Ardakani",
-      "score": 8,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 465,
-      "name": "Ali Tavakoli",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 466,
-      "name": "Moein Mahboub",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 467,
-      "name": "Mahdi Rezaei",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 468,
-      "name": "Mostafa Jalali",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 469,
-      "name": "Amin Tavakkoli",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 470,
-      "name": "Soheila Amin Sadrabadi",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 471,
-      "name": "Shakiba Sharifi",
-      "score": 0,
-      "status": "insufficient",
-      "reasons": [],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 472,
-      "name": "Farshad Sayadi",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 473,
-      "name": "Davood Shojaaddiny Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 474,
-      "name": "Ahmad Taqdari Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 475,
-      "name": "Alireza Mehrabadi",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 476,
-      "name": "Mojtaba Esmaeili",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 477,
-      "name": "Mahmoud Hatefi Ardakani",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 478,
-      "name": "Hossein Saadat",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 479,
-      "name": "Mohammad Reza Dinovi",
-      "score": 10,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 480,
-      "name": "Hamid Nedafat Ardakan",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 481,
-      "name": "Ardakan Mehrnia",
-      "score": 18,
-      "status": "insufficient",
-      "reasons": [
-        {
-          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
-          "weight": 8
-        },
-        {
-          "signal": "حداقل سه میدان مستقل",
-          "weight": 10
-        }
-      ],
-      "needs_human_review": true
-    },
-    {
-      "candidate_index": 482,
       "name": "Mohsen Talaei Ardakani",
       "score": 18,
       "status": "insufficient",
@@ -7421,11 +6773,619 @@
       "needs_human_review": true
     },
     {
-      "candidate_index": 483,
-      "name": "Yadollah Morovati",
+      "candidate_index": 440,
+      "name": "Mojri Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 441,
+      "name": "Mojtaba Esmaeili",
       "score": 10,
       "status": "insufficient",
       "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 442,
+      "name": "Mojtaba Sahraee Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 443,
+      "name": "mojtabasah",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 444,
+      "name": "Negar Davari Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 445,
+      "name": "Negin Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 446,
+      "name": "Niayesh Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 447,
+      "name": "Noah Toroghi Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 448,
+      "name": "Nooshin Gholhovallahi Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 449,
+      "name": "Parastoo Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 450,
+      "name": "Parsa-Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 451,
+      "name": "pedramardakani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 452,
+      "name": "Pegah Firoozi Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 453,
+      "name": "Ramin Ahmadieh Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 454,
+      "name": "Razieh Sheikhpour",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "ardakan university",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 455,
+      "name": "Reza Ahmadieh Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 456,
+      "name": "Robert Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 457,
+      "name": "Ryan Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 458,
+      "name": "Sam Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 459,
+      "name": "Sedaye Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 460,
+      "name": "Seema Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 461,
+      "name": "Sepidan Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 462,
+      "name": "Seyed Ali Hatafi Ardakani",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 463,
+      "name": "Seyed Hamid Reza Mirahmadi Ardakani",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 464,
+      "name": "Seyed Mojtaba Paydar Ardakani",
+      "score": 43,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "ardakan university",
+          "weight": 25
+        },
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 465,
+      "name": "Shaghayegh Masaeli",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 466,
+      "name": "Shiva Taghavi Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 467,
+      "name": "Soheila Khodakarim",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 468,
+      "name": "Zahra Jafari_Ardakan",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 469,
+      "name": "Zahra Ranjbar",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 470,
+      "name": "Zahra121377",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 471,
+      "name": "Zehra Ardakan",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 472,
+      "name": "بهروز فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 473,
+      "name": "ر. فرزان پی",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 474,
+      "name": "عبدالرضا فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 475,
+      "name": "عبدالناصر فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 476,
+      "name": "علی شاکر اردکانی",
+      "score": 8,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 477,
+      "name": "علی فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 478,
+      "name": "فاطمه فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 479,
+      "name": "فرزام فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 480,
+      "name": "فرزان خطیب",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 481,
+      "name": "فرزان رشیدی",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 482,
+      "name": "فرزان فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 483,
+      "name": "فرزان قالیچی",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7435,10 +7395,14 @@
     },
     {
       "candidate_index": 484,
-      "name": "Hossein Vosoughi",
-      "score": 10,
-      "status": "insufficient",
+      "name": "فرزان کیانارثی",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7448,10 +7412,14 @@
     },
     {
       "candidate_index": 485,
-      "name": "Abolfazl Aboutalebi",
-      "score": 10,
-      "status": "insufficient",
+      "name": "فرهاد فرزان",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7461,10 +7429,14 @@
     },
     {
       "candidate_index": 486,
-      "name": "Seyed Mohammad Mirjafari",
-      "score": 10,
-      "status": "insufficient",
+      "name": "مجید فرزان",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7474,10 +7446,14 @@
     },
     {
       "candidate_index": 487,
-      "name": "Amirali Rahimi",
-      "score": 10,
-      "status": "insufficient",
+      "name": "محمدرضا بهزادی مقدم",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7487,10 +7463,14 @@
     },
     {
       "candidate_index": 488,
-      "name": "Mohammad Reza Behjati",
-      "score": 10,
-      "status": "insufficient",
+      "name": "محمدرضا بهزادی مقدم بهزادی مقدم",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7500,10 +7480,14 @@
     },
     {
       "candidate_index": 489,
-      "name": "Seyed Ali Mahdizadeh",
-      "score": 10,
-      "status": "insufficient",
+      "name": "محمود فرزان",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7513,10 +7497,14 @@
     },
     {
       "candidate_index": 490,
-      "name": "Sina Khabir",
-      "score": 10,
-      "status": "insufficient",
+      "name": "مرجان بهزادی مقدم",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7526,10 +7514,14 @@
     },
     {
       "candidate_index": 491,
-      "name": "Sadegh Shaker",
-      "score": 10,
-      "status": "insufficient",
+      "name": "ملیحه بهزادی مقدم",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
@@ -7539,10 +7531,48 @@
     },
     {
       "candidate_index": 492,
-      "name": "Saeed Banazadeh",
-      "score": 10,
-      "status": "insufficient",
+      "name": "منصوره فرزان مهر",
+      "score": 20,
+      "status": "possible",
       "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 493,
+      "name": "نرجس بهزادی مقدم",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 494,
+      "name": "نسرین فرزان",
+      "score": 20,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
+          "weight": 10
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10

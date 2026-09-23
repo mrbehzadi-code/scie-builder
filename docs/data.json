@@ -4,26 +4,17 @@
   "target": 1000,
   "stats": {
     "web_records": 6,
-    "people": 493,
-    "academic_candidates": 303,
-    "regional_evidence": 200,
+    "people": 495,
+    "academic_candidates": 314,
+    "regional_evidence": 234,
     "sources": {
-      "GitHub Discovery": 61,
+      "GitHub Discovery": 60,
       "Lead-guided OpenAlex Discovery": 22,
-      "OpenAlex Discovery": 289,
+      "OpenAlex Discovery": 292,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
       "کانال‌ها و گروه‌های عمومی تلگرام": 11
-    },
-    "lead_guided_records": 22,
-    "last_lead": {
-      "id": 1790072139169,
-      "issue_number": 23,
-      "type": "person",
-      "value": "عبدالناصر فرزان",
-      "completed_at": "2026-09-22T10:15:53Z",
-      "new_records": 1
     },
     "public_source_records": 121
   },
@@ -113,6 +104,22 @@
       "confidence": "medium"
     },
     {
+      "name": "Abolfazl Aboutalebi",
+      "type": "ورزش / والیبال",
+      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Abolfazl Ardakan",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -195,6 +202,24 @@
       "url": "https://openalex.org/A5071391165",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Ahmad Nouri",
+      "url": "https://ir.linkedin.com/in/ahmad-nouri-44367810b",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
+      "name": "Ahmadreza Hakimi",
+      "url": "https://ir.linkedin.com/in/ahmadreza-hakimi-545a58225",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Ahoo Malekafzali Ardakan",
@@ -281,16 +306,16 @@
       "confidence": "medium"
     },
     {
-      "name": "Ali Ardakani",
+      "name": "Ali Falahi-Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
-      "detail": "13 اثر علمی",
+      "detail": "5 اثر علمی · University of Maryland, College Park",
       "location": "—",
       "evidence": [
         "OpenAlex author search",
         "query: ardakani"
       ],
-      "url": "https://openalex.org/A5069294859",
+      "url": "https://openalex.org/A5076407063",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -323,6 +348,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Ali Parsaeian",
+      "url": "https://uk.linkedin.com/in/ali-parsaeian-08aa34153",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Ali Reza Mokhtari Ardakan",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -349,6 +383,15 @@
       "url": "https://openalex.org/A5109273712",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Ali Tavakoli",
+      "url": "https://ir.linkedin.com/in/ali-tavakoli-b5595aa9",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Alireza Ardakani",
@@ -407,6 +450,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Amin Tavakkoli",
+      "url": "https://ir.linkedin.com/in/amintavakkoli",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Amir Adabi Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -421,6 +473,31 @@
       "confidence": "medium"
     },
     {
+      "name": "Amir Shahabizad",
+      "url": "https://ir.linkedin.com/in/amir-shahabizad-b7911b203",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
+      "name": "Amirali Rahimi",
+      "type": "ورزش / والیبال",
+      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Arash Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -433,6 +510,15 @@
       "url": "https://openalex.org/A5064497251",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Azam Jafari",
+      "url": "https://ir.linkedin.com/in/azam-jafari",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Azra Mohammad Panah Ardakan",
@@ -505,6 +591,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Bashir Amiri",
+      "url": "https://ir.linkedin.com/in/bashiramiri",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Davood Andalib Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -517,6 +612,22 @@
       "url": "https://openalex.org/A5078507522",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Davood Shojaaddiny Ardakani",
+      "type": "فنی / دانش‌بنیان",
+      "detail": "Professional profile associated with Ardakan.gov.ir; public activity references a technology project selected among national knowledge-based products",
+      "location": "Iran / Ardakan",
+      "evidence": [
+        "Public LinkedIn profile",
+        "Ardakan.gov.ir affiliation"
+      ],
+      "url": "https://ir.linkedin.com/in/shojaaddiny",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "E Ardakani",
@@ -587,6 +698,22 @@
       "url": "https://openalex.org/A5116209353",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Farshad Sayadi",
+      "type": "مهندسی / صنعتی",
+      "detail": "Senior engineer with documented SCADA/DCS work at Ardakan Float Glass and other power/industrial projects",
+      "location": "Iran",
+      "evidence": [
+        "Personal professional profile",
+        "Ardakan Float Glass work history"
+      ],
+      "url": "https://farshadsayadi.com/about/",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Fateme Fattahi Ardakani",
@@ -673,6 +800,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Fatemeh Khodaei",
+      "url": "https://ir.linkedin.com/in/fatemeh-khodaei-101a55261",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Fatemeh Mokhtari ardakan",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -715,6 +851,31 @@
       "confidence": "medium"
     },
     {
+      "name": "Hamid Dehghani",
+      "url": "https://ir.linkedin.com/in/hamid-dehghani-4b3365a3",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
+      "name": "Hamidreza Bana Bafrouei",
+      "type": "پژوهشی / دانشگاهی",
+      "detail": "Scientific researcher and lecturer at Ardakan University; economic analysis and research experience",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public professional profile",
+        "Current role: Scientific Researcher at Ardakan University"
+      ],
+      "url": "https://www.signalhire.com/profiles/hamidreza-bana-bafrouei/239885929",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Hamidreza Jahanbani‐Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -727,6 +888,15 @@
       "url": "https://openalex.org/A5113847926",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Hamidreza Mohtashami Ardakani",
+      "url": "https://ir.linkedin.com/in/hamidreza-mohtashami-ardakani-21a88134",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Hasan Mansouri‐Ardakan",
@@ -775,6 +945,20 @@
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
       "detail": "2 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan"
+      ],
+      "url": "https://openalex.org/A5107076639",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hassanali Vahedian-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
       "location": "—",
       "evidence": [
         "OpenAlex author search",
@@ -841,6 +1025,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Hojat Karimian",
+      "url": "https://ir.linkedin.com/in/hojat-karimian-492b10145",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Hossein Anaraki‐Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -869,6 +1062,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Hossein Dehkhodaei",
+      "url": "https://ir.linkedin.com/in/hossein-dehkhodaei-4aa61a190",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Hossein Malekafzali Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -881,6 +1083,22 @@
       "url": "https://openalex.org/A5111983210",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Hossein Saadat",
+      "type": "مدیریت / مهندسی",
+      "detail": "Professional profile reports management and engineering experience connected with Ardakan pelletizing and Chadormalu projects",
+      "location": "Iran / Ardakan",
+      "evidence": [
+        "Public professional profile",
+        "Ardakan project experience"
+      ],
+      "url": "https://www.signalhire.com/profiles/hossein-saadat%27s-email/172275521",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Hossein Talepour Ardakan",
@@ -897,6 +1115,31 @@
       "confidence": "medium"
     },
     {
+      "name": "Hossein Vosoughi",
+      "type": "ورزش / والیبال",
+      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
+      "name": "Jalal Mahmoudzadeh",
+      "url": "https://ir.linkedin.com/in/jalal-mahmoudzadeh-aba70790",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Kazem Majdzadeh‐Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -911,6 +1154,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Keyvan Kakoolaki",
+      "url": "https://ir.linkedin.com/in/keyvan-kakoolaki-a47b74295",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Kimya Hassani‐Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -923,6 +1175,15 @@
       "url": "https://openalex.org/A5042034485",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Komeyl Afkhami",
+      "url": "https://ir.linkedin.com/in/komeyl-afkhami",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Leili Shaker Ardakani",
@@ -1037,6 +1298,24 @@
       "confidence": "medium"
     },
     {
+      "name": "Mahdi Abolqasemi",
+      "url": "https://ir.linkedin.com/in/mahdi-abolqasemi-ba0b4920a",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
+      "name": "Mahdi Ashtian",
+      "url": "https://ir.linkedin.com/in/mahdi-ashtian-093b68184",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Mahdi Ghanei Ardakan",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -1063,6 +1342,15 @@
       "url": "https://openalex.org/A5088161120",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Mahdi Rezaei",
+      "url": "https://ir.linkedin.com/in/mahdirezaeiprocessing",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Mahmoud Ardakani",
@@ -1103,6 +1391,20 @@
         "query: ardakani"
       ],
       "url": "https://openalex.org/A5008306365",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Maria Tavakoli Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "45 اثر علمی · Shahid Beheshti University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5063950164",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -1149,6 +1451,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Masih Hosseinzadeh",
+      "url": "https://ir.linkedin.com/in/masihhosseinzadeh",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Masoud Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -1161,6 +1472,15 @@
       "url": "https://openalex.org/A5008826983",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Masoud Moradi",
+      "url": "https://ir.linkedin.com/in/masoud-moradi-49960176",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Mehdi B. Ardakan",
@@ -1203,6 +1523,15 @@
       "url": "https://openalex.org/A5070989121",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Moein Mahboub",
+      "url": "https://ir.linkedin.com/in/moein-mahboub-%D9%85%D8%B9%DB%8C%D9%86-%D9%85%D8%AD%D8%A8%D9%88%D8%A8-983646210",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Mohammad Aboei Ardakan",
@@ -1289,6 +1618,20 @@
       "confidence": "medium"
     },
     {
+      "name": "Mohammad Alemi-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · University of British Columbia",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5032097007",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
       "name": "Mohammad Ali Ardakan",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -1317,18 +1660,20 @@
       "confidence": "medium"
     },
     {
-      "name": "Mohammad Fotouhi Ardakani",
-      "type": "کاندیدای پژوهشی",
-      "source": "OpenAlex Discovery",
-      "detail": "15 اثر علمی · University of Isfahan",
-      "location": "—",
+      "name": "Mohammad Ebrahimzadeh Ardakani",
+      "type": "پزشکی",
+      "detail": "Dermatologist with academic and clinical background in Yazd; candidate linked to Ardakan",
+      "location": "Yazd / Ardakan, Iran",
       "evidence": [
-        "OpenAlex author search",
-        "query: ardakani"
+        "Public medical profile",
+        "Ardakan-linked public profile"
       ],
-      "url": "https://openalex.org/A5003193273",
+      "url": "https://zibalife.ir/doctors-search/25/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%DB%8C%D9%85-%D8%B2%D8%A7%D8%AF%D9%87-%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86%DB%8C",
       "verification": "needs_review",
-      "confidence": "medium"
+      "confidence": "medium",
+      "source": "پایگاه‌های رسمی و سازمانی",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Mohammad Javad Ehsani Ardakani",
@@ -1429,6 +1774,38 @@
       "confidence": "medium"
     },
     {
+      "name": "Mohammad Reza Behjati",
+      "type": "ورزش / مربی",
+      "detail": "Listed as a coach associated with Ardakan in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
+      "name": "Mohammad Reza Dinovi",
+      "type": "مدیریت / حمل‌ونقل",
+      "detail": "Listed as manager of Shahestan Bar Sadra Ardakan transport company",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public business directory",
+        "Company management listing"
+      ],
+      "url": "https://www.faaltarin.com/?id=48",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Mohammad Reza Khodaei-Ardakan",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -1455,6 +1832,22 @@
       "url": "https://openalex.org/A5022947811",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Mohammad Reza Shams Ardekani",
+      "type": "علمی / پزشکی",
+      "detail": "Academic and researcher in traditional medicine; born in Ardakan",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public biographical source",
+        "Birthplace: Ardakan"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Mohammad_Reza_Shams_Ardekani",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Mohammad Reza Talebi Ardakani",
@@ -1513,6 +1906,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Mohammadreza Dehestani",
+      "url": "https://ir.linkedin.com/in/mohamadreza-dehestani-0b6a68352",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Mohammadreza Shams‐Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -1569,18 +1971,13 @@
       "confidence": "medium"
     },
     {
-      "name": "Mojtaba Sahraee Ardakan",
-      "type": "کاندیدای پژوهشی",
-      "source": "OpenAlex Discovery",
-      "detail": "1 اثر علمی · University of California, Los Angeles",
-      "location": "—",
-      "evidence": [
-        "OpenAlex author search",
-        "query: ardakan"
-      ],
-      "url": "https://openalex.org/A5033027600",
+      "name": "Mojtaba Majdian Ardakani",
+      "url": "https://ir.linkedin.com/in/mojtaba-majdian-ardakani-4a60397a",
       "verification": "needs_review",
-      "confidence": "medium"
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Mojtaba Sahraee-Ardakan",
@@ -1626,17 +2023,19 @@
     },
     {
       "name": "Mostafa Abouei Ardakan",
-      "type": "کاندیدای پژوهشی",
-      "source": "OpenAlex Discovery",
-      "detail": "48 اثر علمی · Kharazmi University",
-      "location": "—",
+      "type": "دانشگاهی / مهندسی",
+      "detail": "Ph.D. researcher in industrial engineering; Kharazmi University",
+      "location": "Iran",
       "evidence": [
-        "OpenAlex author search",
-        "query: ardakan"
+        "ResearchGate profile",
+        "Profile name and academic record"
       ],
-      "url": "https://openalex.org/A5014168862",
+      "url": "https://www.researchgate.net/profile/Mostafa-Ardakan",
       "verification": "needs_review",
-      "confidence": "medium"
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Mostafa Behjati‐Ardakani",
@@ -1651,6 +2050,15 @@
       "url": "https://openalex.org/A5048794164",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Mostafa Jalali",
+      "url": "https://ir.linkedin.com/in/mostafajalali",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Mostafa K. Ardakani",
@@ -1751,24 +2159,24 @@
       "confidence": "medium"
     },
     {
-      "name": "Nooshin Gholhovallahi Ardakan",
-      "type": "کاندیدای پژوهشی",
-      "source": "OpenAlex Discovery",
-      "detail": "4 اثر علمی · Iran University of Science and Technology",
-      "location": "—",
-      "evidence": [
-        "OpenAlex author search",
-        "query: ardakan"
-      ],
-      "url": "https://openalex.org/A5098670086",
-      "verification": "needs_review",
-      "confidence": "medium"
-    },
-    {
       "name": "Omid H. Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
       "detail": "178 اثر علمی · Natural Resources Canada",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5088280948",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Omid Haeri Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "177 اثر علمی · Natural Resources Canada",
       "location": "—",
       "evidence": [
         "OpenAlex author search",
@@ -1891,6 +2299,22 @@
       "confidence": "medium"
     },
     {
+      "name": "Reza Davari Ardakani",
+      "type": "فلسفه / علوم انسانی",
+      "detail": "Philosopher and university professor; born in Ardakan",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public biographical source",
+        "Birthplace: Ardakan"
+      ],
+      "url": "https://www.ketabnak.com/persons/5190/%D8%B1%D8%B6%D8%A7%2B%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%2B%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86%DB%8C",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Reza Fotouhi-Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -1903,6 +2327,38 @@
       "url": "https://openalex.org/A5020312448",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Sadegh Shaker",
+      "type": "ورزش / والیبال",
+      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
+      "name": "Saeed Banazadeh",
+      "type": "ورزش / والیبال",
+      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Saeed Hatefi Ardakani",
@@ -1947,6 +2403,22 @@
       "confidence": "medium"
     },
     {
+      "name": "Seyed Ali Mahdizadeh",
+      "type": "ورزش / والیبال",
+      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Seyed Ali Yasini Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -1961,6 +2433,22 @@
       "confidence": "medium"
     },
     {
+      "name": "Seyed Mohammad Mirjafari",
+      "type": "ورزش / والیبال",
+      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Seyed Sina Moeini-Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -1973,6 +2461,15 @@
       "url": "https://openalex.org/A5031719607",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Seyfaddin Shiri",
+      "url": "https://ir.linkedin.com/in/seyfaddin-shiri-17a662134",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Shabnam Raayai-Ardakani",
@@ -2031,6 +2528,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Shakiba Sharifi",
+      "url": "https://ir.linkedin.com/in/shakibashariifi",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Shiva Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -2043,6 +2549,22 @@
       "url": "https://openalex.org/A5069466029",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Sina Khabir",
+      "type": "ورزش / والیبال",
+      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Sina Moeini Ardakani",
@@ -2071,6 +2593,15 @@
       "url": "https://openalex.org/A5010144677",
       "verification": "needs_review",
       "confidence": "medium"
+    },
+    {
+      "name": "Soheila Amin Sadrabadi",
+      "url": "https://ir.linkedin.com/in/soheila-amin-sadrabadi-0b895668",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
     },
     {
       "name": "Somayah شاکر اردکانی",
@@ -2115,10 +2646,40 @@
       "confidence": "medium"
     },
     {
+      "name": "Yadollah Morovati",
+      "type": "ورزش / مربی",
+      "detail": "Listed as a coach associated with Ardakan in a national youth volleyball competition",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Yalda H. Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
       "detail": "69 اثر علمی · Tehran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5011798315",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yalda Hosseinzadeh Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "70 اثر علمی · Tehran University of Medical Sciences",
       "location": "—",
       "evidence": [
         "OpenAlex author search",
@@ -2157,6 +2718,15 @@
       "confidence": "medium"
     },
     {
+      "name": "Zahra Afkhami Ardakani",
+      "url": "https://ir.linkedin.com/in/zahra-afkhami-ardakani",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 65
+    },
+    {
       "name": "Zahra Ardakani",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -2181,6 +2751,20 @@
         "query: ardakan"
       ],
       "url": "https://openalex.org/A5095935200",
+      "verification": "needs_review",
+      "confidence": "medium"
+    },
+    {
+      "name": "Zohreh Behjati Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "27 اثر علمی · Academic Center for Education, Culture and Research",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5041024674",
       "verification": "needs_review",
       "confidence": "medium"
     },
@@ -3921,6 +4505,22 @@
       "confidence": "medium"
     },
     {
+      "name": "Abolfazl Azizian",
+      "type": "دانشگاهی / پژوهشی",
+      "detail": "Professor (Assistant), Ardakan University; water science, irrigation and environmental research",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "ResearchGate profile",
+        "Current institution: Ardakan University"
+      ],
+      "url": "https://www.researchgate.net/profile/Abolfazl-Azizian",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
       "name": "Abolfazl Kamali Ardakani",
       "type": "پروفایل وب",
       "source": "GitHub Discovery",
@@ -3962,6 +4562,15 @@
       "confidence": "low"
     },
     {
+      "name": "Aghkariz Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
       "name": "Ahmad Mahboubi",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -3976,6 +4585,22 @@
       "confidence": "low"
     },
     {
+      "name": "Ahmad Taqdari Ardakani",
+      "type": "مدیریت / صنعتی",
+      "detail": "Appointed acting head of Chadormalu industrial complex; public company report describes him as an Ardakani engineer",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Chadormalu public-relations report",
+        "Role and Ardakani identification"
+      ],
+      "url": "https://t.me/s/chadormalupr/1528",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
       "name": "Ali",
       "type": "پروفایل وب",
       "source": "GitHub Discovery",
@@ -3986,6 +4611,159 @@
         "public GitHub profile"
       ],
       "url": "https://github.com/Ardakaniali"
+    },
+    {
+      "name": "Ali Akbar Kamali Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Azemi Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Dehestani Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Ebrahimzadeh Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Fotouhi Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Ghotbzade Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Kamali Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Khademalhosseini Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Mahmoudi Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Molaee Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Moteallehi Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Nabizadeh Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Nazemi Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Pasha Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Paydar Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Reza Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "Ali Reza Kamali",
@@ -4000,6 +4778,24 @@
       "url": "https://openalex.org/A5087777101",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Ali Shaker Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ali Shakker Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "Alireza Dashti",
@@ -4026,6 +4822,22 @@
       "url": "https://openalex.org/A5101988058",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Alireza Mehrabadi",
+      "type": "مدیریت / صنعت",
+      "detail": "CEO of Ardakan Industrial Ceramics Holding according to a public interview",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public company/business interview",
+        "CEO role"
+      ],
+      "url": "https://ofoghmihan.ir/news/%DA%A9%D8%B3%D8%B1%D8%A7-%D8%A7%D9%88%D9%84%DB%8C%D9%86-%D9%88-%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86-%D8%AA%D9%88%D9%84%DB%8C%D8%AF%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D8%B3%D8%B1%D8%A7%D9%85/",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "پایگاه‌های رسمی و سازمانی",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
     },
     {
       "name": "AmidArdakani",
@@ -4122,6 +4934,22 @@
       "url": "https://github.com/ardakan",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Ardakan Mehrnia",
+      "type": "مهندسی مکانیک / تولید",
+      "detail": "Mechanical engineer working in precision tooling and manufacturing; public profile uses Ardakan as part of the profile name",
+      "location": "Germany / Iran connection requires verification",
+      "evidence": [
+        "Public LinkedIn profile",
+        "Mechanical engineering and manufacturing experience"
+      ],
+      "url": "https://de.linkedin.com/in/ardakan-mehrnia-088682194",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "ardakan111",
@@ -4614,6 +5442,24 @@
       "confidence": "low"
     },
     {
+      "name": "Arian Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Artin Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
       "name": "Behinsomnia9",
       "type": "پروفایل فنی",
       "source": "GitHub Discovery",
@@ -4626,6 +5472,15 @@
       "url": "https://github.com/Behinsomnia9",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Chufa Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "Darkshiira",
@@ -4683,6 +5538,22 @@
       "confidence": "low"
     },
     {
+      "name": "Hadi Kargar",
+      "type": "دانشگاهی / پژوهشی",
+      "detail": "Professor (Full), Ardakan University; chemical engineering and coordination chemistry",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "ResearchGate profile",
+        "Current institution: Ardakan University"
+      ],
+      "url": "https://www.researchgate.net/profile/Hadi-Kargar-2",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
       "name": "Hamed",
       "type": "پروفایل وب",
       "source": "GitHub Discovery",
@@ -4708,6 +5579,15 @@
       "verification": "needs_review"
     },
     {
+      "name": "Hamed Mokhtari",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
       "name": "Hami-Hafezi",
       "type": "پروفایل فنی",
       "source": "GitHub Discovery",
@@ -4720,6 +5600,22 @@
       "url": "https://github.com/Hami-Hafezi",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Hamid Nedafat Ardakan",
+      "type": "صنعت / شیشه",
+      "detail": "Professional directory result associates the profile with Ardakan Glass Corporation",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public LinkedIn directory result",
+        "Ardakan Glass Corporation association"
+      ],
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "Hamid R. Zare",
@@ -4736,6 +5632,79 @@
       "confidence": "low"
     },
     {
+      "name": "Hamid Reza Zare",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "220 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani"
+      ],
+      "url": "https://openalex.org/A5106072834",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "Hassan Ali Vahedian Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Heidar Meftahizade",
+      "type": "دانشگاهی / پژوهشی",
+      "detail": "Associate Professor, Horticultural Science, Ardakan University; medicinal and industrial plants",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "ResearchGate profile",
+        "Faculty of Ardakan University"
+      ],
+      "url": "https://www.researchgate.net/profile/Heidar-Meftahizade",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
+      "name": "Jamal Dehghani Ashkezari",
+      "type": "دانشگاهی / فنی",
+      "detail": "Electrical engineering researcher associated with Ardakan University; power systems and protection",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "ResearchGate-linked publication",
+        "Ardakan University affiliation"
+      ],
+      "url": "https://link.springer.com/book/10.1007/978-981-16-6651-3",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
+      "name": "Javad Shaker Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Kaan Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
       "name": "koushkoush",
       "type": "پروفایل فنی",
       "source": "GitHub Discovery",
@@ -4748,6 +5717,31 @@
       "url": "https://github.com/koushkoush",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Mahdi Qanei Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Mahmoud Hatefi Ardakani",
+      "type": "مدیریت / معدن",
+      "detail": "Public corporate registry record identifies him as board member and CEO of a mining company registered in Ardakan",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public company registry record",
+        "CEO and board role"
+      ],
+      "url": "https://ifirma.ir/5D3970",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "پایگاه‌های رسمی و سازمانی",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
     },
     {
       "name": "mahsamajd",
@@ -4778,6 +5772,24 @@
       "confidence": "low"
     },
     {
+      "name": "Massumeh Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Mohamad Ali Behjati Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
       "name": "MohamadAli92",
       "type": "پروفایل فنی",
       "source": "GitHub Discovery",
@@ -4790,6 +5802,63 @@
       "url": "https://github.com/MohamadAli92",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Mohammad Ali Ghotbzade Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Mohammad Fotouhi Ardakani",
+      "type": "دانشگاهی / کارآفرینی",
+      "detail": "Department of Public Administration, Ardakan University; entrepreneurship and SME research",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "IDEAS/RePEc author profile",
+        "Affiliation: Ardakan University"
+      ],
+      "url": "https://ideas.repec.org/f/pfo352.html",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
+      "name": "Mohammad Mehdi Zarei Mahmoudabadi",
+      "type": "مهندسی / معماری",
+      "detail": "Architectural designer and engineer; profile states city and workplace as Ardakan",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Civil808 public profile",
+        "City: Ardakan; workplace: Ardakan; occupation: engineer"
+      ],
+      "url": "https://civil808.com/user/73161/4480115147",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
+      "name": "Mohammad Reza Barzegar-Bafrooei",
+      "type": "دانشگاهی / فنی",
+      "detail": "Assistant Professor, Electrical Engineering, Ardakan University; power-system protection and fault current limiters",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "ResearchGate profile",
+        "Ardakan University affiliation"
+      ],
+      "url": "https://www.researchgate.net/profile/Mohammad-Barzegar-Bafrooei",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
     },
     {
       "name": "Mohammad Reza Sobhan",
@@ -4806,6 +5875,15 @@
       "confidence": "low"
     },
     {
+      "name": "Mohammad Roghanian Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
       "name": "mohammadnabia",
       "type": "پروفایل فنی",
       "source": "GitHub Discovery",
@@ -4818,6 +5896,65 @@
       "url": "https://github.com/mohammadnabia",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Mohandes Heydari (Ardakan)",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Mohsen Talaei Ardakani",
+      "type": "پزشکی",
+      "detail": "General physician with a public practice listing in Ardakan",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Public medical directory",
+        "Practice address in Ardakan"
+      ],
+      "url": "https://www.darmankade.com/doctor/424469/",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
+      "name": "Mojri Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Mojtaba Esmaeili",
+      "type": "کارآفرینی / صنایع غذایی",
+      "detail": "CEO and sales manager of Abr-o-Bad food products; public biography states he is from Ardakan",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Company about page",
+        "Self-described birthplace/origin and management role"
+      ],
+      "url": "https://abr-o-bad.com/about-us/",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
+      "name": "Mojtaba Sahraee Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "mojtabasah",
@@ -4848,6 +5985,51 @@
       "verification": "needs_review"
     },
     {
+      "name": "Negin Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Niayesh Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Noah Toroghi Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Nooshin Gholhovallahi Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Parastoo Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
       "name": "Parsa-Ardakani",
       "type": "پروفایل فنی",
       "source": "GitHub Discovery",
@@ -4876,6 +6058,155 @@
       "confidence": "low"
     },
     {
+      "name": "Pegah Firoozi Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ramin Ahmadieh Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Razieh Sheikhpour",
+      "type": "دانشگاهی / پژوهشی",
+      "detail": "Associate Professor, Computer Engineering, Ardakan University; machine learning, data mining and wireless networks",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "Ardakan University Academia profile",
+        "Ardakan University faculty affiliation"
+      ],
+      "url": "https://ardakan.academia.edu/RSheikhpour",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "دانشگاه‌های داخلی و خارجی",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
+      "name": "Reza Ahmadieh Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Robert Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Ryan Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Sam Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Sedaye Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Seema Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Sepidan Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Seyed Ali Hatafi Ardakani",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Seyed Hamid Reza Mirahmadi Ardakani",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Seyed Mojtaba Paydar Ardakani",
+      "type": "دانشگاهی / پژوهشی",
+      "detail": "Faculty/research profile at Ardakan University, Department of Sport Sciences",
+      "location": "Ardakan, Iran",
+      "evidence": [
+        "ResearchGate profile",
+        "Current institution: Ardakan University"
+      ],
+      "url": "https://www.researchgate.net/profile/Seyed-Ardakani",
+      "verification": "needs_review",
+      "confidence": "high",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 85
+    },
+    {
+      "name": "Shaghayegh Masaeli",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Shiva Taghavi Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
       "name": "Soheila Khodakarim",
       "type": "کاندیدای پژوهشی",
       "source": "OpenAlex Discovery",
@@ -4890,17 +6221,22 @@
       "confidence": "low"
     },
     {
-      "name": "Zahra Afkhami Ardakani",
-      "type": "پروفایل وب",
-      "source": "GitHub Discovery",
-      "detail": "پروفایل عمومی GitHub",
-      "location": "Iran, Yazd, Ardakan",
-      "evidence": [
-        "location: Ardakan",
-        "name signal",
-        "public GitHub profile"
-      ],
-      "url": "https://github.com/Zahra121377"
+      "name": "Zahra Jafari_Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
+    },
+    {
+      "name": "Zahra Ranjbar",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "Zahra121377",
@@ -4915,6 +6251,15 @@
       "url": "https://github.com/Zahra121377",
       "verification": "needs_review",
       "confidence": "low"
+    },
+    {
+      "name": "Zehra Ardakan",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "بهروز فرزان",
@@ -4945,6 +6290,45 @@
       "verification": "needs_review",
       "confidence": "low",
       "lead_id": 1786742219317
+    },
+    {
+      "name": "عبدالرضا فرزان",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «عبدالرضا فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: عبدالرضا فرزان",
+        "query: عبدالرضا فرزان"
+      ],
+      "url": "https://openalex.org/A5080704547",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1790057370531
+    },
+    {
+      "name": "عبدالناصر فرزان",
+      "type": "کاندیدای کشف از سرنخ",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «عبدالناصر فرزان»",
+      "location": "Ardakan signal",
+      "evidence": [
+        "lead: عبدالناصر فرزان",
+        "query: عبدالناصر فرزان"
+      ],
+      "url": "https://openalex.org/A5011428548",
+      "verification": "needs_review",
+      "confidence": "low",
+      "lead_id": 1790072139169
+    },
+    {
+      "name": "علی شاکر اردکانی",
+      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "verification": "needs_review",
+      "confidence": "low",
+      "source": "وب عمومی و رسانه‌ها",
+      "locality_claim": "candidate_not_confirmed",
+      "public_evidence_score": 45
     },
     {
       "name": "علی فرزان",
@@ -5097,34 +6481,19 @@
       "lead_id": 1786742219317
     },
     {
-      "name": "منصوره فرزان مهر",
+      "name": "محمدرضا بهزادی مقدم",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «فرزان»",
-      "location": "Ardakan signal",
+      "detail": "OpenAlex result for «بهزادی مقدم»",
+      "location": "اردکان",
       "evidence": [
-        "lead: فرزان",
-        "query: فرزان"
+        "lead: بهزادی مقدم",
+        "query: بهزادی مقدم"
       ],
-      "url": "https://openalex.org/A5018848292",
+      "url": "https://openalex.org/A5005453633",
       "verification": "needs_review",
       "confidence": "low",
-      "lead_id": 1786742219317
-    },
-    {
-      "name": "نسرین فرزان",
-      "type": "کاندیدای کشف از سرنخ",
-      "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «فرزان»",
-      "location": "Ardakan signal",
-      "evidence": [
-        "lead: فرزان",
-        "query: فرزان"
-      ],
-      "url": "https://openalex.org/A5051575008",
-      "verification": "needs_review",
-      "confidence": "low",
-      "lead_id": 1786742219317
+      "lead_id": 1789971588189
     },
     {
       "name": "محمدرضا بهزادی مقدم بهزادی مقدم",
@@ -5142,34 +6511,25 @@
       "lead_id": 1789971588189
     },
     {
-      "name": "محمدرضا بهزادی مقدم",
+      "name": "محمود فرزان",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «بهزادی مقدم»",
-      "location": "اردکان",
+      "detail": "OpenAlex result for «محمود فرزان»",
+      "location": "Ardakan signal",
       "evidence": [
-        "lead: بهزادی مقدم",
-        "query: بهزادی مقدم"
+        "lead: محمود فرزان",
+        "query: محمود فرزان"
       ],
-      "url": "https://openalex.org/A5005453633",
-      "verification": "needs_review",
+      "url": "https://openalex.org/A5003596359",
+      "verification": "community_confirmed",
       "confidence": "low",
-      "lead_id": 1789971588189
-    },
-    {
-      "name": "نرجس بهزادی مقدم",
-      "type": "کاندیدای کشف از سرنخ",
-      "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «بهزادی مقدم»",
-      "location": "اردکان",
-      "evidence": [
-        "lead: بهزادی مقدم",
-        "query: بهزادی مقدم"
-      ],
-      "url": "https://openalex.org/A5012412146",
-      "verification": "needs_review",
-      "confidence": "low",
-      "lead_id": 1789971588189
+      "lead_id": 1789972561302,
+      "community_review": {
+        "verdict": "ardakani",
+        "reason": "شناخت مستقیم و محلی",
+        "note": "استاد دانشگاه علوم پزشکی تهران",
+        "reviewed_at": "2026-09-22T10:43:33Z"
+      }
     },
     {
       "name": "مرجان بهزادی مقدم",
@@ -5202,1389 +6562,49 @@
       "lead_id": 1789971588189
     },
     {
-      "name": "محمود فرزان",
+      "name": "منصوره فرزان مهر",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «محمود فرزان»",
+      "detail": "OpenAlex result for «فرزان»",
       "location": "Ardakan signal",
       "evidence": [
-        "lead: محمود فرزان",
-        "query: محمود فرزان"
+        "lead: فرزان",
+        "query: فرزان"
       ],
-      "url": "https://openalex.org/A5003596359",
-      "verification": "community_confirmed",
+      "url": "https://openalex.org/A5018848292",
+      "verification": "needs_review",
       "confidence": "low",
-      "lead_id": 1789972561302,
-      "community_review": {
-        "verdict": "ardakani",
-        "reason": "شناخت مستقیم و محلی",
-        "note": "استاد دانشگاه علوم پزشکی تهران",
-        "reviewed_at": "2026-09-22T10:43:33Z"
-      }
+      "lead_id": 1786742219317
     },
     {
-      "name": "عبدالرضا فرزان",
+      "name": "نرجس بهزادی مقدم",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «عبدالرضا فرزان»",
-      "location": "Ardakan signal",
+      "detail": "OpenAlex result for «بهزادی مقدم»",
+      "location": "اردکان",
       "evidence": [
-        "lead: عبدالرضا فرزان",
-        "query: عبدالرضا فرزان"
+        "lead: بهزادی مقدم",
+        "query: بهزادی مقدم"
       ],
-      "url": "https://openalex.org/A5080704547",
+      "url": "https://openalex.org/A5012412146",
       "verification": "needs_review",
       "confidence": "low",
-      "lead_id": 1790057370531
+      "lead_id": 1789971588189
     },
     {
-      "name": "عبدالناصر فرزان",
+      "name": "نسرین فرزان",
       "type": "کاندیدای کشف از سرنخ",
       "source": "Lead-guided OpenAlex Discovery",
-      "detail": "OpenAlex result for «عبدالناصر فرزان»",
+      "detail": "OpenAlex result for «فرزان»",
       "location": "Ardakan signal",
       "evidence": [
-        "lead: عبدالناصر فرزان",
-        "query: عبدالناصر فرزان"
+        "lead: فرزان",
+        "query: فرزان"
       ],
-      "url": "https://openalex.org/A5011428548",
+      "url": "https://openalex.org/A5051575008",
       "verification": "needs_review",
       "confidence": "low",
-      "lead_id": 1790072139169
-    },
-    {
-      "name": "Abolfazl Azizian",
-      "type": "دانشگاهی / پژوهشی",
-      "detail": "Professor (Assistant), Ardakan University; water science, irrigation and environmental research",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "ResearchGate profile",
-        "Current institution: Ardakan University"
-      ],
-      "url": "https://www.researchgate.net/profile/Abolfazl-Azizian",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Hadi Kargar",
-      "type": "دانشگاهی / پژوهشی",
-      "detail": "Professor (Full), Ardakan University; chemical engineering and coordination chemistry",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "ResearchGate profile",
-        "Current institution: Ardakan University"
-      ],
-      "url": "https://www.researchgate.net/profile/Hadi-Kargar-2",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Razieh Sheikhpour",
-      "type": "دانشگاهی / پژوهشی",
-      "detail": "Associate Professor, Computer Engineering, Ardakan University; machine learning, data mining and wireless networks",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Ardakan University Academia profile",
-        "Ardakan University faculty affiliation"
-      ],
-      "url": "https://ardakan.academia.edu/RSheikhpour",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "دانشگاه‌های داخلی و خارجی",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Seyed Mojtaba Paydar Ardakani",
-      "type": "دانشگاهی / پژوهشی",
-      "detail": "Faculty/research profile at Ardakan University, Department of Sport Sciences",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "ResearchGate profile",
-        "Current institution: Ardakan University"
-      ],
-      "url": "https://www.researchgate.net/profile/Seyed-Ardakani",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Heidar Meftahizade",
-      "type": "دانشگاهی / پژوهشی",
-      "detail": "Associate Professor, Horticultural Science, Ardakan University; medicinal and industrial plants",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "ResearchGate profile",
-        "Faculty of Ardakan University"
-      ],
-      "url": "https://www.researchgate.net/profile/Heidar-Meftahizade",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Mohammad Reza Barzegar-Bafrooei",
-      "type": "دانشگاهی / فنی",
-      "detail": "Assistant Professor, Electrical Engineering, Ardakan University; power-system protection and fault current limiters",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "ResearchGate profile",
-        "Ardakan University affiliation"
-      ],
-      "url": "https://www.researchgate.net/profile/Mohammad-Barzegar-Bafrooei",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Jamal Dehghani Ashkezari",
-      "type": "دانشگاهی / فنی",
-      "detail": "Electrical engineering researcher associated with Ardakan University; power systems and protection",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "ResearchGate-linked publication",
-        "Ardakan University affiliation"
-      ],
-      "url": "https://link.springer.com/book/10.1007/978-981-16-6651-3",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Mohammad Fotouhi Ardakani",
-      "type": "دانشگاهی / کارآفرینی",
-      "detail": "Department of Public Administration, Ardakan University; entrepreneurship and SME research",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "IDEAS/RePEc author profile",
-        "Affiliation: Ardakan University"
-      ],
-      "url": "https://ideas.repec.org/f/pfo352.html",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Mohammad Reza Shams Ardekani",
-      "type": "علمی / پزشکی",
-      "detail": "Academic and researcher in traditional medicine; born in Ardakan",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public biographical source",
-        "Birthplace: Ardakan"
-      ],
-      "url": "https://en.wikipedia.org/wiki/Mohammad_Reza_Shams_Ardekani",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Reza Davari Ardakani",
-      "type": "فلسفه / علوم انسانی",
-      "detail": "Philosopher and university professor; born in Ardakan",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public biographical source",
-        "Birthplace: Ardakan"
-      ],
-      "url": "https://www.ketabnak.com/persons/5190/%D8%B1%D8%B6%D8%A7%2B%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%2B%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86%DB%8C",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mostafa Abouei Ardakan",
-      "type": "دانشگاهی / مهندسی",
-      "detail": "Ph.D. researcher in industrial engineering; Kharazmi University",
-      "location": "Iran",
-      "evidence": [
-        "ResearchGate profile",
-        "Profile name and academic record"
-      ],
-      "url": "https://www.researchgate.net/profile/Mostafa-Ardakan",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mohammad Mehdi Zarei Mahmoudabadi",
-      "type": "مهندسی / معماری",
-      "detail": "Architectural designer and engineer; profile states city and workplace as Ardakan",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Civil808 public profile",
-        "City: Ardakan; workplace: Ardakan; occupation: engineer"
-      ],
-      "url": "https://civil808.com/user/73161/4480115147",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Hamidreza Bana Bafrouei",
-      "type": "پژوهشی / دانشگاهی",
-      "detail": "Scientific researcher and lecturer at Ardakan University; economic analysis and research experience",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public professional profile",
-        "Current role: Scientific Researcher at Ardakan University"
-      ],
-      "url": "https://www.signalhire.com/profiles/hamidreza-bana-bafrouei/239885929",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mohammad Ebrahimzadeh Ardakani",
-      "type": "پزشکی",
-      "detail": "Dermatologist with academic and clinical background in Yazd; candidate linked to Ardakan",
-      "location": "Yazd / Ardakan, Iran",
-      "evidence": [
-        "Public medical profile",
-        "Ardakan-linked public profile"
-      ],
-      "url": "https://zibalife.ir/doctors-search/25/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%DB%8C%D9%85-%D8%B2%D8%A7%D8%AF%D9%87-%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86%DB%8C",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "پایگاه‌های رسمی و سازمانی",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mojtaba Sahraee Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Parastoo Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Nooshin Gholhovallahi Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Shiva Taghavi Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Negin Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Arian Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Seema Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Artin Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Zehra Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ramin Ahmadieh Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Sepidan Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Zahra Ranjbar",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Massumeh Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Niayesh Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Mojri Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Shaghayegh Masaeli",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Aghkariz Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Sedaye Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Chufa Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Robert Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ryan Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Mahdi Qanei Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Kaan Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Mohammad Roghanian Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Sam Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Javad Shaker Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Mohandes Heydari (Ardakan)",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Pegah Firoozi Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Hamed Mokhtari",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Zahra Jafari_Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Noah Toroghi Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Reza Ahmadieh Ardakan",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Seyed Hamid Reza Mirahmadi Ardakani",
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Nazemi Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Hassan Ali Vahedian Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Paydar Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Molaee Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Pasha Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Nabizadeh Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Kamali Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Dehestani Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Shakker Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Fotouhi Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Moteallehi Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Akbar Kamali Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "علی شاکر اردکانی",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Ebrahimzadeh Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Shaker Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Azemi Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Khademalhosseini Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Ghotbzade Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Mohammad Ali Ghotbzade Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Mohamad Ali Behjati Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Reza Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ali Mahmoudi Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Seyed Ali Hatafi Ardakani",
-      "url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Keyvan Kakoolaki",
-      "url": "https://ir.linkedin.com/in/keyvan-kakoolaki-a47b74295",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Hamidreza Mohtashami Ardakani",
-      "url": "https://ir.linkedin.com/in/hamidreza-mohtashami-ardakani-21a88134",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Bashir Amiri",
-      "url": "https://ir.linkedin.com/in/bashiramiri",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Azam Jafari",
-      "url": "https://ir.linkedin.com/in/azam-jafari",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Zahra Afkhami Ardakani",
-      "url": "https://ir.linkedin.com/in/zahra-afkhami-ardakani",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mohammadreza Dehestani",
-      "url": "https://ir.linkedin.com/in/mohamadreza-dehestani-0b6a68352",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Ahmadreza Hakimi",
-      "url": "https://ir.linkedin.com/in/ahmadreza-hakimi-545a58225",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mahdi Ashtian",
-      "url": "https://ir.linkedin.com/in/mahdi-ashtian-093b68184",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Amir Shahabizad",
-      "url": "https://ir.linkedin.com/in/amir-shahabizad-b7911b203",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Masih Hosseinzadeh",
-      "url": "https://ir.linkedin.com/in/masihhosseinzadeh",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Masoud Moradi",
-      "url": "https://ir.linkedin.com/in/masoud-moradi-49960176",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Seyfaddin Shiri",
-      "url": "https://ir.linkedin.com/in/seyfaddin-shiri-17a662134",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mahdi Abolqasemi",
-      "url": "https://ir.linkedin.com/in/mahdi-abolqasemi-ba0b4920a",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Hojat Karimian",
-      "url": "https://ir.linkedin.com/in/hojat-karimian-492b10145",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Ali Parsaeian",
-      "url": "https://uk.linkedin.com/in/ali-parsaeian-08aa34153",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Jalal Mahmoudzadeh",
-      "url": "https://ir.linkedin.com/in/jalal-mahmoudzadeh-aba70790",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Hamid Dehghani",
-      "url": "https://ir.linkedin.com/in/hamid-dehghani-4b3365a3",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Hossein Dehkhodaei",
-      "url": "https://ir.linkedin.com/in/hossein-dehkhodaei-4aa61a190",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Fatemeh Khodaei",
-      "url": "https://ir.linkedin.com/in/fatemeh-khodaei-101a55261",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Ahmad Nouri",
-      "url": "https://ir.linkedin.com/in/ahmad-nouri-44367810b",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Komeyl Afkhami",
-      "url": "https://ir.linkedin.com/in/komeyl-afkhami",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mojtaba Majdian Ardakani",
-      "url": "https://ir.linkedin.com/in/mojtaba-majdian-ardakani-4a60397a",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Ali Tavakoli",
-      "url": "https://ir.linkedin.com/in/ali-tavakoli-b5595aa9",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Moein Mahboub",
-      "url": "https://ir.linkedin.com/in/moein-mahboub-%D9%85%D8%B9%DB%8C%D9%86-%D9%85%D8%AD%D8%A8%D9%88%D8%A8-983646210",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mahdi Rezaei",
-      "url": "https://ir.linkedin.com/in/mahdirezaeiprocessing",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mostafa Jalali",
-      "url": "https://ir.linkedin.com/in/mostafajalali",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Amin Tavakkoli",
-      "url": "https://ir.linkedin.com/in/amintavakkoli",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Soheila Amin Sadrabadi",
-      "url": "https://ir.linkedin.com/in/soheila-amin-sadrabadi-0b895668",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Shakiba Sharifi",
-      "url": "https://ir.linkedin.com/in/shakibashariifi",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Farshad Sayadi",
-      "type": "مهندسی / صنعتی",
-      "detail": "Senior engineer with documented SCADA/DCS work at Ardakan Float Glass and other power/industrial projects",
-      "location": "Iran",
-      "evidence": [
-        "Personal professional profile",
-        "Ardakan Float Glass work history"
-      ],
-      "url": "https://farshadsayadi.com/about/",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Davood Shojaaddiny Ardakani",
-      "type": "فنی / دانش‌بنیان",
-      "detail": "Professional profile associated with Ardakan.gov.ir; public activity references a technology project selected among national knowledge-based products",
-      "location": "Iran / Ardakan",
-      "evidence": [
-        "Public LinkedIn profile",
-        "Ardakan.gov.ir affiliation"
-      ],
-      "url": "https://ir.linkedin.com/in/shojaaddiny",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Ahmad Taqdari Ardakani",
-      "type": "مدیریت / صنعتی",
-      "detail": "Appointed acting head of Chadormalu industrial complex; public company report describes him as an Ardakani engineer",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Chadormalu public-relations report",
-        "Role and Ardakani identification"
-      ],
-      "url": "https://t.me/s/chadormalupr/1528",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Alireza Mehrabadi",
-      "type": "مدیریت / صنعت",
-      "detail": "CEO of Ardakan Industrial Ceramics Holding according to a public interview",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public company/business interview",
-        "CEO role"
-      ],
-      "url": "https://ofoghmihan.ir/news/%DA%A9%D8%B3%D8%B1%D8%A7-%D8%A7%D9%88%D9%84%DB%8C%D9%86-%D9%88-%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86-%D8%AA%D9%88%D9%84%DB%8C%D8%AF%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D8%B3%D8%B1%D8%A7%D9%85/",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "پایگاه‌های رسمی و سازمانی",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Mojtaba Esmaeili",
-      "type": "کارآفرینی / صنایع غذایی",
-      "detail": "CEO and sales manager of Abr-o-Bad food products; public biography states he is from Ardakan",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Company about page",
-        "Self-described birthplace/origin and management role"
-      ],
-      "url": "https://abr-o-bad.com/about-us/",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Mahmoud Hatefi Ardakani",
-      "type": "مدیریت / معدن",
-      "detail": "Public corporate registry record identifies him as board member and CEO of a mining company registered in Ardakan",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public company registry record",
-        "CEO and board role"
-      ],
-      "url": "https://ifirma.ir/5D3970",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "پایگاه‌های رسمی و سازمانی",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Hossein Saadat",
-      "type": "مدیریت / مهندسی",
-      "detail": "Professional profile reports management and engineering experience connected with Ardakan pelletizing and Chadormalu projects",
-      "location": "Iran / Ardakan",
-      "evidence": [
-        "Public professional profile",
-        "Ardakan project experience"
-      ],
-      "url": "https://www.signalhire.com/profiles/hossein-saadat%27s-email/172275521",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mohammad Reza Dinovi",
-      "type": "مدیریت / حمل‌ونقل",
-      "detail": "Listed as manager of Shahestan Bar Sadra Ardakan transport company",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public business directory",
-        "Company management listing"
-      ],
-      "url": "https://www.faaltarin.com/?id=48",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Hamid Nedafat Ardakan",
-      "type": "صنعت / شیشه",
-      "detail": "Professional directory result associates the profile with Ardakan Glass Corporation",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public LinkedIn directory result",
-        "Ardakan Glass Corporation association"
-      ],
-      "url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Ardakan Mehrnia",
-      "type": "مهندسی مکانیک / تولید",
-      "detail": "Mechanical engineer working in precision tooling and manufacturing; public profile uses Ardakan as part of the profile name",
-      "location": "Germany / Iran connection requires verification",
-      "evidence": [
-        "Public LinkedIn profile",
-        "Mechanical engineering and manufacturing experience"
-      ],
-      "url": "https://de.linkedin.com/in/ardakan-mehrnia-088682194",
-      "verification": "needs_review",
-      "confidence": "low",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 45
-    },
-    {
-      "name": "Mohsen Talaei Ardakani",
-      "type": "پزشکی",
-      "detail": "General physician with a public practice listing in Ardakan",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public medical directory",
-        "Practice address in Ardakan"
-      ],
-      "url": "https://www.darmankade.com/doctor/424469/",
-      "verification": "needs_review",
-      "confidence": "high",
-      "source": "وب عمومی و رسانه‌ها",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 85
-    },
-    {
-      "name": "Yadollah Morovati",
-      "type": "ورزش / مربی",
-      "detail": "Listed as a coach associated with Ardakan in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Hossein Vosoughi",
-      "type": "ورزش / والیبال",
-      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Abolfazl Aboutalebi",
-      "type": "ورزش / والیبال",
-      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Seyed Mohammad Mirjafari",
-      "type": "ورزش / والیبال",
-      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Amirali Rahimi",
-      "type": "ورزش / والیبال",
-      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Mohammad Reza Behjati",
-      "type": "ورزش / مربی",
-      "detail": "Listed as a coach associated with Ardakan in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Seyed Ali Mahdizadeh",
-      "type": "ورزش / والیبال",
-      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Sina Khabir",
-      "type": "ورزش / والیبال",
-      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Sadegh Shaker",
-      "type": "ورزش / والیبال",
-      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
-    },
-    {
-      "name": "Saeed Banazadeh",
-      "type": "ورزش / والیبال",
-      "detail": "Listed as an Ardakani athlete in a national youth volleyball competition",
-      "location": "Ardakan, Iran",
-      "evidence": [
-        "Public sports report",
-        "Ardakan tag in competition roster"
-      ],
-      "url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
-      "verification": "needs_review",
-      "confidence": "medium",
-      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "locality_claim": "candidate_not_confirmed",
-      "public_evidence_score": 65
+      "lead_id": 1786742219317
     }
   ]
 }
