@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-23T04:54:13Z",
+  "target": 1000,
+  "queries": 150,
+  "search_results": 1492,
+  "accepted_candidates": 122,
+  "new_records": 0,
+  "pool_size": 493,
+  "by_source": {
+    "OpenAlex Discovery": 289,
+    "GitHub Discovery": 61,
+    "Lead-guided OpenAlex Discovery": 22,
+    "وب عمومی و رسانه‌ها": 106,
+    "دانشگاه‌های داخلی و خارجی": 1,
+    "پایگاه‌های رسمی و سازمانی": 3,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 11
+  },
+  "errors": []
+}

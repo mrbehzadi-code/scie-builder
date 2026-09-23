@@ -5,6 +5,8 @@ on:
     branches: [main, 'sprint/**']
     paths:
       - 'engines/discovery_expansion.py'
+      - 'engines/public_source_discovery.py'
+      - 'discovery_sources.json'
       - 'outputs/academic_candidates.json'
       - 'docs/web_candidates.json'
       - 'docs/web_candidates_extended.json'
@@ -33,13 +35,16 @@ jobs:
           python-version: '3.12'
 
       - name: Expand candidate pool
-        run: python engines/discovery_expansion.py
+        run: |
+          python engines/discovery_expansion.py
+          python engines/public_source_discovery.py
+          python engine/locality_scoring.py
 
       - name: Commit snapshot
         run: |
           git config user.name "scie-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
+          git add docs/data.json docs/locality_assessment.json docs/public_discovery_report.json
           if git diff --cached --quiet; then echo "No snapshot changes"; exit 0; fi
           git commit -m "data: refresh discovery candidate pool"
           git pull --rebase origin main
