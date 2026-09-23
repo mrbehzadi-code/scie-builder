@@ -5,7 +5,7 @@
   "stats": {
     "web_records": 6,
     "people": 1000,
-    "academic_candidates": 659,
+    "academic_candidates": 658,
     "regional_evidence": 234,
     "sources": {
       "GitHub Discovery": 60,
@@ -16,6 +16,7 @@
       "پایگاه‌های رسمی و سازمانی": 3,
       "کانال‌ها و گروه‌های عمومی تلگرام": 172
     },
+    "public_source_records": 626,
     "social_public_records": 161
   },
   "people": [
