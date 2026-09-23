@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-09-23",
-  "candidate_count": 493,
+  "candidate_count": 495,
   "metrics": {
-    "openalex_skipped": 304,
-    "openalex_cached_enriched": 7,
-    "github_enriched": 61,
+    "openalex_skipped": 307,
     "unsupported_or_missing_id": 121,
+    "openalex_cached_enriched": 7,
+    "github_enriched": 60,
     "errors": 0,
-    "enriched_total": 68,
-    "skipped_total": 425
+    "enriched_total": 67,
+    "skipped_total": 428
   },
   "failures": {},
   "profiles": [
@@ -74,6 +74,13 @@
     },
     {
       "candidate_index": 6,
+      "name": "Abolfazl Aboutalebi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 7,
       "name": "Abolfazl Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -83,7 +90,7 @@
       }
     },
     {
-      "candidate_index": 7,
+      "candidate_index": 8,
       "name": "Abouei Ardakan Mostafa",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -93,7 +100,7 @@
       }
     },
     {
-      "candidate_index": 8,
+      "candidate_index": 9,
       "name": "Aboyee Ardakan Mohammad",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -103,7 +110,7 @@
       }
     },
     {
-      "candidate_index": 9,
+      "candidate_index": 10,
       "name": "Adel Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -113,7 +120,7 @@
       }
     },
     {
-      "candidate_index": 10,
+      "candidate_index": 11,
       "name": "Ahmad Fatahi Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -123,7 +130,7 @@
       }
     },
     {
-      "candidate_index": 11,
+      "candidate_index": 12,
       "name": "Ahmad Haerian-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -133,7 +140,21 @@
       }
     },
     {
-      "candidate_index": 12,
+      "candidate_index": 13,
+      "name": "Ahmad Nouri",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 14,
+      "name": "Ahmadreza Hakimi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 15,
       "name": "Ahoo Malekafzali Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -143,7 +164,7 @@
       }
     },
     {
-      "candidate_index": 13,
+      "candidate_index": 16,
       "name": "Akbar Beiki‐Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -153,7 +174,7 @@
       }
     },
     {
-      "candidate_index": 14,
+      "candidate_index": 17,
       "name": "Akbar Beiki‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -163,7 +184,7 @@
       }
     },
     {
-      "candidate_index": 15,
+      "candidate_index": 18,
       "name": "Akhtar Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -173,7 +194,7 @@
       }
     },
     {
-      "candidate_index": 16,
+      "candidate_index": 19,
       "name": "Ali Abbasian Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -183,7 +204,7 @@
       }
     },
     {
-      "candidate_index": 17,
+      "candidate_index": 20,
       "name": "Ali Afzali-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -193,38 +214,8 @@
       }
     },
     {
-      "candidate_index": 18,
-      "name": "Ali Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 19,
-      "name": "Ali Ghanei Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 20,
-      "name": "Ali Jahanbani Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
       "candidate_index": 21,
-      "name": "Ali Reza Mokhtari Ardakan",
+      "name": "Ali Falahi-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -234,7 +225,7 @@
     },
     {
       "candidate_index": 22,
-      "name": "Ali Sarkargar Ardakani",
+      "name": "Ali Ghanei Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -244,7 +235,7 @@
     },
     {
       "candidate_index": 23,
-      "name": "Alireza Ardakani",
+      "name": "Ali Jahanbani Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -254,17 +245,14 @@
     },
     {
       "candidate_index": 24,
-      "name": "Alireza Hekmat Ardakan",
-      "provider": "OpenAlex",
+      "name": "Ali Parsaeian",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 25,
-      "name": "Alireza Hekmat‐Ardakan",
+      "name": "Ali Reza Mokhtari Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -274,7 +262,7 @@
     },
     {
       "candidate_index": 26,
-      "name": "Alireza Khodaei Ardakan",
+      "name": "Ali Sarkargar Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -284,17 +272,14 @@
     },
     {
       "candidate_index": 27,
-      "name": "Amir Adabi Ardakani",
-      "provider": "OpenAlex",
+      "name": "Ali Tavakoli",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 28,
-      "name": "Arash Ardakani",
+      "name": "Alireza Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -304,7 +289,7 @@
     },
     {
       "candidate_index": 29,
-      "name": "Azra Mohammad Panah Ardakan",
+      "name": "Alireza Hekmat Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -314,7 +299,7 @@
     },
     {
       "candidate_index": 30,
-      "name": "Azra Mohammadpanah Ardakan",
+      "name": "Alireza Hekmat‐Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -324,7 +309,7 @@
     },
     {
       "candidate_index": 31,
-      "name": "Azra Mohammadpanah-Ardakan",
+      "name": "Alireza Khodaei Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -334,17 +319,14 @@
     },
     {
       "candidate_index": 32,
-      "name": "Azra Mohammahpanah Ardakan",
-      "provider": "OpenAlex",
+      "name": "Amin Tavakkoli",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 33,
-      "name": "B Ardakani Abedi",
+      "name": "Amir Adabi Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -354,27 +336,21 @@
     },
     {
       "candidate_index": 34,
-      "name": "Davood Andalib Ardakani",
-      "provider": "OpenAlex",
+      "name": "Amir Shahabizad",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 35,
-      "name": "E Ardakani",
-      "provider": "OpenAlex",
+      "name": "Amirali Rahimi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 36,
-      "name": "E Mirabzadeh Ardakan",
+      "name": "Arash Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -384,17 +360,14 @@
     },
     {
       "candidate_index": 37,
-      "name": "Ebrahim Kamali Ardakani",
-      "provider": "OpenAlex",
+      "name": "Azam Jafari",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 38,
-      "name": "Emad M. Ardakani",
+      "name": "Azra Mohammad Panah Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -404,7 +377,7 @@
     },
     {
       "candidate_index": 39,
-      "name": "Ezoddini Ardakan",
+      "name": "Azra Mohammadpanah Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -414,7 +387,7 @@
     },
     {
       "candidate_index": 40,
-      "name": "Fateme Fattahi Ardakani",
+      "name": "Azra Mohammadpanah-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -424,7 +397,7 @@
     },
     {
       "candidate_index": 41,
-      "name": "Fatemeh Behjati Ardakan",
+      "name": "Azra Mohammahpanah Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -434,7 +407,7 @@
     },
     {
       "candidate_index": 42,
-      "name": "Fatemeh Behjati Ardakani",
+      "name": "B Ardakani Abedi",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -444,17 +417,14 @@
     },
     {
       "candidate_index": 43,
-      "name": "Fatemeh Ezoddini Ardakani",
-      "provider": "OpenAlex",
+      "name": "Bashir Amiri",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 44,
-      "name": "Fatemeh Ezoddini-Ardakani",
+      "name": "Davood Andalib Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -464,17 +434,14 @@
     },
     {
       "candidate_index": 45,
-      "name": "Fatemeh Jahanbani Ardakani",
-      "provider": "OpenAlex",
+      "name": "Davood Shojaaddiny Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 46,
-      "name": "Fatemeh Mokhtari ardakan",
+      "name": "E Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -484,6 +451,130 @@
     },
     {
       "candidate_index": 47,
+      "name": "E Mirabzadeh Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 48,
+      "name": "Ebrahim Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 49,
+      "name": "Emad M. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 50,
+      "name": "Ezoddini Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 51,
+      "name": "Farshad Sayadi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 52,
+      "name": "Fateme Fattahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 53,
+      "name": "Fatemeh Behjati Ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 54,
+      "name": "Fatemeh Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 55,
+      "name": "Fatemeh Ezoddini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 56,
+      "name": "Fatemeh Ezoddini-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 57,
+      "name": "Fatemeh Jahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 58,
+      "name": "Fatemeh Khodaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 59,
+      "name": "Fatemeh Mokhtari ardakan",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 60,
       "name": "Hamed Davari‐Ardakani",
       "provider": "OpenAlex",
       "status": "enriched",
@@ -505,7 +596,7 @@
       }
     },
     {
-      "candidate_index": 48,
+      "candidate_index": 61,
       "name": "Hamid Alemi Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -515,7 +606,21 @@
       }
     },
     {
-      "candidate_index": 49,
+      "candidate_index": 62,
+      "name": "Hamid Dehghani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 63,
+      "name": "Hamidreza Bana Bafrouei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 64,
       "name": "Hamidreza Jahanbani‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -525,7 +630,14 @@
       }
     },
     {
-      "candidate_index": 50,
+      "candidate_index": 65,
+      "name": "Hamidreza Mohtashami Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 66,
       "name": "Hasan Mansouri‐Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -535,7 +647,7 @@
       }
     },
     {
-      "candidate_index": 51,
+      "candidate_index": 67,
       "name": "Hasan Mohiti Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -545,7 +657,7 @@
       }
     },
     {
-      "candidate_index": 52,
+      "candidate_index": 68,
       "name": "Hassan-Ali Vahedian-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -555,7 +667,7 @@
       }
     },
     {
-      "candidate_index": 53,
+      "candidate_index": 69,
       "name": "Hassanali Vahedian-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -565,7 +677,17 @@
       }
     },
     {
-      "candidate_index": 54,
+      "candidate_index": 70,
+      "name": "Hassanali Vahedian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 71,
       "name": "Hasti Asayesh-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -575,7 +697,7 @@
       }
     },
     {
-      "candidate_index": 55,
+      "candidate_index": 72,
       "name": "Hasti Asayesh‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -585,7 +707,7 @@
       }
     },
     {
-      "candidate_index": 56,
+      "candidate_index": 73,
       "name": "Hesam Anvari Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -595,7 +717,7 @@
       }
     },
     {
-      "candidate_index": 57,
+      "candidate_index": 74,
       "name": "Hesamoddin Razi-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -605,7 +727,14 @@
       }
     },
     {
-      "candidate_index": 58,
+      "candidate_index": 75,
+      "name": "Hojat Karimian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 76,
       "name": "Hossein Anaraki‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -615,7 +744,7 @@
       }
     },
     {
-      "candidate_index": 59,
+      "candidate_index": 77,
       "name": "Hossein Davari Ardakani",
       "provider": "OpenAlex",
       "status": "enriched",
@@ -638,7 +767,14 @@
       }
     },
     {
-      "candidate_index": 60,
+      "candidate_index": 78,
+      "name": "Hossein Dehkhodaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 79,
       "name": "Hossein Malekafzali Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -648,7 +784,14 @@
       }
     },
     {
-      "candidate_index": 61,
+      "candidate_index": 80,
+      "name": "Hossein Saadat",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 81,
       "name": "Hossein Talepour Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -658,7 +801,21 @@
       }
     },
     {
-      "candidate_index": 62,
+      "candidate_index": 82,
+      "name": "Hossein Vosoughi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 83,
+      "name": "Jalal Mahmoudzadeh",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 84,
       "name": "Kazem Majdzadeh‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -668,7 +825,14 @@
       }
     },
     {
-      "candidate_index": 63,
+      "candidate_index": 85,
+      "name": "Keyvan Kakoolaki",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 86,
       "name": "Kimya Hassani‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -678,7 +842,14 @@
       }
     },
     {
-      "candidate_index": 64,
+      "candidate_index": 87,
+      "name": "Komeyl Afkhami",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 88,
       "name": "Leili Shaker Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -688,7 +859,7 @@
       }
     },
     {
-      "candidate_index": 65,
+      "candidate_index": 89,
       "name": "M Abouei Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -698,7 +869,7 @@
       }
     },
     {
-      "candidate_index": 66,
+      "candidate_index": 90,
       "name": "M. Alemi-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -708,7 +879,7 @@
       }
     },
     {
-      "candidate_index": 67,
+      "candidate_index": 91,
       "name": "M. Mahdi Ghazaei Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -718,7 +889,7 @@
       }
     },
     {
-      "candidate_index": 68,
+      "candidate_index": 92,
       "name": "M. S. Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -728,7 +899,7 @@
       }
     },
     {
-      "candidate_index": 69,
+      "candidate_index": 93,
       "name": "M.G. Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -738,7 +909,7 @@
       }
     },
     {
-      "candidate_index": 70,
+      "candidate_index": 94,
       "name": "Mahboobi Ardakan Peyman",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -748,7 +919,7 @@
       }
     },
     {
-      "candidate_index": 71,
+      "candidate_index": 95,
       "name": "Mahboobi-Ardakan Payman",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -758,7 +929,21 @@
       }
     },
     {
-      "candidate_index": 72,
+      "candidate_index": 96,
+      "name": "Mahdi Abolqasemi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 97,
+      "name": "Mahdi Ashtian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 98,
       "name": "Mahdi Ghanei Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -768,7 +953,7 @@
       }
     },
     {
-      "candidate_index": 73,
+      "candidate_index": 99,
       "name": "Mahdi Qane`i Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -778,7 +963,14 @@
       }
     },
     {
-      "candidate_index": 74,
+      "candidate_index": 100,
+      "name": "Mahdi Rezaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 101,
       "name": "Mahmoud Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -788,7 +980,7 @@
       }
     },
     {
-      "candidate_index": 75,
+      "candidate_index": 102,
       "name": "Malek Afzali Ardakan Hossein",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -798,7 +990,7 @@
       }
     },
     {
-      "candidate_index": 76,
+      "candidate_index": 103,
       "name": "Mansoor Dashti Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -808,278 +1000,8 @@
       }
     },
     {
-      "candidate_index": 77,
-      "name": "Maria Tavakoli‐Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 78,
-      "name": "Maryam Haghighi Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 79,
-      "name": "Maryam Tajali Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 80,
-      "name": "Masoud Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 81,
-      "name": "Mehdi B. Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 82,
-      "name": "Mehdi Hatefi Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 83,
-      "name": "Mehran Mirabzadeh Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 84,
-      "name": "Mohammad Aboei Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 85,
-      "name": "Mohammad Abooye Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 86,
-      "name": "Mohammad Abooyee Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 87,
-      "name": "Mohammad Aboyee Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 88,
-      "name": "Mohammad Abuei Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 89,
-      "name": "Mohammad Afkhami Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 90,
-      "name": "Mohammad Ali Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 91,
-      "name": "Mohammad Ali Hakimzadeh Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 92,
-      "name": "Mohammad Fotouhi Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 93,
-      "name": "Mohammad Javad Ehsani Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 94,
-      "name": "Mohammad Karimizadeh Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 95,
-      "name": "Mohammad Mazloum‐Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 96,
-      "name": "Mohammad Mehdi Mokhtari Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 97,
-      "name": "Mohammad meysam Salahi ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 98,
-      "name": "Mohammad Raza Khodaie Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 99,
-      "name": "Mohammad Reza Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 100,
-      "name": "Mohammad Reza Khodaei-Ardakan",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 101,
-      "name": "Mohammad Reza Khodaie Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 102,
-      "name": "Mohammad Reza Talebi Ardakani",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 103,
-      "name": "Mohammad Roayaei Ardakani‬",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
       "candidate_index": 104,
-      "name": "Mohammad-Javad Ehsani-Ardakani",
+      "name": "Maria Tavakoli Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1089,7 +1011,7 @@
     },
     {
       "candidate_index": 105,
-      "name": "Mohammadpanah Ardakan Azra",
+      "name": "Maria Tavakoli‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1099,7 +1021,7 @@
     },
     {
       "candidate_index": 106,
-      "name": "Mohammadreza Shams‐Ardakani",
+      "name": "Maryam Haghighi Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1109,7 +1031,7 @@
     },
     {
       "candidate_index": 107,
-      "name": "Mohammadreza Talebi Ardakani",
+      "name": "Maryam Tajali Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1119,17 +1041,14 @@
     },
     {
       "candidate_index": 108,
-      "name": "Mohiti Ardakan Mohammad Ali",
-      "provider": "OpenAlex",
+      "name": "Masih Hosseinzadeh",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 109,
-      "name": "Mohsen Barzegari Ardakan",
+      "name": "Masoud Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1139,17 +1058,14 @@
     },
     {
       "candidate_index": 110,
-      "name": "Mojtaba Sahraee Ardakan",
-      "provider": "OpenAlex",
+      "name": "Masoud Moradi",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 111,
-      "name": "Mojtaba Sahraee-Ardakan",
+      "name": "Mehdi B. Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1159,7 +1075,7 @@
     },
     {
       "candidate_index": 112,
-      "name": "Mojtaba Yassini-Ardakani",
+      "name": "Mehdi Hatefi Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1169,7 +1085,7 @@
     },
     {
       "candidate_index": 113,
-      "name": "Morteza Shaker Ardakani",
+      "name": "Mehran Mirabzadeh Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1179,17 +1095,14 @@
     },
     {
       "candidate_index": 114,
-      "name": "Mostafa Abouei Ardakan",
-      "provider": "OpenAlex",
+      "name": "Moein Mahboub",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 115,
-      "name": "Mostafa Behjati‐Ardakani",
+      "name": "Mohammad Aboei Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1199,7 +1112,7 @@
     },
     {
       "candidate_index": 116,
-      "name": "Mostafa K. Ardakani",
+      "name": "Mohammad Abooye Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1209,7 +1122,7 @@
     },
     {
       "candidate_index": 117,
-      "name": "Mostafa Mokhtari Ardakan",
+      "name": "Mohammad Abooyee Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1219,7 +1132,7 @@
     },
     {
       "candidate_index": 118,
-      "name": "Mostafa Sahraei‐Ardakani",
+      "name": "Mohammad Aboyee Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1229,7 +1142,7 @@
     },
     {
       "candidate_index": 119,
-      "name": "Muhammad Ali Ardakan",
+      "name": "Mohammad Abuei Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1239,7 +1152,7 @@
     },
     {
       "candidate_index": 120,
-      "name": "Nasser Fotouhi‐Ardakani",
+      "name": "Mohammad Afkhami Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1249,7 +1162,7 @@
     },
     {
       "candidate_index": 121,
-      "name": "Nima Mesbah Ardakani",
+      "name": "Mohammad Alemi-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1259,7 +1172,7 @@
     },
     {
       "candidate_index": 122,
-      "name": "NN Ardakan",
+      "name": "Mohammad Ali Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1269,7 +1182,7 @@
     },
     {
       "candidate_index": 123,
-      "name": "Nooshin Gholhovallahi Ardakan",
+      "name": "Mohammad Ali Hakimzadeh Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1279,17 +1192,14 @@
     },
     {
       "candidate_index": 124,
-      "name": "Omid H. Ardakani",
-      "provider": "OpenAlex",
+      "name": "Mohammad Ebrahimzadeh Ardakani",
+      "provider": "پایگاه‌های رسمی و سازمانی",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 125,
-      "name": "Omid M. Ardakani",
+      "name": "Mohammad Javad Ehsani Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1299,7 +1209,7 @@
     },
     {
       "candidate_index": 126,
-      "name": "Payman Mahboobi Ardakan",
+      "name": "Mohammad Karimizadeh Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1309,7 +1219,7 @@
     },
     {
       "candidate_index": 127,
-      "name": "Payman Mahboobi-Ardakan",
+      "name": "Mohammad Mazloum‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1319,7 +1229,7 @@
     },
     {
       "candidate_index": 128,
-      "name": "Pourdehghan Ardakan Mostafa",
+      "name": "Mohammad Mehdi Mokhtari Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1329,7 +1239,7 @@
     },
     {
       "candidate_index": 129,
-      "name": "Pouya Khodaie Ardakan",
+      "name": "Mohammad meysam Salahi ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1339,7 +1249,7 @@
     },
     {
       "candidate_index": 130,
-      "name": "Razieh Jamaati Ardakani",
+      "name": "Mohammad Raza Khodaie Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1349,7 +1259,7 @@
     },
     {
       "candidate_index": 131,
-      "name": "Reza Behjatmanesh-Ardakan",
+      "name": "Mohammad Reza Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1359,27 +1269,21 @@
     },
     {
       "candidate_index": 132,
-      "name": "Reza Behjatmanesh‐Ardakani",
-      "provider": "OpenAlex",
+      "name": "Mohammad Reza Behjati",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 133,
-      "name": "Reza Fotouhi-Ardakani",
-      "provider": "OpenAlex",
+      "name": "Mohammad Reza Dinovi",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 134,
-      "name": "Saeed Hatefi Ardakani",
+      "name": "Mohammad Reza Khodaei-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1389,7 +1293,7 @@
     },
     {
       "candidate_index": 135,
-      "name": "Saeid Pourroostaei Ardakani",
+      "name": "Mohammad Reza Khodaie Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1399,17 +1303,14 @@
     },
     {
       "candidate_index": 136,
-      "name": "Samira Salek‐Ardakani",
-      "provider": "OpenAlex",
+      "name": "Mohammad Reza Shams Ardekani",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 137,
-      "name": "Seyed Ali Yasini Ardakani",
+      "name": "Mohammad Reza Talebi Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1419,7 +1320,7 @@
     },
     {
       "candidate_index": 138,
-      "name": "Seyed Sina Moeini-Ardakani",
+      "name": "Mohammad Roayaei Ardakani‬",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1429,7 +1330,7 @@
     },
     {
       "candidate_index": 139,
-      "name": "Shabnam Raayai-Ardakani",
+      "name": "Mohammad-Javad Ehsani-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1439,7 +1340,7 @@
     },
     {
       "candidate_index": 140,
-      "name": "Shahram Salek-Ardakan",
+      "name": "Mohammadpanah Ardakan Azra",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1449,17 +1350,14 @@
     },
     {
       "candidate_index": 141,
-      "name": "Shahram Salek‐Ardakani",
-      "provider": "OpenAlex",
+      "name": "Mohammadreza Dehestani",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 142,
-      "name": "Shahrzad Jooya Ardakani",
+      "name": "Mohammadreza Shams‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1469,7 +1367,7 @@
     },
     {
       "candidate_index": 143,
-      "name": "Shiva Ardakani",
+      "name": "Mohammadreza Talebi Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1479,7 +1377,7 @@
     },
     {
       "candidate_index": 144,
-      "name": "Sina Moeini Ardakani",
+      "name": "Mohiti Ardakan Mohammad Ali",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1489,7 +1387,7 @@
     },
     {
       "candidate_index": 145,
-      "name": "Soheil Sobhanardakani",
+      "name": "Mohsen Barzegari Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1499,17 +1397,14 @@
     },
     {
       "candidate_index": 146,
-      "name": "Somayah شاکر اردکانی",
-      "provider": "OpenAlex",
+      "name": "Mojtaba Majdian Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 147,
-      "name": "Taghavi Ardakan M",
+      "name": "Mojtaba Sahraee-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1519,7 +1414,7 @@
     },
     {
       "candidate_index": 148,
-      "name": "Tahereh Azimpour-Ardakan",
+      "name": "Mojtaba Yassini-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1529,7 +1424,7 @@
     },
     {
       "candidate_index": 149,
-      "name": "Yalda H. Ardakani",
+      "name": "Morteza Shaker Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1539,17 +1434,14 @@
     },
     {
       "candidate_index": 150,
-      "name": "Yaser Masoumi‐Ardakani",
-      "provider": "OpenAlex",
+      "name": "Mostafa Abouei Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 151,
-      "name": "Z Behjati Ardakani",
+      "name": "Mostafa Behjati‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1559,17 +1451,14 @@
     },
     {
       "candidate_index": 152,
-      "name": "Zahra Ardakani",
-      "provider": "OpenAlex",
+      "name": "Mostafa Jalali",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 153,
-      "name": "Zahra Jafari-Ardakan",
+      "name": "Mostafa K. Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1579,7 +1468,7 @@
     },
     {
       "candidate_index": 154,
-      "name": "؛ محیطی اردکانی، جواد",
+      "name": "Mostafa Mokhtari Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1589,7 +1478,7 @@
     },
     {
       "candidate_index": 155,
-      "name": "احسان اردکانی",
+      "name": "Mostafa Sahraei‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1599,7 +1488,7 @@
     },
     {
       "candidate_index": 156,
-      "name": "احسان امیری اردکانی",
+      "name": "Muhammad Ali Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1609,7 +1498,7 @@
     },
     {
       "candidate_index": 157,
-      "name": "احسان فتاحی اردکانی",
+      "name": "Nasser Fotouhi‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1619,7 +1508,7 @@
     },
     {
       "candidate_index": 158,
-      "name": "احسان کردی اردکانی کردی اردکانی",
+      "name": "Nima Mesbah Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1629,7 +1518,7 @@
     },
     {
       "candidate_index": 159,
-      "name": "احمد اردکانی فتاحی",
+      "name": "NN Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1639,7 +1528,7 @@
     },
     {
       "candidate_index": 160,
-      "name": "احمد شاکر اردکان",
+      "name": "Omid H. Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1649,7 +1538,7 @@
     },
     {
       "candidate_index": 161,
-      "name": "احمد شاکر اردکانی",
+      "name": "Omid Haeri Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1659,7 +1548,7 @@
     },
     {
       "candidate_index": 162,
-      "name": "احمد فتاحی اردکانی",
+      "name": "Omid M. Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1669,7 +1558,7 @@
     },
     {
       "candidate_index": 163,
-      "name": "احمدرضا حبیبی اردکانی",
+      "name": "Payman Mahboobi Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1679,7 +1568,7 @@
     },
     {
       "candidate_index": 164,
-      "name": "اردکانی اردکانی",
+      "name": "Payman Mahboobi-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1689,7 +1578,7 @@
     },
     {
       "candidate_index": 165,
-      "name": "اردکانی محمدعلی",
+      "name": "Pourdehghan Ardakan Mostafa",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1699,7 +1588,7 @@
     },
     {
       "candidate_index": 166,
-      "name": "اردکانیMArdekani اردکانی",
+      "name": "Pouya Khodaie Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1709,7 +1598,7 @@
     },
     {
       "candidate_index": 167,
-      "name": "اسلامی اردکانی",
+      "name": "Razieh Jamaati Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1719,7 +1608,7 @@
     },
     {
       "candidate_index": 168,
-      "name": "اشرف حسینی اردکانی",
+      "name": "Reza Behjatmanesh-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1729,7 +1618,7 @@
     },
     {
       "candidate_index": 169,
-      "name": "اطهر تجلی اردکانی",
+      "name": "Reza Behjatmanesh‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1739,17 +1628,14 @@
     },
     {
       "candidate_index": 170,
-      "name": "الهام اردکانی",
-      "provider": "OpenAlex",
+      "name": "Reza Davari Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 171,
-      "name": "الهیار اردکانی",
+      "name": "Reza Fotouhi-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1759,27 +1645,21 @@
     },
     {
       "candidate_index": 172,
-      "name": "امید متقی اردکانی",
-      "provider": "OpenAlex",
+      "name": "Sadegh Shaker",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 173,
-      "name": "امیر محسن مختاری اردکان",
-      "provider": "OpenAlex",
+      "name": "Saeed Banazadeh",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 174,
-      "name": "امیرحسین هاتفی اردکانی",
+      "name": "Saeed Hatefi Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1789,7 +1669,7 @@
     },
     {
       "candidate_index": 175,
-      "name": "امیررضا اردکانی",
+      "name": "Saeid Pourroostaei Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1799,7 +1679,7 @@
     },
     {
       "candidate_index": 176,
-      "name": "جواد بیابانی اردکان",
+      "name": "Samira Salek‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1809,17 +1689,14 @@
     },
     {
       "candidate_index": 177,
-      "name": "جواد علیمحمدی اردکان",
-      "provider": "OpenAlex",
+      "name": "Seyed Ali Mahdizadeh",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 178,
-      "name": "حامد احمدی اردکانی",
+      "name": "Seyed Ali Yasini Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1829,17 +1706,14 @@
     },
     {
       "candidate_index": 179,
-      "name": "حامد داوری اردکانی",
-      "provider": "OpenAlex",
+      "name": "Seyed Mohammad Mirjafari",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 180,
-      "name": "حسن اسلامی اردکانی",
+      "name": "Seyed Sina Moeini-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1849,17 +1723,14 @@
     },
     {
       "candidate_index": 181,
-      "name": "حسن محیطی اردکان",
-      "provider": "OpenAlex",
+      "name": "Seyfaddin Shiri",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 182,
-      "name": "حسین اردکانی",
+      "name": "Shabnam Raayai-Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1869,7 +1740,7 @@
     },
     {
       "candidate_index": 183,
-      "name": "حسین حایریان اردکانی",
+      "name": "Shahram Salek-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1879,7 +1750,7 @@
     },
     {
       "candidate_index": 184,
-      "name": "حسین ملکافضلی اردکانی",
+      "name": "Shahram Salek‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1889,7 +1760,7 @@
     },
     {
       "candidate_index": 185,
-      "name": "حمید اردکانی",
+      "name": "Shahrzad Jooya Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1899,17 +1770,14 @@
     },
     {
       "candidate_index": 186,
-      "name": "حمیده افخمی اردکانی",
-      "provider": "OpenAlex",
+      "name": "Shakiba Sharifi",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 187,
-      "name": "داود عندلیب اردکانی",
+      "name": "Shiva Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1919,17 +1787,14 @@
     },
     {
       "candidate_index": 188,
-      "name": "رضا داوری اردکانی",
-      "provider": "OpenAlex",
+      "name": "Sina Khabir",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 189,
-      "name": "رضا راستی اردکانی",
+      "name": "Sina Moeini Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1939,7 +1804,7 @@
     },
     {
       "candidate_index": 190,
-      "name": "رضا فتوحی اردکانی",
+      "name": "Soheil Sobhanardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1949,17 +1814,14 @@
     },
     {
       "candidate_index": 191,
-      "name": "رضا پوردهقان اردکان",
-      "provider": "OpenAlex",
+      "name": "Soheila Amin Sadrabadi",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 192,
-      "name": "زهرا اردکانی",
+      "name": "Somayah شاکر اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1969,7 +1831,7 @@
     },
     {
       "candidate_index": 193,
-      "name": "زهرا جمشیدی اردکانی",
+      "name": "Taghavi Ardakan M",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1979,7 +1841,7 @@
     },
     {
       "candidate_index": 194,
-      "name": "زهرا پورآقایی اردکانی",
+      "name": "Tahereh Azimpour-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -1989,17 +1851,14 @@
     },
     {
       "candidate_index": 195,
-      "name": "سبحان اردکانی",
-      "provider": "OpenAlex",
+      "name": "Yadollah Morovati",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 196,
-      "name": "سرافراز اردکانی",
+      "name": "Yalda H. Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2009,7 +1868,7 @@
     },
     {
       "candidate_index": 197,
-      "name": "سعید اردکان زاده یزدی",
+      "name": "Yalda Hosseinzadeh Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2019,7 +1878,7 @@
     },
     {
       "candidate_index": 198,
-      "name": "سعید اردکانی",
+      "name": "Yaser Masoumi‐Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2029,7 +1888,7 @@
     },
     {
       "candidate_index": 199,
-      "name": "سعید سعیدا اردکانی",
+      "name": "Z Behjati Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2039,17 +1898,14 @@
     },
     {
       "candidate_index": 200,
-      "name": "سعید پور روستایی اردکانی",
-      "provider": "OpenAlex",
+      "name": "Zahra Afkhami Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
+      "data": {}
     },
     {
       "candidate_index": 201,
-      "name": "سعید پورروستایی اردکانی",
+      "name": "Zahra Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2059,7 +1915,7 @@
     },
     {
       "candidate_index": 202,
-      "name": "سعیده انوری اردکانی",
+      "name": "Zahra Jafari-Ardakan",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2069,7 +1925,7 @@
     },
     {
       "candidate_index": 203,
-      "name": "سمانه انتظاریان اردکانی",
+      "name": "Zohreh Behjati Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2079,7 +1935,7 @@
     },
     {
       "candidate_index": 204,
-      "name": "سهیل سبحان اردکانی",
+      "name": "؛ محیطی اردکانی، جواد",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2089,7 +1945,7 @@
     },
     {
       "candidate_index": 205,
-      "name": "سید حسن هاشمی اردکانی",
+      "name": "احسان اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2099,7 +1955,7 @@
     },
     {
       "candidate_index": 206,
-      "name": "سید سعیدا اردکانی",
+      "name": "احسان امیری اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2109,7 +1965,7 @@
     },
     {
       "candidate_index": 207,
-      "name": "سید مجتبی یاسینی اردکانی",
+      "name": "احسان فتاحی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2119,7 +1975,7 @@
     },
     {
       "candidate_index": 208,
-      "name": "سیدمجتبی یاسینی اردکانی",
+      "name": "احسان کردی اردکانی کردی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2129,7 +1985,7 @@
     },
     {
       "candidate_index": 209,
-      "name": "شایسته قرایی اردکانی",
+      "name": "احمد اردکانی فتاحی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2139,7 +1995,7 @@
     },
     {
       "candidate_index": 210,
-      "name": "ضرغام اردکانی",
+      "name": "احمد شاکر اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2149,7 +2005,7 @@
     },
     {
       "candidate_index": 211,
-      "name": "طاهره اردکانی",
+      "name": "احمد شاکر اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2159,7 +2015,7 @@
     },
     {
       "candidate_index": 212,
-      "name": "عاطفه ترابی اردکانی",
+      "name": "احمد فتاحی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2169,7 +2025,7 @@
     },
     {
       "candidate_index": 213,
-      "name": "عباس صلاحی اردکانی",
+      "name": "احمدرضا حبیبی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2179,7 +2035,7 @@
     },
     {
       "candidate_index": 214,
-      "name": "عباس پایدار اردکانی",
+      "name": "اردکانی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2189,7 +2045,7 @@
     },
     {
       "candidate_index": 215,
-      "name": "عباس گلناری اردکانی",
+      "name": "اردکانی محمدعلی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2199,7 +2055,7 @@
     },
     {
       "candidate_index": 216,
-      "name": "عذرا محمد پناه اردکان",
+      "name": "اردکانیMArdekani اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2209,7 +2065,7 @@
     },
     {
       "candidate_index": 217,
-      "name": "عذرا محمدپناه اردکان",
+      "name": "اسلامی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2219,7 +2075,7 @@
     },
     {
       "candidate_index": 218,
-      "name": "عزیز الله اردکانی",
+      "name": "اشرف حسینی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2229,7 +2085,7 @@
     },
     {
       "candidate_index": 219,
-      "name": "علی اردکانی",
+      "name": "اطهر تجلی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2239,7 +2095,7 @@
     },
     {
       "candidate_index": 220,
-      "name": "علی جعفری اردکانی",
+      "name": "الهام اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2249,7 +2105,7 @@
     },
     {
       "candidate_index": 221,
-      "name": "علی صلاحی اردکانی",
+      "name": "الهیار اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2259,7 +2115,7 @@
     },
     {
       "candidate_index": 222,
-      "name": "علی ضالحی اردکانی",
+      "name": "امید متقی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2269,7 +2125,7 @@
     },
     {
       "candidate_index": 223,
-      "name": "علی فیروزی اردکان",
+      "name": "امیر محسن مختاری اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2279,7 +2135,7 @@
     },
     {
       "candidate_index": 224,
-      "name": "علی قانعی اردکان",
+      "name": "امیرحسین هاتفی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2289,7 +2145,7 @@
     },
     {
       "candidate_index": 225,
-      "name": "علی متولی زاده اردکانی",
+      "name": "امیررضا اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2299,7 +2155,7 @@
     },
     {
       "candidate_index": 226,
-      "name": "علی مقیمی اردکانی",
+      "name": "جواد بیابانی اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2309,7 +2165,7 @@
     },
     {
       "candidate_index": 227,
-      "name": "علیرضا اردکانی",
+      "name": "جواد علیمحمدی اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2319,7 +2175,7 @@
     },
     {
       "candidate_index": 228,
-      "name": "فائزه پورحسینی اردکانی",
+      "name": "حامد احمدی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2329,7 +2185,7 @@
     },
     {
       "candidate_index": 229,
-      "name": "فاطمه بحجتی اردکان",
+      "name": "حامد داوری اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2339,7 +2195,7 @@
     },
     {
       "candidate_index": 230,
-      "name": "فاطمه صادقی اردکانی",
+      "name": "حسن اسلامی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2349,7 +2205,7 @@
     },
     {
       "candidate_index": 231,
-      "name": "فتاحی اردکانی",
+      "name": "حسن محیطی اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2359,7 +2215,7 @@
     },
     {
       "candidate_index": 232,
-      "name": "قاضی اردکانی",
+      "name": "حسین اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2369,7 +2225,7 @@
     },
     {
       "candidate_index": 233,
-      "name": "محسن صحرایی اردکانی",
+      "name": "حسین حایریان اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2379,7 +2235,7 @@
     },
     {
       "candidate_index": 234,
-      "name": "محسن فتاحی اردکانی",
+      "name": "حسین ملکافضلی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2389,7 +2245,7 @@
     },
     {
       "candidate_index": 235,
-      "name": "محمد ابویى اردکان",
+      "name": "حمید اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2399,7 +2255,7 @@
     },
     {
       "candidate_index": 236,
-      "name": "محمد ابویی اردکان",
+      "name": "حمیده افخمی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2409,7 +2265,7 @@
     },
     {
       "candidate_index": 237,
-      "name": "محمد ایوبی اردکان",
+      "name": "داود عندلیب اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2419,7 +2275,7 @@
     },
     {
       "candidate_index": 238,
-      "name": "محمد جواد احسانی اردکانی",
+      "name": "رضا داوری اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2429,7 +2285,7 @@
     },
     {
       "candidate_index": 239,
-      "name": "محمد رضا اردکانی",
+      "name": "رضا راستی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2439,7 +2295,7 @@
     },
     {
       "candidate_index": 240,
-      "name": "محمد رعایایی اردکانی",
+      "name": "رضا فتوحی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2449,7 +2305,7 @@
     },
     {
       "candidate_index": 241,
-      "name": "محمد شاکر اردکانی",
+      "name": "رضا پوردهقان اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2459,7 +2315,7 @@
     },
     {
       "candidate_index": 242,
-      "name": "محمد عابدی اردکانی",
+      "name": "زهرا اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2469,7 +2325,7 @@
     },
     {
       "candidate_index": 243,
-      "name": "محمد علی محیطی اردکان",
+      "name": "زهرا جمشیدی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2479,7 +2335,7 @@
     },
     {
       "candidate_index": 244,
-      "name": "محمد مظلوم اردکانی",
+      "name": "زهرا پورآقایی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2489,7 +2345,7 @@
     },
     {
       "candidate_index": 245,
-      "name": "محمد مقیمی اردکانی",
+      "name": "سبحان اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2499,7 +2355,7 @@
     },
     {
       "candidate_index": 246,
-      "name": "محمد میثم صلاحی اردکانی",
+      "name": "سرافراز اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2509,7 +2365,7 @@
     },
     {
       "candidate_index": 247,
-      "name": "محمد کریمی زاده اردکانی",
+      "name": "سعید اردکان زاده یزدی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2519,7 +2375,7 @@
     },
     {
       "candidate_index": 248,
-      "name": "محمدجواد غاضی اردکانی",
+      "name": "سعید اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2529,7 +2385,7 @@
     },
     {
       "candidate_index": 249,
-      "name": "محمدرضا اردکانی",
+      "name": "سعید سعیدا اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2539,7 +2395,7 @@
     },
     {
       "candidate_index": 250,
-      "name": "محمدرضا افخمی اردکانی",
+      "name": "سعید پور روستایی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2549,7 +2405,7 @@
     },
     {
       "candidate_index": 251,
-      "name": "محمدعلی اردکانی",
+      "name": "سعید پورروستایی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2559,7 +2415,7 @@
     },
     {
       "candidate_index": 252,
-      "name": "محمدعلی حکیم زاده اردکانی",
+      "name": "سعیده انوری اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2569,7 +2425,7 @@
     },
     {
       "candidate_index": 253,
-      "name": "محمدعلی محیطی اردکان",
+      "name": "سمانه انتظاریان اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2579,7 +2435,7 @@
     },
     {
       "candidate_index": 254,
-      "name": "محمدمیثم صلاحی اردکانی",
+      "name": "سهیل سبحان اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2589,7 +2445,7 @@
     },
     {
       "candidate_index": 255,
-      "name": "محمود ابویی اردکان",
+      "name": "سید حسن هاشمی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2599,7 +2455,7 @@
     },
     {
       "candidate_index": 256,
-      "name": "محیطی اردکان",
+      "name": "سید سعیدا اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2609,7 +2465,7 @@
     },
     {
       "candidate_index": 257,
-      "name": "مریم اردکانی",
+      "name": "سید مجتبی یاسینی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2619,7 +2475,7 @@
     },
     {
       "candidate_index": 258,
-      "name": "مریم دهستانی اردکانی",
+      "name": "سیدمجتبی یاسینی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2629,7 +2485,7 @@
     },
     {
       "candidate_index": 259,
-      "name": "مریم دهستانی اردکانی دهستانی اردکانی",
+      "name": "شایسته قرایی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2639,7 +2495,7 @@
     },
     {
       "candidate_index": 260,
-      "name": "مصطفی ابویی اردکان",
+      "name": "ضرغام اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2649,7 +2505,7 @@
     },
     {
       "candidate_index": 261,
-      "name": "مصطفی قطب زاده اردکانی",
+      "name": "طاهره اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2659,7 +2515,7 @@
     },
     {
       "candidate_index": 262,
-      "name": "مصطفی مختاری اردکان",
+      "name": "عاطفه ترابی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2669,7 +2525,7 @@
     },
     {
       "candidate_index": 263,
-      "name": "مصطفی پوردهقان اردکان",
+      "name": "عباس صلاحی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2679,7 +2535,7 @@
     },
     {
       "candidate_index": 264,
-      "name": "معصومه اردکانی",
+      "name": "عباس پایدار اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2689,7 +2545,7 @@
     },
     {
       "candidate_index": 265,
-      "name": "مهدی افخمی اردکانی",
+      "name": "عباس گلناری اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2699,7 +2555,7 @@
     },
     {
       "candidate_index": 266,
-      "name": "مهدی راستی اردکانی",
+      "name": "عذرا محمد پناه اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2709,7 +2565,7 @@
     },
     {
       "candidate_index": 267,
-      "name": "مهدی قانعی اردکان",
+      "name": "عذرا محمدپناه اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2719,7 +2575,7 @@
     },
     {
       "candidate_index": 268,
-      "name": "مهدی ناظمی اردکانی مهدی ناظمی اردکانی",
+      "name": "عزیز الله اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2729,7 +2585,7 @@
     },
     {
       "candidate_index": 269,
-      "name": "مهناز مظلومی اردکانی",
+      "name": "علی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2739,7 +2595,7 @@
     },
     {
       "candidate_index": 270,
-      "name": "میترا اردکانی",
+      "name": "علی جعفری اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2749,7 +2605,7 @@
     },
     {
       "candidate_index": 271,
-      "name": "ندا اردکانی",
+      "name": "علی صلاحی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2759,7 +2615,7 @@
     },
     {
       "candidate_index": 272,
-      "name": "نگار داوری اردکانی",
+      "name": "علی ضالحی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2769,7 +2625,7 @@
     },
     {
       "candidate_index": 273,
-      "name": "ه اردکانی",
+      "name": "علی فیروزی اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2779,7 +2635,7 @@
     },
     {
       "candidate_index": 274,
-      "name": "هاشمی اردکانی",
+      "name": "علی قانعی اردکان",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2789,7 +2645,7 @@
     },
     {
       "candidate_index": 275,
-      "name": "پریسا اردکانی",
+      "name": "علی متولی زاده اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2799,7 +2655,7 @@
     },
     {
       "candidate_index": 276,
-      "name": "پیمان محبوبی اردکان",
+      "name": "علی مقیمی اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2809,7 +2665,7 @@
     },
     {
       "candidate_index": 277,
-      "name": "کمالی اردکانی",
+      "name": "علیرضا اردکانی",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {
@@ -2819,6 +2675,513 @@
     },
     {
       "candidate_index": 278,
+      "name": "فائزه پورحسینی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 279,
+      "name": "فاطمه بحجتی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 280,
+      "name": "فاطمه صادقی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 281,
+      "name": "فتاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 282,
+      "name": "قاضی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 283,
+      "name": "محسن صحرایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 284,
+      "name": "محسن فتاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 285,
+      "name": "محمد ابویى اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 286,
+      "name": "محمد ابویی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 287,
+      "name": "محمد ایوبی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 288,
+      "name": "محمد جواد احسانی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 289,
+      "name": "محمد رضا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 290,
+      "name": "محمد رعایایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 291,
+      "name": "محمد شاکر اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 292,
+      "name": "محمد عابدی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 293,
+      "name": "محمد علی محیطی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 294,
+      "name": "محمد مظلوم اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 295,
+      "name": "محمد مقیمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 296,
+      "name": "محمد میثم صلاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 297,
+      "name": "محمد کریمی زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 298,
+      "name": "محمدجواد غاضی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 299,
+      "name": "محمدرضا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 300,
+      "name": "محمدرضا افخمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 301,
+      "name": "محمدعلی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 302,
+      "name": "محمدعلی حکیم زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 303,
+      "name": "محمدعلی محیطی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 304,
+      "name": "محمدمیثم صلاحی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 305,
+      "name": "محمود ابویی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 306,
+      "name": "محیطی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 307,
+      "name": "مریم اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 308,
+      "name": "مریم دهستانی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 309,
+      "name": "مریم دهستانی اردکانی دهستانی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 310,
+      "name": "مصطفی ابویی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 311,
+      "name": "مصطفی قطب زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 312,
+      "name": "مصطفی مختاری اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 313,
+      "name": "مصطفی پوردهقان اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 314,
+      "name": "معصومه اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 315,
+      "name": "مهدی افخمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 316,
+      "name": "مهدی راستی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 317,
+      "name": "مهدی قانعی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 318,
+      "name": "مهدی ناظمی اردکانی مهدی ناظمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 319,
+      "name": "مهناز مظلومی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 320,
+      "name": "میترا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 321,
+      "name": "ندا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 322,
+      "name": "نگار داوری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 323,
+      "name": "ه اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 324,
+      "name": "هاشمی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 325,
+      "name": "پریسا اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 326,
+      "name": "پیمان محبوبی اردکان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 327,
+      "name": "کمالی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 328,
+      "name": "Abolfazl Azizian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 329,
       "name": "Abolfazl Kamali Ardakani",
       "provider": "GitHub",
       "status": "enriched",
@@ -2839,7 +3202,7 @@
       }
     },
     {
-      "candidate_index": 279,
+      "candidate_index": 330,
       "name": "AbolfazlKamaliArdakani",
       "provider": "GitHub",
       "status": "enriched",
@@ -2860,7 +3223,7 @@
       }
     },
     {
-      "candidate_index": 280,
+      "candidate_index": 331,
       "name": "AbolfazlKamalli",
       "provider": "GitHub",
       "status": "enriched",
@@ -2881,7 +3244,14 @@
       }
     },
     {
-      "candidate_index": 281,
+      "candidate_index": 332,
+      "name": "Aghkariz Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 333,
       "name": "Ahmad Mahboubi",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -2891,7 +3261,14 @@
       }
     },
     {
-      "candidate_index": 282,
+      "candidate_index": 334,
+      "name": "Ahmad Taqdari Ardakani",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 335,
       "name": "Ali",
       "provider": "GitHub",
       "status": "enriched",
@@ -2912,7 +3289,126 @@
       }
     },
     {
-      "candidate_index": 283,
+      "candidate_index": 336,
+      "name": "Ali Akbar Kamali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 337,
+      "name": "Ali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 338,
+      "name": "Ali Azemi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 339,
+      "name": "Ali Dehestani Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 340,
+      "name": "Ali Ebrahimzadeh Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 341,
+      "name": "Ali Fotouhi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 342,
+      "name": "Ali Ghotbzade Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 343,
+      "name": "Ali Kamali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 344,
+      "name": "Ali Khademalhosseini Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 345,
+      "name": "Ali Mahmoudi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 346,
+      "name": "Ali Molaee Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 347,
+      "name": "Ali Moteallehi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 348,
+      "name": "Ali Nabizadeh Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 349,
+      "name": "Ali Nazemi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 350,
+      "name": "Ali Pasha Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 351,
+      "name": "Ali Paydar Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 352,
+      "name": "Ali Reza Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 353,
       "name": "Ali Reza Kamali",
       "provider": "OpenAlex",
       "status": "enriched",
@@ -2969,7 +3465,21 @@
       }
     },
     {
-      "candidate_index": 284,
+      "candidate_index": 354,
+      "name": "Ali Shaker Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 355,
+      "name": "Ali Shakker Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 356,
       "name": "Alireza Dashti",
       "provider": "GitHub",
       "status": "enriched",
@@ -2990,7 +3500,7 @@
       }
     },
     {
-      "candidate_index": 285,
+      "candidate_index": 357,
       "name": "Alireza Haerian",
       "provider": "OpenAlex",
       "status": "enriched",
@@ -3014,7 +3524,14 @@
       }
     },
     {
-      "candidate_index": 286,
+      "candidate_index": 358,
+      "name": "Alireza Mehrabadi",
+      "provider": "پایگاه‌های رسمی و سازمانی",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 359,
       "name": "AmidArdakani",
       "provider": "GitHub",
       "status": "enriched",
@@ -3035,7 +3552,7 @@
       }
     },
     {
-      "candidate_index": 287,
+      "candidate_index": 360,
       "name": "AmirhArdakani",
       "provider": "GitHub",
       "status": "enriched",
@@ -3056,7 +3573,7 @@
       }
     },
     {
-      "candidate_index": 288,
+      "candidate_index": 361,
       "name": "Amirho3ein Roustaei",
       "provider": "GitHub",
       "status": "enriched",
@@ -3077,7 +3594,7 @@
       }
     },
     {
-      "candidate_index": 289,
+      "candidate_index": 362,
       "name": "amirhosein8127",
       "provider": "GitHub",
       "status": "enriched",
@@ -3098,7 +3615,7 @@
       }
     },
     {
-      "candidate_index": 290,
+      "candidate_index": 363,
       "name": "arashardakani",
       "provider": "GitHub",
       "status": "enriched",
@@ -3119,7 +3636,7 @@
       }
     },
     {
-      "candidate_index": 291,
+      "candidate_index": 364,
       "name": "arbit3rr",
       "provider": "GitHub",
       "status": "enriched",
@@ -3140,7 +3657,7 @@
       }
     },
     {
-      "candidate_index": 292,
+      "candidate_index": 365,
       "name": "ardakan",
       "provider": "GitHub",
       "status": "enriched",
@@ -3161,7 +3678,14 @@
       }
     },
     {
-      "candidate_index": 293,
+      "candidate_index": 366,
+      "name": "Ardakan Mehrnia",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 367,
       "name": "ardakan111",
       "provider": "GitHub",
       "status": "enriched",
@@ -3182,7 +3706,7 @@
       }
     },
     {
-      "candidate_index": 294,
+      "candidate_index": 368,
       "name": "ardakan12",
       "provider": "GitHub",
       "status": "enriched",
@@ -3203,7 +3727,7 @@
       }
     },
     {
-      "candidate_index": 295,
+      "candidate_index": 369,
       "name": "Ardakan125",
       "provider": "GitHub",
       "status": "enriched",
@@ -3224,7 +3748,7 @@
       }
     },
     {
-      "candidate_index": 296,
+      "candidate_index": 370,
       "name": "ardakan1717-star",
       "provider": "GitHub",
       "status": "enriched",
@@ -3245,7 +3769,7 @@
       }
     },
     {
-      "candidate_index": 297,
+      "candidate_index": 371,
       "name": "ardakan40-lab",
       "provider": "GitHub",
       "status": "enriched",
@@ -3266,7 +3790,7 @@
       }
     },
     {
-      "candidate_index": 298,
+      "candidate_index": 372,
       "name": "ardakananeva-sazorland",
       "provider": "GitHub",
       "status": "enriched",
@@ -3287,7 +3811,7 @@
       }
     },
     {
-      "candidate_index": 299,
+      "candidate_index": 373,
       "name": "ArdaKanat",
       "provider": "GitHub",
       "status": "enriched",
@@ -3308,7 +3832,7 @@
       }
     },
     {
-      "candidate_index": 300,
+      "candidate_index": 374,
       "name": "ardakanata",
       "provider": "GitHub",
       "status": "enriched",
@@ -3329,7 +3853,7 @@
       }
     },
     {
-      "candidate_index": 301,
+      "candidate_index": 375,
       "name": "ArdaKanbur",
       "provider": "GitHub",
       "status": "enriched",
@@ -3350,7 +3874,7 @@
       }
     },
     {
-      "candidate_index": 302,
+      "candidate_index": 376,
       "name": "ardakancan41-del",
       "provider": "GitHub",
       "status": "enriched",
@@ -3371,7 +3895,7 @@
       }
     },
     {
-      "candidate_index": 303,
+      "candidate_index": 377,
       "name": "ardakandemir",
       "provider": "GitHub",
       "status": "enriched",
@@ -3392,7 +3916,7 @@
       }
     },
     {
-      "candidate_index": 304,
+      "candidate_index": 378,
       "name": "ardakaner",
       "provider": "GitHub",
       "status": "enriched",
@@ -3413,7 +3937,7 @@
       }
     },
     {
-      "candidate_index": 305,
+      "candidate_index": 379,
       "name": "ardakani",
       "provider": "GitHub",
       "status": "enriched",
@@ -3434,7 +3958,7 @@
       }
     },
     {
-      "candidate_index": 306,
+      "candidate_index": 380,
       "name": "Ardakani1",
       "provider": "GitHub",
       "status": "enriched",
@@ -3455,7 +3979,7 @@
       }
     },
     {
-      "candidate_index": 307,
+      "candidate_index": 381,
       "name": "Ardakani79",
       "provider": "GitHub",
       "status": "enriched",
@@ -3476,7 +4000,7 @@
       }
     },
     {
-      "candidate_index": 308,
+      "candidate_index": 382,
       "name": "ardakaniahmadali-arch",
       "provider": "GitHub",
       "status": "enriched",
@@ -3497,7 +4021,7 @@
       }
     },
     {
-      "candidate_index": 309,
+      "candidate_index": 383,
       "name": "Ardakaniali",
       "provider": "GitHub",
       "status": "enriched",
@@ -3518,7 +4042,7 @@
       }
     },
     {
-      "candidate_index": 310,
+      "candidate_index": 384,
       "name": "ardakaniamirhossein1993",
       "provider": "GitHub",
       "status": "enriched",
@@ -3539,7 +4063,7 @@
       }
     },
     {
-      "candidate_index": 311,
+      "candidate_index": 385,
       "name": "ardakanian",
       "provider": "GitHub",
       "status": "enriched",
@@ -3560,7 +4084,7 @@
       }
     },
     {
-      "candidate_index": 312,
+      "candidate_index": 386,
       "name": "ardakanian-bidgely",
       "provider": "GitHub",
       "status": "enriched",
@@ -3581,7 +4105,7 @@
       }
     },
     {
-      "candidate_index": 313,
+      "candidate_index": 387,
       "name": "ardakanim",
       "provider": "GitHub",
       "status": "enriched",
@@ -3602,7 +4126,7 @@
       }
     },
     {
-      "candidate_index": 314,
+      "candidate_index": 388,
       "name": "ardakanim50-lab",
       "provider": "GitHub",
       "status": "enriched",
@@ -3623,7 +4147,7 @@
       }
     },
     {
-      "candidate_index": 315,
+      "candidate_index": 389,
       "name": "ardakanimd",
       "provider": "GitHub",
       "status": "enriched",
@@ -3644,7 +4168,7 @@
       }
     },
     {
-      "candidate_index": 316,
+      "candidate_index": 390,
       "name": "ArdaKANIPEK",
       "provider": "GitHub",
       "status": "enriched",
@@ -3665,7 +4189,7 @@
       }
     },
     {
-      "candidate_index": 317,
+      "candidate_index": 391,
       "name": "ardakanisaba",
       "provider": "GitHub",
       "status": "enriched",
@@ -3686,7 +4210,7 @@
       }
     },
     {
-      "candidate_index": 318,
+      "candidate_index": 392,
       "name": "Ardakaniz",
       "provider": "GitHub",
       "status": "enriched",
@@ -3707,7 +4231,7 @@
       }
     },
     {
-      "candidate_index": 319,
+      "candidate_index": 393,
       "name": "ArdaKanka07",
       "provider": "GitHub",
       "status": "enriched",
@@ -3728,7 +4252,7 @@
       }
     },
     {
-      "candidate_index": 320,
+      "candidate_index": 394,
       "name": "ardakankasra",
       "provider": "GitHub",
       "status": "enriched",
@@ -3749,7 +4273,7 @@
       }
     },
     {
-      "candidate_index": 321,
+      "candidate_index": 395,
       "name": "Ardakann",
       "provider": "GitHub",
       "status": "enriched",
@@ -3770,7 +4294,7 @@
       }
     },
     {
-      "candidate_index": 322,
+      "candidate_index": 396,
       "name": "ardakansu",
       "provider": "GitHub",
       "status": "enriched",
@@ -3791,7 +4315,7 @@
       }
     },
     {
-      "candidate_index": 323,
+      "candidate_index": 397,
       "name": "ardakantar",
       "provider": "GitHub",
       "status": "enriched",
@@ -3812,7 +4336,7 @@
       }
     },
     {
-      "candidate_index": 324,
+      "candidate_index": 398,
       "name": "ardakantarci",
       "provider": "GitHub",
       "status": "enriched",
@@ -3833,7 +4357,7 @@
       }
     },
     {
-      "candidate_index": 325,
+      "candidate_index": 399,
       "name": "ardakantes",
       "provider": "GitHub",
       "status": "enriched",
@@ -3854,7 +4378,7 @@
       }
     },
     {
-      "candidate_index": 326,
+      "candidate_index": 400,
       "name": "ardakantrci",
       "provider": "GitHub",
       "status": "enriched",
@@ -3875,7 +4399,7 @@
       }
     },
     {
-      "candidate_index": 327,
+      "candidate_index": 401,
       "name": "ardakanzi",
       "provider": "GitHub",
       "status": "enriched",
@@ -3896,7 +4420,21 @@
       }
     },
     {
-      "candidate_index": 328,
+      "candidate_index": 402,
+      "name": "Arian Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 403,
+      "name": "Artin Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 404,
       "name": "Behinsomnia9",
       "provider": "GitHub",
       "status": "enriched",
@@ -3917,7 +4455,14 @@
       }
     },
     {
-      "candidate_index": 329,
+      "candidate_index": 405,
+      "name": "Chufa Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 406,
       "name": "Darkshiira",
       "provider": "GitHub",
       "status": "enriched",
@@ -3938,7 +4483,7 @@
       }
     },
     {
-      "candidate_index": 330,
+      "candidate_index": 407,
       "name": "Davari Ardakani Hamed",
       "provider": "OpenAlex",
       "status": "enriched",
@@ -3958,7 +4503,7 @@
       }
     },
     {
-      "candidate_index": 331,
+      "candidate_index": 408,
       "name": "Esmat Mirabzadeh",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -3968,7 +4513,7 @@
       }
     },
     {
-      "candidate_index": 332,
+      "candidate_index": 409,
       "name": "farhaddashtia",
       "provider": "GitHub",
       "status": "enriched",
@@ -3989,7 +4534,14 @@
       }
     },
     {
-      "candidate_index": 333,
+      "candidate_index": 410,
+      "name": "Hadi Kargar",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 411,
       "name": "Hamed",
       "provider": "GitHub",
       "status": "enriched",
@@ -4010,7 +4562,7 @@
       }
     },
     {
-      "candidate_index": 334,
+      "candidate_index": 412,
       "name": "Hamed Davari Ardakani",
       "provider": "OpenAlex",
       "status": "enriched",
@@ -4030,7 +4582,14 @@
       }
     },
     {
-      "candidate_index": 335,
+      "candidate_index": 413,
+      "name": "Hamed Mokhtari",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 414,
       "name": "Hami-Hafezi",
       "provider": "GitHub",
       "status": "enriched",
@@ -4051,7 +4610,14 @@
       }
     },
     {
-      "candidate_index": 336,
+      "candidate_index": 415,
+      "name": "Hamid Nedafat Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 416,
       "name": "Hamid R. Zare",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -4061,7 +4627,52 @@
       }
     },
     {
-      "candidate_index": 337,
+      "candidate_index": 417,
+      "name": "Hamid Reza Zare",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 418,
+      "name": "Hassan Ali Vahedian Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 419,
+      "name": "Heidar Meftahizade",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 420,
+      "name": "Jamal Dehghani Ashkezari",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 421,
+      "name": "Javad Shaker Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 422,
+      "name": "Kaan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 423,
       "name": "koushkoush",
       "provider": "GitHub",
       "status": "enriched",
@@ -4082,7 +4693,21 @@
       }
     },
     {
-      "candidate_index": 338,
+      "candidate_index": 424,
+      "name": "Mahdi Qanei Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 425,
+      "name": "Mahmoud Hatefi Ardakani",
+      "provider": "پایگاه‌های رسمی و سازمانی",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 426,
       "name": "mahsamajd",
       "provider": "GitHub",
       "status": "enriched",
@@ -4103,7 +4728,7 @@
       }
     },
     {
-      "candidate_index": 339,
+      "candidate_index": 427,
       "name": "Masoud Hafezi",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -4113,7 +4738,21 @@
       }
     },
     {
-      "candidate_index": 340,
+      "candidate_index": 428,
+      "name": "Massumeh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 429,
+      "name": "Mohamad Ali Behjati Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 430,
       "name": "MohamadAli92",
       "provider": "GitHub",
       "status": "enriched",
@@ -4134,7 +4773,35 @@
       }
     },
     {
-      "candidate_index": 341,
+      "candidate_index": 431,
+      "name": "Mohammad Ali Ghotbzade Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 432,
+      "name": "Mohammad Fotouhi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 433,
+      "name": "Mohammad Mehdi Zarei Mahmoudabadi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 434,
+      "name": "Mohammad Reza Barzegar-Bafrooei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 435,
       "name": "Mohammad Reza Sobhan",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -4144,7 +4811,14 @@
       }
     },
     {
-      "candidate_index": 342,
+      "candidate_index": 436,
+      "name": "Mohammad Roghanian Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 437,
       "name": "mohammadnabia",
       "provider": "GitHub",
       "status": "enriched",
@@ -4165,7 +4839,42 @@
       }
     },
     {
-      "candidate_index": 343,
+      "candidate_index": 438,
+      "name": "Mohandes Heydari (Ardakan)",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 439,
+      "name": "Mohsen Talaei Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 440,
+      "name": "Mojri Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 441,
+      "name": "Mojtaba Esmaeili",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 442,
+      "name": "Mojtaba Sahraee Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 443,
       "name": "mojtabasah",
       "provider": "GitHub",
       "status": "enriched",
@@ -4186,7 +4895,7 @@
       }
     },
     {
-      "candidate_index": 344,
+      "candidate_index": 444,
       "name": "Negar Davari Ardakani",
       "provider": "OpenAlex",
       "status": "enriched",
@@ -4206,7 +4915,42 @@
       }
     },
     {
-      "candidate_index": 345,
+      "candidate_index": 445,
+      "name": "Negin Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 446,
+      "name": "Niayesh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 447,
+      "name": "Noah Toroghi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 448,
+      "name": "Nooshin Gholhovallahi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 449,
+      "name": "Parastoo Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 450,
       "name": "Parsa-Ardakani",
       "provider": "GitHub",
       "status": "enriched",
@@ -4227,7 +4971,7 @@
       }
     },
     {
-      "candidate_index": 346,
+      "candidate_index": 451,
       "name": "pedramardakani",
       "provider": "GitHub",
       "status": "enriched",
@@ -4248,7 +4992,112 @@
       }
     },
     {
-      "candidate_index": 347,
+      "candidate_index": 452,
+      "name": "Pegah Firoozi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 453,
+      "name": "Ramin Ahmadieh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 454,
+      "name": "Razieh Sheikhpour",
+      "provider": "دانشگاه‌های داخلی و خارجی",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 455,
+      "name": "Reza Ahmadieh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 456,
+      "name": "Robert Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 457,
+      "name": "Ryan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 458,
+      "name": "Sam Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 459,
+      "name": "Sedaye Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 460,
+      "name": "Seema Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 461,
+      "name": "Sepidan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 462,
+      "name": "Seyed Ali Hatafi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 463,
+      "name": "Seyed Hamid Reza Mirahmadi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 464,
+      "name": "Seyed Mojtaba Paydar Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 465,
+      "name": "Shaghayegh Masaeli",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 466,
+      "name": "Shiva Taghavi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 467,
       "name": "Soheila Khodakarim",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -4258,28 +5107,21 @@
       }
     },
     {
-      "candidate_index": 348,
-      "name": "Zahra Afkhami Ardakani",
-      "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Zahra121377",
-        "display_name": "Zahra Afkhami Ardakani",
-        "company": null,
-        "blog": null,
-        "location": "Iran, Yazd, Ardakan",
-        "bio": null,
-        "public_repos": 7,
-        "followers": 3,
-        "following": 2,
-        "created_at": "2023-05-22T14:56:26Z",
-        "updated_at": "2026-09-14T21:26:00Z",
-        "provider_url": "https://github.com/Zahra121377"
-      }
+      "candidate_index": 468,
+      "name": "Zahra Jafari_Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
     },
     {
-      "candidate_index": 349,
+      "candidate_index": 469,
+      "name": "Zahra Ranjbar",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 470,
       "name": "Zahra121377",
       "provider": "GitHub",
       "status": "enriched",
@@ -4300,7 +5142,14 @@
       }
     },
     {
-      "candidate_index": 350,
+      "candidate_index": 471,
+      "name": "Zehra Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 472,
       "name": "بهروز فرزان",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -4310,7 +5159,7 @@
       }
     },
     {
-      "candidate_index": 351,
+      "candidate_index": 473,
       "name": "ر. فرزان پی",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -4320,187 +5169,7 @@
       }
     },
     {
-      "candidate_index": 352,
-      "name": "علی فرزان",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 353,
-      "name": "فاطمه فرزان",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 354,
-      "name": "فرزام فرزان",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 355,
-      "name": "فرزان خطیب",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 356,
-      "name": "فرزان رشیدی",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 357,
-      "name": "فرزان فرزان",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 358,
-      "name": "فرزان قالیچی",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 359,
-      "name": "فرزان کیانارثی",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 360,
-      "name": "فرهاد فرزان",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 361,
-      "name": "مجید فرزان",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 362,
-      "name": "منصوره فرزان مهر",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 363,
-      "name": "نسرین فرزان",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 364,
-      "name": "محمدرضا بهزادی مقدم بهزادی مقدم",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 365,
-      "name": "محمدرضا بهزادی مقدم",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 366,
-      "name": "نرجس بهزادی مقدم",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 367,
-      "name": "مرجان بهزادی مقدم",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 368,
-      "name": "ملیحه بهزادی مقدم",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 369,
-      "name": "محمود فرزان",
-      "provider": "OpenAlex",
-      "status": "skipped",
-      "data": {
-        "provider": "OpenAlex",
-        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
-      }
-    },
-    {
-      "candidate_index": 370,
+      "candidate_index": 474,
       "name": "عبدالرضا فرزان",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -4510,7 +5179,7 @@
       }
     },
     {
-      "candidate_index": 371,
+      "candidate_index": 475,
       "name": "عبدالناصر فرزان",
       "provider": "OpenAlex",
       "status": "skipped",
@@ -4520,851 +5189,191 @@
       }
     },
     {
-      "candidate_index": 372,
-      "name": "Abolfazl Azizian",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 373,
-      "name": "Hadi Kargar",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 374,
-      "name": "Razieh Sheikhpour",
-      "provider": "دانشگاه‌های داخلی و خارجی",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 375,
-      "name": "Seyed Mojtaba Paydar Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 376,
-      "name": "Heidar Meftahizade",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 377,
-      "name": "Mohammad Reza Barzegar-Bafrooei",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 378,
-      "name": "Jamal Dehghani Ashkezari",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 379,
-      "name": "Mohammad Fotouhi Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 380,
-      "name": "Mohammad Reza Shams Ardekani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 381,
-      "name": "Reza Davari Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 382,
-      "name": "Mostafa Abouei Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 383,
-      "name": "Mohammad Mehdi Zarei Mahmoudabadi",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 384,
-      "name": "Hamidreza Bana Bafrouei",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 385,
-      "name": "Mohammad Ebrahimzadeh Ardakani",
-      "provider": "پایگاه‌های رسمی و سازمانی",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 386,
-      "name": "Mojtaba Sahraee Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 387,
-      "name": "Parastoo Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 388,
-      "name": "Nooshin Gholhovallahi Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 389,
-      "name": "Shiva Taghavi Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 390,
-      "name": "Negin Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 391,
-      "name": "Arian Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 392,
-      "name": "Seema Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 393,
-      "name": "Artin Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 394,
-      "name": "Zehra Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 395,
-      "name": "Ramin Ahmadieh Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 396,
-      "name": "Sepidan Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 397,
-      "name": "Zahra Ranjbar",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 398,
-      "name": "Massumeh Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 399,
-      "name": "Niayesh Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 400,
-      "name": "Mojri Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 401,
-      "name": "Shaghayegh Masaeli",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 402,
-      "name": "Aghkariz Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 403,
-      "name": "Sedaye Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 404,
-      "name": "Chufa Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 405,
-      "name": "Robert Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 406,
-      "name": "Ryan Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 407,
-      "name": "Mahdi Qanei Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 408,
-      "name": "Kaan Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 409,
-      "name": "Mohammad Roghanian Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 410,
-      "name": "Sam Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 411,
-      "name": "Javad Shaker Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 412,
-      "name": "Mohandes Heydari (Ardakan)",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 413,
-      "name": "Pegah Firoozi Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 414,
-      "name": "Hamed Mokhtari",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 415,
-      "name": "Zahra Jafari_Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 416,
-      "name": "Noah Toroghi Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 417,
-      "name": "Reza Ahmadieh Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 418,
-      "name": "Seyed Hamid Reza Mirahmadi Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 419,
-      "name": "Ali Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 420,
-      "name": "Ali Nazemi Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 421,
-      "name": "Hassan Ali Vahedian Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 422,
-      "name": "Ali Paydar Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 423,
-      "name": "Ali Molaee Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 424,
-      "name": "Ali Pasha Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 425,
-      "name": "Ali Nabizadeh Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 426,
-      "name": "Ali Kamali Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 427,
-      "name": "Ali Dehestani Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 428,
-      "name": "Ali Shakker Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 429,
-      "name": "Ali Fotouhi Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 430,
-      "name": "Ali Moteallehi Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 431,
-      "name": "Ali Akbar Kamali Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 432,
+      "candidate_index": 476,
       "name": "علی شاکر اردکانی",
       "provider": "وب عمومی و رسانه‌ها",
       "status": "skipped",
       "data": {}
     },
     {
-      "candidate_index": 433,
-      "name": "Ali Ebrahimzadeh Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 434,
-      "name": "Ali Shaker Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 435,
-      "name": "Ali Azemi Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 436,
-      "name": "Ali Khademalhosseini Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 437,
-      "name": "Ali Ghotbzade Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 438,
-      "name": "Mohammad Ali Ghotbzade Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 439,
-      "name": "Mohamad Ali Behjati Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 440,
-      "name": "Ali Reza Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 441,
-      "name": "Ali Mahmoudi Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 442,
-      "name": "Seyed Ali Hatafi Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 443,
-      "name": "Keyvan Kakoolaki",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 444,
-      "name": "Hamidreza Mohtashami Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 445,
-      "name": "Bashir Amiri",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 446,
-      "name": "Azam Jafari",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 447,
-      "name": "Zahra Afkhami Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 448,
-      "name": "Mohammadreza Dehestani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 449,
-      "name": "Ahmadreza Hakimi",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 450,
-      "name": "Mahdi Ashtian",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 451,
-      "name": "Amir Shahabizad",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 452,
-      "name": "Masih Hosseinzadeh",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 453,
-      "name": "Masoud Moradi",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 454,
-      "name": "Seyfaddin Shiri",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 455,
-      "name": "Mahdi Abolqasemi",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 456,
-      "name": "Hojat Karimian",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 457,
-      "name": "Ali Parsaeian",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 458,
-      "name": "Jalal Mahmoudzadeh",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 459,
-      "name": "Hamid Dehghani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 460,
-      "name": "Hossein Dehkhodaei",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 461,
-      "name": "Fatemeh Khodaei",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 462,
-      "name": "Ahmad Nouri",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 463,
-      "name": "Komeyl Afkhami",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 464,
-      "name": "Mojtaba Majdian Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 465,
-      "name": "Ali Tavakoli",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 466,
-      "name": "Moein Mahboub",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 467,
-      "name": "Mahdi Rezaei",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 468,
-      "name": "Mostafa Jalali",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 469,
-      "name": "Amin Tavakkoli",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 470,
-      "name": "Soheila Amin Sadrabadi",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 471,
-      "name": "Shakiba Sharifi",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 472,
-      "name": "Farshad Sayadi",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 473,
-      "name": "Davood Shojaaddiny Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 474,
-      "name": "Ahmad Taqdari Ardakani",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 475,
-      "name": "Alireza Mehrabadi",
-      "provider": "پایگاه‌های رسمی و سازمانی",
-      "status": "skipped",
-      "data": {}
-    },
-    {
-      "candidate_index": 476,
-      "name": "Mojtaba Esmaeili",
-      "provider": "وب عمومی و رسانه‌ها",
-      "status": "skipped",
-      "data": {}
-    },
-    {
       "candidate_index": 477,
-      "name": "Mahmoud Hatefi Ardakani",
-      "provider": "پایگاه‌های رسمی و سازمانی",
+      "name": "علی فرزان",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 478,
-      "name": "Hossein Saadat",
-      "provider": "وب عمومی و رسانه‌ها",
+      "name": "فاطمه فرزان",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 479,
-      "name": "Mohammad Reza Dinovi",
-      "provider": "وب عمومی و رسانه‌ها",
+      "name": "فرزام فرزان",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 480,
-      "name": "Hamid Nedafat Ardakan",
-      "provider": "وب عمومی و رسانه‌ها",
+      "name": "فرزان خطیب",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 481,
-      "name": "Ardakan Mehrnia",
-      "provider": "وب عمومی و رسانه‌ها",
+      "name": "فرزان رشیدی",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 482,
-      "name": "Mohsen Talaei Ardakani",
-      "provider": "وب عمومی و رسانه‌ها",
+      "name": "فرزان فرزان",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 483,
-      "name": "Yadollah Morovati",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "فرزان قالیچی",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 484,
-      "name": "Hossein Vosoughi",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "فرزان کیانارثی",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 485,
-      "name": "Abolfazl Aboutalebi",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "فرهاد فرزان",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 486,
-      "name": "Seyed Mohammad Mirjafari",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "مجید فرزان",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 487,
-      "name": "Amirali Rahimi",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "محمدرضا بهزادی مقدم",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 488,
-      "name": "Mohammad Reza Behjati",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "محمدرضا بهزادی مقدم بهزادی مقدم",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 489,
-      "name": "Seyed Ali Mahdizadeh",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "محمود فرزان",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 490,
-      "name": "Sina Khabir",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "مرجان بهزادی مقدم",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 491,
-      "name": "Sadegh Shaker",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "ملیحه بهزادی مقدم",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     },
     {
       "candidate_index": 492,
-      "name": "Saeed Banazadeh",
-      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "name": "منصوره فرزان مهر",
+      "provider": "OpenAlex",
       "status": "skipped",
-      "data": {}
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 493,
+      "name": "نرجس بهزادی مقدم",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 494,
+      "name": "نسرین فرزان",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     }
   ],
   "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."

@@ -6,7 +6,7 @@
     "records_collapsed": 10,
     "same_person_pairs_applied": 10,
     "multi_record_entities": 10,
-    "entities_with_external_data": 67
+    "entities_with_external_data": 65
   },
   "candidate_to_entity": {
     "0": "scie-entity-00001",
@@ -1884,7 +1884,7 @@
         47
       ],
       "record_count": 1,
-      "primary_name": "Hamed Davari‐Ardakani",
+      "primary_name": "E Mirabzadeh Ardakan",
       "aliases": [
         "E Mirabzadeh Ardakan"
       ],
@@ -1895,10 +1895,7 @@
         "https://openalex.org/A5067296905"
       ],
       "organizations": [
-        "Pasteur Institute of Iran",
-        "Amirkabir University of Technology",
-        "Kharazmi University",
-        "Bridge University"
+        "Pasteur Institute of Iran"
       ],
       "locations": [],
       "identifiers": {
@@ -1906,11 +1903,9 @@
           "A5067296905"
         ],
         "github_usernames": [],
-        "orcids": [
-          "https://orcid.org/0000-0003-1731-6901"
-        ]
+        "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -2251,7 +2246,7 @@
         59
       ],
       "record_count": 1,
-      "primary_name": "Hossein Davari Ardakani",
+      "primary_name": "Fatemeh Mokhtari ardakan",
       "aliases": [
         "Fatemeh Mokhtari ardakan"
       ],
@@ -2262,11 +2257,7 @@
         "https://openalex.org/A5060857774"
       ],
       "organizations": [
-        "Islamic Azad University, Marvdasht",
-        "Amirkabir University of Technology",
-        "Intelligent Systems Research (United States)",
-        "Dynamic Systems (United States)",
-        "University of Cincinnati"
+        "Islamic Azad University, Marvdasht"
       ],
       "locations": [],
       "identifiers": {
@@ -2274,11 +2265,9 @@
           "A5060857774"
         ],
         "github_usernames": [],
-        "orcids": [
-          "https://orcid.org/0000-0002-5329-1468"
-        ]
+        "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -2299,7 +2288,9 @@
         "https://openalex.org/A5071604207"
       ],
       "organizations": [
-        "Kharazmi University"
+        "Kharazmi University",
+        "Amirkabir University of Technology",
+        "Bridge University"
       ],
       "locations": [],
       "identifiers": {
@@ -2307,9 +2298,11 @@
           "A5071604207"
         ],
         "github_usernames": [],
-        "orcids": []
+        "orcids": [
+          "https://orcid.org/0000-0003-1731-6901"
+        ]
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -2781,7 +2774,10 @@
         "https://openalex.org/A5057234979"
       ],
       "organizations": [
-        "University of Cincinnati"
+        "University of Cincinnati",
+        "Amirkabir University of Technology",
+        "Intelligent Systems Research (United States)",
+        "Dynamic Systems (United States)"
       ],
       "locations": [],
       "identifiers": {
@@ -2789,9 +2785,11 @@
           "A5057234979"
         ],
         "github_usernames": [],
-        "orcids": []
+        "orcids": [
+          "https://orcid.org/0000-0002-5329-1468"
+        ]
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8586,7 +8584,7 @@
         278
       ],
       "record_count": 1,
-      "primary_name": "Abolfazl Kamali Ardakani",
+      "primary_name": "فائزه پورحسینی اردکانی",
       "aliases": [
         "فائزه پورحسینی اردکانی"
       ],
@@ -8599,9 +8597,7 @@
       "organizations": [
         "International Society of Automation"
       ],
-      "locations": [
-        "Ardakan, Yazd, Iran"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5022154409"
@@ -8609,7 +8605,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8619,7 +8615,7 @@
         279
       ],
       "record_count": 1,
-      "primary_name": "Abolfazl Kamali Ardakani",
+      "primary_name": "فاطمه بحجتی اردکان",
       "aliases": [
         "فاطمه بحجتی اردکان"
       ],
@@ -8632,9 +8628,7 @@
       "organizations": [
         "International Society of Automation"
       ],
-      "locations": [
-        "Ardakan, Yazd, Iran"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5081760371"
@@ -8642,7 +8636,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8652,7 +8646,7 @@
         280
       ],
       "record_count": 1,
-      "primary_name": "Abolfazl Kamali Ardakani",
+      "primary_name": "فاطمه صادقی اردکانی",
       "aliases": [
         "فاطمه صادقی اردکانی"
       ],
@@ -8663,9 +8657,7 @@
         "https://openalex.org/A5053214971"
       ],
       "organizations": [],
-      "locations": [
-        "Iran, Yazd"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5053214971"
@@ -8673,7 +8665,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8712,7 +8704,7 @@
         282
       ],
       "record_count": 1,
-      "primary_name": "Ali",
+      "primary_name": "قاضی اردکانی",
       "aliases": [
         "قاضی اردکانی"
       ],
@@ -8723,9 +8715,7 @@
         "https://openalex.org/A5079608513"
       ],
       "organizations": [],
-      "locations": [
-        "Islamic republic of Iran, Yazd, Ardakan"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5079608513"
@@ -8733,7 +8723,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8743,7 +8733,7 @@
         283
       ],
       "record_count": 1,
-      "primary_name": "Ali Reza Kamali",
+      "primary_name": "محسن صحرایی اردکانی",
       "aliases": [
         "محسن صحرایی اردکانی"
       ],
@@ -8753,57 +8743,16 @@
       "source_urls": [
         "https://openalex.org/A5017786624"
       ],
-      "organizations": [
-        "Yazd University",
-        "Isfahan University of Medical Sciences",
-        "Cadi Ayyad University",
-        "University of Jiroft",
-        "University of Leeds",
-        "Arak University of Medical Sciences",
-        "Amirkabir University of Technology",
-        "Isfahan University of Technology",
-        "University of Tehran",
-        "University of Cambridge",
-        "Kandilli Observatory and Earthquake Research Institute",
-        "Barbican Centre",
-        "Ministry of Education",
-        "Jahrom University of Medical Sciences",
-        "Laboratoire de Chimie Physique",
-        "Materials and Energy Research Center",
-        "Institute of Metallurgy and Materials Science",
-        "State Council of the People's Republic of China",
-        "Human Computer Interaction (Switzerland)",
-        "National Water Research Center",
-        "University of Chemical Technology and Metallurgy",
-        "Institute of Metallurgy",
-        "Environmental Energy & Engineering",
-        "Islamic Azad University, Damghan Branch",
-        "Shenyang University",
-        "Boğaziçi University",
-        "Shahid Beheshti University of Medical Sciences",
-        "University of Aveiro",
-        "Missouri Western State University",
-        "Iran University of Science and Technology",
-        "Babol University of Medical Sciences",
-        "Malek Ashtar University of Technology",
-        "Beijing Information Science & Technology University",
-        "K.N.Toosi University of Technology",
-        "University of Delaware",
-        "Universidad del Noreste",
-        "Northeastern University",
-        "Islamic Azad University, Bojnourd Branch"
-      ],
+      "organizations": [],
       "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5017786624"
         ],
         "github_usernames": [],
-        "orcids": [
-          "https://orcid.org/0000-0002-2849-8547"
-        ]
+        "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8813,7 +8762,7 @@
         284
       ],
       "record_count": 1,
-      "primary_name": "Alireza Dashti",
+      "primary_name": "محسن فتاحی اردکانی",
       "aliases": [
         "محسن فتاحی اردکانی"
       ],
@@ -8823,12 +8772,8 @@
       "source_urls": [
         "https://openalex.org/A5015850408"
       ],
-      "organizations": [
-        "EEFA CERAM CO"
-      ],
-      "locations": [
-        "Ardakan (Yazd)"
-      ],
+      "organizations": [],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5015850408"
@@ -8836,7 +8781,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8846,7 +8791,7 @@
         285
       ],
       "record_count": 1,
-      "primary_name": "Alireza Haerian",
+      "primary_name": "محمد ابویى اردکان",
       "aliases": [
         "محمد ابویى اردکان"
       ],
@@ -8856,24 +8801,16 @@
       "source_urls": [
         "https://openalex.org/A5057283816"
       ],
-      "organizations": [
-        "Isfahan University of Medical Sciences",
-        "University of British Columbia",
-        "Shahid Sadoughi University of Medical Sciences and Health Services",
-        "Danesh-e-Tandorosti Iranian Institute of Higher Health",
-        "Newcastle Dental Hospital"
-      ],
+      "organizations": [],
       "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5057283816"
         ],
         "github_usernames": [],
-        "orcids": [
-          "https://orcid.org/0000-0003-0086-9331"
-        ]
+        "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8883,7 +8820,7 @@
         286
       ],
       "record_count": 1,
-      "primary_name": "Amid Ardakani",
+      "primary_name": "محمد ابویی اردکان",
       "aliases": [
         "محمد ابویی اردکان"
       ],
@@ -8893,9 +8830,7 @@
       "source_urls": [
         "https://openalex.org/A5078027488"
       ],
-      "organizations": [
-        "FSU"
-      ],
+      "organizations": [],
       "locations": [],
       "identifiers": {
         "openalex_ids": [
@@ -8904,7 +8839,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8914,7 +8849,7 @@
         287
       ],
       "record_count": 1,
-      "primary_name": "Amir Ardakani",
+      "primary_name": "محمد ایوبی اردکان",
       "aliases": [
         "محمد ایوبی اردکان"
       ],
@@ -8925,9 +8860,7 @@
         "https://openalex.org/A5053206853"
       ],
       "organizations": [],
-      "locations": [
-        "Iran | Shahroud"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5053206853"
@@ -8935,7 +8868,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8945,7 +8878,7 @@
         288
       ],
       "record_count": 1,
-      "primary_name": "Amirho3ein Roustaei",
+      "primary_name": "محمد جواد احسانی اردکانی",
       "aliases": [
         "محمد جواد احسانی اردکانی"
       ],
@@ -8956,12 +8889,9 @@
         "https://openalex.org/A5048323557"
       ],
       "organizations": [
-        "International Society of Automation",
-        "Technoosite"
+        "International Society of Automation"
       ],
-      "locations": [
-        "Iran, Yazd, Ardakan"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5048323557"
@@ -8969,7 +8899,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -8979,7 +8909,7 @@
         289
       ],
       "record_count": 1,
-      "primary_name": "amir hosein ardakani",
+      "primary_name": "محمد رضا اردکانی",
       "aliases": [
         "محمد رضا اردکانی"
       ],
@@ -8992,9 +8922,7 @@
       "organizations": [
         "Islamic Azad University, Karaj"
       ],
-      "locations": [
-        "tehran"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5037268864"
@@ -9002,7 +8930,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9012,7 +8940,7 @@
         290
       ],
       "record_count": 1,
-      "primary_name": "Arash Ardakani",
+      "primary_name": "محمد رعایایی اردکانی",
       "aliases": [
         "محمد رعایایی اردکانی"
       ],
@@ -9033,7 +8961,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9043,7 +8971,7 @@
         291
       ],
       "record_count": 1,
-      "primary_name": "Amirhossein Heydarian Ardakani",
+      "primary_name": "محمد شاکر اردکانی",
       "aliases": [
         "محمد شاکر اردکانی"
       ],
@@ -9064,7 +8992,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9095,7 +9023,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9124,7 +9052,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9153,7 +9081,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9182,7 +9110,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9213,7 +9141,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9244,7 +9172,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9273,7 +9201,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9302,7 +9230,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9331,7 +9259,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9341,7 +9269,7 @@
         301
       ],
       "record_count": 1,
-      "primary_name": "AKR",
+      "primary_name": "محمدعلی اردکانی",
       "aliases": [
         "محمدعلی اردکانی"
       ],
@@ -9351,9 +9279,7 @@
       "source_urls": [
         "https://openalex.org/A5027882823"
       ],
-      "organizations": [
-        "Bigrise Technologies"
-      ],
+      "organizations": [],
       "locations": [],
       "identifiers": {
         "openalex_ids": [
@@ -9362,7 +9288,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9393,7 +9319,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9403,7 +9329,7 @@
         303
       ],
       "record_count": 1,
-      "primary_name": "Arda Kandemir",
+      "primary_name": "محمدعلی محیطی اردکان",
       "aliases": [
         "محمدعلی محیطی اردکان"
       ],
@@ -9422,7 +9348,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9432,7 +9358,7 @@
         304
       ],
       "record_count": 1,
-      "primary_name": "Arda",
+      "primary_name": "محمدمیثم صلاحی اردکانی",
       "aliases": [
         "محمدمیثم صلاحی اردکانی"
       ],
@@ -9453,7 +9379,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9463,7 +9389,7 @@
         305
       ],
       "record_count": 1,
-      "primary_name": "Behzad Ardakani",
+      "primary_name": "محمود ابویی اردکان",
       "aliases": [
         "محمود ابویی اردکان"
       ],
@@ -9473,12 +9399,8 @@
       "source_urls": [
         "https://openalex.org/A5058862937"
       ],
-      "organizations": [
-        "Skillmatic AB"
-      ],
-      "locations": [
-        "Västerås"
-      ],
+      "organizations": [],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5058862937"
@@ -9486,7 +9408,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9496,7 +9418,7 @@
         306
       ],
       "record_count": 1,
-      "primary_name": "Ardakani",
+      "primary_name": "محیطی اردکان",
       "aliases": [
         "محیطی اردکان"
       ],
@@ -9515,7 +9437,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9525,7 +9447,7 @@
         307
       ],
       "record_count": 1,
-      "primary_name": "Mohammad Hossein Shaker Ardakani",
+      "primary_name": "مریم اردکانی",
       "aliases": [
         "مریم اردکانی"
       ],
@@ -9536,9 +9458,7 @@
         "https://openalex.org/A5059066129"
       ],
       "organizations": [],
-      "locations": [
-        "Isfahan-Iran"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5059066129"
@@ -9546,7 +9466,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9577,7 +9497,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9587,7 +9507,7 @@
         309
       ],
       "record_count": 1,
-      "primary_name": "Ali",
+      "primary_name": "مریم دهستانی اردکانی دهستانی اردکانی",
       "aliases": [
         "مریم دهستانی اردکانی دهستانی اردکانی"
       ],
@@ -9600,9 +9520,7 @@
       "organizations": [
         "Ardakan University"
       ],
-      "locations": [
-        "Islamic republic of Iran, Yazd, Ardakan"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5034916060"
@@ -9610,7 +9528,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9639,7 +9557,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9649,7 +9567,7 @@
         311
       ],
       "record_count": 1,
-      "primary_name": "Omid Ardakanian",
+      "primary_name": "مصطفی قطب زاده اردکانی",
       "aliases": [
         "مصطفی قطب زاده اردکانی"
       ],
@@ -9659,9 +9577,7 @@
       "source_urls": [
         "https://openalex.org/A5085256322"
       ],
-      "organizations": [
-        "University of Alberta @sustainable-computing "
-      ],
+      "organizations": [],
       "locations": [],
       "identifiers": {
         "openalex_ids": [
@@ -9670,7 +9586,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9699,7 +9615,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9728,7 +9644,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9757,7 +9673,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9786,7 +9702,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9815,7 +9731,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9825,7 +9741,7 @@
         317
       ],
       "record_count": 1,
-      "primary_name": "Saba Ardakani",
+      "primary_name": "مهدی قانعی اردکان",
       "aliases": [
         "مهدی قانعی اردکان"
       ],
@@ -9835,12 +9751,8 @@
       "source_urls": [
         "https://openalex.org/A5076733172"
       ],
-      "organizations": [
-        "Utah Sate University"
-      ],
-      "locations": [
-        "United States"
-      ],
+      "organizations": [],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5076733172"
@@ -9848,7 +9760,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9869,9 +9781,7 @@
         "https://openalex.org/A5082883056"
       ],
       "organizations": [],
-      "locations": [
-        "Orsay, France"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5082883056"
@@ -9879,7 +9789,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9908,7 +9818,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9918,7 +9828,7 @@
         320
       ],
       "record_count": 1,
-      "primary_name": "Kasra Ardakan",
+      "primary_name": "میترا اردکانی",
       "aliases": [
         "میترا اردکانی"
       ],
@@ -9937,7 +9847,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9966,7 +9876,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -9997,7 +9907,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10026,7 +9936,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10036,7 +9946,7 @@
         324
       ],
       "record_count": 1,
-      "primary_name": "Arda Kantarcı",
+      "primary_name": "هاشمی اردکانی",
       "aliases": [
         "هاشمی اردکانی"
       ],
@@ -10047,9 +9957,7 @@
         "https://openalex.org/A5038967777"
       ],
       "organizations": [],
-      "locations": [
-        "Turkey, İstanbul"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5038967777"
@@ -10057,7 +9965,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10086,7 +9994,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10096,7 +10004,7 @@
         326
       ],
       "record_count": 1,
-      "primary_name": "Arda Kantarcı",
+      "primary_name": "پیمان محبوبی اردکان",
       "aliases": [
         "پیمان محبوبی اردکان"
       ],
@@ -10107,9 +10015,7 @@
         "https://openalex.org/A5081073167"
       ],
       "organizations": [],
-      "locations": [
-        "Istanbul,Turkey"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5081073167"
@@ -10117,7 +10023,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10146,7 +10052,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10156,7 +10062,7 @@
         328
       ],
       "record_count": 1,
-      "primary_name": "Behrad Ardakani Khezrzadeh",
+      "primary_name": "Abolfazl Azizian",
       "aliases": [
         "Abolfazl Azizian"
       ],
@@ -10175,7 +10081,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10186,7 +10092,7 @@
         330
       ],
       "record_count": 2,
-      "primary_name": "Hanna ArefiArdakani",
+      "primary_name": "Abolfazl Kamali Ardakani",
       "aliases": [
         "Abolfazl Kamali Ardakani",
         "AbolfazlKamaliArdakani"
@@ -10197,9 +10103,7 @@
       "source_urls": [
         "https://github.com/AbolfazlKamaliArdakani"
       ],
-      "organizations": [
-        "Amirkabir University of Technology"
-      ],
+      "organizations": [],
       "locations": [
         "Ardakan, Yazd, Iran",
         "Ardakan signal"
@@ -10221,7 +10125,7 @@
         331
       ],
       "record_count": 1,
-      "primary_name": "AbolfazlKamalli",
+      "primary_name": "Abolfazl Kamali Ardakani",
       "aliases": [
         "AbolfazlKamalli"
       ],
@@ -10233,7 +10137,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Iran, Yazd"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -10242,7 +10147,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10252,7 +10157,7 @@
         332
       ],
       "record_count": 1,
-      "primary_name": "Farhad Dashti Ardakani",
+      "primary_name": "Aghkariz Ardakan",
       "aliases": [
         "Aghkariz Ardakan"
       ],
@@ -10263,15 +10168,13 @@
         "https://www.linkedin.com/pub/dir/%2B/Ardakan"
       ],
       "organizations": [],
-      "locations": [
-        "Vancouver, Canada"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [],
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10281,7 +10184,7 @@
         333
       ],
       "record_count": 1,
-      "primary_name": "Hamed",
+      "primary_name": "Ahmad Mahboubi",
       "aliases": [
         "Ahmad Mahboubi"
       ],
@@ -10294,9 +10197,7 @@
       "organizations": [
         "Shahid Beheshti University"
       ],
-      "locations": [
-        "iran/yazd/ardakan"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [
           "A5031687745"
@@ -10304,7 +10205,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10314,7 +10215,7 @@
         334
       ],
       "record_count": 1,
-      "primary_name": "Hamed Davari Ardakani",
+      "primary_name": "Ahmad Taqdari Ardakani",
       "aliases": [
         "Ahmad Taqdari Ardakani"
       ],
@@ -10324,9 +10225,7 @@
       "source_urls": [
         "https://t.me/s/chadormalupr/1528"
       ],
-      "organizations": [
-        "Kharazmi University"
-      ],
+      "organizations": [],
       "locations": [
         "Ardakan, Iran"
       ],
@@ -10335,7 +10234,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10346,7 +10245,7 @@
         383
       ],
       "record_count": 2,
-      "primary_name": "Hami Hafezi Ardakani",
+      "primary_name": "Ali",
       "aliases": [
         "Ali",
         "Ardakaniali"
@@ -10362,7 +10261,8 @@
       ],
       "locations": [
         "Iran, Yazd, Ardakan",
-        "Ardakan signal"
+        "Ardakan signal",
+        "Islamic republic of Iran, Yazd, Ardakan"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -10371,7 +10271,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 2,
       "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
       "human_review_required": false
     },
@@ -10408,7 +10308,7 @@
         337
       ],
       "record_count": 1,
-      "primary_name": "kousha ardakani",
+      "primary_name": "Ali Ardakani",
       "aliases": [
         "Ali Ardakani"
       ],
@@ -10425,7 +10325,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10435,7 +10335,7 @@
         338
       ],
       "record_count": 1,
-      "primary_name": "Mahsa Majdzadeh Ardakani",
+      "primary_name": "Ali Azemi Ardakani",
       "aliases": [
         "Ali Azemi Ardakani"
       ],
@@ -10452,7 +10352,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10489,7 +10389,7 @@
         340
       ],
       "record_count": 1,
-      "primary_name": "Mohammad Ali KazemiArdakani",
+      "primary_name": "Ali Ebrahimzadeh Ardakani",
       "aliases": [
         "Ali Ebrahimzadeh Ardakani"
       ],
@@ -10500,15 +10400,13 @@
         "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
       ],
       "organizations": [],
-      "locations": [
-        "Houston, Texas, USA"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [],
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10545,7 +10443,7 @@
         342
       ],
       "record_count": 1,
-      "primary_name": "Mohammad Nabizade Ardakani",
+      "primary_name": "Ali Ghotbzade Ardakani",
       "aliases": [
         "Ali Ghotbzade Ardakani"
       ],
@@ -10556,15 +10454,13 @@
         "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
       ],
       "organizations": [],
-      "locations": [
-        "Iran"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [],
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10574,7 +10470,7 @@
         343
       ],
       "record_count": 1,
-      "primary_name": "Mojtaba Sahraee-Ardakan",
+      "primary_name": "Ali Kamali Ardakani",
       "aliases": [
         "Ali Kamali Ardakani"
       ],
@@ -10591,7 +10487,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10601,7 +10497,7 @@
         344
       ],
       "record_count": 1,
-      "primary_name": "Negar Davari Ardakani",
+      "primary_name": "Ali Khademalhosseini Ardakani",
       "aliases": [
         "Ali Khademalhosseini Ardakani"
       ],
@@ -10611,18 +10507,14 @@
       "source_urls": [
         "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
       ],
-      "organizations": [
-        "Shahid Beheshti University"
-      ],
+      "organizations": [],
       "locations": [],
       "identifiers": {
         "openalex_ids": [],
         "github_usernames": [],
-        "orcids": [
-          "https://orcid.org/0000-0003-0863-7180"
-        ]
+        "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10632,7 +10524,7 @@
         345
       ],
       "record_count": 1,
-      "primary_name": "Parsa Alimohammadi Ardakani",
+      "primary_name": "Ali Mahmoudi Ardakani",
       "aliases": [
         "Ali Mahmoudi Ardakani"
       ],
@@ -10649,7 +10541,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10659,7 +10551,7 @@
         346
       ],
       "record_count": 1,
-      "primary_name": "Pedram Ashofteh-Ardakani",
+      "primary_name": "Ali Molaee Ardakani",
       "aliases": [
         "Ali Molaee Ardakani"
       ],
@@ -10676,7 +10568,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10713,7 +10605,7 @@
         348
       ],
       "record_count": 1,
-      "primary_name": "Zahra Afkhami Ardakani",
+      "primary_name": "Ali Nabizadeh Ardakani",
       "aliases": [
         "Ali Nabizadeh Ardakani"
       ],
@@ -10724,15 +10616,13 @@
         "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
       ],
       "organizations": [],
-      "locations": [
-        "Iran, Yazd, Ardakan"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [],
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10742,7 +10632,7 @@
         349
       ],
       "record_count": 1,
-      "primary_name": "Zahra Afkhami Ardakani",
+      "primary_name": "Ali Nazemi Ardakani",
       "aliases": [
         "Ali Nazemi Ardakani"
       ],
@@ -10753,15 +10643,13 @@
         "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
       ],
       "organizations": [],
-      "locations": [
-        "Iran, Yazd, Ardakan"
-      ],
+      "locations": [],
       "identifiers": {
         "openalex_ids": [],
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 1,
+      "external_enriched_records": 0,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10863,7 +10751,44 @@
         "https://openalex.org/A5087777101"
       ],
       "organizations": [
-        "University of Cambridge"
+        "University of Cambridge",
+        "Yazd University",
+        "Isfahan University of Medical Sciences",
+        "Cadi Ayyad University",
+        "University of Jiroft",
+        "University of Leeds",
+        "Arak University of Medical Sciences",
+        "Amirkabir University of Technology",
+        "Isfahan University of Technology",
+        "University of Tehran",
+        "Kandilli Observatory and Earthquake Research Institute",
+        "Barbican Centre",
+        "Ministry of Education",
+        "Jahrom University of Medical Sciences",
+        "Laboratoire de Chimie Physique",
+        "Materials and Energy Research Center",
+        "Institute of Metallurgy and Materials Science",
+        "State Council of the People's Republic of China",
+        "Human Computer Interaction (Switzerland)",
+        "National Water Research Center",
+        "University of Chemical Technology and Metallurgy",
+        "Institute of Metallurgy",
+        "Environmental Energy & Engineering",
+        "Islamic Azad University, Damghan Branch",
+        "Shenyang University",
+        "Boğaziçi University",
+        "Shahid Beheshti University of Medical Sciences",
+        "University of Aveiro",
+        "Missouri Western State University",
+        "Iran University of Science and Technology",
+        "Babol University of Medical Sciences",
+        "Malek Ashtar University of Technology",
+        "Beijing Information Science & Technology University",
+        "K.N.Toosi University of Technology",
+        "University of Delaware",
+        "Universidad del Noreste",
+        "Northeastern University",
+        "Islamic Azad University, Bojnourd Branch"
       ],
       "locations": [],
       "identifiers": {
@@ -10871,9 +10796,11 @@
           "A5087777101"
         ],
         "github_usernames": [],
-        "orcids": []
+        "orcids": [
+          "https://orcid.org/0000-0002-2849-8547"
+        ]
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10960,7 +10887,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -10981,7 +10908,11 @@
         "https://openalex.org/A5101988058"
       ],
       "organizations": [
-        "University of British Columbia"
+        "University of British Columbia",
+        "Isfahan University of Medical Sciences",
+        "Shahid Sadoughi University of Medical Sciences and Health Services",
+        "Danesh-e-Tandorosti Iranian Institute of Higher Health",
+        "Newcastle Dental Hospital"
       ],
       "locations": [],
       "identifiers": {
@@ -10989,9 +10920,11 @@
           "A5101988058"
         ],
         "github_usernames": [],
-        "orcids": []
+        "orcids": [
+          "https://orcid.org/0000-0003-0086-9331"
+        ]
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11030,7 +10963,7 @@
         359
       ],
       "record_count": 1,
-      "primary_name": "AmidArdakani",
+      "primary_name": "Amid Ardakani",
       "aliases": [
         "AmidArdakani"
       ],
@@ -11040,7 +10973,9 @@
       "source_urls": [
         "https://github.com/AmidArdakani"
       ],
-      "organizations": [],
+      "organizations": [
+        "FSU"
+      ],
       "locations": [
         "Ardakan signal"
       ],
@@ -11051,7 +10986,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11061,7 +10996,7 @@
         360
       ],
       "record_count": 1,
-      "primary_name": "AmirhArdakani",
+      "primary_name": "Amir Ardakani",
       "aliases": [
         "AmirhArdakani"
       ],
@@ -11073,7 +11008,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Iran | Shahroud"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -11082,7 +11018,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11103,7 +11039,8 @@
         "https://github.com/amirhoseinardakanei"
       ],
       "organizations": [
-        "Python · Django · Technoosite"
+        "Python · Django · Technoosite",
+        "Technoosite"
       ],
       "locations": [
         "Iran, Yazd, Ardakan"
@@ -11115,7 +11052,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11125,7 +11062,7 @@
         362
       ],
       "record_count": 1,
-      "primary_name": "amirhosein8127",
+      "primary_name": "amir hosein ardakani",
       "aliases": [
         "amirhosein8127"
       ],
@@ -11137,7 +11074,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "tehran"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -11146,7 +11084,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11156,7 +11094,7 @@
         363
       ],
       "record_count": 1,
-      "primary_name": "arashardakani",
+      "primary_name": "Arash Ardakani",
       "aliases": [
         "arashardakani"
       ],
@@ -11177,7 +11115,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11187,7 +11125,7 @@
         364
       ],
       "record_count": 1,
-      "primary_name": "arbit3rr",
+      "primary_name": "Amirhossein Heydarian Ardakani",
       "aliases": [
         "arbit3rr"
       ],
@@ -11208,7 +11146,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11239,7 +11177,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11299,7 +11237,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11330,7 +11268,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11361,7 +11299,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11392,7 +11330,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11423,7 +11361,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11454,7 +11392,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11485,7 +11423,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11516,7 +11454,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11526,7 +11464,7 @@
         375
       ],
       "record_count": 1,
-      "primary_name": "ArdaKanbur",
+      "primary_name": "AKR",
       "aliases": [
         "ArdaKanbur"
       ],
@@ -11536,7 +11474,9 @@
       "source_urls": [
         "https://github.com/ArdaKanbur"
       ],
-      "organizations": [],
+      "organizations": [
+        "Bigrise Technologies"
+      ],
       "locations": [
         "Ardakan signal"
       ],
@@ -11547,7 +11487,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11578,7 +11518,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11588,7 +11528,7 @@
         377
       ],
       "record_count": 1,
-      "primary_name": "ardakandemir",
+      "primary_name": "Arda Kandemir",
       "aliases": [
         "ardakandemir"
       ],
@@ -11609,7 +11549,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11619,7 +11559,7 @@
         378
       ],
       "record_count": 1,
-      "primary_name": "ardakaner",
+      "primary_name": "Arda",
       "aliases": [
         "ardakaner"
       ],
@@ -11640,7 +11580,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11650,7 +11590,7 @@
         379
       ],
       "record_count": 1,
-      "primary_name": "ardakani",
+      "primary_name": "Behzad Ardakani",
       "aliases": [
         "ardakani"
       ],
@@ -11660,9 +11600,12 @@
       "source_urls": [
         "https://github.com/ardakani"
       ],
-      "organizations": [],
+      "organizations": [
+        "Skillmatic AB"
+      ],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Västerås"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -11671,7 +11614,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11681,7 +11624,7 @@
         380
       ],
       "record_count": 1,
-      "primary_name": "Ardakani1",
+      "primary_name": "Ardakani",
       "aliases": [
         "Ardakani1"
       ],
@@ -11702,7 +11645,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11712,7 +11655,7 @@
         381
       ],
       "record_count": 1,
-      "primary_name": "Ardakani79",
+      "primary_name": "Mohammad Hossein Shaker Ardakani",
       "aliases": [
         "Ardakani79"
       ],
@@ -11724,7 +11667,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Isfahan-Iran"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -11733,7 +11677,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11764,7 +11708,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11795,7 +11739,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11805,7 +11749,7 @@
         385
       ],
       "record_count": 1,
-      "primary_name": "ardakanian",
+      "primary_name": "Omid Ardakanian",
       "aliases": [
         "ardakanian"
       ],
@@ -11815,7 +11759,9 @@
       "source_urls": [
         "https://github.com/ardakanian"
       ],
-      "organizations": [],
+      "organizations": [
+        "University of Alberta @sustainable-computing "
+      ],
       "locations": [
         "Ardakan signal"
       ],
@@ -11826,7 +11772,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11857,7 +11803,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11888,7 +11834,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11919,7 +11865,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11950,7 +11896,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11981,7 +11927,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -11991,7 +11937,7 @@
         391
       ],
       "record_count": 1,
-      "primary_name": "ardakanisaba",
+      "primary_name": "Saba Ardakani",
       "aliases": [
         "ardakanisaba"
       ],
@@ -12001,9 +11947,12 @@
       "source_urls": [
         "https://github.com/ardakanisaba"
       ],
-      "organizations": [],
+      "organizations": [
+        "Utah Sate University"
+      ],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "United States"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -12012,7 +11961,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12034,7 +11983,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Orsay, France"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -12043,7 +11993,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12074,7 +12024,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12084,7 +12034,7 @@
         394
       ],
       "record_count": 1,
-      "primary_name": "ardakankasra",
+      "primary_name": "Kasra Ardakan",
       "aliases": [
         "ardakankasra"
       ],
@@ -12105,7 +12055,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12136,7 +12086,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12167,7 +12117,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12198,7 +12148,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12208,7 +12158,7 @@
         398
       ],
       "record_count": 1,
-      "primary_name": "ardakantarci",
+      "primary_name": "Arda Kantarcı",
       "aliases": [
         "ardakantarci"
       ],
@@ -12220,7 +12170,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Turkey, İstanbul"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -12229,7 +12180,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12260,7 +12211,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12270,7 +12221,7 @@
         400
       ],
       "record_count": 1,
-      "primary_name": "ardakantrci",
+      "primary_name": "Arda Kantarcı",
       "aliases": [
         "ardakantrci"
       ],
@@ -12282,7 +12233,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Istanbul,Turkey"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -12291,7 +12243,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12322,7 +12274,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12386,7 +12338,7 @@
         404
       ],
       "record_count": 1,
-      "primary_name": "Behinsomnia9",
+      "primary_name": "Behrad Ardakani Khezrzadeh",
       "aliases": [
         "Behinsomnia9"
       ],
@@ -12407,7 +12359,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12444,7 +12396,7 @@
         406
       ],
       "record_count": 1,
-      "primary_name": "Darkshiira",
+      "primary_name": "Hanna ArefiArdakani",
       "aliases": [
         "Darkshiira"
       ],
@@ -12465,7 +12417,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12496,7 +12448,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12537,7 +12489,7 @@
         409
       ],
       "record_count": 1,
-      "primary_name": "farhaddashtia",
+      "primary_name": "Farhad Dashti Ardakani",
       "aliases": [
         "farhaddashtia"
       ],
@@ -12549,7 +12501,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Vancouver, Canada"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -12558,7 +12511,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12611,7 +12564,8 @@
         "Backend developer · Python, Django"
       ],
       "locations": [
-        "Iran / Yazd / Ardakan"
+        "Iran / Yazd / Ardakan",
+        "iran/yazd/ardakan"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -12620,7 +12574,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12651,7 +12605,7 @@
         "github_usernames": [],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12688,7 +12642,7 @@
         414
       ],
       "record_count": 1,
-      "primary_name": "Hami-Hafezi",
+      "primary_name": "Hami Hafezi Ardakani",
       "aliases": [
         "Hami-Hafezi"
       ],
@@ -12709,7 +12663,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -12920,7 +12874,7 @@
         423
       ],
       "record_count": 1,
-      "primary_name": "koushkoush",
+      "primary_name": "kousha ardakani",
       "aliases": [
         "koushkoush"
       ],
@@ -12941,7 +12895,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -13007,7 +12961,7 @@
         426
       ],
       "record_count": 1,
-      "primary_name": "mahsamajd",
+      "primary_name": "Mahsa Majdzadeh Ardakani",
       "aliases": [
         "mahsamajd"
       ],
@@ -13028,7 +12982,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -13123,7 +13077,7 @@
         430
       ],
       "record_count": 1,
-      "primary_name": "MohamadAli92",
+      "primary_name": "Mohammad Ali KazemiArdakani",
       "aliases": [
         "MohamadAli92"
       ],
@@ -13135,7 +13089,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Houston, Texas, USA"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -13144,7 +13099,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -13326,7 +13281,7 @@
         437
       ],
       "record_count": 1,
-      "primary_name": "mohammadnabia",
+      "primary_name": "Mohammad Nabizade Ardakani",
       "aliases": [
         "mohammadnabia"
       ],
@@ -13338,7 +13293,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Iran"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -13347,7 +13303,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -13496,7 +13452,7 @@
         443
       ],
       "record_count": 1,
-      "primary_name": "mojtabasah",
+      "primary_name": "Mojtaba Sahraee-Ardakan",
       "aliases": [
         "mojtabasah"
       ],
@@ -13517,7 +13473,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -13538,7 +13494,8 @@
         "https://openalex.org/A5070143779"
       ],
       "organizations": [
-        "ORCID موجود"
+        "ORCID موجود",
+        "Shahid Beheshti University"
       ],
       "locations": [],
       "identifiers": {
@@ -13546,9 +13503,11 @@
           "A5070143779"
         ],
         "github_usernames": [],
-        "orcids": []
+        "orcids": [
+          "https://orcid.org/0000-0003-0863-7180"
+        ]
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -13693,7 +13652,7 @@
         450
       ],
       "record_count": 1,
-      "primary_name": "Parsa-Ardakani",
+      "primary_name": "Parsa Alimohammadi Ardakani",
       "aliases": [
         "Parsa-Ardakani"
       ],
@@ -13714,7 +13673,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -13724,7 +13683,7 @@
         451
       ],
       "record_count": 1,
-      "primary_name": "pedramardakani",
+      "primary_name": "Pedram Ashofteh-Ardakani",
       "aliases": [
         "pedramardakani"
       ],
@@ -13745,7 +13704,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
@@ -14249,7 +14208,7 @@
         470
       ],
       "record_count": 1,
-      "primary_name": "Zahra121377",
+      "primary_name": "Zahra Afkhami Ardakani",
       "aliases": [
         "Zahra121377"
       ],
@@ -14261,7 +14220,8 @@
       ],
       "organizations": [],
       "locations": [
-        "Ardakan signal"
+        "Ardakan signal",
+        "Iran, Yazd, Ardakan"
       ],
       "identifiers": {
         "openalex_ids": [],
@@ -14270,7 +14230,7 @@
         ],
         "orcids": []
       },
-      "external_enriched_records": 0,
+      "external_enriched_records": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "human_review_required": true
     },
