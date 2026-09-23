@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T16:53:15Z",
+  "generated_at": "2026-09-23T18:02:28Z",
   "target": 1000,
   "queries": 150,
-  "search_results": 1320,
+  "search_results": 1411,
   "accepted_candidates": 122,
   "new_records": 0,
   "pool_size": 1000,
@@ -15,54 +15,5 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "Lead-guided OpenAlex Discovery": 22
   },
-  "errors": [
-    {
-      "query": "site:eitaa.com پزشک اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "site:eitaa.com دندانپزشک اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "site:instagram.com دندانپزشک اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "وکیل وکیل اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "استاد وکیل اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "هیئت علمی اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "site:irimc.org پژوهشگر",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "مهندس \"اهل اردکان\"",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "site:ac.ir مهندس اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "site:eitaa.com کارآفرین اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "کارآفرین وکیل اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "query": "site:eitaa.com هنرمند اردکان",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
-    }
-  ]
+  "errors": []
 }

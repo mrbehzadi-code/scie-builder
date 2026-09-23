@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:00:33Z",
+  "generated_at": "2026-09-23T18:12:06Z",
   "target": 1000,
   "pool_size": 1000,
   "new_records": 0,
@@ -62,7 +62,7 @@
     {
       "platform": "instagram",
       "url": "http://Instagram.com/ardakanuni_tashkilat",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -122,47 +122,47 @@
     {
       "platform": "instagram",
       "url": "http://instagram.com/AZAR_MATNA7",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/Mostafa_Pourdehghan",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/Pourdehghan_ir",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/ardakanedu",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/ardakanuni_tashkilat",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/bso.ardakanuni",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/fatemehh_f13",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/kalk_ir",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/shohada_yazd",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -702,7 +702,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4494",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -852,7 +852,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4577",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -967,7 +967,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4654",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1058,6 +1058,291 @@
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4721",
       "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4723",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4730",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4732",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4733",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4734",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4735",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4736",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4737",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4746",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4747",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4748",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4752",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4755",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4765",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4773",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4781",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4786",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4788",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4789",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4790",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4810",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Saleh_jokar/10782",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Saleh_jokar/13016",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Saleh_jokar/13137",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Saleh_jokar/8594",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/basiratbesabkeshohada",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/darmangahebuali",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/edu_tvu",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/elhamazad_org/7186",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/fatemehbs2002",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/118226987Ga11905f209",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/153813700C138afcc236",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/1863581823C7f53aa5502",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/2253455521Cfdb4b19f67",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/3227123757Ge6e62d0ea3",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/4185849903C98b9462fbd",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/487784496Cde4a5895fc",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/735183619C6f027cb697",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/joinchat/743834044Cd9bb0ef7b2",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/meshkaat1444",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/politicalscienceardakan",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/Lms_tvuyazd",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/Pourdehghan_ir",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/ardakanuni_tashkilat",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/kajino.festival",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/p/B3zY3BUlmcu",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/p/CLeyo-bATmV",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/shohada_yazd",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/tvuyazd",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/onnewsmedia",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/B3zY3BUlmcu/",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/CJZJKDvgzbx/",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/CLeyo-bATmV/",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/CQ4g4qBMzgG/",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/CdOVOXUsun5/",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tv/CcNp0hVpbMy/",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tvelayat_tehran/",
+      "result": "no Ardakan signal in public metadata"
     }
   ],
   "policy": "Public pages/metadata only; no login or private-content access."
