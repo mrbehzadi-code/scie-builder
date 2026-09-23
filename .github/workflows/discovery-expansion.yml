@@ -1,6 +1,8 @@
 name: SCIE Discovery Expansion
 
 on:
+  schedule:
+    - cron: '20 2 * * 2,5'
   push:
     branches: [main, 'sprint/**']
     paths:
