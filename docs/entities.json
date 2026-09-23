@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22",
+  "generated_at": "2026-09-23",
   "metrics": {
-    "candidate_records": 372,
-    "canonical_entities": 369,
+    "candidate_records": 493,
+    "canonical_entities": 490,
     "records_collapsed": 3,
     "same_person_pairs_applied": 3,
     "multi_record_entities": 3,
@@ -380,7 +380,128 @@
     "368": "scie-entity-00366",
     "369": "scie-entity-00367",
     "370": "scie-entity-00368",
-    "371": "scie-entity-00369"
+    "371": "scie-entity-00369",
+    "372": "scie-entity-00370",
+    "373": "scie-entity-00371",
+    "374": "scie-entity-00372",
+    "375": "scie-entity-00373",
+    "376": "scie-entity-00374",
+    "377": "scie-entity-00375",
+    "378": "scie-entity-00376",
+    "379": "scie-entity-00377",
+    "380": "scie-entity-00378",
+    "381": "scie-entity-00379",
+    "382": "scie-entity-00380",
+    "383": "scie-entity-00381",
+    "384": "scie-entity-00382",
+    "385": "scie-entity-00383",
+    "386": "scie-entity-00384",
+    "387": "scie-entity-00385",
+    "388": "scie-entity-00386",
+    "389": "scie-entity-00387",
+    "390": "scie-entity-00388",
+    "391": "scie-entity-00389",
+    "392": "scie-entity-00390",
+    "393": "scie-entity-00391",
+    "394": "scie-entity-00392",
+    "395": "scie-entity-00393",
+    "396": "scie-entity-00394",
+    "397": "scie-entity-00395",
+    "398": "scie-entity-00396",
+    "399": "scie-entity-00397",
+    "400": "scie-entity-00398",
+    "401": "scie-entity-00399",
+    "402": "scie-entity-00400",
+    "403": "scie-entity-00401",
+    "404": "scie-entity-00402",
+    "405": "scie-entity-00403",
+    "406": "scie-entity-00404",
+    "407": "scie-entity-00405",
+    "408": "scie-entity-00406",
+    "409": "scie-entity-00407",
+    "410": "scie-entity-00408",
+    "411": "scie-entity-00409",
+    "412": "scie-entity-00410",
+    "413": "scie-entity-00411",
+    "414": "scie-entity-00412",
+    "415": "scie-entity-00413",
+    "416": "scie-entity-00414",
+    "417": "scie-entity-00415",
+    "418": "scie-entity-00416",
+    "419": "scie-entity-00417",
+    "420": "scie-entity-00418",
+    "421": "scie-entity-00419",
+    "422": "scie-entity-00420",
+    "423": "scie-entity-00421",
+    "424": "scie-entity-00422",
+    "425": "scie-entity-00423",
+    "426": "scie-entity-00424",
+    "427": "scie-entity-00425",
+    "428": "scie-entity-00426",
+    "429": "scie-entity-00427",
+    "430": "scie-entity-00428",
+    "431": "scie-entity-00429",
+    "432": "scie-entity-00430",
+    "433": "scie-entity-00431",
+    "434": "scie-entity-00432",
+    "435": "scie-entity-00433",
+    "436": "scie-entity-00434",
+    "437": "scie-entity-00435",
+    "438": "scie-entity-00436",
+    "439": "scie-entity-00437",
+    "440": "scie-entity-00438",
+    "441": "scie-entity-00439",
+    "442": "scie-entity-00440",
+    "443": "scie-entity-00441",
+    "444": "scie-entity-00442",
+    "445": "scie-entity-00443",
+    "446": "scie-entity-00444",
+    "447": "scie-entity-00445",
+    "448": "scie-entity-00446",
+    "449": "scie-entity-00447",
+    "450": "scie-entity-00448",
+    "451": "scie-entity-00449",
+    "452": "scie-entity-00450",
+    "453": "scie-entity-00451",
+    "454": "scie-entity-00452",
+    "455": "scie-entity-00453",
+    "456": "scie-entity-00454",
+    "457": "scie-entity-00455",
+    "458": "scie-entity-00456",
+    "459": "scie-entity-00457",
+    "460": "scie-entity-00458",
+    "461": "scie-entity-00459",
+    "462": "scie-entity-00460",
+    "463": "scie-entity-00461",
+    "464": "scie-entity-00462",
+    "465": "scie-entity-00463",
+    "466": "scie-entity-00464",
+    "467": "scie-entity-00465",
+    "468": "scie-entity-00466",
+    "469": "scie-entity-00467",
+    "470": "scie-entity-00468",
+    "471": "scie-entity-00469",
+    "472": "scie-entity-00470",
+    "473": "scie-entity-00471",
+    "474": "scie-entity-00472",
+    "475": "scie-entity-00473",
+    "476": "scie-entity-00474",
+    "477": "scie-entity-00475",
+    "478": "scie-entity-00476",
+    "479": "scie-entity-00477",
+    "480": "scie-entity-00478",
+    "481": "scie-entity-00479",
+    "482": "scie-entity-00480",
+    "483": "scie-entity-00481",
+    "484": "scie-entity-00482",
+    "485": "scie-entity-00483",
+    "486": "scie-entity-00484",
+    "487": "scie-entity-00485",
+    "488": "scie-entity-00486",
+    "489": "scie-entity-00487",
+    "490": "scie-entity-00488",
+    "491": "scie-entity-00489",
+    "492": "scie-entity-00490"
   },
   "entities": [
     {
@@ -11642,6 +11763,3343 @@
         "openalex_ids": [
           "A5011428548"
         ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00370",
+      "candidate_indexes": [
+        372
+      ],
+      "record_count": 1,
+      "primary_name": "Abolfazl Azizian",
+      "aliases": [
+        "Abolfazl Azizian"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.researchgate.net/profile/Abolfazl-Azizian"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00371",
+      "candidate_indexes": [
+        373
+      ],
+      "record_count": 1,
+      "primary_name": "Hadi Kargar",
+      "aliases": [
+        "Hadi Kargar"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.researchgate.net/profile/Hadi-Kargar-2"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00372",
+      "candidate_indexes": [
+        374
+      ],
+      "record_count": 1,
+      "primary_name": "Razieh Sheikhpour",
+      "aliases": [
+        "Razieh Sheikhpour"
+      ],
+      "sources": [
+        "دانشگاه‌های داخلی و خارجی"
+      ],
+      "source_urls": [
+        "https://ardakan.academia.edu/RSheikhpour"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00373",
+      "candidate_indexes": [
+        375
+      ],
+      "record_count": 1,
+      "primary_name": "Seyed Mojtaba Paydar Ardakani",
+      "aliases": [
+        "Seyed Mojtaba Paydar Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.researchgate.net/profile/Seyed-Ardakani"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00374",
+      "candidate_indexes": [
+        376
+      ],
+      "record_count": 1,
+      "primary_name": "Heidar Meftahizade",
+      "aliases": [
+        "Heidar Meftahizade"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.researchgate.net/profile/Heidar-Meftahizade"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00375",
+      "candidate_indexes": [
+        377
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Reza Barzegar-Bafrooei",
+      "aliases": [
+        "Mohammad Reza Barzegar-Bafrooei"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.researchgate.net/profile/Mohammad-Barzegar-Bafrooei"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00376",
+      "candidate_indexes": [
+        378
+      ],
+      "record_count": 1,
+      "primary_name": "Jamal Dehghani Ashkezari",
+      "aliases": [
+        "Jamal Dehghani Ashkezari"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://link.springer.com/book/10.1007/978-981-16-6651-3"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00377",
+      "candidate_indexes": [
+        379
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Fotouhi Ardakani",
+      "aliases": [
+        "Mohammad Fotouhi Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ideas.repec.org/f/pfo352.html"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00378",
+      "candidate_indexes": [
+        380
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Reza Shams Ardekani",
+      "aliases": [
+        "Mohammad Reza Shams Ardekani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Mohammad_Reza_Shams_Ardekani"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00379",
+      "candidate_indexes": [
+        381
+      ],
+      "record_count": 1,
+      "primary_name": "Reza Davari Ardakani",
+      "aliases": [
+        "Reza Davari Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.ketabnak.com/persons/5190/%D8%B1%D8%B6%D8%A7%2B%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%2B%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86%DB%8C"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00380",
+      "candidate_indexes": [
+        382
+      ],
+      "record_count": 1,
+      "primary_name": "Mostafa Abouei Ardakan",
+      "aliases": [
+        "Mostafa Abouei Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.researchgate.net/profile/Mostafa-Ardakan"
+      ],
+      "organizations": [],
+      "locations": [
+        "Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00381",
+      "candidate_indexes": [
+        383
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Mehdi Zarei Mahmoudabadi",
+      "aliases": [
+        "Mohammad Mehdi Zarei Mahmoudabadi"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://civil808.com/user/73161/4480115147"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00382",
+      "candidate_indexes": [
+        384
+      ],
+      "record_count": 1,
+      "primary_name": "Hamidreza Bana Bafrouei",
+      "aliases": [
+        "Hamidreza Bana Bafrouei"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.signalhire.com/profiles/hamidreza-bana-bafrouei/239885929"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00383",
+      "candidate_indexes": [
+        385
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Ebrahimzadeh Ardakani",
+      "aliases": [
+        "Mohammad Ebrahimzadeh Ardakani"
+      ],
+      "sources": [
+        "پایگاه‌های رسمی و سازمانی"
+      ],
+      "source_urls": [
+        "https://zibalife.ir/doctors-search/25/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%DB%8C%D9%85-%D8%B2%D8%A7%D8%AF%D9%87-%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86%DB%8C"
+      ],
+      "organizations": [],
+      "locations": [
+        "Yazd / Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00384",
+      "candidate_indexes": [
+        386
+      ],
+      "record_count": 1,
+      "primary_name": "Mojtaba Sahraee Ardakan",
+      "aliases": [
+        "Mojtaba Sahraee Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00385",
+      "candidate_indexes": [
+        387
+      ],
+      "record_count": 1,
+      "primary_name": "Parastoo Ardakan",
+      "aliases": [
+        "Parastoo Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00386",
+      "candidate_indexes": [
+        388
+      ],
+      "record_count": 1,
+      "primary_name": "Nooshin Gholhovallahi Ardakan",
+      "aliases": [
+        "Nooshin Gholhovallahi Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00387",
+      "candidate_indexes": [
+        389
+      ],
+      "record_count": 1,
+      "primary_name": "Shiva Taghavi Ardakan",
+      "aliases": [
+        "Shiva Taghavi Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00388",
+      "candidate_indexes": [
+        390
+      ],
+      "record_count": 1,
+      "primary_name": "Negin Ardakan",
+      "aliases": [
+        "Negin Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00389",
+      "candidate_indexes": [
+        391
+      ],
+      "record_count": 1,
+      "primary_name": "Arian Ardakan",
+      "aliases": [
+        "Arian Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00390",
+      "candidate_indexes": [
+        392
+      ],
+      "record_count": 1,
+      "primary_name": "Seema Ardakan",
+      "aliases": [
+        "Seema Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00391",
+      "candidate_indexes": [
+        393
+      ],
+      "record_count": 1,
+      "primary_name": "Artin Ardakan",
+      "aliases": [
+        "Artin Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00392",
+      "candidate_indexes": [
+        394
+      ],
+      "record_count": 1,
+      "primary_name": "Zehra Ardakan",
+      "aliases": [
+        "Zehra Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00393",
+      "candidate_indexes": [
+        395
+      ],
+      "record_count": 1,
+      "primary_name": "Ramin Ahmadieh Ardakan",
+      "aliases": [
+        "Ramin Ahmadieh Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00394",
+      "candidate_indexes": [
+        396
+      ],
+      "record_count": 1,
+      "primary_name": "Sepidan Ardakan",
+      "aliases": [
+        "Sepidan Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00395",
+      "candidate_indexes": [
+        397
+      ],
+      "record_count": 1,
+      "primary_name": "Zahra Ranjbar",
+      "aliases": [
+        "Zahra Ranjbar"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00396",
+      "candidate_indexes": [
+        398
+      ],
+      "record_count": 1,
+      "primary_name": "Massumeh Ardakan",
+      "aliases": [
+        "Massumeh Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00397",
+      "candidate_indexes": [
+        399
+      ],
+      "record_count": 1,
+      "primary_name": "Niayesh Ardakan",
+      "aliases": [
+        "Niayesh Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00398",
+      "candidate_indexes": [
+        400
+      ],
+      "record_count": 1,
+      "primary_name": "Mojri Ardakan",
+      "aliases": [
+        "Mojri Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00399",
+      "candidate_indexes": [
+        401
+      ],
+      "record_count": 1,
+      "primary_name": "Shaghayegh Masaeli",
+      "aliases": [
+        "Shaghayegh Masaeli"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00400",
+      "candidate_indexes": [
+        402
+      ],
+      "record_count": 1,
+      "primary_name": "Aghkariz Ardakan",
+      "aliases": [
+        "Aghkariz Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00401",
+      "candidate_indexes": [
+        403
+      ],
+      "record_count": 1,
+      "primary_name": "Sedaye Ardakan",
+      "aliases": [
+        "Sedaye Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00402",
+      "candidate_indexes": [
+        404
+      ],
+      "record_count": 1,
+      "primary_name": "Chufa Ardakan",
+      "aliases": [
+        "Chufa Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00403",
+      "candidate_indexes": [
+        405
+      ],
+      "record_count": 1,
+      "primary_name": "Robert Ardakan",
+      "aliases": [
+        "Robert Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00404",
+      "candidate_indexes": [
+        406
+      ],
+      "record_count": 1,
+      "primary_name": "Ryan Ardakan",
+      "aliases": [
+        "Ryan Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00405",
+      "candidate_indexes": [
+        407
+      ],
+      "record_count": 1,
+      "primary_name": "Mahdi Qanei Ardakan",
+      "aliases": [
+        "Mahdi Qanei Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00406",
+      "candidate_indexes": [
+        408
+      ],
+      "record_count": 1,
+      "primary_name": "Kaan Ardakan",
+      "aliases": [
+        "Kaan Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00407",
+      "candidate_indexes": [
+        409
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Roghanian Ardakan",
+      "aliases": [
+        "Mohammad Roghanian Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00408",
+      "candidate_indexes": [
+        410
+      ],
+      "record_count": 1,
+      "primary_name": "Sam Ardakan",
+      "aliases": [
+        "Sam Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00409",
+      "candidate_indexes": [
+        411
+      ],
+      "record_count": 1,
+      "primary_name": "Javad Shaker Ardakan",
+      "aliases": [
+        "Javad Shaker Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00410",
+      "candidate_indexes": [
+        412
+      ],
+      "record_count": 1,
+      "primary_name": "Mohandes Heydari (Ardakan)",
+      "aliases": [
+        "Mohandes Heydari (Ardakan)"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00411",
+      "candidate_indexes": [
+        413
+      ],
+      "record_count": 1,
+      "primary_name": "Pegah Firoozi Ardakan",
+      "aliases": [
+        "Pegah Firoozi Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00412",
+      "candidate_indexes": [
+        414
+      ],
+      "record_count": 1,
+      "primary_name": "Hamed Mokhtari",
+      "aliases": [
+        "Hamed Mokhtari"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00413",
+      "candidate_indexes": [
+        415
+      ],
+      "record_count": 1,
+      "primary_name": "Zahra Jafari_Ardakan",
+      "aliases": [
+        "Zahra Jafari_Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00414",
+      "candidate_indexes": [
+        416
+      ],
+      "record_count": 1,
+      "primary_name": "Noah Toroghi Ardakan",
+      "aliases": [
+        "Noah Toroghi Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00415",
+      "candidate_indexes": [
+        417
+      ],
+      "record_count": 1,
+      "primary_name": "Reza Ahmadieh Ardakan",
+      "aliases": [
+        "Reza Ahmadieh Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00416",
+      "candidate_indexes": [
+        418
+      ],
+      "record_count": 1,
+      "primary_name": "Seyed Hamid Reza Mirahmadi Ardakani",
+      "aliases": [
+        "Seyed Hamid Reza Mirahmadi Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00417",
+      "candidate_indexes": [
+        419
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Ardakani",
+      "aliases": [
+        "Ali Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00418",
+      "candidate_indexes": [
+        420
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Nazemi Ardakani",
+      "aliases": [
+        "Ali Nazemi Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00419",
+      "candidate_indexes": [
+        421
+      ],
+      "record_count": 1,
+      "primary_name": "Hassan Ali Vahedian Ardakani",
+      "aliases": [
+        "Hassan Ali Vahedian Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00420",
+      "candidate_indexes": [
+        422
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Paydar Ardakani",
+      "aliases": [
+        "Ali Paydar Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00421",
+      "candidate_indexes": [
+        423
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Molaee Ardakani",
+      "aliases": [
+        "Ali Molaee Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00422",
+      "candidate_indexes": [
+        424
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Pasha Ardakani",
+      "aliases": [
+        "Ali Pasha Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00423",
+      "candidate_indexes": [
+        425
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Nabizadeh Ardakani",
+      "aliases": [
+        "Ali Nabizadeh Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00424",
+      "candidate_indexes": [
+        426
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Kamali Ardakani",
+      "aliases": [
+        "Ali Kamali Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00425",
+      "candidate_indexes": [
+        427
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Dehestani Ardakani",
+      "aliases": [
+        "Ali Dehestani Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00426",
+      "candidate_indexes": [
+        428
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Shakker Ardakani",
+      "aliases": [
+        "Ali Shakker Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00427",
+      "candidate_indexes": [
+        429
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Fotouhi Ardakani",
+      "aliases": [
+        "Ali Fotouhi Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00428",
+      "candidate_indexes": [
+        430
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Moteallehi Ardakani",
+      "aliases": [
+        "Ali Moteallehi Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00429",
+      "candidate_indexes": [
+        431
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Akbar Kamali Ardakani",
+      "aliases": [
+        "Ali Akbar Kamali Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00430",
+      "candidate_indexes": [
+        432
+      ],
+      "record_count": 1,
+      "primary_name": "علی شاکر اردکانی",
+      "aliases": [
+        "علی شاکر اردکانی"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00431",
+      "candidate_indexes": [
+        433
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Ebrahimzadeh Ardakani",
+      "aliases": [
+        "Ali Ebrahimzadeh Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00432",
+      "candidate_indexes": [
+        434
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Shaker Ardakani",
+      "aliases": [
+        "Ali Shaker Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00433",
+      "candidate_indexes": [
+        435
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Azemi Ardakani",
+      "aliases": [
+        "Ali Azemi Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00434",
+      "candidate_indexes": [
+        436
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Khademalhosseini Ardakani",
+      "aliases": [
+        "Ali Khademalhosseini Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00435",
+      "candidate_indexes": [
+        437
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Ghotbzade Ardakani",
+      "aliases": [
+        "Ali Ghotbzade Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00436",
+      "candidate_indexes": [
+        438
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Ali Ghotbzade Ardakani",
+      "aliases": [
+        "Mohammad Ali Ghotbzade Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00437",
+      "candidate_indexes": [
+        439
+      ],
+      "record_count": 1,
+      "primary_name": "Mohamad Ali Behjati Ardakani",
+      "aliases": [
+        "Mohamad Ali Behjati Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00438",
+      "candidate_indexes": [
+        440
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Reza Ardakani",
+      "aliases": [
+        "Ali Reza Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00439",
+      "candidate_indexes": [
+        441
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Mahmoudi Ardakani",
+      "aliases": [
+        "Ali Mahmoudi Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00440",
+      "candidate_indexes": [
+        442
+      ],
+      "record_count": 1,
+      "primary_name": "Seyed Ali Hatafi Ardakani",
+      "aliases": [
+        "Seyed Ali Hatafi Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00441",
+      "candidate_indexes": [
+        443
+      ],
+      "record_count": 1,
+      "primary_name": "Keyvan Kakoolaki",
+      "aliases": [
+        "Keyvan Kakoolaki"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/keyvan-kakoolaki-a47b74295"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00442",
+      "candidate_indexes": [
+        444
+      ],
+      "record_count": 1,
+      "primary_name": "Hamidreza Mohtashami Ardakani",
+      "aliases": [
+        "Hamidreza Mohtashami Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/hamidreza-mohtashami-ardakani-21a88134"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00443",
+      "candidate_indexes": [
+        445
+      ],
+      "record_count": 1,
+      "primary_name": "Bashir Amiri",
+      "aliases": [
+        "Bashir Amiri"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/bashiramiri"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00444",
+      "candidate_indexes": [
+        446
+      ],
+      "record_count": 1,
+      "primary_name": "Azam Jafari",
+      "aliases": [
+        "Azam Jafari"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/azam-jafari"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00445",
+      "candidate_indexes": [
+        447
+      ],
+      "record_count": 1,
+      "primary_name": "Zahra Afkhami Ardakani",
+      "aliases": [
+        "Zahra Afkhami Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/zahra-afkhami-ardakani"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00446",
+      "candidate_indexes": [
+        448
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammadreza Dehestani",
+      "aliases": [
+        "Mohammadreza Dehestani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/mohamadreza-dehestani-0b6a68352"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00447",
+      "candidate_indexes": [
+        449
+      ],
+      "record_count": 1,
+      "primary_name": "Ahmadreza Hakimi",
+      "aliases": [
+        "Ahmadreza Hakimi"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/ahmadreza-hakimi-545a58225"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00448",
+      "candidate_indexes": [
+        450
+      ],
+      "record_count": 1,
+      "primary_name": "Mahdi Ashtian",
+      "aliases": [
+        "Mahdi Ashtian"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/mahdi-ashtian-093b68184"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00449",
+      "candidate_indexes": [
+        451
+      ],
+      "record_count": 1,
+      "primary_name": "Amir Shahabizad",
+      "aliases": [
+        "Amir Shahabizad"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/amir-shahabizad-b7911b203"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00450",
+      "candidate_indexes": [
+        452
+      ],
+      "record_count": 1,
+      "primary_name": "Masih Hosseinzadeh",
+      "aliases": [
+        "Masih Hosseinzadeh"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/masihhosseinzadeh"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00451",
+      "candidate_indexes": [
+        453
+      ],
+      "record_count": 1,
+      "primary_name": "Masoud Moradi",
+      "aliases": [
+        "Masoud Moradi"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/masoud-moradi-49960176"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00452",
+      "candidate_indexes": [
+        454
+      ],
+      "record_count": 1,
+      "primary_name": "Seyfaddin Shiri",
+      "aliases": [
+        "Seyfaddin Shiri"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/seyfaddin-shiri-17a662134"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00453",
+      "candidate_indexes": [
+        455
+      ],
+      "record_count": 1,
+      "primary_name": "Mahdi Abolqasemi",
+      "aliases": [
+        "Mahdi Abolqasemi"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/mahdi-abolqasemi-ba0b4920a"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00454",
+      "candidate_indexes": [
+        456
+      ],
+      "record_count": 1,
+      "primary_name": "Hojat Karimian",
+      "aliases": [
+        "Hojat Karimian"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/hojat-karimian-492b10145"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00455",
+      "candidate_indexes": [
+        457
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Parsaeian",
+      "aliases": [
+        "Ali Parsaeian"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://uk.linkedin.com/in/ali-parsaeian-08aa34153"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00456",
+      "candidate_indexes": [
+        458
+      ],
+      "record_count": 1,
+      "primary_name": "Jalal Mahmoudzadeh",
+      "aliases": [
+        "Jalal Mahmoudzadeh"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/jalal-mahmoudzadeh-aba70790"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00457",
+      "candidate_indexes": [
+        459
+      ],
+      "record_count": 1,
+      "primary_name": "Hamid Dehghani",
+      "aliases": [
+        "Hamid Dehghani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/hamid-dehghani-4b3365a3"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00458",
+      "candidate_indexes": [
+        460
+      ],
+      "record_count": 1,
+      "primary_name": "Hossein Dehkhodaei",
+      "aliases": [
+        "Hossein Dehkhodaei"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/hossein-dehkhodaei-4aa61a190"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00459",
+      "candidate_indexes": [
+        461
+      ],
+      "record_count": 1,
+      "primary_name": "Fatemeh Khodaei",
+      "aliases": [
+        "Fatemeh Khodaei"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/fatemeh-khodaei-101a55261"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00460",
+      "candidate_indexes": [
+        462
+      ],
+      "record_count": 1,
+      "primary_name": "Ahmad Nouri",
+      "aliases": [
+        "Ahmad Nouri"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/ahmad-nouri-44367810b"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00461",
+      "candidate_indexes": [
+        463
+      ],
+      "record_count": 1,
+      "primary_name": "Komeyl Afkhami",
+      "aliases": [
+        "Komeyl Afkhami"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/komeyl-afkhami"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00462",
+      "candidate_indexes": [
+        464
+      ],
+      "record_count": 1,
+      "primary_name": "Mojtaba Majdian Ardakani",
+      "aliases": [
+        "Mojtaba Majdian Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/mojtaba-majdian-ardakani-4a60397a"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00463",
+      "candidate_indexes": [
+        465
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Tavakoli",
+      "aliases": [
+        "Ali Tavakoli"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/ali-tavakoli-b5595aa9"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00464",
+      "candidate_indexes": [
+        466
+      ],
+      "record_count": 1,
+      "primary_name": "Moein Mahboub",
+      "aliases": [
+        "Moein Mahboub"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/moein-mahboub-%D9%85%D8%B9%DB%8C%D9%86-%D9%85%D8%AD%D8%A8%D9%88%D8%A8-983646210"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00465",
+      "candidate_indexes": [
+        467
+      ],
+      "record_count": 1,
+      "primary_name": "Mahdi Rezaei",
+      "aliases": [
+        "Mahdi Rezaei"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/mahdirezaeiprocessing"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00466",
+      "candidate_indexes": [
+        468
+      ],
+      "record_count": 1,
+      "primary_name": "Mostafa Jalali",
+      "aliases": [
+        "Mostafa Jalali"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/mostafajalali"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00467",
+      "candidate_indexes": [
+        469
+      ],
+      "record_count": 1,
+      "primary_name": "Amin Tavakkoli",
+      "aliases": [
+        "Amin Tavakkoli"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/amintavakkoli"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00468",
+      "candidate_indexes": [
+        470
+      ],
+      "record_count": 1,
+      "primary_name": "Soheila Amin Sadrabadi",
+      "aliases": [
+        "Soheila Amin Sadrabadi"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/soheila-amin-sadrabadi-0b895668"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00469",
+      "candidate_indexes": [
+        471
+      ],
+      "record_count": 1,
+      "primary_name": "Shakiba Sharifi",
+      "aliases": [
+        "Shakiba Sharifi"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/shakibashariifi"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00470",
+      "candidate_indexes": [
+        472
+      ],
+      "record_count": 1,
+      "primary_name": "Farshad Sayadi",
+      "aliases": [
+        "Farshad Sayadi"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://farshadsayadi.com/about/"
+      ],
+      "organizations": [],
+      "locations": [
+        "Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00471",
+      "candidate_indexes": [
+        473
+      ],
+      "record_count": 1,
+      "primary_name": "Davood Shojaaddiny Ardakani",
+      "aliases": [
+        "Davood Shojaaddiny Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://ir.linkedin.com/in/shojaaddiny"
+      ],
+      "organizations": [],
+      "locations": [
+        "Iran / Ardakan"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00472",
+      "candidate_indexes": [
+        474
+      ],
+      "record_count": 1,
+      "primary_name": "Ahmad Taqdari Ardakani",
+      "aliases": [
+        "Ahmad Taqdari Ardakani"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/chadormalupr/1528"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00473",
+      "candidate_indexes": [
+        475
+      ],
+      "record_count": 1,
+      "primary_name": "Alireza Mehrabadi",
+      "aliases": [
+        "Alireza Mehrabadi"
+      ],
+      "sources": [
+        "پایگاه‌های رسمی و سازمانی"
+      ],
+      "source_urls": [
+        "https://ofoghmihan.ir/news/%DA%A9%D8%B3%D8%B1%D8%A7-%D8%A7%D9%88%D9%84%DB%8C%D9%86-%D9%88-%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86-%D8%AA%D9%88%D9%84%DB%8C%D8%AF%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D8%B3%D8%B1%D8%A7%D9%85/"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00474",
+      "candidate_indexes": [
+        476
+      ],
+      "record_count": 1,
+      "primary_name": "Mojtaba Esmaeili",
+      "aliases": [
+        "Mojtaba Esmaeili"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://abr-o-bad.com/about-us/"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00475",
+      "candidate_indexes": [
+        477
+      ],
+      "record_count": 1,
+      "primary_name": "Mahmoud Hatefi Ardakani",
+      "aliases": [
+        "Mahmoud Hatefi Ardakani"
+      ],
+      "sources": [
+        "پایگاه‌های رسمی و سازمانی"
+      ],
+      "source_urls": [
+        "https://ifirma.ir/5D3970"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00476",
+      "candidate_indexes": [
+        478
+      ],
+      "record_count": 1,
+      "primary_name": "Hossein Saadat",
+      "aliases": [
+        "Hossein Saadat"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.signalhire.com/profiles/hossein-saadat%27s-email/172275521"
+      ],
+      "organizations": [],
+      "locations": [
+        "Iran / Ardakan"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00477",
+      "candidate_indexes": [
+        479
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Reza Dinovi",
+      "aliases": [
+        "Mohammad Reza Dinovi"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.faaltarin.com/?id=48"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00478",
+      "candidate_indexes": [
+        480
+      ],
+      "record_count": 1,
+      "primary_name": "Hamid Nedafat Ardakan",
+      "aliases": [
+        "Hamid Nedafat Ardakan"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/pub/dir/%2B/Ardakan"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00479",
+      "candidate_indexes": [
+        481
+      ],
+      "record_count": 1,
+      "primary_name": "Ardakan Mehrnia",
+      "aliases": [
+        "Ardakan Mehrnia"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://de.linkedin.com/in/ardakan-mehrnia-088682194"
+      ],
+      "organizations": [],
+      "locations": [
+        "Germany / Iran connection requires verification"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00480",
+      "candidate_indexes": [
+        482
+      ],
+      "record_count": 1,
+      "primary_name": "Mohsen Talaei Ardakani",
+      "aliases": [
+        "Mohsen Talaei Ardakani"
+      ],
+      "sources": [
+        "وب عمومی و رسانه‌ها"
+      ],
+      "source_urls": [
+        "https://www.darmankade.com/doctor/424469/"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00481",
+      "candidate_indexes": [
+        483
+      ],
+      "record_count": 1,
+      "primary_name": "Yadollah Morovati",
+      "aliases": [
+        "Yadollah Morovati"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00482",
+      "candidate_indexes": [
+        484
+      ],
+      "record_count": 1,
+      "primary_name": "Hossein Vosoughi",
+      "aliases": [
+        "Hossein Vosoughi"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00483",
+      "candidate_indexes": [
+        485
+      ],
+      "record_count": 1,
+      "primary_name": "Abolfazl Aboutalebi",
+      "aliases": [
+        "Abolfazl Aboutalebi"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00484",
+      "candidate_indexes": [
+        486
+      ],
+      "record_count": 1,
+      "primary_name": "Seyed Mohammad Mirjafari",
+      "aliases": [
+        "Seyed Mohammad Mirjafari"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00485",
+      "candidate_indexes": [
+        487
+      ],
+      "record_count": 1,
+      "primary_name": "Amirali Rahimi",
+      "aliases": [
+        "Amirali Rahimi"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00486",
+      "candidate_indexes": [
+        488
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Reza Behjati",
+      "aliases": [
+        "Mohammad Reza Behjati"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00487",
+      "candidate_indexes": [
+        489
+      ],
+      "record_count": 1,
+      "primary_name": "Seyed Ali Mahdizadeh",
+      "aliases": [
+        "Seyed Ali Mahdizadeh"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00488",
+      "candidate_indexes": [
+        490
+      ],
+      "record_count": 1,
+      "primary_name": "Sina Khabir",
+      "aliases": [
+        "Sina Khabir"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00489",
+      "candidate_indexes": [
+        491
+      ],
+      "record_count": 1,
+      "primary_name": "Sadegh Shaker",
+      "aliases": [
+        "Sadegh Shaker"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00490",
+      "candidate_indexes": [
+        492
+      ],
+      "record_count": 1,
+      "primary_name": "Saeed Banazadeh",
+      "aliases": [
+        "Saeed Banazadeh"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan, Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
         "github_usernames": [],
         "orcids": []
       },

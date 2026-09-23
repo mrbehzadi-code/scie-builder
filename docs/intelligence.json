@@ -1,31 +1,57 @@
 {
-  "generated_at": "2026-09-22",
-  "candidate_count": 372,
+  "generated_at": "2026-09-23",
+  "candidate_count": 493,
   "metrics": {
-    "unique_name_keys": 365,
-    "possible_duplicate_groups": 7,
+    "unique_name_keys": 479,
+    "possible_duplicate_groups": 13,
     "variant_duplicate_groups": 7,
     "stable_identifier_duplicate_groups": 3,
     "quality_strong": 6,
-    "quality_medium": 366,
-    "quality_weak": 0,
+    "quality_medium": 401,
+    "quality_weak": 86,
     "shared_organization_groups": 24,
-    "shared_location_groups": 3,
-    "evidence_items": 747,
+    "shared_location_groups": 6,
+    "evidence_items": 817,
     "organizations_detected": 79,
-    "locations_detected": 5
+    "locations_detected": 10
   },
   "sources": {
     "OpenAlex Discovery": 289,
     "GitHub Discovery": 61,
-    "Lead-guided OpenAlex Discovery": 22
+    "Lead-guided OpenAlex Discovery": 22,
+    "وب عمومی و رسانه‌ها": 106,
+    "دانشگاه‌های داخلی و خارجی": 1,
+    "پایگاه‌های رسمی و سازمانی": 3,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 11
   },
   "capacity_types": {
     "کاندیدای پژوهشی": 286,
     "پروفایل وب": 6,
     "پروفایل فنی": 55,
     "کاندیدای دانشگاهی": 3,
-    "کاندیدای کشف از سرنخ": 22
+    "کاندیدای کشف از سرنخ": 22,
+    "دانشگاهی / پژوهشی": 5,
+    "دانشگاهی / فنی": 2,
+    "دانشگاهی / کارآفرینی": 1,
+    "علمی / پزشکی": 1,
+    "فلسفه / علوم انسانی": 1,
+    "دانشگاهی / مهندسی": 1,
+    "مهندسی / معماری": 1,
+    "پژوهشی / دانشگاهی": 1,
+    "پزشکی": 2,
+    "سایر": 86,
+    "مهندسی / صنعتی": 1,
+    "فنی / دانش‌بنیان": 1,
+    "مدیریت / صنعتی": 1,
+    "مدیریت / صنعت": 1,
+    "کارآفرینی / صنایع غذایی": 1,
+    "مدیریت / معدن": 1,
+    "مدیریت / مهندسی": 1,
+    "مدیریت / حمل‌ونقل": 1,
+    "صنعت / شیشه": 1,
+    "مهندسی مکانیک / تولید": 1,
+    "ورزش / مربی": 2,
+    "ورزش / والیبال": 8
   },
   "evidence_types": {
     "OpenAlex author search": 286,
@@ -51,9 +77,57 @@
     "lead: عبدالرضا فرزان": 1,
     "query: عبدالرضا فرزان": 1,
     "lead: عبدالناصر فرزان": 1,
-    "query: عبدالناصر فرزان": 1
+    "query: عبدالناصر فرزان": 1,
+    "ResearchGate profile": 6,
+    "Current institution: Ardakan University": 3,
+    "Ardakan University Academia profile": 1,
+    "Ardakan University faculty affiliation": 1,
+    "Faculty of Ardakan University": 1,
+    "Ardakan University affiliation": 2,
+    "ResearchGate-linked publication": 1,
+    "IDEAS/RePEc author profile": 1,
+    "Affiliation: Ardakan University": 1,
+    "Public biographical source": 2,
+    "Birthplace: Ardakan": 2,
+    "Profile name and academic record": 1,
+    "Civil808 public profile": 1,
+    "City: Ardakan; workplace: Ardakan; occupation: engineer": 1,
+    "Public professional profile": 2,
+    "Current role: Scientific Researcher at Ardakan University": 1,
+    "Public medical profile": 1,
+    "Ardakan-linked public profile": 1,
+    "Personal professional profile": 1,
+    "Ardakan Float Glass work history": 1,
+    "Public LinkedIn profile": 2,
+    "Ardakan.gov.ir affiliation": 1,
+    "Chadormalu public-relations report": 1,
+    "Role and Ardakani identification": 1,
+    "Public company/business interview": 1,
+    "CEO role": 1,
+    "Company about page": 1,
+    "Self-described birthplace/origin and management role": 1,
+    "Public company registry record": 1,
+    "CEO and board role": 1,
+    "Ardakan project experience": 1,
+    "Public business directory": 1,
+    "Company management listing": 1,
+    "Public LinkedIn directory result": 1,
+    "Ardakan Glass Corporation association": 1,
+    "Mechanical engineering and manufacturing experience": 1,
+    "Public medical directory": 1,
+    "Practice address in Ardakan": 1,
+    "Public sports report": 10,
+    "Ardakan tag in competition roster": 10
   },
   "possible_duplicates": [
+    {
+      "key": "ali ardakani",
+      "candidate_indexes": [
+        18,
+        419
+      ],
+      "count": 2
+    },
     {
       "key": "alireza hekmat ardakan",
       "candidate_indexes": [
@@ -87,6 +161,22 @@
       "count": 2
     },
     {
+      "key": "hassan ali vahedian ardakani",
+      "candidate_indexes": [
+        52,
+        421
+      ],
+      "count": 2
+    },
+    {
+      "key": "mohammad fotouhi ardakani",
+      "candidate_indexes": [
+        92,
+        379
+      ],
+      "count": 2
+    },
+    {
       "key": "mohammad javad ehsani ardakani",
       "candidate_indexes": [
         93,
@@ -98,7 +188,24 @@
       "key": "mojtaba sahraee ardakan",
       "candidate_indexes": [
         110,
-        111
+        111,
+        386
+      ],
+      "count": 3
+    },
+    {
+      "key": "mostafa abouei ardakan",
+      "candidate_indexes": [
+        114,
+        382
+      ],
+      "count": 2
+    },
+    {
+      "key": "nooshin gholhovallahi ardakan",
+      "candidate_indexes": [
+        123,
+        388
       ],
       "count": 2
     },
@@ -107,6 +214,14 @@
       "candidate_indexes": [
         126,
         127
+      ],
+      "count": 2
+    },
+    {
+      "key": "zahra afkhami ardakani",
+      "candidate_indexes": [
+        348,
+        447
       ],
       "count": 2
     }
@@ -5996,7 +6111,7 @@
       "candidate_index": 369,
       "score": 58,
       "evidence_strength": "medium",
-      "verification": "needs_review",
+      "verification": "community_confirmed",
       "evidence_count": 2,
       "has_location": true,
       "has_organization": false,
@@ -6038,6 +6153,1741 @@
         "ardakan_signal",
         "location",
         "structured_source"
+      ]
+    },
+    {
+      "candidate_index": 372,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 373,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 374,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 375,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 376,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 377,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 378,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 379,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 380,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 381,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 382,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 383,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 384,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 385,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 386,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 387,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 388,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 389,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 390,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 391,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 392,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 393,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 394,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 395,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 396,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 397,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 398,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 399,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 400,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 401,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 402,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 403,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 404,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 405,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 406,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 407,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 408,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 409,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 410,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 411,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 412,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 413,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 414,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 415,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 416,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 417,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 418,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 419,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 420,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 421,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 422,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 423,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 424,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 425,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 426,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 427,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 428,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 429,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 430,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 431,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 432,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 433,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 434,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 435,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 436,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 437,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 438,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 439,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 440,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 441,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 442,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 443,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 444,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 445,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 446,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 447,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 448,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 449,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 450,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 451,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 452,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 453,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 454,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 455,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 456,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 457,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 458,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 459,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 460,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 461,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 462,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 463,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 464,
+      "score": 30,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "ardakan_signal",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 465,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 466,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 467,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 468,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 469,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 470,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 471,
+      "score": 15,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 0,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 472,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 473,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 474,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 475,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 476,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 477,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 478,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 479,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 480,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 481,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 482,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 483,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 484,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 485,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 486,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 487,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 488,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 489,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 490,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 491,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 492,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
       ]
     }
   ],
@@ -6386,6 +8236,57 @@
         368
       ],
       "count": 5
+    },
+    {
+      "location": "ardakan iran",
+      "candidate_indexes": [
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        383,
+        384,
+        474,
+        475,
+        476,
+        477,
+        479,
+        480,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492
+      ],
+      "count": 29
+    },
+    {
+      "location": "iran",
+      "candidate_indexes": [
+        382,
+        472
+      ],
+      "count": 2
+    },
+    {
+      "location": "iran ardakan",
+      "candidate_indexes": [
+        473,
+        478
+      ],
+      "count": 2
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."

@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-09-22",
-  "candidate_count": 372,
+  "generated_at": "2026-09-23",
+  "candidate_count": 493,
   "metrics": {
     "openalex_skipped": 304,
     "openalex_cached_enriched": 7,
     "github_enriched": 61,
+    "unsupported_or_missing_id": 121,
     "errors": 0,
     "enriched_total": 68,
-    "skipped_total": 304
+    "skipped_total": 425
   },
   "failures": {},
   "profiles": [
@@ -3131,7 +3132,7 @@
         "location": null,
         "bio": null,
         "public_repos": 19,
-        "followers": 81,
+        "followers": 80,
         "following": 36,
         "created_at": "2019-10-03T10:24:52Z",
         "updated_at": "2026-09-01T15:24:45Z",
@@ -3554,7 +3555,7 @@
         "followers": 20,
         "following": 0,
         "created_at": "2018-04-17T18:27:22Z",
-        "updated_at": "2026-09-02T02:21:31Z",
+        "updated_at": "2026-09-22T17:43:00Z",
         "provider_url": "https://github.com/ardakanian"
       }
     },
@@ -4156,7 +4157,7 @@
         "location": "Iran",
         "bio": "BS Computer engineering & M.Sc IT engineering (multimedia systems)\r\n",
         "public_repos": 17,
-        "followers": 1194,
+        "followers": 1192,
         "following": 991,
         "created_at": "2019-07-26T07:47:04Z",
         "updated_at": "2026-09-14T20:43:19Z",
@@ -4517,6 +4518,853 @@
         "provider": "OpenAlex",
         "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
       }
+    },
+    {
+      "candidate_index": 372,
+      "name": "Abolfazl Azizian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 373,
+      "name": "Hadi Kargar",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 374,
+      "name": "Razieh Sheikhpour",
+      "provider": "دانشگاه‌های داخلی و خارجی",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 375,
+      "name": "Seyed Mojtaba Paydar Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 376,
+      "name": "Heidar Meftahizade",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 377,
+      "name": "Mohammad Reza Barzegar-Bafrooei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 378,
+      "name": "Jamal Dehghani Ashkezari",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 379,
+      "name": "Mohammad Fotouhi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 380,
+      "name": "Mohammad Reza Shams Ardekani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 381,
+      "name": "Reza Davari Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 382,
+      "name": "Mostafa Abouei Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 383,
+      "name": "Mohammad Mehdi Zarei Mahmoudabadi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 384,
+      "name": "Hamidreza Bana Bafrouei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 385,
+      "name": "Mohammad Ebrahimzadeh Ardakani",
+      "provider": "پایگاه‌های رسمی و سازمانی",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 386,
+      "name": "Mojtaba Sahraee Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 387,
+      "name": "Parastoo Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 388,
+      "name": "Nooshin Gholhovallahi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 389,
+      "name": "Shiva Taghavi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 390,
+      "name": "Negin Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 391,
+      "name": "Arian Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 392,
+      "name": "Seema Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 393,
+      "name": "Artin Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 394,
+      "name": "Zehra Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 395,
+      "name": "Ramin Ahmadieh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 396,
+      "name": "Sepidan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 397,
+      "name": "Zahra Ranjbar",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 398,
+      "name": "Massumeh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 399,
+      "name": "Niayesh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 400,
+      "name": "Mojri Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 401,
+      "name": "Shaghayegh Masaeli",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 402,
+      "name": "Aghkariz Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 403,
+      "name": "Sedaye Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 404,
+      "name": "Chufa Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 405,
+      "name": "Robert Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 406,
+      "name": "Ryan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 407,
+      "name": "Mahdi Qanei Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 408,
+      "name": "Kaan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 409,
+      "name": "Mohammad Roghanian Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 410,
+      "name": "Sam Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 411,
+      "name": "Javad Shaker Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 412,
+      "name": "Mohandes Heydari (Ardakan)",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 413,
+      "name": "Pegah Firoozi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 414,
+      "name": "Hamed Mokhtari",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 415,
+      "name": "Zahra Jafari_Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 416,
+      "name": "Noah Toroghi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 417,
+      "name": "Reza Ahmadieh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 418,
+      "name": "Seyed Hamid Reza Mirahmadi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 419,
+      "name": "Ali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 420,
+      "name": "Ali Nazemi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 421,
+      "name": "Hassan Ali Vahedian Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 422,
+      "name": "Ali Paydar Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 423,
+      "name": "Ali Molaee Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 424,
+      "name": "Ali Pasha Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 425,
+      "name": "Ali Nabizadeh Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 426,
+      "name": "Ali Kamali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 427,
+      "name": "Ali Dehestani Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 428,
+      "name": "Ali Shakker Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 429,
+      "name": "Ali Fotouhi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 430,
+      "name": "Ali Moteallehi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 431,
+      "name": "Ali Akbar Kamali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 432,
+      "name": "علی شاکر اردکانی",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 433,
+      "name": "Ali Ebrahimzadeh Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 434,
+      "name": "Ali Shaker Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 435,
+      "name": "Ali Azemi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 436,
+      "name": "Ali Khademalhosseini Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 437,
+      "name": "Ali Ghotbzade Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 438,
+      "name": "Mohammad Ali Ghotbzade Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 439,
+      "name": "Mohamad Ali Behjati Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 440,
+      "name": "Ali Reza Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 441,
+      "name": "Ali Mahmoudi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 442,
+      "name": "Seyed Ali Hatafi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 443,
+      "name": "Keyvan Kakoolaki",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 444,
+      "name": "Hamidreza Mohtashami Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 445,
+      "name": "Bashir Amiri",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 446,
+      "name": "Azam Jafari",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 447,
+      "name": "Zahra Afkhami Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 448,
+      "name": "Mohammadreza Dehestani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 449,
+      "name": "Ahmadreza Hakimi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 450,
+      "name": "Mahdi Ashtian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 451,
+      "name": "Amir Shahabizad",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 452,
+      "name": "Masih Hosseinzadeh",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 453,
+      "name": "Masoud Moradi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 454,
+      "name": "Seyfaddin Shiri",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 455,
+      "name": "Mahdi Abolqasemi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 456,
+      "name": "Hojat Karimian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 457,
+      "name": "Ali Parsaeian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 458,
+      "name": "Jalal Mahmoudzadeh",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 459,
+      "name": "Hamid Dehghani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 460,
+      "name": "Hossein Dehkhodaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 461,
+      "name": "Fatemeh Khodaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 462,
+      "name": "Ahmad Nouri",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 463,
+      "name": "Komeyl Afkhami",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 464,
+      "name": "Mojtaba Majdian Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 465,
+      "name": "Ali Tavakoli",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 466,
+      "name": "Moein Mahboub",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 467,
+      "name": "Mahdi Rezaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 468,
+      "name": "Mostafa Jalali",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 469,
+      "name": "Amin Tavakkoli",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 470,
+      "name": "Soheila Amin Sadrabadi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 471,
+      "name": "Shakiba Sharifi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 472,
+      "name": "Farshad Sayadi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 473,
+      "name": "Davood Shojaaddiny Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 474,
+      "name": "Ahmad Taqdari Ardakani",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 475,
+      "name": "Alireza Mehrabadi",
+      "provider": "پایگاه‌های رسمی و سازمانی",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 476,
+      "name": "Mojtaba Esmaeili",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 477,
+      "name": "Mahmoud Hatefi Ardakani",
+      "provider": "پایگاه‌های رسمی و سازمانی",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 478,
+      "name": "Hossein Saadat",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 479,
+      "name": "Mohammad Reza Dinovi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 480,
+      "name": "Hamid Nedafat Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 481,
+      "name": "Ardakan Mehrnia",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 482,
+      "name": "Mohsen Talaei Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 483,
+      "name": "Yadollah Morovati",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 484,
+      "name": "Hossein Vosoughi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 485,
+      "name": "Abolfazl Aboutalebi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 486,
+      "name": "Seyed Mohammad Mirjafari",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 487,
+      "name": "Amirali Rahimi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 488,
+      "name": "Mohammad Reza Behjati",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 489,
+      "name": "Seyed Ali Mahdizadeh",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 490,
+      "name": "Sina Khabir",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 491,
+      "name": "Sadegh Shaker",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 492,
+      "name": "Saeed Banazadeh",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
     }
   ],
   "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."

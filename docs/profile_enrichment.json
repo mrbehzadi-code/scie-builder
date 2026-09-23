@@ -1,18 +1,22 @@
 {
-  "generated_at": "2026-09-22",
-  "candidate_count": 372,
+  "generated_at": "2026-09-23",
+  "candidate_count": 493,
   "metrics": {
     "with_organization": 157,
-    "with_location": 83,
+    "with_location": 118,
     "with_stable_source_id": 372,
-    "ardakan_location_signal": 83,
+    "ardakan_location_signal": 115,
     "completeness_high": 157,
-    "completeness_medium": 215,
-    "completeness_low": 0
+    "completeness_medium": 250,
+    "completeness_low": 86
   },
   "providers": {
     "OpenAlex": 311,
-    "GitHub": 61
+    "GitHub": 61,
+    "وب عمومی و رسانه‌ها": 106,
+    "دانشگاه‌های داخلی و خارجی": 1,
+    "پایگاه‌های رسمی و سازمانی": 3,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 11
   },
   "profiles": [
     {
@@ -14797,7 +14801,7 @@
         "country": null,
         "ardakan_signal": true
       },
-      "verification": "needs_review",
+      "verification": "community_confirmed",
       "confidence": "low",
       "evidence": [
         "lead: محمود فرزان",
@@ -14895,6 +14899,4588 @@
       ],
       "missing_fields": [
         "organization",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 372,
+      "name": "Abolfazl Azizian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.researchgate.net/profile/Abolfazl-Azizian",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "ResearchGate profile",
+        "Current institution: Ardakan University"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 373,
+      "name": "Hadi Kargar",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.researchgate.net/profile/Hadi-Kargar-2",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "ResearchGate profile",
+        "Current institution: Ardakan University"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 374,
+      "name": "Razieh Sheikhpour",
+      "provider": "دانشگاه‌های داخلی و خارجی",
+      "source": "دانشگاه‌های داخلی و خارجی",
+      "source_url": "https://ardakan.academia.edu/RSheikhpour",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "Ardakan University Academia profile",
+        "Ardakan University faculty affiliation"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 375,
+      "name": "Seyed Mojtaba Paydar Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.researchgate.net/profile/Seyed-Ardakani",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "ResearchGate profile",
+        "Current institution: Ardakan University"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 376,
+      "name": "Heidar Meftahizade",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.researchgate.net/profile/Heidar-Meftahizade",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "ResearchGate profile",
+        "Faculty of Ardakan University"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 377,
+      "name": "Mohammad Reza Barzegar-Bafrooei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.researchgate.net/profile/Mohammad-Barzegar-Bafrooei",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "ResearchGate profile",
+        "Ardakan University affiliation"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 378,
+      "name": "Jamal Dehghani Ashkezari",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://link.springer.com/book/10.1007/978-981-16-6651-3",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "ResearchGate-linked publication",
+        "Ardakan University affiliation"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 379,
+      "name": "Mohammad Fotouhi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ideas.repec.org/f/pfo352.html",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "IDEAS/RePEc author profile",
+        "Affiliation: Ardakan University"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 380,
+      "name": "Mohammad Reza Shams Ardekani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://en.wikipedia.org/wiki/Mohammad_Reza_Shams_Ardekani",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public biographical source",
+        "Birthplace: Ardakan"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 381,
+      "name": "Reza Davari Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.ketabnak.com/persons/5190/%D8%B1%D8%B6%D8%A7%2B%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%2B%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86%DB%8C",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public biographical source",
+        "Birthplace: Ardakan"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 382,
+      "name": "Mostafa Abouei Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.researchgate.net/profile/Mostafa-Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Iran",
+        "city": null,
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "ResearchGate profile",
+        "Profile name and academic record"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 383,
+      "name": "Mohammad Mehdi Zarei Mahmoudabadi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://civil808.com/user/73161/4480115147",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "Civil808 public profile",
+        "City: Ardakan; workplace: Ardakan; occupation: engineer"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 384,
+      "name": "Hamidreza Bana Bafrouei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.signalhire.com/profiles/hamidreza-bana-bafrouei/239885929",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public professional profile",
+        "Current role: Scientific Researcher at Ardakan University"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 385,
+      "name": "Mohammad Ebrahimzadeh Ardakani",
+      "provider": "پایگاه‌های رسمی و سازمانی",
+      "source": "پایگاه‌های رسمی و سازمانی",
+      "source_url": "https://zibalife.ir/doctors-search/25/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%DB%8C%D9%85-%D8%B2%D8%A7%D8%AF%D9%87-%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86%DB%8C",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Yazd / Ardakan, Iran",
+        "city": "Ardakan",
+        "province": "Yazd",
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public medical profile",
+        "Ardakan-linked public profile"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 386,
+      "name": "Mojtaba Sahraee Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 387,
+      "name": "Parastoo Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 388,
+      "name": "Nooshin Gholhovallahi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 389,
+      "name": "Shiva Taghavi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 390,
+      "name": "Negin Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 391,
+      "name": "Arian Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 392,
+      "name": "Seema Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 393,
+      "name": "Artin Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 394,
+      "name": "Zehra Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 395,
+      "name": "Ramin Ahmadieh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 396,
+      "name": "Sepidan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 397,
+      "name": "Zahra Ranjbar",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 398,
+      "name": "Massumeh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 399,
+      "name": "Niayesh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 400,
+      "name": "Mojri Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 401,
+      "name": "Shaghayegh Masaeli",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 402,
+      "name": "Aghkariz Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 403,
+      "name": "Sedaye Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 404,
+      "name": "Chufa Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 405,
+      "name": "Robert Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 406,
+      "name": "Ryan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 407,
+      "name": "Mahdi Qanei Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 408,
+      "name": "Kaan Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 409,
+      "name": "Mohammad Roghanian Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 410,
+      "name": "Sam Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 411,
+      "name": "Javad Shaker Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 412,
+      "name": "Mohandes Heydari (Ardakan)",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 413,
+      "name": "Pegah Firoozi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 414,
+      "name": "Hamed Mokhtari",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 415,
+      "name": "Zahra Jafari_Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 416,
+      "name": "Noah Toroghi Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 417,
+      "name": "Reza Ahmadieh Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 418,
+      "name": "Seyed Hamid Reza Mirahmadi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 419,
+      "name": "Ali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 420,
+      "name": "Ali Nazemi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 421,
+      "name": "Hassan Ali Vahedian Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 422,
+      "name": "Ali Paydar Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 423,
+      "name": "Ali Molaee Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 424,
+      "name": "Ali Pasha Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 425,
+      "name": "Ali Nabizadeh Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 426,
+      "name": "Ali Kamali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 427,
+      "name": "Ali Dehestani Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 428,
+      "name": "Ali Shakker Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 429,
+      "name": "Ali Fotouhi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 430,
+      "name": "Ali Moteallehi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 431,
+      "name": "Ali Akbar Kamali Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 432,
+      "name": "علی شاکر اردکانی",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 433,
+      "name": "Ali Ebrahimzadeh Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 434,
+      "name": "Ali Shaker Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 435,
+      "name": "Ali Azemi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 436,
+      "name": "Ali Khademalhosseini Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 437,
+      "name": "Ali Ghotbzade Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 438,
+      "name": "Mohammad Ali Ghotbzade Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 439,
+      "name": "Mohamad Ali Behjati Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 440,
+      "name": "Ali Reza Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 441,
+      "name": "Ali Mahmoudi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 442,
+      "name": "Seyed Ali Hatafi Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/pub/dir/Ali/Ardakani/ir-0-Iran",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 443,
+      "name": "Keyvan Kakoolaki",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/keyvan-kakoolaki-a47b74295",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 444,
+      "name": "Hamidreza Mohtashami Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/hamidreza-mohtashami-ardakani-21a88134",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 445,
+      "name": "Bashir Amiri",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/bashiramiri",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 446,
+      "name": "Azam Jafari",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/azam-jafari",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 447,
+      "name": "Zahra Afkhami Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/zahra-afkhami-ardakani",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 448,
+      "name": "Mohammadreza Dehestani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/mohamadreza-dehestani-0b6a68352",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 449,
+      "name": "Ahmadreza Hakimi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/ahmadreza-hakimi-545a58225",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 450,
+      "name": "Mahdi Ashtian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/mahdi-ashtian-093b68184",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 451,
+      "name": "Amir Shahabizad",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/amir-shahabizad-b7911b203",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 452,
+      "name": "Masih Hosseinzadeh",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/masihhosseinzadeh",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 453,
+      "name": "Masoud Moradi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/masoud-moradi-49960176",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 454,
+      "name": "Seyfaddin Shiri",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/seyfaddin-shiri-17a662134",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 455,
+      "name": "Mahdi Abolqasemi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/mahdi-abolqasemi-ba0b4920a",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 456,
+      "name": "Hojat Karimian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/hojat-karimian-492b10145",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 457,
+      "name": "Ali Parsaeian",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://uk.linkedin.com/in/ali-parsaeian-08aa34153",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 458,
+      "name": "Jalal Mahmoudzadeh",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/jalal-mahmoudzadeh-aba70790",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 459,
+      "name": "Hamid Dehghani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/hamid-dehghani-4b3365a3",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 460,
+      "name": "Hossein Dehkhodaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/hossein-dehkhodaei-4aa61a190",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 461,
+      "name": "Fatemeh Khodaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/fatemeh-khodaei-101a55261",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 462,
+      "name": "Ahmad Nouri",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/ahmad-nouri-44367810b",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 463,
+      "name": "Komeyl Afkhami",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/komeyl-afkhami",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 464,
+      "name": "Mojtaba Majdian Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/mojtaba-majdian-ardakani-4a60397a",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 30,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 465,
+      "name": "Ali Tavakoli",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/ali-tavakoli-b5595aa9",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 466,
+      "name": "Moein Mahboub",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/moein-mahboub-%D9%85%D8%B9%DB%8C%D9%86-%D9%85%D8%AD%D8%A8%D9%88%D8%A8-983646210",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 467,
+      "name": "Mahdi Rezaei",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/mahdirezaeiprocessing",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 468,
+      "name": "Mostafa Jalali",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/mostafajalali",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 469,
+      "name": "Amin Tavakkoli",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/amintavakkoli",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 470,
+      "name": "Soheila Amin Sadrabadi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/soheila-amin-sadrabadi-0b895668",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 471,
+      "name": "Shakiba Sharifi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/shakibashariifi",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [],
+      "evidence_count": 0,
+      "quality_score": 15,
+      "evidence_strength": "weak",
+      "profile_completeness": 17,
+      "available_fields": [
+        "source_url"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "stable_source_id",
+        "evidence",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 472,
+      "name": "Farshad Sayadi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://farshadsayadi.com/about/",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Iran",
+        "city": null,
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Personal professional profile",
+        "Ardakan Float Glass work history"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 473,
+      "name": "Davood Shojaaddiny Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://ir.linkedin.com/in/shojaaddiny",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Iran / Ardakan",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public LinkedIn profile",
+        "Ardakan.gov.ir affiliation"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 474,
+      "name": "Ahmad Taqdari Ardakani",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/chadormalupr/1528",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "Chadormalu public-relations report",
+        "Role and Ardakani identification"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 475,
+      "name": "Alireza Mehrabadi",
+      "provider": "پایگاه‌های رسمی و سازمانی",
+      "source": "پایگاه‌های رسمی و سازمانی",
+      "source_url": "https://ofoghmihan.ir/news/%DA%A9%D8%B3%D8%B1%D8%A7-%D8%A7%D9%88%D9%84%DB%8C%D9%86-%D9%88-%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86-%D8%AA%D9%88%D9%84%DB%8C%D8%AF%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D8%B3%D8%B1%D8%A7%D9%85/",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "Public company/business interview",
+        "CEO role"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 476,
+      "name": "Mojtaba Esmaeili",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://abr-o-bad.com/about-us/",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "Company about page",
+        "Self-described birthplace/origin and management role"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 477,
+      "name": "Mahmoud Hatefi Ardakani",
+      "provider": "پایگاه‌های رسمی و سازمانی",
+      "source": "پایگاه‌های رسمی و سازمانی",
+      "source_url": "https://ifirma.ir/5D3970",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "Public company registry record",
+        "CEO and board role"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 478,
+      "name": "Hossein Saadat",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.signalhire.com/profiles/hossein-saadat%27s-email/172275521",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Iran / Ardakan",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public professional profile",
+        "Ardakan project experience"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 479,
+      "name": "Mohammad Reza Dinovi",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.faaltarin.com/?id=48",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public business directory",
+        "Company management listing"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 480,
+      "name": "Hamid Nedafat Ardakan",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.linkedin.com/pub/dir/%2B/Ardakan",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "Public LinkedIn directory result",
+        "Ardakan Glass Corporation association"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 481,
+      "name": "Ardakan Mehrnia",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://de.linkedin.com/in/ardakan-mehrnia-088682194",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Germany / Iran connection requires verification",
+        "city": null,
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "Public LinkedIn profile",
+        "Mechanical engineering and manufacturing experience"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 482,
+      "name": "Mohsen Talaei Ardakani",
+      "provider": "وب عمومی و رسانه‌ها",
+      "source": "وب عمومی و رسانه‌ها",
+      "source_url": "https://www.darmankade.com/doctor/424469/",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "high",
+      "evidence": [
+        "Public medical directory",
+        "Practice address in Ardakan"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 483,
+      "name": "Yadollah Morovati",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 484,
+      "name": "Hossein Vosoughi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 485,
+      "name": "Abolfazl Aboutalebi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 486,
+      "name": "Seyed Mohammad Mirjafari",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 487,
+      "name": "Amirali Rahimi",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 488,
+      "name": "Mohammad Reza Behjati",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 489,
+      "name": "Seyed Ali Mahdizadeh",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 490,
+      "name": "Sina Khabir",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 491,
+      "name": "Sadegh Shaker",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 492,
+      "name": "Saeed Banazadeh",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakansport?q=%23%D8%A7%D8%B1%D8%AF%DA%A9%D8%A7%D9%86",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "Ardakan, Iran",
+        "city": "Ardakan",
+        "province": null,
+        "country": "Iran",
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "Public sports report",
+        "Ardakan tag in competition roster"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
         "work_count"
       ]
     }
