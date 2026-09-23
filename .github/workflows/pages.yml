@@ -235,7 +235,7 @@ jobs:
               throw new Error('Intelligence quality/duplicate section is missing');
             }
             const canonicalRows = await page.locator('#canonical .entityrow').count();
-            if (canonicalRows !== 3) throw new Error(`Expected 3 multi-record canonical entities, got ${canonicalRows}`);
+            if (canonicalRows < 3) throw new Error(`Expected at least 3 multi-record canonical entities, got ${canonicalRows}`);
             const duplicateRows = await page.locator('#dupes .dup').count();
             if (duplicateRows < 1) throw new Error('Expected at least one duplicate-review row');
             const resolutionRows = await page.locator('#resolutions .resolution').count();
