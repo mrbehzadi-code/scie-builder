@@ -5,13 +5,12 @@
     "openalex_skipped": 651,
     "unsupported_or_missing_id": 282,
     "openalex_reused": 7,
-    "errors": 60,
-    "enriched_total": 7,
+    "github_enriched": 60,
+    "errors": 0,
+    "enriched_total": 67,
     "skipped_total": 933
   },
-  "failures": {
-    "GitHub:URLError": 60
-  },
+  "failures": {},
   "profiles": [
     {
       "candidate_index": 0,
@@ -3185,25 +3184,64 @@
       "candidate_index": 329,
       "name": "Abolfazl Kamali Ardakani",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AbolfazlKamaliArdakani",
+        "display_name": "Abolfazl Kamali Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Ardakan, Yazd, Iran",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 6,
+        "following": 11,
+        "created_at": "2023-02-02T15:41:26Z",
+        "updated_at": "2023-02-05T05:44:12Z",
+        "provider_url": "https://github.com/AbolfazlKamaliArdakani"
+      }
     },
     {
       "candidate_index": 330,
       "name": "AbolfazlKamaliArdakani",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AbolfazlKamaliArdakani",
+        "display_name": "Abolfazl Kamali Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Ardakan, Yazd, Iran",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 6,
+        "following": 11,
+        "created_at": "2023-02-02T15:41:26Z",
+        "updated_at": "2023-02-05T05:44:12Z",
+        "provider_url": "https://github.com/AbolfazlKamaliArdakani"
+      }
     },
     {
       "candidate_index": 331,
       "name": "AbolfazlKamalli",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AbolfazlKamalli",
+        "display_name": "Abolfazl Kamali Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Iran, Yazd",
+        "bio": null,
+        "public_repos": 9,
+        "followers": 13,
+        "following": 16,
+        "created_at": "2024-03-11T15:08:35Z",
+        "updated_at": "2026-09-10T12:18:24Z",
+        "provider_url": "https://github.com/AbolfazlKamalli"
+      }
     },
     {
       "candidate_index": 332,
@@ -3233,9 +3271,22 @@
       "candidate_index": 335,
       "name": "Ali",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakaniali",
+        "display_name": "Ali",
+        "company": null,
+        "blog": null,
+        "location": "Islamic republic of Iran, Yazd, Ardakan",
+        "bio": "A video game lover from desert",
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2020-09-07T09:06:19Z",
+        "updated_at": "2020-09-07T09:11:29Z",
+        "provider_url": "https://github.com/Ardakaniali"
+      }
     },
     {
       "candidate_index": 336,
@@ -3431,9 +3482,22 @@
       "candidate_index": 356,
       "name": "Alireza Dashti",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AlirezaDashti",
+        "display_name": "Alireza Dashti",
+        "company": "EEFA CERAM CO",
+        "blog": null,
+        "location": "Ardakan (Yazd)",
+        "bio": "I am a human, a friend, a brother and a father",
+        "public_repos": 0,
+        "followers": 18,
+        "following": 15,
+        "created_at": "2015-06-26T06:50:20Z",
+        "updated_at": "2024-04-08T10:59:06Z",
+        "provider_url": "https://github.com/AlirezaDashti"
+      }
     },
     {
       "candidate_index": 357,
@@ -3470,57 +3534,148 @@
       "candidate_index": 359,
       "name": "AmidArdakani",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AmidArdakani",
+        "display_name": "Amid Ardakani",
+        "company": "FSU",
+        "blog": null,
+        "location": null,
+        "bio": "Associate Teaching Professor at Florida State University",
+        "public_repos": 3,
+        "followers": 0,
+        "following": 5,
+        "created_at": "2023-04-23T19:46:27Z",
+        "updated_at": "2026-09-12T02:38:16Z",
+        "provider_url": "https://github.com/AmidArdakani"
+      }
     },
     {
       "candidate_index": 360,
       "name": "AmirhArdakani",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "AmirhArdakani",
+        "display_name": "Amir Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Iran | Shahroud",
+        "bio": null,
+        "public_repos": 6,
+        "followers": 7,
+        "following": 11,
+        "created_at": "2017-08-27T17:12:34Z",
+        "updated_at": "2026-09-20T15:51:05Z",
+        "provider_url": "https://github.com/AmirhArdakani"
+      }
     },
     {
       "candidate_index": 361,
       "name": "Amirho3ein Roustaei",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "amirhoseinardakanei",
+        "display_name": "Amirho3ein Roustaei",
+        "company": "Technoosite",
+        "blog": "technoosite.ir",
+        "location": "Iran, Yazd, Ardakan",
+        "bio": "My profession is Python programming and I work in the web field with the Django framework. :)",
+        "public_repos": 1,
+        "followers": 1,
+        "following": 1,
+        "created_at": "2025-01-23T09:09:59Z",
+        "updated_at": "2026-09-14T09:56:18Z",
+        "provider_url": "https://github.com/amirhoseinardakanei"
+      }
     },
     {
       "candidate_index": 362,
       "name": "amirhosein8127",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "amirhosein8127",
+        "display_name": "amir hosein ardakani",
+        "company": null,
+        "blog": null,
+        "location": "tehran",
+        "bio": ".",
+        "public_repos": 2,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2022-05-16T14:16:13Z",
+        "updated_at": "2022-05-16T14:28:30Z",
+        "provider_url": "https://github.com/amirhosein8127"
+      }
     },
     {
       "candidate_index": 363,
       "name": "arashardakani",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "arashardakani",
+        "display_name": "Arash Ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 9,
+        "followers": 5,
+        "following": 0,
+        "created_at": "2017-11-27T03:23:59Z",
+        "updated_at": "2026-09-04T17:07:08Z",
+        "provider_url": "https://github.com/arashardakani"
+      }
     },
     {
       "candidate_index": 364,
       "name": "arbit3rr",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "arbit3rr",
+        "display_name": "Amirhossein Heydarian Ardakani",
+        "company": null,
+        "blog": "https://scholar.google.com/citations?user=5U9fGhYAAAAJ&hl=en",
+        "location": null,
+        "bio": null,
+        "public_repos": 19,
+        "followers": 80,
+        "following": 36,
+        "created_at": "2019-10-03T10:24:52Z",
+        "updated_at": "2026-09-01T15:24:45Z",
+        "provider_url": "https://github.com/arbit3rr"
+      }
     },
     {
       "candidate_index": 365,
       "name": "ardakan",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-04-16T11:15:42Z",
+        "updated_at": "2023-04-16T11:15:42Z",
+        "provider_url": "https://github.com/ardakan"
+      }
     },
     {
       "candidate_index": 366,
@@ -3533,281 +3688,736 @@
       "candidate_index": 367,
       "name": "ardakan111",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan111",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2020-12-19T12:28:51Z",
+        "updated_at": "2020-12-19T12:28:51Z",
+        "provider_url": "https://github.com/ardakan111"
+      }
     },
     {
       "candidate_index": 368,
       "name": "ardakan12",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan12",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-08-12T18:04:08Z",
+        "updated_at": "2023-08-12T18:04:08Z",
+        "provider_url": "https://github.com/ardakan12"
+      }
     },
     {
       "candidate_index": 369,
       "name": "Ardakan125",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakan125",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2024-11-19T10:16:47Z",
+        "updated_at": "2024-11-19T10:19:37Z",
+        "provider_url": "https://github.com/Ardakan125"
+      }
     },
     {
       "candidate_index": 370,
       "name": "ardakan1717-star",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan1717-star",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-04-09T18:23:21Z",
+        "updated_at": "2026-04-09T18:23:21Z",
+        "provider_url": "https://github.com/ardakan1717-star"
+      }
     },
     {
       "candidate_index": 371,
       "name": "ardakan40-lab",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan40-lab",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 2,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-07-07T04:24:31Z",
+        "updated_at": "2026-08-04T01:57:56Z",
+        "provider_url": "https://github.com/ardakan40-lab"
+      }
     },
     {
       "candidate_index": 372,
       "name": "ardakananeva-sazorland",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakananeva-sazorland",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-07-17T12:02:17Z",
+        "updated_at": "2026-07-17T12:02:17Z",
+        "provider_url": "https://github.com/ardakananeva-sazorland"
+      }
     },
     {
       "candidate_index": 373,
       "name": "ArdaKanat",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ArdaKanat",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2024-09-29T07:37:23Z",
+        "updated_at": "2024-09-29T07:37:26Z",
+        "provider_url": "https://github.com/ArdaKanat"
+      }
     },
     {
       "candidate_index": 374,
       "name": "ardakanata",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanata",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-11-11T11:49:03Z",
+        "updated_at": "2023-11-11T11:49:03Z",
+        "provider_url": "https://github.com/ardakanata"
+      }
     },
     {
       "candidate_index": 375,
       "name": "ArdaKanbur",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ArdaKanbur",
+        "display_name": "AKR",
+        "company": "Bigrise Technologies",
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 1,
+        "following": 1,
+        "created_at": "2021-11-25T11:02:39Z",
+        "updated_at": "2026-05-14T17:14:29Z",
+        "provider_url": "https://github.com/ArdaKanbur"
+      }
     },
     {
       "candidate_index": 376,
       "name": "ardakancan41-del",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakancan41-del",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-11-05T17:01:51Z",
+        "updated_at": "2025-11-05T17:01:51Z",
+        "provider_url": "https://github.com/ardakancan41-del"
+      }
     },
     {
       "candidate_index": 377,
       "name": "ardakandemir",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakandemir",
+        "display_name": "Arda Kandemir",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2018-12-28T17:02:39Z",
+        "updated_at": "2026-08-16T19:54:21Z",
+        "provider_url": "https://github.com/ardakandemir"
+      }
     },
     {
       "candidate_index": 378,
       "name": "ardakaner",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakaner",
+        "display_name": "Arda",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "no bio yet.",
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-04-16T20:47:20Z",
+        "updated_at": "2026-07-14T19:52:05Z",
+        "provider_url": "https://github.com/ardakaner"
+      }
     },
     {
       "candidate_index": 379,
       "name": "ardakani",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakani",
+        "display_name": "Behzad Ardakani",
+        "company": "Skillmatic AB",
+        "blog": null,
+        "location": "Västerås",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 1,
+        "following": 0,
+        "created_at": "2013-06-20T18:50:17Z",
+        "updated_at": "2026-08-07T20:17:34Z",
+        "provider_url": "https://github.com/ardakani"
+      }
     },
     {
       "candidate_index": 380,
       "name": "Ardakani1",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakani1",
+        "display_name": "Ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "you know excatly who i am....",
+        "public_repos": 14,
+        "followers": 6,
+        "following": 17,
+        "created_at": "2021-12-04T20:59:22Z",
+        "updated_at": "2026-08-17T09:33:03Z",
+        "provider_url": "https://github.com/Ardakani1"
+      }
     },
     {
       "candidate_index": 381,
       "name": "Ardakani79",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakani79",
+        "display_name": "Mohammad Hossein Shaker Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Isfahan-Iran",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 1,
+        "following": 3,
+        "created_at": "2023-04-11T15:13:35Z",
+        "updated_at": "2026-08-16T07:13:15Z",
+        "provider_url": "https://github.com/Ardakani79"
+      }
     },
     {
       "candidate_index": 382,
       "name": "ardakaniahmadali-arch",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakaniahmadali-arch",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-01-28T07:27:01Z",
+        "updated_at": "2026-01-28T07:27:01Z",
+        "provider_url": "https://github.com/ardakaniahmadali-arch"
+      }
     },
     {
       "candidate_index": 383,
       "name": "Ardakaniali",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakaniali",
+        "display_name": "Ali",
+        "company": null,
+        "blog": null,
+        "location": "Islamic republic of Iran, Yazd, Ardakan",
+        "bio": "A video game lover from desert",
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2020-09-07T09:06:19Z",
+        "updated_at": "2020-09-07T09:11:29Z",
+        "provider_url": "https://github.com/Ardakaniali"
+      }
     },
     {
       "candidate_index": 384,
       "name": "ardakaniamirhossein1993",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakaniamirhossein1993",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-07-07T12:04:47Z",
+        "updated_at": "2026-07-07T12:04:47Z",
+        "provider_url": "https://github.com/ardakaniamirhossein1993"
+      }
     },
     {
       "candidate_index": 385,
       "name": "ardakanian",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanian",
+        "display_name": "Omid Ardakanian",
+        "company": "University of Alberta @sustainable-computing ",
+        "blog": "http://webdocs.cs.ualberta.ca/~oardakan/",
+        "location": null,
+        "bio": null,
+        "public_repos": 2,
+        "followers": 20,
+        "following": 0,
+        "created_at": "2018-04-17T18:27:22Z",
+        "updated_at": "2026-09-22T17:43:00Z",
+        "provider_url": "https://github.com/ardakanian"
+      }
     },
     {
       "candidate_index": 386,
       "name": "ardakanian-bidgely",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanian-bidgely",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-11-07T19:17:06Z",
+        "updated_at": "2026-01-13T21:38:03Z",
+        "provider_url": "https://github.com/ardakanian-bidgely"
+      }
     },
     {
       "candidate_index": 387,
       "name": "ardakanim",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanim",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 1,
+        "following": 0,
+        "created_at": "2019-06-22T04:57:11Z",
+        "updated_at": "2019-06-22T04:57:11Z",
+        "provider_url": "https://github.com/ardakanim"
+      }
     },
     {
       "candidate_index": 388,
       "name": "ardakanim50-lab",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanim50-lab",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-01-08T12:41:01Z",
+        "updated_at": "2026-01-08T12:41:01Z",
+        "provider_url": "https://github.com/ardakanim50-lab"
+      }
     },
     {
       "candidate_index": 389,
       "name": "ardakanimd",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanimd",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-11-27T15:21:05Z",
+        "updated_at": "2026-08-14T23:56:29Z",
+        "provider_url": "https://github.com/ardakanimd"
+      }
     },
     {
       "candidate_index": 390,
       "name": "ArdaKANIPEK",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ArdaKANIPEK",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-04-30T16:50:01Z",
+        "updated_at": "2025-04-30T16:50:08Z",
+        "provider_url": "https://github.com/ArdaKANIPEK"
+      }
     },
     {
       "candidate_index": 391,
       "name": "ardakanisaba",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanisaba",
+        "display_name": "Saba Ardakani",
+        "company": "Utah Sate University",
+        "blog": null,
+        "location": "United States",
+        "bio": "Graduate Research Assistant at Utah State University",
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-06-11T14:53:06Z",
+        "updated_at": "2026-05-18T17:11:08Z",
+        "provider_url": "https://github.com/ardakanisaba"
+      }
     },
     {
       "candidate_index": 392,
       "name": "Ardakaniz",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakaniz",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": "Orsay, France",
+        "bio": "Personal projects ;\r\n\r\nFor academic projects see @arenaudineau",
+        "public_repos": 12,
+        "followers": 27,
+        "following": 26,
+        "created_at": "2015-02-12T11:07:17Z",
+        "updated_at": "2026-09-21T17:10:20Z",
+        "provider_url": "https://github.com/Ardakaniz"
+      }
     },
     {
       "candidate_index": 393,
       "name": "ArdaKanka07",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ArdaKanka07",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2021-09-09T13:45:03Z",
+        "updated_at": "2021-10-29T11:36:52Z",
+        "provider_url": "https://github.com/ArdaKanka07"
+      }
     },
     {
       "candidate_index": 394,
       "name": "ardakankasra",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakankasra",
+        "display_name": "Kasra Ardakan",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "a front-end developer with 2 month of experience.\r\nbased in IRAN. i'm open to any kind of challenge to test my skill.\r\ni started programming cause i love it.",
+        "public_repos": 1,
+        "followers": 6,
+        "following": 12,
+        "created_at": "2024-11-27T18:50:13Z",
+        "updated_at": "2026-09-21T13:53:23Z",
+        "provider_url": "https://github.com/ardakankasra"
+      }
     },
     {
       "candidate_index": 395,
       "name": "Ardakann",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Ardakann",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2021-01-17T15:16:10Z",
+        "updated_at": "2024-02-13T23:06:45Z",
+        "provider_url": "https://github.com/Ardakann"
+      }
     },
     {
       "candidate_index": 396,
       "name": "ardakansu",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakansu",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2022-06-01T13:07:35Z",
+        "updated_at": "2022-06-01T13:07:35Z",
+        "provider_url": "https://github.com/ardakansu"
+      }
     },
     {
       "candidate_index": 397,
       "name": "ardakantar",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantar",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-03-07T21:44:09Z",
+        "updated_at": "2023-04-10T01:43:49Z",
+        "provider_url": "https://github.com/ardakantar"
+      }
     },
     {
       "candidate_index": 398,
       "name": "ardakantarci",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantarci",
+        "display_name": "Arda Kantarcı",
+        "company": null,
+        "blog": null,
+        "location": "Turkey, İstanbul",
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2017-02-26T19:15:46Z",
+        "updated_at": "2026-09-10T10:26:46Z",
+        "provider_url": "https://github.com/ardakantarci"
+      }
     },
     {
       "candidate_index": 399,
       "name": "ardakantes",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantes",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 2,
+        "followers": 1,
+        "following": 0,
+        "created_at": "2021-10-21T09:24:59Z",
+        "updated_at": "2026-09-12T06:21:21Z",
+        "provider_url": "https://github.com/ardakantes"
+      }
     },
     {
       "candidate_index": 400,
       "name": "ardakantrci",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantrci",
+        "display_name": "Arda Kantarcı",
+        "company": null,
+        "blog": null,
+        "location": "Istanbul,Turkey",
+        "bio": null,
+        "public_repos": 1,
+        "followers": 6,
+        "following": 4,
+        "created_at": "2017-06-04T13:04:33Z",
+        "updated_at": "2018-07-03T06:40:01Z",
+        "provider_url": "https://github.com/ardakantrci"
+      }
     },
     {
       "candidate_index": 401,
       "name": "ardakanzi",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanzi",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2022-12-26T23:43:54Z",
+        "updated_at": "2022-12-26T23:43:54Z",
+        "provider_url": "https://github.com/ardakanzi"
+      }
     },
     {
       "candidate_index": 402,
@@ -3827,9 +4437,22 @@
       "candidate_index": 404,
       "name": "Behinsomnia9",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Behinsomnia9",
+        "display_name": "Behrad Ardakani Khezrzadeh",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "I have been in love with computers since as far as I can remember!",
+        "public_repos": 6,
+        "followers": 0,
+        "following": 3,
+        "created_at": "2023-11-21T11:52:57Z",
+        "updated_at": "2026-05-30T14:57:51Z",
+        "provider_url": "https://github.com/Behinsomnia9"
+      }
     },
     {
       "candidate_index": 405,
@@ -3842,9 +4465,22 @@
       "candidate_index": 406,
       "name": "Darkshiira",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Darkshiira",
+        "display_name": "Hanna ArefiArdakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "Future Fullstackdeveloper, follow my journey to learn new things!",
+        "public_repos": 33,
+        "followers": 7,
+        "following": 15,
+        "created_at": "2021-12-16T06:03:06Z",
+        "updated_at": "2026-04-21T15:53:30Z",
+        "provider_url": "https://github.com/Darkshiira"
+      }
     },
     {
       "candidate_index": 407,
@@ -3880,9 +4516,22 @@
       "candidate_index": 409,
       "name": "farhaddashtia",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "farhaddashtia",
+        "display_name": "Farhad Dashti Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Vancouver, Canada",
+        "bio": "Software Engineer at Huawei Canada\r\nMASc in Electrical and Computer Engineering, UBC",
+        "public_repos": 9,
+        "followers": 7,
+        "following": 4,
+        "created_at": "2019-11-16T20:31:14Z",
+        "updated_at": "2024-06-07T20:57:44Z",
+        "provider_url": "https://github.com/farhaddashtia"
+      }
     },
     {
       "candidate_index": 410,
@@ -3895,9 +4544,22 @@
       "candidate_index": 411,
       "name": "Hamed",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Hamed-Aarabi",
+        "display_name": "Hamed",
+        "company": null,
+        "blog": null,
+        "location": "iran/yazd/ardakan",
+        "bio": "Backend developer.\r\nPython, Django",
+        "public_repos": 9,
+        "followers": 56,
+        "following": 66,
+        "created_at": "2022-07-07T13:07:07Z",
+        "updated_at": "2024-04-26T14:48:46Z",
+        "provider_url": "https://github.com/Hamed-Aarabi"
+      }
     },
     {
       "candidate_index": 412,
@@ -3930,9 +4592,22 @@
       "candidate_index": 414,
       "name": "Hami-Hafezi",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Hami-Hafezi",
+        "display_name": "Hami Hafezi Ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 4,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-12-22T21:11:23Z",
+        "updated_at": "2026-07-02T12:38:41Z",
+        "provider_url": "https://github.com/Hami-Hafezi"
+      }
     },
     {
       "candidate_index": 415,
@@ -4000,9 +4675,22 @@
       "candidate_index": 423,
       "name": "koushkoush",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "koushkoush",
+        "display_name": "kousha ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 2,
+        "followers": 0,
+        "following": 1,
+        "created_at": "2021-05-10T21:36:11Z",
+        "updated_at": "2025-09-02T21:50:22Z",
+        "provider_url": "https://github.com/koushkoush"
+      }
     },
     {
       "candidate_index": 424,
@@ -4022,9 +4710,22 @@
       "candidate_index": 426,
       "name": "mahsamajd",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "mahsamajd",
+        "display_name": "Mahsa Majdzadeh Ardakani",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "Graduate student @ UofSC",
+        "public_repos": 6,
+        "followers": 0,
+        "following": 5,
+        "created_at": "2022-10-01T19:18:24Z",
+        "updated_at": "2026-07-11T15:43:07Z",
+        "provider_url": "https://github.com/mahsamajd"
+      }
     },
     {
       "candidate_index": 427,
@@ -4054,9 +4755,22 @@
       "candidate_index": 430,
       "name": "MohamadAli92",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "MohamadAli92",
+        "display_name": "Mohammad Ali KazemiArdakani",
+        "company": null,
+        "blog": null,
+        "location": "Houston, Texas, USA",
+        "bio": null,
+        "public_repos": 23,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2021-11-28T13:05:44Z",
+        "updated_at": "2026-08-24T16:23:00Z",
+        "provider_url": "https://github.com/MohamadAli92"
+      }
     },
     {
       "candidate_index": 431,
@@ -4107,9 +4821,22 @@
       "candidate_index": 437,
       "name": "mohammadnabia",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "mohammadnabia",
+        "display_name": "Mohammad Nabizade Ardakani",
+        "company": null,
+        "blog": "https://www.linkedin.com/in/mohammad-nabizade-ardakani/",
+        "location": "Iran",
+        "bio": "BS Computer engineering & M.Sc IT engineering (multimedia systems)\r\n",
+        "public_repos": 17,
+        "followers": 1192,
+        "following": 991,
+        "created_at": "2019-07-26T07:47:04Z",
+        "updated_at": "2026-09-14T20:43:19Z",
+        "provider_url": "https://github.com/mohammadnabia"
+      }
     },
     {
       "candidate_index": 438,
@@ -4150,9 +4877,22 @@
       "candidate_index": 443,
       "name": "mojtabasah",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "mojtabasah",
+        "display_name": "Mojtaba Sahraee-Ardakan",
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": "PhD ECE, MS Statistics, UCLA",
+        "public_repos": 2,
+        "followers": 3,
+        "following": 2,
+        "created_at": "2015-06-03T22:04:58Z",
+        "updated_at": "2024-07-25T06:37:07Z",
+        "provider_url": "https://github.com/mojtabasah"
+      }
     },
     {
       "candidate_index": 444,
@@ -4213,17 +4953,43 @@
       "candidate_index": 450,
       "name": "Parsa-Ardakani",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Parsa-Ardakani",
+        "display_name": "Parsa Alimohammadi Ardakani",
+        "company": null,
+        "blog": "@ParsaArdakani",
+        "location": null,
+        "bio": null,
+        "public_repos": 5,
+        "followers": 1,
+        "following": 2,
+        "created_at": "2020-08-05T05:21:08Z",
+        "updated_at": "2026-04-02T17:50:06Z",
+        "provider_url": "https://github.com/Parsa-Ardakani"
+      }
     },
     {
       "candidate_index": 451,
       "name": "pedramardakani",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "pedramardakani",
+        "display_name": "Pedram Ashofteh-Ardakani",
+        "company": null,
+        "blog": "https://pedramardakani.wordpress.com",
+        "location": null,
+        "bio": "Full-Stack Developer | Python, TypeScript and C | GNU contributor | Free Software Supporter\r\n",
+        "public_repos": 49,
+        "followers": 43,
+        "following": 20,
+        "created_at": "2016-08-02T15:51:41Z",
+        "updated_at": "2026-07-28T12:40:22Z",
+        "provider_url": "https://github.com/pedramardakani"
+      }
     },
     {
       "candidate_index": 452,
@@ -4358,9 +5124,22 @@
       "candidate_index": 470,
       "name": "Zahra121377",
       "provider": "GitHub",
-      "status": "error",
-      "data": {},
-      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "Zahra121377",
+        "display_name": "Zahra Afkhami Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Iran, Yazd, Ardakan",
+        "bio": null,
+        "public_repos": 7,
+        "followers": 3,
+        "following": 2,
+        "created_at": "2023-05-22T14:56:26Z",
+        "updated_at": "2026-09-14T21:26:00Z",
+        "provider_url": "https://github.com/Zahra121377"
+      }
     },
     {
       "candidate_index": 471,
