@@ -5,7 +5,7 @@
     "openalex_skipped": 651,
     "unsupported_or_missing_id": 282,
     "openalex_reused": 7,
-    "github_enriched": 60,
+    "github_reused": 60,
     "errors": 0,
     "enriched_total": 67,
     "skipped_total": 933
