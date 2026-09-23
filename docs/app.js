@@ -7,6 +7,11 @@ const $=id=>document.getElementById(id);
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const FA_DIGITS='۰۱۲۳۴۵۶۷۸۹';
 const faDigits=value=>String(value??'').replace(/[0-9]/g,digit=>FA_DIGITS[digit]);
+const normalizeSearch=value=>String(value??'')
+  .normalize('NFKC')
+  .replace(/[يى]/g,'ی').replace(/ك/g,'ک').replace(/ۀ/g,'ه').replace(/ة/g,'ه')
+  .replace(/[َُِّْٰٕٔ]/g,'').replace(/[\u200c\u200d\u200e\u200f]/g,' ')
+  .replace(/\s+/g,' ').trim().toLocaleLowerCase('fa-IR');
 function localizeVisibleDigits(root=document.body){
   if(!root)return;
   const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:node=>{
@@ -128,7 +133,7 @@ function setupFilters(){
 }
 
 function searchable(person){
-  return [person.name,person.source,person.type,person.detail,person.affiliation,person.organization,person.location,...(person.evidence||[])].filter(Boolean).join(' ').toLowerCase();
+  return normalizeSearch([person.name,person.source,person.type,person.detail,person.affiliation,person.organization,person.location,...(person.evidence||[])].filter(Boolean).join(' '));
 }
 
 function avatarFor(name=''){
@@ -139,7 +144,7 @@ function avatarFor(name=''){
 }
 
 function render(){
-  const query=q.toLocaleLowerCase('en');
+  const query=normalizeSearch(q);
   filtered=people.filter(person=>(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat));
   const pages=Math.max(1,Math.ceil(filtered.length/PAGE));page=Math.min(Math.max(1,page),pages);
   const start=(page-1)*PAGE,rows=filtered.slice(start,start+PAGE);
@@ -279,10 +284,12 @@ function openTab(id){document.querySelectorAll('[data-tab]').forEach(button=>{co
 function bindEvents(){
   document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>openTab(button.dataset.tab)));
   document.querySelectorAll('[data-open-tab]').forEach(button=>button.addEventListener('click',()=>openTab(button.dataset.openTab)));
-  $('heroFilters').addEventListener('click',()=>{document.querySelector('.filters')?.scrollIntoView({block:'center',behavior:'smooth'});$('source').focus()});
+  const revealResults=focusFilters=>{const target=focusFilters?document.querySelector('.filters'):document.querySelector('.directory');target?.scrollIntoView({block:focusFilters?'center':'start',behavior:'smooth'});if(focusFilters){target.classList.remove('filter-attention');void target.offsetWidth;target.classList.add('filter-attention');setTimeout(()=>target.classList.remove('filter-attention'),1400);$('source').focus()}};
+  $('heroFilters').addEventListener('click',()=>{openTab('people');setTimeout(()=>revealResults(true),180)});
   document.querySelectorAll('[data-query]').forEach(button=>button.addEventListener('click',()=>{$('q').value=button.dataset.query;q=button.dataset.query;saveSearch(q);page=1;render();$('list').scrollIntoView({block:'start',behavior:'smooth'})}));
-  $('search').addEventListener('submit',event=>{event.preventDefault();q=$('q').value.trim();saveSearch(q);page=1;render();$('history').classList.remove('open')});
-  $('q').addEventListener('focus',showHistory);$('q').addEventListener('input',showHistory);
+  $('search').addEventListener('submit',event=>{event.preventDefault();q=$('q').value.trim();saveSearch(q);page=1;render();$('history').classList.remove('open');revealResults(false)});
+  let searchTimer;
+  $('q').addEventListener('focus',showHistory);$('q').addEventListener('input',()=>{showHistory();clearTimeout(searchTimer);searchTimer=setTimeout(()=>{q=$('q').value.trim();page=1;render()},180)});
   $('history').addEventListener('click',event=>{const item=event.target.closest('.hist');if(!item)return;$('q').value=item.textContent;q=item.textContent;page=1;render();$('history').classList.remove('open')});
   document.addEventListener('click',event=>{if(!event.target.closest('.search'))$('history').classList.remove('open')});
   $('source').addEventListener('change',event=>{src=event.target.value;page=1;render()});$('reset').addEventListener('click',resetFilters);

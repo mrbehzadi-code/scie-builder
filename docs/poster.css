@@ -27,3 +27,6 @@ footer{background:transparent;border-top:0;padding:15px 0}
 .hero-logo>img{width:74px;height:74px;object-fit:contain;display:block;filter:drop-shadow(0 5px 9px rgba(15,72,139,.16))}
 @media(max-width:1100px){.hero-logo>img{width:62px;height:62px}}
 @media(max-width:560px){.hero-logo>img{width:50px;height:50px}}
+.filters.filter-attention{animation:filterAttention 1.35s ease both}
+@keyframes filterAttention{0%,100%{box-shadow:none}30%{box-shadow:0 0 0 4px rgba(35,105,218,.22),0 10px 24px rgba(24,83,160,.12);background:#f7fbff}}
+@media(prefers-reduced-motion:reduce){.filters.filter-attention{animation:none;box-shadow:0 0 0 3px rgba(35,105,218,.2)}}
