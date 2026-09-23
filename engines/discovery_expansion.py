@@ -15,6 +15,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "data.json"
+TARGET = 1000
 
 QUERIES = [
     "ardakan", "ardakani", "Ardakan Yazd", "Ardakan Iran",
@@ -32,37 +33,47 @@ def normalize_name(name: str) -> str:
     return re.sub(r"\s+", " ", name.strip()).casefold()
 
 
-def openalex_candidates(limit_per_query: int = 100):
+def openalex_candidates(limit_per_query: int = 200):
     found = {}
     for q in QUERIES:
-        url = "https://api.openalex.org/authors?search=" + quote(q) + f"&per-page={limit_per_query}"
-        try:
-            data = get_json(url)
-        except Exception as exc:
-            print(f"OpenAlex failed for {q!r}: {exc}")
-            continue
-        for a in data.get("results", []):
-            name = (a.get("display_name") or "").strip()
-            if not name:
-                continue
-            key = normalize_name(name)
-            if key in found:
-                continue
-            inst = a.get("last_known_institutions") or []
-            affiliations = [x.get("display_name") for x in inst if x.get("display_name")]
-            works = a.get("works_count") or 0
-            found[key] = {
-                "name": name,
-                "type": "کاندیدای پژوهشی",
-                "source": "OpenAlex Discovery",
-                "detail": f"{works} اثر علمی" + (f" · {affiliations[0]}" if affiliations else ""),
-                "location": "—",
-                "evidence": ["OpenAlex author search", f"query: {q}"],
-                "url": a.get("id") or "",
-                "verification": "needs_review",
-                "confidence": "low" if "اردکان" not in name.casefold() and "ardakan" not in name.casefold() else "medium",
-            }
-        time.sleep(0.2)
+        cursor = "*"
+        # Ardakani has more than one thousand public author profiles. Traverse
+        # additional pages instead of silently stopping at the first page.
+        max_pages = 6 if q.casefold() == "ardakani" else 1
+        for _ in range(max_pages):
+            url = "https://api.openalex.org/authors?search=" + quote(q) + f"&per-page={limit_per_query}&cursor=" + quote(cursor)
+            try:
+                data = get_json(url)
+            except Exception as exc:
+                print(f"OpenAlex failed for {q!r}: {exc}")
+                break
+            for a in data.get("results", []):
+                name = (a.get("display_name") or "").strip()
+                if not name:
+                    continue
+                key = normalize_name(name)
+                if key in found:
+                    continue
+                inst = a.get("last_known_institutions") or []
+                affiliations = [x.get("display_name") for x in inst if x.get("display_name")]
+                works = a.get("works_count") or 0
+                found[key] = {
+                    "name": name,
+                    "type": "کاندیدای پژوهشی",
+                    "source": "OpenAlex Discovery",
+                    "detail": f"{works} اثر علمی" + (f" · {affiliations[0]}" if affiliations else ""),
+                    "location": "—",
+                    "evidence": ["OpenAlex author search", f"query: {q}", "public author profile"],
+                    "url": a.get("id") or "",
+                    "verification": "needs_review",
+                    "confidence": "low" if "اردکان" not in name.casefold() and "ardakan" not in name.casefold() else "medium",
+                    "locality_claim": "surname_or_profile_signal_not_confirmed",
+                    "public_evidence_score": 55 if "ardakan" in name.casefold() else 35,
+                }
+            cursor = data.get("meta", {}).get("next_cursor")
+            if not cursor or not data.get("results"):
+                break
+            time.sleep(0.15)
     return list(found.values())
 
 
@@ -103,13 +114,12 @@ def main():
     candidates = openalex_candidates() + github_candidates()
     for p in candidates:
         existing.setdefault(normalize_name(p["name"]), p)
+        if len(existing) >= TARGET:
+            break
 
-    people = list(existing.values())
-    # Keep deterministic ordering: strongest textual Ardakan signal first, then name.
-    people.sort(key=lambda p: (
-        0 if p.get("confidence") == "medium" else 1,
-        normalize_name(p.get("name", "")),
-    ))
+    # Preserve previously reviewed/social records, then append newly discovered
+    # profiles deterministically until the declared delivery target is met.
+    people = list(existing.values())[:TARGET]
 
     sources = {}
     for p in people:
@@ -118,7 +128,7 @@ def main():
     payload = {
         "generated_at": time.strftime("%Y-%m-%d"),
         "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
-        "target": 100,
+        "target": TARGET,
         "stats": {
             "web_records": old.get("stats", {}).get("web_records", 0),
             "people": len(people),
@@ -130,7 +140,7 @@ def main():
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"SCIE candidates: {len(people)}")
-    print(f"Target reached: {len(people) >= 100}")
+    print(f"Target reached: {len(people) >= TARGET}")
 
 
 if __name__ == "__main__":

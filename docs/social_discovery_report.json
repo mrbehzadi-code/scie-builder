@@ -1,0 +1,1064 @@
+{
+  "generated_at": "2026-09-23T16:44:59Z",
+  "target": 1000,
+  "pool_size": 1000,
+  "new_records": 0,
+  "records_in_snapshot_by_source": {
+    "GitHub Discovery": 60,
+    "Lead-guided OpenAlex Discovery": 22,
+    "OpenAlex Discovery": 636,
+    "دانشگاه‌های داخلی و خارجی": 1,
+    "وب عمومی و رسانه‌ها": 106,
+    "پایگاه‌های رسمی و سازمانی": 3,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 172
+  },
+  "telegram": [
+    {
+      "url": "https://t.me/s/darmangahebualiardakan",
+      "pages": 50,
+      "records": 124,
+      "status": "ok"
+    },
+    {
+      "url": "https://t.me/s/ardakanedu",
+      "pages": 49,
+      "records": 104,
+      "status": "ok"
+    },
+    {
+      "url": "https://t.me/s/Bso_ardakanuni",
+      "pages": 33,
+      "records": 33,
+      "status": "ok"
+    },
+    {
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "pages": 120,
+      "records": 259,
+      "status": "ok"
+    },
+    {
+      "url": "https://t.me/s/ardakantc",
+      "pages": 107,
+      "records": 362,
+      "status": "ok"
+    },
+    {
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "pages": 120,
+      "records": 78,
+      "status": "ok"
+    }
+  ],
+  "outbound_public_profiles": {
+    "eitaa": 222,
+    "instagram": 8
+  },
+  "platform_results": {
+    "eitaa": 0,
+    "instagram": 0
+  },
+  "restricted_or_unusable": [
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/Pourdehghan_ir",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/Pourdehghan_ir/4692",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/Pourdehghan_ir/4810",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/ardakanedu",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/basij_beheshti_tvu_ac",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/dorehaye_roshd",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/heiatozahra_ardakanuni",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "http://instagram.com/Mostafa_Pourdehghan",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "http://instagram.com/Pourdehghan_ir",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "http://instagram.com/ardakanedu",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Lms_Yazd",
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/3760",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/3761",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/3766",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/3772",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/3777",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/3808",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4004",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4008",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4015",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4032",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4039",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4049",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4054",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4056",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4060",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4068",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4069",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4084",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4091",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4092",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4096",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4099",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4104",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4110",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4111",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4112",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4113",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4116",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4122",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4123",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4131",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4141",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4149",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4151",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4153",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4158",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4168",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4190",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4201",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4209",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4215",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4218",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4220",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4227",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4234",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4236",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4242",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4245",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4247",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4250",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4270",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4278",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4281",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4289",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4290",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4301",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4302",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4304",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4309",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4310",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4315",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4316",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4320",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4322",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4328",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4329",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4336",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4344",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4346",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4347",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4354",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4358",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4365",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4368",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4369",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4375",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4376",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4381",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4383",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4388",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4404",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4415",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4416",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4423",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4430",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4434",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4441",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4442",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4445",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4452",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4459",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4461",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4468",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4469",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4470",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4478",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4483",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4484",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4488",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4489",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4490",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4492",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4493",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4494",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4495",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4496",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4501",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4502",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4503",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4510",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4511",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4512",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4513",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4517",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4519",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4523",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4524",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4525",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4529",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4530",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4535",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4536",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4541",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4542",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4543",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4545",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4546",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4553",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4558",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4561",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4562",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4571",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4572",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4577",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4578",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4579",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4581",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4586",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4587",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4588",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4589",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4590",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4592",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4593",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4595",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4605",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4606",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4607",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4609",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4612",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4618",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4620",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4622",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4633",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4643",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4646",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4654",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4655",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4656",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4659",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4666",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4670",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4675",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4686",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4692",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4694",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4696",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4698",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4699",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4700",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4701",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4707",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4711",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4714",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4721",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4723",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4730",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4732",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4733",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4734",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4735",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4736",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4737",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4746",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4747",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4748",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4752",
+      "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "https://eitaa.com/Pourdehghan_ir/4755",
+      "result": "no person name in public metadata"
+    }
+  ],
+  "policy": "Public pages/metadata only; no login or private-content access."
+}

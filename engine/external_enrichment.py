@@ -128,6 +128,16 @@ def enrich_openalex(author_id: str) -> dict:
 def main() -> None:
     base = json.loads(INPUT.read_text(encoding="utf-8"))
     profiles = base.get("profiles", [])
+    previous = {}
+    if OUTPUT.exists():
+        try:
+            old = json.loads(OUTPUT.read_text(encoding="utf-8"))
+            previous = {
+                (x.get("candidate_index"), x.get("name"), x.get("provider")): x
+                for x in old.get("profiles", []) if isinstance(x, dict)
+            }
+        except Exception:
+            previous = {}
     out = []
     counts = Counter()
     failures = Counter()
@@ -142,6 +152,12 @@ def main() -> None:
             "status": "not_attempted",
             "data": {},
         }
+        cached_row = previous.get((profile.get("candidate_index"), profile.get("name"), provider))
+        if cached_row and cached_row.get("status") == "enriched":
+            row = cached_row
+            counts[f"{str(provider).casefold()}_reused"] += 1
+            out.append(row)
+            continue
         try:
             if provider == "GitHub" and ids.get("github_username"):
                 row["data"] = enrich_github(ids["github_username"])

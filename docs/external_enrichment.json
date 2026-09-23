@@ -1,16 +1,17 @@
 {
   "generated_at": "2026-09-23",
-  "candidate_count": 495,
+  "candidate_count": 1000,
   "metrics": {
-    "openalex_skipped": 307,
-    "unsupported_or_missing_id": 121,
-    "openalex_cached_enriched": 7,
-    "github_enriched": 60,
-    "errors": 0,
-    "enriched_total": 67,
-    "skipped_total": 428
+    "openalex_skipped": 651,
+    "unsupported_or_missing_id": 282,
+    "openalex_reused": 7,
+    "errors": 60,
+    "enriched_total": 7,
+    "skipped_total": 933
   },
-  "failures": {},
+  "failures": {
+    "GitHub:URLError": 60
+  },
   "profiles": [
     {
       "candidate_index": 0,
@@ -3184,64 +3185,25 @@
       "candidate_index": 329,
       "name": "Abolfazl Kamali Ardakani",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "AbolfazlKamaliArdakani",
-        "display_name": "Abolfazl Kamali Ardakani",
-        "company": null,
-        "blog": null,
-        "location": "Ardakan, Yazd, Iran",
-        "bio": null,
-        "public_repos": 0,
-        "followers": 6,
-        "following": 11,
-        "created_at": "2023-02-02T15:41:26Z",
-        "updated_at": "2023-02-05T05:44:12Z",
-        "provider_url": "https://github.com/AbolfazlKamaliArdakani"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 330,
       "name": "AbolfazlKamaliArdakani",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "AbolfazlKamaliArdakani",
-        "display_name": "Abolfazl Kamali Ardakani",
-        "company": null,
-        "blog": null,
-        "location": "Ardakan, Yazd, Iran",
-        "bio": null,
-        "public_repos": 0,
-        "followers": 6,
-        "following": 11,
-        "created_at": "2023-02-02T15:41:26Z",
-        "updated_at": "2023-02-05T05:44:12Z",
-        "provider_url": "https://github.com/AbolfazlKamaliArdakani"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 331,
       "name": "AbolfazlKamalli",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "AbolfazlKamalli",
-        "display_name": "Abolfazl Kamali Ardakani",
-        "company": null,
-        "blog": null,
-        "location": "Iran, Yazd",
-        "bio": null,
-        "public_repos": 9,
-        "followers": 13,
-        "following": 16,
-        "created_at": "2024-03-11T15:08:35Z",
-        "updated_at": "2026-09-10T12:18:24Z",
-        "provider_url": "https://github.com/AbolfazlKamalli"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 332,
@@ -3271,22 +3233,9 @@
       "candidate_index": 335,
       "name": "Ali",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Ardakaniali",
-        "display_name": "Ali",
-        "company": null,
-        "blog": null,
-        "location": "Islamic republic of Iran, Yazd, Ardakan",
-        "bio": "A video game lover from desert",
-        "public_repos": 1,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2020-09-07T09:06:19Z",
-        "updated_at": "2020-09-07T09:11:29Z",
-        "provider_url": "https://github.com/Ardakaniali"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 336,
@@ -3482,22 +3431,9 @@
       "candidate_index": 356,
       "name": "Alireza Dashti",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "AlirezaDashti",
-        "display_name": "Alireza Dashti",
-        "company": "EEFA CERAM CO",
-        "blog": null,
-        "location": "Ardakan (Yazd)",
-        "bio": "I am a human, a friend, a brother and a father",
-        "public_repos": 0,
-        "followers": 18,
-        "following": 15,
-        "created_at": "2015-06-26T06:50:20Z",
-        "updated_at": "2024-04-08T10:59:06Z",
-        "provider_url": "https://github.com/AlirezaDashti"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 357,
@@ -3534,148 +3470,57 @@
       "candidate_index": 359,
       "name": "AmidArdakani",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "AmidArdakani",
-        "display_name": "Amid Ardakani",
-        "company": "FSU",
-        "blog": null,
-        "location": null,
-        "bio": "Associate Teaching Professor at Florida State University",
-        "public_repos": 3,
-        "followers": 0,
-        "following": 5,
-        "created_at": "2023-04-23T19:46:27Z",
-        "updated_at": "2026-09-12T02:38:16Z",
-        "provider_url": "https://github.com/AmidArdakani"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 360,
       "name": "AmirhArdakani",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "AmirhArdakani",
-        "display_name": "Amir Ardakani",
-        "company": null,
-        "blog": null,
-        "location": "Iran | Shahroud",
-        "bio": null,
-        "public_repos": 6,
-        "followers": 7,
-        "following": 11,
-        "created_at": "2017-08-27T17:12:34Z",
-        "updated_at": "2026-09-20T15:51:05Z",
-        "provider_url": "https://github.com/AmirhArdakani"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 361,
       "name": "Amirho3ein Roustaei",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "amirhoseinardakanei",
-        "display_name": "Amirho3ein Roustaei",
-        "company": "Technoosite",
-        "blog": "technoosite.ir",
-        "location": "Iran, Yazd, Ardakan",
-        "bio": "My profession is Python programming and I work in the web field with the Django framework. :)",
-        "public_repos": 1,
-        "followers": 1,
-        "following": 2,
-        "created_at": "2025-01-23T09:09:59Z",
-        "updated_at": "2026-09-14T09:56:18Z",
-        "provider_url": "https://github.com/amirhoseinardakanei"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 362,
       "name": "amirhosein8127",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "amirhosein8127",
-        "display_name": "amir hosein ardakani",
-        "company": null,
-        "blog": null,
-        "location": "tehran",
-        "bio": ".",
-        "public_repos": 2,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2022-05-16T14:16:13Z",
-        "updated_at": "2022-05-16T14:28:30Z",
-        "provider_url": "https://github.com/amirhosein8127"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 363,
       "name": "arashardakani",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "arashardakani",
-        "display_name": "Arash Ardakani",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 9,
-        "followers": 5,
-        "following": 0,
-        "created_at": "2017-11-27T03:23:59Z",
-        "updated_at": "2026-09-04T17:07:08Z",
-        "provider_url": "https://github.com/arashardakani"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 364,
       "name": "arbit3rr",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "arbit3rr",
-        "display_name": "Amirhossein Heydarian Ardakani",
-        "company": null,
-        "blog": "https://scholar.google.com/citations?user=5U9fGhYAAAAJ&hl=en",
-        "location": null,
-        "bio": null,
-        "public_repos": 19,
-        "followers": 80,
-        "following": 36,
-        "created_at": "2019-10-03T10:24:52Z",
-        "updated_at": "2026-09-01T15:24:45Z",
-        "provider_url": "https://github.com/arbit3rr"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 365,
       "name": "ardakan",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakan",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 1,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2023-04-16T11:15:42Z",
-        "updated_at": "2023-04-16T11:15:42Z",
-        "provider_url": "https://github.com/ardakan"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 366,
@@ -3688,736 +3533,281 @@
       "candidate_index": 367,
       "name": "ardakan111",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakan111",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2020-12-19T12:28:51Z",
-        "updated_at": "2020-12-19T12:28:51Z",
-        "provider_url": "https://github.com/ardakan111"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 368,
       "name": "ardakan12",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakan12",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2023-08-12T18:04:08Z",
-        "updated_at": "2023-08-12T18:04:08Z",
-        "provider_url": "https://github.com/ardakan12"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 369,
       "name": "Ardakan125",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Ardakan125",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 1,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2024-11-19T10:16:47Z",
-        "updated_at": "2024-11-19T10:19:37Z",
-        "provider_url": "https://github.com/Ardakan125"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 370,
       "name": "ardakan1717-star",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakan1717-star",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2026-04-09T18:23:21Z",
-        "updated_at": "2026-04-09T18:23:21Z",
-        "provider_url": "https://github.com/ardakan1717-star"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 371,
       "name": "ardakan40-lab",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakan40-lab",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 2,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2026-07-07T04:24:31Z",
-        "updated_at": "2026-08-04T01:57:56Z",
-        "provider_url": "https://github.com/ardakan40-lab"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 372,
       "name": "ardakananeva-sazorland",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakananeva-sazorland",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2026-07-17T12:02:17Z",
-        "updated_at": "2026-07-17T12:02:17Z",
-        "provider_url": "https://github.com/ardakananeva-sazorland"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 373,
       "name": "ArdaKanat",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ArdaKanat",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2024-09-29T07:37:23Z",
-        "updated_at": "2024-09-29T07:37:26Z",
-        "provider_url": "https://github.com/ArdaKanat"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 374,
       "name": "ardakanata",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakanata",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2023-11-11T11:49:03Z",
-        "updated_at": "2023-11-11T11:49:03Z",
-        "provider_url": "https://github.com/ardakanata"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 375,
       "name": "ArdaKanbur",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ArdaKanbur",
-        "display_name": "AKR",
-        "company": "Bigrise Technologies",
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 1,
-        "following": 1,
-        "created_at": "2021-11-25T11:02:39Z",
-        "updated_at": "2026-05-14T17:14:29Z",
-        "provider_url": "https://github.com/ArdaKanbur"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 376,
       "name": "ardakancan41-del",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakancan41-del",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2025-11-05T17:01:51Z",
-        "updated_at": "2025-11-05T17:01:51Z",
-        "provider_url": "https://github.com/ardakancan41-del"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 377,
       "name": "ardakandemir",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakandemir",
-        "display_name": "Arda Kandemir",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 1,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2018-12-28T17:02:39Z",
-        "updated_at": "2026-08-16T19:54:21Z",
-        "provider_url": "https://github.com/ardakandemir"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 378,
       "name": "ardakaner",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakaner",
-        "display_name": "Arda",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": "no bio yet.",
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2026-04-16T20:47:20Z",
-        "updated_at": "2026-07-14T19:52:05Z",
-        "provider_url": "https://github.com/ardakaner"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 379,
       "name": "ardakani",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakani",
-        "display_name": "Behzad Ardakani",
-        "company": "Skillmatic AB",
-        "blog": null,
-        "location": "Västerås",
-        "bio": null,
-        "public_repos": 0,
-        "followers": 1,
-        "following": 0,
-        "created_at": "2013-06-20T18:50:17Z",
-        "updated_at": "2026-08-07T20:17:34Z",
-        "provider_url": "https://github.com/ardakani"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 380,
       "name": "Ardakani1",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Ardakani1",
-        "display_name": "Ardakani",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": "you know excatly who i am....",
-        "public_repos": 14,
-        "followers": 6,
-        "following": 17,
-        "created_at": "2021-12-04T20:59:22Z",
-        "updated_at": "2026-08-17T09:33:03Z",
-        "provider_url": "https://github.com/Ardakani1"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 381,
       "name": "Ardakani79",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Ardakani79",
-        "display_name": "Mohammad Hossein Shaker Ardakani",
-        "company": null,
-        "blog": null,
-        "location": "Isfahan-Iran",
-        "bio": null,
-        "public_repos": 0,
-        "followers": 1,
-        "following": 3,
-        "created_at": "2023-04-11T15:13:35Z",
-        "updated_at": "2026-08-16T07:13:15Z",
-        "provider_url": "https://github.com/Ardakani79"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 382,
       "name": "ardakaniahmadali-arch",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakaniahmadali-arch",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2026-01-28T07:27:01Z",
-        "updated_at": "2026-01-28T07:27:01Z",
-        "provider_url": "https://github.com/ardakaniahmadali-arch"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 383,
       "name": "Ardakaniali",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Ardakaniali",
-        "display_name": "Ali",
-        "company": null,
-        "blog": null,
-        "location": "Islamic republic of Iran, Yazd, Ardakan",
-        "bio": "A video game lover from desert",
-        "public_repos": 1,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2020-09-07T09:06:19Z",
-        "updated_at": "2020-09-07T09:11:29Z",
-        "provider_url": "https://github.com/Ardakaniali"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 384,
       "name": "ardakaniamirhossein1993",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakaniamirhossein1993",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2026-07-07T12:04:47Z",
-        "updated_at": "2026-07-07T12:04:47Z",
-        "provider_url": "https://github.com/ardakaniamirhossein1993"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 385,
       "name": "ardakanian",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakanian",
-        "display_name": "Omid Ardakanian",
-        "company": "University of Alberta @sustainable-computing ",
-        "blog": "http://webdocs.cs.ualberta.ca/~oardakan/",
-        "location": null,
-        "bio": null,
-        "public_repos": 2,
-        "followers": 20,
-        "following": 0,
-        "created_at": "2018-04-17T18:27:22Z",
-        "updated_at": "2026-09-22T17:43:00Z",
-        "provider_url": "https://github.com/ardakanian"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 386,
       "name": "ardakanian-bidgely",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakanian-bidgely",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2025-11-07T19:17:06Z",
-        "updated_at": "2026-01-13T21:38:03Z",
-        "provider_url": "https://github.com/ardakanian-bidgely"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 387,
       "name": "ardakanim",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakanim",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 1,
-        "following": 0,
-        "created_at": "2019-06-22T04:57:11Z",
-        "updated_at": "2019-06-22T04:57:11Z",
-        "provider_url": "https://github.com/ardakanim"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 388,
       "name": "ardakanim50-lab",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakanim50-lab",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2026-01-08T12:41:01Z",
-        "updated_at": "2026-01-08T12:41:01Z",
-        "provider_url": "https://github.com/ardakanim50-lab"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 389,
       "name": "ardakanimd",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakanimd",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2025-11-27T15:21:05Z",
-        "updated_at": "2026-08-14T23:56:29Z",
-        "provider_url": "https://github.com/ardakanimd"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 390,
       "name": "ArdaKANIPEK",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ArdaKANIPEK",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 1,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2025-04-30T16:50:01Z",
-        "updated_at": "2025-04-30T16:50:08Z",
-        "provider_url": "https://github.com/ArdaKANIPEK"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 391,
       "name": "ardakanisaba",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakanisaba",
-        "display_name": "Saba Ardakani",
-        "company": "Utah Sate University",
-        "blog": null,
-        "location": "United States",
-        "bio": "Graduate Research Assistant at Utah State University",
-        "public_repos": 1,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2025-06-11T14:53:06Z",
-        "updated_at": "2026-05-18T17:11:08Z",
-        "provider_url": "https://github.com/ardakanisaba"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 392,
       "name": "Ardakaniz",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Ardakaniz",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": "Orsay, France",
-        "bio": "Personal projects ;\r\n\r\nFor academic projects see @arenaudineau",
-        "public_repos": 12,
-        "followers": 27,
-        "following": 26,
-        "created_at": "2015-02-12T11:07:17Z",
-        "updated_at": "2026-09-21T17:10:20Z",
-        "provider_url": "https://github.com/Ardakaniz"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 393,
       "name": "ArdaKanka07",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ArdaKanka07",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2021-09-09T13:45:03Z",
-        "updated_at": "2021-10-29T11:36:52Z",
-        "provider_url": "https://github.com/ArdaKanka07"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 394,
       "name": "ardakankasra",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakankasra",
-        "display_name": "Kasra Ardakan",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": "a front-end developer with 2 month of experience.\r\nbased in IRAN. i'm open to any kind of challenge to test my skill.\r\ni started programming cause i love it.",
-        "public_repos": 1,
-        "followers": 6,
-        "following": 12,
-        "created_at": "2024-11-27T18:50:13Z",
-        "updated_at": "2026-09-21T13:53:23Z",
-        "provider_url": "https://github.com/ardakankasra"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 395,
       "name": "Ardakann",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Ardakann",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2021-01-17T15:16:10Z",
-        "updated_at": "2024-02-13T23:06:45Z",
-        "provider_url": "https://github.com/Ardakann"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 396,
       "name": "ardakansu",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakansu",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2022-06-01T13:07:35Z",
-        "updated_at": "2022-06-01T13:07:35Z",
-        "provider_url": "https://github.com/ardakansu"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 397,
       "name": "ardakantar",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakantar",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2023-03-07T21:44:09Z",
-        "updated_at": "2023-04-10T01:43:49Z",
-        "provider_url": "https://github.com/ardakantar"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 398,
       "name": "ardakantarci",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakantarci",
-        "display_name": "Arda Kantarcı",
-        "company": null,
-        "blog": null,
-        "location": "Turkey, İstanbul",
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2017-02-26T19:15:46Z",
-        "updated_at": "2026-09-10T10:26:46Z",
-        "provider_url": "https://github.com/ardakantarci"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 399,
       "name": "ardakantes",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakantes",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 2,
-        "followers": 1,
-        "following": 0,
-        "created_at": "2021-10-21T09:24:59Z",
-        "updated_at": "2026-09-12T06:21:21Z",
-        "provider_url": "https://github.com/ardakantes"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 400,
       "name": "ardakantrci",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakantrci",
-        "display_name": "Arda Kantarcı",
-        "company": null,
-        "blog": null,
-        "location": "Istanbul,Turkey",
-        "bio": null,
-        "public_repos": 1,
-        "followers": 6,
-        "following": 4,
-        "created_at": "2017-06-04T13:04:33Z",
-        "updated_at": "2018-07-03T06:40:01Z",
-        "provider_url": "https://github.com/ardakantrci"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 401,
       "name": "ardakanzi",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "ardakanzi",
-        "display_name": null,
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 0,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2022-12-26T23:43:54Z",
-        "updated_at": "2022-12-26T23:43:54Z",
-        "provider_url": "https://github.com/ardakanzi"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 402,
@@ -4437,22 +3827,9 @@
       "candidate_index": 404,
       "name": "Behinsomnia9",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Behinsomnia9",
-        "display_name": "Behrad Ardakani Khezrzadeh",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": "I have been in love with computers since as far as I can remember!",
-        "public_repos": 6,
-        "followers": 0,
-        "following": 3,
-        "created_at": "2023-11-21T11:52:57Z",
-        "updated_at": "2026-05-30T14:57:51Z",
-        "provider_url": "https://github.com/Behinsomnia9"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 405,
@@ -4465,22 +3842,9 @@
       "candidate_index": 406,
       "name": "Darkshiira",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Darkshiira",
-        "display_name": "Hanna ArefiArdakani",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": "Future Fullstackdeveloper, follow my journey to learn new things!",
-        "public_repos": 33,
-        "followers": 7,
-        "following": 15,
-        "created_at": "2021-12-16T06:03:06Z",
-        "updated_at": "2026-04-21T15:53:30Z",
-        "provider_url": "https://github.com/Darkshiira"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 407,
@@ -4516,22 +3880,9 @@
       "candidate_index": 409,
       "name": "farhaddashtia",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "farhaddashtia",
-        "display_name": "Farhad Dashti Ardakani",
-        "company": null,
-        "blog": null,
-        "location": "Vancouver, Canada",
-        "bio": "Software Engineer at Huawei Canada\r\nMASc in Electrical and Computer Engineering, UBC",
-        "public_repos": 9,
-        "followers": 7,
-        "following": 4,
-        "created_at": "2019-11-16T20:31:14Z",
-        "updated_at": "2024-06-07T20:57:44Z",
-        "provider_url": "https://github.com/farhaddashtia"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 410,
@@ -4544,22 +3895,9 @@
       "candidate_index": 411,
       "name": "Hamed",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Hamed-Aarabi",
-        "display_name": "Hamed",
-        "company": null,
-        "blog": null,
-        "location": "iran/yazd/ardakan",
-        "bio": "Backend developer.\r\nPython, Django",
-        "public_repos": 9,
-        "followers": 56,
-        "following": 66,
-        "created_at": "2022-07-07T13:07:07Z",
-        "updated_at": "2024-04-26T14:48:46Z",
-        "provider_url": "https://github.com/Hamed-Aarabi"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 412,
@@ -4592,22 +3930,9 @@
       "candidate_index": 414,
       "name": "Hami-Hafezi",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Hami-Hafezi",
-        "display_name": "Hami Hafezi Ardakani",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 4,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2023-12-22T21:11:23Z",
-        "updated_at": "2026-07-02T12:38:41Z",
-        "provider_url": "https://github.com/Hami-Hafezi"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 415,
@@ -4675,22 +4000,9 @@
       "candidate_index": 423,
       "name": "koushkoush",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "koushkoush",
-        "display_name": "kousha ardakani",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": null,
-        "public_repos": 2,
-        "followers": 0,
-        "following": 1,
-        "created_at": "2021-05-10T21:36:11Z",
-        "updated_at": "2025-09-02T21:50:22Z",
-        "provider_url": "https://github.com/koushkoush"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 424,
@@ -4710,22 +4022,9 @@
       "candidate_index": 426,
       "name": "mahsamajd",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "mahsamajd",
-        "display_name": "Mahsa Majdzadeh Ardakani",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": "Graduate student @ UofSC",
-        "public_repos": 6,
-        "followers": 0,
-        "following": 5,
-        "created_at": "2022-10-01T19:18:24Z",
-        "updated_at": "2026-07-11T15:43:07Z",
-        "provider_url": "https://github.com/mahsamajd"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 427,
@@ -4755,22 +4054,9 @@
       "candidate_index": 430,
       "name": "MohamadAli92",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "MohamadAli92",
-        "display_name": "Mohammad Ali KazemiArdakani",
-        "company": null,
-        "blog": null,
-        "location": "Houston, Texas, USA",
-        "bio": null,
-        "public_repos": 23,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2021-11-28T13:05:44Z",
-        "updated_at": "2026-08-24T16:23:00Z",
-        "provider_url": "https://github.com/MohamadAli92"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 431,
@@ -4821,22 +4107,9 @@
       "candidate_index": 437,
       "name": "mohammadnabia",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "mohammadnabia",
-        "display_name": "Mohammad Nabizade Ardakani",
-        "company": null,
-        "blog": "https://www.linkedin.com/in/mohammad-nabizade-ardakani/",
-        "location": "Iran",
-        "bio": "BS Computer engineering & M.Sc IT engineering (multimedia systems)\r\n",
-        "public_repos": 17,
-        "followers": 1192,
-        "following": 991,
-        "created_at": "2019-07-26T07:47:04Z",
-        "updated_at": "2026-09-14T20:43:19Z",
-        "provider_url": "https://github.com/mohammadnabia"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 438,
@@ -4877,22 +4150,9 @@
       "candidate_index": 443,
       "name": "mojtabasah",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "mojtabasah",
-        "display_name": "Mojtaba Sahraee-Ardakan",
-        "company": null,
-        "blog": null,
-        "location": null,
-        "bio": "PhD ECE, MS Statistics, UCLA",
-        "public_repos": 2,
-        "followers": 3,
-        "following": 2,
-        "created_at": "2015-06-03T22:04:58Z",
-        "updated_at": "2024-07-25T06:37:07Z",
-        "provider_url": "https://github.com/mojtabasah"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 444,
@@ -4953,43 +4213,17 @@
       "candidate_index": 450,
       "name": "Parsa-Ardakani",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Parsa-Ardakani",
-        "display_name": "Parsa Alimohammadi Ardakani",
-        "company": null,
-        "blog": "@ParsaArdakani",
-        "location": null,
-        "bio": null,
-        "public_repos": 5,
-        "followers": 1,
-        "following": 2,
-        "created_at": "2020-08-05T05:21:08Z",
-        "updated_at": "2026-04-02T17:50:06Z",
-        "provider_url": "https://github.com/Parsa-Ardakani"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 451,
       "name": "pedramardakani",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "pedramardakani",
-        "display_name": "Pedram Ashofteh-Ardakani",
-        "company": null,
-        "blog": "https://pedramardakani.wordpress.com",
-        "location": null,
-        "bio": "Full-Stack Developer | Python, TypeScript and C | GNU contributor | Free Software Supporter\r\n",
-        "public_repos": 49,
-        "followers": 43,
-        "following": 20,
-        "created_at": "2016-08-02T15:51:41Z",
-        "updated_at": "2026-07-28T12:40:22Z",
-        "provider_url": "https://github.com/pedramardakani"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 452,
@@ -5124,22 +4358,9 @@
       "candidate_index": 470,
       "name": "Zahra121377",
       "provider": "GitHub",
-      "status": "enriched",
-      "data": {
-        "provider": "GitHub",
-        "login": "Zahra121377",
-        "display_name": "Zahra Afkhami Ardakani",
-        "company": null,
-        "blog": null,
-        "location": "Iran, Yazd, Ardakan",
-        "bio": null,
-        "public_repos": 7,
-        "followers": 3,
-        "following": 2,
-        "created_at": "2023-05-22T14:56:26Z",
-        "updated_at": "2026-09-14T21:26:00Z",
-        "provider_url": "https://github.com/Zahra121377"
-      }
+      "status": "error",
+      "data": {},
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
     },
     {
       "candidate_index": 471,
@@ -5374,6 +4595,4573 @@
         "provider": "OpenAlex",
         "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
       }
+    },
+    {
+      "candidate_index": 495,
+      "name": "ابراهیم زاده متخصص پوست",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 496,
+      "name": "ابراهیم زاده پنج شنبه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 497,
+      "name": "ابوالفضل فاتحی نوبت دهی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 498,
+      "name": "ابوالفضل کارگر تقدیر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 499,
+      "name": "امین زارع زمان ویزیت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 500,
+      "name": "جاویدنیا سه شنبه ها",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 501,
+      "name": "جمیله سعیدی پناه تیم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 502,
+      "name": "حسن نصیری متخصص",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 503,
+      "name": "حسین زاده یکشنبه وسه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 504,
+      "name": "حمیدرضا محمدی به عنوان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 505,
+      "name": "خلیلی متخصص کودکان وفوق",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 506,
+      "name": "دکتر احمدرضامتالهی باسلام از",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 507,
+      "name": "دکتر اردوئی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 508,
+      "name": "دکتر اعظم قانعی جمعه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 509,
+      "name": "دکتر اقای دکتر محمد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 510,
+      "name": "دکتر اقای دکتر وحیدی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 511,
+      "name": "دکتر دهقانی یک شنبه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 512,
+      "name": "دکتر فوق تخصص کلیه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 513,
+      "name": "دکتر متخصص اعصاب وروان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 514,
+      "name": "دکتر متخصص سونوگرافی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 515,
+      "name": "دکتر متخصص کلیه ومجاری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 516,
+      "name": "دکتر نرگس قانعی پنج",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 517,
+      "name": "راحمی متخصص قلب وعروق",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 518,
+      "name": "رضا صافی چهارشنبه از",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 519,
+      "name": "سمیه میرجانی به عنوان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 520,
+      "name": "سید علی شاکر اردکانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 521,
+      "name": "سید علی شاکر به",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 522,
+      "name": "سید مهدی حسینی زاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 523,
+      "name": "شهاب کمالی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 524,
+      "name": "طاهره دهقانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 525,
+      "name": "عطائیان یکشنبه ها از",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 526,
+      "name": "علی هاتفی با حضور",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 527,
+      "name": "علیرضا لاور",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 528,
+      "name": "فاتحی فوق تخصص زیبایی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 529,
+      "name": "فاطمه شاکر به عنوان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 530,
+      "name": "فاطمه فتاحی به عنوان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 531,
+      "name": "فاطمه هاتفی متخصص اعصاب",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 532,
+      "name": "مجتبی قاسمی فوق تخصص",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 533,
+      "name": "محسن محیطی تشکر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 534,
+      "name": "محمد طالب پور",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 535,
+      "name": "محمد مصدق است که",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 536,
+      "name": "محمدرضا حیدری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 537,
+      "name": "محمدرضا سبحان جمعه ها",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 538,
+      "name": "محمدرضا سبحان فعلا تشریف",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 539,
+      "name": "منصور زارعی پنج شنبه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 540,
+      "name": "منصور زارعی چهارشنبه ها",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 541,
+      "name": "منیر السادات عنایتی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 542,
+      "name": "نصیری جمعه از ساعت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 543,
+      "name": "ها رمضانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 544,
+      "name": "والمسلمین سید اسماعیل شاکر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 545,
+      "name": "وحیدی جمعه از ساعت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 546,
+      "name": "پاکسیما نماینده این شرکت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 547,
+      "name": "امیر رضا ملارحیمی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 548,
+      "name": "امین عابدیان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 549,
+      "name": "حسین شجاع الدینی فوق",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 550,
+      "name": "دکتر اکرم السادات امامی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 551,
+      "name": "راحله سادات موسوی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 552,
+      "name": "راضیه فداکار فرد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 553,
+      "name": "روحانی که جامعه را",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 554,
+      "name": "زهرا شاکر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 555,
+      "name": "سید محسن آقایی جراح",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 556,
+      "name": "شهاب الدین ابوطالبی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 557,
+      "name": "صفورا موسی بیکی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 558,
+      "name": "عادله ذبیحی متخصص زنان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 559,
+      "name": "علی ابویی‌",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 560,
+      "name": "فائزه سادات رفیعی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 561,
+      "name": "فاطمه ابراهیم زاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 562,
+      "name": "فاطمه صفدری زاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 563,
+      "name": "فاطمه کریمی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 564,
+      "name": "ماهیار اردشیری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 565,
+      "name": "ماهیار اردشیری نیز از",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 566,
+      "name": "محمد توحیدی متخصص",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 567,
+      "name": "محمد علی محمودزاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 568,
+      "name": "محمدحسین شهریار",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 569,
+      "name": "محمدرضا عزتی متخصص قلب",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 570,
+      "name": "محمدمسعود مروتی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 571,
+      "name": "مرضیه اردویی فوق تخصص",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 572,
+      "name": "مریم فتاحی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 573,
+      "name": "ملیحه فضیلتی متخصص گوش",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 574,
+      "name": "مهدی تقی زاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 575,
+      "name": "مهدی حلوانی متخصص داخلی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 576,
+      "name": "مهدی صفایی فوق تخصص",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 577,
+      "name": "احمد قدیری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 578,
+      "name": "افشین عطائیان متخصص اعصاب",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 579,
+      "name": "حمیده یوسفی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 580,
+      "name": "دوستاربخشایش قبل از اقامه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 581,
+      "name": "دکتر سید محمد غضنفر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 582,
+      "name": "دکتر شریعتی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 583,
+      "name": "روح اللّه غروی معاون",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 584,
+      "name": "ریحانه امینی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 585,
+      "name": "رییسی به نیویورک نیز",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 586,
+      "name": "زینلی از ناحیه بسیج",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 587,
+      "name": "سعید معتقدی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 588,
+      "name": "سیده زهرا مرتضوی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 589,
+      "name": "شهاب کمالی اردکانی متخصص",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 590,
+      "name": "علی اکبر براتی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 591,
+      "name": "علیرضا میرزاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 592,
+      "name": "فائزه هدایت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 593,
+      "name": "محسن فخری‌زاده به عنوان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 594,
+      "name": "محمد جواد فاضلی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 595,
+      "name": "محمد صحرایی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 596,
+      "name": "مروی اگر اینقدر ناآگاه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 597,
+      "name": "مسلم نبی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 598,
+      "name": "مشک آبادیان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 599,
+      "name": "نازنین مهرابی به عنوان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 600,
+      "name": "والمسلمین سهرابی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 601,
+      "name": "گرانقدر جناب آقای",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 602,
+      "name": "حاجی زاده ضمن توجیه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 603,
+      "name": "حجت الاسلام والمسلمین حاج",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 604,
+      "name": "حجت الاسلام والمسلمین سید",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 605,
+      "name": "حسن پوردهقان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 606,
+      "name": "حسینی معاون وزیر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 607,
+      "name": "حمیدرضا عبداله زاده کارشناس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 608,
+      "name": "دشتی با برقراری تماس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 609,
+      "name": "دشتی با همراهی مدیر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 610,
+      "name": "دهقانی مدیرعامل چادرملو برای",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 611,
+      "name": "دکتر علیرضا محرابی با",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 612,
+      "name": "دکتر هاتفی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 613,
+      "name": "رحیمی نژاد مدیر کل",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 614,
+      "name": "رضا متألهی اردکانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 615,
+      "name": "سنایی تقدیر نمودند",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 616,
+      "name": "سید اسماعیل شاکر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 617,
+      "name": "سید عباس صالحی وزیر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 618,
+      "name": "سید علی‌اکبر کلاهدوزان چهره",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 619,
+      "name": "سید محمد حسینی‌پور",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 620,
+      "name": "سید محمد خاتمی در",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 621,
+      "name": "سیدرضا طبایی‌نژاد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 622,
+      "name": "سیدعلی شاکر بزرگوار",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 623,
+      "name": "سیدمصطفی پورحسینی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 624,
+      "name": "صالحی وزیر فرهنگ",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 625,
+      "name": "صحرایی قول مساعدت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 626,
+      "name": "صحرایی وزیر جدید آموزش",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 627,
+      "name": "صلاحی رییس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 628,
+      "name": "طالب پور مشاور فرماندار",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 629,
+      "name": "طاهرزاده مدیرعامل",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 630,
+      "name": "عبداله زاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 631,
+      "name": "عبدالهی کارشناس مسئول متوسطه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 632,
+      "name": "علی میراب‌زاده اردکانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 633,
+      "name": "علی میراب‌زاده اردکانی به",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 634,
+      "name": "فاضل کارشناس مشاوره مدیریت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 635,
+      "name": "فاطمی ضمن تبریک سال",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 636,
+      "name": "فاطمی عضو هیات مدیره",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 637,
+      "name": "فداکار از روند برگزاری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 638,
+      "name": "فروغی از نحوه برگزاری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 639,
+      "name": "فروغی به همراه کارشناس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 640,
+      "name": "فروغی کارشناس آموزش متوسطه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 641,
+      "name": "قالیباف رئیس مجلس در",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 642,
+      "name": "قالیباف رئیس مجلس شورای",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 643,
+      "name": "قانع تشکر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 644,
+      "name": "محمد افخمی به گزارش",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 645,
+      "name": "محمد واحدیان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 646,
+      "name": "محمدباقر قالیباف رئیس مجلس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 647,
+      "name": "محمدشاهی دبیر ستاد گرامیداست",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 648,
+      "name": "محمود طالعی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 649,
+      "name": "مرتضی مطهری این روز",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 650,
+      "name": "مصطفی رحمان دوست در",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 651,
+      "name": "مصطفی رحماندوست",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 652,
+      "name": "مصطفی رحماندوست رو داخل",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 653,
+      "name": "مصطفی پوردهقان‌اردکان نمایندۀ مردم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 654,
+      "name": "کارآموز معاون آموزشی اداره",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 655,
+      "name": "Manouchehr Azadi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 656,
+      "name": "Maryam Dehestani‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 657,
+      "name": "Amir G. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 658,
+      "name": "S A Mahdavi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 659,
+      "name": "Ali A. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 660,
+      "name": "M. A. ARDAKANI",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 661,
+      "name": "Mojtaba Fattahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 662,
+      "name": "Zahra Tavakolian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 663,
+      "name": "Mohammadreza Talebi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 664,
+      "name": "H. Kordi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 665,
+      "name": "Jalal Vahedian‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 666,
+      "name": "Mohammad Assai Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 667,
+      "name": "H Ziaee Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 668,
+      "name": "Mohammadreza Mollahoseini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 669,
+      "name": "Amirhossein Heydarian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 670,
+      "name": "Vahid Goodarzi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 671,
+      "name": "Ardakani F Ezoddini",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 672,
+      "name": "Halimeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 673,
+      "name": "Mohammad Reza Safaee-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 674,
+      "name": "Saeed Yazdani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 675,
+      "name": "Mohammad Hossein Asadian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 676,
+      "name": "Tahereh Shakerian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 677,
+      "name": "Ahmadreza Mahboubi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 678,
+      "name": "Amir Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 679,
+      "name": "Maryam Dehestani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 680,
+      "name": "Mohammad Hamed Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 681,
+      "name": "Mohammad Vahedian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 682,
+      "name": "Khadijeh Jahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 683,
+      "name": "S.M. Seyed Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 684,
+      "name": "Zahra Tavakolian- Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 685,
+      "name": "Azam Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 686,
+      "name": "Reza Rasti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 687,
+      "name": "Reza Fotouhi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 688,
+      "name": "Mohammad H. Asadian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 689,
+      "name": "Alireza Ghaderi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 690,
+      "name": "M R Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 691,
+      "name": "Javad Mohiti-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 692,
+      "name": "Mohammad Reza Sarafraz Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 693,
+      "name": "Shima Bakhshi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 694,
+      "name": "Rustin Mahboubi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 695,
+      "name": "Mohammad Javad Ehsani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 696,
+      "name": "Faezeh Fotouhi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 697,
+      "name": "Khadijeh Jahanbani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 698,
+      "name": "Amir Hossain Gahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 699,
+      "name": "Parichehr Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 700,
+      "name": "Reza Shaker",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 701,
+      "name": "Javad Biabani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 702,
+      "name": "Soheila Khodakarim Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 703,
+      "name": "Hamed Ahmadi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 704,
+      "name": "Mahshid Torabi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 705,
+      "name": "Elham Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 706,
+      "name": "A. Haerian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 707,
+      "name": "Mina Nili Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 708,
+      "name": "Abbas Taghavi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 709,
+      "name": "Zohreh Behjati-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 710,
+      "name": "Samira Ahmadi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 711,
+      "name": "Seyed Mojtaba Yassini-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 712,
+      "name": "Mohammad-Amin Behjati-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 713,
+      "name": "Pegah Payedar-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 714,
+      "name": "Mohadeseh Fadavi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 715,
+      "name": "Z Pouraghaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 716,
+      "name": "Shahab Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 717,
+      "name": "Farzaneh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 718,
+      "name": "Shahin Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 719,
+      "name": "Majid Alimohammadi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 720,
+      "name": "Mohammad Afkhami‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 721,
+      "name": "Majid Taghipour",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 722,
+      "name": "Behnoosh Abedi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 723,
+      "name": "Hoda Mirzaian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 724,
+      "name": "HosseinMalekafzali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 725,
+      "name": "Mohammad Reza Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 726,
+      "name": "F Ezoddini-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 727,
+      "name": "A. Fattahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 728,
+      "name": "Mohammad Hooshyari Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 729,
+      "name": "Mohsen Dashti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 730,
+      "name": "Elahe P. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 731,
+      "name": "Farhad Dashti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 732,
+      "name": "Mohammad-Reza Piri-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 733,
+      "name": "Farshad Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 734,
+      "name": "Fatemeh Ezzodini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 735,
+      "name": "Saeid Saeida Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 736,
+      "name": "Amir Gahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 737,
+      "name": "Reza Behjatmanesh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 738,
+      "name": "Amir Hossien Hatefi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 739,
+      "name": "Mohammadreza Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 740,
+      "name": "A. H. Sharafian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 741,
+      "name": "Yalda Hoseinzadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 742,
+      "name": "Ali Jahanbani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 743,
+      "name": "Elham Asayesh-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 744,
+      "name": "J Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 745,
+      "name": "Zohre Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 746,
+      "name": "Arash Beheshtian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 747,
+      "name": "S. Rahemi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 748,
+      "name": "Hossein Shojaaldini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 749,
+      "name": "Abolfazl Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 750,
+      "name": "Mehrnaz Mesbah-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 751,
+      "name": "Mohammad Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 752,
+      "name": "Mehdi Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 753,
+      "name": "M. Kamali-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 754,
+      "name": "Maryam Hashemi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 755,
+      "name": "Jalil Majd Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 756,
+      "name": "Maryam Afkhami Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 757,
+      "name": "Tahereh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 758,
+      "name": "Majeed Karimi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 759,
+      "name": "A.R. Okhovatian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 760,
+      "name": "Ahmad Haerian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 761,
+      "name": "Soheila Sadat Mirhoseini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 762,
+      "name": "Leila Safaee Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 763,
+      "name": "Batool Yamani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 764,
+      "name": "M Ebrahimzadeh",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 765,
+      "name": "Seyed Mostajab Razavinezhad Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 766,
+      "name": "Hamidreaza Jahanbani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 767,
+      "name": "H. Talei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 768,
+      "name": "Ellie P. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 769,
+      "name": "Allahyar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 770,
+      "name": "Hossein Hatefi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 771,
+      "name": "Mehdi Nazemi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 772,
+      "name": "Jalal Vahedian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 773,
+      "name": "Mohammad Reza Dehestani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 774,
+      "name": "Mojtaba Dehestani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 775,
+      "name": "S. A. Yasini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 776,
+      "name": "Ardakani M. Mazloum",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 777,
+      "name": "Haniye Khosravi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 778,
+      "name": "Maryam Keramati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 779,
+      "name": "Yaser Amiri-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 780,
+      "name": "Vahid Asadian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 781,
+      "name": "Pegah Nazemizadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 782,
+      "name": "Mohammad Reza Sarafraz-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 783,
+      "name": "Mohammad Reza Ardakani Movaghati",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 784,
+      "name": "Ilya Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 785,
+      "name": "Mohammad-Reza SARAFRAZ-ARDAKANI",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 786,
+      "name": "Behnoush Abedi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 787,
+      "name": "Mahsa Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 788,
+      "name": "Hossein Malek Afzali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 789,
+      "name": "Seyed Ziaedin Tabatabaee-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 790,
+      "name": "Seyed Esmaeil Mahdavi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 791,
+      "name": "Toba Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 792,
+      "name": "Yadollah Safaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 793,
+      "name": "Milad Mellat-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 794,
+      "name": "Mohammad Danesh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 795,
+      "name": "Mahbubeh Purabdolahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 796,
+      "name": "Amid Motavallizadeh-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 797,
+      "name": "Ehsan Sharafian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 798,
+      "name": "Mohammadreza Piri Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 799,
+      "name": "Mohammad Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 800,
+      "name": "Maryam Talepoor Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 801,
+      "name": "Ali Moghimi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 802,
+      "name": "Pedram Ashofteh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 803,
+      "name": "Tayebeh Shojaaddini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 804,
+      "name": "Mahammadreza Reza Talebi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 805,
+      "name": "Mohammad Reza Talebi-ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 806,
+      "name": "Leila Safaiee Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 807,
+      "name": "Ali Mellat Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 808,
+      "name": "Saman Afkhami Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 809,
+      "name": "A Salahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 810,
+      "name": "H. Afkhami Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 811,
+      "name": "Zahra Sadat Saadaty Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 812,
+      "name": "Rumyar V. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 813,
+      "name": "Hossain Anaraky‐Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 814,
+      "name": "Mohammad Hossein Moteallehi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 815,
+      "name": "F Ez Aldini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 816,
+      "name": "Mohammadreza Shams Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 817,
+      "name": "Gholamreza Jafarian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 818,
+      "name": "Reza Moulavi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 819,
+      "name": "Faezeh Asadian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 820,
+      "name": "A A Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 821,
+      "name": "P. Mesbah-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 822,
+      "name": "MOHSEN DASHTI-ARDAKANI",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 823,
+      "name": "Negar Shaker-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 824,
+      "name": "Seyed Mojtaba Yassini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 825,
+      "name": "Hossein Ziaee-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 826,
+      "name": "Maria Tavakoli-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 827,
+      "name": "Hamidreza Jahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 828,
+      "name": "N. Mesbah Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 829,
+      "name": "Mohsen Sharif Zadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 830,
+      "name": "Fatemeh Pourroustaei-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 831,
+      "name": "M. Roayayi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 832,
+      "name": "Hossein Shaker-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 833,
+      "name": "Esmaeel Bagherpour-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 834,
+      "name": "Masoud Amin Safaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 835,
+      "name": "Ameneh Jahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 836,
+      "name": "Habib Adabi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 837,
+      "name": "Shahab Kamali-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 838,
+      "name": "Najmeh Seighal Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 839,
+      "name": "Abbas Torabi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 840,
+      "name": "Leili Kamali Ardekani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 841,
+      "name": "S. Behjati-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 842,
+      "name": "Mohammad Roayaie Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 843,
+      "name": "Y. i Masoumi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 844,
+      "name": "J Mohiti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 845,
+      "name": "Yaser Masoomi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 846,
+      "name": "Amirmahdi Fotouhi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 847,
+      "name": "Azra Mohiti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 848,
+      "name": "A Motevalizadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 849,
+      "name": "Mohammadreza Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 850,
+      "name": "Sadreddin Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 851,
+      "name": "Alireza Hekmat-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 852,
+      "name": "Mohammad Reza Shams-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 853,
+      "name": "Hassan Delavar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 854,
+      "name": "H. Malekafzali-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 855,
+      "name": "Razieh Kamali-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 856,
+      "name": "Amir Hossein Hatefi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 857,
+      "name": "M R Talebi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 858,
+      "name": "Mahdi Ghazaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 859,
+      "name": "Soroush Shabani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 860,
+      "name": "A Shoja Aldini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 861,
+      "name": "Ali Toossi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 862,
+      "name": "Hamideh Sadat Fazael Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 863,
+      "name": "SS Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 864,
+      "name": "A.R. Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 865,
+      "name": "Amir Hatefi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 866,
+      "name": "Alireza Abdi Ardekani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 867,
+      "name": "KOHYAR YAZDANPANH-ARDAKANI",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 868,
+      "name": "K Majdzadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 869,
+      "name": "S Sadeghi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 870,
+      "name": "R Manochehri Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 871,
+      "name": "A Sobhan Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 872,
+      "name": "Mohammad Reza Piri Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 873,
+      "name": "Hossein Payedar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 874,
+      "name": "HA Vahedian-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 875,
+      "name": "Matin Raayai Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 876,
+      "name": "Hasti Asayesh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 877,
+      "name": "Hassan Akhiri Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 878,
+      "name": "Hossein Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 879,
+      "name": "Seyyedmohammadjavad Ghazi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 880,
+      "name": "Ardakani S.M.Y.",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 881,
+      "name": "Omid Afkhami-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 882,
+      "name": "Ali Shahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 883,
+      "name": "Hossein Mahmoodzadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 884,
+      "name": "Azin Salek Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 885,
+      "name": "P Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 886,
+      "name": "Ali Tahanpour Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 887,
+      "name": "Kohyar Yazdanpanah-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 888,
+      "name": "Kianoosh Torabi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 889,
+      "name": "Hassan Marzoughi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 890,
+      "name": "Malekafzali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 891,
+      "name": "Hamed Rounagh-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 892,
+      "name": "Bahareh Malekafzali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 893,
+      "name": "A.SH. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 894,
+      "name": "Ahmad Reza Mahboubi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 895,
+      "name": "S Rahemi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 896,
+      "name": "Mohammad-Ali Hakimzadeh-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 897,
+      "name": "A Gahanbani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 898,
+      "name": "Amid Motavallizadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 899,
+      "name": "Roayaei Ardakani M",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 900,
+      "name": "Alireza Hooshmand-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 901,
+      "name": "Jalil Majd-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 902,
+      "name": "Amin Paidar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 903,
+      "name": "S.A. Yasini-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 904,
+      "name": "Mahboobeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 905,
+      "name": "Shahram Salek-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 906,
+      "name": "Mahdi Nazemi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 907,
+      "name": "Hassanali Vahedian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 908,
+      "name": "G. Siyahati-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 909,
+      "name": "Zahra Ahmadi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 910,
+      "name": "Ali Afzali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 911,
+      "name": "Samad Ranjbar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 912,
+      "name": "Fatemeh Behjati-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 913,
+      "name": "Zakieh Vahedian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 914,
+      "name": "Mohamad Ebrahimzadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 915,
+      "name": "Fahimeh Dehestani Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 916,
+      "name": "Saeid Saieda Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 917,
+      "name": "Mohammadamin Behjati Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 918,
+      "name": "F. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 919,
+      "name": "Hassan Hatefi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 920,
+      "name": "Hasan Afkhami Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 921,
+      "name": "Azadeh Pourghayumi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 922,
+      "name": "Saeideh Anavri Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 923,
+      "name": "Esmaeil Safaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 924,
+      "name": "Maryam Mellat Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 925,
+      "name": "Samanaeh Entezarian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 926,
+      "name": "Samira Rezvani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 927,
+      "name": "Seyedeh Fatemeh Ghazi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 928,
+      "name": "H. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 929,
+      "name": "Z Zamanian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 930,
+      "name": "Payman Sharafian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 931,
+      "name": "Zahra Fotoohi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 932,
+      "name": "Fatemeh Ardakani‐Movaghati",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 933,
+      "name": "Hossein Anaraki Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 934,
+      "name": "Saeid Pourroustaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 935,
+      "name": "M Nazemi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 936,
+      "name": "Davood Anaraki-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 937,
+      "name": "Zahra Hashemi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 938,
+      "name": "J. Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 939,
+      "name": "S M Yasini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 940,
+      "name": "Ahmad Reza Rezaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 941,
+      "name": "Ali Mirabzadeh-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 942,
+      "name": "Mahnam Alaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 943,
+      "name": "Hasanali Vahedian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 944,
+      "name": "Hamid Torabi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 945,
+      "name": "Maryam Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 946,
+      "name": "Yasamin Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 947,
+      "name": "Ehsan Mohiti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 948,
+      "name": "M Afkhami-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 949,
+      "name": "Abbas Paydar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 950,
+      "name": "Mohammad Reza Khodayi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 951,
+      "name": "Hossein Haerian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 952,
+      "name": "H.T.F. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 953,
+      "name": "Mehdi Afkhami Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 954,
+      "name": "Ali Melat Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 955,
+      "name": "Azam Ekhtiary Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 956,
+      "name": "Gholamreza Fotoohi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 957,
+      "name": "Azadeh Motevali Zadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 958,
+      "name": "Parisa Pourroostaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 959,
+      "name": "Seyed Mohammad Seyed Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 960,
+      "name": "Mohammad Piri Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 961,
+      "name": "Mohammad Beheshtian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 962,
+      "name": "M Shams Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 963,
+      "name": "Mohammad Sarafraz Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 964,
+      "name": "Fateme Fotouhi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 965,
+      "name": "Zeinab Shaker Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 966,
+      "name": "Moahammad Reza Khodaei-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 967,
+      "name": "Molaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 968,
+      "name": "T. Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 969,
+      "name": "Hossein Majedi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 970,
+      "name": "Alireza Emami-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 971,
+      "name": "Mohammad Reza Fatahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 972,
+      "name": "Rustin Mahboubi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 973,
+      "name": "Hossein Ziaei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 974,
+      "name": "Masoud Saeedipanah Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 975,
+      "name": "Sayyed Hassan Mirhosseini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 976,
+      "name": "Maryam Bakhshi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 977,
+      "name": "A. R. Mahboobi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 978,
+      "name": "Mitra Danesh-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 979,
+      "name": "Alireza Ghaderi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 980,
+      "name": "Sara Kamali Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 981,
+      "name": "Afkhami Ardakani Mohammad",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 982,
+      "name": "MohammadAmin Behjati-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 983,
+      "name": "M A Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 984,
+      "name": "Seyyed Ali Yasini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 985,
+      "name": "Gholamreza Ebrahimzadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 986,
+      "name": "Soheil Yasini Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 987,
+      "name": "Shabnam Mohammadi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 988,
+      "name": "Mohsen Fattahi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 989,
+      "name": "Ali Jafari Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 990,
+      "name": "Mazloum-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 991,
+      "name": "Hakimzadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 992,
+      "name": "Anahita Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 993,
+      "name": "Zahra Afshar Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 994,
+      "name": "Mohammad Ali Tavakoli Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 995,
+      "name": "E Tavakolian Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 996,
+      "name": "Mohammad Azemi-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 997,
+      "name": "Fahimeh Dehestani-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 998,
+      "name": "Reza Moulavi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 999,
+      "name": "آخوندی شماتقصیری ندارید",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
     }
   ],
   "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."

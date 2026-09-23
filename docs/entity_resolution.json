@@ -1,15 +1,131 @@
 {
-  "input_count": 495,
-  "group_count": 27,
-  "pair_count": 25,
+  "input_count": 1000,
+  "group_count": 66,
+  "pair_count": 76,
   "decision_counts": {
     "SAME_PERSON": 10,
-    "LIKELY_SAME_PERSON": 5,
-    "UNCERTAIN": 10,
+    "LIKELY_SAME_PERSON": 31,
+    "UNCERTAIN": 35,
     "LIKELY_DIFFERENT_PERSON": 0
   },
-  "human_review_count": 15,
+  "human_review_count": 66,
   "pairs": [
+    {
+      "candidate_a": 5,
+      "candidate_b": 708,
+      "name_a": "Abbas Taghavi Ardakani",
+      "name_b": "Abbas Taghavi-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 12,
+      "candidate_b": 760,
+      "name_a": "Ahmad Haerian-Ardakani",
+      "name_b": "Ahmad Haerian Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 20,
+      "candidate_b": 910,
+      "name_a": "Ali Afzali-Ardakani",
+      "name_b": "Ali Afzali Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 23,
+      "candidate_b": 742,
+      "name_a": "Ali Jahanbani Ardakani",
+      "name_b": "Ali Jahanbani-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8376,
+      "confidence": 0.712,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.5128
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
     {
       "candidate_a": 29,
       "candidate_b": 30,
@@ -61,6 +177,38 @@
       "conflicts": [],
       "human_review_required": true,
       "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 54,
+      "candidate_b": 912,
+      "name_a": "Fatemeh Behjati Ardakani",
+      "name_b": "Fatemeh Behjati-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8794,
+      "confidence": 0.7475,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.6383
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
     },
     {
       "candidate_a": 55,
@@ -119,6 +267,36 @@
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
     },
     {
+      "candidate_a": 64,
+      "candidate_b": 827,
+      "name_a": "Hamidreza Jahanbani‐Ardakani",
+      "name_b": "Hamidreza Jahanbani Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 0.9689,
+      "confidence": 0.8236,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.9067
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
       "candidate_a": 68,
       "candidate_b": 418,
       "name_a": "Hassan-Ali Vahedian-Ardakani",
@@ -145,6 +323,96 @@
       "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
+      "candidate_a": 70,
+      "candidate_b": 907,
+      "name_a": "Hassanali Vahedian-Ardakani",
+      "name_b": "Hassanali Vahedian Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 72,
+      "candidate_b": 876,
+      "name_a": "Hasti Asayesh‐Ardakani",
+      "name_b": "Hasti Asayesh Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 76,
+      "candidate_b": 933,
+      "name_a": "Hossein Anaraki‐Ardakani",
+      "name_b": "Hossein Anaraki Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 0.9508,
+      "confidence": 0.8082,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.8525
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
       "candidate_a": 104,
       "candidate_b": 105,
       "name_a": "Maria Tavakoli Ardakani",
@@ -167,10 +435,278 @@
       "explanation": "The records share the same stable academic identifier."
     },
     {
+      "candidate_a": 104,
+      "candidate_b": 826,
+      "name_a": "Maria Tavakoli Ardakani",
+      "name_b": "Maria Tavakoli-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8,
+      "confidence": 0.68,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.4
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 105,
+      "candidate_b": 826,
+      "name_a": "Maria Tavakoli‐Ardakani",
+      "name_b": "Maria Tavakoli-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8,
+      "confidence": 0.68,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.4
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 120,
+      "candidate_b": 720,
+      "name_a": "Mohammad Afkhami Ardakani",
+      "name_b": "Mohammad Afkhami‐Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.7642,
+      "confidence": 0.6496,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.2927
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 123,
+      "candidate_b": 896,
+      "name_a": "Mohammad Ali Hakimzadeh Ardakani",
+      "name_b": "Mohammad-Ali Hakimzadeh-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
       "candidate_a": 125,
       "candidate_b": 139,
       "name_a": "Mohammad Javad Ehsani Ardakani",
       "name_b": "Mohammad-Javad Ehsani-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 125,
+      "candidate_b": 695,
+      "name_a": "Mohammad Javad Ehsani Ardakani",
+      "name_b": "Mohammad Javad Ehsani-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 139,
+      "candidate_b": 695,
+      "name_a": "Mohammad-Javad Ehsani-Ardakani",
+      "name_b": "Mohammad Javad Ehsani-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 137,
+      "candidate_b": 805,
+      "name_a": "Mohammad Reza Talebi Ardakani",
+      "name_b": "Mohammad Reza Talebi-ardakani",
+      "decision": "UNCERTAIN",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 142,
+      "candidate_b": 816,
+      "name_a": "Mohammadreza Shams‐Ardakani",
+      "name_b": "Mohammadreza Shams Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 143,
+      "candidate_b": 663,
+      "name_a": "Mohammadreza Talebi Ardakani",
+      "name_b": "Mohammadreza Talebi-Ardakani",
       "decision": "LIKELY_SAME_PERSON",
       "score": 1.0,
       "confidence": 0.85,
@@ -255,6 +791,802 @@
       "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
     },
     {
+      "candidate_a": 169,
+      "candidate_b": 737,
+      "name_a": "Reza Behjatmanesh‐Ardakani",
+      "name_b": "Reza Behjatmanesh Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 171,
+      "candidate_b": 687,
+      "name_a": "Reza Fotouhi-Ardakani",
+      "name_b": "Reza Fotouhi Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8754,
+      "confidence": 0.7441,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.6263
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 184,
+      "candidate_b": 905,
+      "name_a": "Shahram Salek‐Ardakani",
+      "name_b": "Shahram Salek-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 0.9268,
+      "confidence": 0.7878,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.7805
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 203,
+      "candidate_b": 709,
+      "name_a": "Zohreh Behjati Ardakani",
+      "name_b": "Zohreh Behjati-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.7179,
+      "confidence": 0.6102,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.1538
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 656,
+      "candidate_b": 679,
+      "name_a": "Maryam Dehestani‐Ardakani",
+      "name_b": "Maryam Dehestani Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.76,
+      "confidence": 0.646,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.28
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 660,
+      "candidate_b": 983,
+      "name_a": "M. A. ARDAKANI",
+      "name_b": "M A Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 662,
+      "candidate_b": 684,
+      "name_a": "Zahra Tavakolian-Ardakani",
+      "name_b": "Zahra Tavakolian- Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 665,
+      "candidate_b": 772,
+      "name_a": "Jalal Vahedian‐Ardakani",
+      "name_b": "Jalal Vahedian Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 682,
+      "candidate_b": 697,
+      "name_a": "Khadijeh Jahanbani Ardakani",
+      "name_b": "Khadijeh Jahanbani-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.9167,
+      "confidence": 0.7792,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.75
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 689,
+      "candidate_b": 979,
+      "name_a": "Alireza Ghaderi-Ardakani",
+      "name_b": "Alireza Ghaderi Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8889,
+      "confidence": 0.7556,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.6667
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 692,
+      "candidate_b": 782,
+      "name_a": "Mohammad Reza Sarafraz Ardakani",
+      "name_b": "Mohammad Reza Sarafraz-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 692,
+      "candidate_b": 785,
+      "name_a": "Mohammad Reza Sarafraz Ardakani",
+      "name_b": "Mohammad-Reza SARAFRAZ-ARDAKANI",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 0.9216,
+      "confidence": 0.7834,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.7647
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 782,
+      "candidate_b": 785,
+      "name_a": "Mohammad Reza Sarafraz-Ardakani",
+      "name_b": "Mohammad-Reza SARAFRAZ-ARDAKANI",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 0.9216,
+      "confidence": 0.7834,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.7647
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 694,
+      "candidate_b": 972,
+      "name_a": "Rustin Mahboubi-Ardakani",
+      "name_b": "Rustin Mahboubi Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.7639,
+      "confidence": 0.6493,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.2917
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 711,
+      "candidate_b": 824,
+      "name_a": "Seyed Mojtaba Yassini-Ardakani",
+      "name_b": "Seyed Mojtaba Yassini Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 716,
+      "candidate_b": 837,
+      "name_a": "Shahab Kamali Ardakani",
+      "name_b": "Shahab Kamali-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.7284,
+      "confidence": 0.6191,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.1852
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 729,
+      "candidate_b": 822,
+      "name_a": "Mohsen Dashti Ardakani",
+      "name_b": "MOHSEN DASHTI-ARDAKANI",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 732,
+      "candidate_b": 872,
+      "name_a": "Mohammad-Reza Piri-Ardakani",
+      "name_b": "Mohammad Reza Piri Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.7673,
+      "confidence": 0.6522,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.3019
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 747,
+      "candidate_b": 895,
+      "name_a": "S. Rahemi Ardakani",
+      "name_b": "S Rahemi Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8602,
+      "confidence": 0.7312,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.5806
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 755,
+      "candidate_b": 901,
+      "name_a": "Jalil Majd Ardakani",
+      "name_b": "Jalil Majd-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 775,
+      "candidate_b": 903,
+      "name_a": "S. A. Yasini Ardakani",
+      "name_b": "S.A. Yasini-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 796,
+      "candidate_b": 898,
+      "name_a": "Amid Motavallizadeh-Ardakani",
+      "name_b": "Amid Motavallizadeh Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.7836,
+      "confidence": 0.6661,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.3509
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 818,
+      "candidate_b": 998,
+      "name_a": "Reza Moulavi-Ardakani",
+      "name_b": "Reza Moulavi Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 915,
+      "candidate_b": 997,
+      "name_a": "Fahimeh Dehestani Ardakani",
+      "name_b": "Fahimeh Dehestani-Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 917,
+      "candidate_b": 982,
+      "name_a": "Mohammadamin Behjati Ardakani",
+      "name_b": "MohammadAmin Behjati-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.7737,
+      "confidence": 0.6576,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.321
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 7,
+      "candidate_b": 749,
+      "name_a": "Abolfazl Ardakan",
+      "name_b": "Abolfazl Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8644,
+      "confidence": 0.7347,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 0.9697
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.6538
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
       "candidate_a": 16,
       "candidate_b": 17,
       "name_a": "Akbar Beiki‐Ardakan",
@@ -287,6 +1619,58 @@
       "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
     },
     {
+      "candidate_a": 29,
+      "candidate_b": 851,
+      "name_a": "Alireza Hekmat Ardakan",
+      "name_b": "Alireza Hekmat-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.9778,
+      "confidence": 0.8311,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 0.9778
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 30,
+      "candidate_b": 851,
+      "name_a": "Alireza Hekmat‐Ardakan",
+      "name_b": "Alireza Hekmat-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.9778,
+      "confidence": 0.8311,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 0.9778
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
       "candidate_a": 53,
       "candidate_b": 54,
       "name_a": "Fatemeh Behjati Ardakan",
@@ -304,6 +1688,38 @@
           "type": "organization",
           "result": "partial_match",
           "score": 0.5333
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 53,
+      "candidate_b": 912,
+      "name_a": "Fatemeh Behjati Ardakan",
+      "name_b": "Fatemeh Behjati-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.8279,
+      "confidence": 0.7037,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 0.9787
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.5263
         }
       ],
       "missing_evidence": [
@@ -341,10 +1757,70 @@
       "explanation": "The records share the same stable academic identifier."
     },
     {
+      "candidate_a": 69,
+      "candidate_b": 907,
+      "name_a": "Hassanali Vahedian-Ardakan",
+      "name_b": "Hassanali Vahedian Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 0.9874,
+      "confidence": 0.8393,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 0.9811
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
       "candidate_a": 71,
       "candidate_b": 72,
       "name_a": "Hasti Asayesh-Ardakan",
       "name_b": "Hasti Asayesh‐Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 0.9845,
+      "confidence": 0.8368,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 0.9767
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 71,
+      "candidate_b": 876,
+      "name_a": "Hasti Asayesh-Ardakan",
+      "name_b": "Hasti Asayesh Ardakani",
       "decision": "LIKELY_SAME_PERSON",
       "score": 0.9845,
       "confidence": 0.8368,
@@ -401,6 +1877,36 @@
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
     },
     {
+      "candidate_a": 168,
+      "candidate_b": 737,
+      "name_a": "Reza Behjatmanesh-Ardakan",
+      "name_b": "Reza Behjatmanesh Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 0.9869,
+      "confidence": 0.8389,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 0.9804
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
       "candidate_a": 183,
       "candidate_b": 184,
       "name_a": "Shahram Salek-Ardakan",
@@ -418,6 +1924,38 @@
           "type": "organization",
           "result": "partial_match",
           "score": 0.2353
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [
+        "organization"
+      ],
+      "human_review_required": true,
+      "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 183,
+      "candidate_b": 905,
+      "name_a": "Shahram Salek-Ardakan",
+      "name_b": "Shahram Salek-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 0.7578,
+      "confidence": 0.6441,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 0.9767
+        },
+        {
+          "type": "organization",
+          "result": "partial_match",
+          "score": 0.32
         }
       ],
       "missing_evidence": [

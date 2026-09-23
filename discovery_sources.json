@@ -2,9 +2,9 @@
   "schema": "scie-public-source-registry-v1",
   "policy": "Only public, indexable pages. No private groups, login bypass, sensitive data, or access-control circumvention.",
   "sources": [
-    {"id":"telegram","label":"کانال‌ها و گروه‌های عمومی تلگرام","domains":["t.me"],"query_templates":["site:t.me {value} اردکان","site:t.me {value} یزد"]},
-    {"id":"eitaa","label":"کانال‌های عمومی ایتا","domains":["eitaa.com"],"query_templates":["site:eitaa.com {value} اردکان","site:eitaa.com {value} یزد"]},
-    {"id":"instagram","label":"صفحه‌های عمومی اینستاگرام","domains":["instagram.com"],"query_templates":["site:instagram.com {value} اردکان","site:instagram.com {value} یزد"]},
+    {"id":"telegram","label":"کانال‌ها و گروه‌های عمومی تلگرام","domains":["t.me"],"query_templates":["site:t.me/s {value} اردکان","site:t.me {value} اردکان","site:t.me {value} یزد"],"public_feeds":["https://t.me/s/ardakaneemrooz_ir","https://t.me/s/ardakanedu","https://t.me/s/darmangahebualiardakan","https://t.me/s/ardakantc","https://t.me/s/Bso_ardakanuni","https://t.me/s/Pourdehghan_ir"]},
+    {"id":"eitaa","label":"کانال‌ها، گروه‌ها و پروفایل‌های عمومی ایتا","domains":["eitaa.com"],"query_templates":["site:eitaa.com {value} اردکان","site:eitaa.com {value} یزد"],"access_policy":"public pages and public profile metadata only"},
+    {"id":"instagram","label":"صفحه‌ها و فرادادهٔ عمومی پروفایل‌های اینستاگرام","domains":["instagram.com"],"query_templates":["site:instagram.com {value} اردکان","site:instagram.com {value} یزد"],"access_policy":"public pages or publicly indexed profile metadata only; no private content"},
     {"id":"universities","label":"دانشگاه‌های داخلی و خارجی","domains":["ac.ir","edu"],"query_templates":["site:ac.ir {value} اردکان","site:edu {value} Ardakan","{value} faculty Ardakan"]},
     {"id":"medical","label":"منابع عمومی پزشکی و حرفه‌ای","domains":["irimc.org","behdasht.gov.ir"],"query_templates":["site:irimc.org {value}","site:behdasht.gov.ir {value} اردکان"]},
     {"id":"legal","label":"منابع عمومی حقوقی و وکالت","domains":["23055.ir","icbar.ir"],"query_templates":["{value} وکیل اردکان","{value} کانون وکلا یزد"]},
