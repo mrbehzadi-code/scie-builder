@@ -96,6 +96,15 @@
       "new_records": 1,
       "pool_size": 372,
       "completed_at": "2026-09-22T10:15:53Z"
+    },
+    {
+      "lead_id": 1790275113561,
+      "issue_number": 25,
+      "value": "دکتر داوود عندلیب",
+      "status": "completed",
+      "new_records": 0,
+      "pool_size": 1000,
+      "completed_at": "2026-09-24T18:38:51Z"
     }
   ]
 }

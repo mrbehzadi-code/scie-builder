@@ -121,6 +121,17 @@
       "created_at": "2026-09-22T10:15:41.923Z",
       "issue_number": 23,
       "submitted_at": "2026-09-22T10:15:50Z"
+    },
+    {
+      "id": 1790275113561,
+      "type": "person",
+      "type_label": "نام یا فرد",
+      "value": "دکتر داوود عندلیب",
+      "location": "",
+      "note": "هیات‌ علمی مدیریت دانشگاه یزد",
+      "created_at": "2026-09-24T18:38:33.091Z",
+      "issue_number": 25,
+      "submitted_at": "2026-09-24T18:38:45Z"
     }
   ]
 }
