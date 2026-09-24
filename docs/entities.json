@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-09-24",
   "metrics": {
-    "candidate_records": 1000,
-    "canonical_entities": 990,
+    "candidate_records": 1002,
+    "canonical_entities": 992,
     "records_collapsed": 10,
     "same_person_pairs_applied": 10,
     "multi_record_entities": 10,
@@ -1008,7 +1008,9 @@
     "996": "scie-entity-00987",
     "997": "scie-entity-00988",
     "998": "scie-entity-00989",
-    "999": "scie-entity-00990"
+    "999": "scie-entity-00990",
+    "1000": "scie-entity-00991",
+    "1001": "scie-entity-00992"
   },
   "entities": [
     {
@@ -30687,6 +30689,64 @@
       ],
       "identifiers": {
         "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00991",
+      "candidate_indexes": [
+        1000
+      ],
+      "record_count": 1,
+      "primary_name": "داوود عندلیب",
+      "aliases": [
+        "داوود عندلیب"
+      ],
+      "sources": [
+        "Lead-guided OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5061062249"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5061062249"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-00992",
+      "candidate_indexes": [
+        1001
+      ],
+      "record_count": 1,
+      "primary_name": "داوود عندلیب اردکانی",
+      "aliases": [
+        "داوود عندلیب اردکانی"
+      ],
+      "sources": [
+        "Lead-guided OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5012546976"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5012546976"
+        ],
         "github_usernames": [],
         "orcids": []
       },

@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-09-24",
-  "candidate_count": 1000,
+  "candidate_count": 1002,
   "metrics": {
-    "openalex_skipped": 651,
+    "openalex_skipped": 653,
     "unsupported_or_missing_id": 282,
     "openalex_reused": 7,
     "github_reused": 60,
     "errors": 0,
     "enriched_total": 67,
-    "skipped_total": 933
+    "skipped_total": 935
   },
   "failures": {},
   "profiles": [
@@ -9941,6 +9941,26 @@
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
+    },
+    {
+      "candidate_index": 1000,
+      "name": "داوود عندلیب",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 1001,
+      "name": "داوود عندلیب اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     }
   ],
   "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."
