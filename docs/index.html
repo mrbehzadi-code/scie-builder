@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
-  <link rel="stylesheet" href="poster.css?v=20260924-4">
+  <link rel="stylesheet" href="poster.css?v=20260924-5">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -58,7 +58,7 @@
       <button data-tab="network" aria-selected="false"><span class="tab-icon">⌘</span>شبکه</button>
       <button data-tab="organizations" aria-selected="false"><span class="tab-icon">▦</span>سازمان‌ها</button>
       <button data-tab="verification" aria-selected="false"><span class="tab-icon">✓</span>راستی‌آزمایی</button>
-      <button data-tab="leads" aria-selected="false"><span class="tab-icon">＋</span>سرنخ جدید</button>
+      <button class="atlas-contribute-tab" data-tab="leads" aria-selected="false"><span class="tab-icon">＋</span><span class="tab-label">معرفی به اطلس<small>پیشنهاد شما</small></span></button>
     </nav>
 
     <section id="metrics" class="metrics" aria-label="شاخص‌های کلیدی"><div class="metric-skeleton"></div><div class="metric-skeleton"></div><div class="metric-skeleton"></div></section>
@@ -155,16 +155,21 @@
     </section>
 
     <section id="leads" class="section hidden">
-      <div class="page-heading"><span class="kicker">خط لولهٔ کشف هدایت‌شده</span><h2>ثبت و پردازش سرنخ جدید</h2><p>سرنخ مستقیماً و به‌صورت خودکار جستجو و اعتبارسنجی می‌شود؛ نامزدهای تازه به Snapshot و فهرست افراد افزوده خواهند شد.</p></div>
+      <div class="atlas-intro">
+        <div class="atlas-intro-copy"><span class="atlas-intro-badge">مشارکت در تکمیل اطلس</span><h2>معرفی به اطلس</h2><p>فرد، خانواده، سازمان، مکان یا نشانه‌ای را معرفی کنید. سامانه پیشنهاد شما را جستجو و اعتبارسنجی می‌کند و موارد معتبر به اطلس افزوده می‌شوند.</p></div>
+        <div class="atlas-intro-steps" aria-label="مراحل بررسی پیشنهاد"><span><b>۱</b>شما معرفی می‌کنید</span><i>←</i><span><b>۲</b>سامانه بررسی می‌کند</span><i>←</i><span><b>۳</b>نتیجه به اطلس می‌پیوندد</span></div>
+      </div>
       <div class="lead-layout">
-        <section class="panel lead-form">
-          <label><span>نوع سرنخ</span><select id="lt"><option>نام یا فرد</option><option>فامیلی</option><option>نشانی / محله</option><option>سازمان / شرکت</option><option>تخصص / حوزه</option><option>سرنخ آزاد</option></select></label>
-          <label><span>مقدار سرنخ</span><input id="lv" placeholder="برای مثال نام فرد یا سازمان"></label>
+        <section class="panel lead-form lead-submit-card">
+          <div class="full lead-form-heading"><span class="kicker">پیشنهاد شناسایی</span><h3>چه کسی یا چه چیزی را می‌خواهید معرفی کنید؟</h3><p>همین اطلاعات اولیه کافی است؛ هر توضیح تکمیلی به دقیق‌تر شدن بررسی کمک می‌کند.</p></div>
+          <label><span>نوع معرفی</span><select id="lt"><option>نام یا فرد</option><option>فامیلی</option><option>نشانی / محله</option><option>سازمان / شرکت</option><option>تخصص / حوزه</option><option>توضیح آزاد</option></select></label>
+          <label><span>موضوع معرفی</span><input id="lv" placeholder="برای مثال نام فرد، خانواده یا سازمان"></label>
           <label><span>مکان مرتبط</span><input id="ll" placeholder="اردکان، محله یا نشانی"></label>
           <label class="full"><span>توضیحات تکمیلی</span><textarea id="ln" placeholder="زمینه، منبع یا هر نکته مفید برای بررسی"></textarea></label>
-          <div class="full actions"><button id="save" type="button" class="button primary">ارسال برای جستجو و اعتبارسنجی</button><button id="notify" type="button" class="button subtle">فعال‌سازی اعلان پایان</button><button id="export" type="button" class="button subtle">دریافت JSON</button><span id="leadStatus" role="status" aria-live="polite"></span></div>
+          <div class="full lead-privacy">اطلاعات خصوصی یا محرمانه وارد نکنید؛ فقط داده‌های عمومی و قابل‌بررسی را ثبت کنید.</div>
+          <div class="full actions"><button id="save" type="button" class="button primary lead-submit-button">ثبت معرفی و آغاز بررسی</button><button id="notify" type="button" class="button subtle">فعال‌سازی اعلان پایان</button><button id="export" type="button" class="button subtle">دریافت JSON</button><span id="leadStatus" role="status" aria-live="polite"></span></div>
         </section>
-        <section class="panel"><div class="section-head compact"><div><span class="kicker">وضعیت پردازش</span><h3>سابقه سرنخ‌ها</h3></div></div><div id="leadHistory"></div></section>
+        <section class="panel lead-history-card"><div class="section-head compact"><div><span class="kicker">وضعیت بررسی</span><h3>پیگیری معرفی‌ها</h3><p>آخرین وضعیت پیشنهادهای ثبت‌شده در این دستگاه</p></div></div><div id="leadHistory"></div></section>
       </div>
     </section>
   </main>
@@ -197,6 +202,6 @@
     <article class="drawer"><div class="drawer-head"><div><span class="kicker">پروفایل اطلس</span><h2 id="dname"></h2><div id="dsummary" class="drawer-summary"></div></div><button id="close" class="icon-button" aria-label="بستن جزئیات">×</button></div><div id="dmeta" class="detail-sections"></div><div class="drawer-footer"><div id="devidence" class="evidence"></div><a id="durl" class="button primary" target="_blank" rel="noopener">مشاهده منبع ↗</a><button id="verifyPerson" class="button subtle" type="button">راستی‌آزمایی این فرد</button></div></article>
   </div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
-  <script src="app.js?v=20260924-4" defer></script>
+  <script src="app.js?v=20260924-5" defer></script>
 </body>
 </html>
