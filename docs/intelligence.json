@@ -1,17 +1,17 @@
 {
   "generated_at": "2026-09-24",
-  "candidate_count": 1002,
+  "candidate_count": 1004,
   "metrics": {
-    "unique_name_keys": 953,
-    "possible_duplicate_groups": 46,
+    "unique_name_keys": 954,
+    "possible_duplicate_groups": 47,
     "variant_duplicate_groups": 10,
     "stable_identifier_duplicate_groups": 10,
     "quality_strong": 5,
     "quality_medium": 909,
-    "quality_weak": 88,
+    "quality_weak": 90,
     "shared_organization_groups": 63,
     "shared_location_groups": 7,
-    "evidence_items": 2178,
+    "evidence_items": 2182,
     "organizations_detected": 165,
     "locations_detected": 11
   },
@@ -22,7 +22,7 @@
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 60,
     "دانشگاه‌های داخلی و خارجی": 1,
-    "Lead-guided OpenAlex Discovery": 24
+    "Lead-guided OpenAlex Discovery": 26
   },
   "capacity_types": {
     "کاندیدای پژوهشی": 633,
@@ -58,7 +58,7 @@
     "فنی و مهندسی": 3,
     "ظرفیت اجتماعی": 2,
     "دانش و دانشگاه": 21,
-    "کاندیدای معرفی‌شده به اطلس": 2
+    "کاندیدای معرفی‌شده به اطلس": 4
   },
   "evidence_types": {
     "OpenAlex author search": 633,
@@ -129,7 +129,9 @@
     "Ardakan keyword in same public post": 161,
     "public author profile": 344,
     "lead: داوود عندلیب": 2,
-    "query: داوود عندلیب": 2
+    "query: داوود عندلیب": 2,
+    "lead: داود عندلیب": 2,
+    "query: داود عندلیب": 2
   },
   "possible_duplicates": [
     {
@@ -500,6 +502,14 @@
       "candidate_indexes": [
         917,
         982
+      ],
+      "count": 2
+    },
+    {
+      "key": "داود عندلیب",
+      "candidate_indexes": [
+        1002,
+        1003
       ],
       "count": 2
     }
@@ -16355,6 +16365,34 @@
         "source_url",
         "evidence:2",
         "ardakan_signal",
+        "structured_source"
+      ]
+    },
+    {
+      "candidate_index": 1002,
+      "score": 28,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "structured_source"
+      ]
+    },
+    {
+      "candidate_index": 1003,
+      "score": 28,
+      "evidence_strength": "weak",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
         "structured_source"
       ]
     }

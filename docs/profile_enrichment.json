@@ -1,17 +1,17 @@
 {
   "generated_at": "2026-09-24",
-  "candidate_count": 1002,
+  "candidate_count": 1004,
   "metrics": {
     "with_organization": 448,
     "with_location": 278,
-    "with_stable_source_id": 720,
+    "with_stable_source_id": 722,
     "ardakan_location_signal": 275,
     "completeness_high": 448,
-    "completeness_medium": 468,
+    "completeness_medium": 470,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 660,
+    "OpenAlex": 662,
     "کانال‌ها و گروه‌های عمومی تلگرام": 172,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -40174,6 +40174,86 @@
       ],
       "evidence_count": 2,
       "quality_score": 43,
+      "evidence_strength": "weak",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 1002,
+      "name": "داود عندلیب",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5037498432",
+      "identifiers": {
+        "openalex_id": "A5037498432",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "lead: داود عندلیب",
+        "query: داود عندلیب"
+      ],
+      "evidence_count": 2,
+      "quality_score": 28,
+      "evidence_strength": "weak",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 1003,
+      "name": "داود عندلیب",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5024836561",
+      "identifiers": {
+        "openalex_id": "A5024836561",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "lead: داود عندلیب",
+        "query: داود عندلیب"
+      ],
+      "evidence_count": 2,
+      "quality_score": 28,
       "evidence_strength": "weak",
       "profile_completeness": 50,
       "available_fields": [

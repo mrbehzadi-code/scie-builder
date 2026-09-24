@@ -1,14 +1,14 @@
 {
-  "input_count": 1002,
-  "group_count": 66,
-  "pair_count": 76,
+  "input_count": 1004,
+  "group_count": 67,
+  "pair_count": 77,
   "decision_counts": {
     "SAME_PERSON": 10,
     "LIKELY_SAME_PERSON": 31,
-    "UNCERTAIN": 35,
+    "UNCERTAIN": 36,
     "LIKELY_DIFFERENT_PERSON": 0
   },
-  "human_review_count": 66,
+  "human_review_count": 67,
   "pairs": [
     {
       "candidate_a": 5,
@@ -1555,6 +1555,32 @@
       ],
       "human_review_required": true,
       "explanation": "Conflicting organization/location evidence prevents a safe automatic merge."
+    },
+    {
+      "candidate_a": 1002,
+      "candidate_b": 1003,
+      "name_a": "داود عندلیب",
+      "name_b": "داود عندلیب",
+      "decision": "UNCERTAIN",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
       "candidate_a": 7,
