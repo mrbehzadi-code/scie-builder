@@ -4,12 +4,12 @@
   "target": 1000,
   "stats": {
     "web_records": 6,
-    "people": 1000,
+    "people": 1002,
     "academic_candidates": 658,
     "regional_evidence": 234,
     "sources": {
       "GitHub Discovery": 60,
-      "Lead-guided OpenAlex Discovery": 22,
+      "Lead-guided OpenAlex Discovery": 24,
       "OpenAlex Discovery": 636,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
@@ -18,14 +18,14 @@
     },
     "public_source_records": 626,
     "social_public_records": 161,
-    "lead_guided_records": 22,
+    "lead_guided_records": 24,
     "last_lead": {
-      "id": 1790275113561,
-      "issue_number": 25,
+      "id": 1790275720416,
+      "issue_number": 26,
       "type": "person",
-      "value": "دکتر داوود عندلیب",
-      "completed_at": "2026-09-24T18:38:51Z",
-      "new_records": 0
+      "value": "داوود عندلیب",
+      "completed_at": "2026-09-24T18:48:52Z",
+      "new_records": 2
     }
   },
   "people": [
@@ -15200,6 +15200,38 @@
       "public_evidence_score": 60,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
+    },
+    {
+      "name": "داوود عندلیب",
+      "type": "کاندیدای معرفی‌شده به اطلس",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «داوود عندلیب»",
+      "location": "",
+      "evidence": [
+        "lead: داوود عندلیب",
+        "query: داوود عندلیب"
+      ],
+      "url": "https://openalex.org/A5061062249",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "candidate_not_confirmed",
+      "lead_id": 1790275720416
+    },
+    {
+      "name": "داوود عندلیب اردکانی",
+      "type": "کاندیدای معرفی‌شده به اطلس",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «داوود عندلیب»",
+      "location": "",
+      "evidence": [
+        "lead: داوود عندلیب",
+        "query: داوود عندلیب"
+      ],
+      "url": "https://openalex.org/A5012546976",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "candidate_not_confirmed",
+      "lead_id": 1790275720416
     }
   ]
 }

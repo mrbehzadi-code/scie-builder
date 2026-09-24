@@ -105,6 +105,15 @@
       "new_records": 0,
       "pool_size": 1000,
       "completed_at": "2026-09-24T18:38:51Z"
+    },
+    {
+      "lead_id": 1790275720416,
+      "issue_number": 26,
+      "value": "داوود عندلیب",
+      "status": "completed",
+      "new_records": 2,
+      "pool_size": 1002,
+      "completed_at": "2026-09-24T18:48:52Z"
     }
   ]
 }

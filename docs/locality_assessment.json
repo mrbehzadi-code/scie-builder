@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 872,
+    "insufficient": 874,
     "possible": 119,
     "probable": 8,
     "confirmed_by_human": 1
@@ -15856,6 +15856,31 @@
       "reasons": [
         {
           "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 1000,
+      "name": "داوود عندلیب",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 1001,
+      "name": "داوود عندلیب اردکانی",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
           "weight": 10
         }
       ],
