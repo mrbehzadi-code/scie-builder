@@ -4,12 +4,12 @@
   "target": 1000,
   "stats": {
     "web_records": 6,
-    "people": 1002,
+    "people": 1004,
     "academic_candidates": 658,
     "regional_evidence": 234,
     "sources": {
       "GitHub Discovery": 60,
-      "Lead-guided OpenAlex Discovery": 24,
+      "Lead-guided OpenAlex Discovery": 26,
       "OpenAlex Discovery": 636,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
@@ -18,13 +18,13 @@
     },
     "public_source_records": 626,
     "social_public_records": 161,
-    "lead_guided_records": 24,
+    "lead_guided_records": 26,
     "last_lead": {
-      "id": 1790275720416,
-      "issue_number": 26,
+      "id": 1790275742470,
+      "issue_number": 27,
       "type": "person",
-      "value": "داوود عندلیب",
-      "completed_at": "2026-09-24T18:48:52Z",
+      "value": "داود عندلیب",
+      "completed_at": "2026-09-24T18:49:19Z",
       "new_records": 2
     }
   },
@@ -15232,6 +15232,38 @@
       "confidence": "medium",
       "locality_claim": "candidate_not_confirmed",
       "lead_id": 1790275720416
+    },
+    {
+      "name": "داود عندلیب",
+      "type": "کاندیدای معرفی‌شده به اطلس",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «داود عندلیب»",
+      "location": "",
+      "evidence": [
+        "lead: داود عندلیب",
+        "query: داود عندلیب"
+      ],
+      "url": "https://openalex.org/A5037498432",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "candidate_not_confirmed",
+      "lead_id": 1790275742470
+    },
+    {
+      "name": "داود عندلیب",
+      "type": "کاندیدای معرفی‌شده به اطلس",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «داود عندلیب»",
+      "location": "",
+      "evidence": [
+        "lead: داود عندلیب",
+        "query: داود عندلیب"
+      ],
+      "url": "https://openalex.org/A5024836561",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "candidate_not_confirmed",
+      "lead_id": 1790275742470
     }
   ]
 }

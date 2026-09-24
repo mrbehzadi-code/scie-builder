@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 874,
+    "insufficient": 876,
     "possible": 119,
     "probable": 8,
     "confirmed_by_human": 1
@@ -15884,6 +15884,22 @@
           "weight": 10
         }
       ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 1002,
+      "name": "داود عندلیب",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 1003,
+      "name": "داود عندلیب",
+      "score": 0,
+      "status": "insufficient",
+      "reasons": [],
       "needs_human_review": true
     }
   ]
