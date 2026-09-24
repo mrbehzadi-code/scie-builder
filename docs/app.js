@@ -144,14 +144,24 @@ function avatarFor(name=''){
   return {initials,hue};
 }
 
+function renderPagination(pages){
+  $('pageinfo').textContent=`صفحه ${page.toLocaleString('fa-IR')} از ${pages.toLocaleString('fa-IR')}`;
+  $('first').disabled=$('prev').disabled=page===1;
+  $('last').disabled=$('next').disabled=page===pages;
+  const visible=new Set([1,pages,page-2,page-1,page,page+1,page+2].filter(value=>value>=1&&value<=pages));
+  if(pages<=7)for(let value=1;value<=pages;value++)visible.add(value);
+  const ordered=[...visible].sort((a,b)=>a-b),parts=[];
+  ordered.forEach((value,index)=>{if(index&&value-ordered[index-1]>1)parts.push('<span class="page-ellipsis" aria-hidden="true">…</span>');parts.push(`<button type="button" class="page-number${value===page?' active':''}" data-page="${value}"${value===page?' aria-current="page"':''} aria-label="صفحه ${value.toLocaleString('fa-IR')}">${value.toLocaleString('fa-IR')}</button>`)});
+  $('pageNumbers').innerHTML=parts.join('');
+}
+
 function render(){
   const query=normalizeSearch(q);
   filtered=people.filter(person=>(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat));
   const pages=Math.max(1,Math.ceil(filtered.length/PAGE));page=Math.min(Math.max(1,page),pages);
   const start=(page-1)*PAGE,rows=filtered.slice(start,start+PAGE);
   $('count').textContent=`${filtered.length} رکورد`;
-  $('pageinfo').textContent=`صفحه ${page.toLocaleString('fa-IR')} از ${pages.toLocaleString('fa-IR')}`;
-  $('prev').disabled=page===1;$('next').disabled=page===pages;
+  renderPagination(pages);
   if(!rows.length){$('list').innerHTML='<div class="empty-state"><strong>نتیجه‌ای پیدا نشد</strong><small>عبارت جستجو یا فیلترها را تغییر دهید.</small><button type="button" class="button subtle" data-empty-reset>نمایش همه رکوردها</button></div>';return}
   const tableHead='<div class="directory-head" aria-hidden="true"><span>#</span><span>نام و مشخصات</span><span>حوزه و نقش</span><span>سازمان / وابستگی</span><span>کیفیت شواهد</span><span>عملیات</span></div>';
   $('list').innerHTML=tableHead+rows.map((person,index)=>{
@@ -295,7 +305,9 @@ function bindEvents(){
   document.addEventListener('click',event=>{if(!event.target.closest('.search'))$('history').classList.remove('open')});
   $('source').addEventListener('change',event=>{src=event.target.value;page=1;render()});$('reset').addEventListener('click',resetFilters);
   $('verifyPerson').addEventListener('click',()=>{const index=$('verifyPerson').dataset.recordIndex;closeDetail();openTab('verification');$('vrPerson').value=index;$('vrPerson').focus()});
-  $('prev').addEventListener('click',()=>{if(page>1){page--;render();$('list').scrollIntoView({block:'start'})}});$('next').addEventListener('click',()=>{if(page<Math.ceil(filtered.length/PAGE)){page++;render();$('list').scrollIntoView({block:'start'})}});
+  const goToPage=target=>{const pages=Math.max(1,Math.ceil(filtered.length/PAGE)),nextPage=Math.min(Math.max(1,target),pages);if(nextPage===page)return;page=nextPage;render();$('list').scrollIntoView({block:'start',behavior:'smooth'})};
+  $('first').addEventListener('click',()=>goToPage(1));$('prev').addEventListener('click',()=>goToPage(page-1));$('next').addEventListener('click',()=>goToPage(page+1));$('last').addEventListener('click',()=>goToPage(Math.ceil(filtered.length/PAGE)));
+  $('pageNumbers').addEventListener('click',event=>{const button=event.target.closest('[data-page]');if(button)goToPage(Number(button.dataset.page))});
   $('list').addEventListener('click',event=>{
     const row=event.target.closest('.person'),action=event.target.closest('[data-action]');
     if(action?.dataset.action==='save'){action.classList.toggle('saved');action.textContent=action.classList.contains('saved')?'♥':'♡';return}
