@@ -60,7 +60,7 @@ def add_candidate(people,existing,lead,name,url,source,detail,evidence):
     key=(norm(name),norm(url))
     if not name or key in existing: return False
     combined=' '.join([name,url,detail,*evidence]).casefold(); explicit=any(x in combined for x in ('اردکان','ardakan'))
-    people.append({'name':name,'type':'کاندیدای کشف از سرنخ','source':source,'detail':detail,'location':lead.get('location') or '', 'evidence':evidence,'url':url,'verification':'needs_review','confidence':'medium' if explicit else 'low','locality_claim':'candidate_not_confirmed','lead_id':lead.get('id')}); existing.add(key); return True
+    people.append({'name':name,'type':'کاندیدای معرفی‌شده به اطلس','source':source,'detail':detail,'location':lead.get('location') or '', 'evidence':evidence,'url':url,'verification':'needs_review','confidence':'medium' if explicit else 'low','locality_claim':'candidate_not_confirmed','lead_id':lead.get('id')}); existing.add(key); return True
 def source_counts(people):
     out={}
     for p in people:

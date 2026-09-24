@@ -7,6 +7,7 @@ const $=id=>document.getElementById(id);
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const FA_DIGITS='۰۱۲۳۴۵۶۷۸۹';
 const faDigits=value=>String(value??'').replace(/[0-9]/g,digit=>FA_DIGITS[digit]);
+const uiText=value=>String(value??'').replaceAll('کاندیدای کشف از سرنخ','کاندیدای معرفی‌شده به اطلس').replaceAll('سرنخ','معرفی به اطلس');
 const normalizeSearch=value=>String(value??'')
   .normalize('NFKC')
   .replace(/[يى]/g,'ی').replace(/ك/g,'ک').replace(/ۀ/g,'ه').replace(/ة/g,'ه')
@@ -128,12 +129,12 @@ function setupFilters(){
   const sources=[...new Set(people.map(person=>person.source).filter(Boolean))].sort();
   $('source').innerHTML='<option value="all">همه منابع</option>'+sources.map(value=>`<option value="${esc(value)}">${esc(value)}</option>`).join('');
   const categories=[...new Set(people.map(person=>person.type).filter(Boolean))].sort();
-  $('cats').innerHTML='<button type="button" class="chip active" data-c="all">همه</button>'+categories.map(value=>`<button type="button" class="chip" data-c="${esc(value)}">${esc(value)}</button>`).join('');
+  $('cats').innerHTML='<button type="button" class="chip active" data-c="all">همه</button>'+categories.map(value=>`<button type="button" class="chip" data-c="${esc(value)}">${esc(uiText(value))}</button>`).join('');
   document.querySelectorAll('[data-c]').forEach(button=>button.addEventListener('click',()=>{cat=button.dataset.c;page=1;document.querySelectorAll('[data-c]').forEach(item=>item.classList.toggle('active',item===button));render()}));
 }
 
 function searchable(person){
-  return normalizeSearch([person.name,person.source,person.type,person.detail,person.affiliation,person.organization,person.location,...(person.evidence||[])].filter(Boolean).join(' '));
+  return normalizeSearch([person.name,person.source,person.type,uiText(person.type),person.detail,person.affiliation,person.organization,person.location,...(person.evidence||[])].filter(Boolean).join(' '));
 }
 
 function avatarFor(name=''){
@@ -164,7 +165,7 @@ function render(){
     const enriched=external.status==='enriched'?`<span class="badge enriched">${external.data?.cached?'غنی‌شده · Cache':'غنی‌شده · زنده'}</span>`:'';
     const locality=person._locality||{},localityLabel={confirmed:'اردکانی تأییدشده',confirmed_by_human:'تأیید انسانی',probable:'ارتباط محتمل',possible:'ارتباط ضعیف',insufficient:'شاهد ناکافی',rejected_by_human:'ردشده در بازبینی'}[locality.status]||'';
     const localityBadge=localityLabel?`<span class="badge ${locality.status==='rejected_by_human'?'weak':locality.status.includes('confirmed')?'strong':'medium'}">${localityLabel} · ${esc(locality.score||0)}</span>`:'';
-    return `<div class="person" role="button" tabindex="0" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span class="identity"><span class="name">${esc(person.name||'بدون نام')}</span><span class="person-sub">${esc(person.source||'منبع نامشخص')}</span></span></span><span class="person-role"><span>${esc(person.type||'کاندیدا')}</span><small>${profile.work_count!==undefined?`${esc(profile.work_count)} اثر ثبت‌شده`:'ظرفیت شناسایی‌شده'}</small></span><span class="person-context"><span>${esc(organization||'سازمان نامشخص')}</span>${location&&location!=='—'?`<small>${esc(location)}</small>`:''}</span><span class="badges">${localityBadge}${qualityBadge}${complete}${entity}${enriched}</span><span class="row-actions"><button type="button" data-action="view" title="مشاهده جزئیات" aria-label="مشاهده جزئیات">◉</button><button type="button" data-action="save" title="نشان‌کردن" aria-label="نشان‌کردن">♡</button><button type="button" data-action="more" title="گزینه‌های بیشتر" aria-label="گزینه‌های بیشتر">•••</button></span></div>`;
+    return `<div class="person" role="button" tabindex="0" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span class="identity"><span class="name">${esc(person.name||'بدون نام')}</span><span class="person-sub">${esc(person.source||'منبع نامشخص')}</span></span></span><span class="person-role"><span>${esc(uiText(person.type||'کاندیدا'))}</span><small>${profile.work_count!==undefined?`${esc(profile.work_count)} اثر ثبت‌شده`:'ظرفیت شناسایی‌شده'}</small></span><span class="person-context"><span>${esc(organization||'سازمان نامشخص')}</span>${location&&location!=='—'?`<small>${esc(location)}</small>`:''}</span><span class="badges">${localityBadge}${qualityBadge}${complete}${entity}${enriched}</span><span class="row-actions"><button type="button" data-action="view" title="مشاهده جزئیات" aria-label="مشاهده جزئیات">◉</button><button type="button" data-action="save" title="نشان‌کردن" aria-label="نشان‌کردن">♡</button><button type="button" data-action="more" title="گزینه‌های بیشتر" aria-label="گزینه‌های بیشتر">•••</button></span></div>`;
   }).join('');
 }
 
@@ -181,9 +182,9 @@ function openDetail(person){
   const externalOrganizations=Array.isArray(external.institutions)?external.institutions.join('، '):Array.isArray(external.last_known_institutions)?external.last_known_institutions.map(item=>item?.name).filter(Boolean).join('، '):external.company||'';
   const topics=Array.isArray(external.topics)?external.topics.map(item=>item?.name).filter(Boolean).join('، '):'';
   $('dname').textContent=person.name||'بدون نام';
-  $('dsummary').innerHTML=[`<span class="badge">${esc(person.type||'کاندیدا')}</span>`,quality.evidence_strength?`<span class="badge quality ${esc(quality.evidence_strength)}">کیفیت ${esc(quality.score)}</span>`:'',profile.profile_completeness!==undefined?`<span class="badge complete">پروفایل ${esc(profile.profile_completeness)}٪</span>`:''].join('');
+  $('dsummary').innerHTML=[`<span class="badge">${esc(uiText(person.type||'کاندیدا'))}</span>`,quality.evidence_strength?`<span class="badge quality ${esc(quality.evidence_strength)}">کیفیت ${esc(quality.score)}</span>`:'',profile.profile_completeness!==undefined?`<span class="badge complete">پروفایل ${esc(profile.profile_completeness)}٪</span>`:''].join('');
   $('dmeta').innerHTML=[
-    detailSection('هویت',[field('نام',person.name),field('نوع / ظرفیت',person.type),field('منبع',person.source),field('ارائه‌دهنده',profile.provider),field('وضعیت هویت',quality.verification||person.verification||entity.identity_status)]),
+    detailSection('هویت',[field('نام',person.name),field('نوع / ظرفیت',uiText(person.type)),field('منبع',person.source),field('ارائه‌دهنده',profile.provider),field('وضعیت هویت',quality.verification||person.verification||entity.identity_status)]),
     detailSection('سازمان و مکان',[field('سازمان',profile.organization||person.affiliation||person.organization),field('مکان',location.raw||person.location),field('سازمان در منبع خارجی',externalOrganizations),field('مکان در منبع خارجی',external.location)]),
     detailSection('کیفیت شواهد',[field('کیفیت شواهد',quality.score!==undefined?`${quality.score} / 100 · ${quality.evidence_strength}`:''),field('کامل بودن پروفایل',profile.profile_completeness!==undefined?`${profile.profile_completeness}٪`:''),field('تعداد آثار علمی',profile.work_count??external.works_count),field('استنادها',external.cited_by_count)]),
     detailSection('ارتباط با اردکان',[field('امتیاز ارتباط محلی',locality.score!==undefined?`${locality.score} / 100`:''),field('وضعیت',locality.status),field('نیازمند بررسی انسانی',locality.needs_human_review?'بله':'خیر'),field('شواهد امتیازدهی',(locality.reasons||[]).map(item=>item.signal).join('، '))]),
@@ -219,9 +220,9 @@ function renderKnowledgeGraph(){
   const radii={source:65,capacity:115,organization:190,location:250,expertise:285,entity:300},offsets={source:.1,capacity:.6,organization:1.2,location:2.1,expertise:2.8,entity:0},positions={};
   Object.entries(byType).forEach(([type,items])=>items.forEach((node,index)=>{const angle=(offsets[type]||0)+2*Math.PI*index/Math.max(1,items.length),radius=radii[type]||260;positions[node.id]={x:550+radius*Math.cos(angle),y:310+radius*Math.sin(angle)}}));
   let svg='';edges.forEach(edge=>{const from=positions[edge.source],to=positions[edge.target];if(from&&to)svg+=`<line x1="${from.x.toFixed(1)}" y1="${from.y.toFixed(1)}" x2="${to.x.toFixed(1)}" y2="${to.y.toFixed(1)}" stroke="#d8e0eb" stroke-width="1" opacity=".72"><title>${esc(edge.relation)}</title></line>`});
-  nodes.forEach(node=>{const position=positions[node.id];if(!position)return;const radius=4+Math.min(7,Math.sqrt(Number(node.degree||0))),color=colors[node.type]||'#64748b',label=String(node.label||'').length>24?`${String(node.label).slice(0,22)}…`:String(node.label||'');svg+=`<g><circle cx="${position.x.toFixed(1)}" cy="${position.y.toFixed(1)}" r="${radius.toFixed(1)}" fill="${color}" opacity=".92"><title>${esc(node.label)} · ${esc(node.type)} · degree ${esc(node.degree||0)}</title></circle>${node.type!=='entity'||Number(node.degree||0)>=5?`<text x="${(position.x+8).toFixed(1)}" y="${(position.y-7).toFixed(1)}" font-size="9" fill="#52647d">${esc(label)}</text>`:''}</g>`});
+  nodes.forEach(node=>{const position=positions[node.id];if(!position)return;const radius=4+Math.min(7,Math.sqrt(Number(node.degree||0))),color=colors[node.type]||'#64748b',fullLabel=uiText(node.label||''),label=fullLabel.length>24?`${fullLabel.slice(0,22)}…`:fullLabel;svg+=`<g><circle cx="${position.x.toFixed(1)}" cy="${position.y.toFixed(1)}" r="${radius.toFixed(1)}" fill="${color}" opacity=".92"><title>${esc(fullLabel)} · ${esc(node.type)} · degree ${esc(node.degree||0)}</title></circle>${node.type!=='entity'||Number(node.degree||0)>=5?`<text x="${(position.x+8).toFixed(1)}" y="${(position.y-7).toFixed(1)}" font-size="9" fill="#52647d">${esc(label)}</text>`:''}</g>`});
   $('graphSvg').innerHTML=svg||'<text x="550" y="310" text-anchor="middle" fill="#64748b">داده گراف در دسترس نیست.</text>';
-  const hubs=KG.top_hubs||{},hubRows=(items,limit=10)=>(items||[]).slice(0,limit).map(item=>`<div class="hubrow"><span>${esc(item.label)}</span><b>${esc(item.degree)}</b></div>`).join('')||'<div class="empty-state"><small>داده‌ای موجود نیست.</small></div>';
+  const hubs=KG.top_hubs||{},hubRows=(items,limit=10)=>(items||[]).slice(0,limit).map(item=>`<div class="hubrow"><span>${esc(uiText(item.label))}</span><b>${esc(item.degree)}</b></div>`).join('')||'<div class="empty-state"><small>داده‌ای موجود نیست.</small></div>';
   $('hubOrganizations').innerHTML=hubRows(hubs.organizations);$('hubLocations').innerHTML=hubRows(hubs.locations);$('hubSources').innerHTML=hubRows([...(hubs.sources||[]).slice(0,5),...(hubs.capacity_types||[]).slice(0,5)]);
   $('graphGap').innerHTML=(types.expertise??0)===0?'<div class="gap-note">در Snapshot فعلی داده تخصص ساختاریافته کافی وجود ندارد؛ برای حفظ یکپارچگی داده، گره تخصصی مصنوعی نمایش داده نمی‌شود.</div>':'';
 }
