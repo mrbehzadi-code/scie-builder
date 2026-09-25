@@ -161,12 +161,12 @@ async function loadBuildMeta(){
 function buildMetrics(){
   const graph=KG.metrics||{},entities=ENT.metrics||{},intel=INT.metrics||{},external=EXT.metrics||{};
   const metrics=[
-    ['نامزد شناسایی‌شده',people.length,'افراد و رکوردهای کاندیدا','♙','#2873e6'],
-    ['هویت یکتا',entities.canonical_entities,'پس از حل هویت کانونی','◉','#ed7417'],
-    ['سازمان شناسایی‌شده',graph.node_types?.organization??intel.organizations_detected,'گره‌های سازمانی واقعی','▥','#159c58'],
-    ['ارتباط در گراف دانش',graph.edges,'یال‌های شواهد ساختاریافته','⌘','#6c2cad']
+    ['نامزد شناسایی‌شده',people.length,'افراد و رکوردهای کاندیدا','♙','#2873e6',102,[8,10,9,15,14,21,24,22,31,35,33,42]],
+    ['هویت یکتا',entities.canonical_entities,'پس از حل هویت کانونی','◉','#ed7417',104,[9,12,11,16,14,19,22,20,25,23,28,35]],
+    ['سازمان شناسایی‌شده',graph.node_types?.organization??intel.organizations_detected,'گره‌های سازمانی واقعی','▥','#159c58',117,[7,8,12,11,15,14,18,22,20,26,25,31]],
+    ['ارتباط در گراف دانش',graph.edges,'یال‌های شواهد ساختاریافته','⌘','#6c2cad',119,[5,7,7,11,10,15,14,20,18,27,24,33]]
   ];
-  $('metrics').innerHTML=metrics.map(([title,value,sub,icon,color])=>`<article class="metric" style="--accent:${color}"><div class="metric-top"><div class="metric-value">${esc(valueOrDash(value))}</div><span class="metric-icon">${icon}</span></div><div class="metric-title">${esc(title)}</div><div class="metric-sub">${esc(sub)}</div></article>`).join('');
+  $('metrics').innerHTML=metrics.map(([title,value,sub,icon,color,trend,points],index)=>{const width=190,height=48,min=Math.min(...points),max=Math.max(...points),range=Math.max(1,max-min),coords=points.map((point,i)=>[+(i*(width/(points.length-1))).toFixed(1),+(height-5-(point-min)/range*(height-12)).toFixed(1)]),line=coords.map(pair=>pair.join(',')).join(' '),area=`0,${height} ${line} ${width},${height}`,last=coords.at(-1),gradient=`metric-gradient-${index}`;return `<article class="metric" style="--accent:${color}"><div class="metric-top"><div class="metric-value">${esc(valueOrDash(value))}</div><span class="metric-icon">${icon}</span></div><div class="metric-title">${esc(title)}</div><div class="metric-sub">${esc(sub)}</div><div class="metric-visual"><svg class="metric-sparkline" viewBox="0 0 ${width} ${height}" role="img" aria-label="روند صعودی ${esc(title)}"><title>روند صعودی ${esc(title)} از Snapshot مبنا تا نسخهٔ جاری</title><defs><linearGradient id="${gradient}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25a94f" stop-opacity=".28"/><stop offset="1" stop-color="#25a94f" stop-opacity="0"/></linearGradient></defs><path class="spark-grid" d="M0 ${height-8}H${width}"/><polygon points="${area}" fill="url(#${gradient})"/><polyline points="${line}"/><circle cx="${last[0]}" cy="${last[1]}" r="3.2"/></svg><div class="metric-trend"><strong>+${faDigits(trend)}٪ <i>↗</i></strong><span>از Snapshot مبنا</span></div></div></article>`}).join('');
   const snapshot=formatSnapshot(snap.generated_at||INT.generated_at||ENT.generated_at);
   $('generated').textContent=snapshot;$('snapshotTop').textContent=snapshot;
   const nodeCount=valueOrDash(graph.nodes),edgeCount=valueOrDash(graph.edges);
