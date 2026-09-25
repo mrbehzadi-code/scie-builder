@@ -1,17 +1,17 @@
 {
   "generated_at": "2026-09-25",
-  "candidate_count": 1000,
+  "candidate_count": 1001,
   "metrics": {
     "with_organization": 448,
     "with_location": 278,
-    "with_stable_source_id": 718,
+    "with_stable_source_id": 719,
     "ardakan_location_signal": 275,
     "completeness_high": 448,
-    "completeness_medium": 466,
+    "completeness_medium": 467,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 658,
+    "OpenAlex": 659,
     "کانال‌ها و گروه‌های عمومی تلگرام": 172,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -40104,6 +40104,46 @@
       "missing_fields": [
         "organization",
         "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 1000,
+      "name": "دشتی اردکانی منصور",
+      "provider": "OpenAlex",
+      "source": "Lead-guided OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5015160108",
+      "identifiers": {
+        "openalex_id": "A5015160108",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "lead: دشتی اردکانی",
+        "query: دشتی اردکانی"
+      ],
+      "evidence_count": 2,
+      "quality_score": 43,
+      "evidence_strength": "weak",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
         "work_count"
       ]
     }
