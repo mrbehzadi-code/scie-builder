@@ -189,6 +189,10 @@ jobs:
             if (buildMetaStatus !== 200) throw new Error(`build_meta.json returned HTTP ${buildMetaStatus}`);
 
             if (!(await page.locator('#updateBar').isVisible())) throw new Error('Top update bar is not visible');
+            if (!(await page.locator('#notificationButton').isVisible())) throw new Error('Notification center button is not visible');
+            await page.click('#notificationButton');
+            if (!(await page.locator('#notificationCenter').isVisible())) throw new Error('Notification center did not open');
+            await page.click('#closeNotifications');
             const buildTimestamp = (await page.locator('#buildPersian').textContent()).trim();
             if (!buildTimestamp || /دریافت|دسترس نیست/.test(buildTimestamp)) throw new Error(`Invalid dashboard build timestamp: ${buildTimestamp}`);
             const snapshotTimestamp = (await page.locator('#snapshotTop').textContent()).trim();
