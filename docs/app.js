@@ -211,6 +211,7 @@ function renderPagination(pages){
 }
 
 function render(){
+  $('list').setAttribute('aria-busy','false');
   const query=normalizeSearch(q);
   filtered=people.filter(person=>person._merged_into===undefined&&(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat));
   const pages=Math.max(1,Math.ceil(filtered.length/PAGE));page=Math.min(Math.max(1,page),pages);
