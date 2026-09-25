@@ -232,13 +232,14 @@ jobs:
 
             await page.click('[data-tab="intelligence"]');
             const intelText = await page.locator('#intelligence').textContent();
-            if (!intelText.includes('کیفیت قوی') || !intelText.includes('تکرارهای احتمالی') || !intelText.includes('نیازمند بررسی انسانی') || !intelText.includes('دارای سازمان') || !intelText.includes('دارای مکان')) {
+            if (!intelText.includes('کیفیت قوی') || !intelText.includes('مدیریت رکوردهای تکراری') || !intelText.includes('تشخیص هوشمند و مشارکت انسانی') || !intelText.includes('دارای سازمان') || !intelText.includes('دارای مکان')) {
               throw new Error('Intelligence quality/duplicate section is missing');
             }
             const canonicalRows = await page.locator('#canonical .entityrow').count();
             if (canonicalRows < 3) throw new Error(`Expected at least 3 multi-record canonical entities, got ${canonicalRows}`);
-            const duplicateRows = await page.locator('#dupes .dup').count();
+            const duplicateRows = await page.locator('#dupes .duplicate-card').count();
             if (duplicateRows < 1) throw new Error('Expected at least one duplicate-review row');
+            if (!(await page.locator('#mergeQueue').isVisible())) throw new Error('Merge approval queue is not visible');
             const resolutionRows = await page.locator('#resolutions .resolution').count();
             if (resolutionRows < 17) throw new Error(`Expected at least 17 entity-resolution rows, got ${resolutionRows}`);
             const resolutionText = await page.locator('#resolutions').textContent();
