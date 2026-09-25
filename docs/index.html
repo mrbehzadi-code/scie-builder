@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
-  <link rel="stylesheet" href="poster.css?v=20260925-7">
+  <link rel="stylesheet" href="poster.css?v=20260925-8">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -55,7 +55,7 @@
   <main class="container main-shell">
     <nav class="tabs" aria-label="بخش‌های اطلس">
       <button class="active" data-tab="people" aria-selected="true"><span class="tab-icon">◉</span>افراد</button>
-      <button data-tab="intelligence" aria-selected="false"><span class="tab-icon">◇</span>هوش اطلس</button>
+      <button class="merge-tab" data-tab="intelligence" aria-selected="false"><span class="tab-icon">⇄</span><span class="tab-label">ادغام رکوردهای تکراری<small>تشخیص و بررسی</small></span></button>
       <button data-tab="network" aria-selected="false"><span class="tab-icon">⌘</span>شبکه</button>
       <button data-tab="organizations" aria-selected="false"><span class="tab-icon">▦</span>سازمان‌ها</button>
       <button data-tab="verification" aria-selected="false"><span class="tab-icon">✓</span>راستی‌آزمایی</button>
@@ -71,6 +71,7 @@
             <div><span class="kicker">دایرکتوری ظرفیت‌ها</span><h2>افراد و ظرفیت‌های کشف‌شده</h2><p>رکوردهای کاندیدا بر پایه شواهد موجود؛ برای مشاهده جزئیات هر ردیف را انتخاب کنید.</p></div>
             <span id="count" class="result-count">در حال دریافت…</span>
           </div>
+          <aside id="mergeShortcut" class="merge-shortcut"><i>⇄</i><div><strong>رکورد تکراری پیدا کرده‌اید؟</strong><span>مدیر می‌تواند مستقیماً ادغام کند؛ کاربران پیشنهاد می‌دهند و تغییر فقط پس از تأیید مدیر اعمال می‌شود.</span></div><b id="mergeShortcutCount">در حال بررسی…</b><button class="button primary" type="button">رفتن به مدیریت ادغام</button></aside>
           <div class="filters">
             <label><span>منبع داده</span><select id="source"><option value="all">همه منابع</option></select></label>
             <div><span class="filter-label">نوع ظرفیت</span><div id="cats" class="chips"></div></div>
@@ -218,7 +219,7 @@
       <div class="admin-edit-hint"><span>ویرایش مدیریتی</span> برای اصلاح هر مقدار، روی همان کادر کلیک کنید.</div>
       <div id="dmeta" class="detail-sections profile-sections"></div>
       <section class="profile-relations"><div class="profile-subhead"><div><span>شبکهٔ ارتباطات این فرد</span><small>خانوادگی، تخصصی، سازمانی و سایر پیوندهای مستند</small></div><button id="addRelation" class="button subtle" type="button">＋ افزودن ارتباط</button></div><div id="dRelations" class="relation-map"></div><form id="relationEditor" class="relation-editor" hidden><label><span>فرد مرتبط</span><select id="relationPerson"></select></label><label><span>نوع ارتباط</span><select id="relationType"><option value="family">رابطه خانوادگی</option><option value="colleague">همکار</option><option value="organization">هم‌سازمان</option><option value="expertise">حوزه تخصصی مشترک</option><option value="education">ارتباط علمی / آموزشی</option><option value="social">ارتباط اجتماعی</option><option value="other">سایر</option></select></label><label class="wide"><span>عنوان یا توضیح ارتباط</span><input id="relationNote" placeholder="برای مثال: برادر، همکار پژوهشی یا عضو یک سازمان"></label><div class="wide relation-editor-actions"><button class="button primary" type="submit">ذخیره ارتباط</button><button id="cancelRelation" class="button subtle" type="button">انصراف</button><span id="relationStatus" role="status"></span></div></form></section>
-      <section class="profile-provenance"><div class="profile-subhead"><div><span>شناسنامه دستیابی و منشأ رکورد</span><small>مسیر کامل کشف، پالایش، امتیازدهی و ورود به اطلس</small></div><button id="requestReverification" class="button primary" type="button">بازبینی و راستی‌آزمایی ویژه</button></div><div id="provenanceAlert" class="provenance-alert"></div><div id="provenanceGraph" class="provenance-graph"></div><div id="provenanceEvidence" class="provenance-evidence"></div><span id="reverificationStatus" class="merge-status" role="status" aria-live="polite"></span></section>
+      <section class="profile-provenance"><div class="profile-subhead"><div><span>شناسنامه دستیابی و منشأ رکورد</span><small>مسیر کامل کشف، پالایش، امتیازدهی و ورود به اطلس</small></div><div class="reverification-actions"><button id="reverificationNotify" class="button subtle" type="button">اعلان نتیجه</button><button id="requestReverification" class="button primary" type="button">بازبینی و راستی‌آزمایی ویژه</button></div></div><div id="provenanceAlert" class="provenance-alert"></div><div id="provenanceGraph" class="provenance-graph"></div><div id="provenanceEvidence" class="provenance-evidence"></div><span id="reverificationStatus" class="merge-status" role="status" aria-live="polite"></span></section>
       <div class="profile-evidence"><div class="profile-subhead"><span>ردپای شواهد</span><small>مستندات عمومی مرتبط با این رکورد</small></div><div id="devidence" class="evidence"></div></div>
       <div class="drawer-footer"><div class="drawer-actions"><a id="durl" class="button primary" target="_blank" rel="noopener">مشاهده منبع اصلی ↗</a><button id="verifyPerson" class="button subtle" type="button">راستی‌آزمایی این فرد</button></div><span id="adminEditStatus" class="admin-edit-status" role="status" aria-live="polite"></span></div>
     </article>
@@ -226,6 +227,6 @@
   <div id="adminLogin" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="adminLoginTitle" hidden><button class="admin-login-backdrop" type="button" aria-label="بستن"></button><form id="adminLoginForm" class="admin-login-card"><button id="closeAdminLogin" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب کاربری اطلس</span><h2 id="adminLoginTitle">ورود به سامانه</h2><p id="authDescription">وارد شوید تا مشارکت‌ها، پیشنهادها و فعالیت‌های خود را همیشه در دسترس داشته باشید.</p><div class="auth-mode"><button class="active" data-auth-mode="login" type="button">ورود</button><button data-auth-mode="register" type="button">ثبت‌نام</button></div><label><span>نام کاربری</span><input id="adminUsername" name="username" autocomplete="username" required></label><label><span>رمز عبور</span><input id="adminPassword" name="password" type="password" autocomplete="current-password" minlength="8" required></label><button id="authSubmit" class="button primary" type="submit">ورود به سامانه</button><span id="adminLoginStatus" role="status"></span></form></div>
   <div id="accountPanel" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="accountTitle" hidden><button class="account-panel-backdrop admin-login-backdrop" type="button" aria-label="بستن"></button><article class="account-card"><button id="closeAccountPanel" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب شخصی</span><h2 id="accountTitle">فعالیت‌های من</h2><div id="accountSummary" class="account-summary"></div><div id="accountActivities" class="account-activities"></div><button id="accountLogout" class="button subtle" type="button">خروج از سامانه</button></article></div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
-  <script src="app.js?v=20260925-7" defer></script>
+  <script src="app.js?v=20260925-8" defer></script>
 </body>
 </html>
