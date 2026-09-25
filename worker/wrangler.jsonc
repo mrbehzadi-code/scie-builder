@@ -4,6 +4,11 @@
   "main": "src/index.js",
   "compatibility_date": "2026-09-21",
   "workers_dev": true,
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "scie-app",
+    "database_id": "1e21b05a-210d-4953-8065-b2d7851a4dd1"
+  }],
   "vars": {
     "ALLOWED_ORIGIN": "https://mrbehzadi-code.github.io",
     "GITHUB_REPOSITORY": "mrbehzadi-code/scie-builder",
