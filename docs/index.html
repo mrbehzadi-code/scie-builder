@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
-  <link rel="stylesheet" href="poster.css?v=20260925-1">
+  <link rel="stylesheet" href="poster.css?v=20260925-2">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -206,9 +206,21 @@
 
   <div id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="dname" hidden>
     <button class="detail-backdrop" tabindex="-1" aria-label="بستن"></button>
-    <article class="drawer"><div class="drawer-head"><div><span class="kicker">پروفایل اطلس</span><h2 id="dname"></h2><div id="dsummary" class="drawer-summary"></div></div><button id="close" class="icon-button" aria-label="بستن جزئیات">×</button></div><div class="admin-edit-hint"><span>ویرایش مدیریتی</span> برای اصلاح هر مقدار، روی همان کادر کلیک کنید.</div><div id="dmeta" class="detail-sections"></div><div class="drawer-footer"><div id="devidence" class="evidence"></div><div class="drawer-actions"><a id="durl" class="button primary" target="_blank" rel="noopener">مشاهده منبع ↗</a><button id="verifyPerson" class="button subtle" type="button">راستی‌آزمایی این فرد</button></div><span id="adminEditStatus" class="admin-edit-status" role="status" aria-live="polite"></span></div></article>
+    <article class="drawer profile-drawer">
+      <div class="profile-topbar"><span><b>SCIE</b> · پروفایل هوشمند اطلس</span><button id="close" class="icon-button" aria-label="بستن جزئیات">×</button></div>
+      <header class="profile-hero">
+        <div id="dAvatar" class="profile-avatar" aria-hidden="true"></div>
+        <div class="profile-identity"><span class="kicker">پروندهٔ هویتی و حرفه‌ای</span><h2 id="dname"></h2><p id="dOrgHeadline"></p><div id="dsummary" class="drawer-summary"></div></div>
+        <div id="dTrust" class="profile-trust"></div>
+      </header>
+      <div id="dQuickStats" class="profile-quick-stats"></div>
+      <div class="admin-edit-hint"><span>ویرایش مدیریتی</span> برای اصلاح هر مقدار، روی همان کادر کلیک کنید.</div>
+      <div id="dmeta" class="detail-sections profile-sections"></div>
+      <div class="profile-evidence"><div class="profile-subhead"><span>ردپای شواهد</span><small>مستندات عمومی مرتبط با این رکورد</small></div><div id="devidence" class="evidence"></div></div>
+      <div class="drawer-footer"><div class="drawer-actions"><a id="durl" class="button primary" target="_blank" rel="noopener">مشاهده منبع اصلی ↗</a><button id="verifyPerson" class="button subtle" type="button">راستی‌آزمایی این فرد</button></div><span id="adminEditStatus" class="admin-edit-status" role="status" aria-live="polite"></span></div>
+    </article>
   </div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
-  <script src="app.js?v=20260925-1" defer></script>
+  <script src="app.js?v=20260925-2" defer></script>
 </body>
 </html>
