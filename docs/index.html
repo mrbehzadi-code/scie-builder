@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
-  <link rel="stylesheet" href="poster.css?v=20260925-23">
+  <link rel="stylesheet" href="poster.css?v=20260926-2">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -178,8 +178,14 @@
         <div class="atlas-intro-copy"><span class="atlas-intro-badge">مشارکت در تکمیل اطلس</span><h2>معرفی به اطلس</h2><p>فرد، خانواده، سازمان، مکان یا نشانه‌ای را معرفی کنید. سامانه پیشنهاد شما را جستجو و اعتبارسنجی می‌کند و موارد معتبر به اطلس افزوده می‌شوند.</p></div>
         <div class="atlas-intro-steps" aria-label="مراحل بررسی پیشنهاد"><span><b>۱</b>شما معرفی می‌کنید</span><i>←</i><span><b>۲</b>سامانه بررسی می‌کند</span><i>←</i><span><b>۳</b>نتیجه به اطلس می‌پیوندد</span></div>
       </div>
+      <div class="atlas-methods" aria-label="روش‌های معرفی اطلاعات به اطلس">
+        <div class="atlas-methods-title"><span>دو مسیر، یک مقصد</span><h3>چطور اطلاعات را به «معرفی به اطلس» اضافه کنیم؟</h3><p>اگر فقط یک فرد یا نشانه می‌شناسید، روش اول را انتخاب کنید؛ اگر مجموعه‌ای از اطلاعات قطعی دارید، از روش دوم استفاده کنید.</p></div>
+        <a href="#singleAtlasIntro"><b>۱</b><span><strong>معرفی یک مورد</strong><small>یک فرد، خانواده، سازمان یا نشانه برای جستجو و بررسی</small></span><i>رفتن به فرم ←</i></a>
+        <a href="#bulkAtlasIntro"><b>۲</b><span><strong>ورود گروهی اطلاعات قطعی</strong><small>افزودن مجموعه افراد از فایل Excel، CSV یا JSON</small></span><i>رفتن به ورود فایل ←</i></a>
+      </div>
       <div class="lead-layout">
-        <section class="panel lead-form lead-submit-card">
+        <section id="singleAtlasIntro" class="panel lead-form lead-submit-card">
+          <div class="method-marker single full"><b>روش ۱</b><span>معرفی تکی به اطلس</span></div>
           <div class="full lead-form-heading"><span class="kicker">پیشنهاد شناسایی</span><h3>چه کسی یا چه چیزی را می‌خواهید معرفی کنید؟</h3><p>همین اطلاعات اولیه کافی است؛ هر توضیح تکمیلی به دقیق‌تر شدن بررسی کمک می‌کند.</p></div>
           <label><span>نوع معرفی</span><select id="lt"><option>نام یا فرد</option><option>فامیلی</option><option>نشانی / محله</option><option>سازمان / شرکت</option><option>تخصص / حوزه</option><option>توضیح آزاد</option></select></label>
           <label><span>موضوع معرفی</span><input id="lv" placeholder="برای مثال نام فرد، خانواده یا سازمان"></label>
@@ -190,7 +196,8 @@
         </section>
         <section class="panel lead-history-card"><div class="section-head compact"><div><span class="kicker">وضعیت بررسی</span><h3>پیگیری معرفی‌ها</h3><p>آخرین وضعیت پیشنهادهای ثبت‌شده در این دستگاه</p></div></div><div id="leadHistory"></div></section>
       </div>
-      <section class="panel bulk-import-panel">
+      <section id="bulkAtlasIntro" class="panel bulk-import-panel">
+        <div class="method-marker bulk"><b>روش ۲</b><span>معرفی گروهی به اطلس</span></div>
         <div class="section-head"><div><span class="kicker">ورود گروهی داده‌های قطعی</span><h3>افزودن مجموعه افراد به اطلس</h3><p>فایل CSV یا JSON را انتخاب کنید؛ داده‌ها پیش از ثبت بررسی، پیش‌نمایش و با رکوردهای موجود تطبیق داده می‌شوند.</p></div><span class="admin-only-badge">ویژه مدیر</span></div>
         <div class="import-guide"><b>ستون‌های قابل استفاده</b><span>name_fa، name، specialty، specialty_en، affiliation، location، source، url، evidence</span><a id="downloadImportTemplate" href="#">دریافت نمونه CSV</a></div>
         <div class="import-drop"><input id="bulkImportFile" type="file" accept=".csv,.json,.xlsx,.xls,text/csv,application/json,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel"><strong>فایل Excel، CSV یا JSON را انتخاب کنید</strong><small>حداکثر ۱۰۰۰ رکورد در هر بار؛ نام فرد و منبع یا نشانی شاهد الزامی است.</small></div>
