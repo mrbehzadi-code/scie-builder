@@ -58,9 +58,11 @@ def github(lead):
     return out
 def add_candidate(people,existing,lead,name,url,source,detail,evidence):
     key=(norm(name),norm(url))
-    if not name or key in existing: return False
+    if not name or key in existing: return None
     combined=' '.join([name,url,detail,*evidence]).casefold(); explicit=any(x in combined for x in ('اردکان','ardakan'))
-    people.append({'name':name,'type':'کاندیدای معرفی‌شده به اطلس','source':source,'detail':detail,'location':lead.get('location') or '', 'evidence':evidence,'url':url,'verification':'needs_review','confidence':'medium' if explicit else 'low','locality_claim':'candidate_not_confirmed','lead_id':lead.get('id')}); existing.add(key); return True
+    record={'name':name,'type':'کاندیدای معرفی‌شده به اطلس','source':source,'detail':detail,'location':lead.get('location') or '', 'evidence':evidence,'url':url,'verification':'needs_review','confidence':'medium' if explicit else 'low','locality_claim':'candidate_not_confirmed','lead_id':lead.get('id')}
+    people.append(record); existing.add(key)
+    return {'record_index':len(people)-1,'name':name,'url':url,'source':source}
 def source_counts(people):
     out={}
     for p in people:
@@ -73,19 +75,22 @@ def main():
     if not m: raise SystemExit('SCIE lead payload missing')
     lead=json.loads(m.group(1)); lead['issue_number']=issue.get('number'); lead['submitted_at']=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())
     leads=json.loads(LEADS.read_text(encoding='utf-8')) if LEADS.exists() else {'schema':'scie-discovery-leads-v1','leads':[]}; leads.setdefault('leads',[]).append(lead); LEADS.write_text(json.dumps(leads,ensure_ascii=False,indent=2),encoding='utf-8')
-    data=json.loads(DATA.read_text(encoding='utf-8')); people=data.setdefault('people',[]); existing={(norm(p.get('name')),norm(p.get('url'))) for p in people}; found=0
+    data=json.loads(DATA.read_text(encoding='utf-8')); people=data.setdefault('people',[]); existing={(norm(p.get('name')),norm(p.get('url'))) for p in people}; found=0; result_records=[]
     for name,url,q in openalex(lead):
-        if add_candidate(people,existing,lead,name,url,'Lead-guided OpenAlex Discovery',f"OpenAlex result for «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'query: {q}']): found+=1
+        added=add_candidate(people,existing,lead,name,url,'Lead-guided OpenAlex Discovery',f"OpenAlex result for «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'query: {q}'])
+        if added: found+=1; result_records.append(added)
         if found>=20: break
     if found<20:
         for name,url,q in github(lead):
-            if add_candidate(people,existing,lead,name,url,'Lead-guided GitHub Discovery',f"GitHub result for «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'query: {q}']): found+=1
+            added=add_candidate(people,existing,lead,name,url,'Lead-guided GitHub Discovery',f"GitHub result for «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'query: {q}'])
+            if added: found+=1; result_records.append(added)
             if found>=25: break
     if found<30:
         queries=[('وب عمومی',q) for q in lead_queries(lead)]+targeted_queries(lead)
         for source_label,q in queries:
             for title,url in web_results(q):
-                if add_candidate(people,existing,lead,title,url,f'Lead-guided {source_label}',f"نتیجه عمومی برای سرنخ «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'public source: {source_label}',f'query: {q}']): found+=1
+                added=add_candidate(people,existing,lead,title,url,f'Lead-guided {source_label}',f"نتیجه عمومی برای سرنخ «{lead.get('value','')}»",[f"lead: {lead.get('value','')}",f'public source: {source_label}',f'query: {q}'])
+                if added: found+=1; result_records.append(added)
                 if found>=45: break
             if found>=45: break
     data['generated_at']=time.strftime('%Y-%m-%d')
@@ -95,6 +100,6 @@ def main():
     stats['sources']=source_counts(people)
     stats['last_lead']={'id':lead.get('id'),'issue_number':lead.get('issue_number'),'type':lead.get('type'),'value':lead.get('value'),'completed_at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'new_records':found}
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
-    runs=json.loads(RUNS.read_text(encoding='utf-8')) if RUNS.exists() else {'runs':[]}; runs['runs'].append({'lead_id':lead.get('id'),'issue_number':lead.get('issue_number'),'value':lead.get('value'),'status':'completed','new_records':found,'pool_size':len(people),'completed_at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())}); runs['runs']=runs['runs'][-50:]; RUNS.write_text(json.dumps(runs,ensure_ascii=False,indent=2),encoding='utf-8')
+    runs=json.loads(RUNS.read_text(encoding='utf-8')) if RUNS.exists() else {'runs':[]}; runs['runs'].append({'lead_id':lead.get('id'),'issue_number':lead.get('issue_number'),'value':lead.get('value'),'status':'completed','new_records':found,'result_records':result_records,'pool_size':len(people),'completed_at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())}); runs['runs']=runs['runs'][-50:]; RUNS.write_text(json.dumps(runs,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'Lead discovery complete: {found} new records; pool={len(people)}')
 if __name__=='__main__': main()

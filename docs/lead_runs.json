@@ -130,6 +130,14 @@
       "value": "دشتی اردکانی",
       "status": "completed",
       "new_records": 1,
+      "result_records": [
+        {
+          "record_index": 1000,
+          "name": "دشتی اردکانی منصور",
+          "url": "https://openalex.org/A5015160108",
+          "source": "Lead-guided OpenAlex Discovery"
+        }
+      ],
       "pool_size": 1001,
       "completed_at": "2026-09-25T17:35:52Z"
     }
