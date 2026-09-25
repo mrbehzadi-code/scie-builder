@@ -4,6 +4,7 @@ const PAGE=25;
 const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichment.json','external_enrichment.json','entities.json','knowledge_graph.json','locality_assessment.json'];
 let people=[],filtered=[],page=1,q='',src='all',cat='all',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},SOCIAL={},REL={},BUILD={},MERGES=[],MERGE_REQUESTS=[];
 let activePerson=null;
+let detailCloseTimer=null;
 const $=id=>document.getElementById(id);
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const FA_DIGITS='۰۱۲۳۴۵۶۷۸۹';
@@ -270,9 +271,9 @@ function openDetail(person){
   $('verifyPerson').dataset.recordIndex=person._record_index;
   renderProfileRelations(person);
   renderProvenance(person);
-  $('detail').hidden=false;document.body.classList.add('modal-open');$('close').focus();
+  clearTimeout(detailCloseTimer);$('detail').classList.remove('is-closing');$('detail').hidden=false;document.body.classList.add('modal-open');requestAnimationFrame(()=>requestAnimationFrame(()=>$('detail').classList.add('is-open')));$('close').focus();
 }
-function closeDetail(){$('detail').hidden=true;activePerson=null;document.body.classList.remove('modal-open')}
+function closeDetail(){const detail=$('detail');if(detail.hidden)return;detail.classList.remove('is-open');detail.classList.add('is-closing');document.body.classList.remove('modal-open');clearTimeout(detailCloseTimer);detailCloseTimer=setTimeout(()=>{detail.hidden=true;detail.classList.remove('is-closing');activePerson=null},240)}
 
 function updateRecordInMemory(recordIndex,changes){
   const index=Number(recordIndex),record=Number.isInteger(index)?people[index]:null;
