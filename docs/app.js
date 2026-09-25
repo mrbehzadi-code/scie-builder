@@ -94,14 +94,14 @@ async function loadJSON(path,{fallback=true,preferRaw=false}={}){
   if(fallback&&!preferRaw)urls.push(raw);
   const errors=[];
   for(const url of urls){
-    try{url.searchParams.set('v',Date.now());const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw Error(`HTTP ${response.status}`);return await response.json()}
+    try{if(preferRaw)url.searchParams.set('v',Date.now());const response=await fetch(url,{cache:preferRaw?'no-store':'default'});if(!response.ok)throw Error(`HTTP ${response.status}`);return await response.json()}
     catch(error){errors.push(`${url.href}: ${error.message}`)}
   }
   throw Error(errors.join(' | '));
 }
 
 async function loadData(){
-  const raw=await loadJSON('data.json',{preferRaw:true});
+  const raw=await loadJSON('data.json',{fallback:true});
   snap=raw&&raw.content?JSON.parse(raw.content):raw;
   people=Array.isArray(snap.people)?snap.people:Array.isArray(snap.records)?snap.records:Array.isArray(snap)?snap:[];
   if(!people.length)throw Error('Snapshot بدون رکورد است');
@@ -109,7 +109,7 @@ async function loadData(){
 
 async function loadLayers(){
   const targets=[['INT','intelligence.json'],['ER','entity_resolution.json'],['PROFILE','profile_enrichment.json'],['EXT','external_enrichment.json'],['ENT','entities.json'],['KG','knowledge_graph.json'],['LOC','locality_assessment.json'],['SOCIAL','social_discovery_report.json'],['REL','relationships.json']];
-  const results=await Promise.allSettled(targets.map(([,file])=>loadJSON(file,{preferRaw:true})));
+  const results=await Promise.allSettled(targets.map(([,file])=>loadJSON(file,{fallback:true})));
   const state={};
   results.forEach((result,index)=>{const [name,file]=targets[index];if(result.status==='fulfilled'){({INT,ER,PROFILE,EXT,ENT,KG,LOC,SOCIAL,REL}={INT,ER,PROFILE,EXT,ENT,KG,LOC,SOCIAL,REL,[name]:result.value});state[file]=true}else{console.warn(`${file} unavailable:`,result.reason);state[file]=false}});
   return state;
@@ -328,7 +328,7 @@ function renderProvenance(person){
     {icon:'#',title:'حل هویت',text:entity.identity_status?statusFa(entity.identity_status):'هویت منفرد',meta:`${entity.record_count||1} رکورد مرتبط · ${person._entity_id||'شناسه کانونی موجود نیست'}`,state:entity.human_review_required?'warn':'done'}
   ];
   const risk=score<30||localityScore<20||!evidence.length,localized=bilingualName(person);$('provenanceAlert').className=`provenance-alert ${risk?'risk':'ok'}`;$('provenanceAlert').innerHTML=risk?`<strong>هشدار اعتبارسنجی</strong><span>این رکورد با شواهد ناکافی وارد فهرست نامزدها شده و عضویت آن در اطلس هنوز تأیید نشده است.</span>`:`<strong>ردپای قابل اتکا</strong><span>این رکورد چند مرحله ارزیابی و شاهد قابل استناد دارد.</span>`;
-  $('provenanceGraph').innerHTML=stages.map((stage,index)=>`<button type="button" class="provenance-node ${stage.state}${index===0?' active':''}" aria-expanded="${index===0?'true':'false'}"><i>${stage.icon}</i><div><small>مرحله ${index+1}</small><strong>${esc(stage.title)}</strong><span>${esc(stage.text)}</span><em>${esc(stage.meta)}</em></div></button>`).join('');
+  $('provenanceGraph').innerHTML=stages.map((stage,index)=>`<button type="button" class="provenance-node ${stage.state}${index===0?' active':''}" data-step="${index+1}" aria-expanded="${index===0?'true':'false'}"><i>${stage.icon}</i><div><small>مرحله ${index+1}</small><strong>${esc(stage.title)}</strong><span>${esc(stage.text)}</span><em>${esc(stage.meta)}</em></div></button>`).join('');
   $('provenanceEvidence').innerHTML=`<div><span>نام منبع</span><b>${esc(person.source||profile.source||'نامشخص')}</b></div><div><span>نشانی اصلی</span>${url?`<a href="${esc(url)}" target="_blank" rel="noopener" dir="ltr">${esc(url)}</a>`:'<b>ثبت نشده</b>'}</div><div><span>فیلدهای مفقود</span><b>${esc(missing.join('، ')||'مورد مهمی ثبت نشده')}</b></div><div><span>نتیجه فعلی</span><b>${esc(risk?'نیازمند بازبینی ویژه':'قابل نگهداری با پایش دوره‌ای')}</b></div>`;
   $('requestReverification').dataset.recordIndex=person._record_index;$('reverificationStatus').textContent='';if(authUser()?.role==='admin')loadReverificationStatus(person._record_index,localized.persian)
 }
@@ -482,8 +482,11 @@ async function boot(){
   installPersianDigitRendering();bindEvents();updateAdminUI();renderNotificationCenter();setupReverificationNotifications();loadBuildMeta();
   try{
     await loadData();
+    applyIntelligence();setupFilters();buildMetrics();render();
+    $('state').className='hero-state ready';$('state').innerHTML=`<span class="pulse"></span>اطلاعات اصلی آماده است · تکمیل تحلیل در پس‌زمینه`;
     const layerState=await loadLayers();
-    applyIntelligence();await loadOverlays();buildMetrics();statusRows(layerState);setupFilters();buildIntel();renderKnowledgeGraph();buildOrgs();setupVerification();await leads();render();await loadMergeRequests();
+    applyIntelligence();await loadOverlays();buildMetrics();statusRows(layerState);buildIntel();renderKnowledgeGraph();buildOrgs();setupVerification();render();
+    leads();loadMergeRequests();
     $('state').className='hero-state ready';$('state').innerHTML=`<span class="pulse"></span>Snapshot فعال · ${people.filter(person=>person._merged_into===undefined).length.toLocaleString('fa-IR')} هویت یکتا`;
   }catch(error){
     console.error(error);$('state').className='hero-state error';$('state').textContent='خطا در دریافت Snapshot';$('list').innerHTML=`<div class="error-state"><strong>بارگذاری داده‌های اصلی شکست خورد</strong><small>${esc(error.message)}</small><button class="button subtle" type="button" onclick="location.reload()">تلاش دوباره</button></div>`;$('count').textContent='داده بارگذاری نشد';
