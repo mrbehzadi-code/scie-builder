@@ -256,16 +256,38 @@ function openDetail(person){
 }
 function closeDetail(){$('detail').hidden=true;activePerson=null;document.body.classList.remove('modal-open')}
 
+function updateRecordInMemory(recordIndex,changes){
+  const index=Number(recordIndex),record=Number.isInteger(index)?people[index]:null;
+  if(!record)return null;
+  Object.assign(record,changes);
+  if(activePerson&&activePerson!==record&&Number(activePerson._record_index)===index)Object.assign(activePerson,changes);
+  return record;
+}
+
+function refreshRecordViews(record,{message=''}={}){
+  if(!record)return;
+  render();
+  buildOrgs();
+  buildIntel();
+  renderKnowledgeGraph();
+  if(!$('detail').hidden){
+    openDetail(record);
+    if(message)$('adminEditStatus').textContent=message;
+  }
+}
+
 async function editRecordField(key){
   if(!activePerson)return;
   if(!adminToken()){openAdminLogin(()=>editRecordField(key));return}
   if(authUser()?.role!=='admin'){$('adminEditStatus').textContent='ویرایش رکورد فقط برای مدیر سامانه فعال است.';return}
   const current={name_fa:bilingualName(activePerson).persian,name:activePerson.name,type:activePerson.type,source:activePerson.source,verification:activePerson.verification,organization_fa:activePerson.organization_fa||activePerson.affiliation_fa||bilingualOrganization(activePerson.affiliation||activePerson.organization||activePerson._profile?.organization).persian,affiliation:activePerson.affiliation||activePerson.organization||activePerson._profile?.organization,location:activePerson.location,detail:activePerson.detail,url:activePerson.url||activePerson.source_url}[key]||'';
   const next=prompt('مقدار جدید را وارد کنید:',current);if(next===null||next.trim()===String(current).trim())return;
-  const status=$('adminEditStatus'),previous=activePerson[key];activePerson[key]=next.trim();status.textContent='تغییر اعمال شد؛ در حال ذخیرهٔ دائمی…';render();openDetail(activePerson);
+  const recordIndex=Number(activePerson._record_index),previous=activePerson[key],pendingMessage='تغییر اعمال شد؛ در حال ذخیرهٔ دائمی…',record=updateRecordInMemory(recordIndex,{[key]:next.trim()});
+  refreshRecordViews(record,{message:pendingMessage});
   try{
-    await adminFetch('/admin/record',{method:'POST',body:JSON.stringify({record_index:activePerson._record_index,changes:{[key]:next.trim()}})});$('adminEditStatus').textContent='تغییر با موفقیت ذخیره شد و همین حالا در پروفایل اعمال شده است.';
-  }catch(error){activePerson[key]=previous;render();openDetail(activePerson);$('adminEditStatus').textContent=`ذخیره ناموفق بود و تغییر بازگردانده شد: ${error.message}`}
+    const result=await adminFetch('/admin/record',{method:'POST',body:JSON.stringify({record_index:recordIndex,changes:{[key]:next.trim()}})}),saved=updateRecordInMemory(recordIndex,result.changes||{[key]:next.trim()});
+    refreshRecordViews(saved,{message:'تغییر با موفقیت ذخیره شد و هم‌زمان در فهرست اصلی، جستجو و پروفایل اعمال شد.'});
+  }catch(error){const restored=updateRecordInMemory(recordIndex,{[key]:previous});refreshRecordViews(restored,{message:`ذخیره ناموفق بود و تغییر بازگردانده شد: ${error.message}`})}
 }
 
 function renderProfileRelations(person){
