@@ -179,6 +179,14 @@ jobs:
 
             const snapshotCount = await page.locator('#list .person').count();
             if (snapshotCount !== 25) throw new Error(`Expected 25 records on page 1, got ${snapshotCount}`);
+            // The dashboard intentionally renders the primary directory before optional
+            // intelligence layers finish. Wait for those background requests before
+            // asserting their HTTP status, without delaying the user-visible list.
+            for (let attempt = 0; attempt < 50; attempt++) {
+              const layerStatuses = [intelligenceStatus, entityResolutionStatus, profileEnrichmentStatus, externalEnrichmentStatus, entitiesStatus, knowledgeGraphStatus, buildMetaStatus];
+              if (layerStatuses.every(status => status === 200)) break;
+              await page.waitForTimeout(200);
+            }
             if (dataStatus !== 200) throw new Error(`data.json returned HTTP ${dataStatus}`);
             if (intelligenceStatus !== 200) throw new Error(`intelligence.json returned HTTP ${intelligenceStatus}`);
             if (entityResolutionStatus !== 200) throw new Error(`entity_resolution.json returned HTTP ${entityResolutionStatus}`);
