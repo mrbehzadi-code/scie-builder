@@ -1,7 +1,7 @@
 const JSON_HEADERS={"content-type":"application/json; charset=utf-8"};
 
 function cors(origin,allowed){
-  return {...JSON_HEADERS,"access-control-allow-origin":origin===allowed?origin:allowed,"access-control-allow-methods":"POST,OPTIONS","access-control-allow-headers":"content-type,x-idempotency-key","access-control-max-age":"86400","vary":"Origin"};
+  return {...JSON_HEADERS,"access-control-allow-origin":origin===allowed?origin:allowed,"access-control-allow-methods":"POST,OPTIONS","access-control-allow-headers":"content-type,x-idempotency-key,authorization","access-control-max-age":"86400","vary":"Origin"};
 }
 
 function reply(body,status,origin,allowed){
@@ -50,6 +50,25 @@ function feedbackIssue(item){
   return {title,body};
 }
 
+function base64Decode(value){return new TextDecoder().decode(Uint8Array.from(atob(value.replace(/\n/g,'')),char=>char.charCodeAt(0)))}
+function base64Encode(value){const bytes=new TextEncoder().encode(value);let binary='';for(let i=0;i<bytes.length;i+=32768)binary+=String.fromCharCode(...bytes.subarray(i,i+32768));return btoa(binary)}
+function secureEqual(a,b){a=String(a||'');b=String(b||'');if(a.length!==b.length)return false;let mismatch=0;for(let i=0;i<a.length;i++)mismatch|=a.charCodeAt(i)^b.charCodeAt(i);return mismatch===0}
+async function updateRecord(request,env,origin,allowed){
+  const supplied=(request.headers.get('authorization')||'').replace(/^Bearer\s+/i,'');
+  if(!env.ADMIN_KEY||!secureEqual(supplied,env.ADMIN_KEY))return reply({ok:false,error:'رمز مدیریت معتبر نیست یا دسترسی مجاز نیست.'},401,origin,allowed);
+  const input=await request.json(),index=Number(input?.record_index),allowedFields=new Set(['name','name_fa','type','source','verification','organization_fa','affiliation','location','detail','url']),changes={};
+  if(!Number.isInteger(index)||index<0)throw new Error('شماره رکورد معتبر نیست.');
+  for(const [key,value] of Object.entries(input?.changes||{})){if(!allowedFields.has(key))throw new Error(`ویرایش فیلد ${key} مجاز نیست.`);changes[key]=clean(value,key==='detail'?2000:600)}
+  if(!Object.keys(changes).length)throw new Error('هیچ تغییری برای ذخیره ارسال نشده است.');
+  const endpoint=`https://api.github.com/repos/${env.GITHUB_REPOSITORY}/contents/docs/data.json`,headers={authorization:`Bearer ${env.GITHUB_TOKEN}`,accept:'application/vnd.github+json','content-type':'application/json','user-agent':'SCIE-Admin-API','x-github-api-version':'2022-11-28'};
+  const currentResponse=await fetch(endpoint,{headers});const current=await currentResponse.json();if(!currentResponse.ok)throw new Error(`دریافت داده برای ویرایش ناموفق بود: ${current?.message||currentResponse.status}`);
+  const document=JSON.parse(base64Decode(current.content)),records=Array.isArray(document)?document:(document.people||document.records||document.items);if(!Array.isArray(records)||!records[index])throw new Error('رکورد موردنظر پیدا نشد.');
+  Object.assign(records[index],changes);document.generated_at=new Date().toISOString();
+  const saveResponse=await fetch(endpoint,{method:'PUT',headers,body:JSON.stringify({message:`data: admin edit record ${index}`,content:base64Encode(JSON.stringify(document,null,2)+'\n'),sha:current.sha,branch:'main'})}),saved=await saveResponse.json();
+  if(!saveResponse.ok)throw new Error(`ذخیره ویرایش ناموفق بود: ${saved?.message||saveResponse.status}`);
+  return reply({ok:true,status:'saved',record_index:index,changes,commit:saved.commit?.sha||''},200,origin,allowed);
+}
+
 export default {
   async fetch(request,env){
     const origin=request.headers.get('origin')||'',allowed=env.ALLOWED_ORIGIN;
@@ -58,6 +77,7 @@ export default {
     if(request.method!=='POST')return reply({ok:false,error:'متد درخواست مجاز نیست.'},405,origin,allowed);
     if(!env.GITHUB_TOKEN)return reply({ok:false,error:'سرویس هنوز پیکربندی نشده است.'},503,origin,allowed);
     try{
+      if(new URL(request.url).pathname==='/admin/record')return await updateRecord(request,env,origin,allowed);
       const feedback=new URL(request.url).pathname==='/feedback',item=feedback?validateFeedback(await request.json()):validate(await request.json());
       const key=clean(request.headers.get('x-idempotency-key')||item.id,100);
       const cacheKey=new Request(`https://scie-idempotency.invalid/${encodeURIComponent(key)}`);

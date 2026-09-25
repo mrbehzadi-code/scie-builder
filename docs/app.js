@@ -3,6 +3,7 @@
 const PAGE=25;
 const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichment.json','external_enrichment.json','entities.json','knowledge_graph.json','locality_assessment.json'];
 let people=[],filtered=[],page=1,q='',src='all',cat='all',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},SOCIAL={},BUILD={};
+let activePerson=null;
 const $=id=>document.getElementById(id);
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const FA_DIGITS='۰۱۲۳۴۵۶۷۸۹';
@@ -24,6 +25,15 @@ function bilingualName(person){
   const transliterated=original.replace(/[A-Za-z]+/g,part=>transliterateLatinWord(part)).replace(/[\-‐–—]/g,'‌').replace(/_/g,' ').replace(/\s+/g,' ').trim();
   const persian=explicitFa||(hasLatin?transliterated:original);
   return {persian:persian||original,english:hasLatin?original:String(person?.name_en||person?.english_name||'').trim()};
+}
+const PERSIAN_ORG_WORDS={university:'دانشگاه',college:'کالج',institute:'مؤسسه',institution:'مؤسسه',research:'پژوهش',center:'مرکز',centre:'مرکز',hospital:'بیمارستان',school:'دانشکده',academy:'آکادمی',company:'شرکت',corporation:'شرکت',organization:'سازمان',society:'انجمن',medical:'پزشکی',medicine:'پزشکی',sciences:'علوم',science:'علوم',health:'سلامت',services:'خدمات',technology:'فناوری',technological:'فناوری',engineering:'مهندسی',education:'آموزش',culture:'فرهنگ',social:'اجتماعی',welfare:'رفاه',rehabilitation:'توان‌بخشی',islamic:'اسلامی',azad:'آزاد',national:'ملی',international:'بین‌المللی',iran:'ایران',iranian:'ایرانی',yazd:'یزد',tehran:'تهران',shiraz:'شیراز',kashan:'کاشان',isfahan:'اصفهان',mashhad:'مشهد',kerman:'کرمان',semnan:'سمنان',qom:'قم',zabol:'زابل',ardabil:'اردبیل',ardakan:'اردکان',ardakani:'اردکانی',ardahan:'آرداهان',alberta:'آلبرتا',tasmania:'تاسمانی',michigan:'میشیگان',maryland:'مریلند',california:'کالیفرنیا',irvine:'ارواین',london:'لندن',lund:'لوند',columbia:'کلمبیا',shahid:'شهید',sadoughi:'صدوقی',beheshti:'بهشتی',chamran:'چمران',shahed:'شاهد',sharif:'شریف',ferdowsi:'فردوسی',kharazmi:'خوارزمی',amirkabir:'امیرکبیر',modares:'مدرس',tarbiat:'تربیت',malaya:'مالایا',soil:'خاک',natural:'طبیعی',resources:'منابع',water:'آب',watershed:'آبخیز',management:'مدیریت',conservation:'حفاظت',automation:'اتوماسیون',branch:'واحد',and:'و',of:'',for:'برای'};
+const PERSIAN_ORG_PHRASES={'shahid sadoughi university of medical sciences and health services':'دانشگاه علوم پزشکی و خدمات بهداشتی درمانی شهید صدوقی یزد','islamic azad university, yazd':'دانشگاه آزاد اسلامی یزد','university of maryland, college park':'دانشگاه مریلند، کالج پارک','soil conservation and watershed management research':'مرکز پژوهش حفاظت خاک و مدیریت آبخیز','university of social welfare and rehabilitation sciences':'دانشگاه علوم توان‌بخشی و سلامت اجتماعی','academic center for education, culture and research':'جهاد دانشگاهی','international society of automation':'انجمن بین‌المللی اتوماسیون','university of british columbia':'دانشگاه بریتیش کلمبیا','islamic azad university, science and research branch':'دانشگاه آزاد اسلامی، واحد علوم و تحقیقات'};
+function bilingualOrganization(value,explicitFa=''){
+  const original=String(value||'').trim(),manual=String(explicitFa||'').trim(),key=original.toLocaleLowerCase('en').replace(/\s+/g,' ').trim();
+  if(!original&&!manual)return {persian:'',english:''};
+  const hasLatin=/[A-Za-z]/.test(original),words=text=>text.replace(/[A-Za-z]+/g,word=>PERSIAN_ORG_WORDS[word.toLocaleLowerCase('en')]??transliterateLatinWord(word)).replace(/\s+,/g,'،').replace(/,/g,'،').replace(/\s+/g,' ').trim();let converted=PERSIAN_ORG_PHRASES[key];
+  if(!converted&&hasLatin){let match;if((match=original.match(/^(.+?) University of Medical Sciences(?: and Health Services)?$/i)))converted=`دانشگاه علوم پزشکی ${words(match[1])}`;else if((match=original.match(/^(.+?) University of Technology$/i)))converted=`دانشگاه صنعتی ${words(match[1])}`;else if((match=original.match(/^University of (.+)$/i)))converted=`دانشگاه ${words(match[1])}`;else if((match=original.match(/^(.+?) University$/i)))converted=`دانشگاه ${words(match[1])}`;else if((match=original.match(/^Islamic Azad University,?\s*(.+)$/i)))converted=`دانشگاه آزاد اسلامی ${words(match[1])}`;else converted=words(original)}
+  return {persian:manual||(hasLatin?converted:original),english:hasLatin?original:''};
 }
 const normalizeSearch=value=>String(value??'')
   .normalize('NFKC')
@@ -151,7 +161,7 @@ function setupFilters(){
 }
 
 function searchable(person){
-  const localized=bilingualName(person);return normalizeSearch([person.name,localized.persian,localized.english,person.source,person.type,uiText(person.type),person.detail,person.affiliation,person.organization,person.location,...(person.evidence||[])].filter(Boolean).join(' '));
+  const localized=bilingualName(person),organization=bilingualOrganization(person.affiliation||person.organization||person._profile?.organization,person.organization_fa||person.affiliation_fa);return normalizeSearch([person.name,localized.persian,localized.english,organization.persian,organization.english,person.source,person.type,uiText(person.type),person.detail,person.affiliation,person.organization,person.location,...(person.evidence||[])].filter(Boolean).join(' '));
 }
 
 function avatarFor(name=''){
@@ -183,7 +193,7 @@ function render(){
   const tableHead='<div class="directory-head" aria-hidden="true"><span>#</span><span>نام و مشخصات</span><span>حوزه و نقش</span><span>سازمان / وابستگی</span><span>کیفیت شواهد</span><span>عملیات</span></div>';
   $('list').innerHTML=tableHead+rows.map((person,index)=>{
     const quality=person._quality||{},profile=person._profile||{},external=person._external||{};
-    const organization=profile.organization||person.affiliation||person.organization||'';
+    const organizationSource=person.affiliation||person.organization||profile.organization||'',organization=bilingualOrganization(organizationSource,person.organization_fa||person.affiliation_fa);
     const location=profile.location?.raw||person.location||'';
     const localized=bilingualName(person),avatar=avatarFor(localized.persian);
     const qualityBadge=quality.evidence_strength?`<span class="badge quality ${esc(quality.evidence_strength)}">کیفیت ${esc(quality.score)}</span>`:'';
@@ -192,7 +202,7 @@ function render(){
     const enriched=external.status==='enriched'?`<span class="badge enriched">${external.data?.cached?'غنی‌شده · Cache':'غنی‌شده · زنده'}</span>`:'';
     const locality=person._locality||{},localityLabel={confirmed:'اردکانی تأییدشده',confirmed_by_human:'تأیید انسانی',probable:'ارتباط محتمل',possible:'ارتباط ضعیف',insufficient:'شاهد ناکافی',rejected_by_human:'ردشده در بازبینی'}[locality.status]||'';
     const localityBadge=localityLabel?`<span class="badge ${locality.status==='rejected_by_human'?'weak':locality.status.includes('confirmed')?'strong':'medium'}">${localityLabel} · ${esc(locality.score||0)}</span>`:'';
-    return `<div class="person" role="button" tabindex="0" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span class="identity"><span class="name">${esc(localized.persian)}</span>${localized.english?`<span class="name-latin" lang="en" dir="ltr">${esc(localized.english)}</span>`:''}<span class="person-sub">${esc(person.source||'منبع نامشخص')}</span></span></span><span class="person-role"><span>${esc(uiText(person.type||'کاندیدا'))}</span><small>${profile.work_count!==undefined?`${esc(profile.work_count)} اثر ثبت‌شده`:'ظرفیت شناسایی‌شده'}</small></span><span class="person-context"><span>${esc(organization||'سازمان نامشخص')}</span>${location&&location!=='—'?`<small>${esc(location)}</small>`:''}</span><span class="badges">${localityBadge}${qualityBadge}${complete}${entity}${enriched}</span><span class="row-actions"><button type="button" data-action="view" title="مشاهده جزئیات" aria-label="مشاهده جزئیات">◉</button><button type="button" data-action="save" title="نشان‌کردن" aria-label="نشان‌کردن">♡</button><button type="button" data-action="more" title="گزینه‌های بیشتر" aria-label="گزینه‌های بیشتر">•••</button></span></div>`;
+    return `<div class="person" role="button" tabindex="0" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span class="identity"><span class="name">${esc(localized.persian)}</span>${localized.english?`<span class="name-latin" lang="en" dir="ltr">${esc(localized.english)}</span>`:''}<span class="person-sub">${esc(person.source||'منبع نامشخص')}</span></span></span><span class="person-role"><span>${esc(uiText(person.type||'کاندیدا'))}</span><small>${profile.work_count!==undefined?`${esc(profile.work_count)} اثر ثبت‌شده`:'ظرفیت شناسایی‌شده'}</small></span><span class="person-context"><span>${esc(organization.persian||'سازمان نامشخص')}</span>${organization.english?`<small class="org-latin" lang="en" dir="ltr">${esc(organization.english)}</small>`:''}${location&&location!=='—'?`<small>${esc(location)}</small>`:''}</span><span class="badges">${localityBadge}${qualityBadge}${complete}${entity}${enriched}</span><span class="row-actions"><button type="button" data-action="view" title="مشاهده جزئیات" aria-label="مشاهده جزئیات">◉</button><button type="button" data-action="save" title="نشان‌کردن" aria-label="نشان‌کردن">♡</button><button type="button" data-action="more" title="گزینه‌های بیشتر" aria-label="گزینه‌های بیشتر">•••</button></span></div>`;
   }).join('');
 }
 
@@ -202,29 +212,45 @@ function showHistory(){const history=readLocalArray('scie_search_history');$('hi
 
 function field(label,value){return value===undefined||value===null||value===''?'':`<div class="detail-field"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`}
 function fieldAlways(label,value){return `<div class="detail-field"><span>${esc(label)}</span><strong>${esc(valueOrDash(value))}</strong></div>`}
+function editableField(label,value,key){return `<button type="button" class="detail-field editable-field" data-edit-key="${esc(key)}"><span>${esc(label)} <i>ویرایش</i></span><strong>${esc(valueOrDash(value))}</strong></button>`}
 function detailSection(title,fields){const body=fields.filter(Boolean).join('');return body?`<section class="detail-section"><h3>${esc(title)}</h3><div class="detail-grid">${body}</div></section>`:''}
 function openDetail(person){
   if(!person)return;
+  activePerson=person;
   const profile=person._profile||{},ids=profile.identifiers||{},location=profile.location||{},external=person._external?.data||{},quality=person._quality||{},entity=person._entity||{},locality=person._locality||{};
   const externalOrganizations=Array.isArray(external.institutions)?external.institutions.join('، '):Array.isArray(external.last_known_institutions)?external.last_known_institutions.map(item=>item?.name).filter(Boolean).join('، '):external.company||'';
   const topics=Array.isArray(external.topics)?external.topics.map(item=>item?.name).filter(Boolean).join('، '):'';
-  const localized=bilingualName(person);$('dname').innerHTML=`${esc(localized.persian)}${localized.english?`<small class="detail-name-latin" lang="en" dir="ltr">${esc(localized.english)}</small>`:''}`;
+  const localized=bilingualName(person),organizationSource=person.affiliation||person.organization||profile.organization||'',organization=bilingualOrganization(organizationSource,person.organization_fa||person.affiliation_fa);$('dname').innerHTML=`${esc(localized.persian)}${localized.english?`<small class="detail-name-latin" lang="en" dir="ltr">${esc(localized.english)}</small>`:''}`;
   $('dsummary').innerHTML=[`<span class="badge">${esc(uiText(person.type||'کاندیدا'))}</span>`,quality.evidence_strength?`<span class="badge quality ${esc(quality.evidence_strength)}">کیفیت ${esc(quality.score)}</span>`:'',profile.profile_completeness!==undefined?`<span class="badge complete">پروفایل ${esc(profile.profile_completeness)}٪</span>`:''].join('');
   $('dmeta').innerHTML=[
-    detailSection('هویت',[field('نام فارسی',localized.persian),field('نام در منبع',localized.english),field('نوع / ظرفیت',uiText(person.type)),field('منبع',person.source),field('ارائه‌دهنده',profile.provider),field('وضعیت هویت',quality.verification||person.verification||entity.identity_status)]),
-    detailSection('سازمان و مکان',[field('سازمان',profile.organization||person.affiliation||person.organization),field('مکان',location.raw||person.location),field('سازمان در منبع خارجی',externalOrganizations),field('مکان در منبع خارجی',external.location)]),
+    detailSection('هویت',[editableField('نام فارسی',localized.persian,'name_fa'),editableField('نام در منبع',localized.english||person.name,'name'),editableField('نوع / ظرفیت',uiText(person.type),'type'),editableField('منبع',person.source,'source'),field('ارائه‌دهنده',profile.provider),editableField('وضعیت هویت',quality.verification||person.verification||entity.identity_status,'verification')]),
+    detailSection('سازمان و مکان',[editableField('نام فارسی سازمان',organization.persian,'organization_fa'),editableField('نام سازمان در منبع',organization.english||organizationSource,'affiliation'),editableField('مکان',location.raw||person.location,'location'),field('سازمان در منبع خارجی',externalOrganizations),field('مکان در منبع خارجی',external.location)]),
     detailSection('کیفیت شواهد',[field('کیفیت شواهد',quality.score!==undefined?`${quality.score} / 100 · ${quality.evidence_strength}`:''),field('کامل بودن پروفایل',profile.profile_completeness!==undefined?`${profile.profile_completeness}٪`:''),field('تعداد آثار علمی',profile.work_count??external.works_count),field('استنادها',external.cited_by_count)]),
     detailSection('ارتباط با اردکان',[field('امتیاز ارتباط محلی',locality.score!==undefined?`${locality.score} / 100`:''),field('وضعیت',locality.status),field('نیازمند بررسی انسانی',locality.needs_human_review?'بله':'خیر'),field('شواهد امتیازدهی',(locality.reasons||[]).map(item=>item.signal).join('، '))]),
     detailSection('شناسه‌ها',[fieldAlways('Entity ID',person._entity_id),fieldAlways('OpenAlex ID',ids.openalex_id),fieldAlways('GitHub username',ids.github_username||external.login),fieldAlways('ORCID',ids.orcid||external.orcid),field('تعداد رکورد در هویت',entity.record_count)]),
     detailSection('غنی‌سازی',[field('وضعیت داده تکمیلی',person._external?.status==='enriched'?(external.cached?'Cache معتبر':'Live provider'):''),field('نام در منبع',external.display_name),field('حوزه‌ها',topics),field('مخازن عمومی',external.public_repos),field('به‌روزرسانی منبع',external.updated_at)]),
-    detailSection('جزئیات',[field('شرح',person.detail),field('فیلدهای ناقص',(profile.missing_fields||[]).join('، '))])
+    detailSection('جزئیات',[editableField('شرح',person.detail,'detail'),editableField('نشانی منبع',person.url||person.source_url,'url'),field('فیلدهای ناقص',(profile.missing_fields||[]).join('، '))])
   ].join('');
   $('devidence').innerHTML=(person.evidence||[]).map(item=>`<span>${esc(item)}</span>`).join('');
   const url=person.url||person.source_url;$('durl').hidden=!url;$('durl').href=url||'#';
   $('verifyPerson').dataset.recordIndex=person._record_index;
   $('detail').hidden=false;document.body.classList.add('modal-open');$('close').focus();
 }
-function closeDetail(){$('detail').hidden=true;document.body.classList.remove('modal-open')}
+function closeDetail(){$('detail').hidden=true;activePerson=null;document.body.classList.remove('modal-open')}
+
+async function editRecordField(key){
+  if(!activePerson)return;
+  let adminKey=sessionStorage.getItem('scie_admin_key')||'';
+  if(!adminKey){adminKey=prompt('رمز مدیریت اطلس را وارد کنید:')?.trim()||'';if(!adminKey)return;sessionStorage.setItem('scie_admin_key',adminKey)}
+  const current={name_fa:bilingualName(activePerson).persian,name:activePerson.name,type:activePerson.type,source:activePerson.source,verification:activePerson.verification,organization_fa:activePerson.organization_fa||activePerson.affiliation_fa||bilingualOrganization(activePerson.affiliation||activePerson.organization||activePerson._profile?.organization).persian,affiliation:activePerson.affiliation||activePerson.organization||activePerson._profile?.organization,location:activePerson.location,detail:activePerson.detail,url:activePerson.url||activePerson.source_url}[key]||'';
+  const next=prompt('مقدار جدید را وارد کنید:',current);if(next===null||next.trim()===String(current).trim())return;
+  const status=$('adminEditStatus');status.textContent='در حال ذخیره و انتشار تغییر…';
+  try{
+    const response=await fetch('https://scie-lead-api.scie-builder.workers.dev/admin/record',{method:'POST',headers:{'content-type':'application/json','authorization':`Bearer ${adminKey}`},body:JSON.stringify({record_index:activePerson._record_index,changes:{[key]:next.trim()}})}),result=await response.json();
+    if(!response.ok)throw Error(result.error||'ذخیره تغییر ناموفق بود.');
+    activePerson[key]=next.trim();status.textContent='تغییر ذخیره شد و نسخهٔ عمومی در حال به‌روزرسانی است.';render();openDetail(activePerson);
+  }catch(error){if(/دسترسی|رمز|مجاز/.test(error.message))sessionStorage.removeItem('scie_admin_key');status.textContent=error.message}
+}
 
 function buildIntel(){
   const metrics=INT.metrics||{},decisions=ER.decision_counts||{},profiles=PROFILE.metrics||{},external=EXT.metrics||{},entities=ENT.metrics||{};
@@ -322,6 +348,7 @@ function bindEvents(){
   document.addEventListener('click',event=>{if(!event.target.closest('.search'))$('history').classList.remove('open')});
   $('source').addEventListener('change',event=>{src=event.target.value;page=1;render()});$('reset').addEventListener('click',resetFilters);
   $('verifyPerson').addEventListener('click',()=>{const index=$('verifyPerson').dataset.recordIndex;closeDetail();openTab('verification');$('vrPerson').value=index;$('vrPerson').focus()});
+  $('dmeta').addEventListener('click',event=>{const target=event.target.closest('[data-edit-key]');if(target)editRecordField(target.dataset.editKey)});
   const goToPage=target=>{const pages=Math.max(1,Math.ceil(filtered.length/PAGE)),nextPage=Math.min(Math.max(1,target),pages);if(nextPage===page)return;page=nextPage;render();$('list').scrollIntoView({block:'start',behavior:'smooth'})};
   $('first').addEventListener('click',()=>goToPage(1));$('prev').addEventListener('click',()=>goToPage(page-1));$('next').addEventListener('click',()=>goToPage(page+1));$('last').addEventListener('click',()=>goToPage(Math.ceil(filtered.length/PAGE)));
   $('pageNumbers').addEventListener('click',event=>{const button=event.target.closest('[data-page]');if(button)goToPage(Number(button.dataset.page))});
