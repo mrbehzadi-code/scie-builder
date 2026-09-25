@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-24",
-  "candidate_count": 1004,
+  "generated_at": "2026-09-25",
+  "candidate_count": 1000,
   "metrics": {
     "with_organization": 448,
     "with_location": 278,
-    "with_stable_source_id": 722,
+    "with_stable_source_id": 718,
     "ardakan_location_signal": 275,
     "completeness_high": 448,
-    "completeness_medium": 470,
+    "completeness_medium": 466,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 662,
+    "OpenAlex": 658,
     "کانال‌ها و گروه‌های عمومی تلگرام": 172,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -40104,166 +40104,6 @@
       "missing_fields": [
         "organization",
         "stable_source_id",
-        "work_count"
-      ]
-    },
-    {
-      "candidate_index": 1000,
-      "name": "داوود عندلیب",
-      "provider": "OpenAlex",
-      "source": "Lead-guided OpenAlex Discovery",
-      "source_url": "https://openalex.org/A5061062249",
-      "identifiers": {
-        "openalex_id": "A5061062249",
-        "github_username": null
-      },
-      "organization": null,
-      "work_count": null,
-      "location": {
-        "raw": null,
-        "city": null,
-        "province": null,
-        "country": null,
-        "ardakan_signal": false
-      },
-      "verification": "needs_review",
-      "confidence": "low",
-      "evidence": [
-        "lead: داوود عندلیب",
-        "query: داوود عندلیب"
-      ],
-      "evidence_count": 2,
-      "quality_score": 28,
-      "evidence_strength": "weak",
-      "profile_completeness": 50,
-      "available_fields": [
-        "stable_source_id",
-        "source_url",
-        "evidence"
-      ],
-      "missing_fields": [
-        "organization",
-        "location",
-        "work_count"
-      ]
-    },
-    {
-      "candidate_index": 1001,
-      "name": "داوود عندلیب اردکانی",
-      "provider": "OpenAlex",
-      "source": "Lead-guided OpenAlex Discovery",
-      "source_url": "https://openalex.org/A5012546976",
-      "identifiers": {
-        "openalex_id": "A5012546976",
-        "github_username": null
-      },
-      "organization": null,
-      "work_count": null,
-      "location": {
-        "raw": null,
-        "city": null,
-        "province": null,
-        "country": null,
-        "ardakan_signal": false
-      },
-      "verification": "needs_review",
-      "confidence": "medium",
-      "evidence": [
-        "lead: داوود عندلیب",
-        "query: داوود عندلیب"
-      ],
-      "evidence_count": 2,
-      "quality_score": 43,
-      "evidence_strength": "weak",
-      "profile_completeness": 50,
-      "available_fields": [
-        "stable_source_id",
-        "source_url",
-        "evidence"
-      ],
-      "missing_fields": [
-        "organization",
-        "location",
-        "work_count"
-      ]
-    },
-    {
-      "candidate_index": 1002,
-      "name": "داود عندلیب",
-      "provider": "OpenAlex",
-      "source": "Lead-guided OpenAlex Discovery",
-      "source_url": "https://openalex.org/A5037498432",
-      "identifiers": {
-        "openalex_id": "A5037498432",
-        "github_username": null
-      },
-      "organization": null,
-      "work_count": null,
-      "location": {
-        "raw": null,
-        "city": null,
-        "province": null,
-        "country": null,
-        "ardakan_signal": false
-      },
-      "verification": "needs_review",
-      "confidence": "low",
-      "evidence": [
-        "lead: داود عندلیب",
-        "query: داود عندلیب"
-      ],
-      "evidence_count": 2,
-      "quality_score": 28,
-      "evidence_strength": "weak",
-      "profile_completeness": 50,
-      "available_fields": [
-        "stable_source_id",
-        "source_url",
-        "evidence"
-      ],
-      "missing_fields": [
-        "organization",
-        "location",
-        "work_count"
-      ]
-    },
-    {
-      "candidate_index": 1003,
-      "name": "داود عندلیب",
-      "provider": "OpenAlex",
-      "source": "Lead-guided OpenAlex Discovery",
-      "source_url": "https://openalex.org/A5024836561",
-      "identifiers": {
-        "openalex_id": "A5024836561",
-        "github_username": null
-      },
-      "organization": null,
-      "work_count": null,
-      "location": {
-        "raw": null,
-        "city": null,
-        "province": null,
-        "country": null,
-        "ardakan_signal": false
-      },
-      "verification": "needs_review",
-      "confidence": "low",
-      "evidence": [
-        "lead: داود عندلیب",
-        "query: داود عندلیب"
-      ],
-      "evidence_count": 2,
-      "quality_score": 28,
-      "evidence_strength": "weak",
-      "profile_completeness": 50,
-      "available_fields": [
-        "stable_source_id",
-        "source_url",
-        "evidence"
-      ],
-      "missing_fields": [
-        "organization",
-        "location",
         "work_count"
       ]
     }
