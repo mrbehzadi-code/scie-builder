@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
-  <link rel="stylesheet" href="poster.css?v=20260925-4">
+  <link rel="stylesheet" href="poster.css?v=20260925-6">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -105,7 +105,7 @@
       <div class="page-heading"><span class="kicker">تحلیل شواهد</span><h2>هوش اطلس</h2><p>نمای تحلیلی کیفیت، پوشش داده و تصمیم‌های حل هویت؛ بدون تبدیل احتمال به قطعیت.</p></div>
       <div id="intel" class="analysis-grid"></div>
       <div class="two-col">
-        <section class="panel"><div class="section-head compact"><div><span class="kicker">نیازمند بررسی انسانی</span><h3>تکرارهای احتمالی</h3></div></div><div id="dupes"></div></section>
+        <section class="panel duplicate-workbench"><div class="section-head compact"><div><span class="kicker">تشخیص هوشمند و مشارکت انسانی</span><h3>مدیریت رکوردهای تکراری</h3><p>سامانه موارد قطعی را خودکار یکپارچه می‌کند؛ کاربران می‌توانند موارد مشکوک را پیشنهاد دهند و مدیر تصمیم نهایی را می‌گیرد.</p></div><span id="mergeSummary" class="merge-summary"></span></div><div id="dupes"></div><div class="merge-queue-head"><h4>صف پیشنهادهای ادغام</h4><button id="refreshMerges" class="button subtle" type="button">به‌روزرسانی صف</button></div><div id="mergeQueue" class="merge-queue"></div><span id="mergeStatus" class="merge-status" role="status" aria-live="polite"></span></section>
         <section class="panel"><div class="section-head compact"><div><span class="kicker">هویت‌های تثبیت‌شده</span><h3>هویت‌های چندرکوردی</h3></div></div><div id="canonical"></div></section>
       </div>
       <section class="panel"><div class="section-head"><div><span class="kicker">تصمیم‌های توضیح‌پذیر</span><h3>حل هویت</h3><p>امتیاز، سطح اطمینان، شواهد و نیاز به بازبینی برای هر جفت.</p></div></div><div id="resolutions" class="resolution-grid"></div></section>
@@ -225,6 +225,6 @@
   <div id="adminLogin" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="adminLoginTitle" hidden><button class="admin-login-backdrop" type="button" aria-label="بستن"></button><form id="adminLoginForm" class="admin-login-card"><button id="closeAdminLogin" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب کاربری اطلس</span><h2 id="adminLoginTitle">ورود به سامانه</h2><p id="authDescription">وارد شوید تا مشارکت‌ها، پیشنهادها و فعالیت‌های خود را همیشه در دسترس داشته باشید.</p><div class="auth-mode"><button class="active" data-auth-mode="login" type="button">ورود</button><button data-auth-mode="register" type="button">ثبت‌نام</button></div><label><span>نام کاربری</span><input id="adminUsername" name="username" autocomplete="username" required></label><label><span>رمز عبور</span><input id="adminPassword" name="password" type="password" autocomplete="current-password" minlength="8" required></label><button id="authSubmit" class="button primary" type="submit">ورود به سامانه</button><span id="adminLoginStatus" role="status"></span></form></div>
   <div id="accountPanel" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="accountTitle" hidden><button class="account-panel-backdrop admin-login-backdrop" type="button" aria-label="بستن"></button><article class="account-card"><button id="closeAccountPanel" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب شخصی</span><h2 id="accountTitle">فعالیت‌های من</h2><div id="accountSummary" class="account-summary"></div><div id="accountActivities" class="account-activities"></div><button id="accountLogout" class="button subtle" type="button">خروج از سامانه</button></article></div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
-  <script src="app.js?v=20260925-5" defer></script>
+  <script src="app.js?v=20260925-6" defer></script>
 </body>
 </html>

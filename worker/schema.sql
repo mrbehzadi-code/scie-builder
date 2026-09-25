@@ -33,3 +33,30 @@ CREATE TABLE IF NOT EXISTS relationships (
   updated_by TEXT NOT NULL,
   updated_at TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS merge_requests (
+  id TEXT PRIMARY KEY,
+  primary_index INTEGER NOT NULL,
+  duplicate_index INTEGER NOT NULL,
+  reason TEXT,
+  confidence INTEGER NOT NULL DEFAULT 0,
+  evidence_json TEXT,
+  status TEXT NOT NULL DEFAULT 'pending',
+  proposed_by TEXT NOT NULL,
+  reviewed_by TEXT,
+  created_at TEXT NOT NULL,
+  reviewed_at TEXT,
+  CHECK(primary_index >= 0 AND duplicate_index >= 0 AND primary_index != duplicate_index),
+  CHECK(status IN ('pending','approved','rejected','applied'))
+);
+CREATE INDEX IF NOT EXISTS idx_merge_requests_status_created ON merge_requests(status, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_merge_requests_proposed_by ON merge_requests(proposed_by, created_at DESC);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_merge_requests_pending_pair ON merge_requests(primary_index, duplicate_index) WHERE status = 'pending';
+CREATE TABLE IF NOT EXISTS record_merges (
+  duplicate_index INTEGER PRIMARY KEY,
+  primary_index INTEGER NOT NULL,
+  request_id TEXT NOT NULL,
+  merged_by TEXT NOT NULL,
+  merged_at TEXT NOT NULL,
+  CHECK(primary_index >= 0 AND duplicate_index >= 0 AND primary_index != duplicate_index)
+);
+CREATE INDEX IF NOT EXISTS idx_record_merges_primary ON record_merges(primary_index);
