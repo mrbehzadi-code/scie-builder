@@ -134,7 +134,7 @@ footer{background:transparent;border-top:0;padding:15px 0}
 .provenance-evidence>div:before{content:"";position:absolute;right:0;top:0;bottom:0;width:3px;background:linear-gradient(#3983d9,#69b7e8)}
 @media(max-width:700px){.provenance-node{min-height:104px;padding:15px}.provenance-node>i{width:50px;height:50px}.provenance-node:before{font-size:66px}}
 
-/* Interactive record journey — floating selection plus an inline glass detail reveal. */
+/* Interactive record hover — motion retained without inline expanding details. */
 .people-list{overflow:visible}.directory-head{border-radius:11px 11px 0 0}.person{position:relative;z-index:0;overflow:hidden;will-change:transform,box-shadow;transition:background .24s ease,box-shadow .24s ease,transform .24s ease,border-radius .24s ease}
 .person:hover,.person:focus-visible{z-index:3;border-radius:15px;background:linear-gradient(105deg,#fff,rgba(238,247,255,.96));box-shadow:0 15px 34px rgba(22,75,137,.16),inset -4px 0 #2878df;transform:translateY(-3px) scale(1.006)}
 .person:active{transform:translateY(-1px) scale(.998);transition-duration:.08s}
@@ -142,9 +142,5 @@ footer{background:transparent;border-top:0;padding:15px 0}
 .person:hover .avatar,.person:focus-visible .avatar{box-shadow:0 8px 18px hsl(var(--avatar-hue) 42% 75% / .38),0 0 0 2px #fff;transform:scale(1.08) rotate(-3deg)}
 .person:hover .no,.person:focus-visible .no{color:#1766c3;transform:scale(1.12)}
 .person:hover .row-actions button,.person:focus-visible .row-actions button{background:rgba(255,255,255,.86);box-shadow:0 5px 12px rgba(30,82,140,.10)}
-.record-glass-preview{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;max-height:0;margin:0 4px;padding:0 10px;overflow:hidden;border:1px solid transparent;border-radius:13px;background:rgba(255,255,255,0);opacity:0;transform:translateY(-8px);transition:max-height .34s ease,margin .34s ease,padding .34s ease,opacity .25s ease,transform .34s ease,background .34s ease,border-color .34s ease}
-.person:hover .record-glass-preview,.person:focus-visible .record-glass-preview{max-height:82px;margin:7px 4px 3px;padding:10px;border-color:rgba(177,207,237,.72);background:linear-gradient(110deg,rgba(255,255,255,.78),rgba(235,246,255,.68));box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 8px 22px rgba(29,77,130,.08);backdrop-filter:blur(12px);opacity:1;transform:translateY(0)}
-.record-glass-preview>span{display:grid;grid-template-columns:28px 1fr;grid-template-rows:auto auto;column-gap:8px;align-items:center;min-width:0;padding:3px 7px;border-left:1px solid rgba(184,207,229,.62)}.record-glass-preview>span:last-child{border-left:0}
-.record-glass-preview i{grid-row:1/3;width:28px;height:28px;display:grid;place-items:center;border-radius:9px;background:rgba(218,235,253,.82);color:#276dc2;font-style:normal;font-weight:900}.record-glass-preview small,.record-glass-preview b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.record-glass-preview small{color:#7e91a8;font-size:7px}.record-glass-preview b{color:#234c79;font-size:8px}
-@media(max-width:760px){.person{overflow:visible}.record-glass-preview{display:none}.person:hover,.person:focus-visible{transform:translateY(-2px) scale(1.002)}}
-@media(prefers-reduced-motion:reduce){.person,.person .avatar,.person .no,.record-glass-preview{transition:none}.person:hover,.person:focus-visible{transform:none}}
+@media(max-width:760px){.person{overflow:visible}.person:hover,.person:focus-visible{transform:translateY(-2px) scale(1.002)}}
+@media(prefers-reduced-motion:reduce){.person,.person .avatar,.person .no{transition:none}.person:hover,.person:focus-visible{transform:none}}
