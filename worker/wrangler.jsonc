@@ -6,6 +6,7 @@
   "workers_dev": true,
   "vars": {
     "ALLOWED_ORIGIN": "https://mrbehzadi-code.github.io",
-    "GITHUB_REPOSITORY": "mrbehzadi-code/scie-builder"
+    "GITHUB_REPOSITORY": "mrbehzadi-code/scie-builder",
+    "ADMIN_USERNAME": "admin"
   }
 }

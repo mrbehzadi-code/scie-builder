@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
-  <link rel="stylesheet" href="poster.css?v=20260925-2">
+  <link rel="stylesheet" href="poster.css?v=20260925-3">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -207,7 +207,7 @@
   <div id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="dname" hidden>
     <button class="detail-backdrop" tabindex="-1" aria-label="بستن"></button>
     <article class="drawer profile-drawer">
-      <div class="profile-topbar"><span><b>SCIE</b> · پروفایل هوشمند اطلس</span><button id="close" class="icon-button" aria-label="بستن جزئیات">×</button></div>
+      <div class="profile-topbar"><span><b>SCIE</b> · پروفایل هوشمند اطلس</span><div><button id="adminAccountButton" class="admin-account-button" type="button">ورود مدیر</button><button id="close" class="icon-button" aria-label="بستن جزئیات">×</button></div></div>
       <header class="profile-hero">
         <div id="dAvatar" class="profile-avatar" aria-hidden="true"></div>
         <div class="profile-identity"><span class="kicker">پروندهٔ هویتی و حرفه‌ای</span><h2 id="dname"></h2><p id="dOrgHeadline"></p><div id="dsummary" class="drawer-summary"></div></div>
@@ -216,11 +216,13 @@
       <div id="dQuickStats" class="profile-quick-stats"></div>
       <div class="admin-edit-hint"><span>ویرایش مدیریتی</span> برای اصلاح هر مقدار، روی همان کادر کلیک کنید.</div>
       <div id="dmeta" class="detail-sections profile-sections"></div>
+      <section class="profile-relations"><div class="profile-subhead"><div><span>شبکهٔ ارتباطات این فرد</span><small>خانوادگی، تخصصی، سازمانی و سایر پیوندهای مستند</small></div><button id="addRelation" class="button subtle" type="button">＋ افزودن ارتباط</button></div><div id="dRelations" class="relation-map"></div><form id="relationEditor" class="relation-editor" hidden><label><span>فرد مرتبط</span><select id="relationPerson"></select></label><label><span>نوع ارتباط</span><select id="relationType"><option value="family">رابطه خانوادگی</option><option value="colleague">همکار</option><option value="organization">هم‌سازمان</option><option value="expertise">حوزه تخصصی مشترک</option><option value="education">ارتباط علمی / آموزشی</option><option value="social">ارتباط اجتماعی</option><option value="other">سایر</option></select></label><label class="wide"><span>عنوان یا توضیح ارتباط</span><input id="relationNote" placeholder="برای مثال: برادر، همکار پژوهشی یا عضو یک سازمان"></label><div class="wide relation-editor-actions"><button class="button primary" type="submit">ذخیره ارتباط</button><button id="cancelRelation" class="button subtle" type="button">انصراف</button><span id="relationStatus" role="status"></span></div></form></section>
       <div class="profile-evidence"><div class="profile-subhead"><span>ردپای شواهد</span><small>مستندات عمومی مرتبط با این رکورد</small></div><div id="devidence" class="evidence"></div></div>
       <div class="drawer-footer"><div class="drawer-actions"><a id="durl" class="button primary" target="_blank" rel="noopener">مشاهده منبع اصلی ↗</a><button id="verifyPerson" class="button subtle" type="button">راستی‌آزمایی این فرد</button></div><span id="adminEditStatus" class="admin-edit-status" role="status" aria-live="polite"></span></div>
     </article>
   </div>
+  <div id="adminLogin" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="adminLoginTitle" hidden><button class="admin-login-backdrop" type="button" aria-label="بستن"></button><form id="adminLoginForm" class="admin-login-card"><button id="closeAdminLogin" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">دسترسی حفاظت‌شده</span><h2 id="adminLoginTitle">ورود مدیر اطلس</h2><p>برای ویرایش رکوردها و ارتباطات وارد شوید. مرورگر می‌تواند نام کاربری و رمز را ذخیره کند.</p><label><span>نام کاربری</span><input id="adminUsername" name="username" autocomplete="username" required></label><label><span>رمز عبور</span><input id="adminPassword" name="password" type="password" autocomplete="current-password" required></label><button class="button primary" type="submit">ورود به سامانه</button><span id="adminLoginStatus" role="status"></span></form></div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
-  <script src="app.js?v=20260925-2" defer></script>
+  <script src="app.js?v=20260925-3" defer></script>
 </body>
 </html>

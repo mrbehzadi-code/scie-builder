@@ -2,7 +2,7 @@
 
 const PAGE=25;
 const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichment.json','external_enrichment.json','entities.json','knowledge_graph.json','locality_assessment.json'];
-let people=[],filtered=[],page=1,q='',src='all',cat='all',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},SOCIAL={},BUILD={};
+let people=[],filtered=[],page=1,q='',src='all',cat='all',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},SOCIAL={},REL={},BUILD={};
 let activePerson=null;
 const $=id=>document.getElementById(id);
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -60,6 +60,13 @@ function installPersianDigitRendering(){
 const readLocalArray=key=>{try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[]}catch{return[]}};
 const valueOrDash=value=>value===undefined||value===null||value===''?'—':value;
 const statusFa=value=>({needs_review:'نیازمند بازبینی',verified:'تأییدشده',confirmed:'تأییدشده',confirmed_by_human:'تأیید انسانی',probable:'ارتباط محتمل',possible:'ارتباط ضعیف',insufficient:'شواهد ناکافی',rejected_by_human:'ردشده',strong:'قوی',medium:'متوسط',weak:'ضعیف',enriched:'غنی‌شده'}[String(value||'')]||valueOrDash(value));
+const ADMIN_API='https://scie-lead-api.scie-builder.workers.dev',relationLabels={family:'خانوادگی',colleague:'همکاری',organization:'هم‌سازمانی',expertise:'حوزه مشترک',education:'علمی / آموزشی',social:'اجتماعی',other:'سایر'};
+let pendingAdminAction=null;
+const adminToken=()=>localStorage.getItem('scie_admin_token')||'';
+function updateAdminUI(){const loggedIn=Boolean(adminToken()),button=$('adminAccountButton');if(!button)return;button.textContent=loggedIn?'مدیر وارد شده · خروج':'ورود مدیر';button.classList.toggle('logged-in',loggedIn);document.body.classList.toggle('admin-authenticated',loggedIn)}
+function openAdminLogin(action=null){pendingAdminAction=action;$('adminLogin').hidden=false;$('adminLoginStatus').textContent='';$('adminUsername').focus()}
+function closeAdminLogin(){$('adminLogin').hidden=true}
+async function adminFetch(path,options={}){const response=await fetch(`${ADMIN_API}${path}`,{...options,headers:{'content-type':'application/json','authorization':`Bearer ${adminToken()}`,...options.headers}}),result=await response.json();if(response.status===401){localStorage.removeItem('scie_admin_token');updateAdminUI();throw Error('نشست مدیریت معتبر نیست؛ دوباره وارد شوید.')}if(!response.ok)throw Error(result.error||'انجام عملیات ناموفق بود.');return result}
 
 async function loadJSON(path,{fallback=true,preferRaw=false}={}){
   const local=new URL(path,location.href),raw=new URL(`https://raw.githubusercontent.com/mrbehzadi-code/scie-builder/main/docs/${path}`);
@@ -81,10 +88,10 @@ async function loadData(){
 }
 
 async function loadLayers(){
-  const targets=[['INT','intelligence.json'],['ER','entity_resolution.json'],['PROFILE','profile_enrichment.json'],['EXT','external_enrichment.json'],['ENT','entities.json'],['KG','knowledge_graph.json'],['LOC','locality_assessment.json'],['SOCIAL','social_discovery_report.json']];
+  const targets=[['INT','intelligence.json'],['ER','entity_resolution.json'],['PROFILE','profile_enrichment.json'],['EXT','external_enrichment.json'],['ENT','entities.json'],['KG','knowledge_graph.json'],['LOC','locality_assessment.json'],['SOCIAL','social_discovery_report.json'],['REL','relationships.json']];
   const results=await Promise.allSettled(targets.map(([,file])=>loadJSON(file,{preferRaw:true})));
   const state={};
-  results.forEach((result,index)=>{const [name,file]=targets[index];if(result.status==='fulfilled'){({INT,ER,PROFILE,EXT,ENT,KG,LOC,SOCIAL}={INT,ER,PROFILE,EXT,ENT,KG,LOC,SOCIAL,[name]:result.value});state[file]=true}else{console.warn(`${file} unavailable:`,result.reason);state[file]=false}});
+  results.forEach((result,index)=>{const [name,file]=targets[index];if(result.status==='fulfilled'){({INT,ER,PROFILE,EXT,ENT,KG,LOC,SOCIAL,REL}={INT,ER,PROFILE,EXT,ENT,KG,LOC,SOCIAL,REL,[name]:result.value});state[file]=true}else{console.warn(`${file} unavailable:`,result.reason);state[file]=false}});
   return state;
 }
 
@@ -240,23 +247,33 @@ function openDetail(person){
   $('devidence').innerHTML=(person.evidence||[]).map(item=>`<span>${esc(item)}</span>`).join('');
   const url=person.url||person.source_url;$('durl').hidden=!url;$('durl').href=url||'#';
   $('verifyPerson').dataset.recordIndex=person._record_index;
+  renderProfileRelations(person);
   $('detail').hidden=false;document.body.classList.add('modal-open');$('close').focus();
 }
 function closeDetail(){$('detail').hidden=true;activePerson=null;document.body.classList.remove('modal-open')}
 
 async function editRecordField(key){
   if(!activePerson)return;
-  let adminKey=sessionStorage.getItem('scie_admin_key')||'';
-  if(!adminKey){adminKey=prompt('رمز مدیریت اطلس را وارد کنید:')?.trim()||'';if(!adminKey)return;sessionStorage.setItem('scie_admin_key',adminKey)}
+  if(!adminToken()){openAdminLogin(()=>editRecordField(key));return}
   const current={name_fa:bilingualName(activePerson).persian,name:activePerson.name,type:activePerson.type,source:activePerson.source,verification:activePerson.verification,organization_fa:activePerson.organization_fa||activePerson.affiliation_fa||bilingualOrganization(activePerson.affiliation||activePerson.organization||activePerson._profile?.organization).persian,affiliation:activePerson.affiliation||activePerson.organization||activePerson._profile?.organization,location:activePerson.location,detail:activePerson.detail,url:activePerson.url||activePerson.source_url}[key]||'';
   const next=prompt('مقدار جدید را وارد کنید:',current);if(next===null||next.trim()===String(current).trim())return;
-  const status=$('adminEditStatus');status.textContent='در حال ذخیره و انتشار تغییر…';
+  const status=$('adminEditStatus'),previous=activePerson[key];activePerson[key]=next.trim();status.textContent='تغییر اعمال شد؛ در حال ذخیرهٔ دائمی…';render();openDetail(activePerson);
   try{
-    const response=await fetch('https://scie-lead-api.scie-builder.workers.dev/admin/record',{method:'POST',headers:{'content-type':'application/json','authorization':`Bearer ${adminKey}`},body:JSON.stringify({record_index:activePerson._record_index,changes:{[key]:next.trim()}})}),result=await response.json();
-    if(!response.ok)throw Error(result.error||'ذخیره تغییر ناموفق بود.');
-    activePerson[key]=next.trim();status.textContent='تغییر ذخیره شد و نسخهٔ عمومی در حال به‌روزرسانی است.';render();openDetail(activePerson);
-  }catch(error){if(/دسترسی|رمز|مجاز/.test(error.message))sessionStorage.removeItem('scie_admin_key');status.textContent=error.message}
+    await adminFetch('/admin/record',{method:'POST',body:JSON.stringify({record_index:activePerson._record_index,changes:{[key]:next.trim()}})});$('adminEditStatus').textContent='تغییر با موفقیت ذخیره شد و همین حالا در پروفایل اعمال شده است.';
+  }catch(error){activePerson[key]=previous;render();openDetail(activePerson);$('adminEditStatus').textContent=`ذخیره ناموفق بود و تغییر بازگردانده شد: ${error.message}`}
 }
+
+function renderProfileRelations(person){
+  const index=person._record_index,sourceOrg=normalizeSearch(person.affiliation||person.organization||person._profile?.organization||''),seen=new Set(),connections=[];
+  (REL.relationships||[]).forEach(rel=>{const a=Number(rel.person_a_index),b=Number(rel.person_b_index);if(a!==index&&b!==index)return;const other=a===index?b:a;if(!people[other]||seen.has(other))return;seen.add(other);connections.push({index:other,type:rel.type||'other',note:rel.note||relationLabels[rel.type],manual:true,id:rel.id})});
+  if(sourceOrg)people.forEach((candidate,candidateIndex)=>{if(candidateIndex===index||seen.has(candidateIndex)||connections.length>=8)return;const org=normalizeSearch(candidate.affiliation||candidate.organization||candidate._profile?.organization||'');if(org&&org===sourceOrg){seen.add(candidateIndex);connections.push({index:candidateIndex,type:'organization',note:'وابستگی سازمانی مشترک'})}});
+  people.forEach((candidate,candidateIndex)=>{if(candidateIndex===index||seen.has(candidateIndex)||connections.length>=10)return;if(candidate.type&&candidate.type===person.type){seen.add(candidateIndex);connections.push({index:candidateIndex,type:'expertise',note:'حوزه فعالیت مشابه'})}});
+  const center=bilingualName(person),items=connections.map(item=>{const candidate=people[item.index],name=bilingualName(candidate),avatar=avatarFor(name.persian);return `<article class="relation-node relation-${esc(item.type)}" data-related-index="${item.index}"><div class="relation-avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</div><div><strong>${esc(name.persian)}</strong>${name.english?`<small lang="en" dir="ltr">${esc(name.english)}</small>`:''}<span>${esc(relationLabels[item.type]||'ارتباط')} · ${esc(item.note||'')}</span></div>${item.manual&&adminToken()?`<button type="button" data-delete-relation="${esc(item.id)}" aria-label="حذف ارتباط">×</button>`:''}</article>`}).join('');
+  $('dRelations').innerHTML=`<div class="relation-center"><b>${esc(center.persian)}</b><span>${connections.length.toLocaleString('fa-IR')} ارتباط نمایشی</span></div><div class="relation-connections">${items||'<div class="relation-empty">هنوز ارتباط مستقیمی برای این فرد ثبت نشده است.</div>'}</div>`;
+  $('relationPerson').innerHTML=people.map((candidate,candidateIndex)=>candidateIndex===index?'':`<option value="${candidateIndex}">${esc(bilingualName(candidate).persian)}</option>`).join('');
+}
+
+async function saveRelationship(event){event.preventDefault();if(!activePerson)return;if(!adminToken()){openAdminLogin(()=>saveRelationship(new Event('submit')));return}const other=Number($('relationPerson').value),payload={person_a_index:activePerson._record_index,person_b_index:other,type:$('relationType').value,note:$('relationNote').value.trim()},temporary={...payload,id:`pending-${Date.now()}`};REL.relationships=REL.relationships||[];REL.relationships.push(temporary);renderProfileRelations(activePerson);$('relationEditor').hidden=true;$('relationStatus').textContent='ارتباط اعمال شد؛ در حال ذخیره…';try{const result=await adminFetch('/admin/relationship',{method:'POST',body:JSON.stringify(payload)});Object.assign(temporary,result.relationship);renderProfileRelations(activePerson);$('relationStatus').textContent='ارتباط با موفقیت ذخیره شد.'}catch(error){REL.relationships=REL.relationships.filter(item=>item!==temporary);renderProfileRelations(activePerson);$('relationStatus').textContent=error.message}}
 
 function buildIntel(){
   const metrics=INT.metrics||{},decisions=ER.decision_counts||{},profiles=PROFILE.metrics||{},external=EXT.metrics||{},entities=ENT.metrics||{};
@@ -355,6 +372,11 @@ function bindEvents(){
   $('source').addEventListener('change',event=>{src=event.target.value;page=1;render()});$('reset').addEventListener('click',resetFilters);
   $('verifyPerson').addEventListener('click',()=>{const index=$('verifyPerson').dataset.recordIndex;closeDetail();openTab('verification');$('vrPerson').value=index;$('vrPerson').focus()});
   $('dmeta').addEventListener('click',event=>{const target=event.target.closest('[data-edit-key]');if(target)editRecordField(target.dataset.editKey)});
+  $('adminAccountButton').addEventListener('click',()=>{if(adminToken()){localStorage.removeItem('scie_admin_token');updateAdminUI();if(activePerson)renderProfileRelations(activePerson)}else openAdminLogin()});
+  $('adminLoginForm').addEventListener('submit',async event=>{event.preventDefault();const status=$('adminLoginStatus');status.textContent='در حال ورود…';try{const response=await fetch(`${ADMIN_API}/admin/login`,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({username:$('adminUsername').value.trim(),password:$('adminPassword').value})}),result=await response.json();if(!response.ok)throw Error(result.error||'ورود ناموفق بود.');localStorage.setItem('scie_admin_token',result.token);updateAdminUI();closeAdminLogin();const action=pendingAdminAction;pendingAdminAction=null;if(activePerson)renderProfileRelations(activePerson);if(action)setTimeout(action,0)}catch(error){status.textContent=error.message}});
+  $('closeAdminLogin').addEventListener('click',closeAdminLogin);document.querySelector('.admin-login-backdrop').addEventListener('click',closeAdminLogin);
+  $('addRelation').addEventListener('click',()=>{if(!adminToken()){openAdminLogin(()=>{$('relationEditor').hidden=false});return}$('relationEditor').hidden=false;$('relationNote').focus()});$('cancelRelation').addEventListener('click',()=>{$('relationEditor').hidden=true});$('relationEditor').addEventListener('submit',saveRelationship);
+  $('dRelations').addEventListener('click',async event=>{const remove=event.target.closest('[data-delete-relation]');if(remove){event.stopPropagation();const id=remove.dataset.deleteRelation,previous=[...(REL.relationships||[])];REL.relationships=previous.filter(item=>String(item.id)!==String(id));renderProfileRelations(activePerson);try{await adminFetch('/admin/relationship',{method:'POST',body:JSON.stringify({action:'delete',id})})}catch(error){REL.relationships=previous;renderProfileRelations(activePerson);$('relationStatus').textContent=error.message}return}const node=event.target.closest('[data-related-index]');if(node)openDetail(people[Number(node.dataset.relatedIndex)])});
   const goToPage=target=>{const pages=Math.max(1,Math.ceil(filtered.length/PAGE)),nextPage=Math.min(Math.max(1,target),pages);if(nextPage===page)return;page=nextPage;render();$('list').scrollIntoView({block:'start',behavior:'smooth'})};
   $('first').addEventListener('click',()=>goToPage(1));$('prev').addEventListener('click',()=>goToPage(page-1));$('next').addEventListener('click',()=>goToPage(page+1));$('last').addEventListener('click',()=>goToPage(Math.ceil(filtered.length/PAGE)));
   $('pageNumbers').addEventListener('click',event=>{const button=event.target.closest('[data-page]');if(button)goToPage(Number(button.dataset.page))});
@@ -369,7 +391,7 @@ function bindEvents(){
 }
 
 async function boot(){
-  installPersianDigitRendering();bindEvents();loadBuildMeta();
+  installPersianDigitRendering();bindEvents();updateAdminUI();loadBuildMeta();
   try{
     await loadData();
     const layerState=await loadLayers();

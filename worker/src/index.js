@@ -53,9 +53,13 @@ function feedbackIssue(item){
 function base64Decode(value){return new TextDecoder().decode(Uint8Array.from(atob(value.replace(/\n/g,'')),char=>char.charCodeAt(0)))}
 function base64Encode(value){const bytes=new TextEncoder().encode(value);let binary='';for(let i=0;i<bytes.length;i+=32768)binary+=String.fromCharCode(...bytes.subarray(i,i+32768));return btoa(binary)}
 function secureEqual(a,b){a=String(a||'');b=String(b||'');if(a.length!==b.length)return false;let mismatch=0;for(let i=0;i<a.length;i++)mismatch|=a.charCodeAt(i)^b.charCodeAt(i);return mismatch===0}
+const base64Url=value=>base64Encode(value).replace(/=/g,'').replace(/\+/g,'-').replace(/\//g,'_');
+async function tokenSignature(payload,secret){const key=await crypto.subtle.importKey('raw',new TextEncoder().encode(secret),{name:'HMAC',hash:'SHA-256'},false,['sign']),signature=await crypto.subtle.sign('HMAC',key,new TextEncoder().encode(payload));return btoa(String.fromCharCode(...new Uint8Array(signature))).replace(/=/g,'').replace(/\+/g,'-').replace(/\//g,'_')}
+async function issueAdminToken(username,secret){const payload=base64Url(JSON.stringify({u:username,v:1}));return `${payload}.${await tokenSignature(payload,secret)}`}
+async function isAdmin(request,env){const token=(request.headers.get('authorization')||'').replace(/^Bearer\s+/i,''),[payload,signature]=token.split('.');if(!payload||!signature||!env.ADMIN_KEY)return false;return secureEqual(signature,await tokenSignature(payload,env.ADMIN_KEY))}
+async function loginAdmin(request,env,origin,allowed){const input=await request.json(),username=clean(input?.username,80),password=String(input?.password||'');if(!secureEqual(username,env.ADMIN_USERNAME||'admin')||!secureEqual(password,env.ADMIN_KEY||''))return reply({ok:false,error:'نام کاربری یا رمز عبور نادرست است.'},401,origin,allowed);return reply({ok:true,token:await issueAdminToken(username,env.ADMIN_KEY),username},200,origin,allowed)}
 async function updateRecord(request,env,origin,allowed){
-  const supplied=(request.headers.get('authorization')||'').replace(/^Bearer\s+/i,'');
-  if(!env.ADMIN_KEY||!secureEqual(supplied,env.ADMIN_KEY))return reply({ok:false,error:'رمز مدیریت معتبر نیست یا دسترسی مجاز نیست.'},401,origin,allowed);
+  if(!await isAdmin(request,env))return reply({ok:false,error:'نشست مدیریت معتبر نیست یا دسترسی مجاز نیست.'},401,origin,allowed);
   const input=await request.json(),index=Number(input?.record_index),allowedFields=new Set(['name','name_fa','type','source','verification','organization_fa','affiliation','location','detail','url']),changes={};
   if(!Number.isInteger(index)||index<0)throw new Error('شماره رکورد معتبر نیست.');
   for(const [key,value] of Object.entries(input?.changes||{})){if(!allowedFields.has(key))throw new Error(`ویرایش فیلد ${key} مجاز نیست.`);changes[key]=clean(value,key==='detail'?2000:600)}
@@ -68,6 +72,13 @@ async function updateRecord(request,env,origin,allowed){
   if(!saveResponse.ok)throw new Error(`ذخیره ویرایش ناموفق بود: ${saved?.message||saveResponse.status}`);
   return reply({ok:true,status:'saved',record_index:index,changes,commit:saved.commit?.sha||''},200,origin,allowed);
 }
+async function updateRelationship(request,env,origin,allowed){
+  if(!await isAdmin(request,env))return reply({ok:false,error:'نشست مدیریت معتبر نیست یا دسترسی مجاز نیست.'},401,origin,allowed);
+  const input=await request.json(),endpoint=`https://api.github.com/repos/${env.GITHUB_REPOSITORY}/contents/docs/relationships.json`,headers={authorization:`Bearer ${env.GITHUB_TOKEN}`,accept:'application/vnd.github+json','content-type':'application/json','user-agent':'SCIE-Admin-API','x-github-api-version':'2022-11-28'};
+  const currentResponse=await fetch(endpoint,{headers});const current=await currentResponse.json();if(!currentResponse.ok)throw new Error(`دریافت ارتباطات ناموفق بود: ${current?.message||currentResponse.status}`);const document=JSON.parse(base64Decode(current.content));document.relationships=Array.isArray(document.relationships)?document.relationships:[];
+  let relationship=null;if(input.action==='delete'){document.relationships=document.relationships.filter(item=>String(item.id)!==String(input.id))}else{const a=Number(input.person_a_index),b=Number(input.person_b_index),allowedTypes=new Set(['family','colleague','organization','expertise','education','social','other']);if(!Number.isInteger(a)||!Number.isInteger(b)||a<0||b<0||a===b)throw new Error('دو فرد معتبر و متفاوت انتخاب کنید.');const type=clean(input.type,32);if(!allowedTypes.has(type))throw new Error('نوع ارتباط معتبر نیست.');relationship={id:crypto.randomUUID(),person_a_index:a,person_b_index:b,type,note:clean(input.note,500),updated_at:new Date().toISOString()};document.relationships.push(relationship)}document.generated_at=new Date().toISOString();
+  const saveResponse=await fetch(endpoint,{method:'PUT',headers,body:JSON.stringify({message:`data: admin ${input.action==='delete'?'delete':'add'} relationship`,content:base64Encode(JSON.stringify(document,null,2)+'\n'),sha:current.sha,branch:'main'})}),saved=await saveResponse.json();if(!saveResponse.ok)throw new Error(`ذخیره ارتباط ناموفق بود: ${saved?.message||saveResponse.status}`);return reply({ok:true,status:'saved',relationship,commit:saved.commit?.sha||''},200,origin,allowed)
+}
 
 export default {
   async fetch(request,env){
@@ -77,7 +88,7 @@ export default {
     if(request.method!=='POST')return reply({ok:false,error:'متد درخواست مجاز نیست.'},405,origin,allowed);
     if(!env.GITHUB_TOKEN)return reply({ok:false,error:'سرویس هنوز پیکربندی نشده است.'},503,origin,allowed);
     try{
-      if(new URL(request.url).pathname==='/admin/record')return await updateRecord(request,env,origin,allowed);
+      const path=new URL(request.url).pathname;if(path==='/admin/login')return await loginAdmin(request,env,origin,allowed);if(path==='/admin/record')return await updateRecord(request,env,origin,allowed);if(path==='/admin/relationship')return await updateRelationship(request,env,origin,allowed);
       const feedback=new URL(request.url).pathname==='/feedback',item=feedback?validateFeedback(await request.json()):validate(await request.json());
       const key=clean(request.headers.get('x-idempotency-key')||item.id,100);
       const cacheKey=new Request(`https://scie-idempotency.invalid/${encodeURIComponent(key)}`);
