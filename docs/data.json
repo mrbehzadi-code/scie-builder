@@ -14822,6 +14822,11 @@
         "public author profile"
       ],
       "url": "https://openalex.org/A5069999013",
+      "specialty": "مهندسی عمران؛ مهندسی حمل‌ونقل و تاب‌آوری زیرساخت",
+      "specialty_en": "Civil Engineering; Transport Engineering and Infrastructure Resilience",
+      "specialty_evidence": "A Multi-Criteria Vulnerability of Urban Transportation Systems Analysis Against Earthquake Considering Topological and Geographical Method: A Case Study",
+      "specialty_source_url": "https://doi.org/10.1007/s40996-021-00699-4",
+      "specialty_status": "inferred_from_publication",
       "verification": "needs_review",
       "confidence": "medium",
       "locality_claim": "surname_or_profile_signal_not_confirmed",
