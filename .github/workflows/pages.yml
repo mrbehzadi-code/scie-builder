@@ -228,6 +228,8 @@ jobs:
             if (!detailText.includes('کیفیت شواهد')) throw new Error('Detail view is missing quality evidence');
             if (!detailText.includes('کامل بودن پروفایل') || !detailText.includes('OpenAlex ID')) throw new Error('Detail view is missing profile enrichment');
             if (!detailText.includes('Entity ID')) throw new Error('Detail view is missing canonical entity id');
+            if (!(await page.locator('#provenanceGraph .provenance-node').count() >= 6)) throw new Error('Record provenance graph did not render');
+            if (!(await page.locator('#provenanceEvidence').isVisible())) throw new Error('Record provenance evidence is missing');
             await page.click('#close');
 
             await page.click('[data-tab="intelligence"]');
