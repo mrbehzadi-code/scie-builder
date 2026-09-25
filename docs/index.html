@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
-  <link rel="stylesheet" href="poster.css?v=20260925-22">
+  <link rel="stylesheet" href="poster.css?v=20260925-23">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -190,6 +190,13 @@
         </section>
         <section class="panel lead-history-card"><div class="section-head compact"><div><span class="kicker">وضعیت بررسی</span><h3>پیگیری معرفی‌ها</h3><p>آخرین وضعیت پیشنهادهای ثبت‌شده در این دستگاه</p></div></div><div id="leadHistory"></div></section>
       </div>
+      <section class="panel bulk-import-panel">
+        <div class="section-head"><div><span class="kicker">ورود گروهی داده‌های قطعی</span><h3>افزودن مجموعه افراد به اطلس</h3><p>فایل CSV یا JSON را انتخاب کنید؛ داده‌ها پیش از ثبت بررسی، پیش‌نمایش و با رکوردهای موجود تطبیق داده می‌شوند.</p></div><span class="admin-only-badge">ویژه مدیر</span></div>
+        <div class="import-guide"><b>ستون‌های قابل استفاده</b><span>name_fa، name، specialty، specialty_en، affiliation، location، source، url، evidence</span><a id="downloadImportTemplate" href="#">دریافت نمونه CSV</a></div>
+        <div class="import-drop"><input id="bulkImportFile" type="file" accept=".csv,.json,text/csv,application/json"><strong>فایل اطلاعات قطعی را انتخاب کنید</strong><small>حداکثر ۵۰۰ رکورد در هر بار؛ نام فرد و منبع یا نشانی شاهد الزامی است.</small></div>
+        <div id="bulkImportSummary" class="import-summary">هنوز فایلی انتخاب نشده است.</div><div id="bulkImportPreview" class="import-preview"></div>
+        <div class="import-actions"><button id="bulkImportSubmit" class="button primary" type="button" disabled>اعتبارسنجی و ثبت در اطلس</button><span id="bulkImportStatus" role="status" aria-live="polite"></span></div>
+      </section>
     </section>
   </main>
 
@@ -237,6 +244,6 @@
   <div id="adminLogin" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="adminLoginTitle" hidden><button class="admin-login-backdrop" type="button" aria-label="بستن"></button><form id="adminLoginForm" class="admin-login-card"><button id="closeAdminLogin" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب کاربری اطلس</span><h2 id="adminLoginTitle">ورود به سامانه</h2><p id="authDescription">وارد شوید تا مشارکت‌ها، پیشنهادها و فعالیت‌های خود را همیشه در دسترس داشته باشید.</p><div class="auth-mode"><button class="active" data-auth-mode="login" type="button">ورود</button><button data-auth-mode="register" type="button">ثبت‌نام</button></div><label><span>نام کاربری</span><input id="adminUsername" name="username" autocomplete="username" required></label><label><span>رمز عبور</span><input id="adminPassword" name="password" type="password" autocomplete="current-password" minlength="8" required></label><button id="authSubmit" class="button primary" type="submit">ورود به سامانه</button><span id="adminLoginStatus" role="status"></span></form></div>
   <div id="accountPanel" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="accountTitle" hidden><button class="account-panel-backdrop admin-login-backdrop" type="button" aria-label="بستن"></button><article class="account-card"><button id="closeAccountPanel" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب شخصی</span><h2 id="accountTitle">فعالیت‌های من</h2><div id="accountSummary" class="account-summary"></div><div id="accountActivities" class="account-activities"></div><button id="accountLogout" class="button subtle" type="button">خروج از سامانه</button></article></div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
-  <script src="app.js?v=20260925-22" defer></script>
+  <script src="app.js?v=20260925-23" defer></script>
 </body>
 </html>
