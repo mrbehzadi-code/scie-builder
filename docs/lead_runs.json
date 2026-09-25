@@ -123,6 +123,15 @@
       "new_records": 2,
       "pool_size": 1004,
       "completed_at": "2026-09-24T18:49:19Z"
+    },
+    {
+      "lead_id": 1790357703901,
+      "issue_number": 29,
+      "value": "دشتی اردکانی",
+      "status": "completed",
+      "new_records": 1,
+      "pool_size": 1001,
+      "completed_at": "2026-09-25T17:35:52Z"
     }
   ]
 }

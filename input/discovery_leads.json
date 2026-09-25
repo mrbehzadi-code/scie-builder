@@ -154,6 +154,17 @@
       "created_at": "2026-09-24T18:49:01.199Z",
       "issue_number": 27,
       "submitted_at": "2026-09-24T18:49:13Z"
+    },
+    {
+      "id": 1790357703901,
+      "type": "person",
+      "type_label": "نام یا فرد",
+      "value": "دشتی اردکانی",
+      "location": "",
+      "note": "",
+      "created_at": "2026-09-25T17:35:05.086Z",
+      "issue_number": 29,
+      "submitted_at": "2026-09-25T17:35:49Z"
     }
   ]
 }

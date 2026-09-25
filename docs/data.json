@@ -4,12 +4,12 @@
   "target": 1000,
   "stats": {
     "web_records": 6,
-    "people": 1000,
+    "people": 1001,
     "academic_candidates": 658,
     "regional_evidence": 234,
     "sources": {
       "GitHub Discovery": 60,
-      "Lead-guided OpenAlex Discovery": 22,
+      "Lead-guided OpenAlex Discovery": 23,
       "OpenAlex Discovery": 636,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
@@ -17,7 +17,16 @@
       "کانال‌ها و گروه‌های عمومی تلگرام": 172
     },
     "public_source_records": 626,
-    "social_public_records": 161
+    "social_public_records": 161,
+    "lead_guided_records": 23,
+    "last_lead": {
+      "id": 1790357703901,
+      "issue_number": 29,
+      "type": "person",
+      "value": "دشتی اردکانی",
+      "completed_at": "2026-09-25T17:35:52Z",
+      "new_records": 1
+    }
   },
   "people": [
     {
@@ -15191,6 +15200,22 @@
       "public_evidence_score": 60,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
+    },
+    {
+      "name": "دشتی اردکانی منصور",
+      "type": "کاندیدای معرفی‌شده به اطلس",
+      "source": "Lead-guided OpenAlex Discovery",
+      "detail": "OpenAlex result for «دشتی اردکانی»",
+      "location": "",
+      "evidence": [
+        "lead: دشتی اردکانی",
+        "query: دشتی اردکانی"
+      ],
+      "url": "https://openalex.org/A5015160108",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "candidate_not_confirmed",
+      "lead_id": 1790357703901
     }
   ]
 }
