@@ -211,7 +211,8 @@ jobs:
             await page.locator('#search').evaluate(form => form.requestSubmit());
             await page.waitForFunction(() => document.querySelectorAll('#list .person').length === 1);
             const searchName = (await page.locator('#list .person .name').first().textContent()).trim();
-            if (searchName !== 'A Firozabadi Ardakan') throw new Error(`Search returned ${searchName}`);
+            const searchNameLatin = (await page.locator('#list .person .name-latin').first().textContent()).trim();
+            if (searchName !== 'ا. فیروزآبادی اردکان' || searchNameLatin !== 'A Firozabadi Ardakan') throw new Error(`Bilingual search returned ${searchName} / ${searchNameLatin}`);
 
             await page.click('#reset');
             const beforeFilter = parseFaNumber(await page.locator('#count').textContent());
@@ -295,6 +296,7 @@ jobs:
               firstName,
               pageTwoStartsAt: pageTwoNumber,
               searchName,
+              searchNameLatin,
               sourceFilter: { before: beforeFilter, after: afterFilter },
               detailOpened: true,
               canonicalRows,
