@@ -204,7 +204,7 @@ async function loadSourceMonitors(){
 }
 async function registerSourceMonitors(){
   if(!adminToken()){openAdminLogin(registerSourceMonitors);return}
-  const sources=people.filter(person=>person._merged_into===undefined&&/^https?:\/\//i.test(person.url||person.source_url||'')).slice(0,1000).map(person=>({record_index:person._record_index,person_name:bilingualName(person).persian,source_url:person.url||person.source_url}));
+  const sources=people.filter(person=>person._merged_into===undefined&&/^https?:\/\//i.test(person.url||person.source_url||'')).slice(0,5000).map(person=>({record_index:person._record_index,person_name:bilingualName(person).persian,source_url:person.url||person.source_url}));
   $('sourceMonitorStatus').textContent='در حال ثبت منابع فعلی اطلس برای پایش دوره‌ای…';
   try{const result=await adminFetch('/admin/source-monitors/register',{method:'POST',body:JSON.stringify({sources})});$('sourceMonitorStatus').textContent=`${Number(result.accepted||0).toLocaleString('fa-IR')} منبع ثبت شد؛ پایش زمان‌بندی‌شده فعال است.`;await loadSourceMonitors()}catch(error){$('sourceMonitorStatus').textContent=error.message}
 }

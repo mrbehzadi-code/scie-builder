@@ -28,6 +28,7 @@ permissions:
 jobs:
   expand:
     runs-on: ubuntu-latest
+    timeout-minutes: 55
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,6 +40,7 @@ jobs:
 
       - name: Expand candidate pool
         run: |
+          echo "Starting public-source discovery toward the 5000-record target"
           python engines/discovery_expansion.py
           python engines/public_source_discovery.py
           python engines/social_source_discovery.py

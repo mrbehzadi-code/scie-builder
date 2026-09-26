@@ -13,7 +13,7 @@ from urllib.parse import parse_qs, quote, unquote, urlparse
 from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'docs/data.json'; REGISTRY=ROOT/'discovery_sources.json'; REPORT=ROOT/'docs/public_discovery_report.json'; CURATED=[ROOT/'docs/web_candidates.json',ROOT/'docs/web_candidates_extended.json']
-TARGET=1000
+TARGET=5000
 ROLES=['پزشک','دندانپزشک','وکیل','استاد','هیئت علمی','پژوهشگر','مهندس','مدیر','کارآفرین','هنرمند','ورزشکار','مربی','معلم','خبرنگار','فعال اجتماعی']
 STOP={'اردکان','یزد','ایران','دانشگاه','اخبار','خبر','کانال','گروه','شرکت','اداره','شهرستان','صفحه','اینستاگرام','تلگرام','ایتا','خانه','سایت','پایگاه'}
 
@@ -55,7 +55,7 @@ def main():
     for role in ROLES:
         queries += [f'{role} اردکان',f'{role} "اهل اردکان"',f'{role} "اردکان یزد"']
         for src in sources:
-            for template in src.get('query_templates',[])[:1]: queries.append(template.format(value=role))
+            for template in src.get('query_templates',[]): queries.append(template.format(value=role))
     queries=list(dict.fromkeys(queries)); results=[]; errors=[]
     with ThreadPoolExecutor(max_workers=12) as pool:
         futures=[pool.submit(search,q) for q in queries]

@@ -23,8 +23,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "docs" / "data.json"
 REGISTRY = ROOT / "discovery_sources.json"
 REPORT = ROOT / "docs" / "social_discovery_report.json"
-TARGET = 1000
-MAX_PAGES_PER_FEED = 120
+TARGET = 5000
+MAX_PAGES_PER_FEED = 240
 
 TITLES = r"(?:دکتر|مهندس|استاد|پروفسور|آقای|خانم|حجت[‌\s]*الاسلام|سرکار\s+خانم|جناب\s+آقای)"
 PERSIAN_NAME = r"[آ-ی][آ-ی‌\-]{1,24}(?:\s+[آ-ی][آ-ی‌\-]{1,24}){1,3}"

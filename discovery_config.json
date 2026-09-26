@@ -1,5 +1,7 @@
 {
   "location": "Ardakan",
   "language": null,
-  "max_results": 10
+  "max_results": 100,
+  "target_records": 5000,
+  "public_only": true
 }

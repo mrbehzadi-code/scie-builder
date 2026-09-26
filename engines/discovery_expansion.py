@@ -15,7 +15,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "data.json"
-TARGET = 1000
+TARGET = 5000
 
 QUERIES = [
     "ardakan", "ardakani", "Ardakan Yazd", "Ardakan Iran",
@@ -39,7 +39,7 @@ def openalex_candidates(limit_per_query: int = 200):
         cursor = "*"
         # Ardakani has more than one thousand public author profiles. Traverse
         # additional pages instead of silently stopping at the first page.
-        max_pages = 6 if q.casefold() == "ardakani" else 1
+        max_pages = 24 if q.casefold() == "ardakani" else 4
         for _ in range(max_pages):
             url = "https://api.openalex.org/authors?search=" + quote(q) + f"&per-page={limit_per_query}&cursor=" + quote(cursor)
             try:
