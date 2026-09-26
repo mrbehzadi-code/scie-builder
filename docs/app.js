@@ -2,7 +2,7 @@
 
 const PAGE=25;
 const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichment.json','external_enrichment.json','entities.json','knowledge_graph.json','locality_assessment.json'];
-let people=[],filtered=[],page=1,q='',src='all',cat='all',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},SOCIAL={},REL={},BUILD={},MERGES=[],MERGE_REQUESTS=[];
+let people=[],filtered=[],page=1,q='',src='all',cat='all',operationFilter='',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},SOCIAL={},REL={},BUILD={},MERGES=[],MERGE_REQUESTS=[];
 let activePerson=null;
 let detailCloseTimer=null;
 const $=id=>document.getElementById(id);
@@ -174,6 +174,46 @@ function buildMetrics(){
   $('networkPreviewText').textContent=`${nodeCount} گره و ${edgeCount} یال ساختاریافته در Snapshot فعلی در دسترس است.`;
 }
 
+function recordWorkflow(person){
+  const quality=Number(person?._quality?.score||0),complete=Number(person?._profile?.profile_completeness||0),locality=person?._locality?.status||'',confirmed=['confirmed','confirmed_by_human'].includes(locality);
+  if(confirmed&&quality>=70&&complete>=65)return 'published';
+  if(confirmed&&quality>=55)return 'approved';
+  if(complete>=45||person?.specialty||person?.affiliation)return 'enriching';
+  if(quality||locality)return 'review';
+  return 'discovered';
+}
+
+function buildOperations(){
+  if(!$('operationsQueue'))return;
+  const active=people.filter(person=>person._merged_into===undefined),stages={discovered:0,review:0,enriching:0,approved:0,published:0};
+  active.forEach(person=>stages[recordWorkflow(person)]++);
+  const weak=active.filter(person=>Number(person._quality?.score||0)<55||['insufficient','possible','rejected_by_human'].includes(person._locality?.status));
+  const incomplete=active.filter(person=>Number(person._profile?.profile_completeness||0)<55||!person.specialty||!(person.affiliation||person.organization));
+  const duplicateCount=(ER.duplicate_candidates||ER.candidate_pairs||[]).length||Number(INT.metrics?.duplicate_candidates||0),pendingMerges=MERGE_REQUESTS.filter(item=>item.status==='pending').length;
+  const pendingLeads=readLocalArray('scie_leads').filter(item=>!['completed','failed'].includes(item.status)).length,notifications=appNotifications().filter(item=>!item.read).length;
+  const queue=[
+    {tone:'red',icon:'!',count:weak.length,title:'شواهد ناکافی یا متناقض',text:'پرونده‌هایی که پیش از انتشار به تصمیم انسانی نیاز دارند.',action:'weak',label:'بررسی پرونده‌ها'},
+    {tone:'amber',icon:'◫',count:incomplete.length,title:'پروفایل‌های نیازمند تکمیل',text:'تخصص، سازمان یا پوشش پروفایل هنوز کامل نیست.',action:'incomplete',label:'تکمیل اطلاعات'},
+    {tone:'violet',icon:'⇄',count:pendingMerges||duplicateCount,title:'رکوردهای تکراری و ادغام',text:pendingMerges?`${pendingMerges.toLocaleString('fa-IR')} پیشنهاد منتظر تصمیم مدیر است.`:'موارد مشابه برای کنترل هویت آماده‌اند.',action:'merge',label:'مدیریت ادغام'},
+    {tone:'blue',icon:'＋',count:pendingLeads,title:'معرفی‌های در حال پردازش',text:'پیشنهادهایی که اعتبارسنجی آن‌ها هنوز پایان نیافته است.',action:'leads',label:'پیگیری معرفی‌ها'},
+    {tone:'green',icon:'✓',count:notifications,title:'نتایج تازه و اعلان‌ها',text:'خروجی‌های جدیدی که هنوز مشاهده یا تصمیم‌گیری نشده‌اند.',action:'notifications',label:'مشاهده نتایج'}
+  ];
+  $('operationsQueue').innerHTML=queue.map(item=>`<article class="operation-card ${item.tone}" data-operation="${item.action}" tabindex="0"><span class="operation-icon">${item.icon}</span><div><strong>${esc(item.title)}</strong><p>${esc(item.text)}</p><button type="button">${esc(item.label)} ←</button></div><b>${Number(item.count||0).toLocaleString('fa-IR')}</b></article>`).join('');
+  const labels=[['discovered','کشف‌شده','ورود اولیه به مخزن'],['review','نیازمند بررسی','کنترل شواهد و هویت'],['enriching','در حال تکمیل','تخصص و سازمان'],['approved','تأییدشده','آمادهٔ انتشار'],['published','منتشرشده','عضو فعال اطلس']];
+  $('workflowStages').innerHTML=labels.map(([key,title,caption],index)=>`<article data-workflow="${key}"><i>${index+1}</i><div><strong>${title}</strong><span>${caption}</span></div><b>${stages[key].toLocaleString('fa-IR')}</b></article>`).join('');
+  const candidates=[...new Set([...weak,...incomplete])].sort((a,b)=>(Number(a._quality?.score||0)-Number(b._quality?.score||0))||(Number(a._profile?.profile_completeness||0)-Number(b._profile?.profile_completeness||0))).slice(0,6);
+  $('priorityRecords').innerHTML=candidates.length?candidates.map(person=>{const name=bilingualName(person),avatar=avatarFor(name.persian),reasons=[];if(Number(person._quality?.score||0)<55)reasons.push('کیفیت شواهد پایین');if(!person.specialty)reasons.push('تخصص نامشخص');if(!(person.affiliation||person.organization))reasons.push('سازمان نامشخص');return `<button type="button" class="priority-record" data-priority-record="${person._record_index}"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span><strong>${esc(name.persian)}</strong><small>${esc(reasons.slice(0,2).join(' · ')||'نیازمند بازبینی')}</small></span><b>مشاهده ←</b></button>`}).join(''):'<div class="operation-empty">پروندهٔ فوری برای بررسی وجود ندارد.</div>';
+  const resolved=stages.approved+stages.published,health=active.length?Math.round(resolved/active.length*100):0;
+  $('operationsHealth').textContent=`${health.toLocaleString('fa-IR')}٪`;$('operationsHealthNote').textContent=`${resolved.toLocaleString('fa-IR')} پروندهٔ تأیید یا منتشرشده از ${active.length.toLocaleString('fa-IR')} رکورد فعال`;
+}
+
+function openOperationalList(kind){
+  if(kind==='merge'){openTab('intelligence');setTimeout(()=>document.querySelector('.duplicate-workbench')?.scrollIntoView({behavior:'smooth',block:'start'}),180);return}
+  if(kind==='leads'){openTab('leads');return}
+  if(kind==='notifications'){openNotificationCenter(true);return}
+  operationFilter=kind;page=1;openTab('people');render();setTimeout(()=>document.querySelector('.directory')?.scrollIntoView({behavior:'smooth',block:'start'}),180);
+}
+
 function statusRows(layerState){
   const rows=[
     ['کشف داده',people.length>0,'فعال'],['حل هویت',(ENT.entities||[]).length>0,'در دسترس'],['غنی‌سازی پروفایل',(PROFILE.profiles||[]).length>0,'در دسترس'],['ساخت گراف دانش',(KG.nodes||[]).length>0,'در دسترس'],['داشبورد',true,'فعال']
@@ -215,7 +255,7 @@ function renderPagination(pages){
 function render(){
   $('list').setAttribute('aria-busy','false');
   const query=normalizeSearch(q);
-  filtered=people.filter(person=>person._merged_into===undefined&&(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat));
+  filtered=people.filter(person=>person._merged_into===undefined&&(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat)&&(!operationFilter||(operationFilter==='weak'?(Number(person._quality?.score||0)<55||['insufficient','possible','rejected_by_human'].includes(person._locality?.status)):(operationFilter==='incomplete'?(Number(person._profile?.profile_completeness||0)<55||!person.specialty||!(person.affiliation||person.organization)):recordWorkflow(person)===operationFilter))));
   const pages=Math.max(1,Math.ceil(filtered.length/PAGE));page=Math.min(Math.max(1,page),pages);
   const start=(page-1)*PAGE,rows=filtered.slice(start,start+PAGE);
   $('count').textContent=`${filtered.length} رکورد`;
@@ -237,7 +277,7 @@ function render(){
   }).join('');
 }
 
-function resetFilters(){q='';src='all';cat='all';page=1;$('q').value='';$('source').value='all';document.querySelectorAll('[data-c]').forEach(item=>item.classList.toggle('active',item.dataset.c==='all'));render()}
+function resetFilters(){q='';src='all';cat='all';operationFilter='';page=1;$('q').value='';$('source').value='all';document.querySelectorAll('[data-c]').forEach(item=>item.classList.toggle('active',item.dataset.c==='all'));render()}
 function saveSearch(value){if(!value)return;let history=readLocalArray('scie_search_history').filter(item=>item!==value);history.unshift(value);localStorage.setItem('scie_search_history',JSON.stringify(history.slice(0,30)))}
 function showHistory(){const history=readLocalArray('scie_search_history');$('history').innerHTML=history.map(value=>`<div class="hist" role="button" tabindex="0">${esc(value)}</div>`).join('');$('history').classList.toggle('open',document.activeElement===$('q')&&history.length>0)}
 
@@ -377,7 +417,7 @@ function renderMergeQueue(){
   if(!user){$('mergeQueue').innerHTML='<div class="merge-login-note">برای پیشنهاد ادغام و مشاهده نتیجه بررسی‌ها وارد حساب شوید.</div>';return}
   $('mergeQueue').innerHTML=rows.length?rows.map(item=>{const a=people[Number(item.primary_index)],b=people[Number(item.duplicate_index)],status={pending:'در انتظار تأیید مدیر',approved:'تأیید و اعمال شد',applied:'اعمال شد',rejected:'رد شد'}[item.status]||item.status;return `<article class="merge-request"><div><strong>${esc(a?bilingualName(a).persian:`رکورد ${item.primary_index}`)} ← ${esc(b?bilingualName(b).persian:`رکورد ${item.duplicate_index}`)}</strong><small>${esc(item.reason||'بدون توضیح')} · پیشنهاددهنده: ${esc(item.proposed_by_name||'کاربر')}</small></div><span class="merge-request-status ${esc(item.status)}">${esc(status)}</span>${user.role==='admin'&&item.status==='pending'?`<div class="merge-review-actions"><button type="button" data-merge-review="approve" data-merge-id="${esc(item.id)}">تأیید و ادغام</button><button type="button" data-merge-review="reject" data-merge-id="${esc(item.id)}">رد</button></div>`:''}</article>`}).join(''):'<div class="merge-login-note">پیشنهاد ادغام در انتظار بررسی وجود ندارد.</div>';
 }
-async function loadMergeRequests(){if(!adminToken()){MERGE_REQUESTS=[];renderMergeQueue();return}try{const result=await adminFetch('/merges');MERGE_REQUESTS=result.requests||[];if(authUser()?.role!=='admin')MERGE_REQUESTS.filter(item=>['approved','applied','rejected'].includes(item.status)).forEach(item=>addAppNotification({id:`merge-${item.id}-${item.status}`,type:'merge',title:item.status==='rejected'?'پیشنهاد ادغام بررسی و رد شد':'پیشنهاد ادغام تأیید شد',message:item.status==='rejected'?'مدیر پیشنهاد ادغام رکوردها را نپذیرفت.':'مدیر پیشنهاد را تأیید کرد و رکوردها یکپارچه شدند.',created_at:item.reviewed_at||item.created_at,target:{tab:'intelligence',selector:'.duplicate-workbench'}}));renderMergeQueue()}catch(error){$('mergeStatus').textContent=error.message}}
+async function loadMergeRequests(){if(!adminToken()){MERGE_REQUESTS=[];renderMergeQueue();buildOperations();return}try{const result=await adminFetch('/merges');MERGE_REQUESTS=result.requests||[];if(authUser()?.role!=='admin')MERGE_REQUESTS.filter(item=>['approved','applied','rejected'].includes(item.status)).forEach(item=>addAppNotification({id:`merge-${item.id}-${item.status}`,type:'merge',title:item.status==='rejected'?'پیشنهاد ادغام بررسی و رد شد':'پیشنهاد ادغام تأیید شد',message:item.status==='rejected'?'مدیر پیشنهاد ادغام رکوردها را نپذیرفت.':'مدیر پیشنهاد را تأیید کرد و رکوردها یکپارچه شدند.',created_at:item.reviewed_at||item.created_at,target:{tab:'intelligence',selector:'.duplicate-workbench'}}));renderMergeQueue();buildOperations()}catch(error){$('mergeStatus').textContent=error.message}}
 async function submitMerge(primary,duplicate,confidence,reason){
   if(!adminToken()){openAdminLogin(()=>submitMerge(primary,duplicate,confidence,reason));return}
   const a=people[primary],b=people[duplicate];if(!a||!b)return;
@@ -497,6 +537,10 @@ function bindEvents(){
   $('reverificationNotify').addEventListener('click',enableReverificationNotifications);
   $('provenanceGraph').addEventListener('click',event=>{const node=event.target.closest('.provenance-node');if(!node)return;const active=!node.classList.contains('active');$('provenanceGraph').querySelectorAll('.provenance-node').forEach(item=>{item.classList.remove('active');item.setAttribute('aria-expanded','false')});if(active){node.classList.add('active');node.setAttribute('aria-expanded','true')}});
   $('mergeShortcut').addEventListener('click',()=>{openTab('intelligence');setTimeout(()=>document.querySelector('.duplicate-workbench')?.scrollIntoView({block:'start',behavior:'smooth'}),180)});
+  $('operationsQueue').addEventListener('click',event=>{const card=event.target.closest('[data-operation]');if(card)openOperationalList(card.dataset.operation)});
+  $('operationsQueue').addEventListener('keydown',event=>{const card=event.target.closest('[data-operation]');if(card&&(event.key==='Enter'||event.key===' ')){event.preventDefault();openOperationalList(card.dataset.operation)}});
+  $('priorityRecords').addEventListener('click',event=>{const item=event.target.closest('[data-priority-record]');if(item)openDetail(people[Number(item.dataset.priorityRecord)])});
+  $('workflowStages').addEventListener('click',event=>{const item=event.target.closest('[data-workflow]');if(!item)return;operationFilter=item.dataset.workflow;page=1;openTab('people');render()});
   $('dRelations').addEventListener('click',async event=>{const remove=event.target.closest('[data-delete-relation]');if(remove){event.stopPropagation();const id=remove.dataset.deleteRelation,previous=[...(REL.relationships||[])];REL.relationships=previous.filter(item=>String(item.id)!==String(id));renderProfileRelations(activePerson);try{await adminFetch('/admin/relationship',{method:'POST',body:JSON.stringify({action:'delete',id})})}catch(error){REL.relationships=previous;renderProfileRelations(activePerson);$('relationStatus').textContent=error.message}return}const node=event.target.closest('[data-related-index]');if(node)openDetail(people[Number(node.dataset.relatedIndex)])});
   const goToPage=target=>{const pages=Math.max(1,Math.ceil(filtered.length/PAGE)),nextPage=Math.min(Math.max(1,target),pages);if(nextPage===page)return;page=nextPage;render();$('list').scrollIntoView({block:'start',behavior:'smooth'})};
   $('first').addEventListener('click',()=>goToPage(1));$('prev').addEventListener('click',()=>goToPage(page-1));$('next').addEventListener('click',()=>goToPage(page+1));$('last').addEventListener('click',()=>goToPage(Math.ceil(filtered.length/PAGE)));
@@ -518,7 +562,7 @@ async function boot(){
     applyIntelligence();setupFilters();buildMetrics();render();
     $('state').className='hero-state ready';$('state').innerHTML=`<span class="pulse"></span>اطلاعات اصلی آماده است · تکمیل تحلیل در پس‌زمینه`;
     const layerState=await loadLayers();
-    applyIntelligence();await loadOverlays();buildMetrics();statusRows(layerState);buildIntel();renderKnowledgeGraph();buildOrgs();setupVerification();render();
+    applyIntelligence();await loadOverlays();buildMetrics();statusRows(layerState);buildIntel();renderKnowledgeGraph();buildOrgs();setupVerification();render();buildOperations();
     leads();loadMergeRequests();
     $('state').className='hero-state ready';$('state').innerHTML=`<span class="pulse"></span>Snapshot فعال · ${people.filter(person=>person._merged_into===undefined).length.toLocaleString('fa-IR')} هویت یکتا`;
   }catch(error){

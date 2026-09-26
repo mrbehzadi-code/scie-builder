@@ -7,6 +7,7 @@
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
   <link rel="stylesheet" href="poster.css?v=20260926-7">
+  <link rel="stylesheet" href="operations.css?v=20260926-1">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -56,6 +57,7 @@
 
   <main class="container main-shell">
     <nav class="tabs" aria-label="بخش‌های اطلس">
+      <button class="operations-tab" data-tab="operations" aria-selected="false"><span class="tab-icon">◆</span><span class="tab-label">مرکز عملیات<small>کارهای نیازمند اقدام</small></span></button>
       <button class="active" data-tab="people" aria-selected="true"><span class="tab-icon">◉</span>افراد</button>
       <button class="merge-tab" data-tab="intelligence" aria-selected="false"><span class="tab-icon">⇄</span><span class="tab-label">ادغام رکوردهای تکراری<small>تشخیص و بررسی</small></span></button>
       <button data-tab="network" aria-selected="false"><span class="tab-icon">⌘</span>شبکه</button>
@@ -65,6 +67,12 @@
     </nav>
 
     <section id="metrics" class="metrics" aria-label="شاخص‌های کلیدی"><div class="metric-skeleton"></div><div class="metric-skeleton"></div><div class="metric-skeleton"></div></section>
+
+    <section id="operations" class="section hidden operations-center">
+      <header class="operations-hero"><div><span class="kicker">مرکز تصمیم‌گیری و کیفیت داده</span><h2>مرکز عملیات اطلس</h2><p>همهٔ موارد نیازمند تصمیم، تکمیل یا بازبینی در یک صف اولویت‌بندی‌شده؛ هر کارت شما را مستقیماً به محل انجام کار می‌برد.</p></div><div class="operations-health"><span>سلامت عملیاتی</span><strong id="operationsHealth">—</strong><small id="operationsHealthNote">در حال تحلیل داده‌ها…</small></div></header>
+      <div id="operationsQueue" class="operations-queue" aria-live="polite"></div>
+      <div class="operations-layout"><section class="panel workflow-board"><div class="section-head compact"><div><span class="kicker">گردش‌کار استاندارد</span><h3>وضعیت پرونده‌های اطلس</h3><p>هر رکورد از کشف تا انتشار در یک مرحلهٔ روشن قرار می‌گیرد.</p></div></div><div id="workflowStages" class="workflow-stages"></div></section><section class="panel priority-records"><div class="section-head compact"><div><span class="kicker">اولویت امروز</span><h3>پرونده‌های پیشنهادی برای بررسی</h3><p>رکوردهایی که بیشترین اثر را بر کیفیت اطلس دارند.</p></div></div><div id="priorityRecords"></div></section></div>
+    </section>
 
     <section id="people" class="section">
       <div class="content-grid">
@@ -252,6 +260,6 @@
   <div id="accountPanel" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="accountTitle" hidden><button class="account-panel-backdrop admin-login-backdrop" type="button" aria-label="بستن"></button><article class="account-card"><button id="closeAccountPanel" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب شخصی</span><h2 id="accountTitle">فعالیت‌های من</h2><div id="accountSummary" class="account-summary"></div><div id="accountActivities" class="account-activities"></div><button id="accountLogout" class="button subtle" type="button">خروج از سامانه</button></article></div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
   <script src="vendor/xlsx.full.min.js?v=0.20.3" defer></script>
-  <script src="app.js?v=20260926-3" defer></script>
+  <script src="app.js?v=20260926-4" defer></script>
 </body>
 </html>
