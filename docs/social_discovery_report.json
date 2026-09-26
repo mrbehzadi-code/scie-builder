@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T12:11:48Z",
+  "generated_at": "2026-09-26T16:42:20Z",
   "target": 5000,
   "pool_size": 3174,
-  "new_records": 1137,
+  "new_records": 0,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 60,
     "Lead-guided OpenAlex Discovery": 23,
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 349,
+      "records": 347,
       "status": "ok"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "url": "https://t.me/s/Pourdehghan_ir",
-      "pages": 208,
+      "pages": 209,
       "records": 172,
       "status": "ok"
     }
@@ -152,7 +152,7 @@
     {
       "platform": "instagram",
       "url": "http://instagram.com/_u/khamenei_ir",
-      "result": "HTTP Error 500: Internal Server Error"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
@@ -462,7 +462,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4270",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
@@ -507,7 +507,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4310",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -702,7 +702,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4488",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
