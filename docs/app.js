@@ -328,6 +328,27 @@ function explainableTrust(person){
   return {score,parts,penalty,warnings,level:score>=80?'اعتماد بالا':score>=60?'اعتماد متوسط':score>=40?'اعتماد محدود':'اعتماد پایین'};
 }
 
+function renderProfile360(person){
+  const profile=person._profile||{},locality=person._locality||{},articles=articleItems(person),relations=(REL.relationships||[]).filter(item=>Number(item.person_a_index)===person._record_index||Number(item.person_b_index)===person._record_index),org=person.organization_fa||person.affiliation_fa||person.affiliation||person.organization||profile.organization||'',location=person.location||profile.location?.raw||'',sourceCount=new Set([person.source,profile.provider,person.url||person.source_url,...(person.evidence||[])].filter(Boolean)).size;
+  const events=[];
+  if(person.source)events.push({kind:'discovery',when:formatSnapshot(snap.generated_at||INT.generated_at),title:'ورود به مخزن کشف',detail:`استخراج از ${person.source}`});
+  if(org)events.push({kind:'organization',when:'وضعیت فعلی',title:'وابستگی سازمانی',detail:org});
+  const byYear=new Map();articles.forEach(item=>{if(item.year&&!byYear.has(String(item.year)))byYear.set(String(item.year),item)});[...byYear.entries()].sort((a,b)=>Number(b[0])-Number(a[0])).slice(0,5).forEach(([year,item])=>events.push({kind:'article',when:Number(year).toLocaleString('fa-IR'),title:'اثر علمی ثبت‌شده',detail:item.title}));
+  if(relations.length)events.push({kind:'network',when:'اکنون',title:'ارتباطات مستند',detail:`${relations.length.toLocaleString('fa-IR')} پیوند در شبکهٔ اطلس`});
+  $('dTimeline').innerHTML=events.length?events.map(event=>`<div class="timeline-event ${event.kind}"><time>${esc(event.when)}</time><i></i><span><b>${esc(event.title)}</b><small${event.kind==='article'?' lang="en" dir="ltr"':''}>${esc(event.detail)}</small></span></div>`).join(''):'<div class="profile-360-empty">رویداد زمان‌دار قابل اتکایی ثبت نشده است.</div>';
+  const coverage=[
+    ['هویت',person.name?90:20,person._entity_id?'شناسهٔ کانونی موجود':'نیازمند شناسهٔ پایدار'],
+    ['تخصص',person.specialty?85:20,person.specialty||'تخصص ثبت نشده'],
+    ['سازمان',org?85:15,org||'سازمان ثبت نشده'],
+    ['آثار',Math.min(100,articles.length*18),articles.length?`${articles.length.toLocaleString('fa-IR')} عنوان ثبت‌شده`:'اثر عمومی ثبت نشده'],
+    ['شبکه',Math.min(100,relations.length*25),relations.length?`${relations.length.toLocaleString('fa-IR')} ارتباط مستند`:'ارتباطی ثبت نشده'],
+    ['ارتباط محلی',Number(locality.score||0),statusFa(locality.status)]
+  ];
+  $('dCoverage').innerHTML=coverage.map(([label,value,note])=>`<div class="coverage-row"><span><b>${esc(label)}</b><small>${esc(note)}</small></span><em><u style="--coverage:${Math.max(0,Math.min(100,Number(value)))}%"></u></em><strong>${Number(value).toLocaleString('fa-IR')}٪</strong></div>`).join('');
+  const aliases=[...(person._merged_aliases||[]),...(person._entity?.aliases||[])].filter(Boolean),facts=[['مکان',location||'ثبت نشده','⌖'],['سازمان',org||'ثبت نشده','▦'],['آثار',`${articles.length.toLocaleString('fa-IR')} عنوان`,'▣'],['منابع',`${sourceCount.toLocaleString('fa-IR')} نشانهٔ قابل پیگیری`,'◇'],['ارتباطات',`${relations.length.toLocaleString('fa-IR')} پیوند مستند`,'⌘'],['نام‌های جایگزین',aliases.length?aliases.slice(0,3).join('، '):'ثبت نشده','#']];
+  $('dFootprint').innerHTML=facts.map(([label,value,icon])=>`<div><i>${icon}</i><span><small>${esc(label)}</small><b>${esc(value)}</b></span></div>`).join('');
+}
+
 function openDetail(person){
   if(!person)return;
   activePerson=person;
@@ -344,6 +365,7 @@ function openDetail(person){
   $('dTrustLevel').className=qualityScore>=80?'high':qualityScore>=60?'medium':'low';$('dTrustLevel').textContent=trust.level;
   $('dTrustBreakdown').innerHTML=trust.parts.map(part=>`<button type="button" class="trust-factor" data-trust-factor aria-expanded="false"><span><i>${part.points.toLocaleString('fa-IR')}</i><b>${esc(part.label)}</b><small>سهم ${part.points.toLocaleString('fa-IR')} از ${part.weight.toLocaleString('fa-IR')} امتیاز</small></span><em><u style="--value:${part.raw}%"></u></em><p>${esc(part.detail)}</p></button>`).join('');
   $('dTrustWarnings').innerHTML=trust.warnings.length?`<strong>${trust.penalty.toLocaleString('fa-IR')}− امتیاز تعدیل</strong>${trust.warnings.map(item=>`<span>${esc(item)}</span>`).join('')}`:'<span class="trust-clean">تعارض جدی شناخته‌شده‌ای در داده‌های فعلی ثبت نشده است.</span>';
+  renderProfile360(person);
   $('dmeta').innerHTML=[
     detailSection('هویت',[editableField('نام فارسی',localized.persian,'name_fa'),editableField('نام در منبع',localized.english||person.name,'name'),editableField('نوع / ظرفیت',uiText(person.type),'type'),editableField('منبع',person.source,'source'),field('ارائه‌دهنده',profile.provider),editableField('وضعیت هویت',statusFa(quality.verification||person.verification||entity.identity_status),'verification')]),
     detailSection('تخصص و حوزه فعالیت',[editableField('حوزه تخصصی فارسی',person.specialty,'specialty'),editableField('حوزه تخصصی در منبع',person.specialty_en,'specialty_en'),editableField('شاهد تخصصی',person.specialty_evidence,'specialty_evidence'),editableField('لینک شاهد تخصصی',person.specialty_source_url,'specialty_source_url'),field('وضعیت استنباط',person.specialty_status==='inferred_from_publication'?'استنباط‌شده از اثر علمی؛ نیازمند تأیید انسانی':person.specialty_status==='inferred_from_openalex_topics'?'استنباط‌شده از طبقه‌بندی موضوعی OpenAlex؛ نیازمند تأیید انسانی':person.specialty_status==='no_public_specialty_evidence'?'بررسی شد؛ شاهد عمومی کافی برای تعیین تخصص وجود ندارد':person.specialty_status)]),
@@ -569,6 +591,7 @@ function bindEvents(){
   $('verifyPerson').addEventListener('click',()=>{const index=$('verifyPerson').dataset.recordIndex;closeDetail();openTab('verification');$('vrPerson').value=index;$('vrPerson').focus()});
   $('dmeta').addEventListener('click',event=>{const target=event.target.closest('[data-edit-key]');if(target)editRecordField(target.dataset.editKey)});
   $('dTrustBreakdown').addEventListener('click',event=>{const factor=event.target.closest('[data-trust-factor]');if(!factor)return;const open=!factor.classList.contains('open');factor.classList.toggle('open',open);factor.setAttribute('aria-expanded',String(open))});
+  document.querySelector('.profile-360-tabs').addEventListener('click',event=>{const button=event.target.closest('[data-360-view]');if(!button)return;const view=button.dataset['360View'];document.querySelectorAll('[data-360-view]').forEach(item=>item.classList.toggle('active',item===button));document.querySelectorAll('[data-360-panel]').forEach(panel=>panel.hidden=view!=='all'&&panel.dataset['360Panel']!==view)});
   $('adminAccountButton').addEventListener('click',()=>{if(adminToken())showAccount();else openAdminLogin()});$('globalAccountButton').addEventListener('click',()=>{if(adminToken())showAccount();else openAdminLogin()});
   $('notificationButton').addEventListener('click',event=>{event.stopPropagation();openNotificationCenter()});$('closeNotifications').addEventListener('click',()=>openNotificationCenter(false));$('markNotificationsRead').addEventListener('click',()=>{const items=appNotifications();items.forEach(item=>item.read=true);saveAppNotifications(items)});$('notificationList').addEventListener('click',event=>{const item=event.target.closest('[data-notification-id]');if(item)navigateNotification(item.dataset.notificationId)});document.addEventListener('click',event=>{if(!$('notificationCenter').hidden&&!event.target.closest('#notificationCenter')&&!event.target.closest('#notificationButton'))openNotificationCenter(false)});
   document.querySelectorAll('[data-auth-mode]').forEach(button=>button.addEventListener('click',()=>{authMode=button.dataset.authMode;document.querySelectorAll('[data-auth-mode]').forEach(item=>item.classList.toggle('active',item===button));$('adminLoginTitle').textContent=authMode==='register'?'ساخت حساب کاربری':'ورود به سامانه';$('authSubmit').textContent=authMode==='register'?'ثبت‌نام و ورود':'ورود به سامانه';$('adminPassword').setAttribute('autocomplete',authMode==='register'?'new-password':'current-password');$('adminLoginStatus').textContent=''}));
