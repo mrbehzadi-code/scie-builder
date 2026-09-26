@@ -7,7 +7,7 @@
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
   <link rel="stylesheet" href="poster.css?v=20260926-7">
-  <link rel="stylesheet" href="operations.css?v=20260926-1">
+  <link rel="stylesheet" href="operations.css?v=20260926-2">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -72,6 +72,7 @@
       <header class="operations-hero"><div><span class="kicker">مرکز تصمیم‌گیری و کیفیت داده</span><h2>مرکز عملیات اطلس</h2><p>همهٔ موارد نیازمند تصمیم، تکمیل یا بازبینی در یک صف اولویت‌بندی‌شده؛ هر کارت شما را مستقیماً به محل انجام کار می‌برد.</p></div><div class="operations-health"><span>سلامت عملیاتی</span><strong id="operationsHealth">—</strong><small id="operationsHealthNote">در حال تحلیل داده‌ها…</small></div></header>
       <div id="operationsQueue" class="operations-queue" aria-live="polite"></div>
       <div class="operations-layout"><section class="panel workflow-board"><div class="section-head compact"><div><span class="kicker">گردش‌کار استاندارد</span><h3>وضعیت پرونده‌های اطلس</h3><p>هر رکورد از کشف تا انتشار در یک مرحلهٔ روشن قرار می‌گیرد.</p></div></div><div id="workflowStages" class="workflow-stages"></div></section><section class="panel priority-records"><div class="section-head compact"><div><span class="kicker">اولویت امروز</span><h3>پرونده‌های پیشنهادی برای بررسی</h3><p>رکوردهایی که بیشترین اثر را بر کیفیت اطلس دارند.</p></div></div><div id="priorityRecords"></div></section></div>
+      <section class="panel admin-review-inbox"><div class="admin-inbox-head"><div><span class="kicker">تصمیم‌های مدیریتی</span><h3>صندوق بررسی مدیر</h3><p>پیشنهادها و پرونده‌های نیازمند تصمیم، همراه با منشأ، اولویت و اقدام بعدی.</p></div><div class="admin-inbox-tools"><select id="adminInboxFilter" aria-label="فیلتر صندوق بررسی"><option value="all">همه موارد</option><option value="merge">پیشنهاد ادغام</option><option value="identity">هویت و ارتباط محلی</option><option value="profile">تکمیل پروفایل</option><option value="lead">معرفی به اطلس</option></select><button id="refreshAdminInbox" class="button subtle" type="button">به‌روزرسانی</button></div></div><div id="adminInboxStats" class="admin-inbox-stats"></div><div id="adminInboxList" class="admin-inbox-list"></div><span id="adminInboxStatus" class="merge-status" role="status" aria-live="polite"></span></section>
     </section>
 
     <section id="people" class="section">
@@ -260,6 +261,6 @@
   <div id="accountPanel" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="accountTitle" hidden><button class="account-panel-backdrop admin-login-backdrop" type="button" aria-label="بستن"></button><article class="account-card"><button id="closeAccountPanel" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب شخصی</span><h2 id="accountTitle">فعالیت‌های من</h2><div id="accountSummary" class="account-summary"></div><div id="accountActivities" class="account-activities"></div><button id="accountLogout" class="button subtle" type="button">خروج از سامانه</button></article></div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
   <script src="vendor/xlsx.full.min.js?v=0.20.3" defer></script>
-  <script src="app.js?v=20260926-5" defer></script>
+  <script src="app.js?v=20260926-6" defer></script>
 </body>
 </html>
