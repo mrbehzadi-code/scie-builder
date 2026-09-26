@@ -2,7 +2,8 @@ name: SCIE Discovery Expansion
 
 on:
   schedule:
-    - cron: '20 2 * * 2,5'
+    # Run every day at 01:35 UTC (05:05 Asia/Tehran) until the verified pool reaches its target.
+    - cron: '35 1 * * *'
   push:
     branches: [main, 'sprint/**']
     paths:
