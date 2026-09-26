@@ -60,7 +60,7 @@ function installPersianDigitRendering(){
 }
 const readLocalArray=key=>{try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[]}catch{return[]}};
 const valueOrDash=value=>value===undefined||value===null||value===''?'—':value;
-const statusFa=value=>({needs_review:'نیازمند بازبینی',verified:'تأییدشده',confirmed:'تأییدشده',confirmed_by_human:'تأیید انسانی',probable:'ارتباط محتمل',possible:'ارتباط ضعیف',insufficient:'شواهد ناکافی',rejected_by_human:'ردشده',strong:'قوی',medium:'متوسط',weak:'ضعیف',enriched:'غنی‌شده',queued:'در صف بررسی',processing:'در حال بررسی',completed:'تکمیل‌شده',failed:'ناموفق',cancelled:'لغوشده',SINGLE_CANDIDATE:'نامزد منفرد'}[String(value||'')]||valueOrDash(value));
+const statusFa=value=>({needs_review:'نیازمند بازبینی',verified:'تأییدشده',confirmed:'ارتباط قوی الگوریتمی',confirmed_by_human:'تأیید انسانی',probable:'ارتباط محتمل',possible:'ارتباط ضعیف',insufficient:'شواهد ناکافی',rejected_by_human:'ردشده',strong:'قوی',medium:'متوسط',weak:'ضعیف',enriched:'غنی‌شده',queued:'در صف بررسی',processing:'در حال بررسی',completed:'تکمیل‌شده',failed:'ناموفق',cancelled:'لغوشده',SINGLE_CANDIDATE:'نامزد منفرد'}[String(value||'')]||valueOrDash(value));
 const ADMIN_API='https://scie-lead-api.scie-builder.workers.dev',relationLabels={family:'خانوادگی',colleague:'همکاری',organization:'هم‌سازمانی',expertise:'حوزه مشترک',education:'علمی / آموزشی',social:'اجتماعی',other:'سایر'};
 let pendingAdminAction=null;
 const adminToken=()=>localStorage.getItem('scie_admin_token')||'';
@@ -95,7 +95,7 @@ async function loadJSON(path,{fallback=true,preferRaw=false}={}){
   if(fallback&&!preferRaw)urls.push(raw);
   const errors=[];
   for(const url of urls){
-    try{if(preferRaw)url.searchParams.set('v',Date.now());const response=await fetch(url,{cache:preferRaw?'no-store':'default'});if(!response.ok)throw Error(`HTTP ${response.status}`);return await response.json()}
+    try{url.searchParams.set('v',preferRaw?Date.now():'20260926-2');const response=await fetch(url,{cache:preferRaw?'no-store':'default'});if(!response.ok)throw Error(`HTTP ${response.status}`);return await response.json()}
     catch(error){errors.push(`${url.href}: ${error.message}`)}
   }
   throw Error(errors.join(' | '));
@@ -120,7 +120,7 @@ function applyIntelligence(){
   (INT.candidate_quality||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._quality=item});
   (PROFILE.profiles||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._profile=item});
   (EXT.profiles||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._external=item});
-  (LOC.assessments||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._locality=item});
+  (LOC.assessments||[]).forEach(item=>{if(!Number.isInteger(item.candidate_index)||!people[item.candidate_index])return;const person=people[item.candidate_index],reviewName=normalizeSearch(item.human_review?.person_name||''),currentNames=[person.name,person.name_fa,person.name_en].filter(Boolean).map(normalizeSearch);if(item.status==='confirmed_by_human'&&(!reviewName||!currentNames.includes(reviewName)))person._locality={...item,status:'insufficient',needs_human_review:true,stale_human_review:true};else person._locality=item});
   const entityMap=new Map((ENT.entities||[]).map(item=>[item.entity_id,item]));
   const assignments=ENT.candidate_to_entity||{};
   people.forEach((person,index)=>{const id=assignments[String(index)];if(id){person._entity_id=id;person._entity=entityMap.get(id)||null}person._record_index=index});
@@ -175,9 +175,9 @@ function buildMetrics(){
 }
 
 function recordWorkflow(person){
-  const quality=Number(person?._quality?.score||0),complete=Number(person?._profile?.profile_completeness||0),locality=person?._locality?.status||'',confirmed=['confirmed','confirmed_by_human'].includes(locality);
-  if(confirmed&&quality>=70&&complete>=65)return 'published';
-  if(confirmed&&quality>=55)return 'approved';
+  const quality=Number(person?._quality?.score||0),complete=Number(person?._profile?.profile_completeness||0),locality=person?._locality||{},humanApproved=locality.status==='confirmed_by_human'&&!locality.stale_human_review;
+  if(humanApproved&&person?.verification==='confirmed_by_admin')return 'published';
+  if(humanApproved)return 'approved';
   if(complete>=45||person?.specialty||person?.affiliation)return 'enriching';
   if(quality||locality)return 'review';
   return 'discovered';
@@ -271,7 +271,7 @@ function render(){
     const complete=profile.profile_completeness!==undefined?`<span class="badge complete">پروفایل ${esc(profile.profile_completeness)}٪</span>`:'';
     const entity=person._merged_records?.length?`<span class="badge entity">${(person._merged_records.length+1).toLocaleString('fa-IR')} رکورد ادغام‌شده</span>`:person._entity_id?`<span class="badge entity">${person._entity?.record_count>1?'هویت چندرکوردی':'شناسه کانونی'}</span>`:'';
     const enriched=external.status==='enriched'?`<span class="badge enriched">${external.data?.cached?'غنی‌شده · Cache':'غنی‌شده · زنده'}</span>`:'';
-    const locality=person._locality||{},localityLabel={confirmed:'اردکانی تأییدشده',confirmed_by_human:'تأیید انسانی',probable:'ارتباط محتمل',possible:'ارتباط ضعیف',insufficient:'شاهد ناکافی',rejected_by_human:'ردشده در بازبینی'}[locality.status]||'';
+    const locality=person._locality||{},localityLabel={confirmed:'ارتباط قوی الگوریتمی',confirmed_by_human:'تأیید انسانی',probable:'ارتباط محتمل',possible:'ارتباط ضعیف',insufficient:'شاهد ناکافی',rejected_by_human:'ردشده در بازبینی'}[locality.status]||'';
     const localityBadge=localityLabel?`<span class="badge ${locality.status==='rejected_by_human'?'weak':locality.status.includes('confirmed')?'strong':'medium'}">${localityLabel} · ${esc(locality.score||0)}</span>`:'';
     return `<div class="person" role="button" tabindex="0" data-record-index="${person._record_index}"><span class="no">${start+index+1}</span><span class="person-main"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span class="identity"><span class="name">${esc(localized.persian)}</span>${localized.english?`<span class="name-latin" lang="en" dir="ltr">${esc(localized.english)}</span>`:''}<span class="person-sub">${esc(person.source||'منبع نامشخص')}</span></span></span><span class="person-role"><span>${esc(person.specialty||uiText(person.type||'کاندیدا'))}</span><small>${person.specialty_en?`<span lang="en" dir="ltr">${esc(person.specialty_en)}</span>`:profile.work_count!==undefined?`${esc(profile.work_count)} اثر ثبت‌شده`:'ظرفیت شناسایی‌شده'}</small></span><span class="person-context"><span>${esc(organization.persian||'سازمان نامشخص')}</span>${organization.english?`<small class="org-latin" lang="en" dir="ltr">${esc(organization.english)}</small>`:''}${location&&location!=='—'?`<small>${esc(location)}</small>`:''}</span><span class="badges">${localityBadge}${qualityBadge}${complete}${entity}${enriched}</span><span class="row-actions"><button type="button" data-action="view" title="مشاهده جزئیات" aria-label="مشاهده جزئیات">◉</button><button type="button" data-action="save" title="نشان‌کردن" aria-label="نشان‌کردن">♡</button><button type="button" data-action="more" title="گزینه‌های بیشتر" aria-label="گزینه‌های بیشتر">•••</button></span></div>`;
   }).join('');
@@ -454,7 +454,7 @@ function setupVerification(){
   const api='https://scie-lead-api.scie-builder.workers.dev/feedback',options=people.map((person,index)=>{const localized=bilingualName(person);return `<option value="${index}">${esc(localized.persian)}${localized.english?` — ${esc(localized.english)}`:''} — ${esc(person.source||'منبع نامشخص')}</option>`}).join('');
   $('vrPerson').innerHTML=options;$('relA').innerHTML=options;$('relB').innerHTML=options;
   if(people.length>1)$('relB').selectedIndex=1;
-  const counts=LOC.counts||{},cards=[['تأییدشده',Number(counts.confirmed||0)+Number(counts.confirmed_by_human||0)],['محتمل',counts.probable||0],['نیازمند بررسی',Number(counts.possible||0)+Number(counts.insufficient||0)],['ردشده با بازبینی انسانی',counts.rejected_by_human||0]];
+  const counts=LOC.counts||{},cards=[['تأیید انسانی',Number(counts.confirmed_by_human||0)],['ارتباط قوی الگوریتمی',counts.confirmed||0],['نیازمند بررسی',Number(counts.probable||0)+Number(counts.possible||0)+Number(counts.insufficient||0)],['ردشده با بازبینی انسانی',counts.rejected_by_human||0]];
   $('localitySummary').innerHTML=cards.map(([label,value])=>`<article class="analysis-card"><div class="big">${Number(value).toLocaleString('fa-IR')}</div><div class="label">${label}</div></article>`).join('');
   const send=async(payload,statusId,button)=>{button.disabled=true;$(statusId).textContent='در حال ثبت امن…';try{const response=await fetch(api,{method:'POST',headers:{'content-type':'application/json','x-idempotency-key':`${payload.kind}-${payload.id}`,...(adminToken()?{'authorization':`Bearer ${adminToken()}`}:{})},body:JSON.stringify(payload)}),result=await response.json();if(!response.ok||!result.ok)throw Error(result.error||'ثبت بازخورد ناموفق بود.');$(statusId).textContent='ثبت شد؛ نتیجه پس از پردازش خودکار در داده‌ها و گراف اعمال می‌شود.'}catch(error){$(statusId).textContent=error.message}finally{button.disabled=false}};
   const sourceRows=SOCIAL.restricted_or_unusable||[],attempts=SOCIAL.outbound_public_profiles||{};

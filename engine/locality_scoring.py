@@ -10,6 +10,10 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'docs/data.json'; OUTPUT=ROOT/'docs/locality_assessment.json'; FEEDBACK=ROOT/'docs/user_feedback.json'
 
+def identity_key(value):
+    value=str(value or '').casefold().replace('ي','ی').replace('ك','ک')
+    return re.sub(r'[^\w\u0600-\u06ff]+','',value)
+
 def text(person):
     return ' '.join(str(person.get(k,'') or '') for k in ('name','detail','location','affiliation','organization','evidence','url')).casefold()
 
@@ -32,12 +36,19 @@ def assess(person):
 def main():
     data=json.loads(DATA.read_text(encoding='utf-8')); people=data.get('people',[])
     feedback=json.loads(FEEDBACK.read_text(encoding='utf-8')).get('reviews',[]) if FEEDBACK.exists() else []
-    latest={}
-    for row in feedback: latest[str(row.get('record_index'))]=row
+    latest_by_index={}; latest_by_name={}
+    for item in feedback:
+        latest_by_index[str(item.get('record_index'))]=item
+        key=identity_key(item.get('person_name'))
+        if key: latest_by_name[key]=item
     rows=[]
     for index,person in enumerate(people):
         row={'candidate_index':index,'name':person.get('name'),**assess(person)}
-        review=latest.get(str(index))
+        names=[identity_key(person.get(key)) for key in ('name','name_fa','name_en') if person.get(key)]
+        review=next((latest_by_name[name] for name in names if name in latest_by_name),None)
+        indexed=latest_by_index.get(str(index))
+        if review is None and indexed and identity_key(indexed.get('person_name')) in names:
+            review=indexed
         if review:
             row['human_review']=review
             if review.get('verdict')=='not_ardakani': row.update(status='rejected_by_human',needs_human_review=False)

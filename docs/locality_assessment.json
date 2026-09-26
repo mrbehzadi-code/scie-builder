@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 873,
-    "possible": 119,
+    "insufficient": 874,
+    "possible": 118,
     "probable": 8,
     "confirmed_by_human": 1
   },
@@ -5798,26 +5798,14 @@
       "candidate_index": 369,
       "name": "Ardakan125",
       "score": 10,
-      "status": "confirmed_by_human",
+      "status": "insufficient",
       "reasons": [
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
         }
       ],
-      "needs_human_review": false,
-      "human_review": {
-        "id": 1790073799583,
-        "kind": "locality_review",
-        "created_at": "2026-09-22T10:43:22.396Z",
-        "record_index": 369,
-        "person_name": "محمود فرزان",
-        "verdict": "ardakani",
-        "reason": "شناخت مستقیم و محلی",
-        "note": "استاد دانشگاه علوم پزشکی تهران",
-        "issue_number": 24,
-        "processed_at": "2026-09-22T10:43:33Z"
-      }
+      "needs_human_review": true
     },
     {
       "candidate_index": 370,
@@ -7482,7 +7470,7 @@
       "candidate_index": 489,
       "name": "محمود فرزان",
       "score": 20,
-      "status": "possible",
+      "status": "confirmed_by_human",
       "reasons": [
         {
           "signal": "کشف هدایت‌شده همراه با شاهد مکانی",
@@ -7493,7 +7481,19 @@
           "weight": 10
         }
       ],
-      "needs_human_review": true
+      "needs_human_review": false,
+      "human_review": {
+        "id": 1790073799583,
+        "kind": "locality_review",
+        "created_at": "2026-09-22T10:43:22.396Z",
+        "record_index": 369,
+        "person_name": "محمود فرزان",
+        "verdict": "ardakani",
+        "reason": "شناخت مستقیم و محلی",
+        "note": "استاد دانشگاه علوم پزشکی تهران",
+        "issue_number": 24,
+        "processed_at": "2026-09-22T10:43:33Z"
+      }
     },
     {
       "candidate_index": 490,
