@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102a56">
   <title>اطلس سرمایه‌های اجتماعی اردکان</title>
   <link rel="stylesheet" href="styles.css?v=20260923-2">
-  <link rel="stylesheet" href="poster.css?v=20260926-7">
+  <link rel="stylesheet" href="poster.css?v=20260926-8">
   <link rel="stylesheet" href="operations.css?v=20260926-2">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
@@ -249,6 +249,7 @@
         <div id="dTrust" class="profile-trust"></div>
       </header>
       <div id="dQuickStats" class="profile-quick-stats"></div>
+      <section class="profile-trust-explainer"><div class="profile-subhead"><div><span>چرا این امتیاز اعتماد؟</span><small>محاسبهٔ شفاف براساس شواهد، هویت، ارتباط محلی، کامل‌بودن و تنوع منابع</small></div><b id="dTrustLevel"></b></div><div id="dTrustBreakdown" class="trust-breakdown"></div><div id="dTrustWarnings" class="trust-warnings"></div><p class="trust-method-note">این امتیاز احتمال صحت و کفایت داده را نشان می‌دهد و جایگزین تأیید انسانی نیست. برای دیدن جزئیات هر مؤلفه روی آن کلیک کنید.</p></section>
       <div class="admin-edit-hint"><span>ویرایش مدیریتی</span> برای اصلاح هر مقدار، روی همان کادر کلیک کنید.</div>
       <div id="dmeta" class="detail-sections profile-sections"></div>
       <section class="profile-relations"><div class="profile-subhead"><div><span>شبکهٔ ارتباطات این فرد</span><small>خانوادگی، تخصصی، سازمانی و سایر پیوندهای مستند</small></div><button id="addRelation" class="button subtle" type="button">＋ افزودن ارتباط</button></div><div id="dRelations" class="relation-map"></div><form id="relationEditor" class="relation-editor" hidden><label><span>فرد مرتبط</span><select id="relationPerson"></select></label><label><span>نوع ارتباط</span><select id="relationType"><option value="family">رابطه خانوادگی</option><option value="colleague">همکار</option><option value="organization">هم‌سازمان</option><option value="expertise">حوزه تخصصی مشترک</option><option value="education">ارتباط علمی / آموزشی</option><option value="social">ارتباط اجتماعی</option><option value="other">سایر</option></select></label><label class="wide"><span>عنوان یا توضیح ارتباط</span><input id="relationNote" placeholder="برای مثال: برادر، همکار پژوهشی یا عضو یک سازمان"></label><div class="wide relation-editor-actions"><button class="button primary" type="submit">ذخیره ارتباط</button><button id="cancelRelation" class="button subtle" type="button">انصراف</button><span id="relationStatus" role="status"></span></div></form></section>
@@ -261,6 +262,6 @@
   <div id="accountPanel" class="admin-login" role="dialog" aria-modal="true" aria-labelledby="accountTitle" hidden><button class="account-panel-backdrop admin-login-backdrop" type="button" aria-label="بستن"></button><article class="account-card"><button id="closeAccountPanel" class="icon-button" type="button" aria-label="بستن">×</button><span class="kicker">حساب شخصی</span><h2 id="accountTitle">فعالیت‌های من</h2><div id="accountSummary" class="account-summary"></div><div id="accountActivities" class="account-activities"></div><button id="accountLogout" class="button subtle" type="button">خروج از سامانه</button></article></div>
   <noscript><div class="noscript">برای استفاده از داشبورد، JavaScript مرورگر را فعال کنید.</div></noscript>
   <script src="vendor/xlsx.full.min.js?v=0.20.3" defer></script>
-  <script src="app.js?v=20260926-6" defer></script>
+  <script src="app.js?v=20260926-7" defer></script>
 </body>
 </html>
