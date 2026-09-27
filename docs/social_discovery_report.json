@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T16:42:20Z",
+  "generated_at": "2026-09-27T07:06:57Z",
   "target": 5000,
   "pool_size": 3174,
   "new_records": 0,
@@ -462,7 +462,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4270",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
