@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-27",
+  "generated_at": "2026-09-28",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3174,
-    "academic_candidates": 1548,
-    "regional_evidence": 561,
+    "people": 3181,
+    "academic_candidates": 1552,
+    "regional_evidence": 564,
     "sources": {
-      "GitHub Discovery": 60,
+      "GitHub Discovery": 61,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1525,
+      "OpenAlex Discovery": 1529,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1456
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1458
     },
-    "public_source_records": 2799,
-    "social_public_records": 1445
+    "public_source_records": 2803,
+    "social_public_records": 1447
   },
   "people": [
     {
@@ -72127,6 +72127,122 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "بله آقای یوسف پزشکیان؛ برچیدن بساط ظلم یه جور انتقامه، حذف شخص ظالم هم یه جور دیگه @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "Reza Ardekani Shaker",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "19 اثر علمی · Leiden University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5003555470",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Mehdi Rasti Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5103623792",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "زهرا جماعتی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی · International Society of Automation",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5009544091",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "فاطمه هاتفی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5152854135",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "ardakantes02-lang",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakantes02-lang",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "محسن عبدالله‌زاده",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "قیمت دارو مجموعا در ۲ سال دولت پزشکیان حدود ۱۱۶ درصد افزایش قیمت داشته است، چون مدام ارز ترجیحی دارو را کاهش داده‌اند دکتر محسن عبدالله‌زاده، عضو هیات مدیره سندیکای توزیع‌کنندگان دارو: 🔹 عامل اصلی گرانی شدید دارو حذف و تغییر ارز ترجیحی است. 🔹 وقتی دولت پزشکیان ارز ترجیحی دارو را از ۲۸۵۰۰ تا ۱۰۰ هزار تومان گران کرده است، خوب مشخص است که قیمت دارو چندین برابر می‌شود. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پزشکیان در همان سخنرانی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔥 هدف سفر به نیویورک، مذاکره با ویتکاف بود! 🔹 فواد ایزدی: هدف اصلی سفر به نیویورک، سخنرانی در مجمع سازمان ملل نبوده بلکه هدف، انجام مذاکره عراقچی با ویتکاف و کوشنر بود که در جلسه اول ۳ ساعت طول کشید. 🔹 آقای پزشکیان در همان سخنرانی سازمان ملل هم ۴ بار از مذاکره سخن گفت. اینکه ما هر روز از مذاکره حرف بزنیم، سایه جنگ را برنمی‌دارد بلکه آن را حفظ می‌کند. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
