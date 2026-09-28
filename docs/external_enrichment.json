@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-09-27",
-  "candidate_count": 3174,
+  "generated_at": "2026-09-28",
+  "candidate_count": 3181,
   "metrics": {
-    "openalex_skipped": 1541,
-    "unsupported_or_missing_id": 1566,
+    "openalex_skipped": 1545,
+    "unsupported_or_missing_id": 1568,
     "openalex_reused": 7,
     "github_reused": 60,
+    "github_enriched": 1,
     "errors": 0,
-    "enriched_total": 67,
-    "skipped_total": 3107
+    "enriched_total": 68,
+    "skipped_total": 3113
   },
   "failures": {},
   "profiles": [
@@ -27826,6 +27827,81 @@
     {
       "candidate_index": 3173,
       "name": "یوسف پزشکیان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3174,
+      "name": "Reza Ardekani Shaker",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3175,
+      "name": "Mehdi Rasti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3176,
+      "name": "زهرا جماعتی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3177,
+      "name": "فاطمه هاتفی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3178,
+      "name": "ardakantes02-lang",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakantes02-lang",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-07-31T07:26:24Z",
+        "updated_at": "2026-07-31T07:26:24Z",
+        "provider_url": "https://github.com/ardakantes02-lang"
+      }
+    },
+    {
+      "candidate_index": 3179,
+      "name": "محسن عبدالله‌زاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3180,
+      "name": "پزشکیان در همان سخنرانی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

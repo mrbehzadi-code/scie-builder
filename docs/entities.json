@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-27",
+  "generated_at": "2026-09-28",
   "metrics": {
-    "candidate_records": 3174,
-    "canonical_entities": 3164,
-    "records_collapsed": 10,
-    "same_person_pairs_applied": 10,
-    "multi_record_entities": 10,
-    "entities_with_external_data": 65
+    "candidate_records": 3181,
+    "canonical_entities": 3168,
+    "records_collapsed": 13,
+    "same_person_pairs_applied": 13,
+    "multi_record_entities": 13,
+    "entities_with_external_data": 66
   },
   "candidate_to_entity": {
     "0": "scie-entity-00001",
@@ -252,6 +252,7 @@
     "240": "scie-entity-00234",
     "241": "scie-entity-00235",
     "242": "scie-entity-00236",
+    "3176": "scie-entity-00236",
     "243": "scie-entity-00237",
     "244": "scie-entity-00238",
     "245": "scie-entity-00239",
@@ -710,6 +711,7 @@
     "698": "scie-entity-00689",
     "699": "scie-entity-00690",
     "700": "scie-entity-00691",
+    "3174": "scie-entity-00691",
     "701": "scie-entity-00692",
     "702": "scie-entity-00693",
     "703": "scie-entity-00694",
@@ -1093,6 +1095,7 @@
     "1081": "scie-entity-01072",
     "1082": "scie-entity-01073",
     "1083": "scie-entity-01074",
+    "3175": "scie-entity-01074",
     "1084": "scie-entity-01075",
     "1085": "scie-entity-01076",
     "1086": "scie-entity-01077",
@@ -3182,7 +3185,11 @@
     "3170": "scie-entity-03161",
     "3171": "scie-entity-03162",
     "3172": "scie-entity-03163",
-    "3173": "scie-entity-03164"
+    "3173": "scie-entity-03164",
+    "3177": "scie-entity-03165",
+    "3178": "scie-entity-03166",
+    "3179": "scie-entity-03167",
+    "3180": "scie-entity-03168"
   },
   "entities": [
     {
@@ -10206,12 +10213,14 @@
     {
       "entity_id": "scie-entity-00236",
       "candidate_indexes": [
-        242
+        242,
+        3176
       ],
-      "record_count": 1,
+      "record_count": 2,
       "primary_name": "زهرا اردکانی",
       "aliases": [
-        "زهرا اردکانی"
+        "زهرا اردکانی",
+        "زهرا جماعتی اردکانی"
       ],
       "sources": [
         "OpenAlex Discovery"
@@ -10219,7 +10228,9 @@
       "source_urls": [
         "https://openalex.org/A5009544091"
       ],
-      "organizations": [],
+      "organizations": [
+        "International Society of Automation"
+      ],
       "locations": [],
       "identifiers": {
         "openalex_ids": [
@@ -10229,8 +10240,8 @@
         "orcids": []
       },
       "external_enriched_records": 0,
-      "identity_status": "SINGLE_CANDIDATE",
-      "human_review_required": true
+      "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
+      "human_review_required": false
     },
     {
       "entity_id": "scie-entity-00237",
@@ -23679,12 +23690,14 @@
     {
       "entity_id": "scie-entity-00691",
       "candidate_indexes": [
-        700
+        700,
+        3174
       ],
-      "record_count": 1,
+      "record_count": 2,
       "primary_name": "Reza Shaker",
       "aliases": [
-        "Reza Shaker"
+        "Reza Shaker",
+        "Reza Ardekani Shaker"
       ],
       "sources": [
         "OpenAlex Discovery"
@@ -23704,8 +23717,8 @@
         "orcids": []
       },
       "external_enriched_records": 0,
-      "identity_status": "SINGLE_CANDIDATE",
-      "human_review_required": true
+      "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
+      "human_review_required": false
     },
     {
       "entity_id": "scie-entity-00692",
@@ -35404,12 +35417,14 @@
     {
       "entity_id": "scie-entity-01074",
       "candidate_indexes": [
-        1083
+        1083,
+        3175
       ],
-      "record_count": 1,
+      "record_count": 2,
       "primary_name": "M Rasti Ardakani",
       "aliases": [
-        "M Rasti Ardakani"
+        "M Rasti Ardakani",
+        "Mehdi Rasti Ardakani"
       ],
       "sources": [
         "OpenAlex Discovery"
@@ -35427,8 +35442,8 @@
         "orcids": []
       },
       "external_enriched_records": 0,
-      "identity_status": "SINGLE_CANDIDATE",
-      "human_review_required": true
+      "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
+      "human_review_required": false
     },
     {
       "entity_id": "scie-entity-01075",
@@ -96508,6 +96523,124 @@
       "primary_name": "یوسف پزشکیان",
       "aliases": [
         "یوسف پزشکیان"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03165",
+      "candidate_indexes": [
+        3177
+      ],
+      "record_count": 1,
+      "primary_name": "فاطمه هاتفی اردکانی",
+      "aliases": [
+        "فاطمه هاتفی اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5152854135"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5152854135"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03166",
+      "candidate_indexes": [
+        3178
+      ],
+      "record_count": 1,
+      "primary_name": "ardakantes02-lang",
+      "aliases": [
+        "ardakantes02-lang"
+      ],
+      "sources": [
+        "GitHub Discovery"
+      ],
+      "source_urls": [
+        "https://github.com/ardakantes02-lang"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan signal"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [
+          "ardakantes02-lang"
+        ],
+        "orcids": []
+      },
+      "external_enriched_records": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03167",
+      "candidate_indexes": [
+        3179
+      ],
+      "record_count": 1,
+      "primary_name": "محسن عبدالله‌زاده",
+      "aliases": [
+        "محسن عبدالله‌زاده"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03168",
+      "candidate_indexes": [
+        3180
+      ],
+      "record_count": 1,
+      "primary_name": "پزشکیان در همان سخنرانی",
+      "aliases": [
+        "پزشکیان در همان سخنرانی"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

@@ -1,9 +1,9 @@
 {
-  "input_count": 3174,
-  "group_count": 119,
-  "pair_count": 131,
+  "input_count": 3181,
+  "group_count": 122,
+  "pair_count": 134,
   "decision_counts": {
-    "SAME_PERSON": 10,
+    "SAME_PERSON": 13,
     "LIKELY_SAME_PERSON": 43,
     "UNCERTAIN": 78,
     "LIKELY_DIFFERENT_PERSON": 0
@@ -3683,6 +3683,28 @@
       "explanation": "The records share the same stable academic identifier."
     },
     {
+      "candidate_a": 242,
+      "candidate_b": 3176,
+      "name_a": "زهرا اردکانی",
+      "name_b": "زهرا جماعتی اردکانی",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5009544091"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
       "candidate_a": 329,
       "candidate_b": 330,
       "name_a": "Abolfazl Kamali Ardakani",
@@ -3740,6 +3762,50 @@
           "result": "exact_match",
           "values": [
             "https://openalex.org/a5106072834"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 700,
+      "candidate_b": 3174,
+      "name_a": "Reza Shaker",
+      "name_b": "Reza Ardekani Shaker",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5003555470"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 1083,
+      "candidate_b": 3175,
+      "name_a": "M Rasti Ardakani",
+      "name_b": "Mehdi Rasti Ardakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5103623792"
           ]
         }
       ],

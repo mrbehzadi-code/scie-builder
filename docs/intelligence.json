@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-27",
-  "candidate_count": 3174,
+  "generated_at": "2026-09-28",
+  "candidate_count": 3181,
   "metrics": {
-    "unique_name_keys": 3082,
+    "unique_name_keys": 3089,
     "possible_duplicate_groups": 88,
     "variant_duplicate_groups": 21,
-    "stable_identifier_duplicate_groups": 10,
+    "stable_identifier_duplicate_groups": 13,
     "quality_strong": 5,
-    "quality_medium": 3082,
+    "quality_medium": 3089,
     "quality_weak": 87,
-    "shared_organization_groups": 94,
+    "shared_organization_groups": 95,
     "shared_location_groups": 7,
-    "evidence_items": 7411,
+    "evidence_items": 7429,
     "organizations_detected": 222,
     "locations_detected": 11
   },
   "sources": {
-    "OpenAlex Discovery": 1525,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1456,
+    "OpenAlex Discovery": 1529,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1458,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "GitHub Discovery": 60,
+    "GitHub Discovery": 61,
     "دانشگاه‌های داخلی و خارجی": 1,
     "Lead-guided OpenAlex Discovery": 23
   },
   "capacity_types": {
-    "کاندیدای پژوهشی": 1522,
+    "کاندیدای پژوهشی": 1526,
     "ورزش / والیبال": 8,
     "سایر": 86,
     "فنی / دانش‌بنیان": 1,
@@ -40,7 +40,7 @@
     "فلسفه / علوم انسانی": 1,
     "دانشگاهی / پژوهشی": 5,
     "پروفایل وب": 5,
-    "پروفایل فنی": 55,
+    "پروفایل فنی": 56,
     "مدیریت / صنعتی": 1,
     "مدیریت / صنعت": 1,
     "مهندسی مکانیک / تولید": 1,
@@ -52,7 +52,7 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 676,
+    "پزشکی و سلامت": 678,
     "مدیریت و جامعه": 99,
     "فرهنگ و هنر": 17,
     "فنی و مهندسی": 104,
@@ -61,9 +61,9 @@
     "کاندیدای معرفی‌شده به اطلس": 1
   },
   "evidence_types": {
-    "OpenAlex author search": 1522,
+    "OpenAlex author search": 1526,
     "query: ardakan": 59,
-    "query: ardakani": 1012,
+    "query: ardakani": 1014,
     "Public sports report": 10,
     "Ardakan tag in competition roster": 10,
     "Public LinkedIn profile": 2,
@@ -81,19 +81,19 @@
     "Birthplace: Ardakan": 2,
     "ResearchGate profile": 6,
     "Profile name and academic record": 1,
-    "query: اردکانی": 427,
+    "query: اردکانی": 429,
     "query: اردکان": 24,
     "Current institution: Ardakan University": 3,
     "location: Ardakan": 5,
     "name signal": 1,
     "public GitHub profile": 5,
-    "GitHub user search": 55,
+    "GitHub user search": 56,
     "query: ardakani in:bio": 21,
     "Chadormalu public-relations report": 1,
     "Role and Ardakani identification": 1,
     "Public company/business interview": 1,
     "CEO role": 1,
-    "query: Ardakan in:bio": 34,
+    "query: Ardakan in:bio": 35,
     "Mechanical engineering and manufacturing experience": 1,
     "surname: Davari Ardakani": 3,
     "OpenAlex author record": 3,
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1445,
+    "public Telegram preview": 1447,
     "Ardakan keyword in same public post": 530,
-    "public author profile": 1233,
+    "public author profile": 1237,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 915
+    "professional name in an Ardakan-focused public channel": 917
   },
   "possible_duplicates": [
     {
@@ -1132,6 +1132,16 @@
       "reason": "exact stable provider URL"
     },
     {
+      "key": "https://openalex.org/a5009544091",
+      "candidate_indexes": [
+        242,
+        3176
+      ],
+      "count": 2,
+      "review_status": "same_source_profile",
+      "reason": "exact stable provider URL"
+    },
+    {
       "key": "https://github.com/abolfazlkamaliardakani",
       "candidate_indexes": [
         329,
@@ -1156,6 +1166,26 @@
       "candidate_indexes": [
         416,
         417
+      ],
+      "count": 2,
+      "review_status": "same_source_profile",
+      "reason": "exact stable provider URL"
+    },
+    {
+      "key": "https://openalex.org/a5003555470",
+      "candidate_indexes": [
+        700,
+        3174
+      ],
+      "count": 2,
+      "review_status": "same_source_profile",
+      "reason": "exact stable provider URL"
+    },
+    {
+      "key": "https://openalex.org/a5103623792",
+      "candidate_indexes": [
+        1083,
+        3175
       ],
       "count": 2,
       "review_status": "same_source_profile",
@@ -50977,6 +51007,116 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3174,
+      "score": 65,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": true,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "organization",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3175,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3176,
+      "score": 65,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": true,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "organization",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3177,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3178,
+      "score": 58,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "structured_source"
+      ]
+    },
+    {
+      "candidate_index": 3179,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3180,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -51679,9 +51819,10 @@
         1789,
         1853,
         1868,
-        1872
+        1872,
+        3176
       ],
-      "count": 29
+      "count": 30
     },
     {
       "organization": "iranian fisheries research organization",
@@ -51790,6 +51931,14 @@
       "candidate_indexes": [
         697,
         987
+      ],
+      "count": 2
+    },
+    {
+      "organization": "leiden university",
+      "candidate_indexes": [
+        700,
+        3174
       ],
       "count": 2
     },
@@ -52296,9 +52445,10 @@
         486,
         489,
         492,
-        494
+        494,
+        3178
       ],
-      "count": 72
+      "count": 73
     },
     {
       "location": "iran yazd ardakan",
@@ -53767,9 +53917,11 @@
         3170,
         3171,
         3172,
-        3173
+        3173,
+        3179,
+        3180
       ],
-      "count": 1445
+      "count": 1447
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."
