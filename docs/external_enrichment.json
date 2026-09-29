@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-28",
-  "candidate_count": 3181,
+  "generated_at": "2026-09-29",
+  "candidate_count": 3192,
   "metrics": {
-    "openalex_skipped": 1545,
-    "unsupported_or_missing_id": 1568,
+    "openalex_skipped": 1554,
+    "unsupported_or_missing_id": 1569,
     "openalex_reused": 7,
-    "github_reused": 60,
+    "github_reused": 61,
     "github_enriched": 1,
     "errors": 0,
-    "enriched_total": 68,
-    "skipped_total": 3113
+    "enriched_total": 69,
+    "skipped_total": 3123
   },
   "failures": {},
   "profiles": [
@@ -27902,6 +27902,124 @@
     {
       "candidate_index": 3180,
       "name": "پزشکیان در همان سخنرانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3181,
+      "name": "Zahra Zamanian",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3182,
+      "name": "Erfan Shahabpoor",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3183,
+      "name": "Mehdi Rasti",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3184,
+      "name": "Parichehr Behjati",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3185,
+      "name": "Mohamad Ebrahim Zadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3186,
+      "name": "Ardakani Z.",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3187,
+      "name": "Mohamad Danesh-Ardekani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3188,
+      "name": "Khosro Behmaram, Aram Bostan, Ali Dini, Ghadir Rajabzadeh, Ahmad Shaker-Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3189,
+      "name": "محمد رضا ملاحسینی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3190,
+      "name": "abbasmoulaviardakani-debug",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "abbasmoulaviardakani-debug",
+        "display_name": "Abbas Moulvi Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Iran",
+        "bio": null,
+        "public_repos": 3,
+        "followers": 0,
+        "following": 1,
+        "created_at": "2026-01-04T09:30:54Z",
+        "updated_at": "2026-09-28T11:20:00Z",
+        "provider_url": "https://github.com/abbasmoulaviardakani-debug"
+      }
+    },
+    {
+      "candidate_index": 3191,
+      "name": "پزشکیان حداقل به محتوای",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

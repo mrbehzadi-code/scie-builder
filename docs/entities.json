@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-28",
+  "generated_at": "2026-09-29",
   "metrics": {
-    "candidate_records": 3181,
-    "canonical_entities": 3168,
+    "candidate_records": 3192,
+    "canonical_entities": 3179,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
-    "entities_with_external_data": 66
+    "entities_with_external_data": 67
   },
   "candidate_to_entity": {
     "0": "scie-entity-00001",
@@ -3189,7 +3189,18 @@
     "3177": "scie-entity-03165",
     "3178": "scie-entity-03166",
     "3179": "scie-entity-03167",
-    "3180": "scie-entity-03168"
+    "3180": "scie-entity-03168",
+    "3181": "scie-entity-03169",
+    "3182": "scie-entity-03170",
+    "3183": "scie-entity-03171",
+    "3184": "scie-entity-03172",
+    "3185": "scie-entity-03173",
+    "3186": "scie-entity-03174",
+    "3187": "scie-entity-03175",
+    "3188": "scie-entity-03176",
+    "3189": "scie-entity-03177",
+    "3190": "scie-entity-03178",
+    "3191": "scie-entity-03179"
   },
   "entities": [
     {
@@ -96641,6 +96652,340 @@
       "primary_name": "پزشکیان در همان سخنرانی",
       "aliases": [
         "پزشکیان در همان سخنرانی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03169",
+      "candidate_indexes": [
+        3181
+      ],
+      "record_count": 1,
+      "primary_name": "Zahra Zamanian",
+      "aliases": [
+        "Zahra Zamanian"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5020840241"
+      ],
+      "organizations": [
+        "Shiraz University of Medical Sciences"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5020840241"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03170",
+      "candidate_indexes": [
+        3182
+      ],
+      "record_count": 1,
+      "primary_name": "Erfan Shahabpoor",
+      "aliases": [
+        "Erfan Shahabpoor"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5090991901"
+      ],
+      "organizations": [
+        "University of Bath"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5090991901"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03171",
+      "candidate_indexes": [
+        3183
+      ],
+      "record_count": 1,
+      "primary_name": "Mehdi Rasti",
+      "aliases": [
+        "Mehdi Rasti"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5064707527"
+      ],
+      "organizations": [
+        "Isfahan University of Medical Sciences"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5064707527"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03172",
+      "candidate_indexes": [
+        3184
+      ],
+      "record_count": 1,
+      "primary_name": "Parichehr Behjati",
+      "aliases": [
+        "Parichehr Behjati"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5011666132"
+      ],
+      "organizations": [
+        "Universitat Autònoma de Barcelona"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5011666132"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03173",
+      "candidate_indexes": [
+        3185
+      ],
+      "record_count": 1,
+      "primary_name": "Mohamad Ebrahim Zadeh Ardakani",
+      "aliases": [
+        "Mohamad Ebrahim Zadeh Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5153117101"
+      ],
+      "organizations": [
+        "Shahid Sadoughi University of Medical Sciences and Health Services"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5153117101"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03174",
+      "candidate_indexes": [
+        3186
+      ],
+      "record_count": 1,
+      "primary_name": "Ardakani Z.",
+      "aliases": [
+        "Ardakani Z."
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5153152139"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5153152139"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03175",
+      "candidate_indexes": [
+        3187
+      ],
+      "record_count": 1,
+      "primary_name": "Mohamad Danesh-Ardekani",
+      "aliases": [
+        "Mohamad Danesh-Ardekani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5063040839"
+      ],
+      "organizations": [
+        "Shahid Sadoughi University of Medical Sciences and Health Services"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5063040839"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03176",
+      "candidate_indexes": [
+        3188
+      ],
+      "record_count": 1,
+      "primary_name": "Khosro Behmaram, Aram Bostan, Ali Dini, Ghadir Rajabzadeh, Ahmad Shaker-Ardakani",
+      "aliases": [
+        "Khosro Behmaram, Aram Bostan, Ali Dini, Ghadir Rajabzadeh, Ahmad Shaker-Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5153025145"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5153025145"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03177",
+      "candidate_indexes": [
+        3189
+      ],
+      "record_count": 1,
+      "primary_name": "محمد رضا ملاحسینی اردکانی",
+      "aliases": [
+        "محمد رضا ملاحسینی اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5152990412"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5152990412"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03178",
+      "candidate_indexes": [
+        3190
+      ],
+      "record_count": 1,
+      "primary_name": "Abbas Moulvi Ardakani",
+      "aliases": [
+        "abbasmoulaviardakani-debug"
+      ],
+      "sources": [
+        "GitHub Discovery"
+      ],
+      "source_urls": [
+        "https://github.com/abbasmoulaviardakani-debug"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan signal",
+        "Iran"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [
+          "abbasmoulaviardakani-debug"
+        ],
+        "orcids": []
+      },
+      "external_enriched_records": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03179",
+      "candidate_indexes": [
+        3191
+      ],
+      "record_count": 1,
+      "primary_name": "پزشکیان حداقل به محتوای",
+      "aliases": [
+        "پزشکیان حداقل به محتوای"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
