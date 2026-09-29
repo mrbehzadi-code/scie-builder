@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-28",
+  "generated_at": "2026-09-29",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3181,
-    "academic_candidates": 1552,
-    "regional_evidence": 564,
+    "people": 3192,
+    "academic_candidates": 1561,
+    "regional_evidence": 566,
     "sources": {
-      "GitHub Discovery": 61,
+      "GitHub Discovery": 62,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1529,
+      "OpenAlex Discovery": 1538,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1458
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1459
     },
-    "public_source_records": 2803,
-    "social_public_records": 1447
+    "public_source_records": 2814,
+    "social_public_records": 1448
   },
   "people": [
     {
@@ -72243,6 +72243,190 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🔥 هدف سفر به نیویورک، مذاکره با ویتکاف بود! 🔹 فواد ایزدی: هدف اصلی سفر به نیویورک، سخنرانی در مجمع سازمان ملل نبوده بلکه هدف، انجام مذاکره عراقچی با ویتکاف و کوشنر بود که در جلسه اول ۳ ساعت طول کشید. 🔹 آقای پزشکیان در همان سخنرانی سازمان ملل هم ۴ بار از مذاکره سخن گفت. اینکه ما هر روز از مذاکره حرف بزنیم، سایه جنگ را برنمی‌دارد بلکه آن را حفظ می‌کند. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "Zahra Zamanian",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "111 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5020840241",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Erfan Shahabpoor",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "26 اثر علمی · University of Bath",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5090991901",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Mehdi Rasti",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "24 اثر علمی · Isfahan University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5064707527",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Parichehr Behjati",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · Universitat Autònoma de Barcelona",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5011666132",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Mohamad Ebrahim Zadeh Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5153117101",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Ardakani Z.",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5153152139",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Mohamad Danesh-Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5063040839",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Khosro Behmaram, Aram Bostan, Ali Dini, Ghadir Rajabzadeh, Ahmad Shaker-Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5153025145",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "محمد رضا ملاحسینی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5152990412",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "abbasmoulaviardakani-debug",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/abbasmoulaviardakani-debug",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "پزشکیان حداقل به محتوای",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ پزشکیان استخاره بد در مراسم روز بازگشایی مدارس را تکذیب کرد / آقای پزشکیان حداقل به محتوای این آیه عمل کنید پزشکیان: 🔹 هنگامی که قرآن را باز کردم آیه «وَأَطِيعُوا اللَّهَ وَرَسُولَهُ وَلَا تَنَازَعُوا فَتَفْشَلُوا وَتَذْهَبَ رِيحُكُمْ ۖ وَاصْبِرُوا ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ»(آیه 46 سوره انفال) آمد و ما هم باید صبر کنیم چاره‌ای نداریم. 🔹 همه تصور کردن بد آمده اما این آیه خیلی خوب بود. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
