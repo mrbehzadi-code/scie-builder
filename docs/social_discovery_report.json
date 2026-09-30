@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T07:30:46Z",
+  "generated_at": "2026-09-30T07:19:38Z",
   "target": 5000,
-  "pool_size": 3192,
-  "new_records": 1,
+  "pool_size": 3198,
+  "new_records": 6,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 62,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1459
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1465
   },
   "telegram": [
     {
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 349,
+      "records": 351,
       "status": "ok"
     },
     {
@@ -45,8 +45,8 @@
     },
     {
       "url": "https://t.me/s/Pourdehghan_ir",
-      "pages": 209,
-      "records": 172,
+      "pages": 210,
+      "records": 176,
       "status": "ok"
     }
   ],
@@ -1337,7 +1337,7 @@
     {
       "platform": "instagram",
       "url": "https://instagram.com/p/CLeyo-bATmV",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "instagram",
@@ -1372,27 +1372,27 @@
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/p/CJZJKDvgzbx/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/p/CLeyo-bATmV/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/p/CQ4g4qBMzgG/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/p/CdOVOXUsun5/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/tv/CcNp0hVpbMy/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "instagram",

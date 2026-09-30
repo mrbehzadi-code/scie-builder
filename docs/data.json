@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3192,
+    "people": 3198,
     "academic_candidates": 1561,
     "regional_evidence": 566,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1459
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1465
     },
-    "public_source_records": 2814,
-    "social_public_records": 1448
+    "public_source_records": 2815,
+    "social_public_records": 1454
   },
   "people": [
     {
@@ -72427,6 +72427,108 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "⭕️ پزشکیان استخاره بد در مراسم روز بازگشایی مدارس را تکذیب کرد / آقای پزشکیان حداقل به محتوای این آیه عمل کنید پزشکیان: 🔹 هنگامی که قرآن را باز کردم آیه «وَأَطِيعُوا اللَّهَ وَرَسُولَهُ وَلَا تَنَازَعُوا فَتَفْشَلُوا وَتَذْهَبَ رِيحُكُمْ ۖ وَاصْبِرُوا ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ»(آیه 46 سوره انفال) آمد و ما هم باید صبر کنیم چاره‌ای نداریم. 🔹 همه تصور کردن بد آمده اما این آیه خیلی خوب بود. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "حمامی یاد",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✔️ پیام تسلیت نمایندۀ مردم اردکان در پی درگذشت مادر گرانقدر شهید والامقام جواد حلوایی إِنَّا لله وَإِنَّا إِلَیْهِ رَاجِعُونَ خبر درگذشت حاجیه‌خانم فاطمه حمامی، مادر گرامی شهید جواد حلوایی، برای جامعه ایثار و شهادت اردکان خبری تلخ و سنگین بود. مادر شهید بودن، سال‌ها زندگی کردن با جای خالی فرزند است؛ صبری که کسی جز مادر، عمق آن را نمی‌داند. حاجیه‌خانم حمامی یاد و نام فرزند شهیدش را در تمام عمر با خود داشت و امروز پس ا",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "فاطمه حمامی",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✔️ پیام تسلیت نمایندۀ مردم اردکان در پی درگذشت مادر گرانقدر شهید والامقام جواد حلوایی إِنَّا لله وَإِنَّا إِلَیْهِ رَاجِعُونَ خبر درگذشت حاجیه‌خانم فاطمه حمامی، مادر گرامی شهید جواد حلوایی، برای جامعه ایثار و شهادت اردکان خبری تلخ و سنگین بود. مادر شهید بودن، سال‌ها زندگی کردن با جای خالی فرزند است؛ صبری که کسی جز مادر، عمق آن را نمی‌داند. حاجیه‌خانم حمامی یاد و نام فرزند شهیدش را در تمام عمر با خود داشت و امروز پس ا",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "نوروزی تقدیر",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅️ آیین تکریم و معارفه رئیس اداره تعزیرات حکومتی اردکان برگزار شد ✍️🏻 آیین تکریم و معارفه رئیس اداره تعزیرات حکومتی شهرستان اردکان با حضور فرماندار ویژه شهرستان اردکان، معاونان فرمانداری، دادستان اردکان و جمعی از مسئولان دستگاه‌های مرتبط برگزار شد. در این آیین از زحمات و خدمات جناب آقای نوروزی تقدیر و برای جناب آقای صفار، رئیس جدید اداره تعزیرات حکومتی شهرستان اردکان، آرزوی موفقیت و توفیق شد. ☫ روابط عمومی فرمانداری ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پورهاشمی در دوران مسئولیت",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✔️ عیادت از دکتر پورهاشمی مدیر سابق شبکه بهداشت و درمان شهرستان نمایندۀ مردم اردکان با حضور در منزل دکتر پورهاشمی، مدیر سابق شبکه بهداشت و درمان شهرستان اردکان، از وی که این روزها دوران درمان بیماری را سپری می‌کند، عیادت کرد. پوردهقان اردکان ضمن تقدیر از خدمات دکتر پورهاشمی در دوران مسئولیت، برای وی آرزوی سلامتی و بهبودی کرد. ✅ Pourdehghan.ir",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پورهاشمی مدیر سابق شبکه",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✔️ عیادت از دکتر پورهاشمی مدیر سابق شبکه بهداشت و درمان شهرستان نمایندۀ مردم اردکان با حضور در منزل دکتر پورهاشمی، مدیر سابق شبکه بهداشت و درمان شهرستان اردکان، از وی که این روزها دوران درمان بیماری را سپری می‌کند، عیادت کرد. پوردهقان اردکان ضمن تقدیر از خدمات دکتر پورهاشمی در دوران مسئولیت، برای وی آرزوی سلامتی و بهبودی کرد. ✅ Pourdehghan.ir",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "هالا هاریت",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "خانم هالا هاریت، دیپلمات و سخنگوی سابق وزارت خارجه آمریکا از چرایی و چگونگی حمله آمریکا به مدرسه میناب می‌گوید: حمله کردیم تا کار به اسم حکومت تمام شود و مردم اعتراض کنند. حمله عامدانه در دو مرحله انجام شد، تا تعداد قربانیان افزایش پیدا کند. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
