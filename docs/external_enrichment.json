@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-09-29",
-  "candidate_count": 3192,
+  "generated_at": "2026-09-30",
+  "candidate_count": 3198,
   "metrics": {
     "openalex_skipped": 1554,
-    "unsupported_or_missing_id": 1569,
+    "unsupported_or_missing_id": 1575,
     "openalex_reused": 7,
-    "github_reused": 61,
-    "github_enriched": 1,
+    "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3123
+    "skipped_total": 3129
   },
   "failures": {},
   "profiles": [
@@ -28020,6 +28019,48 @@
     {
       "candidate_index": 3191,
       "name": "پزشکیان حداقل به محتوای",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3192,
+      "name": "حمامی یاد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3193,
+      "name": "فاطمه حمامی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3194,
+      "name": "نوروزی تقدیر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3195,
+      "name": "پورهاشمی در دوران مسئولیت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3196,
+      "name": "پورهاشمی مدیر سابق شبکه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3197,
+      "name": "هالا هاریت",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

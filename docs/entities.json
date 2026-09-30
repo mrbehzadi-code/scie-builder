@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "metrics": {
-    "candidate_records": 3192,
-    "canonical_entities": 3179,
+    "candidate_records": 3198,
+    "canonical_entities": 3185,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3200,7 +3200,13 @@
     "3188": "scie-entity-03176",
     "3189": "scie-entity-03177",
     "3190": "scie-entity-03178",
-    "3191": "scie-entity-03179"
+    "3191": "scie-entity-03179",
+    "3192": "scie-entity-03180",
+    "3193": "scie-entity-03181",
+    "3194": "scie-entity-03182",
+    "3195": "scie-entity-03183",
+    "3196": "scie-entity-03184",
+    "3197": "scie-entity-03185"
   },
   "entities": [
     {
@@ -96986,6 +96992,180 @@
       "primary_name": "پزشکیان حداقل به محتوای",
       "aliases": [
         "پزشکیان حداقل به محتوای"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03180",
+      "candidate_indexes": [
+        3192
+      ],
+      "record_count": 1,
+      "primary_name": "حمامی یاد",
+      "aliases": [
+        "حمامی یاد"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03181",
+      "candidate_indexes": [
+        3193
+      ],
+      "record_count": 1,
+      "primary_name": "فاطمه حمامی",
+      "aliases": [
+        "فاطمه حمامی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03182",
+      "candidate_indexes": [
+        3194
+      ],
+      "record_count": 1,
+      "primary_name": "نوروزی تقدیر",
+      "aliases": [
+        "نوروزی تقدیر"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03183",
+      "candidate_indexes": [
+        3195
+      ],
+      "record_count": 1,
+      "primary_name": "پورهاشمی در دوران مسئولیت",
+      "aliases": [
+        "پورهاشمی در دوران مسئولیت"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03184",
+      "candidate_indexes": [
+        3196
+      ],
+      "record_count": 1,
+      "primary_name": "پورهاشمی مدیر سابق شبکه",
+      "aliases": [
+        "پورهاشمی مدیر سابق شبکه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03185",
+      "candidate_indexes": [
+        3197
+      ],
+      "record_count": 1,
+      "primary_name": "هالا هاریت",
+      "aliases": [
+        "هالا هاریت"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
