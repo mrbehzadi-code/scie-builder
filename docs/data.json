@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-30",
+  "generated_at": "2026-10-01",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3198,
+    "people": 3200,
     "academic_candidates": 1561,
     "regional_evidence": 566,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1465
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1467
     },
-    "public_source_records": 2815,
-    "social_public_records": 1454
+    "public_source_records": 2821,
+    "social_public_records": 1456
   },
   "people": [
     {
@@ -72529,6 +72529,40 @@
       "type": "ظرفیت اجتماعی",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "خانم هالا هاریت، دیپلمات و سخنگوی سابق وزارت خارجه آمریکا از چرایی و چگونگی حمله آمریکا به مدرسه میناب می‌گوید: حمله کردیم تا کار به اسم حکومت تمام شود و مردم اعتراض کنند. حمله عامدانه در دو مرحله انجام شد، تا تعداد قربانیان افزایش پیدا کند. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "محمد علی مخدوم زاده",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅️ روایت ایثار و حماسه در برنامه «تا پای جان» با حضور: رزمنده دفاع مقدس جناب آقای محمد علی مخدوم زاده ▫️ تولید مشترک سیمای مرکز یزد و فرمانداری ویژه شهرستان اردکان ☫ روابط عمومی فرمانداری ویژه اردکان @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "محمد جواد لاریجانی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "دکتر محمد جواد لاریجانی: ▪️ یادداشت تفاهم اسلام‌آباد برجام دوم است؛ از برجام اول هم بدتر و عمرش هم کوتاه‌تر بود. ▪️ بند اول این توافق عملاً به نفع رژیم صهیونیستی بوده است. ▪️ وقتی جبهه مقاومت و ایران فراتر از یک اتحاد هستند، چرا باید در متن توافق محدودیت‌هایی برای مقاومت در برابر رژیم صهیونیستی پذیرفته شود؟ ▪️ سرزمین لبنان تحت اشغال است، اما در توافق اسلام‌آباد گفته‌ایم لبنان نباید حمله‌ای به رژیم صهیونیستی داشته باش",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
