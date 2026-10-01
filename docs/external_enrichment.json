@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-30",
-  "candidate_count": 3198,
+  "generated_at": "2026-10-01",
+  "candidate_count": 3200,
   "metrics": {
     "openalex_skipped": 1554,
-    "unsupported_or_missing_id": 1575,
+    "unsupported_or_missing_id": 1577,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3129
+    "skipped_total": 3131
   },
   "failures": {},
   "profiles": [
@@ -28061,6 +28061,20 @@
     {
       "candidate_index": 3197,
       "name": "هالا هاریت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3198,
+      "name": "محمد علی مخدوم زاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3199,
+      "name": "محمد جواد لاریجانی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
