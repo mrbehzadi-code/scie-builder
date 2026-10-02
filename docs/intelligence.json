@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-01",
-  "candidate_count": 3200,
+  "generated_at": "2026-10-02",
+  "candidate_count": 3201,
   "metrics": {
-    "unique_name_keys": 3108,
+    "unique_name_keys": 3109,
     "possible_duplicate_groups": 88,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 13,
     "quality_strong": 5,
-    "quality_medium": 3108,
+    "quality_medium": 3109,
     "quality_weak": 87,
     "shared_organization_groups": 96,
     "shared_location_groups": 7,
-    "evidence_items": 7476,
+    "evidence_items": 7478,
     "organizations_detected": 223,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1538,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1467,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1468,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 62,
@@ -54,7 +54,7 @@
     "کاندیدای کشف از سرنخ": 22,
     "پزشکی و سلامت": 682,
     "مدیریت و جامعه": 100,
-    "فرهنگ و هنر": 17,
+    "فرهنگ و هنر": 18,
     "فنی و مهندسی": 104,
     "ظرفیت اجتماعی": 185,
     "دانش و دانشگاه": 368,
@@ -125,8 +125,8 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1456,
-    "Ardakan keyword in same public post": 536,
+    "public Telegram preview": 1457,
+    "Ardakan keyword in same public post": 537,
     "public author profile": 1246,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
@@ -51418,6 +51418,22 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3200,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -54242,9 +54258,10 @@
         3196,
         3197,
         3198,
-        3199
+        3199,
+        3200
       ],
-      "count": 1456
+      "count": 1457
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."

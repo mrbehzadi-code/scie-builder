@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01",
-  "candidate_count": 3200,
+  "generated_at": "2026-10-02",
+  "candidate_count": 3201,
   "metrics": {
     "openalex_skipped": 1554,
-    "unsupported_or_missing_id": 1577,
+    "unsupported_or_missing_id": 1578,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3131
+    "skipped_total": 3132
   },
   "failures": {},
   "profiles": [
@@ -28075,6 +28075,13 @@
     {
       "candidate_index": 3199,
       "name": "محمد جواد لاریجانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3200,
+      "name": "قوه درباره نمایش",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
