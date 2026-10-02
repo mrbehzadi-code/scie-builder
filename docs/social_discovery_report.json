@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T07:45:30Z",
+  "generated_at": "2026-10-02T07:31:09Z",
   "target": 5000,
-  "pool_size": 3200,
-  "new_records": 2,
+  "pool_size": 3201,
+  "new_records": 1,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 62,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1467
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1468
   },
   "telegram": [
     {

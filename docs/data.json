@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-01",
+  "generated_at": "2026-10-02",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3200,
+    "people": 3201,
     "academic_candidates": 1561,
     "regional_evidence": 566,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1467
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1468
     },
-    "public_source_records": 2821,
-    "social_public_records": 1456
+    "public_source_records": 2823,
+    "social_public_records": 1457
   },
   "people": [
     {
@@ -72572,6 +72572,23 @@
       "verification": "needs_review",
       "confidence": "low",
       "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "قوه درباره نمایش",
+      "type": "فرهنگ و هنر",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🎭 نظر ریاست محترم دادگستری شهرستان اردکان جناب آقای قوه درباره نمایش «AK47» همیشه شنیدن حس و نظر مخاطب، برای ما یکی از قشنگ‌ترین بخش‌های این مسیر است. 🥰 ممنونیم که با حضور و نگاه ارزشمندتون، همراه «AK47» هستید. ❤️ 📅 از ۳۰ شهریور ۱۴۰۵ الی ... ⏰ هر شب | ساعت ۸ 📍 سالن اصلی تئاتر - اداره فرهنگ و ارشاد شهرستان میبد 🎟️ برای رزرو بلیت: 📞 ۰۹۱۳۳۵۷۲۹۰۲ یک شب خوب، با یک اجرای خوب منتظر شماست. ❤️ 🎭",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
     }
