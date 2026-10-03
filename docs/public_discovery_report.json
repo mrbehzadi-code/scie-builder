@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T07:21:25Z",
+  "generated_at": "2026-10-03T06:54:09Z",
   "target": 5000,
   "queries": 330,
-  "search_results": 3157,
+  "search_results": 3059,
   "accepted_candidates": 122,
   "new_records": 0,
-  "pool_size": 3200,
+  "pool_size": 3201,
   "by_source": {
     "OpenAlex Discovery": 1538,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1467,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1468,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 62,

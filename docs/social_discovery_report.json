@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T07:31:09Z",
+  "generated_at": "2026-10-03T07:02:47Z",
   "target": 5000,
-  "pool_size": 3201,
-  "new_records": 1,
+  "pool_size": 3209,
+  "new_records": 8,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 62,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1468
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1476
   },
   "telegram": [
     {
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 352,
+      "records": 359,
       "status": "ok"
     },
     {
@@ -46,7 +46,7 @@
     {
       "url": "https://t.me/s/Pourdehghan_ir",
       "pages": 210,
-      "records": 176,
+      "records": 177,
       "status": "ok"
     }
   ],
@@ -152,7 +152,7 @@
     {
       "platform": "instagram",
       "url": "http://instagram.com/_u/khamenei_ir",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "HTTP Error 500: Internal Server Error"
     },
     {
       "platform": "instagram",
@@ -742,7 +742,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4501",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
@@ -1057,7 +1057,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4700",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",

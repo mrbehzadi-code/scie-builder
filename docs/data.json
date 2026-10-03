@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-03",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3201,
+    "people": 3209,
     "academic_candidates": 1561,
     "regional_evidence": 566,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1468
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1476
     },
-    "public_source_records": 2823,
-    "social_public_records": 1457
+    "public_source_records": 2824,
+    "social_public_records": 1465
   },
   "people": [
     {
@@ -72589,6 +72589,142 @@
       "verification": "needs_review",
       "confidence": "medium",
       "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "موهبتی معاون وزیر بهداشت",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ بازدید دکتر موهبتی معاون وزیر بهداشت از پروژه‌های درمانی شهرستان اردکان طاهر موهبتی، معاون توسعه مدیریت و منابع وزارت بهداشت، به دعوت نماینده مردم اردکان با حضور در شهرستان از چند پروژه مهم بهداشت و درمان اردکان بازدید کرد و در جریان آخرین وضعیت طرح‌های در دست اجرا قرار گرفت. موهبتی در این سفر از ساختمان طب ایرانی و دانشکدۀ علوم پزشکی و همچنین طرح توسعۀ بیمارستان ضیایی (صدارت) بازدید و نیازهای مالی و نیروی انسانی ا",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "آزاده غضنفری کارشناس کار",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 شنبه ۱۱ شهریور 🔹 شیفت صبح 🔸 دکتر مجید دهقانی متخصص طب فیزیک و توانبخشی ساعت ۱۰:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸 دکتر الهام مروتی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر رضا ذاکری متخصص جراحی عمومی ساعت ۱۰:۳۰ 🔸 دکتر شیماالسادات دهقانپور متخصص چشم ساعت ۸:۳۰ 🔸 دکتر مهدیه اسلامی متخصص مغز و اعصاب ساعت ۸:۳۰ 🔸 ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "حمیدرضا رشیدی متخصص قلب",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 شنبه ۱۱ شهریور 🔹 شیفت صبح 🔸 دکتر مجید دهقانی متخصص طب فیزیک و توانبخشی ساعت ۱۰:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸 دکتر الهام مروتی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر رضا ذاکری متخصص جراحی عمومی ساعت ۱۰:۳۰ 🔸 دکتر شیماالسادات دهقانپور متخصص چشم ساعت ۸:۳۰ 🔸 دکتر مهدیه اسلامی متخصص مغز و اعصاب ساعت ۸:۳۰ 🔸 ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "خانعلی زاده",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "استوری دکتر خانعلی زاده: سيد عباس عراقچی آنقدر در نیویورک ماند تا نهایتا با دستور مارکو روبیو، او را اخراج کردند. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "رئیسی تماس گرفتبم که",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#صدای_مردم سلام وقت بخیر ببخشید میشه توکانال بگذارید شاید اینجوری یه کسی پیگیری کنه حدودیکساله که لامپ تیربرق کوچه سوخته خودم شخصا ازعیدتاحالا چندبارثبت نام سیستمی کردم و چندین بار خودم و همسرم با آقای رئیسی تماس گرفتبم که گفتن لامپ تحویل گرفتم تا آخرهفته میام الان۶ماه شده بعدا هم لامپ که تعویض نشده ثبت کردند که تعویض شده من بچه کوچک دارم خونه ام کنار کوه هست شب حیوانات وحشی زیادن باید باترس رفت و آمد کنم باید همیشه ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "شیماالسادات دهقانپور متخصص چشم",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 شنبه ۱۱ شهریور 🔹 شیفت صبح 🔸 دکتر مجید دهقانی متخصص طب فیزیک و توانبخشی ساعت ۱۰:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸 دکتر الهام مروتی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر رضا ذاکری متخصص جراحی عمومی ساعت ۱۰:۳۰ 🔸 دکتر شیماالسادات دهقانپور متخصص چشم ساعت ۸:۳۰ 🔸 دکتر مهدیه اسلامی متخصص مغز و اعصاب ساعت ۸:۳۰ 🔸 ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "قرائتی نادرست است",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔺 🔻 خبر درگذشت حجت‌الاسلام قرائتی نادرست است 🔹 پیگیری خبرنگار فارس نشان می‌دهد اخبار منتشر شده در فضای مجازی درباره سلامتی حجت‌الاسلام قرائتی نادرست است. 🔹 قرائتی هم‌اکنون برای حضور در اجلاسیه سراسری اقامه نماز در مشهد حضور دارد. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پزشکیان به این نتیجه",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔺 🔻 عضو سابق شورای اطلاع رسانی دولت: پزشکیان به این نتیجه رسیده که وزیر نفت باید تغییر کند محمد مهاجری در کانال شخصی نوشت: 🔹 گویا کار وزیر نفت به پایان رسیده و آقای پزشکیان به این نتیجه رسیده که آقای محسن_پاک‌نژاد باید از قطار دولت پیاده شود. 🔹 اتفاق خوبی است اما کارآمدتر شدن دولت در گرو کنارگذاشتن دوسه وزیر دیگر است. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
     }
