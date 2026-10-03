@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-03",
   "metrics": {
-    "candidate_records": 3201,
-    "canonical_entities": 3188,
+    "candidate_records": 3209,
+    "canonical_entities": 3196,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3209,7 +3209,15 @@
     "3197": "scie-entity-03185",
     "3198": "scie-entity-03186",
     "3199": "scie-entity-03187",
-    "3200": "scie-entity-03188"
+    "3200": "scie-entity-03188",
+    "3201": "scie-entity-03189",
+    "3202": "scie-entity-03190",
+    "3203": "scie-entity-03191",
+    "3204": "scie-entity-03192",
+    "3205": "scie-entity-03193",
+    "3206": "scie-entity-03194",
+    "3207": "scie-entity-03195",
+    "3208": "scie-entity-03196"
   },
   "entities": [
     {
@@ -97256,6 +97264,238 @@
       "primary_name": "قوه درباره نمایش",
       "aliases": [
         "قوه درباره نمایش"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03189",
+      "candidate_indexes": [
+        3201
+      ],
+      "record_count": 1,
+      "primary_name": "موهبتی معاون وزیر بهداشت",
+      "aliases": [
+        "موهبتی معاون وزیر بهداشت"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03190",
+      "candidate_indexes": [
+        3202
+      ],
+      "record_count": 1,
+      "primary_name": "آزاده غضنفری کارشناس کار",
+      "aliases": [
+        "آزاده غضنفری کارشناس کار"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03191",
+      "candidate_indexes": [
+        3203
+      ],
+      "record_count": 1,
+      "primary_name": "حمیدرضا رشیدی متخصص قلب",
+      "aliases": [
+        "حمیدرضا رشیدی متخصص قلب"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03192",
+      "candidate_indexes": [
+        3204
+      ],
+      "record_count": 1,
+      "primary_name": "خانعلی زاده",
+      "aliases": [
+        "خانعلی زاده"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03193",
+      "candidate_indexes": [
+        3205
+      ],
+      "record_count": 1,
+      "primary_name": "رئیسی تماس گرفتبم که",
+      "aliases": [
+        "رئیسی تماس گرفتبم که"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03194",
+      "candidate_indexes": [
+        3206
+      ],
+      "record_count": 1,
+      "primary_name": "شیماالسادات دهقانپور متخصص چشم",
+      "aliases": [
+        "شیماالسادات دهقانپور متخصص چشم"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03195",
+      "candidate_indexes": [
+        3207
+      ],
+      "record_count": 1,
+      "primary_name": "قرائتی نادرست است",
+      "aliases": [
+        "قرائتی نادرست است"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03196",
+      "candidate_indexes": [
+        3208
+      ],
+      "record_count": 1,
+      "primary_name": "پزشکیان به این نتیجه",
+      "aliases": [
+        "پزشکیان به این نتیجه"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

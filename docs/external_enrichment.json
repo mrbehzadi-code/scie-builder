@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02",
-  "candidate_count": 3201,
+  "generated_at": "2026-10-03",
+  "candidate_count": 3209,
   "metrics": {
     "openalex_skipped": 1554,
-    "unsupported_or_missing_id": 1578,
+    "unsupported_or_missing_id": 1586,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3132
+    "skipped_total": 3140
   },
   "failures": {},
   "profiles": [
@@ -28082,6 +28082,62 @@
     {
       "candidate_index": 3200,
       "name": "قوه درباره نمایش",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3201,
+      "name": "موهبتی معاون وزیر بهداشت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3202,
+      "name": "آزاده غضنفری کارشناس کار",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3203,
+      "name": "حمیدرضا رشیدی متخصص قلب",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3204,
+      "name": "خانعلی زاده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3205,
+      "name": "رئیسی تماس گرفتبم که",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3206,
+      "name": "شیماالسادات دهقانپور متخصص چشم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3207,
+      "name": "قرائتی نادرست است",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3208,
+      "name": "پزشکیان به این نتیجه",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
