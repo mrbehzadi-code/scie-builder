@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03",
+  "generated_at": "2026-10-04",
   "metrics": {
-    "candidate_records": 3209,
-    "canonical_entities": 3196,
+    "candidate_records": 3215,
+    "canonical_entities": 3202,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3217,7 +3217,13 @@
     "3205": "scie-entity-03193",
     "3206": "scie-entity-03194",
     "3207": "scie-entity-03195",
-    "3208": "scie-entity-03196"
+    "3208": "scie-entity-03196",
+    "3209": "scie-entity-03197",
+    "3210": "scie-entity-03198",
+    "3211": "scie-entity-03199",
+    "3212": "scie-entity-03200",
+    "3213": "scie-entity-03201",
+    "3214": "scie-entity-03202"
   },
   "entities": [
     {
@@ -97496,6 +97502,182 @@
       "primary_name": "پزشکیان به این نتیجه",
       "aliases": [
         "پزشکیان به این نتیجه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03197",
+      "candidate_indexes": [
+        3209
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Sahraei Ardakani",
+      "aliases": [
+        "Mohammad Sahraei Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5153723575"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5153723575"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03198",
+      "candidate_indexes": [
+        3210
+      ],
+      "record_count": 1,
+      "primary_name": "Mohamad Karimi-Zadeh Ardakani",
+      "aliases": [
+        "Mohamad Karimi-Zadeh Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5154154858"
+      ],
+      "organizations": [
+        "University of Tehran"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5154154858"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03199",
+      "candidate_indexes": [
+        3211
+      ],
+      "record_count": 1,
+      "primary_name": "Hesam al-Din Ardakani Razi",
+      "aliases": [
+        "Hesam al-Din Ardakani Razi"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5153808835"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5153808835"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03200",
+      "candidate_indexes": [
+        3212
+      ],
+      "record_count": 1,
+      "primary_name": "سعید متولی‌زاده اردکانی",
+      "aliases": [
+        "سعید متولی‌زاده اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5153772710"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5153772710"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03201",
+      "candidate_indexes": [
+        3213
+      ],
+      "record_count": 1,
+      "primary_name": "شایان رجبی زاده اردکانی",
+      "aliases": [
+        "شایان رجبی زاده اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5154149884"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5154149884"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03202",
+      "candidate_indexes": [
+        3214
+      ],
+      "record_count": 1,
+      "primary_name": "یوسف عزیزی",
+      "aliases": [
+        "یوسف عزیزی"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

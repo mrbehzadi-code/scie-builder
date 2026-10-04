@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-03",
-  "candidate_count": 3209,
+  "generated_at": "2026-10-04",
+  "candidate_count": 3215,
   "metrics": {
-    "with_organization": 763,
-    "with_location": 1584,
-    "with_stable_source_id": 1623,
-    "ardakan_location_signal": 1581,
-    "completeness_high": 763,
-    "completeness_medium": 2360,
+    "with_organization": 764,
+    "with_location": 1585,
+    "with_stable_source_id": 1628,
+    "ardakan_location_signal": 1582,
+    "completeness_high": 764,
+    "completeness_medium": 2365,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 1561,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1476,
+    "OpenAlex": 1566,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1477,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub": 62,
@@ -129332,6 +129332,251 @@
     {
       "candidate_index": 3208,
       "name": "پزشکیان به این نتیجه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3209,
+      "name": "Mohammad Sahraei Ardakani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5153723575",
+      "identifiers": {
+        "openalex_id": "A5153723575",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3210,
+      "name": "Mohamad Karimi-Zadeh Ardakani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5154154858",
+      "identifiers": {
+        "openalex_id": "A5154154858",
+        "github_username": null
+      },
+      "organization": "University of Tehran",
+      "work_count": 2,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3211,
+      "name": "Hesam al-Din Ardakani Razi",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5153808835",
+      "identifiers": {
+        "openalex_id": "A5153808835",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3212,
+      "name": "سعید متولی‌زاده اردکانی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5153772710",
+      "identifiers": {
+        "openalex_id": "A5153772710",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3213,
+      "name": "شایان رجبی زاده اردکانی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5154149884",
+      "identifiers": {
+        "openalex_id": "A5154149884",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3214,
+      "name": "یوسف عزیزی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "source_url": "https://t.me/s/ardakaneemrooz_ir",

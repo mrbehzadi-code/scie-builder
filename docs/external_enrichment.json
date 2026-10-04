@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-03",
-  "candidate_count": 3209,
+  "generated_at": "2026-10-04",
+  "candidate_count": 3215,
   "metrics": {
-    "openalex_skipped": 1554,
-    "unsupported_or_missing_id": 1586,
+    "openalex_skipped": 1559,
+    "unsupported_or_missing_id": 1587,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3140
+    "skipped_total": 3146
   },
   "failures": {},
   "profiles": [
@@ -28138,6 +28138,63 @@
     {
       "candidate_index": 3208,
       "name": "پزشکیان به این نتیجه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3209,
+      "name": "Mohammad Sahraei Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3210,
+      "name": "Mohamad Karimi-Zadeh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3211,
+      "name": "Hesam al-Din Ardakani Razi",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3212,
+      "name": "سعید متولی‌زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3213,
+      "name": "شایان رجبی زاده اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3214,
+      "name": "یوسف عزیزی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
