@@ -1,19 +1,24 @@
 {
-  "generated_at": "2026-10-03T06:54:09Z",
+  "generated_at": "2026-10-04T07:16:00Z",
   "target": 5000,
   "queries": 330,
-  "search_results": 3059,
+  "search_results": 3182,
   "accepted_candidates": 122,
   "new_records": 0,
-  "pool_size": 3201,
+  "pool_size": 3214,
   "by_source": {
-    "OpenAlex Discovery": 1538,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1468,
+    "OpenAlex Discovery": 1543,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1476,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 62,
     "دانشگاه‌های داخلی و خارجی": 1,
     "Lead-guided OpenAlex Discovery": 23
   },
-  "errors": []
+  "errors": [
+    {
+      "query": "site:t.me هنرمند اردکان",
+      "error": "The read operation timed out"
+    }
+  ]
 }

@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-03",
+  "generated_at": "2026-10-04",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3209,
-    "academic_candidates": 1561,
-    "regional_evidence": 566,
+    "people": 3215,
+    "academic_candidates": 1566,
+    "regional_evidence": 568,
     "sources": {
       "GitHub Discovery": 62,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1538,
+      "OpenAlex Discovery": 1543,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1476
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1477
     },
-    "public_source_records": 2824,
-    "social_public_records": 1465
+    "public_source_records": 2837,
+    "social_public_records": 1466
   },
   "people": [
     {
@@ -72716,6 +72716,108 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🔺 🔻 عضو سابق شورای اطلاع رسانی دولت: پزشکیان به این نتیجه رسیده که وزیر نفت باید تغییر کند محمد مهاجری در کانال شخصی نوشت: 🔹 گویا کار وزیر نفت به پایان رسیده و آقای پزشکیان به این نتیجه رسیده که آقای محسن_پاک‌نژاد باید از قطار دولت پیاده شود. 🔹 اتفاق خوبی است اما کارآمدتر شدن دولت در گرو کنارگذاشتن دوسه وزیر دیگر است. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "Mohammad Sahraei Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5153723575",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Mohamad Karimi-Zadeh Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5154154858",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Hesam al-Din Ardakani Razi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5153808835",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "سعید متولی‌زاده اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5153772710",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "شایان رجبی زاده اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5154149884",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "یوسف عزیزی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ من بعد از ۱۳ سال از آمریکا به ایران برگشتم و اصلا باورم نشد که وارد یک کشور جنگ‌زده شده‌ام، همه چیز در ایران عادی است و اصلا حالت یک کشور که دو مرتبه مورد حمله نظامی قرار گرفته را ندارد دکتر یوسف عزیزی، تحلیلگر مسائل بین‌الملل: 🔹 چون در جنگ عراق و افغانستان هزینه اقتصادی به مردم آمریکا تحمیل نشد باور نمی‌کردند در این جنگ هم مورد سختی‌های معیشتی و اقتصادی قرار بگیرند، اما وضعیت معیشتی مردم طبقه متوسط و کارگران آمری",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
