@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2880,
+    "insufficient": 2882,
     "possible": 319,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -49139,6 +49139,32 @@
     {
       "candidate_index": 3214,
       "name": "یوسف عزیزی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3215,
+      "name": "میثم ظهوریان نایب‌رئیس کمیسیون",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3216,
+      "name": "پزشکیان رئیس جمهور",
       "score": 10,
       "status": "insufficient",
       "reasons": [
