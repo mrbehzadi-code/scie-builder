@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-04",
-  "candidate_count": 3215,
+  "generated_at": "2026-10-05",
+  "candidate_count": 3217,
   "metrics": {
     "openalex_skipped": 1559,
-    "unsupported_or_missing_id": 1587,
+    "unsupported_or_missing_id": 1589,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3146
+    "skipped_total": 3148
   },
   "failures": {},
   "profiles": [
@@ -28195,6 +28195,20 @@
     {
       "candidate_index": 3214,
       "name": "یوسف عزیزی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3215,
+      "name": "میثم ظهوریان نایب‌رئیس کمیسیون",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3216,
+      "name": "پزشکیان رئیس جمهور",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

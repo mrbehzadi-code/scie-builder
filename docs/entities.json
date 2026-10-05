@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04",
+  "generated_at": "2026-10-05",
   "metrics": {
-    "candidate_records": 3215,
-    "canonical_entities": 3202,
+    "candidate_records": 3217,
+    "canonical_entities": 3204,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3223,7 +3223,9 @@
     "3211": "scie-entity-03199",
     "3212": "scie-entity-03200",
     "3213": "scie-entity-03201",
-    "3214": "scie-entity-03202"
+    "3214": "scie-entity-03202",
+    "3215": "scie-entity-03203",
+    "3216": "scie-entity-03204"
   },
   "entities": [
     {
@@ -97678,6 +97680,64 @@
       "primary_name": "یوسف عزیزی",
       "aliases": [
         "یوسف عزیزی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03203",
+      "candidate_indexes": [
+        3215
+      ],
+      "record_count": 1,
+      "primary_name": "میثم ظهوریان نایب‌رئیس کمیسیون",
+      "aliases": [
+        "میثم ظهوریان نایب‌رئیس کمیسیون"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03204",
+      "candidate_indexes": [
+        3216
+      ],
+      "record_count": 1,
+      "primary_name": "پزشکیان رئیس جمهور",
+      "aliases": [
+        "پزشکیان رئیس جمهور"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
