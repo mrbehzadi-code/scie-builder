@@ -1,14 +1,14 @@
 {
-  "input_count": 3217,
-  "group_count": 123,
-  "pair_count": 135,
+  "input_count": 3237,
+  "group_count": 124,
+  "pair_count": 138,
   "decision_counts": {
     "SAME_PERSON": 13,
     "LIKELY_SAME_PERSON": 43,
-    "UNCERTAIN": 79,
+    "UNCERTAIN": 82,
     "LIKELY_DIFFERENT_PERSON": 0
   },
-  "human_review_count": 122,
+  "human_review_count": 125,
   "pairs": [
     {
       "candidate_a": 5,
@@ -965,6 +965,58 @@
       "conflicts": [],
       "human_review_required": true,
       "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 142,
+      "candidate_b": 3222,
+      "name_a": "Mohammadreza Shams‐Ardakani",
+      "name_b": "Mohammadreza Shams-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 816,
+      "candidate_b": 3222,
+      "name_a": "Mohammadreza Shams Ardakani",
+      "name_b": "Mohammadreza Shams-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
     },
     {
       "candidate_a": 143,
@@ -2743,6 +2795,32 @@
       "candidate_b": 1263,
       "name_a": "A. Beiki Ardakani",
       "name_b": "A. Beiki-Ardakani",
+      "decision": "UNCERTAIN",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "organization",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Evidence is insufficient for a safe identity decision; human review is required."
+    },
+    {
+      "candidate_a": 1257,
+      "candidate_b": 3217,
+      "name_a": "Maria Tavakkoli-Ardakani",
+      "name_b": "Maria Tavakkoli Ardakani",
       "decision": "UNCERTAIN",
       "score": 1.0,
       "confidence": 0.85,

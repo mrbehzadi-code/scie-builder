@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05",
+  "generated_at": "2026-10-06",
   "metrics": {
-    "candidate_records": 3217,
-    "canonical_entities": 3204,
+    "candidate_records": 3237,
+    "canonical_entities": 3224,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3225,7 +3225,27 @@
     "3213": "scie-entity-03201",
     "3214": "scie-entity-03202",
     "3215": "scie-entity-03203",
-    "3216": "scie-entity-03204"
+    "3216": "scie-entity-03204",
+    "3217": "scie-entity-03205",
+    "3218": "scie-entity-03206",
+    "3219": "scie-entity-03207",
+    "3220": "scie-entity-03208",
+    "3221": "scie-entity-03209",
+    "3222": "scie-entity-03210",
+    "3223": "scie-entity-03211",
+    "3224": "scie-entity-03212",
+    "3225": "scie-entity-03213",
+    "3226": "scie-entity-03214",
+    "3227": "scie-entity-03215",
+    "3228": "scie-entity-03216",
+    "3229": "scie-entity-03217",
+    "3230": "scie-entity-03218",
+    "3231": "scie-entity-03219",
+    "3232": "scie-entity-03220",
+    "3233": "scie-entity-03221",
+    "3234": "scie-entity-03222",
+    "3235": "scie-entity-03223",
+    "3236": "scie-entity-03224"
   },
   "entities": [
     {
@@ -97738,6 +97758,586 @@
       "primary_name": "پزشکیان رئیس جمهور",
       "aliases": [
         "پزشکیان رئیس جمهور"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03205",
+      "candidate_indexes": [
+        3217
+      ],
+      "record_count": 1,
+      "primary_name": "Maria Tavakkoli Ardakani",
+      "aliases": [
+        "Maria Tavakkoli Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5156722353"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5156722353"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03206",
+      "candidate_indexes": [
+        3218
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Piry Ardakani",
+      "aliases": [
+        "Mohammad Piry Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5154284907"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5154284907"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03207",
+      "candidate_indexes": [
+        3219
+      ],
+      "record_count": 1,
+      "primary_name": "Majid Kamali Ardakani",
+      "aliases": [
+        "Majid Kamali Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5155957454"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5155957454"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03208",
+      "candidate_indexes": [
+        3220
+      ],
+      "record_count": 1,
+      "primary_name": "Habib-Allah Ardakani",
+      "aliases": [
+        "Habib-Allah Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5155676612"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5155676612"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03209",
+      "candidate_indexes": [
+        3221
+      ],
+      "record_count": 1,
+      "primary_name": "Javad Behjati Ardakani",
+      "aliases": [
+        "Javad Behjati Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5156146050"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5156146050"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03210",
+      "candidate_indexes": [
+        3222
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammadreza Shams-Ardakani",
+      "aliases": [
+        "Mohammadreza Shams-Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5154634601"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5154634601"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03211",
+      "candidate_indexes": [
+        3223
+      ],
+      "record_count": 1,
+      "primary_name": "Narges Bigharaz Ardakani",
+      "aliases": [
+        "Narges Bigharaz Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5154395469"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5154395469"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03212",
+      "candidate_indexes": [
+        3224
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammadamin Fotouhi Ardakani",
+      "aliases": [
+        "Mohammadamin Fotouhi Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5154307236"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5154307236"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03213",
+      "candidate_indexes": [
+        3225
+      ],
+      "record_count": 1,
+      "primary_name": "Amirvali Azodzaade Ardakani",
+      "aliases": [
+        "Amirvali Azodzaade Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5154544701"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5154544701"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03214",
+      "candidate_indexes": [
+        3226
+      ],
+      "record_count": 1,
+      "primary_name": "Hassan Hajizadeh Ardakani",
+      "aliases": [
+        "Hassan Hajizadeh Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5155892978"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5155892978"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03215",
+      "candidate_indexes": [
+        3227
+      ],
+      "record_count": 1,
+      "primary_name": "Tavakoli Ardakani M",
+      "aliases": [
+        "Tavakoli Ardakani M"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5155543447"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5155543447"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03216",
+      "candidate_indexes": [
+        3228
+      ],
+      "record_count": 1,
+      "primary_name": "Seyed Milad Jafari, Soheil Sobhan Ardakani,",
+      "aliases": [
+        "Seyed Milad Jafari, Soheil Sobhan Ardakani,"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5155417547"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5155417547"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03217",
+      "candidate_indexes": [
+        3229
+      ],
+      "record_count": 1,
+      "primary_name": "Mohsen Malik Afzli Ardakani Ibn Kazem",
+      "aliases": [
+        "Mohsen Malik Afzli Ardakani Ibn Kazem"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5156210224"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5156210224"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03218",
+      "candidate_indexes": [
+        3230
+      ],
+      "record_count": 1,
+      "primary_name": "M. Cheraghi, H. Parvizi Mosaed, S. Sobhan Ardakani,",
+      "aliases": [
+        "M. Cheraghi, H. Parvizi Mosaed, S. Sobhan Ardakani,"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5155253686"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5155253686"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03219",
+      "candidate_indexes": [
+        3231
+      ],
+      "record_count": 1,
+      "primary_name": "Ebrahimi SM; Iradmousa MK; Rashed M; Fattahi Y; Ardakani YH; Bahadorikhalili S; Bafkary R; Erfan M; Dinarvand R; Mahboubi A",
+      "aliases": [
+        "Ebrahimi SM; Iradmousa MK; Rashed M; Fattahi Y; Ardakani YH; Bahadorikhalili S; Bafkary R; Erfan M; Dinarvand R; Mahboubi A"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5156500667"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5156500667"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03220",
+      "candidate_indexes": [
+        3232
+      ],
+      "record_count": 1,
+      "primary_name": "محمد پیری اردکانی",
+      "aliases": [
+        "محمد پیری اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5155916419"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5155916419"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03221",
+      "candidate_indexes": [
+        3233
+      ],
+      "record_count": 1,
+      "primary_name": "حسن حاجی زاده اردکانی",
+      "aliases": [
+        "حسن حاجی زاده اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5155919517"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5155919517"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03222",
+      "candidate_indexes": [
+        3234
+      ],
+      "record_count": 1,
+      "primary_name": "اسماعیل ملاحسینی",
+      "aliases": [
+        "اسماعیل ملاحسینی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03223",
+      "candidate_indexes": [
+        3235
+      ],
+      "record_count": 1,
+      "primary_name": "محمدامین لنگری اقتصاددان",
+      "aliases": [
+        "محمدامین لنگری اقتصاددان"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03224",
+      "candidate_indexes": [
+        3236
+      ],
+      "record_count": 1,
+      "primary_name": "پزشکیان با هدف حذف",
+      "aliases": [
+        "پزشکیان با هدف حذف"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
