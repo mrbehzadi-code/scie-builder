@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3237,
-    "academic_candidates": 1583,
-    "regional_evidence": 570,
+    "people": 3248,
+    "academic_candidates": 1592,
+    "regional_evidence": 571,
     "sources": {
       "GitHub Discovery": 62,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1560,
+      "OpenAlex Discovery": 1569,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1482
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1484
     },
-    "public_source_records": 2857,
-    "social_public_records": 1471
+    "public_source_records": 2869,
+    "social_public_records": 1473
   },
   "people": [
     {
@@ -73192,6 +73192,193 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🔺 آذر ۱۴۰۳ که تیم آقای پزشکیان با هدف حذف رانت بین ارز نیمایی و ارز آزاد بازار توافقی را کلید زدند و خودش باعث جهش قیمت ارز شد دلار آزاد ۷۴ هزار تومان بود. امروز تفاوت دلار آزاد با مرکز مبادله خودش به ۱۰۰ هزار تومان رسیده است. نرخ دلار آزاد ۲۷۰ هزار تومان. ارز مرکز مبادله ۱۷۰ هزار تومان. 🔺 هم چوب را خوردیم هم پیاز را.دوره کارآموزی این دوستان برای مملکت داری حقیقتا در بدموقعی افتاد! #وحید_اشتری @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "Zahra Masoud Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157225185",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Khadija Mosaddeq Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Islamic Azad University of Varamin",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157124006",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Maryam Mohiti Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157126349",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Hossein Fotoohi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157157317",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "MohammadHossein Alavimanesh Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157256300",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Zahra Goodarzi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · University of Mohaghegh Ardabili",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157521746",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Mohammad Amin Fotouhi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Mashhad University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157516614",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Rasoul Namavari , Mohammad Reza Ardakani , Shahab Khaghani , Mehdi Changizi , Mansour Sarajoughi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157334632",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "محمدحسین علوی‌منش اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157290558",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "طاقداریان در دوران مسئولیت",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅️ تکریم و معارفه رئیس اتاق اصناف شهرستان اردکان برگزار شد ✍️🏻 آیین تکریم و معارفه رئیس اتاق اصناف شهرستان اردکان با حضور سعید طالعی، معاون برنامه‌ریزی و توسعه فرمانداری ویژه شهرستان اردکان برگزار شد. در این مراسم از زحمات و تلاش‌های سرکار خانم طاقداریان در دوران مسئولیت تقدیر و برای جناب آقای شاکر، رئیس جدید اتاق اصناف شهرستان اردکان، در مسئولیت جدید آرزوی موفقیت و سربلندی شد. ☫ روابط عمومی فرمانداری ویژه اردکان @Ar",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "مرتضی افقه",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "بعد از جنگ ۱۲ روزه می‌دانستیم که دوباره جنگ می‌شود لذا باید میرفتیم سراغ سیاستگذارانی که بتوانند کشور را با شرایط جنگی اداره کنند نه آدم‌هایی مثل همتی!/ همتی نباید سیاست خطرناک حدف ارز ۲۸۵۰۰ تومانی را اجرا می‌کرد 🔹 دکتر مرتضی افقه، اقتصاددان و عضو هیات علمی دانشگاه شهید چمران اهواز: زمانیکه همتی وزیر اقتصاد بود به او هشدار دادم ارز ترجیحی را حدف نکن، در زمان وزارتش قصد داشت اینکار را بکند اما استیضاح شد، دوباره بعنوا",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
