@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "metrics": {
-    "candidate_records": 3237,
-    "canonical_entities": 3224,
+    "candidate_records": 3248,
+    "canonical_entities": 3235,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3245,7 +3245,18 @@
     "3233": "scie-entity-03221",
     "3234": "scie-entity-03222",
     "3235": "scie-entity-03223",
-    "3236": "scie-entity-03224"
+    "3236": "scie-entity-03224",
+    "3237": "scie-entity-03225",
+    "3238": "scie-entity-03226",
+    "3239": "scie-entity-03227",
+    "3240": "scie-entity-03228",
+    "3241": "scie-entity-03229",
+    "3242": "scie-entity-03230",
+    "3243": "scie-entity-03231",
+    "3244": "scie-entity-03232",
+    "3245": "scie-entity-03233",
+    "3246": "scie-entity-03234",
+    "3247": "scie-entity-03235"
   },
   "entities": [
     {
@@ -98338,6 +98349,331 @@
       "primary_name": "پزشکیان با هدف حذف",
       "aliases": [
         "پزشکیان با هدف حذف"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03225",
+      "candidate_indexes": [
+        3237
+      ],
+      "record_count": 1,
+      "primary_name": "Zahra Masoud Ardakani",
+      "aliases": [
+        "Zahra Masoud Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157225185"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157225185"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03226",
+      "candidate_indexes": [
+        3238
+      ],
+      "record_count": 1,
+      "primary_name": "Khadija Mosaddeq Ardakani",
+      "aliases": [
+        "Khadija Mosaddeq Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157124006"
+      ],
+      "organizations": [
+        "Islamic Azad University of Varamin"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157124006"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03227",
+      "candidate_indexes": [
+        3239
+      ],
+      "record_count": 1,
+      "primary_name": "Maryam Mohiti Ardakani",
+      "aliases": [
+        "Maryam Mohiti Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157126349"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157126349"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03228",
+      "candidate_indexes": [
+        3240
+      ],
+      "record_count": 1,
+      "primary_name": "Hossein Fotoohi Ardakani",
+      "aliases": [
+        "Hossein Fotoohi Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157157317"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157157317"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03229",
+      "candidate_indexes": [
+        3241
+      ],
+      "record_count": 1,
+      "primary_name": "MohammadHossein Alavimanesh Ardakani",
+      "aliases": [
+        "MohammadHossein Alavimanesh Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157256300"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157256300"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03230",
+      "candidate_indexes": [
+        3242
+      ],
+      "record_count": 1,
+      "primary_name": "Zahra Goodarzi Ardakani",
+      "aliases": [
+        "Zahra Goodarzi Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157521746"
+      ],
+      "organizations": [
+        "University of Mohaghegh Ardabili"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157521746"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03231",
+      "candidate_indexes": [
+        3243
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Amin Fotouhi Ardakani",
+      "aliases": [
+        "Mohammad Amin Fotouhi Ardakani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157516614"
+      ],
+      "organizations": [
+        "Mashhad University of Medical Sciences"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157516614"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03232",
+      "candidate_indexes": [
+        3244
+      ],
+      "record_count": 1,
+      "primary_name": "Rasoul Namavari , Mohammad Reza Ardakani , Shahab Khaghani , Mehdi Changizi , Mansour Sarajoughi",
+      "aliases": [
+        "Rasoul Namavari , Mohammad Reza Ardakani , Shahab Khaghani , Mehdi Changizi , Mansour Sarajoughi"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157334632"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157334632"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03233",
+      "candidate_indexes": [
+        3245
+      ],
+      "record_count": 1,
+      "primary_name": "محمدحسین علوی‌منش اردکانی",
+      "aliases": [
+        "محمدحسین علوی‌منش اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5157290558"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5157290558"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03234",
+      "candidate_indexes": [
+        3246
+      ],
+      "record_count": 1,
+      "primary_name": "طاقداریان در دوران مسئولیت",
+      "aliases": [
+        "طاقداریان در دوران مسئولیت"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03235",
+      "candidate_indexes": [
+        3247
+      ],
+      "record_count": 1,
+      "primary_name": "مرتضی افقه",
+      "aliases": [
+        "مرتضی افقه"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

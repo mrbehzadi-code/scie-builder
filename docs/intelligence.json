@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-06",
-  "candidate_count": 3237,
+  "generated_at": "2026-10-07",
+  "candidate_count": 3248,
   "metrics": {
-    "unique_name_keys": 3142,
+    "unique_name_keys": 3153,
     "possible_duplicate_groups": 90,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 13,
     "quality_strong": 5,
-    "quality_medium": 3145,
+    "quality_medium": 3156,
     "quality_weak": 87,
-    "shared_organization_groups": 96,
+    "shared_organization_groups": 97,
     "shared_location_groups": 7,
-    "evidence_items": 7572,
-    "organizations_detected": 223,
+    "evidence_items": 7603,
+    "organizations_detected": 224,
     "locations_detected": 11
   },
   "sources": {
-    "OpenAlex Discovery": 1560,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1482,
+    "OpenAlex Discovery": 1569,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1484,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 62,
@@ -25,7 +25,7 @@
     "Lead-guided OpenAlex Discovery": 23
   },
   "capacity_types": {
-    "کاندیدای پژوهشی": 1557,
+    "کاندیدای پژوهشی": 1566,
     "ورزش / والیبال": 8,
     "سایر": 86,
     "فنی / دانش‌بنیان": 1,
@@ -52,8 +52,8 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 693,
-    "مدیریت و جامعه": 101,
+    "پزشکی و سلامت": 694,
+    "مدیریت و جامعه": 102,
     "فرهنگ و هنر": 18,
     "فنی و مهندسی": 104,
     "ظرفیت اجتماعی": 187,
@@ -61,9 +61,9 @@
     "کاندیدای معرفی‌شده به اطلس": 1
   },
   "evidence_types": {
-    "OpenAlex author search": 1557,
+    "OpenAlex author search": 1566,
     "query: ardakan": 59,
-    "query: ardakani": 1040,
+    "query: ardakani": 1048,
     "Public sports report": 10,
     "Ardakan tag in competition roster": 10,
     "Public LinkedIn profile": 2,
@@ -81,7 +81,7 @@
     "Birthplace: Ardakan": 2,
     "ResearchGate profile": 6,
     "Profile name and academic record": 1,
-    "query: اردکانی": 434,
+    "query: اردکانی": 435,
     "query: اردکان": 24,
     "Current institution: Ardakan University": 3,
     "location: Ardakan": 5,
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1471,
-    "Ardakan keyword in same public post": 539,
-    "public author profile": 1268,
+    "public Telegram preview": 1473,
+    "Ardakan keyword in same public post": 540,
+    "public author profile": 1277,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 932
+    "professional name in an Ardakan-focused public channel": 933
   },
   "possible_duplicates": [
     {
@@ -52006,6 +52006,176 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3237,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3238,
+      "score": 65,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": true,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "organization",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3239,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3240,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3241,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3242,
+      "score": 65,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": true,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "organization",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3243,
+      "score": 65,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": true,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "organization",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3244,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3245,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3246,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3247,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -53015,9 +53185,10 @@
         1025,
         1248,
         1478,
-        1512
+        1512,
+        3243
       ],
-      "count": 9
+      "count": 10
     },
     {
       "organization": "university of isfahan",
@@ -53192,6 +53363,14 @@
       "candidate_indexes": [
         1154,
         1155
+      ],
+      "count": 2
+    },
+    {
+      "organization": "islamic azad university of varamin",
+      "candidate_indexes": [
+        1163,
+        3238
       ],
       "count": 2
     },
@@ -54846,9 +55025,11 @@
         3216,
         3234,
         3235,
-        3236
+        3236,
+        3246,
+        3247
       ],
-      "count": 1471
+      "count": 1473
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."

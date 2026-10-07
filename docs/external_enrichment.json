@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06",
-  "candidate_count": 3237,
+  "generated_at": "2026-10-07",
+  "candidate_count": 3248,
   "metrics": {
-    "openalex_skipped": 1576,
-    "unsupported_or_missing_id": 1592,
+    "openalex_skipped": 1585,
+    "unsupported_or_missing_id": 1594,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3168
+    "skipped_total": 3179
   },
   "failures": {},
   "profiles": [
@@ -28400,6 +28400,110 @@
     {
       "candidate_index": 3236,
       "name": "پزشکیان با هدف حذف",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3237,
+      "name": "Zahra Masoud Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3238,
+      "name": "Khadija Mosaddeq Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3239,
+      "name": "Maryam Mohiti Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3240,
+      "name": "Hossein Fotoohi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3241,
+      "name": "MohammadHossein Alavimanesh Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3242,
+      "name": "Zahra Goodarzi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3243,
+      "name": "Mohammad Amin Fotouhi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3244,
+      "name": "Rasoul Namavari , Mohammad Reza Ardakani , Shahab Khaghani , Mehdi Changizi , Mansour Sarajoughi",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3245,
+      "name": "محمدحسین علوی‌منش اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3246,
+      "name": "طاقداریان در دوران مسئولیت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3247,
+      "name": "مرتضی افقه",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
