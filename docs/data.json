@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07",
+  "generated_at": "2026-10-08",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3248,
+    "people": 3250,
     "academic_candidates": 1592,
     "regional_evidence": 571,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1484
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1486
     },
-    "public_source_records": 2869,
-    "social_public_records": 1473
+    "public_source_records": 2871,
+    "social_public_records": 1475
   },
   "people": [
     {
@@ -73379,6 +73379,40 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "بعد از جنگ ۱۲ روزه می‌دانستیم که دوباره جنگ می‌شود لذا باید میرفتیم سراغ سیاستگذارانی که بتوانند کشور را با شرایط جنگی اداره کنند نه آدم‌هایی مثل همتی!/ همتی نباید سیاست خطرناک حدف ارز ۲۸۵۰۰ تومانی را اجرا می‌کرد 🔹 دکتر مرتضی افقه، اقتصاددان و عضو هیات علمی دانشگاه شهید چمران اهواز: زمانیکه همتی وزیر اقتصاد بود به او هشدار دادم ارز ترجیحی را حدف نکن، در زمان وزارتش قصد داشت اینکار را بکند اما استیضاح شد، دوباره بعنوا",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پزشکیان در سفر اول",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "📺 فیلم/ من هم اگر جای ترامپ بودم و سخنان پزشکیان و رفتار عراقچی در آمریکا را می‌دیدم حتما دوباره به ایران حمله می‌کردم 👤 دکتر علی عبدی، تحلیلگر مسائل بین‌الملل در گفت‌وگو با «اقتصاد ۱۲۰»: غیر از سخنرانی در سازمان ملل تمام رفتارهای پزشکیان در آمریکا سراسر ضعف بود/ آقای پزشکیان در سفر اول خودش به سازمان ملل گفت اگر ما را آدم حساب کنید حاضریم سلاح‌‌های خودمان را زمین بگذاریم، همین جمله ایشان باعث ترور شهید نصرالله و حمل",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پزشکیان در مناظرات انتخاباتی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔥 با هنرنمایی پاک‌نژاد، منافع کاسبان تحریم ۱۰ برابر شد! 🔹 احسان حسینی: آقای پزشکیان در مناظرات انتخاباتی به جلیلی اتهام فروش نفت با تخفیف بالا را می‌زد اما در دوره پاک‌نژاد رقم تخفیف نفتی ۱۰ برابر شد. 🔹 این تخفیف‌ها به جیب کدام کاسبان تحریم می‌رفت؟ در وزارت نفت پاک‌نژاد، شبکه فروش نفت نیکو را به دلایل سیاسی تخریب کردند تا فضا برای تریدرها باز و فروش مستقیم نفت به پالایشگاه‌های چینی متوقف شود. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

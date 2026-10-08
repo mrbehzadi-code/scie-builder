@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2911,
+    "insufficient": 2913,
     "possible": 321,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -49680,6 +49680,32 @@
     {
       "candidate_index": 3247,
       "name": "مرتضی افقه",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3248,
+      "name": "پزشکیان در سفر اول",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3249,
+      "name": "پزشکیان در مناظرات انتخاباتی",
       "score": 10,
       "status": "insufficient",
       "reasons": [
