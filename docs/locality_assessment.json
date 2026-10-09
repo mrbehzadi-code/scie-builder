@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2913,
-    "possible": 321,
+    "insufficient": 2915,
+    "possible": 322,
     "probable": 14,
     "confirmed_by_human": 1,
     "confirmed": 1
@@ -49706,6 +49706,49 @@
     {
       "candidate_index": 3249,
       "name": "پزشکیان در مناظرات انتخاباتی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3250,
+      "name": "شفیع زاده فرماندار ویژه",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3251,
+      "name": "علوم سیاسی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3252,
+      "name": "مجتبی شجاعتی ثمرین",
       "score": 10,
       "status": "insufficient",
       "reasons": [

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-08",
+  "generated_at": "2026-10-09",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3250,
+    "people": 3253,
     "academic_candidates": 1592,
     "regional_evidence": 571,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1486
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1489
     },
-    "public_source_records": 2871,
-    "social_public_records": 1475
+    "public_source_records": 2873,
+    "social_public_records": 1478
   },
   "people": [
     {
@@ -73413,6 +73413,57 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🔥 با هنرنمایی پاک‌نژاد، منافع کاسبان تحریم ۱۰ برابر شد! 🔹 احسان حسینی: آقای پزشکیان در مناظرات انتخاباتی به جلیلی اتهام فروش نفت با تخفیف بالا را می‌زد اما در دوره پاک‌نژاد رقم تخفیف نفتی ۱۰ برابر شد. 🔹 این تخفیف‌ها به جیب کدام کاسبان تحریم می‌رفت؟ در وزارت نفت پاک‌نژاد، شبکه فروش نفت نیکو را به دلایل سیاسی تخریب کردند تا فضا برای تریدرها باز و فروش مستقیم نفت به پالایشگاه‌های چینی متوقف شود. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "شفیع زاده فرماندار ویژه",
+      "type": "فنی و مهندسی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#صدای_مردم باسمه تعالی 📌 جناب آقای فیاض فر دادستان محترم شهرستان اردکان 📌 جناب سرهنگ نظری فرد ریاست محترم نیروی انتظامی ضمن عرض خداقوت بابت همه تلاش های شبانه روزی شما و همکاران محترمتان بدون شک برقراری آرامش شهروندان ، از اولویت های کاری شماست. اهالی خیابان صدرآباد چه گناهی کرده اند که تقریبا تا بامداد باید صدای گوش خراش موتورسیکلتهای مجاز و غیر مجاز را گوش دهند. مردم مریض دارند، بچه کوچک دارند، خسته از سرکار برگشته",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "علوم سیاسی",
+      "type": "دانش و دانشگاه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "رابرت پیپ، استاد علوم سیاسی: اینکه کشوری مثل ایران از هزاران کیلومتر آن‌طرف‌تر قیمت بنزین را در شیکاگو تعیین کند، یعنی قدرت @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "مجتبی شجاعتی ثمرین",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "جهش نرخ ارز دقیقا از اظهارات همتی در شب ۲۸ مرداد آغاز شد/ او در آن شب به دروغ گفت صادرات نفت متوقف شده است/ قوه قضاییه به عنوان مدعی‌العموم به موضوع عملکرد بانک مرکزی ورود کند 🔹 دکتر مجتبی شجاعتی ثمرین، کارشناس مسائل حقوقی: مدت‌ها پس از پایان جنگ، دلار در کانال ۱۷۰ و ۱۸۰ هزار تومان ثابت مانده بود اما وقتی همتی اعلام کرد صادرات نفت متوقف شده، بازار ارز بهم ریخت. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T08:02:15Z",
+  "generated_at": "2026-10-09T07:57:12Z",
   "target": 5000,
-  "pool_size": 3250,
-  "new_records": 2,
+  "pool_size": 3253,
+  "new_records": 3,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 62,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1486
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1489
   },
   "telegram": [
     {
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 357,
+      "records": 360,
       "status": "ok"
     },
     {
@@ -702,7 +702,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4488",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
@@ -822,7 +822,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4541",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
@@ -927,7 +927,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4593",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
@@ -1032,7 +1032,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4692",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
@@ -1137,7 +1137,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4748",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
