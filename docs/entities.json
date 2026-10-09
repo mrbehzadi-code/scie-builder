@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08",
+  "generated_at": "2026-10-09",
   "metrics": {
-    "candidate_records": 3250,
-    "canonical_entities": 3237,
+    "candidate_records": 3253,
+    "canonical_entities": 3240,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3258,7 +3258,10 @@
     "3246": "scie-entity-03234",
     "3247": "scie-entity-03235",
     "3248": "scie-entity-03236",
-    "3249": "scie-entity-03237"
+    "3249": "scie-entity-03237",
+    "3250": "scie-entity-03238",
+    "3251": "scie-entity-03239",
+    "3252": "scie-entity-03240"
   },
   "entities": [
     {
@@ -98734,6 +98737,93 @@
       "primary_name": "پزشکیان در مناظرات انتخاباتی",
       "aliases": [
         "پزشکیان در مناظرات انتخاباتی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03238",
+      "candidate_indexes": [
+        3250
+      ],
+      "record_count": 1,
+      "primary_name": "شفیع زاده فرماندار ویژه",
+      "aliases": [
+        "شفیع زاده فرماندار ویژه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03239",
+      "candidate_indexes": [
+        3251
+      ],
+      "record_count": 1,
+      "primary_name": "علوم سیاسی",
+      "aliases": [
+        "علوم سیاسی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03240",
+      "candidate_indexes": [
+        3252
+      ],
+      "record_count": 1,
+      "primary_name": "مجتبی شجاعتی ثمرین",
+      "aliases": [
+        "مجتبی شجاعتی ثمرین"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-08",
-  "candidate_count": 3250,
+  "generated_at": "2026-10-09",
+  "candidate_count": 3253,
   "metrics": {
     "openalex_skipped": 1585,
-    "unsupported_or_missing_id": 1596,
+    "unsupported_or_missing_id": 1599,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3181
+    "skipped_total": 3184
   },
   "failures": {},
   "profiles": [
@@ -28518,6 +28518,27 @@
     {
       "candidate_index": 3249,
       "name": "پزشکیان در مناظرات انتخاباتی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3250,
+      "name": "شفیع زاده فرماندار ویژه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3251,
+      "name": "علوم سیاسی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3252,
+      "name": "مجتبی شجاعتی ثمرین",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
