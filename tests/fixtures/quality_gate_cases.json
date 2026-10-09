@@ -1,0 +1,11 @@
+[
+  {"name":"پزشکیان در سفر اول","source":"خبر عمومی","url":"https://example.org/1","detail":"گزارش سفر","evidence":["تیتر خبر"],"expected_status":"rejected","expected_reason":"NOT_A_PERSON"},
+  {"name":"پزشکیان در مناظرات انتخاباتی","source":"خبر عمومی","url":"https://example.org/2","detail":"مناظرات انتخاباتی","evidence":["تیتر خبر"],"expected_status":"rejected","expected_reason":"NOT_A_PERSON"},
+  {"name":"دانشگاه اردکان","source":"وب رسمی","url":"https://example.org/3","detail":"دانشگاه اردکان","evidence":["صفحه سازمان"],"expected_status":"rejected","expected_reason":"NOT_A_PERSON"},
+  {"name":"دکتر علی رضایی","source":"خبر رسمی","url":"https://example.org/4","detail":"رابط اردکان در کمیسیون رسمی","evidence":["انتصاب رسمی"],"expected_status":"validated_person"},
+  {"name":"محمدرضا توکلیان اردکانی","source":"فهرست رسمی","url":"https://example.org/5","detail":"عضو فهرست وکلا","evidence":["نام در فهرست"],"expected_status":"discovered_candidate","expected_reason":"INSUFFICIENT_LOCALITY_EVIDENCE"},
+  {"name":"حاج عبدالرضا آسایش","source":"آموزش و پرورش اردکان","url":"https://example.org/6","detail":"عضو مجمع خیرین مدرسه ساز شهرستان اردکان","evidence":["عضویت رسمی"],"expected_status":"validated_person"},
+  {"name":"رضا","source":"منبع عمومی","url":"https://example.org/7","detail":"نام ناقص","evidence":["ذکر نام"],"expected_status":"rejected","expected_reason":"AMBIGUOUS_NAME"},
+  {"name":"علی‌رضا بهزادی مقدم","source":"منبع رسمی","url":"https://example.org/8","location":"اردکان، یزد","evidence":["محل فعالیت"],"expected_status":"validated_person"},
+  {"name":"A. Falahi-Ardakani","source":"OpenAlex","url":"https://openalex.org/A5076407063","detail":"University of Maryland","evidence":["OpenAlex author search"],"expected_status":"discovered_candidate","expected_reason":"INSUFFICIENT_LOCALITY_EVIDENCE"}
+]
