@@ -1,0 +1,39 @@
+name: Quality Gate PR checks
+
+on:
+  pull_request:
+    paths:
+      - 'docs/data.json'
+      - 'docs/quality_gate_shadow.json'
+      - 'docs/app.js'
+      - 'docs/index.html'
+      - 'docs/quality-gate.css'
+      - 'engines/quality_gate.py'
+      - 'engines/validate_quality_gate.py'
+      - 'tests/**'
+      - '.github/workflows/quality-gate.yml'
+  push:
+    branches:
+      - 'feat/quality-gate-*'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: python -m unittest discover -s tests -p '*quality_gate.py' -v
+      - name: Validate committed shadow snapshot
+        run: python engines/validate_quality_gate.py
+      - name: Rebuild from current discovery data
+        run: |
+          python engines/quality_gate.py --output /tmp/quality_gate_shadow.json
+          python engines/validate_quality_gate.py --report /tmp/quality_gate_shadow.json
+      - name: Validate dashboard JavaScript
+        run: node --check docs/app.js

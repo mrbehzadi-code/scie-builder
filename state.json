@@ -1,23 +1,39 @@
 {
   "project": {
     "name": "SCIE Builder",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "phase": {
-    "current": 2,
-    "name": "Discovery Intelligence"
+    "current": 3,
+    "name": "Evidence Quality and Human Review"
   },
   "task": {
-    "current": "Live public dashboard data integration"
+    "current": "Fail-closed person/locality Quality Gate in Shadow Mode"
   },
   "status": "IN_PROGRESS",
+  "baseline_commit": "9ed168b2424630954dd145e0587ad85bdfbf7c3e",
+  "branch": "feat/quality-gate-evidence-review",
+  "metrics": {
+    "discovered_candidates": 3253,
+    "validated_people_shadow": 319,
+    "human_confirmed": 1,
+    "needs_review": 301,
+    "rejected": 173,
+    "insufficient_locality_candidates": 2460,
+    "validation_rate_percent": 9.81
+  },
   "patches": {
     "applied": [
       "patch_004_001",
       "sprint_007_dashboard",
-      "sprint_010_live_dashboard_data"
+      "sprint_010_live_dashboard_data",
+      "milestone_quality_gate_shadow"
     ],
-    "pending": []
+    "pending": [
+      "claim_first_provenance",
+      "entity_resolution_gold_set",
+      "official_source_connectors"
+    ]
   },
   "history": [
     {
@@ -34,6 +50,12 @@
       "patch": "sprint_010_live_dashboard_data",
       "event": "implemented",
       "message": "Connected the public user dashboard to a committed SCIE data snapshot with real discovered profiles and labeled academic candidates."
+    },
+    {
+      "patch": "milestone_quality_gate_shadow",
+      "event": "implemented",
+      "message": "Added fail-closed person, locality, provenance and duplicate checks in Shadow Mode with dashboard visibility and PR validation."
     }
-  ]
+  ],
+  "decision_needed_from_mohammadreza": "After reviewing the Shadow report, decide whether the public directory should include only validated_person and human_confirmed records."
 }
