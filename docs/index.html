@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="poster.css?v=20260926-9">
   <link rel="stylesheet" href="operations.css?v=20260926-5">
   <link rel="stylesheet" href="social-review.css?v=20260926-2">
+  <link rel="stylesheet" href="quality-gate.css?v=20261009-1">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="directory.css">
 </head>
@@ -72,6 +73,18 @@
     <section id="operations" class="section hidden operations-center">
       <header class="operations-hero"><div><span class="kicker">مرکز تصمیم‌گیری و کیفیت داده</span><h2>مرکز عملیات اطلس</h2><p>همهٔ موارد نیازمند تصمیم، تکمیل یا بازبینی در یک صف اولویت‌بندی‌شده؛ هر کارت شما را مستقیماً به محل انجام کار می‌برد.</p></div><div class="operations-health"><span>سلامت عملیاتی</span><strong id="operationsHealth">—</strong><small id="operationsHealthNote">در حال تحلیل داده‌ها…</small></div></header>
       <div id="operationsQueue" class="operations-queue" aria-live="polite"></div>
+      <section class="panel quality-gate-center" aria-labelledby="qualityGateTitle">
+        <header class="quality-gate-head">
+          <div><span class="kicker">دروازهٔ کیفیت · اجرای آزمایشی بدون حذف داده</span><h3 id="qualityGateTitle">از «کاندیدای کشف‌شده» تا «فرد قابل دفاع»</h3><p>هر پرونده پیش از ورود قطعی به اطلس از کنترل شخص‌بودن نام، منشأ منبع، شاهد مستقل ارتباط با اردکان و احتمال تکرار عبور می‌کند.</p></div>
+          <div class="quality-gate-mode"><i></i><strong>Shadow Mode</strong><span>فهرست عمومی هنوز تغییر نکرده است</span></div>
+        </header>
+        <div id="qualityGateSummary" class="quality-gate-summary" aria-live="polite"><div class="quality-gate-loading">در حال دریافت گزارش کنترل کیفیت…</div></div>
+        <div class="quality-gate-body">
+          <article class="quality-gate-reasons"><div class="quality-gate-subhead"><div><strong>علت‌های تصمیم</strong><span>کدهای شفاف و ماشین‌خوان برای رد یا ارجاع</span></div></div><div id="qualityGateReasons"></div></article>
+          <article class="quality-gate-preview"><div class="quality-gate-subhead"><div><strong>نمونهٔ پرونده‌ها</strong><span>برای دیدن جزئیات روی هر مورد کلیک کنید</span></div><select id="qualityGateStatusFilter" aria-label="فیلتر وضعیت دروازه کیفیت"><option value="needs_review">نیازمند بازبینی</option><option value="rejected">ردشده</option><option value="validated_person">عبورکرده از دروازه</option><option value="discovered_candidate">فاقد شاهد محلی کافی</option><option value="human_confirmed">تأییدشده انسانی</option></select></div><div id="qualityGatePreview"></div></article>
+        </div>
+        <footer class="quality-gate-notice"><i>!</i><p><strong>مرز تفسیر:</strong> فهرست افراد یا شهرت آنان، به‌تنهایی سنجهٔ سرمایهٔ اجتماعی نیست. این لایه فقط کیفیت شناسایی و کفایت شواهد را گزارش می‌کند.</p></footer>
+      </section>
       <div class="operations-layout"><section class="panel workflow-board"><div class="section-head compact"><div><span class="kicker">گردش‌کار استاندارد</span><h3>وضعیت پرونده‌های اطلس</h3><p>هر رکورد از کشف تا انتشار در یک مرحلهٔ روشن قرار می‌گیرد.</p></div></div><div id="workflowStages" class="workflow-stages"></div></section><section class="panel priority-records"><div class="section-head compact"><div><span class="kicker">اولویت امروز</span><h3>پرونده‌های پیشنهادی برای بررسی</h3><p>رکوردهایی که بیشترین اثر را بر کیفیت اطلس دارند.</p></div></div><div id="priorityRecords"></div></section></div>
       <section class="panel decision-center"><div class="decision-head"><div><span class="kicker">تصمیم‌یار توضیح‌پذیر</span><h3>اقدام بعدی پیشنهادی برای مدیر</h3><p>اولویت هر پرونده از کیفیت شواهد، کامل‌بودن پروفایل، احتمال تکرار، وضعیت منبع و نیاز به بررسی انسانی محاسبه می‌شود.</p></div><div class="decision-legend"><span class="critical">فوری</span><span class="important">مهم</span><span class="normal">عادی</span></div></div><div id="decisionSummary" class="decision-summary"></div><div id="decisionQueue" class="decision-queue"></div></section>
       <section class="panel admin-review-inbox"><div class="admin-inbox-head"><div><span class="kicker">تصمیم‌های مدیریتی</span><h3>صندوق بررسی مدیر</h3><p>پیشنهادها و پرونده‌های نیازمند تصمیم، همراه با منشأ، اولویت و اقدام بعدی.</p></div><div class="admin-inbox-tools"><select id="adminInboxFilter" aria-label="فیلتر صندوق بررسی"><option value="all">همه موارد</option><option value="merge">پیشنهاد ادغام</option><option value="identity">هویت و ارتباط محلی</option><option value="profile">تکمیل پروفایل</option><option value="lead">معرفی به اطلس</option></select><button id="refreshAdminInbox" class="button subtle" type="button">به‌روزرسانی</button></div></div><div id="adminInboxStats" class="admin-inbox-stats"></div><div id="adminInboxList" class="admin-inbox-list"></div><span id="adminInboxStatus" class="merge-status" role="status" aria-live="polite"></span></section>

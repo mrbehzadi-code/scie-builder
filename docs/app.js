@@ -1,8 +1,8 @@
 'use strict';
 
 const PAGE=25;
-const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichment.json','external_enrichment.json','entities.json','knowledge_graph.json','locality_assessment.json'];
-let people=[],filtered=[],page=1,q='',src='all',cat='all',operationFilter='',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},SOCIAL={},REL={},BUILD={},MERGES=[],MERGE_REQUESTS=[],SOURCE_MONITORS={monitors:[],changes:[]},RECORD_VERSIONS=[],SOCIAL_REVIEW_CASES=[];
+const CORE_FILES=['intelligence.json','entity_resolution.json','profile_enrichment.json','external_enrichment.json','entities.json','knowledge_graph.json','locality_assessment.json','quality_gate_shadow.json'];
+let people=[],filtered=[],page=1,q='',src='all',cat='all',operationFilter='',snap={},INT={},ER={},PROFILE={},EXT={},ENT={},KG={},LOC={},QG={},SOCIAL={},REL={},BUILD={},MERGES=[],MERGE_REQUESTS=[],SOURCE_MONITORS={monitors:[],changes:[]},RECORD_VERSIONS=[],SOCIAL_REVIEW_CASES=[];
 let activePerson=null;
 let detailCloseTimer=null;
 const $=id=>document.getElementById(id);
@@ -109,10 +109,10 @@ async function loadData(){
 }
 
 async function loadLayers(){
-  const targets=[['INT','intelligence.json'],['ER','entity_resolution.json'],['PROFILE','profile_enrichment.json'],['EXT','external_enrichment.json'],['ENT','entities.json'],['KG','knowledge_graph.json'],['LOC','locality_assessment.json'],['SOCIAL','social_discovery_report.json'],['REL','relationships.json']];
+  const targets=[['INT','intelligence.json'],['ER','entity_resolution.json'],['PROFILE','profile_enrichment.json'],['EXT','external_enrichment.json'],['ENT','entities.json'],['KG','knowledge_graph.json'],['LOC','locality_assessment.json'],['QG','quality_gate_shadow.json'],['SOCIAL','social_discovery_report.json'],['REL','relationships.json']];
   const results=await Promise.allSettled(targets.map(([,file])=>loadJSON(file,{fallback:true})));
   const state={};
-  results.forEach((result,index)=>{const [name,file]=targets[index];if(result.status==='fulfilled'){({INT,ER,PROFILE,EXT,ENT,KG,LOC,SOCIAL,REL}={INT,ER,PROFILE,EXT,ENT,KG,LOC,SOCIAL,REL,[name]:result.value});state[file]=true}else{console.warn(`${file} unavailable:`,result.reason);state[file]=false}});
+  results.forEach((result,index)=>{const [name,file]=targets[index];if(result.status==='fulfilled'){({INT,ER,PROFILE,EXT,ENT,KG,LOC,QG,SOCIAL,REL}={INT,ER,PROFILE,EXT,ENT,KG,LOC,QG,SOCIAL,REL,[name]:result.value});state[file]=true}else{console.warn(`${file} unavailable:`,result.reason);state[file]=false}});
   return state;
 }
 
@@ -121,6 +121,7 @@ function applyIntelligence(){
   (PROFILE.profiles||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._profile=item});
   (EXT.profiles||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._external=item});
   (LOC.assessments||[]).forEach(item=>{if(!Number.isInteger(item.candidate_index)||!people[item.candidate_index])return;const person=people[item.candidate_index],reviewName=normalizeSearch(item.human_review?.person_name||''),currentNames=[person.name,person.name_fa,person.name_en].filter(Boolean).map(normalizeSearch);if(item.status==='confirmed_by_human'&&(!reviewName||!currentNames.includes(reviewName)))person._locality={...item,status:'insufficient',needs_human_review:true,stale_human_review:true};else person._locality=item});
+  (QG.records||[]).forEach(item=>{if(Number.isInteger(item.candidate_index)&&people[item.candidate_index])people[item.candidate_index]._qualityGate=item});
   const entityMap=new Map((ENT.entities||[]).map(item=>[item.entity_id,item]));
   const assignments=ENT.candidate_to_entity||{};
   people.forEach((person,index)=>{const id=assignments[String(index)];if(id){person._entity_id=id;person._entity=entityMap.get(id)||null}person._record_index=index});
@@ -255,6 +256,27 @@ function renderSocialReviewHub(){
 }
 function openSocialDecision(id){if(authUser()?.role!=='admin'){openAdminLogin(()=>loadSocialReviews({sync:true}));return}const item=SOCIAL_REVIEW_CASES.find(row=>row.id===id);if(!item)return;$('socialDecisionId').value=item.id;$('socialDecisionUrl').textContent=item.source_url;$('socialDecision').value=item.decision||'needs_evidence';$('socialCandidateName').value=item.candidate_name||'';$('socialMatchedRecord').value=Number.isInteger(item.matched_record_index)?String(item.matched_record_index):'';$('socialDecisionNote').value=item.reviewer_note||'';$('socialDecisionForm').hidden=false;$('socialDecisionStatus').textContent='';$('socialDecisionForm').scrollIntoView({behavior:'smooth',block:'center'})}
 async function saveSocialDecision(event){event.preventDefault();const button=event.submitter;button.disabled=true;$('socialDecisionStatus').textContent='در حال ثبت تصمیم و اجرای اقدام…';try{const result=await adminFetch('/admin/social-reviews/decide',{method:'POST',body:JSON.stringify({id:$('socialDecisionId').value,decision:$('socialDecision').value,candidate_name:$('socialCandidateName').value.trim(),matched_record_index:$('socialMatchedRecord').value,note:$('socialDecisionNote').value.trim()})});$('socialDecisionStatus').textContent=result.issue_number?`تصمیم ثبت شد و پروندهٔ پردازش شمارهٔ ${Number(result.issue_number).toLocaleString('fa-IR')} ساخته شد.`:'تصمیم با موفقیت ثبت و در تاریخچهٔ مدیریتی ذخیره شد.';addAppNotification({id:`social-review-${$('socialDecisionId').value}-${Date.now()}`,type:'source',title:'تصمیم منبع اجتماعی ثبت شد',message:$('socialDecisionStatus').textContent,created_at:new Date().toISOString(),target:{tab:'operations',selector:'.social-review-hub'}});await loadSocialReviews()}catch(error){$('socialDecisionStatus').textContent=error.message}finally{button.disabled=false}}
+const qualityGateStatusLabels={discovered_candidate:'فاقد شاهد محلی کافی',validated_person:'عبورکرده از دروازه',human_confirmed:'تأییدشده انسانی',needs_review:'نیازمند بازبینی',rejected:'ردشده'};
+const qualityGateReasonLabels={NOT_A_PERSON:'عبارت، نام شخص نیست',INSUFFICIENT_LOCALITY_EVIDENCE:'شاهد مستقل ارتباط با اردکان کافی نیست',AMBIGUOUS_NAME:'نام مبهم یا ناقص است',INSUFFICIENT_SOURCE_PROVENANCE:'منشأ و شاهد منبع کامل نیست',POSSIBLE_DUPLICATE:'احتمال تکراری‌بودن رکورد',REQUIRES_HUMAN_REVIEW:'تصمیم انسانی لازم است'};
+function renderQualityGate(){
+  if(!$('qualityGateSummary'))return;
+  const summary=QG.summary||{},records=QG.records||[];
+  if(!records.length){$('qualityGateSummary').innerHTML='<div class="quality-gate-loading">گزارش دروازهٔ کیفیت هنوز در دسترس نیست.</div>';$('qualityGateReasons').innerHTML='';$('qualityGatePreview').innerHTML='';return}
+  const cards=[
+    ['all','کاندیداهای کشف‌شده',summary.discovered_candidates,'همهٔ ورودی‌های خام','neutral'],
+    ['validated_person','افراد عبورکرده',summary.validated_people,'دارای شاهد و منشأ کافی','success'],
+    ['human_confirmed','تأیید انسانی',summary.human_confirmed,'تصمیم ثبت‌شدهٔ بازبین','human'],
+    ['needs_review','بازبینی مستقیم',summary.needs_review,'ابهام، تکرار یا نقص منشأ','warning'],
+    ['rejected','ردشده',summary.rejected,'غیرشخص یا تصمیم منفی','danger'],
+    ['discovered_candidate','هنوز کاندیدا',summary.discovered_candidate,'فاقد شاهد مستقل محلی','candidate']
+  ];
+  $('qualityGateSummary').innerHTML=cards.map(([status,title,count,note,tone])=>`<button type="button" class="quality-gate-stat ${tone}" data-quality-status="${status}"><span>${esc(title)}</span><strong>${Number(count||0).toLocaleString('fa-IR')}</strong><small>${esc(note)}</small><i>مشاهده در فهرست ←</i></button>`).join('');
+  const reasonEntries=Object.entries(summary.reason_codes||{}).sort((a,b)=>b[1]-a[1]);
+  $('qualityGateReasons').innerHTML=reasonEntries.map(([code,count])=>`<div class="quality-reason"><span><strong>${esc(qualityGateReasonLabels[code]||code)}</strong><code dir="ltr">${esc(code)}</code></span><b>${Number(count).toLocaleString('fa-IR')}</b></div>`).join('');
+  const status=$('qualityGateStatusFilter')?.value||'needs_review',visible=records.filter(item=>item.status===status).slice(0,8);
+  $('qualityGatePreview').innerHTML=visible.length?visible.map(item=>{const person=people[Number(item.candidate_index)],name=person?bilingualName(person).persian:(item.name_fa||item.name||'بدون نام'),reasons=(item.reason_codes||[]).slice(0,2).map(code=>qualityGateReasonLabels[code]||code).join(' · ');return `<button type="button" class="quality-preview-row" data-quality-record="${Number(item.candidate_index)}"><span><strong>${esc(name)}</strong><small>${esc(reasons||qualityGateStatusLabels[item.status])}</small></span><b>${esc(qualityGateStatusLabels[item.status]||item.status)} ←</b></button>`}).join(''):'<div class="quality-gate-empty">در این وضعیت پرونده‌ای وجود ندارد.</div>';
+  const rate=Number(summary.validation_rate||0);document.documentElement.style.setProperty('--quality-rate',`${Math.min(100,Math.max(0,rate))}%`);
+}
 function buildOperations(){
   if(!$('operationsQueue'))return;
   const active=people.filter(person=>person._merged_into===undefined),stages={discovered:0,review:0,enriching:0,approved:0,published:0};
@@ -278,6 +300,7 @@ function buildOperations(){
   $('priorityRecords').innerHTML=candidates.length?candidates.map(person=>{const name=bilingualName(person),avatar=avatarFor(name.persian),reasons=[];if(Number(person._quality?.score||0)<55)reasons.push('کیفیت شواهد پایین');if(!person.specialty)reasons.push('تخصص نامشخص');if(!(person.affiliation||person.organization))reasons.push('سازمان نامشخص');return `<button type="button" class="priority-record" data-priority-record="${person._record_index}"><span class="avatar" style="--avatar-hue:${avatar.hue}">${esc(avatar.initials)}</span><span><strong>${esc(name.persian)}</strong><small>${esc(reasons.slice(0,2).join(' · ')||'نیازمند بازبینی')}</small></span><b>مشاهده ←</b></button>`}).join(''):'<div class="operation-empty">پروندهٔ فوری برای بررسی وجود ندارد.</div>';
   const resolved=stages.approved+stages.published,health=active.length?Math.round(resolved/active.length*100):0;
   $('operationsHealth').textContent=`${health.toLocaleString('fa-IR')}٪`;$('operationsHealthNote').textContent=`${resolved.toLocaleString('fa-IR')} پروندهٔ تأیید یا منتشرشده از ${active.length.toLocaleString('fa-IR')} رکورد فعال`;
+  renderQualityGate();
   buildAdminInbox();renderSocialReviewHub();renderSourceMonitors();buildDecisionCenter();
 }
 
@@ -308,7 +331,7 @@ function openOperationalList(kind){
 
 function statusRows(layerState){
   const rows=[
-    ['کشف داده',people.length>0,'فعال'],['حل هویت',(ENT.entities||[]).length>0,'در دسترس'],['غنی‌سازی پروفایل',(PROFILE.profiles||[]).length>0,'در دسترس'],['ساخت گراف دانش',(KG.nodes||[]).length>0,'در دسترس'],['داشبورد',true,'فعال']
+    ['کشف داده',people.length>0,'فعال'],['دروازهٔ کیفیت',(QG.records||[]).length>0,QG.mode==='shadow'?'آزمایشی':'فعال'],['حل هویت',(ENT.entities||[]).length>0,'در دسترس'],['غنی‌سازی پروفایل',(PROFILE.profiles||[]).length>0,'در دسترس'],['ساخت گراف دانش',(KG.nodes||[]).length>0,'در دسترس'],['داشبورد',true,'فعال']
   ];
   $('systemStatus').innerHTML=rows.map(([label,ok,text])=>`<div class="status-row"><span>${label}</span><b class="${ok?'ok':'warn'}">${ok?text:'داده محدود'}</b></div>`).join('');
   if(Object.values(layerState).some(value=>!value))$('systemStatus').insertAdjacentHTML('beforeend','<div class="status-row"><span>برخی لایه‌های تکمیلی</span><b class="warn">نیازمند بررسی</b></div>');
@@ -347,7 +370,8 @@ function renderPagination(pages){
 function render(){
   $('list').setAttribute('aria-busy','false');
   const query=normalizeSearch(q);
-  filtered=people.filter(person=>person._merged_into===undefined&&(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat)&&(!operationFilter||(operationFilter==='weak'?(Number(person._quality?.score||0)<55||['insufficient','possible','rejected_by_human'].includes(person._locality?.status)):(operationFilter==='incomplete'?(Number(person._profile?.profile_completeness||0)<55||!person.specialty||!(person.affiliation||person.organization)):recordWorkflow(person)===operationFilter))));
+  const operationalMatch=person=>!operationFilter||(operationFilter.startsWith('qg:')?person._qualityGate?.status===operationFilter.slice(3):(operationFilter==='weak'?(Number(person._quality?.score||0)<55||['insufficient','possible','rejected_by_human'].includes(person._locality?.status)):(operationFilter==='incomplete'?(Number(person._profile?.profile_completeness||0)<55||!person.specialty||!(person.affiliation||person.organization)):recordWorkflow(person)===operationFilter)));
+  filtered=people.filter(person=>person._merged_into===undefined&&(!query||searchable(person).includes(query))&&(src==='all'||person.source===src)&&(cat==='all'||person.type===cat)&&operationalMatch(person));
   const pages=Math.max(1,Math.ceil(filtered.length/PAGE));page=Math.min(Math.max(1,page),pages);
   const start=(page-1)*PAGE,rows=filtered.slice(start,start+PAGE);
   $('count').textContent=`${filtered.length} رکورد`;
@@ -684,6 +708,9 @@ function bindEvents(){
   $('priorityRecords').addEventListener('click',event=>{const item=event.target.closest('[data-priority-record]');if(item)openDetail(people[Number(item.dataset.priorityRecord)])});
   $('decisionQueue').addEventListener('click',event=>{const open=event.target.closest('[data-decision-open]'),action=event.target.closest('[data-decision-action]');if(open){const person=people[Number(open.dataset.decisionOpen)];if(person)openDetail(person);return}if(!action)return;const index=Number(action.dataset.decisionIndex),kind=action.dataset.decisionAction,person=people[index];if(kind==='merge'){openTab('intelligence');setTimeout(()=>document.querySelector('.duplicate-workbench')?.scrollIntoView({behavior:'smooth',block:'start'}),180)}else if(kind==='source'){openTab('operations');setTimeout(()=>document.querySelector('.source-monitor-center')?.scrollIntoView({behavior:'smooth',block:'start'}),180)}else if(kind==='verify'){openTab('verification');$('vrPerson').value=String(index);setTimeout(()=>$('vrPerson').focus(),180)}else if(person)openDetail(person)});
   $('workflowStages').addEventListener('click',event=>{const item=event.target.closest('[data-workflow]');if(!item)return;operationFilter=item.dataset.workflow;page=1;openTab('people');render()});
+  $('qualityGateSummary').addEventListener('click',event=>{const card=event.target.closest('[data-quality-status]');if(!card)return;operationFilter=card.dataset.qualityStatus==='all'?'':`qg:${card.dataset.qualityStatus}`;page=1;openTab('people');render();setTimeout(()=>document.querySelector('.directory')?.scrollIntoView({behavior:'smooth',block:'start'}),180)});
+  $('qualityGateStatusFilter').addEventListener('change',renderQualityGate);
+  $('qualityGatePreview').addEventListener('click',event=>{const row=event.target.closest('[data-quality-record]'),person=row&&people[Number(row.dataset.qualityRecord)];if(person)openDetail(person)});
   $('adminInboxFilter').addEventListener('change',buildAdminInbox);$('refreshAdminInbox').addEventListener('click',async()=>{await loadMergeRequests();buildAdminInbox()});
   $('socialReviewPlatform').addEventListener('change',renderSocialReviewHub);$('socialReviewStatusFilter').addEventListener('change',renderSocialReviewHub);$('syncSocialReview').addEventListener('click',()=>loadSocialReviews({sync:true}));$('openFullSocialReview').addEventListener('click',()=>{openTab('verification');setTimeout(()=>document.querySelector('.source-review-panel')?.scrollIntoView({behavior:'smooth',block:'start'}),180)});$('socialReviewAdminList').addEventListener('click',event=>{const button=event.target.closest('[data-social-case-id]');if(button)openSocialDecision(button.dataset.socialCaseId)});$('socialDecisionForm').addEventListener('submit',saveSocialDecision);$('cancelSocialDecision').addEventListener('click',()=>{$('socialDecisionForm').hidden=true});
   $('adminInboxList').addEventListener('click',async event=>{if(event.target.closest('[data-inbox-login]')){openAdminLogin();return}const mergeAction=event.target.closest('[data-inbox-merge]');if(mergeAction){mergeAction.disabled=true;$('adminInboxStatus').textContent='در حال ثبت تصمیم…';await reviewMergeRequest(mergeAction.dataset.mergeId,mergeAction.dataset.inboxMerge);buildAdminInbox();$('adminInboxStatus').textContent='تصمیم ثبت و صندوق به‌روزرسانی شد.';return}if(event.target.closest('[data-inbox-open-merge]')){openTab('intelligence');setTimeout(()=>document.querySelector('.duplicate-workbench')?.scrollIntoView({behavior:'smooth',block:'start'}),160);return}const record=event.target.closest('[data-inbox-record]');if(record){if(record.dataset.inboxType==='lead'){openTab('leads');return}const person=people[Number(record.dataset.inboxRecord)];if(person)openDetail(person)}});
