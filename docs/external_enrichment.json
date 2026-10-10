@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-09",
-  "candidate_count": 3253,
+  "generated_at": "2026-10-10",
+  "candidate_count": 3255,
   "metrics": {
     "openalex_skipped": 1585,
-    "unsupported_or_missing_id": 1599,
+    "unsupported_or_missing_id": 1601,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3184
+    "skipped_total": 3186
   },
   "failures": {},
   "profiles": [
@@ -28539,6 +28539,20 @@
     {
       "candidate_index": 3252,
       "name": "مجتبی شجاعتی ثمرین",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3253,
+      "name": "والمسلمین پناهیان که اخیراً",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3254,
+      "name": "پناهیان پخش شده قدیمی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
