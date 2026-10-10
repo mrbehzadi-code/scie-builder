@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2915,
+    "insufficient": 2917,
     "possible": 322,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -49749,6 +49749,32 @@
     {
       "candidate_index": 3252,
       "name": "مجتبی شجاعتی ثمرین",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3253,
+      "name": "والمسلمین پناهیان که اخیراً",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3254,
+      "name": "پناهیان پخش شده قدیمی",
       "score": 10,
       "status": "insufficient",
       "reasons": [

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-10",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3253,
+    "people": 3255,
     "academic_candidates": 1592,
     "regional_evidence": 571,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1489
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1491
     },
-    "public_source_records": 2873,
-    "social_public_records": 1478
+    "public_source_records": 2876,
+    "social_public_records": 1480
   },
   "people": [
     {
@@ -73464,6 +73464,40 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "جهش نرخ ارز دقیقا از اظهارات همتی در شب ۲۸ مرداد آغاز شد/ او در آن شب به دروغ گفت صادرات نفت متوقف شده است/ قوه قضاییه به عنوان مدعی‌العموم به موضوع عملکرد بانک مرکزی ورود کند 🔹 دکتر مجتبی شجاعتی ثمرین، کارشناس مسائل حقوقی: مدت‌ها پس از پایان جنگ، دلار در کانال ۱۷۰ و ۱۸۰ هزار تومان ثابت مانده بود اما وقتی همتی اعلام کرد صادرات نفت متوقف شده، بازار ارز بهم ریخت. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "والمسلمین پناهیان که اخیراً",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ اطلاعیه دفتر پناهیان: کلیپی که اخیرا از حجت الاسلام پناهیان پخش شده قدیمی است دفتر حجت الاسلام پناهیان: 🔹 به اطلاع مخاطبان گرامی می‌رساند، کلیپی از سخنان حجت‌الاسلام والمسلمین پناهیان که اخیراً در فضای مجازی بازنشر شده، مربوط به روزهای آغازین تجمعات است و ناظر به شرایط کنونی نیست. 🔹 متأسفانه این سخنان با شیطنت رسانه‌ای و بدون توجه به زمان و بستر اصلی آن، مجدداً در حال انتشار است. 🔹 ضمن تأکید بر ضرورت حفظ وحدت، تقو",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پناهیان پخش شده قدیمی",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ اطلاعیه دفتر پناهیان: کلیپی که اخیرا از حجت الاسلام پناهیان پخش شده قدیمی است دفتر حجت الاسلام پناهیان: 🔹 به اطلاع مخاطبان گرامی می‌رساند، کلیپی از سخنان حجت‌الاسلام والمسلمین پناهیان که اخیراً در فضای مجازی بازنشر شده، مربوط به روزهای آغازین تجمعات است و ناظر به شرایط کنونی نیست. 🔹 متأسفانه این سخنان با شیطنت رسانه‌ای و بدون توجه به زمان و بستر اصلی آن، مجدداً در حال انتشار است. 🔹 ضمن تأکید بر ضرورت حفظ وحدت، تقو",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
