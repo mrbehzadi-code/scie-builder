@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-10",
+  "generated_at": "2026-10-11",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3255,
-    "academic_candidates": 1592,
+    "people": 3258,
+    "academic_candidates": 1593,
     "regional_evidence": 571,
     "sources": {
       "GitHub Discovery": 62,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1569,
+      "OpenAlex Discovery": 1570,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1491
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1493
     },
-    "public_source_records": 2876,
-    "social_public_records": 1480
+    "public_source_records": 2879,
+    "social_public_records": 1482
   },
   "people": [
     {
@@ -73498,6 +73498,57 @@
       "type": "ظرفیت اجتماعی",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "⭕️ اطلاعیه دفتر پناهیان: کلیپی که اخیرا از حجت الاسلام پناهیان پخش شده قدیمی است دفتر حجت الاسلام پناهیان: 🔹 به اطلاع مخاطبان گرامی می‌رساند، کلیپی از سخنان حجت‌الاسلام والمسلمین پناهیان که اخیراً در فضای مجازی بازنشر شده، مربوط به روزهای آغازین تجمعات است و ناظر به شرایط کنونی نیست. 🔹 متأسفانه این سخنان با شیطنت رسانه‌ای و بدون توجه به زمان و بستر اصلی آن، مجدداً در حال انتشار است. 🔹 ضمن تأکید بر ضرورت حفظ وحدت، تقو",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "M Sadeghi Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی · Medizinische Hochschule Hannover",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5157904579",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "ظریف طی سخنرانی تاکید",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "در حالیکه روبیو وزیر خارجه آمریکا در سخنرانی بسیار مهم در یونان، جنگ با ایران را به \"گذشته تاریخی\" یعنی ۴۸۰ سال پیش از میلاد مسیح، دوره خشایارشا هخامنشی ارجاع می‌دهد و نگاه تمدنی دارد. در تهران دکتر ظریف طی سخنرانی تاکید دارد: ما در گذشته مانده ایم و نگاه تهدیدمحور به جهان داریم! طرف مقابل این جنگ را یک جنگ تاریخی، ایدئولوژیک و تمدنی می داند. با تمام توان و عزم تاریخی، مادی و ادوات قصد دارد مساله ایران را برای ابد حل",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "محسن پاک‌نژاد باید درباره",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔥 ۴ نفری که باید درباره تراستی‌ها پاسخگو باشند/ حسین آقایاری، تراستیِ ابربدهکار تاکنون ۳.۵ میلیارد دلار را برنگردانده است 🔹 احسان حسینی: آقای محسن پاک‌نژاد باید درباره تضعیف شبکه نیکو و کودتای تراستی‌ها پاسخگو باشد زیرا این اتفاقات در وزارت نفت منجر به حوادث دی‌ماه و تحمیل جنگ به کشور شد. 🔹 حسین آقایاری، تراستیِ ابربدهکار تاکنون ۳.۵ میلیارد دلار را برنگردانده. نقش محمد بهمئی در ماجرای تراستی‌ها و همکاری با پاک‌نژاد م",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

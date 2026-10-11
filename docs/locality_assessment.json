@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2917,
+    "insufficient": 2920,
     "possible": 322,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -49775,6 +49775,49 @@
     {
       "candidate_index": 3254,
       "name": "پناهیان پخش شده قدیمی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3255,
+      "name": "M Sadeghi Ardakani",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3256,
+      "name": "ظریف طی سخنرانی تاکید",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3257,
+      "name": "محسن پاک‌نژاد باید درباره",
       "score": 10,
       "status": "insufficient",
       "reasons": [
