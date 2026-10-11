@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10",
-  "candidate_count": 3255,
+  "generated_at": "2026-10-11",
+  "candidate_count": 3258,
   "metrics": {
-    "openalex_skipped": 1585,
-    "unsupported_or_missing_id": 1601,
+    "openalex_skipped": 1586,
+    "unsupported_or_missing_id": 1603,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3186
+    "skipped_total": 3189
   },
   "failures": {},
   "profiles": [
@@ -28553,6 +28553,30 @@
     {
       "candidate_index": 3254,
       "name": "پناهیان پخش شده قدیمی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3255,
+      "name": "M Sadeghi Ardakani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3256,
+      "name": "ظریف طی سخنرانی تاکید",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3257,
+      "name": "محسن پاک‌نژاد باید درباره",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
