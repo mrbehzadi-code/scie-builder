@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2920,
+    "insufficient": 2921,
     "possible": 322,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -49818,6 +49818,19 @@
     {
       "candidate_index": 3257,
       "name": "محسن پاک‌نژاد باید درباره",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3258,
+      "name": "محمدرضا بابایی",
       "score": 10,
       "status": "insufficient",
       "reasons": [
