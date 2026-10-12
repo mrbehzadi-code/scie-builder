@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-11",
-  "candidate_count": 3258,
+  "generated_at": "2026-10-12",
+  "candidate_count": 3259,
   "metrics": {
     "openalex_skipped": 1586,
-    "unsupported_or_missing_id": 1603,
+    "unsupported_or_missing_id": 1604,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3189
+    "skipped_total": 3190
   },
   "failures": {},
   "profiles": [
@@ -28577,6 +28577,13 @@
     {
       "candidate_index": 3257,
       "name": "محسن پاک‌نژاد باید درباره",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3258,
+      "name": "محمدرضا بابایی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

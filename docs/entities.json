@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11",
+  "generated_at": "2026-10-12",
   "metrics": {
-    "candidate_records": 3258,
-    "canonical_entities": 3245,
+    "candidate_records": 3259,
+    "canonical_entities": 3246,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3266,7 +3266,8 @@
     "3254": "scie-entity-03242",
     "3255": "scie-entity-03243",
     "3256": "scie-entity-03244",
-    "3257": "scie-entity-03245"
+    "3257": "scie-entity-03245",
+    "3258": "scie-entity-03246"
   },
   "entities": [
     {
@@ -98976,6 +98977,35 @@
       "primary_name": "محسن پاک‌نژاد باید درباره",
       "aliases": [
         "محسن پاک‌نژاد باید درباره"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03246",
+      "candidate_indexes": [
+        3258
+      ],
+      "record_count": 1,
+      "primary_name": "محمدرضا بابایی",
+      "aliases": [
+        "محمدرضا بابایی"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
