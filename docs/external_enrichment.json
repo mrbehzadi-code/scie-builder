@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12",
-  "candidate_count": 3259,
+  "generated_at": "2026-10-13",
+  "candidate_count": 3263,
   "metrics": {
     "openalex_skipped": 1586,
-    "unsupported_or_missing_id": 1604,
+    "unsupported_or_missing_id": 1608,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3190
+    "skipped_total": 3194
   },
   "failures": {},
   "profiles": [
@@ -28584,6 +28584,34 @@
     {
       "candidate_index": 3258,
       "name": "محمدرضا بابایی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3259,
+      "name": "رئیس‌جمهور به‌جای اینکه وزیر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3260,
+      "name": "والمسلمین حیدریان تقدیر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3261,
+      "name": "والمسلمین پورقیومی به‌عنوان رئیس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3262,
+      "name": "شهریار زرشناس به اظهارات",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
