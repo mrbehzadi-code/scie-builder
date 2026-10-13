@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2921,
-    "possible": 322,
+    "insufficient": 2923,
+    "possible": 324,
     "probable": 14,
     "confirmed_by_human": 1,
     "confirmed": 1
@@ -49831,6 +49831,66 @@
     {
       "candidate_index": 3258,
       "name": "محمدرضا بابایی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3259,
+      "name": "رئیس‌جمهور به‌جای اینکه وزیر",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3260,
+      "name": "والمسلمین حیدریان تقدیر",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3261,
+      "name": "والمسلمین پورقیومی به‌عنوان رئیس",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3262,
+      "name": "شهریار زرشناس به اظهارات",
       "score": 10,
       "status": "insufficient",
       "reasons": [

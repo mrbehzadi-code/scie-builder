@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-12",
+  "generated_at": "2026-10-13",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3259,
+    "people": 3263,
     "academic_candidates": 1593,
     "regional_evidence": 571,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1494
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1498
     },
-    "public_source_records": 2881,
-    "social_public_records": 1483
+    "public_source_records": 2882,
+    "social_public_records": 1487
   },
   "people": [
     {
@@ -73566,6 +73566,74 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "⭕️ استاندار یزد فردا دوشنبه را در سراسر استان عزای عمومی اعلام کرد روابط عمومی استانداری یزد: 🔹 در پی ارتحال ملکوتی عالم وارسته، اسوه اخلاق و فضیلت، حضرت آیت‌الله حاج سید علیرضا حیدری (طاب ثراه)، دکتر محمدرضا بابایی، استاندار یزد، فردا دوشنبه ۲۰ مهرماه را هم‌زمان با برگزاری مراسم تشییع پیکر مطهر آن عالم ربانی، در سراسر استان «عزای عمومی» اعلام کرد. 🔹 شایان ذکر است، مراسم تشییع و تدفین این عالم ربانی ساعت ۹ صبح از اما",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "رئیس‌جمهور به‌جای اینکه وزیر",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ گزیده‌ای از سخنان نماینده اردکان در تجمع مردمی 🎙 دکتر پوردهقان اردکان: 💬 مردم و نیروهای مسلح ما در جنگ اخیر خوب درخشیدند؛ اما آیا مسئولان اقتصادی ما هم خوب عمل کردند؟ چرا نرخ ارز را در شرایطی که دشمن در حوزه نظامی موفق نشد، افزایش می‌دهید؟ 💬 آقای رئیس‌جمهور به‌جای اینکه وزیر نفت را جابجا کند باید وزرای اقتصادی را تغییر دهد... نباید اجازه داد سیاست‌های غلط اقتصادی این مردم را آزار دهد... 🆔 Pourdehghan.ir 📅 در همین ز",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "والمسلمین حیدریان تقدیر",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅️ برگزاری آیین تکریم و معارفه رئیس اداره تبلیغات اسلامی شهرستان اردکان آیین تکریم و معارفه رئیس اداره تبلیغات اسلامی شهرستان اردکان با حضور امام جمعه اردکان، فرماندار ویژه شهرستان، مدیرکل تبلیغات اسلامی استان، معاون سیاسی، امنیتی و اجتماعی فرمانداری ویژه و جمعی از مسئولان محلی برگزار شد. در این مراسم، از خدمات و تلاش‌های حجت‌الاسلام والمسلمین حیدریان تقدیر و حجت‌الاسلام والمسلمین پورقیومی به‌عنوان رئیس جدید این ادار",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "والمسلمین پورقیومی به‌عنوان رئیس",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅️ برگزاری آیین تکریم و معارفه رئیس اداره تبلیغات اسلامی شهرستان اردکان آیین تکریم و معارفه رئیس اداره تبلیغات اسلامی شهرستان اردکان با حضور امام جمعه اردکان، فرماندار ویژه شهرستان، مدیرکل تبلیغات اسلامی استان، معاون سیاسی، امنیتی و اجتماعی فرمانداری ویژه و جمعی از مسئولان محلی برگزار شد. در این مراسم، از خدمات و تلاش‌های حجت‌الاسلام والمسلمین حیدریان تقدیر و حجت‌الاسلام والمسلمین پورقیومی به‌عنوان رئیس جدید این ادار",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "شهریار زرشناس به اظهارات",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🎥 پاسخ عالمانه دکتر شهریار زرشناس به اظهارات متوهمانه ظریف درباره چگونگی پیشرفت چین پیشرفت چین، حاصل مذاکره و سازش با آمریکا نیست. اتفاقاً «مائو» به شدت ضد آمریکایی بود. چین زمانی با آمریکا مذاکره کرد که پیش از آن، هم زیرساختهایش را استحکام بخشیده بود و هم به بمب اتم دست یافته بود. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
