@@ -1,14 +1,14 @@
 {
-  "input_count": 3263,
-  "group_count": 124,
-  "pair_count": 138,
+  "input_count": 3325,
+  "group_count": 125,
+  "pair_count": 139,
   "decision_counts": {
     "SAME_PERSON": 13,
-    "LIKELY_SAME_PERSON": 43,
+    "LIKELY_SAME_PERSON": 44,
     "UNCERTAIN": 82,
     "LIKELY_DIFFERENT_PERSON": 0
   },
-  "human_review_count": 125,
+  "human_review_count": 126,
   "pairs": [
     {
       "candidate_a": 5,
@@ -2201,6 +2201,36 @@
       "candidate_b": 1027,
       "name_a": "Razieh Kamali-Ardakani",
       "name_b": "Razieh Kamali Ardakani",
+      "decision": "LIKELY_SAME_PERSON",
+      "score": 1.0,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "type": "name",
+          "result": "strong_match",
+          "score": 1.0
+        },
+        {
+          "type": "organization",
+          "result": "exact_match",
+          "score": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "academic",
+        "location",
+        "publication",
+        "technical"
+      ],
+      "conflicts": [],
+      "human_review_required": true,
+      "explanation": "Name agreement plus independent supporting evidence is strong, but not sufficient for automatic identity confirmation."
+    },
+    {
+      "candidate_a": 866,
+      "candidate_b": 3275,
+      "name_a": "Alireza Abdi Ardekani",
+      "name_b": "Alireza Abdi‐Ardekani",
       "decision": "LIKELY_SAME_PERSON",
       "score": 1.0,
       "confidence": 0.85,

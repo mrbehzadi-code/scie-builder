@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "metrics": {
-    "nodes": 3573,
-    "edges": 10416,
-    "connected_entities": 3250,
+    "nodes": 3643,
+    "edges": 10647,
+    "connected_entities": 3312,
     "isolated_entities": 0,
-    "canonical_entity_count": 3250,
+    "canonical_entity_count": 3312,
     "node_types": {
-      "entity": 3250,
-      "organization": 263,
+      "entity": 3312,
+      "organization": 271,
       "source": 9,
       "capacity": 33,
       "location": 18
     },
     "relations": {
-      "AFFILIATED_WITH": 812,
-      "EVIDENCED_BY": 4892,
-      "HAS_CAPACITY_TYPE": 3166,
-      "LOCATED_IN": 1546
+      "AFFILIATED_WITH": 857,
+      "EVIDENCED_BY": 5011,
+      "HAS_CAPACITY_TYPE": 3228,
+      "LOCATED_IN": 1551
     }
   },
   "top_hubs": {
@@ -25,12 +25,12 @@
       {
         "id": "organization:ebd34d5cd5d3",
         "label": "Shahid Sadoughi University of Medical Sciences and Health Services",
-        "degree": 69
+        "degree": 75
       },
       {
         "id": "organization:56d823efe478",
         "label": "Yazd University",
-        "degree": 55
+        "degree": 56
       },
       {
         "id": "organization:97353aa4a13b",
@@ -38,19 +38,19 @@
         "degree": 33
       },
       {
+        "id": "organization:c39ec469a1eb",
+        "label": "University of Tehran",
+        "degree": 32
+      },
+      {
         "id": "organization:f558c45c3a5e",
         "label": "International Society of Automation",
         "degree": 30
       },
       {
-        "id": "organization:c39ec469a1eb",
-        "label": "University of Tehran",
-        "degree": 30
-      },
-      {
         "id": "organization:ec0d93a0ce7c",
         "label": "Shiraz University of Medical Sciences",
-        "degree": 23
+        "degree": 29
       },
       {
         "id": "organization:8d8d205e0d02",
@@ -60,22 +60,22 @@
       {
         "id": "organization:8f72a52328bd",
         "label": "Islamic Azad University, Yazd",
-        "degree": 17
+        "degree": 18
       },
       {
         "id": "organization:527a861889c5",
         "label": "Shahid Beheshti University of Medical Sciences",
-        "degree": 17
-      },
-      {
-        "id": "organization:0fd4093a61e1",
-        "label": "Isfahan University of Medical Sciences",
-        "degree": 13
+        "degree": 18
       },
       {
         "id": "organization:65a9a7730fe7",
         "label": "Iran University of Medical Sciences",
-        "degree": 12
+        "degree": 14
+      },
+      {
+        "id": "organization:0fd4093a61e1",
+        "label": "Isfahan University of Medical Sciences",
+        "degree": 14
       },
       {
         "id": "organization:be9b8f26bfd6",
@@ -85,7 +85,7 @@
       {
         "id": "organization:b08c3b55c4cb",
         "label": "Shiraz University",
-        "degree": 11
+        "degree": 12
       },
       {
         "id": "organization:5df3c54fc753",
@@ -102,7 +102,7 @@
       {
         "id": "location:e214a3ea6cc4",
         "label": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
-        "degree": 1487
+        "degree": 1492
       },
       {
         "id": "location:3c4f709e299c",
@@ -179,17 +179,17 @@
       {
         "id": "source:0b6134681dd8",
         "label": "OpenAlex",
-        "degree": 1582
+        "degree": 1639
       },
       {
         "id": "source:104147cf83b0",
         "label": "OpenAlex Discovery",
-        "degree": 1559
+        "degree": 1616
       },
       {
         "id": "source:15e9d11698e9",
         "label": "کانال‌ها و گروه‌های عمومی تلگرام",
-        "degree": 1498
+        "degree": 1503
       },
       {
         "id": "source:12acb04d4d6f",
@@ -227,12 +227,12 @@
       {
         "id": "capacity:02a9cb0e3585",
         "label": "کاندیدای پژوهشی",
-        "degree": 1556
+        "degree": 1613
       },
       {
         "id": "capacity:b75af9371c57",
         "label": "پزشکی و سلامت",
-        "degree": 701
+        "degree": 705
       },
       {
         "id": "capacity:6c5ac63cbe70",
@@ -247,7 +247,7 @@
       {
         "id": "capacity:a7e1eca40403",
         "label": "فنی و مهندسی",
-        "degree": 105
+        "degree": 106
       },
       {
         "id": "capacity:d3c25ff0751a",
@@ -304,178 +304,25 @@
   "preview": {
     "nodes": [
       {
-        "id": "organization:c39ec469a1eb",
-        "type": "organization",
-        "label": "University of Tehran",
-        "degree": 30
-      },
-      {
-        "id": "entity:scie-entity-00800",
+        "id": "entity:scie-entity-00435",
         "type": "entity",
-        "label": "A Salahi Ardakani",
-        "entity_id": "scie-entity-00800",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-00750",
-        "type": "entity",
-        "label": "A.R. Okhovatian-Ardakani",
-        "entity_id": "scie-entity-00750",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-00060",
-        "type": "entity",
-        "label": "Hamed Davari‐Ardakani",
-        "entity_id": "scie-entity-00060",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 6
-      },
-      {
-        "id": "source:7489967b72bb",
-        "type": "source",
-        "label": "GitHub Discovery",
-        "degree": 60
-      },
-      {
-        "id": "capacity:e65f122a85d1",
-        "type": "capacity",
-        "label": "پروفایل فنی",
-        "degree": 57
-      },
-      {
-        "id": "organization:56d823efe478",
-        "type": "organization",
-        "label": "Yazd University",
-        "degree": 55
-      },
-      {
-        "id": "entity:scie-entity-00346",
-        "type": "entity",
-        "label": "Ali Reza Kamali",
-        "entity_id": "scie-entity-00346",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 41
-      },
-      {
-        "id": "organization:b166a3607883",
-        "type": "organization",
-        "label": "University of British Columbia",
-        "degree": 5
-      },
-      {
-        "id": "entity:scie-entity-00372",
-        "type": "entity",
-        "label": "Behzad Ardakani",
-        "entity_id": "scie-entity-00372",
+        "label": "Negar Davari Ardakani",
+        "entity_id": "scie-entity-00435",
         "record_count": 1,
         "identity_status": "SINGLE_CANDIDATE",
         "degree": 5
       },
       {
-        "id": "entity:scie-entity-00718",
-        "type": "entity",
-        "label": "A. Fattahi Ardakani",
-        "entity_id": "scie-entity-00718",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
+        "id": "organization:8f72a52328bd",
+        "type": "organization",
+        "label": "Islamic Azad University, Yazd",
+        "degree": 18
       },
       {
         "id": "entity:scie-entity-01167",
         "type": "entity",
         "label": "A Torabi Ardakani",
         "entity_id": "scie-entity-01167",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-00697",
-        "type": "entity",
-        "label": "A. Haerian Ardakani",
-        "entity_id": "scie-entity-00697",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "organization:b478b0a3b354",
-        "type": "organization",
-        "label": "Imperial College London",
-        "degree": 5
-      },
-      {
-        "id": "entity:scie-entity-00002",
-        "type": "entity",
-        "label": "A Yasini Ardakani",
-        "entity_id": "scie-entity-00002",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "organization:65a3a03aefad",
-        "type": "organization",
-        "label": "Isfahan University of Technology",
-        "degree": 6
-      },
-      {
-        "id": "organization:bf76b4002eb7",
-        "type": "organization",
-        "label": "Iran University of Science and Technology",
-        "degree": 6
-      },
-      {
-        "id": "organization:ebd34d5cd5d3",
-        "type": "organization",
-        "label": "Shahid Sadoughi University of Medical Sciences and Health Services",
-        "degree": 69
-      },
-      {
-        "id": "entity:scie-entity-00003",
-        "type": "entity",
-        "label": "A. Falahi-Ardakani",
-        "entity_id": "scie-entity-00003",
-        "record_count": 2,
-        "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
-        "degree": 4
-      },
-      {
-        "id": "location:46aeacd63622",
-        "type": "location",
-        "label": "Ardakan, Yazd, Iran",
-        "degree": 7
-      },
-      {
-        "id": "entity:scie-entity-00731",
-        "type": "entity",
-        "label": "A. H. Sharafian Ardakani",
-        "entity_id": "scie-entity-00731",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-00855",
-        "type": "entity",
-        "label": "A.R. Shaker Ardakani",
-        "entity_id": "scie-entity-00855",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-01085",
-        "type": "entity",
-        "label": "A. Beheshti Ardakani",
-        "entity_id": "scie-entity-01085",
         "record_count": 1,
         "identity_status": "SINGLE_CANDIDATE",
         "degree": 4
@@ -490,220 +337,10 @@
         "degree": 6
       },
       {
-        "id": "entity:scie-entity-00435",
+        "id": "entity:scie-entity-00800",
         "type": "entity",
-        "label": "Negar Davari Ardakani",
-        "entity_id": "scie-entity-00435",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 5
-      },
-      {
-        "id": "entity:scie-entity-00350",
-        "type": "entity",
-        "label": "Alireza Haerian",
-        "entity_id": "scie-entity-00350",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 8
-      },
-      {
-        "id": "entity:scie-entity-00811",
-        "type": "entity",
-        "label": "A A Kamali Ardakani",
-        "entity_id": "scie-entity-00811",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "organization:8f72a52328bd",
-        "type": "organization",
-        "label": "Islamic Azad University, Yazd",
-        "degree": 17
-      },
-      {
-        "id": "organization:62d36527c6f4",
-        "type": "organization",
-        "label": "Islamic Azad University, Tehran",
-        "degree": 9
-      },
-      {
-        "id": "entity:scie-entity-01206",
-        "type": "entity",
-        "label": "A Haerian Ardakani",
-        "entity_id": "scie-entity-01206",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "organization:65a9a7730fe7",
-        "type": "organization",
-        "label": "Iran University of Medical Sciences",
-        "degree": 12
-      },
-      {
-        "id": "organization:c2aec630fe69",
-        "type": "organization",
-        "label": "Amirkabir University of Technology",
-        "degree": 10
-      },
-      {
-        "id": "entity:scie-entity-00349",
-        "type": "entity",
-        "label": "Alireza Dashti",
-        "entity_id": "scie-entity-00349",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 5
-      },
-      {
-        "id": "entity:scie-entity-00076",
-        "type": "entity",
-        "label": "Hossein Davari Ardakani",
-        "entity_id": "scie-entity-00076",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 7
-      },
-      {
-        "id": "organization:527a861889c5",
-        "type": "organization",
-        "label": "Shahid Beheshti University of Medical Sciences",
-        "degree": 17
-      },
-      {
-        "id": "entity:scie-entity-01254",
-        "type": "entity",
-        "label": "A. Beiki-Ardakani",
-        "entity_id": "scie-entity-01254",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-00354",
-        "type": "entity",
-        "label": "Amirho3ein Roustaei",
-        "entity_id": "scie-entity-00354",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 6
-      },
-      {
-        "id": "organization:be9b8f26bfd6",
-        "type": "organization",
-        "label": "Shahid Beheshti University",
-        "degree": 12
-      },
-      {
-        "id": "organization:b08c3b55c4cb",
-        "type": "organization",
-        "label": "Shiraz University",
-        "degree": 11
-      },
-      {
-        "id": "capacity:9397ab556786",
-        "type": "capacity",
-        "label": "پروفایل وب",
-        "degree": 5
-      },
-      {
-        "id": "entity:scie-entity-00323",
-        "type": "entity",
-        "label": "Abolfazl Kamali Ardakani",
-        "entity_id": "scie-entity-00323",
-        "record_count": 2,
-        "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
-        "degree": 5
-      },
-      {
-        "id": "entity:scie-entity-00888",
-        "type": "entity",
-        "label": "A Gahanbani Ardakani",
-        "entity_id": "scie-entity-00888",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-00383",
-        "type": "entity",
-        "label": "Saba Ardakani",
-        "entity_id": "scie-entity-00383",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 5
-      },
-      {
-        "id": "entity:scie-entity-00968",
-        "type": "entity",
-        "label": "A. R. Mahboobi Ardakani",
-        "entity_id": "scie-entity-00968",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-01192",
-        "type": "entity",
-        "label": "Abbas Dehestani Ardakani",
-        "entity_id": "scie-entity-01192",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "source:100a0a932e27",
-        "type": "source",
-        "label": "GitHub",
-        "degree": 60
-      },
-      {
-        "id": "entity:scie-entity-01005",
-        "type": "entity",
-        "label": "A. Fadavi-Ardakani",
-        "entity_id": "scie-entity-01005",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "organization:7ee2d0e623d5",
-        "type": "organization",
-        "label": "Ferdowsi University of Mashhad",
-        "degree": 5
-      },
-      {
-        "id": "organization:0fd4093a61e1",
-        "type": "organization",
-        "label": "Isfahan University of Medical Sciences",
-        "degree": 13
-      },
-      {
-        "id": "entity:scie-entity-01274",
-        "type": "entity",
-        "label": "A Ardakani",
-        "entity_id": "scie-entity-01274",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-01457",
-        "type": "entity",
-        "label": "A. Toosi-Ardakani",
-        "entity_id": "scie-entity-01457",
-        "record_count": 1,
-        "identity_status": "SINGLE_CANDIDATE",
-        "degree": 4
-      },
-      {
-        "id": "entity:scie-entity-00001",
-        "type": "entity",
-        "label": "A Firozabadi Ardakan",
-        "entity_id": "scie-entity-00001",
+        "label": "A Salahi Ardakani",
+        "entity_id": "scie-entity-00800",
         "record_count": 1,
         "identity_status": "SINGLE_CANDIDATE",
         "degree": 4
@@ -718,6 +355,219 @@
         "degree": 4
       },
       {
+        "id": "entity:scie-entity-00001",
+        "type": "entity",
+        "label": "A Firozabadi Ardakan",
+        "entity_id": "scie-entity-00001",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-00811",
+        "type": "entity",
+        "label": "A A Kamali Ardakani",
+        "entity_id": "scie-entity-00811",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-01085",
+        "type": "entity",
+        "label": "A. Beheshti Ardakani",
+        "entity_id": "scie-entity-01085",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-00731",
+        "type": "entity",
+        "label": "A. H. Sharafian Ardakani",
+        "entity_id": "scie-entity-00731",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-00349",
+        "type": "entity",
+        "label": "Alireza Dashti",
+        "entity_id": "scie-entity-00349",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 5
+      },
+      {
+        "id": "entity:scie-entity-00346",
+        "type": "entity",
+        "label": "Ali Reza Kamali",
+        "entity_id": "scie-entity-00346",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 41
+      },
+      {
+        "id": "entity:scie-entity-00350",
+        "type": "entity",
+        "label": "Alireza Haerian",
+        "entity_id": "scie-entity-00350",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 8
+      },
+      {
+        "id": "entity:scie-entity-00372",
+        "type": "entity",
+        "label": "Behzad Ardakani",
+        "entity_id": "scie-entity-00372",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 5
+      },
+      {
+        "id": "entity:scie-entity-00354",
+        "type": "entity",
+        "label": "Amirho3ein Roustaei",
+        "entity_id": "scie-entity-00354",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 6
+      },
+      {
+        "id": "entity:scie-entity-00002",
+        "type": "entity",
+        "label": "A Yasini Ardakani",
+        "entity_id": "scie-entity-00002",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "source:104147cf83b0",
+        "type": "source",
+        "label": "OpenAlex Discovery",
+        "degree": 1616
+      },
+      {
+        "id": "organization:b166a3607883",
+        "type": "organization",
+        "label": "University of British Columbia",
+        "degree": 5
+      },
+      {
+        "id": "capacity:9397ab556786",
+        "type": "capacity",
+        "label": "پروفایل وب",
+        "degree": 5
+      },
+      {
+        "id": "entity:scie-entity-01192",
+        "type": "entity",
+        "label": "Abbas Dehestani Ardakani",
+        "entity_id": "scie-entity-01192",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-00855",
+        "type": "entity",
+        "label": "A.R. Shaker Ardakani",
+        "entity_id": "scie-entity-00855",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "organization:c39ec469a1eb",
+        "type": "organization",
+        "label": "University of Tehran",
+        "degree": 32
+      },
+      {
+        "id": "entity:scie-entity-01005",
+        "type": "entity",
+        "label": "A. Fadavi-Ardakani",
+        "entity_id": "scie-entity-01005",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "capacity:02a9cb0e3585",
+        "type": "capacity",
+        "label": "کاندیدای پژوهشی",
+        "degree": 1613
+      },
+      {
+        "id": "organization:be9b8f26bfd6",
+        "type": "organization",
+        "label": "Shahid Beheshti University",
+        "degree": 12
+      },
+      {
+        "id": "entity:scie-entity-00968",
+        "type": "entity",
+        "label": "A. R. Mahboobi Ardakani",
+        "entity_id": "scie-entity-00968",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-01274",
+        "type": "entity",
+        "label": "A Ardakani",
+        "entity_id": "scie-entity-01274",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "organization:bf76b4002eb7",
+        "type": "organization",
+        "label": "Iran University of Science and Technology",
+        "degree": 6
+      },
+      {
+        "id": "organization:5caed56b8cd2",
+        "type": "organization",
+        "label": "Kerman University of Medical Sciences",
+        "degree": 8
+      },
+      {
+        "id": "organization:0fd4093a61e1",
+        "type": "organization",
+        "label": "Isfahan University of Medical Sciences",
+        "degree": 14
+      },
+      {
+        "id": "entity:scie-entity-00697",
+        "type": "entity",
+        "label": "A. Haerian Ardakani",
+        "entity_id": "scie-entity-00697",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-00323",
+        "type": "entity",
+        "label": "Abolfazl Kamali Ardakani",
+        "entity_id": "scie-entity-00323",
+        "record_count": 2,
+        "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
+        "degree": 5
+      },
+      {
+        "id": "organization:527a861889c5",
+        "type": "organization",
+        "label": "Shahid Beheshti University of Medical Sciences",
+        "degree": 18
+      },
+      {
         "id": "entity:scie-entity-00403",
         "type": "entity",
         "label": "Hamed",
@@ -727,28 +577,178 @@
         "degree": 5
       },
       {
-        "id": "organization:5caed56b8cd2",
-        "type": "organization",
-        "label": "Kerman University of Medical Sciences",
-        "degree": 7
-      },
-      {
-        "id": "capacity:02a9cb0e3585",
-        "type": "capacity",
-        "label": "کاندیدای پژوهشی",
-        "degree": 1556
-      },
-      {
-        "id": "source:104147cf83b0",
-        "type": "source",
-        "label": "OpenAlex Discovery",
-        "degree": 1559
+        "id": "entity:scie-entity-01254",
+        "type": "entity",
+        "label": "A. Beiki-Ardakani",
+        "entity_id": "scie-entity-01254",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
       },
       {
         "id": "source:0b6134681dd8",
         "type": "source",
         "label": "OpenAlex",
-        "degree": 1582
+        "degree": 1639
+      },
+      {
+        "id": "organization:ebd34d5cd5d3",
+        "type": "organization",
+        "label": "Shahid Sadoughi University of Medical Sciences and Health Services",
+        "degree": 75
+      },
+      {
+        "id": "entity:scie-entity-01457",
+        "type": "entity",
+        "label": "A. Toosi-Ardakani",
+        "entity_id": "scie-entity-01457",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-00750",
+        "type": "entity",
+        "label": "A.R. Okhovatian-Ardakani",
+        "entity_id": "scie-entity-00750",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "source:7489967b72bb",
+        "type": "source",
+        "label": "GitHub Discovery",
+        "degree": 60
+      },
+      {
+        "id": "organization:c2aec630fe69",
+        "type": "organization",
+        "label": "Amirkabir University of Technology",
+        "degree": 10
+      },
+      {
+        "id": "organization:56d823efe478",
+        "type": "organization",
+        "label": "Yazd University",
+        "degree": 56
+      },
+      {
+        "id": "entity:scie-entity-00888",
+        "type": "entity",
+        "label": "A Gahanbani Ardakani",
+        "entity_id": "scie-entity-00888",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "organization:62d36527c6f4",
+        "type": "organization",
+        "label": "Islamic Azad University, Tehran",
+        "degree": 10
+      },
+      {
+        "id": "capacity:e65f122a85d1",
+        "type": "capacity",
+        "label": "پروفایل فنی",
+        "degree": 57
+      },
+      {
+        "id": "entity:scie-entity-00060",
+        "type": "entity",
+        "label": "Hamed Davari‐Ardakani",
+        "entity_id": "scie-entity-00060",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 6
+      },
+      {
+        "id": "organization:65a9a7730fe7",
+        "type": "organization",
+        "label": "Iran University of Medical Sciences",
+        "degree": 14
+      },
+      {
+        "id": "entity:scie-entity-00383",
+        "type": "entity",
+        "label": "Saba Ardakani",
+        "entity_id": "scie-entity-00383",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 5
+      },
+      {
+        "id": "organization:b08c3b55c4cb",
+        "type": "organization",
+        "label": "Shiraz University",
+        "degree": 12
+      },
+      {
+        "id": "entity:scie-entity-00076",
+        "type": "entity",
+        "label": "Hossein Davari Ardakani",
+        "entity_id": "scie-entity-00076",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 7
+      },
+      {
+        "id": "location:46aeacd63622",
+        "type": "location",
+        "label": "Ardakan, Yazd, Iran",
+        "degree": 7
+      },
+      {
+        "id": "organization:65a3a03aefad",
+        "type": "organization",
+        "label": "Isfahan University of Technology",
+        "degree": 6
+      },
+      {
+        "id": "organization:7ee2d0e623d5",
+        "type": "organization",
+        "label": "Ferdowsi University of Mashhad",
+        "degree": 5
+      },
+      {
+        "id": "entity:scie-entity-00718",
+        "type": "entity",
+        "label": "A. Fattahi Ardakani",
+        "entity_id": "scie-entity-00718",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "entity:scie-entity-01206",
+        "type": "entity",
+        "label": "A Haerian Ardakani",
+        "entity_id": "scie-entity-01206",
+        "record_count": 1,
+        "identity_status": "SINGLE_CANDIDATE",
+        "degree": 4
+      },
+      {
+        "id": "organization:b478b0a3b354",
+        "type": "organization",
+        "label": "Imperial College London",
+        "degree": 5
+      },
+      {
+        "id": "entity:scie-entity-00003",
+        "type": "entity",
+        "label": "A. Falahi-Ardakani",
+        "entity_id": "scie-entity-00003",
+        "record_count": 2,
+        "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
+        "degree": 4
+      },
+      {
+        "id": "source:100a0a932e27",
+        "type": "source",
+        "label": "GitHub",
+        "degree": 60
       }
     ],
     "edges": [
@@ -1554,25 +1554,25 @@
       "id": "organization:ebd34d5cd5d3",
       "type": "organization",
       "label": "Shahid Sadoughi University of Medical Sciences and Health Services",
-      "degree": 69
+      "degree": 75
     },
     {
       "id": "source:104147cf83b0",
       "type": "source",
       "label": "OpenAlex Discovery",
-      "degree": 1559
+      "degree": 1616
     },
     {
       "id": "capacity:02a9cb0e3585",
       "type": "capacity",
       "label": "کاندیدای پژوهشی",
-      "degree": 1556
+      "degree": 1613
     },
     {
       "id": "source:0b6134681dd8",
       "type": "source",
       "label": "OpenAlex",
-      "degree": 1582
+      "degree": 1639
     },
     {
       "id": "entity:scie-entity-00002",
@@ -1587,7 +1587,7 @@
       "id": "organization:8f72a52328bd",
       "type": "organization",
       "label": "Islamic Azad University, Yazd",
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "entity:scie-entity-00003",
@@ -1617,7 +1617,7 @@
       "id": "organization:b08c3b55c4cb",
       "type": "organization",
       "label": "Shiraz University",
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "entity:scie-entity-00005",
@@ -1647,7 +1647,7 @@
       "id": "organization:954025f6c4c0",
       "type": "organization",
       "label": "Kashan University of Medical Sciences",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "entity:scie-entity-00007",
@@ -1668,7 +1668,7 @@
       "id": "source:15e9d11698e9",
       "type": "source",
       "label": "کانال‌ها و گروه‌های عمومی تلگرام",
-      "degree": 1498
+      "degree": 1503
     },
     {
       "id": "capacity:763498e17d1d",
@@ -1875,7 +1875,7 @@
       "id": "organization:56d823efe478",
       "type": "organization",
       "label": "Yazd University",
-      "degree": 55
+      "degree": 56
     },
     {
       "id": "entity:scie-entity-00023",
@@ -1998,7 +1998,7 @@
       "id": "organization:62d36527c6f4",
       "type": "organization",
       "label": "Islamic Azad University, Tehran",
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "entity:scie-entity-00034",
@@ -2298,7 +2298,7 @@
       "id": "organization:4de3983766ad",
       "type": "organization",
       "label": "Islamic Azad University, Marvdasht",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "entity:scie-entity-00060",
@@ -2373,7 +2373,7 @@
       "id": "organization:ec0d93a0ce7c",
       "type": "organization",
       "label": "Shiraz University of Medical Sciences",
-      "degree": 23
+      "degree": 29
     },
     {
       "id": "entity:scie-entity-00065",
@@ -2472,7 +2472,7 @@
       "id": "organization:8e240061b20f",
       "type": "organization",
       "label": "Sharif University of Technology",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "entity:scie-entity-00074",
@@ -2802,7 +2802,7 @@
       "id": "organization:c39ec469a1eb",
       "type": "organization",
       "label": "University of Tehran",
-      "degree": 30
+      "degree": 32
     },
     {
       "id": "entity:scie-entity-00102",
@@ -2832,7 +2832,7 @@
       "id": "organization:527a861889c5",
       "type": "organization",
       "label": "Shahid Beheshti University of Medical Sciences",
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "entity:scie-entity-00104",
@@ -2862,7 +2862,7 @@
       "id": "organization:4e71abb34cdf",
       "type": "organization",
       "label": "Yasuj University of Medical Sciences",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "entity:scie-entity-00106",
@@ -3228,7 +3228,7 @@
       "id": "organization:65a9a7730fe7",
       "type": "organization",
       "label": "Iran University of Medical Sciences",
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "entity:scie-entity-00140",
@@ -3360,7 +3360,7 @@
       "id": "organization:00864949d568",
       "type": "organization",
       "label": "Payame Noor University",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "entity:scie-entity-00152",
@@ -3822,7 +3822,7 @@
       "id": "organization:5caed56b8cd2",
       "type": "organization",
       "label": "Kerman University of Medical Sciences",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "entity:scie-entity-00194",
@@ -5289,7 +5289,7 @@
       "id": "organization:0fd4093a61e1",
       "type": "organization",
       "label": "Isfahan University of Medical Sciences",
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "organization:5680139ca5f4",
@@ -6957,13 +6957,13 @@
       "id": "location:e214a3ea6cc4",
       "type": "location",
       "label": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
-      "degree": 1487
+      "degree": 1492
     },
     {
       "id": "capacity:b75af9371c57",
       "type": "capacity",
       "label": "پزشکی و سلامت",
-      "degree": 701
+      "degree": 705
     },
     {
       "id": "entity:scie-entity-00487",
@@ -7440,7 +7440,7 @@
       "id": "capacity:a7e1eca40403",
       "type": "capacity",
       "label": "فنی و مهندسی",
-      "degree": 105
+      "degree": 106
     },
     {
       "id": "entity:scie-entity-00538",
@@ -8733,7 +8733,7 @@
       "id": "organization:3434428ad797",
       "type": "organization",
       "label": "Imam Khomeini Hospital",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "entity:scie-entity-00673",
@@ -9138,7 +9138,7 @@
       "id": "organization:121191338006",
       "type": "organization",
       "label": "Shariati Hospital",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "entity:scie-entity-00708",
@@ -9201,7 +9201,7 @@
       "id": "organization:036b9c3622c4",
       "type": "organization",
       "label": "Tarbiat Modares University",
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "entity:scie-entity-00713",
@@ -10386,7 +10386,7 @@
       "id": "organization:932bf1407c16",
       "type": "organization",
       "label": "Persian Gulf University",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "entity:scie-entity-00826",
@@ -10605,7 +10605,7 @@
       "id": "organization:96b71ceea713",
       "type": "organization",
       "label": "Ahvaz Jundishapur University of Medical Sciences",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "entity:scie-entity-00849",
@@ -10647,7 +10647,7 @@
       "id": "organization:78728bd043de",
       "type": "organization",
       "label": "University of Illinois Urbana-Champaign",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "entity:scie-entity-00853",
@@ -12777,7 +12777,7 @@
       "id": "organization:1592cc4b73c9",
       "type": "organization",
       "label": "Rafsanjan University of Medical Sciences",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "entity:scie-entity-01065",
@@ -13776,7 +13776,7 @@
       "id": "organization:c7384cf5dfca",
       "type": "organization",
       "label": "Islamic Azad University, Arak",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "entity:scie-entity-01166",
@@ -32725,6 +32725,612 @@
       "type": "entity",
       "label": "شهریار زرشناس به اظهارات",
       "entity_id": "scie-entity-03250",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03251",
+      "type": "entity",
+      "label": "Ali M. Ardekani",
+      "entity_id": "scie-entity-03251",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03252",
+      "type": "entity",
+      "label": "Seyed Mojtaba Yassini Ardekani",
+      "entity_id": "scie-entity-03252",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03253",
+      "type": "entity",
+      "label": "Alireza Emami-Ardekani",
+      "entity_id": "scie-entity-03253",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03254",
+      "type": "entity",
+      "label": "Farid Ramzi Talih",
+      "entity_id": "scie-entity-03254",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "organization:475eeb8fc359",
+      "type": "organization",
+      "label": "American University of Beirut Medical Center",
+      "degree": 1
+    },
+    {
+      "id": "entity:scie-entity-03255",
+      "type": "entity",
+      "label": "Jalal Vahedian",
+      "entity_id": "scie-entity-03255",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03256",
+      "type": "entity",
+      "label": "Mohammad H. Asadian",
+      "entity_id": "scie-entity-03256",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "organization:8dacfeb0eb5c",
+      "type": "organization",
+      "label": "PsiQuantum (United States)",
+      "degree": 1
+    },
+    {
+      "id": "entity:scie-entity-03257",
+      "type": "entity",
+      "label": "Kianoosh Torabi",
+      "entity_id": "scie-entity-03257",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03258",
+      "type": "entity",
+      "label": "Leila Safaee Ardekani",
+      "entity_id": "scie-entity-03258",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03259",
+      "type": "entity",
+      "label": "Mahdieh Afkhami Ardekani",
+      "entity_id": "scie-entity-03259",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03260",
+      "type": "entity",
+      "label": "Hossein Majedi",
+      "entity_id": "scie-entity-03260",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "organization:444434adf5d3",
+      "type": "organization",
+      "label": "Montreal General Hospital",
+      "degree": 1
+    },
+    {
+      "id": "entity:scie-entity-03261",
+      "type": "entity",
+      "label": "Ehsan Amiri‐Ardekani",
+      "entity_id": "scie-entity-03261",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03262",
+      "type": "entity",
+      "label": "Moein Mellat",
+      "entity_id": "scie-entity-03262",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "organization:e346fe0e4820",
+      "type": "organization",
+      "label": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+      "degree": 1
+    },
+    {
+      "id": "entity:scie-entity-03263",
+      "type": "entity",
+      "label": "Alireza Abdi‐Ardekani",
+      "entity_id": "scie-entity-03263",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03264",
+      "type": "entity",
+      "label": "Shima Torabi Ardekani",
+      "entity_id": "scie-entity-03264",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03265",
+      "type": "entity",
+      "label": "Fatemeh Ghazi",
+      "entity_id": "scie-entity-03265",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03266",
+      "type": "entity",
+      "label": "Najmeh Seighal",
+      "entity_id": "scie-entity-03266",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03267",
+      "type": "entity",
+      "label": "Ali Fatemi Ardekani",
+      "entity_id": "scie-entity-03267",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "organization:683590250c5f",
+      "type": "organization",
+      "label": "Community Health Systems - Merit Health Central",
+      "degree": 1
+    },
+    {
+      "id": "entity:scie-entity-03268",
+      "type": "entity",
+      "label": "Seyed Mostajab Razavi Ardekani",
+      "entity_id": "scie-entity-03268",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03269",
+      "type": "entity",
+      "label": "Sheida Khosravaniardakani",
+      "entity_id": "scie-entity-03269",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "organization:c0835e2635db",
+      "type": "organization",
+      "label": "University of Miami",
+      "degree": 1
+    },
+    {
+      "id": "entity:scie-entity-03270",
+      "type": "entity",
+      "label": "Farhad Taheri",
+      "entity_id": "scie-entity-03270",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03271",
+      "type": "entity",
+      "label": "Amir Adabiardakani",
+      "entity_id": "scie-entity-03271",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03272",
+      "type": "entity",
+      "label": "Mohiti Ardekani Azra",
+      "entity_id": "scie-entity-03272",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03273",
+      "type": "entity",
+      "label": "Solmaz Torabi",
+      "entity_id": "scie-entity-03273",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "organization:fcb0d27afcca",
+      "type": "organization",
+      "label": "University of Dhaka",
+      "degree": 1
+    },
+    {
+      "id": "entity:scie-entity-03274",
+      "type": "entity",
+      "label": "Ali Toossi",
+      "entity_id": "scie-entity-03274",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03275",
+      "type": "entity",
+      "label": "Reza Manouchehri Ardekani",
+      "entity_id": "scie-entity-03275",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03276",
+      "type": "entity",
+      "label": "Somayeh Azimpour",
+      "entity_id": "scie-entity-03276",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03277",
+      "type": "entity",
+      "label": "Hamid Reza Anvari-Ardekani",
+      "entity_id": "scie-entity-03277",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03278",
+      "type": "entity",
+      "label": "Bahareh Malekafzali",
+      "entity_id": "scie-entity-03278",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03279",
+      "type": "entity",
+      "label": "M Behjati Ardekani",
+      "entity_id": "scie-entity-03279",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03280",
+      "type": "entity",
+      "label": "Atefeh Kahfi",
+      "entity_id": "scie-entity-03280",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03281",
+      "type": "entity",
+      "label": "Ali Rastjoo",
+      "entity_id": "scie-entity-03281",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03282",
+      "type": "entity",
+      "label": "Atefeh Torabi Ardekani",
+      "entity_id": "scie-entity-03282",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03283",
+      "type": "entity",
+      "label": "Marzieh Roayaei Ardakany",
+      "entity_id": "scie-entity-03283",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03284",
+      "type": "entity",
+      "label": "Mohammad PiriArdakani",
+      "entity_id": "scie-entity-03284",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03285",
+      "type": "entity",
+      "label": "Bamdad Mirab Zadeh Ardekani",
+      "entity_id": "scie-entity-03285",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03286",
+      "type": "entity",
+      "label": "F Shaker Ardekani",
+      "entity_id": "scie-entity-03286",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03287",
+      "type": "entity",
+      "label": "Hajar Hasani ardekani",
+      "entity_id": "scie-entity-03287",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03288",
+      "type": "entity",
+      "label": "SM YasiniArdakani",
+      "entity_id": "scie-entity-03288",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03289",
+      "type": "entity",
+      "label": "Maryam Salahiardakani",
+      "entity_id": "scie-entity-03289",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03290",
+      "type": "entity",
+      "label": "Fatemeh Hashemi Ardekani",
+      "entity_id": "scie-entity-03290",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03291",
+      "type": "entity",
+      "label": "جواد بیابانی",
+      "entity_id": "scie-entity-03291",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03292",
+      "type": "entity",
+      "label": "عذرا محمدپناهاردکان",
+      "entity_id": "scie-entity-03292",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "organization:8f33f286c47b",
+      "type": "organization",
+      "label": "University of Tabriz",
+      "degree": 1
+    },
+    {
+      "id": "entity:scie-entity-03293",
+      "type": "entity",
+      "label": "حسن محیطی",
+      "entity_id": "scie-entity-03293",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03294",
+      "type": "entity",
+      "label": "محمدعلی حکیم زاده",
+      "entity_id": "scie-entity-03294",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03295",
+      "type": "entity",
+      "label": "مصطفی کمالی",
+      "entity_id": "scie-entity-03295",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03296",
+      "type": "entity",
+      "label": "ولی رستمی",
+      "entity_id": "scie-entity-03296",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03297",
+      "type": "entity",
+      "label": "محمدرضا شمساردکانی",
+      "entity_id": "scie-entity-03297",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03298",
+      "type": "entity",
+      "label": "عذرا محیطی",
+      "entity_id": "scie-entity-03298",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03299",
+      "type": "entity",
+      "label": "مرضیه مروتی",
+      "entity_id": "scie-entity-03299",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03300",
+      "type": "entity",
+      "label": "یاسر معصومی",
+      "entity_id": "scie-entity-03300",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03301",
+      "type": "entity",
+      "label": "شهین بهجتی",
+      "entity_id": "scie-entity-03301",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03302",
+      "type": "entity",
+      "label": "محمدرضا افخمی",
+      "entity_id": "scie-entity-03302",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03303",
+      "type": "entity",
+      "label": "محمدرضا خدایی",
+      "entity_id": "scie-entity-03303",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03304",
+      "type": "entity",
+      "label": "فائزه فتوحی",
+      "entity_id": "scie-entity-03304",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03305",
+      "type": "entity",
+      "label": "بهشته ملک افضلی",
+      "entity_id": "scie-entity-03305",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03306",
+      "type": "entity",
+      "label": "جانب ا... نیازی",
+      "entity_id": "scie-entity-03306",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03307",
+      "type": "entity",
+      "label": "سیدمجتبی حسینی پور",
+      "entity_id": "scie-entity-03307",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 4
+    },
+    {
+      "id": "entity:scie-entity-03308",
+      "type": "entity",
+      "label": "ارشدِ طراح نیز فراتر",
+      "entity_id": "scie-entity-03308",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03309",
+      "type": "entity",
+      "label": "احسان موحدیان",
+      "entity_id": "scie-entity-03309",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03310",
+      "type": "entity",
+      "label": "سلیمی از این جنایت",
+      "entity_id": "scie-entity-03310",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03311",
+      "type": "entity",
+      "label": "محمدسینا سلیمی",
+      "entity_id": "scie-entity-03311",
+      "record_count": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "degree": 3
+    },
+    {
+      "id": "entity:scie-entity-03312",
+      "type": "entity",
+      "label": "میرحسین موسوی در برخی",
+      "entity_id": "scie-entity-03312",
       "record_count": 1,
       "identity_status": "SINGLE_CANDIDATE",
       "degree": 3
@@ -95226,6 +95832,1392 @@
       "target": "capacity:b75af9371c57",
       "relation": "HAS_CAPACITY_TYPE",
       "evidence": "candidate 3262"
+    },
+    {
+      "source": "entity:scie-entity-03251",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03251",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3263"
+    },
+    {
+      "source": "entity:scie-entity-03251",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3263"
+    },
+    {
+      "source": "entity:scie-entity-03252",
+      "target": "organization:ebd34d5cd5d3",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03252",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03252",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3264"
+    },
+    {
+      "source": "entity:scie-entity-03252",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3264"
+    },
+    {
+      "source": "entity:scie-entity-03253",
+      "target": "organization:121191338006",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03253",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03253",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3265"
+    },
+    {
+      "source": "entity:scie-entity-03253",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3265"
+    },
+    {
+      "source": "entity:scie-entity-03254",
+      "target": "organization:475eeb8fc359",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03254",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03254",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3266"
+    },
+    {
+      "source": "entity:scie-entity-03254",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3266"
+    },
+    {
+      "source": "entity:scie-entity-03255",
+      "target": "organization:65a9a7730fe7",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03255",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03255",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3267"
+    },
+    {
+      "source": "entity:scie-entity-03255",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3267"
+    },
+    {
+      "source": "entity:scie-entity-03256",
+      "target": "organization:8dacfeb0eb5c",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03256",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03256",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3268"
+    },
+    {
+      "source": "entity:scie-entity-03256",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3268"
+    },
+    {
+      "source": "entity:scie-entity-03257",
+      "target": "organization:ec0d93a0ce7c",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03257",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03257",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3269"
+    },
+    {
+      "source": "entity:scie-entity-03257",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3269"
+    },
+    {
+      "source": "entity:scie-entity-03258",
+      "target": "organization:036b9c3622c4",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03258",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03258",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3270"
+    },
+    {
+      "source": "entity:scie-entity-03258",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3270"
+    },
+    {
+      "source": "entity:scie-entity-03259",
+      "target": "organization:65a9a7730fe7",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03259",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03259",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3271"
+    },
+    {
+      "source": "entity:scie-entity-03259",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3271"
+    },
+    {
+      "source": "entity:scie-entity-03260",
+      "target": "organization:444434adf5d3",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03260",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03260",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3272"
+    },
+    {
+      "source": "entity:scie-entity-03260",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3272"
+    },
+    {
+      "source": "entity:scie-entity-03261",
+      "target": "organization:ec0d93a0ce7c",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03261",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03261",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3273"
+    },
+    {
+      "source": "entity:scie-entity-03261",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3273"
+    },
+    {
+      "source": "entity:scie-entity-03262",
+      "target": "organization:e346fe0e4820",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03262",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03262",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3274"
+    },
+    {
+      "source": "entity:scie-entity-03262",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3274"
+    },
+    {
+      "source": "entity:scie-entity-03263",
+      "target": "organization:ec0d93a0ce7c",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03263",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03263",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3275"
+    },
+    {
+      "source": "entity:scie-entity-03263",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3275"
+    },
+    {
+      "source": "entity:scie-entity-03264",
+      "target": "organization:ec0d93a0ce7c",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03264",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03264",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3276"
+    },
+    {
+      "source": "entity:scie-entity-03264",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3276"
+    },
+    {
+      "source": "entity:scie-entity-03265",
+      "target": "organization:932bf1407c16",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03265",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03265",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3277"
+    },
+    {
+      "source": "entity:scie-entity-03265",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3277"
+    },
+    {
+      "source": "entity:scie-entity-03266",
+      "target": "organization:ebd34d5cd5d3",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03266",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03266",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3278"
+    },
+    {
+      "source": "entity:scie-entity-03266",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3278"
+    },
+    {
+      "source": "entity:scie-entity-03267",
+      "target": "organization:683590250c5f",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03267",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03267",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3279"
+    },
+    {
+      "source": "entity:scie-entity-03267",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3279"
+    },
+    {
+      "source": "entity:scie-entity-03268",
+      "target": "organization:b08c3b55c4cb",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03268",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03268",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3280"
+    },
+    {
+      "source": "entity:scie-entity-03268",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3280"
+    },
+    {
+      "source": "entity:scie-entity-03269",
+      "target": "organization:c0835e2635db",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03269",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03269",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3281"
+    },
+    {
+      "source": "entity:scie-entity-03269",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3281"
+    },
+    {
+      "source": "entity:scie-entity-03270",
+      "target": "organization:8e240061b20f",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03270",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03270",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3282"
+    },
+    {
+      "source": "entity:scie-entity-03270",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3282"
+    },
+    {
+      "source": "entity:scie-entity-03271",
+      "target": "organization:8f72a52328bd",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03271",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03271",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3283"
+    },
+    {
+      "source": "entity:scie-entity-03271",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3283"
+    },
+    {
+      "source": "entity:scie-entity-03272",
+      "target": "organization:ebd34d5cd5d3",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03272",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03272",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3284"
+    },
+    {
+      "source": "entity:scie-entity-03272",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3284"
+    },
+    {
+      "source": "entity:scie-entity-03273",
+      "target": "organization:fcb0d27afcca",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03273",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03273",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3285"
+    },
+    {
+      "source": "entity:scie-entity-03273",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3285"
+    },
+    {
+      "source": "entity:scie-entity-03274",
+      "target": "organization:78728bd043de",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03274",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03274",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3286"
+    },
+    {
+      "source": "entity:scie-entity-03274",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3286"
+    },
+    {
+      "source": "entity:scie-entity-03275",
+      "target": "organization:954025f6c4c0",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03275",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03275",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3287"
+    },
+    {
+      "source": "entity:scie-entity-03275",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3287"
+    },
+    {
+      "source": "entity:scie-entity-03276",
+      "target": "organization:1592cc4b73c9",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03276",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03276",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3288"
+    },
+    {
+      "source": "entity:scie-entity-03276",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3288"
+    },
+    {
+      "source": "entity:scie-entity-03277",
+      "target": "organization:ec0d93a0ce7c",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03277",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03277",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3289"
+    },
+    {
+      "source": "entity:scie-entity-03277",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3289"
+    },
+    {
+      "source": "entity:scie-entity-03278",
+      "target": "organization:62d36527c6f4",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03278",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03278",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3290"
+    },
+    {
+      "source": "entity:scie-entity-03278",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3290"
+    },
+    {
+      "source": "entity:scie-entity-03279",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03279",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3291"
+    },
+    {
+      "source": "entity:scie-entity-03279",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3291"
+    },
+    {
+      "source": "entity:scie-entity-03280",
+      "target": "organization:00864949d568",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03280",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03280",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3292"
+    },
+    {
+      "source": "entity:scie-entity-03280",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3292"
+    },
+    {
+      "source": "entity:scie-entity-03281",
+      "target": "organization:3434428ad797",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03281",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03281",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3293"
+    },
+    {
+      "source": "entity:scie-entity-03281",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3293"
+    },
+    {
+      "source": "entity:scie-entity-03282",
+      "target": "organization:ec0d93a0ce7c",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03282",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03282",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3294"
+    },
+    {
+      "source": "entity:scie-entity-03282",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3294"
+    },
+    {
+      "source": "entity:scie-entity-03283",
+      "target": "organization:96b71ceea713",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03283",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03283",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3295"
+    },
+    {
+      "source": "entity:scie-entity-03283",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3295"
+    },
+    {
+      "source": "entity:scie-entity-03284",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03284",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3296"
+    },
+    {
+      "source": "entity:scie-entity-03284",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3296"
+    },
+    {
+      "source": "entity:scie-entity-03285",
+      "target": "organization:527a861889c5",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03285",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03285",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3297"
+    },
+    {
+      "source": "entity:scie-entity-03285",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3297"
+    },
+    {
+      "source": "entity:scie-entity-03286",
+      "target": "organization:036b9c3622c4",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03286",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03286",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3298"
+    },
+    {
+      "source": "entity:scie-entity-03286",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3298"
+    },
+    {
+      "source": "entity:scie-entity-03287",
+      "target": "organization:4de3983766ad",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03287",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03287",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3299"
+    },
+    {
+      "source": "entity:scie-entity-03287",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3299"
+    },
+    {
+      "source": "entity:scie-entity-03288",
+      "target": "organization:ebd34d5cd5d3",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03288",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03288",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3300"
+    },
+    {
+      "source": "entity:scie-entity-03288",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3300"
+    },
+    {
+      "source": "entity:scie-entity-03289",
+      "target": "organization:4e71abb34cdf",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03289",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03289",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3301"
+    },
+    {
+      "source": "entity:scie-entity-03289",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3301"
+    },
+    {
+      "source": "entity:scie-entity-03290",
+      "target": "organization:c7384cf5dfca",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03290",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03290",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3302"
+    },
+    {
+      "source": "entity:scie-entity-03290",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3302"
+    },
+    {
+      "source": "entity:scie-entity-03291",
+      "target": "organization:ebd34d5cd5d3",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03291",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03291",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3303"
+    },
+    {
+      "source": "entity:scie-entity-03291",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3303"
+    },
+    {
+      "source": "entity:scie-entity-03292",
+      "target": "organization:8f33f286c47b",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03292",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03292",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3304"
+    },
+    {
+      "source": "entity:scie-entity-03292",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3304"
+    },
+    {
+      "source": "entity:scie-entity-03293",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03293",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3305"
+    },
+    {
+      "source": "entity:scie-entity-03293",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3305"
+    },
+    {
+      "source": "entity:scie-entity-03294",
+      "target": "organization:56d823efe478",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03294",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03294",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3306"
+    },
+    {
+      "source": "entity:scie-entity-03294",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3306"
+    },
+    {
+      "source": "entity:scie-entity-03295",
+      "target": "organization:0fd4093a61e1",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03295",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03295",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3307"
+    },
+    {
+      "source": "entity:scie-entity-03295",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3307"
+    },
+    {
+      "source": "entity:scie-entity-03296",
+      "target": "organization:c39ec469a1eb",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03296",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03296",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3308"
+    },
+    {
+      "source": "entity:scie-entity-03296",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3308"
+    },
+    {
+      "source": "entity:scie-entity-03297",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03297",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3309"
+    },
+    {
+      "source": "entity:scie-entity-03297",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3309"
+    },
+    {
+      "source": "entity:scie-entity-03298",
+      "target": "organization:ebd34d5cd5d3",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03298",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03298",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3310"
+    },
+    {
+      "source": "entity:scie-entity-03298",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3310"
+    },
+    {
+      "source": "entity:scie-entity-03299",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03299",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3311"
+    },
+    {
+      "source": "entity:scie-entity-03299",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3311"
+    },
+    {
+      "source": "entity:scie-entity-03300",
+      "target": "organization:5caed56b8cd2",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03300",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03300",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3312"
+    },
+    {
+      "source": "entity:scie-entity-03300",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3312"
+    },
+    {
+      "source": "entity:scie-entity-03301",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03301",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3313"
+    },
+    {
+      "source": "entity:scie-entity-03301",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3313"
+    },
+    {
+      "source": "entity:scie-entity-03302",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03302",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3314"
+    },
+    {
+      "source": "entity:scie-entity-03302",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3314"
+    },
+    {
+      "source": "entity:scie-entity-03303",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03303",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3315"
+    },
+    {
+      "source": "entity:scie-entity-03303",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3315"
+    },
+    {
+      "source": "entity:scie-entity-03304",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03304",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3316"
+    },
+    {
+      "source": "entity:scie-entity-03304",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3316"
+    },
+    {
+      "source": "entity:scie-entity-03305",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03305",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3317"
+    },
+    {
+      "source": "entity:scie-entity-03305",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3317"
+    },
+    {
+      "source": "entity:scie-entity-03306",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03306",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3318"
+    },
+    {
+      "source": "entity:scie-entity-03306",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3318"
+    },
+    {
+      "source": "entity:scie-entity-03307",
+      "target": "organization:c39ec469a1eb",
+      "relation": "AFFILIATED_WITH",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03307",
+      "target": "source:104147cf83b0",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03307",
+      "target": "capacity:02a9cb0e3585",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3319"
+    },
+    {
+      "source": "entity:scie-entity-03307",
+      "target": "source:0b6134681dd8",
+      "relation": "EVIDENCED_BY",
+      "evidence": "profile provider candidate 3319"
+    },
+    {
+      "source": "entity:scie-entity-03308",
+      "target": "location:e214a3ea6cc4",
+      "relation": "LOCATED_IN",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03308",
+      "target": "source:15e9d11698e9",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03308",
+      "target": "capacity:b75af9371c57",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3320"
+    },
+    {
+      "source": "entity:scie-entity-03309",
+      "target": "location:e214a3ea6cc4",
+      "relation": "LOCATED_IN",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03309",
+      "target": "source:15e9d11698e9",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03309",
+      "target": "capacity:b75af9371c57",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3321"
+    },
+    {
+      "source": "entity:scie-entity-03310",
+      "target": "location:e214a3ea6cc4",
+      "relation": "LOCATED_IN",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03310",
+      "target": "source:15e9d11698e9",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03310",
+      "target": "capacity:b75af9371c57",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3322"
+    },
+    {
+      "source": "entity:scie-entity-03311",
+      "target": "location:e214a3ea6cc4",
+      "relation": "LOCATED_IN",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03311",
+      "target": "source:15e9d11698e9",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03311",
+      "target": "capacity:b75af9371c57",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3323"
+    },
+    {
+      "source": "entity:scie-entity-03312",
+      "target": "location:e214a3ea6cc4",
+      "relation": "LOCATED_IN",
+      "evidence": "canonical entity profile"
+    },
+    {
+      "source": "entity:scie-entity-03312",
+      "target": "source:15e9d11698e9",
+      "relation": "EVIDENCED_BY",
+      "evidence": "discovery provenance"
+    },
+    {
+      "source": "entity:scie-entity-03312",
+      "target": "capacity:a7e1eca40403",
+      "relation": "HAS_CAPACITY_TYPE",
+      "evidence": "candidate 3324"
     }
   ],
   "notice": "Derived evidence graph. Edges express observed structured evidence, not social ties unless explicitly stated."

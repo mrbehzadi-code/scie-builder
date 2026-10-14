@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-13",
-  "candidate_count": 3263,
+  "generated_at": "2026-10-14",
+  "candidate_count": 3325,
   "metrics": {
-    "with_organization": 768,
-    "with_location": 1606,
-    "with_stable_source_id": 1655,
-    "ardakan_location_signal": 1603,
-    "completeness_high": 768,
-    "completeness_medium": 2409,
+    "with_organization": 813,
+    "with_location": 1611,
+    "with_stable_source_id": 1712,
+    "ardakan_location_signal": 1608,
+    "completeness_high": 813,
+    "completeness_medium": 2426,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 1593,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1498,
+    "OpenAlex": 1650,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1503,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub": 62,
@@ -131524,6 +131524,2543 @@
     {
       "candidate_index": 3262,
       "name": "شهریار زرشناس به اظهارات",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3263,
+      "name": "Ali M. Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5079415493",
+      "identifiers": {
+        "openalex_id": "A5079415493",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3264,
+      "name": "Seyed Mojtaba Yassini Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5076471277",
+      "identifiers": {
+        "openalex_id": "A5076471277",
+        "github_username": null
+      },
+      "organization": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "work_count": 60,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3265,
+      "name": "Alireza Emami-Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5006259643",
+      "identifiers": {
+        "openalex_id": "A5006259643",
+        "github_username": null
+      },
+      "organization": "Shariati Hospital",
+      "work_count": 64,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3266,
+      "name": "Farid Ramzi Talih",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5063665459",
+      "identifiers": {
+        "openalex_id": "A5063665459",
+        "github_username": null
+      },
+      "organization": "American University of Beirut Medical Center",
+      "work_count": 63,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3267,
+      "name": "Jalal Vahedian",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5002324737",
+      "identifiers": {
+        "openalex_id": "A5002324737",
+        "github_username": null
+      },
+      "organization": "Iran University of Medical Sciences",
+      "work_count": 48,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3268,
+      "name": "Mohammad H. Asadian",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5008526155",
+      "identifiers": {
+        "openalex_id": "A5008526155",
+        "github_username": null
+      },
+      "organization": "PsiQuantum (United States)",
+      "work_count": 32,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3269,
+      "name": "Kianoosh Torabi",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5040470054",
+      "identifiers": {
+        "openalex_id": "A5040470054",
+        "github_username": null
+      },
+      "organization": "Shiraz University of Medical Sciences",
+      "work_count": 30,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3270,
+      "name": "Leila Safaee Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5078597289",
+      "identifiers": {
+        "openalex_id": "A5078597289",
+        "github_username": null
+      },
+      "organization": "Tarbiat Modares University",
+      "work_count": 8,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3271,
+      "name": "Mahdieh Afkhami Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5025014403",
+      "identifiers": {
+        "openalex_id": "A5025014403",
+        "github_username": null
+      },
+      "organization": "Iran University of Medical Sciences",
+      "work_count": 28,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3272,
+      "name": "Hossein Majedi",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5016077299",
+      "identifiers": {
+        "openalex_id": "A5016077299",
+        "github_username": null
+      },
+      "organization": "Montreal General Hospital",
+      "work_count": 44,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3273,
+      "name": "Ehsan Amiri‐Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5077246061",
+      "identifiers": {
+        "openalex_id": "A5077246061",
+        "github_username": null
+      },
+      "organization": "Shiraz University of Medical Sciences",
+      "work_count": 53,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3274,
+      "name": "Moein Mellat",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5054912692",
+      "identifiers": {
+        "openalex_id": "A5054912692",
+        "github_username": null
+      },
+      "organization": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+      "work_count": 48,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3275,
+      "name": "Alireza Abdi‐Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5108137367",
+      "identifiers": {
+        "openalex_id": "A5108137367",
+        "github_username": null
+      },
+      "organization": "Shiraz University of Medical Sciences",
+      "work_count": 24,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3276,
+      "name": "Shima Torabi Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5009933354",
+      "identifiers": {
+        "openalex_id": "A5009933354",
+        "github_username": null
+      },
+      "organization": "Shiraz University of Medical Sciences",
+      "work_count": 12,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3277,
+      "name": "Fatemeh Ghazi",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5118113102",
+      "identifiers": {
+        "openalex_id": "A5118113102",
+        "github_username": null
+      },
+      "organization": "Persian Gulf University",
+      "work_count": 6,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3278,
+      "name": "Najmeh Seighal",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5021067817",
+      "identifiers": {
+        "openalex_id": "A5021067817",
+        "github_username": null
+      },
+      "organization": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "work_count": 4,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3279,
+      "name": "Ali Fatemi Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5111276526",
+      "identifiers": {
+        "openalex_id": "A5111276526",
+        "github_username": null
+      },
+      "organization": "Community Health Systems - Merit Health Central",
+      "work_count": 8,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3280,
+      "name": "Seyed Mostajab Razavi Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5019991391",
+      "identifiers": {
+        "openalex_id": "A5019991391",
+        "github_username": null
+      },
+      "organization": "Shiraz University",
+      "work_count": 7,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3281,
+      "name": "Sheida Khosravaniardakani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5023120060",
+      "identifiers": {
+        "openalex_id": "A5023120060",
+        "github_username": null
+      },
+      "organization": "University of Miami",
+      "work_count": 10,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3282,
+      "name": "Farhad Taheri",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5089147364",
+      "identifiers": {
+        "openalex_id": "A5089147364",
+        "github_username": null
+      },
+      "organization": "Sharif University of Technology",
+      "work_count": 10,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3283,
+      "name": "Amir Adabiardakani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5042889002",
+      "identifiers": {
+        "openalex_id": "A5042889002",
+        "github_username": null
+      },
+      "organization": "Islamic Azad University, Yazd",
+      "work_count": 3,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3284,
+      "name": "Mohiti Ardekani Azra",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5022888307",
+      "identifiers": {
+        "openalex_id": "A5022888307",
+        "github_username": null
+      },
+      "organization": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "work_count": 3,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3285,
+      "name": "Solmaz Torabi",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5041051463",
+      "identifiers": {
+        "openalex_id": "A5041051463",
+        "github_username": null
+      },
+      "organization": "University of Dhaka",
+      "work_count": 8,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3286,
+      "name": "Ali Toossi",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5026935304",
+      "identifiers": {
+        "openalex_id": "A5026935304",
+        "github_username": null
+      },
+      "organization": "University of Illinois Urbana-Champaign",
+      "work_count": 7,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3287,
+      "name": "Reza Manouchehri Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5081538195",
+      "identifiers": {
+        "openalex_id": "A5081538195",
+        "github_username": null
+      },
+      "organization": "Kashan University of Medical Sciences",
+      "work_count": 6,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3288,
+      "name": "Somayeh Azimpour",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5032431212",
+      "identifiers": {
+        "openalex_id": "A5032431212",
+        "github_username": null
+      },
+      "organization": "Rafsanjan University of Medical Sciences",
+      "work_count": 4,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3289,
+      "name": "Hamid Reza Anvari-Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5073636391",
+      "identifiers": {
+        "openalex_id": "A5073636391",
+        "github_username": null
+      },
+      "organization": "Shiraz University of Medical Sciences",
+      "work_count": 3,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3290,
+      "name": "Bahareh Malekafzali",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5017491492",
+      "identifiers": {
+        "openalex_id": "A5017491492",
+        "github_username": null
+      },
+      "organization": "Islamic Azad University, Tehran",
+      "work_count": 5,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3291,
+      "name": "M Behjati Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5005649956",
+      "identifiers": {
+        "openalex_id": "A5005649956",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3292,
+      "name": "Atefeh Kahfi",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5058619979",
+      "identifiers": {
+        "openalex_id": "A5058619979",
+        "github_username": null
+      },
+      "organization": "Payame Noor University",
+      "work_count": 4,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3293,
+      "name": "Ali Rastjoo",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5004446041",
+      "identifiers": {
+        "openalex_id": "A5004446041",
+        "github_username": null
+      },
+      "organization": "Imam Khomeini Hospital",
+      "work_count": 6,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3294,
+      "name": "Atefeh Torabi Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5079419539",
+      "identifiers": {
+        "openalex_id": "A5079419539",
+        "github_username": null
+      },
+      "organization": "Shiraz University of Medical Sciences",
+      "work_count": 11,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3295,
+      "name": "Marzieh Roayaei Ardakany",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5091990475",
+      "identifiers": {
+        "openalex_id": "A5091990475",
+        "github_username": null
+      },
+      "organization": "Ahvaz Jundishapur University of Medical Sciences",
+      "work_count": 2,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3296,
+      "name": "Mohammad PiriArdakani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5015415211",
+      "identifiers": {
+        "openalex_id": "A5015415211",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3297,
+      "name": "Bamdad Mirab Zadeh Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5046493557",
+      "identifiers": {
+        "openalex_id": "A5046493557",
+        "github_username": null
+      },
+      "organization": "Shahid Beheshti University of Medical Sciences",
+      "work_count": 10,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3298,
+      "name": "F Shaker Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5036317794",
+      "identifiers": {
+        "openalex_id": "A5036317794",
+        "github_username": null
+      },
+      "organization": "Tarbiat Modares University",
+      "work_count": 2,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3299,
+      "name": "Hajar Hasani ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5050769670",
+      "identifiers": {
+        "openalex_id": "A5050769670",
+        "github_username": null
+      },
+      "organization": "Islamic Azad University, Marvdasht",
+      "work_count": 4,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3300,
+      "name": "SM YasiniArdakani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5058825828",
+      "identifiers": {
+        "openalex_id": "A5058825828",
+        "github_username": null
+      },
+      "organization": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "work_count": 2,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3301,
+      "name": "Maryam Salahiardakani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5050059137",
+      "identifiers": {
+        "openalex_id": "A5050059137",
+        "github_username": null
+      },
+      "organization": "Yasuj University of Medical Sciences",
+      "work_count": 2,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3302,
+      "name": "Fatemeh Hashemi Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5121410277",
+      "identifiers": {
+        "openalex_id": "A5121410277",
+        "github_username": null
+      },
+      "organization": "Islamic Azad University, Arak",
+      "work_count": 2,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3303,
+      "name": "جواد بیابانی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5079516050",
+      "identifiers": {
+        "openalex_id": "A5079516050",
+        "github_username": null
+      },
+      "organization": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "work_count": 4,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3304,
+      "name": "عذرا محمدپناهاردکان",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5059920958",
+      "identifiers": {
+        "openalex_id": "A5059920958",
+        "github_username": null
+      },
+      "organization": "University of Tabriz",
+      "work_count": 3,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3305,
+      "name": "حسن محیطی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5067090908",
+      "identifiers": {
+        "openalex_id": "A5067090908",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3306,
+      "name": "محمدعلی حکیم زاده",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5082671483",
+      "identifiers": {
+        "openalex_id": "A5082671483",
+        "github_username": null
+      },
+      "organization": "Yazd University",
+      "work_count": 30,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3307,
+      "name": "مصطفی کمالی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5080927465",
+      "identifiers": {
+        "openalex_id": "A5080927465",
+        "github_username": null
+      },
+      "organization": "Isfahan University of Medical Sciences",
+      "work_count": 11,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3308,
+      "name": "ولی رستمی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5010287949",
+      "identifiers": {
+        "openalex_id": "A5010287949",
+        "github_username": null
+      },
+      "organization": "University of Tehran",
+      "work_count": 78,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3309,
+      "name": "محمدرضا شمساردکانی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5038383182",
+      "identifiers": {
+        "openalex_id": "A5038383182",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3310,
+      "name": "عذرا محیطی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5052519484",
+      "identifiers": {
+        "openalex_id": "A5052519484",
+        "github_username": null
+      },
+      "organization": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "work_count": 2,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3311,
+      "name": "مرضیه مروتی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5002181856",
+      "identifiers": {
+        "openalex_id": "A5002181856",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3312,
+      "name": "یاسر معصومی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5000673691",
+      "identifiers": {
+        "openalex_id": "A5000673691",
+        "github_username": null
+      },
+      "organization": "Kerman University of Medical Sciences",
+      "work_count": 3,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3313,
+      "name": "شهین بهجتی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5076083018",
+      "identifiers": {
+        "openalex_id": "A5076083018",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3314,
+      "name": "محمدرضا افخمی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5014016690",
+      "identifiers": {
+        "openalex_id": "A5014016690",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3315,
+      "name": "محمدرضا خدایی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5018999903",
+      "identifiers": {
+        "openalex_id": "A5018999903",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3316,
+      "name": "فائزه فتوحی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5050880178",
+      "identifiers": {
+        "openalex_id": "A5050880178",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3317,
+      "name": "بهشته ملک افضلی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5060074239",
+      "identifiers": {
+        "openalex_id": "A5060074239",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3318,
+      "name": "جانب ا... نیازی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5077989149",
+      "identifiers": {
+        "openalex_id": "A5077989149",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3319,
+      "name": "سیدمجتبی حسینی پور",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5058344954",
+      "identifiers": {
+        "openalex_id": "A5058344954",
+        "github_username": null
+      },
+      "organization": "University of Tehran",
+      "work_count": 3,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3320,
+      "name": "ارشدِ طراح نیز فراتر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3321,
+      "name": "احسان موحدیان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3322,
+      "name": "سلیمی از این جنایت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3323,
+      "name": "محمدسینا سلیمی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3324,
+      "name": "میرحسین موسوی در برخی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "source_url": "https://t.me/s/ardakaneemrooz_ir",
