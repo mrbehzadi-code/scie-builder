@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2923,
+    "insufficient": 2985,
     "possible": 324,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -49891,6 +49891,816 @@
     {
       "candidate_index": 3262,
       "name": "شهریار زرشناس به اظهارات",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3263,
+      "name": "Ali M. Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3264,
+      "name": "Seyed Mojtaba Yassini Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3265,
+      "name": "Alireza Emami-Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3266,
+      "name": "Farid Ramzi Talih",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3267,
+      "name": "Jalal Vahedian",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3268,
+      "name": "Mohammad H. Asadian",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3269,
+      "name": "Kianoosh Torabi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3270,
+      "name": "Leila Safaee Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3271,
+      "name": "Mahdieh Afkhami Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3272,
+      "name": "Hossein Majedi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3273,
+      "name": "Ehsan Amiri‐Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3274,
+      "name": "Moein Mellat",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3275,
+      "name": "Alireza Abdi‐Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3276,
+      "name": "Shima Torabi Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3277,
+      "name": "Fatemeh Ghazi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3278,
+      "name": "Najmeh Seighal",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3279,
+      "name": "Ali Fatemi Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3280,
+      "name": "Seyed Mostajab Razavi Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3281,
+      "name": "Sheida Khosravaniardakani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3282,
+      "name": "Farhad Taheri",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3283,
+      "name": "Amir Adabiardakani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3284,
+      "name": "Mohiti Ardekani Azra",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3285,
+      "name": "Solmaz Torabi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3286,
+      "name": "Ali Toossi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3287,
+      "name": "Reza Manouchehri Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3288,
+      "name": "Somayeh Azimpour",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3289,
+      "name": "Hamid Reza Anvari-Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3290,
+      "name": "Bahareh Malekafzali",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3291,
+      "name": "M Behjati Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3292,
+      "name": "Atefeh Kahfi",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3293,
+      "name": "Ali Rastjoo",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3294,
+      "name": "Atefeh Torabi Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3295,
+      "name": "Marzieh Roayaei Ardakany",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3296,
+      "name": "Mohammad PiriArdakani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3297,
+      "name": "Bamdad Mirab Zadeh Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3298,
+      "name": "F Shaker Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3299,
+      "name": "Hajar Hasani ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3300,
+      "name": "SM YasiniArdakani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3301,
+      "name": "Maryam Salahiardakani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3302,
+      "name": "Fatemeh Hashemi Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3303,
+      "name": "جواد بیابانی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3304,
+      "name": "عذرا محمدپناهاردکان",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3305,
+      "name": "حسن محیطی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3306,
+      "name": "محمدعلی حکیم زاده",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3307,
+      "name": "مصطفی کمالی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3308,
+      "name": "ولی رستمی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3309,
+      "name": "محمدرضا شمساردکانی",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3310,
+      "name": "عذرا محیطی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3311,
+      "name": "مرضیه مروتی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3312,
+      "name": "یاسر معصومی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3313,
+      "name": "شهین بهجتی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3314,
+      "name": "محمدرضا افخمی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3315,
+      "name": "محمدرضا خدایی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3316,
+      "name": "فائزه فتوحی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3317,
+      "name": "بهشته ملک افضلی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3318,
+      "name": "جانب ا... نیازی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3319,
+      "name": "سیدمجتبی حسینی پور",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3320,
+      "name": "ارشدِ طراح نیز فراتر",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3321,
+      "name": "احسان موحدیان",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3322,
+      "name": "سلیمی از این جنایت",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3323,
+      "name": "محمدسینا سلیمی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3324,
+      "name": "میرحسین موسوی در برخی",
       "score": 10,
       "status": "insufficient",
       "reasons": [

@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3263,
-    "academic_candidates": 1593,
-    "regional_evidence": 571,
+    "people": 3325,
+    "academic_candidates": 1650,
+    "regional_evidence": 588,
     "sources": {
       "GitHub Discovery": 62,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1570,
+      "OpenAlex Discovery": 1627,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1498
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1503
     },
-    "public_source_records": 2882,
-    "social_public_records": 1487
+    "public_source_records": 2943,
+    "social_public_records": 1492
   },
   "people": [
     {
@@ -73634,6 +73634,1060 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🎥 پاسخ عالمانه دکتر شهریار زرشناس به اظهارات متوهمانه ظریف درباره چگونگی پیشرفت چین پیشرفت چین، حاصل مذاکره و سازش با آمریکا نیست. اتفاقاً «مائو» به شدت ضد آمریکایی بود. چین زمانی با آمریکا مذاکره کرد که پیش از آن، هم زیرساختهایش را استحکام بخشیده بود و هم به بمب اتم دست یافته بود. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "Ali M. Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "76 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5079415493",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Seyed Mojtaba Yassini Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "60 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5076471277",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Alireza Emami-Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "64 اثر علمی · Shariati Hospital",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5006259643",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Farid Ramzi Talih",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "63 اثر علمی · American University of Beirut Medical Center",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5063665459",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Jalal Vahedian",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "48 اثر علمی · Iran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5002324737",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Mohammad H. Asadian",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "32 اثر علمی · PsiQuantum (United States)",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5008526155",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Kianoosh Torabi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "30 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5040470054",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Leila Safaee Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · Tarbiat Modares University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5078597289",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Mahdieh Afkhami Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "28 اثر علمی · Iran University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5025014403",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Hossein Majedi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "44 اثر علمی · Montreal General Hospital",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5016077299",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Ehsan Amiri‐Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "53 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5077246061",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Moein Mellat",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "48 اثر علمی · Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5054912692",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Alireza Abdi‐Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "24 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5108137367",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Shima Torabi Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "12 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5009933354",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Fatemeh Ghazi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "6 اثر علمی · Persian Gulf University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5118113102",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Najmeh Seighal",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5021067817",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Ali Fatemi Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · Community Health Systems - Merit Health Central",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5111276526",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Seyed Mostajab Razavi Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "7 اثر علمی · Shiraz University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5019991391",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Sheida Khosravaniardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "10 اثر علمی · University of Miami",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5023120060",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Farhad Taheri",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "10 اثر علمی · Sharif University of Technology",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5089147364",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Amir Adabiardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · Islamic Azad University, Yazd",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5042889002",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Mohiti Ardekani Azra",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5022888307",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Solmaz Torabi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "8 اثر علمی · University of Dhaka",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5041051463",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Ali Toossi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "7 اثر علمی · University of Illinois Urbana-Champaign",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5026935304",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Reza Manouchehri Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "6 اثر علمی · Kashan University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5081538195",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Somayeh Azimpour",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Rafsanjan University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5032431212",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Hamid Reza Anvari-Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5073636391",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Bahareh Malekafzali",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی · Islamic Azad University, Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5017491492",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "M Behjati Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5005649956",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Atefeh Kahfi",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Payame Noor University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5058619979",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Ali Rastjoo",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "6 اثر علمی · Imam Khomeini Hospital",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5004446041",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Atefeh Torabi Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "11 اثر علمی · Shiraz University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5079419539",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Marzieh Roayaei Ardakany",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Ahvaz Jundishapur University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5091990475",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Mohammad PiriArdakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5015415211",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Bamdad Mirab Zadeh Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "10 اثر علمی · Shahid Beheshti University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5046493557",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "F Shaker Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Tarbiat Modares University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5036317794",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Hajar Hasani ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Islamic Azad University, Marvdasht",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5050769670",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "SM YasiniArdakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5058825828",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Maryam Salahiardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Yasuj University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5050059137",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
+    },
+    {
+      "name": "Fatemeh Hashemi Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Islamic Azad University, Arak",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5121410277",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "جواد بیابانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5079516050",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "عذرا محمدپناهاردکان",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · University of Tabriz",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5059920958",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "حسن محیطی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "7 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکان",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5067090908",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "محمدعلی حکیم زاده",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "30 اثر علمی · Yazd University",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5082671483",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "مصطفی کمالی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "11 اثر علمی · Isfahan University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5080927465",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "ولی رستمی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "78 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5010287949",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "محمدرضا شمساردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5038383182",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "عذرا محیطی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5052519484",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "مرضیه مروتی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "9 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5002181856",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "یاسر معصومی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · Kerman University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5000673691",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "شهین بهجتی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5076083018",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "محمدرضا افخمی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "2 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5014016690",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "محمدرضا خدایی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "20 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5018999903",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "فائزه فتوحی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "4 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5050880178",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "بهشته ملک افضلی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5060074239",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "جانب ا... نیازی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "5 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5077989149",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "سیدمجتبی حسینی پور",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "3 اثر علمی · University of Tehran",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5058344954",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "ارشدِ طراح نیز فراتر",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#ارسالی طبقه جدیدِ شهری؛ طبقه ای که فولاد ساخت و نخبگانی که شهر رهایشان کرد! تحلیلی بر دگرگونی قشربندی اجتماعی در شهر صنعتی اردکان ۱. نقطهٔ آغاز: شهری که معادلاتش به هم ریخته است در شهر صنعتیِ اردکان، سالهاست که یک تحول خاموش اما بنیادین در حال وقوع است. صنعت فولاد که با اتکا به یارانهٔ کلان انرژی اداره میشود، به کارگران خود دستمزدهایی پرداخت میکند که نه تنها از تورم جلوتر است، بلکه در بسیاری موارد، از حقوق یک استاد ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "احسان موحدیان",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "پزشکیان بارها با علی‌اف دیدار کرده ولی مرزها با آذربایجان مدت‌‎هاست بسته شده، پروازها متوقف شده و کارخانه‌های اسلحه‌سازی اسرائیل در این کشور افتتاح می‌شود! 🔹 دکتر احسان موحدیان، تحلیلگر مسائل بین‌الملل: یک لابی قوی پشت دیدارهای مکرر پزشکیان و علی‌اف هست، چون این دیدارها هیچ منفعتی برای جمهوری اسلامی ندارد. 🔸 هنوز ترکیه و ارمنستان پروازها را نبسته‌اند ولی آذربایجان برای توقف پروازهای ایران پیشقدم می‌شود. 🔹 اگر قرار اس",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "سلیمی از این جنایت",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "۷۲۰ هزار ساچمه بر فراز یک شهر ۳۰ هزار نفری! 🪧 دکتر محمدسینا سلیمی، پزشک جراح بیمارستان لامرد، در روایتی تکان‌دهنده از تهاجم ارتش آمریکا به این شهر در روز اول جنگ رمضان، از لحظاتی می‌گوید که هیچ‌کس تصور نمی‌کرد لامرد، شهری کوچک و فاقد پایگاه نظامی خاص، هدف چنین حمله‌ای قرار بگیرد. ◽ سلیمی از چهار انفجار پیاپی در فاصله حدود ۳۵ ثانیه روایت می‌کند؛ بمب‌هایی که به گفته او، هرکدام ۱۸۰ هزار ساچمه تنگستنی را در اطراف پراکنده",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "محمدسینا سلیمی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "۷۲۰ هزار ساچمه بر فراز یک شهر ۳۰ هزار نفری! 🪧 دکتر محمدسینا سلیمی، پزشک جراح بیمارستان لامرد، در روایتی تکان‌دهنده از تهاجم ارتش آمریکا به این شهر در روز اول جنگ رمضان، از لحظاتی می‌گوید که هیچ‌کس تصور نمی‌کرد لامرد، شهری کوچک و فاقد پایگاه نظامی خاص، هدف چنین حمله‌ای قرار بگیرد. ◽ سلیمی از چهار انفجار پیاپی در فاصله حدود ۳۵ ثانیه روایت می‌کند؛ بمب‌هایی که به گفته او، هرکدام ۱۸۰ هزار ساچمه تنگستنی را در اطراف پراکنده",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "میرحسین موسوی در برخی",
+      "type": "فنی و مهندسی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "♦️ فارس: خبر درگذشت میرحسین موسوی صحت ندارد 🔹 فارس نوشت: از بامداد امروز شایعاتی دربارهٔ درگذشت مهندس میرحسین موسوی در برخی صفحات فضای مجازی منتشر شده؛ اما پیگیری‌ها نشان می‌دهد که این خبر صحت ندارد. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
