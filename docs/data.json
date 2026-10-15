@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14",
+  "generated_at": "2026-10-15",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3325,
+    "people": 3328,
     "academic_candidates": 1650,
     "regional_evidence": 588,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1503
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1506
     },
-    "public_source_records": 2943,
-    "social_public_records": 1492
+    "public_source_records": 2948,
+    "social_public_records": 1495
   },
   "people": [
     {
@@ -74688,6 +74688,57 @@
       "type": "فنی و مهندسی",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "♦️ فارس: خبر درگذشت میرحسین موسوی صحت ندارد 🔹 فارس نوشت: از بامداد امروز شایعاتی دربارهٔ درگذشت مهندس میرحسین موسوی در برخی صفحات فضای مجازی منتشر شده؛ اما پیگیری‌ها نشان می‌دهد که این خبر صحت ندارد. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "حامد کاشانی می‌گه دارن",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "شما اگه چند شب بین مردم توی خیابون رفته باشید، متوجه می‌شید که هیچ‌کس، مطلقاً هیچ‌کس، انتقادی خطاب به فرماندهان نظامی مطرح نمی‌کنه؛ چه برسه به توهین! حتی سر رأی به تفاهم‌نامه هم همه شعارها علیه سیاستمداران بود. ولی یه جماعتی اصرار دارن بگن تو خیابون داره به فرماندهان توهین می‌شه! اول آقای قالیباف گفت وقتی می‌شنوم به فرماندهان توهین می‌شه، بغض می‌کنم! بعد مطیعی گفت باید توی دهن اون آدما زد! بعد احدیان و آجرلو گفتن چرا",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "قالیباف گفت وقتی می‌شنوم",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "شما اگه چند شب بین مردم توی خیابون رفته باشید، متوجه می‌شید که هیچ‌کس، مطلقاً هیچ‌کس، انتقادی خطاب به فرماندهان نظامی مطرح نمی‌کنه؛ چه برسه به توهین! حتی سر رأی به تفاهم‌نامه هم همه شعارها علیه سیاستمداران بود. ولی یه جماعتی اصرار دارن بگن تو خیابون داره به فرماندهان توهین می‌شه! اول آقای قالیباف گفت وقتی می‌شنوم به فرماندهان توهین می‌شه، بغض می‌کنم! بعد مطیعی گفت باید توی دهن اون آدما زد! بعد احدیان و آجرلو گفتن چرا",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "کرباسچی معتقدند ما هنوز",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "◀️ کرباسچی: ما باید آژانس را قانع می‌کردیم که دنبال ساخت بمب نیستیم ! نیما اکبرخانی: آژانس و نهاد اطلاعاتی آمریکا قانع شدند و می‌گویند ایران دنبال ساخت بمب نیست؛ اما آقای کرباسچی معتقدند ما هنوز نتوانسته‌ایم آن‌ها را قانع کنیم ! @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
