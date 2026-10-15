@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14",
+  "generated_at": "2026-10-15",
   "metrics": {
-    "candidate_records": 3325,
-    "canonical_entities": 3312,
+    "candidate_records": 3328,
+    "canonical_entities": 3315,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3333,7 +3333,10 @@
     "3321": "scie-entity-03309",
     "3322": "scie-entity-03310",
     "3323": "scie-entity-03311",
-    "3324": "scie-entity-03312"
+    "3324": "scie-entity-03312",
+    "3325": "scie-entity-03313",
+    "3326": "scie-entity-03314",
+    "3327": "scie-entity-03315"
   },
   "entities": [
     {
@@ -101076,6 +101079,93 @@
       "primary_name": "میرحسین موسوی در برخی",
       "aliases": [
         "میرحسین موسوی در برخی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03313",
+      "candidate_indexes": [
+        3325
+      ],
+      "record_count": 1,
+      "primary_name": "حامد کاشانی می‌گه دارن",
+      "aliases": [
+        "حامد کاشانی می‌گه دارن"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03314",
+      "candidate_indexes": [
+        3326
+      ],
+      "record_count": 1,
+      "primary_name": "قالیباف گفت وقتی می‌شنوم",
+      "aliases": [
+        "قالیباف گفت وقتی می‌شنوم"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03315",
+      "candidate_indexes": [
+        3327
+      ],
+      "record_count": 1,
+      "primary_name": "کرباسچی معتقدند ما هنوز",
+      "aliases": [
+        "کرباسچی معتقدند ما هنوز"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

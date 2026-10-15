@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-14",
-  "candidate_count": 3325,
+  "generated_at": "2026-10-15",
+  "candidate_count": 3328,
   "metrics": {
     "openalex_skipped": 1643,
-    "unsupported_or_missing_id": 1613,
+    "unsupported_or_missing_id": 1616,
     "openalex_reused": 7,
     "github_reused": 62,
     "errors": 0,
     "enriched_total": 69,
-    "skipped_total": 3256
+    "skipped_total": 3259
   },
   "failures": {},
   "profiles": [
@@ -29217,6 +29217,27 @@
     {
       "candidate_index": 3324,
       "name": "میرحسین موسوی در برخی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3325,
+      "name": "حامد کاشانی می‌گه دارن",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3326,
+      "name": "قالیباف گفت وقتی می‌شنوم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3327,
+      "name": "کرباسچی معتقدند ما هنوز",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
