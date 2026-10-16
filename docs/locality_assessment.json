@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 2988,
+    "insufficient": 2990,
     "possible": 324,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -50740,6 +50740,32 @@
     {
       "candidate_index": 3327,
       "name": "کرباسچی معتقدند ما هنوز",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3328,
+      "name": "MMAkramzadeh",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3329,
+      "name": "همتی به دنبال اجرای",
       "score": 10,
       "status": "insufficient",
       "reasons": [

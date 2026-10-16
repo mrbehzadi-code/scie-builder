@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-15T06:26:08Z",
+  "generated_at": "2026-10-16T06:23:46Z",
   "target": 5000,
-  "pool_size": 3328,
-  "new_records": 3,
+  "pool_size": 3330,
+  "new_records": 1,
   "records_in_snapshot_by_source": {
-    "GitHub Discovery": 62,
+    "GitHub Discovery": 63,
     "Lead-guided OpenAlex Discovery": 23,
     "OpenAlex Discovery": 1627,
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1506
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1507
   },
   "telegram": [
     {
@@ -46,7 +46,7 @@
     {
       "url": "https://t.me/s/Pourdehghan_ir",
       "pages": 215,
-      "records": 178,
+      "records": 179,
       "status": "ok"
     }
   ],

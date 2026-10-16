@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-15",
+  "generated_at": "2026-10-16",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3328,
+    "people": 3330,
     "academic_candidates": 1650,
-    "regional_evidence": 588,
+    "regional_evidence": 589,
     "sources": {
-      "GitHub Discovery": 62,
+      "GitHub Discovery": 63,
       "Lead-guided OpenAlex Discovery": 23,
       "OpenAlex Discovery": 1627,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1506
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1507
     },
-    "public_source_records": 2948,
-    "social_public_records": 1495
+    "public_source_records": 2951,
+    "social_public_records": 1496
   },
   "people": [
     {
@@ -74748,6 +74748,37 @@
       "verification": "needs_review",
       "confidence": "low",
       "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "MMAkramzadeh",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: ardakani in:bio"
+      ],
+      "url": "https://github.com/MMAkramzadeh",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "همتی به دنبال اجرای",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "📹 ویدئو/ بخشی از گفت‌وگوی روزنامۀ شرق با دکتر مصطفی پوردهقان اردکان دربارۀ وضعیت اقتصادی و معیشت مردم 🎙 من در خیابان و حوزه انتخابیه با مردم صحبت می‌کنم. مردم می‌پرسند دلیل این گرانی‌ها چیست. وزیر باید بیاید و توضیح بدهد. 🎙 آقای همتی به دنبال اجرای سیاست شوک‌درمانی در اقتصاد است و با این رویکرد مخالفت دارم. نرخ ارز نیمایی از حدود ۷۰ هزار تومان یک‌شبه به ۱۴۰ هزار تومان رسید. بارها به دولت هشدار دادیم که مسیر اشتباهی ر",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
     }
