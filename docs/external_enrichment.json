@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-10-15",
-  "candidate_count": 3328,
+  "generated_at": "2026-10-16",
+  "candidate_count": 3330,
   "metrics": {
     "openalex_skipped": 1643,
-    "unsupported_or_missing_id": 1616,
+    "unsupported_or_missing_id": 1617,
     "openalex_reused": 7,
     "github_reused": 62,
+    "github_enriched": 1,
     "errors": 0,
-    "enriched_total": 69,
-    "skipped_total": 3259
+    "enriched_total": 70,
+    "skipped_total": 3260
   },
   "failures": {},
   "profiles": [
@@ -29238,6 +29239,34 @@
     {
       "candidate_index": 3327,
       "name": "کرباسچی معتقدند ما هنوز",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3328,
+      "name": "MMAkramzadeh",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "MMAkramzadeh",
+        "display_name": "Mohammad Mehdi Akramzadeh Ardakani",
+        "company": null,
+        "blog": null,
+        "location": "Italy",
+        "bio": "Casual Coder | Linux Lover\r\nI try to solve the problems around me the way i can. Not the best, but it works!",
+        "public_repos": 1,
+        "followers": 2,
+        "following": 8,
+        "created_at": "2025-02-01T09:47:50Z",
+        "updated_at": "2026-10-15T16:32:29Z",
+        "provider_url": "https://github.com/MMAkramzadeh"
+      }
+    },
+    {
+      "candidate_index": 3329,
+      "name": "همتی به دنبال اجرای",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-10-15",
-  "candidate_count": 3328,
+  "generated_at": "2026-10-16",
+  "candidate_count": 3330,
   "metrics": {
-    "unique_name_keys": 3232,
+    "unique_name_keys": 3234,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 13,
     "quality_strong": 5,
-    "quality_medium": 3236,
+    "quality_medium": 3238,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7821,
+    "evidence_items": 7825,
     "organizations_detected": 233,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1627,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1506,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1507,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "GitHub Discovery": 62,
+    "GitHub Discovery": 63,
     "دانشگاه‌های داخلی و خارجی": 1,
     "Lead-guided OpenAlex Discovery": 23
   },
@@ -40,7 +40,7 @@
     "فلسفه / علوم انسانی": 1,
     "دانشگاهی / پژوهشی": 5,
     "پروفایل وب": 5,
-    "پروفایل فنی": 57,
+    "پروفایل فنی": 58,
     "مدیریت / صنعتی": 1,
     "مدیریت / صنعت": 1,
     "مهندسی مکانیک / تولید": 1,
@@ -52,7 +52,7 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 705,
+    "پزشکی و سلامت": 706,
     "مدیریت و جامعه": 105,
     "فرهنگ و هنر": 18,
     "فنی و مهندسی": 106,
@@ -87,8 +87,8 @@
     "location: Ardakan": 5,
     "name signal": 1,
     "public GitHub profile": 5,
-    "GitHub user search": 57,
-    "query: ardakani in:bio": 22,
+    "GitHub user search": 58,
+    "query: ardakani in:bio": 23,
     "Chadormalu public-relations report": 1,
     "Role and Ardakani identification": 1,
     "Public company/business interview": 1,
@@ -125,8 +125,8 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1495,
-    "Ardakan keyword in same public post": 545,
+    "public Telegram preview": 1496,
+    "Ardakan keyword in same public post": 546,
     "public author profile": 1335,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
@@ -53452,6 +53452,38 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3328,
+      "score": 58,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "structured_source"
+      ]
+    },
+    {
+      "candidate_index": 3329,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -54869,9 +54901,10 @@
         492,
         494,
         3178,
-        3190
+        3190,
+        3328
       ],
-      "count": 74
+      "count": 75
     },
     {
       "location": "iran yazd ardakan",
@@ -56390,9 +56423,10 @@
         3324,
         3325,
         3326,
-        3327
+        3327,
+        3329
       ],
-      "count": 1495
+      "count": 1496
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-15",
+  "generated_at": "2026-10-16",
   "metrics": {
-    "candidate_records": 3328,
-    "canonical_entities": 3315,
+    "candidate_records": 3330,
+    "canonical_entities": 3317,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
-    "entities_with_external_data": 67
+    "entities_with_external_data": 68
   },
   "candidate_to_entity": {
     "0": "scie-entity-00001",
@@ -3336,7 +3336,9 @@
     "3324": "scie-entity-03312",
     "3325": "scie-entity-03313",
     "3326": "scie-entity-03314",
-    "3327": "scie-entity-03315"
+    "3327": "scie-entity-03315",
+    "3328": "scie-entity-03316",
+    "3329": "scie-entity-03317"
   },
   "entities": [
     {
@@ -101172,6 +101174,67 @@
       ],
       "source_urls": [
         "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03316",
+      "candidate_indexes": [
+        3328
+      ],
+      "record_count": 1,
+      "primary_name": "Mohammad Mehdi Akramzadeh Ardakani",
+      "aliases": [
+        "MMAkramzadeh"
+      ],
+      "sources": [
+        "GitHub Discovery"
+      ],
+      "source_urls": [
+        "https://github.com/MMAkramzadeh"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan signal",
+        "Italy"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [
+          "MMAkramzadeh"
+        ],
+        "orcids": []
+      },
+      "external_enriched_records": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03317",
+      "candidate_indexes": [
+        3329
+      ],
+      "record_count": 1,
+      "primary_name": "همتی به دنبال اجرای",
+      "aliases": [
+        "همتی به دنبال اجرای"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
       ],
       "organizations": [],
       "locations": [
