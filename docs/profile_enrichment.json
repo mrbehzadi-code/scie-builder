@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-16",
-  "candidate_count": 3330,
+  "generated_at": "2026-10-17",
+  "candidate_count": 3332,
   "metrics": {
-    "with_organization": 813,
+    "with_organization": 814,
     "with_location": 1616,
-    "with_stable_source_id": 1713,
+    "with_stable_source_id": 1715,
     "ardakan_location_signal": 1613,
-    "completeness_high": 813,
-    "completeness_medium": 2431,
+    "completeness_high": 814,
+    "completeness_medium": 2432,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 1650,
+    "OpenAlex": 1652,
     "کانال‌ها و گروه‌های عمومی تلگرام": 1507,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -134295,6 +134295,88 @@
       "missing_fields": [
         "organization",
         "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3330,
+      "name": "Hooman Sadri‐Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5027290610",
+      "identifiers": {
+        "openalex_id": "A5027290610",
+        "github_username": null
+      },
+      "organization": "Atrium Health Wake Forest Baptist",
+      "work_count": 103,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3331,
+      "name": "Sina Moeini",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5056291562",
+      "identifiers": {
+        "openalex_id": "A5056291562",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
         "work_count"
       ]
     }

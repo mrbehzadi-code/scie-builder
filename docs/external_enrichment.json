@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-10-16",
-  "candidate_count": 3330,
+  "generated_at": "2026-10-17",
+  "candidate_count": 3332,
   "metrics": {
-    "openalex_skipped": 1643,
+    "openalex_skipped": 1645,
     "unsupported_or_missing_id": 1617,
     "openalex_reused": 7,
-    "github_reused": 62,
-    "github_enriched": 1,
+    "github_reused": 63,
     "errors": 0,
     "enriched_total": 70,
-    "skipped_total": 3260
+    "skipped_total": 3262
   },
   "failures": {},
   "profiles": [
@@ -29270,6 +29269,26 @@
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
+    },
+    {
+      "candidate_index": 3330,
+      "name": "Hooman Sadri‐Ardekani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3331,
+      "name": "Sina Moeini",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     }
   ],
   "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."

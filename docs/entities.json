@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16",
+  "generated_at": "2026-10-17",
   "metrics": {
-    "candidate_records": 3330,
-    "canonical_entities": 3317,
+    "candidate_records": 3332,
+    "canonical_entities": 3319,
     "records_collapsed": 13,
     "same_person_pairs_applied": 13,
     "multi_record_entities": 13,
@@ -3338,7 +3338,9 @@
     "3326": "scie-entity-03314",
     "3327": "scie-entity-03315",
     "3328": "scie-entity-03316",
-    "3329": "scie-entity-03317"
+    "3329": "scie-entity-03317",
+    "3330": "scie-entity-03318",
+    "3331": "scie-entity-03319"
   },
   "entities": [
     {
@@ -101242,6 +101244,66 @@
       ],
       "identifiers": {
         "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03318",
+      "candidate_indexes": [
+        3330
+      ],
+      "record_count": 1,
+      "primary_name": "Hooman Sadri‐Ardekani",
+      "aliases": [
+        "Hooman Sadri‐Ardekani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5027290610"
+      ],
+      "organizations": [
+        "Atrium Health Wake Forest Baptist"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5027290610"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03319",
+      "candidate_indexes": [
+        3331
+      ],
+      "record_count": 1,
+      "primary_name": "Sina Moeini",
+      "aliases": [
+        "Sina Moeini"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5056291562"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5056291562"
+        ],
         "github_usernames": [],
         "orcids": []
       },

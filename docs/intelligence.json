@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-16",
-  "candidate_count": 3330,
+  "generated_at": "2026-10-17",
+  "candidate_count": 3332,
   "metrics": {
-    "unique_name_keys": 3234,
+    "unique_name_keys": 3236,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 13,
     "quality_strong": 5,
-    "quality_medium": 3238,
+    "quality_medium": 3240,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7825,
-    "organizations_detected": 233,
+    "evidence_items": 7831,
+    "organizations_detected": 234,
     "locations_detected": 11
   },
   "sources": {
-    "OpenAlex Discovery": 1627,
+    "OpenAlex Discovery": 1629,
     "کانال‌ها و گروه‌های عمومی تلگرام": 1507,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -25,7 +25,7 @@
     "Lead-guided OpenAlex Discovery": 23
   },
   "capacity_types": {
-    "کاندیدای پژوهشی": 1624,
+    "کاندیدای پژوهشی": 1626,
     "ورزش / والیبال": 8,
     "سایر": 86,
     "فنی / دانش‌بنیان": 1,
@@ -61,9 +61,9 @@
     "کاندیدای معرفی‌شده به اطلس": 1
   },
   "evidence_types": {
-    "OpenAlex author search": 1624,
+    "OpenAlex author search": 1626,
     "query: ardakan": 59,
-    "query: ardakani": 1089,
+    "query: ardakani": 1091,
     "Public sports report": 10,
     "Ardakan tag in competition roster": 10,
     "Public LinkedIn profile": 2,
@@ -127,7 +127,7 @@
     "query: محمود فرزان": 1,
     "public Telegram preview": 1496,
     "Ardakan keyword in same public post": 546,
-    "public author profile": 1335,
+    "public author profile": 1337,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
     "professional name in an Ardakan-focused public channel": 950
@@ -53483,6 +53483,37 @@
         "ardakan_signal",
         "location",
         "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3330,
+      "score": 65,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": true,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "organization",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3331,
+      "score": 50,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "structured_academic_source"
       ]
     }
   ],
