@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-16T06:23:46Z",
+  "generated_at": "2026-10-17T06:08:38Z",
   "target": 5000,
-  "pool_size": 3330,
-  "new_records": 1,
+  "pool_size": 3332,
+  "new_records": 0,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 63,
     "Lead-guided OpenAlex Discovery": 23,
-    "OpenAlex Discovery": 1627,
+    "OpenAlex Discovery": 1629,
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 369,
+      "records": 370,
       "status": "ok"
     },
     {
