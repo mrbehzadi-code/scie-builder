@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-17",
+  "generated_at": "2026-10-18",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3332,
-    "academic_candidates": 1652,
+    "people": 3333,
+    "academic_candidates": 1653,
     "regional_evidence": 589,
     "sources": {
       "GitHub Discovery": 63,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1629,
+      "OpenAlex Discovery": 1630,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
       "کانال‌ها و گروه‌های عمومی تلگرام": 1507
     },
-    "public_source_records": 2954,
+    "public_source_records": 2955,
     "social_public_records": 1496
   },
   "people": [
@@ -74815,6 +74815,23 @@
       "confidence": "low",
       "locality_claim": "surname_or_profile_signal_not_confirmed",
       "public_evidence_score": 35
+    },
+    {
+      "name": "Mahmoud G. Ardakani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "47 اثر علمی · Imperial College London",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5110864754",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 55
     }
   ]
 }
