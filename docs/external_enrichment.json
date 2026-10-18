@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17",
-  "candidate_count": 3332,
+  "generated_at": "2026-10-18",
+  "candidate_count": 3333,
   "metrics": {
-    "openalex_skipped": 1645,
+    "openalex_skipped": 1646,
     "unsupported_or_missing_id": 1617,
     "openalex_reused": 7,
     "github_reused": 63,
     "errors": 0,
     "enriched_total": 70,
-    "skipped_total": 3262
+    "skipped_total": 3263
   },
   "failures": {},
   "profiles": [
@@ -29283,6 +29283,16 @@
     {
       "candidate_index": 3331,
       "name": "Sina Moeini",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3332,
+      "name": "Mahmoud G. Ardakani",
       "provider": "OpenAlex",
       "status": "skipped",
       "data": {

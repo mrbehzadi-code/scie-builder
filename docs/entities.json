@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17",
+  "generated_at": "2026-10-18",
   "metrics": {
-    "candidate_records": 3332,
+    "candidate_records": 3333,
     "canonical_entities": 3319,
-    "records_collapsed": 13,
-    "same_person_pairs_applied": 13,
-    "multi_record_entities": 13,
+    "records_collapsed": 14,
+    "same_person_pairs_applied": 14,
+    "multi_record_entities": 14,
     "entities_with_external_data": 68
   },
   "candidate_to_entity": {
@@ -104,6 +104,7 @@
     "91": "scie-entity-00090",
     "92": "scie-entity-00091",
     "93": "scie-entity-00092",
+    "3332": "scie-entity-00092",
     "94": "scie-entity-00093",
     "95": "scie-entity-00094",
     "96": "scie-entity-00095",
@@ -6078,12 +6079,14 @@
     {
       "entity_id": "scie-entity-00092",
       "candidate_indexes": [
-        93
+        93,
+        3332
       ],
-      "record_count": 1,
+      "record_count": 2,
       "primary_name": "M.G. Ardakani",
       "aliases": [
-        "M.G. Ardakani"
+        "M.G. Ardakani",
+        "Mahmoud G. Ardakani"
       ],
       "sources": [
         "OpenAlex Discovery"
@@ -6091,7 +6094,9 @@
       "source_urls": [
         "https://openalex.org/A5110864754"
       ],
-      "organizations": [],
+      "organizations": [
+        "Imperial College London"
+      ],
       "locations": [],
       "identifiers": {
         "openalex_ids": [
@@ -6101,8 +6106,8 @@
         "orcids": []
       },
       "external_enriched_records": 0,
-      "identity_status": "SINGLE_CANDIDATE",
-      "human_review_required": true
+      "identity_status": "SAME_PERSON_STABLE_EVIDENCE",
+      "human_review_required": false
     },
     {
       "entity_id": "scie-entity-00093",

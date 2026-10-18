@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-17",
-  "candidate_count": 3332,
+  "generated_at": "2026-10-18",
+  "candidate_count": 3333,
   "metrics": {
-    "with_organization": 814,
+    "with_organization": 815,
     "with_location": 1616,
-    "with_stable_source_id": 1715,
+    "with_stable_source_id": 1716,
     "ardakan_location_signal": 1613,
-    "completeness_high": 814,
+    "completeness_high": 815,
     "completeness_medium": 2432,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 1652,
+    "OpenAlex": 1653,
     "کانال‌ها و گروه‌های عمومی تلگرام": 1507,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -134378,6 +134378,47 @@
         "organization",
         "location",
         "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3332,
+      "name": "Mahmoud G. Ardakani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5110864754",
+      "identifiers": {
+        "openalex_id": "A5110864754",
+        "github_username": null
+      },
+      "organization": "Imperial College London",
+      "work_count": 47,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
       ]
     }
   ],

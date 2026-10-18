@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-17",
-  "candidate_count": 3332,
+  "generated_at": "2026-10-18",
+  "candidate_count": 3333,
   "metrics": {
-    "unique_name_keys": 3236,
+    "unique_name_keys": 3237,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
-    "stable_identifier_duplicate_groups": 13,
+    "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3240,
+    "quality_medium": 3241,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7831,
+    "evidence_items": 7834,
     "organizations_detected": 234,
     "locations_detected": 11
   },
   "sources": {
-    "OpenAlex Discovery": 1629,
+    "OpenAlex Discovery": 1630,
     "کانال‌ها و گروه‌های عمومی تلگرام": 1507,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -25,7 +25,7 @@
     "Lead-guided OpenAlex Discovery": 23
   },
   "capacity_types": {
-    "کاندیدای پژوهشی": 1626,
+    "کاندیدای پژوهشی": 1627,
     "ورزش / والیبال": 8,
     "سایر": 86,
     "فنی / دانش‌بنیان": 1,
@@ -61,9 +61,9 @@
     "کاندیدای معرفی‌شده به اطلس": 1
   },
   "evidence_types": {
-    "OpenAlex author search": 1626,
+    "OpenAlex author search": 1627,
     "query: ardakan": 59,
-    "query: ardakani": 1091,
+    "query: ardakani": 1092,
     "Public sports report": 10,
     "Ardakan tag in competition roster": 10,
     "Public LinkedIn profile": 2,
@@ -127,7 +127,7 @@
     "query: محمود فرزان": 1,
     "public Telegram preview": 1496,
     "Ardakan keyword in same public post": 546,
-    "public author profile": 1337,
+    "public author profile": 1338,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
     "professional name in an Ardakan-focused public channel": 950
@@ -1111,6 +1111,16 @@
       "candidate_indexes": [
         90,
         121
+      ],
+      "count": 2,
+      "review_status": "same_source_profile",
+      "reason": "exact stable provider URL"
+    },
+    {
+      "key": "https://openalex.org/a5110864754",
+      "candidate_indexes": [
+        93,
+        3332
       ],
       "count": 2,
       "review_status": "same_source_profile",
@@ -53515,6 +53525,22 @@
         "ardakan_signal",
         "structured_academic_source"
       ]
+    },
+    {
+      "candidate_index": 3332,
+      "score": 65,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": true,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "organization",
+        "structured_academic_source"
+      ]
     }
   ],
   "organization_links": [
@@ -54037,9 +54063,10 @@
         678,
         1244,
         1245,
-        1283
+        1283,
+        3332
       ],
-      "count": 5
+      "count": 6
     },
     {
       "organization": "university of tehran",

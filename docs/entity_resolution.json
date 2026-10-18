@@ -1,9 +1,9 @@
 {
-  "input_count": 3332,
-  "group_count": 125,
-  "pair_count": 139,
+  "input_count": 3333,
+  "group_count": 126,
+  "pair_count": 140,
   "decision_counts": {
-    "SAME_PERSON": 13,
+    "SAME_PERSON": 14,
     "LIKELY_SAME_PERSON": 44,
     "UNCERTAIN": 82,
     "LIKELY_DIFFERENT_PERSON": 0
@@ -3742,6 +3742,28 @@
           "result": "exact_match",
           "values": [
             "https://openalex.org/a5032097007"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "conflicts": [],
+      "human_review_required": false,
+      "explanation": "The records share the same stable academic identifier."
+    },
+    {
+      "candidate_a": 93,
+      "candidate_b": 3332,
+      "name_a": "M.G. Ardakani",
+      "name_b": "Mahmoud G. Ardakani",
+      "decision": "SAME_PERSON",
+      "score": 1.0,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "type": "stable_identifier",
+          "result": "exact_match",
+          "values": [
+            "https://openalex.org/a5110864754"
           ]
         }
       ],
