@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-18",
-  "candidate_count": 3333,
+  "generated_at": "2026-10-19",
+  "candidate_count": 3337,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1617,
+    "unsupported_or_missing_id": 1621,
     "openalex_reused": 7,
     "github_reused": 63,
     "errors": 0,
     "enriched_total": 70,
-    "skipped_total": 3263
+    "skipped_total": 3267
   },
   "failures": {},
   "profiles": [
@@ -29299,6 +29299,34 @@
         "provider": "OpenAlex",
         "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
       }
+    },
+    {
+      "candidate_index": 3333,
+      "name": "آزاده غضنفری کارشناس کاردرمانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3334,
+      "name": "سارا اثنی عشری کارشناس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3335,
+      "name": "سیده نگین نعیمی متخصص",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3336,
+      "name": "محمدسعید کلانتری متخصص طب",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
     }
   ],
   "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."

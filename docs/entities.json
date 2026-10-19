@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18",
+  "generated_at": "2026-10-19",
   "metrics": {
-    "candidate_records": 3333,
-    "canonical_entities": 3319,
+    "candidate_records": 3337,
+    "canonical_entities": 3323,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3341,7 +3341,11 @@
     "3328": "scie-entity-03316",
     "3329": "scie-entity-03317",
     "3330": "scie-entity-03318",
-    "3331": "scie-entity-03319"
+    "3331": "scie-entity-03319",
+    "3333": "scie-entity-03320",
+    "3334": "scie-entity-03321",
+    "3335": "scie-entity-03322",
+    "3336": "scie-entity-03323"
   },
   "entities": [
     {
@@ -101309,6 +101313,122 @@
         "openalex_ids": [
           "A5056291562"
         ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03320",
+      "candidate_indexes": [
+        3333
+      ],
+      "record_count": 1,
+      "primary_name": "آزاده غضنفری کارشناس کاردرمانی",
+      "aliases": [
+        "آزاده غضنفری کارشناس کاردرمانی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03321",
+      "candidate_indexes": [
+        3334
+      ],
+      "record_count": 1,
+      "primary_name": "سارا اثنی عشری کارشناس",
+      "aliases": [
+        "سارا اثنی عشری کارشناس"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03322",
+      "candidate_indexes": [
+        3335
+      ],
+      "record_count": 1,
+      "primary_name": "سیده نگین نعیمی متخصص",
+      "aliases": [
+        "سیده نگین نعیمی متخصص"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03323",
+      "candidate_indexes": [
+        3336
+      ],
+      "record_count": 1,
+      "primary_name": "محمدسعید کلانتری متخصص طب",
+      "aliases": [
+        "محمدسعید کلانتری متخصص طب"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
         "github_usernames": [],
         "orcids": []
       },
