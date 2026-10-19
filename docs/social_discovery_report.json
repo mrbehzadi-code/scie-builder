@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T06:33:05Z",
+  "generated_at": "2026-10-19T06:47:15Z",
   "target": 5000,
-  "pool_size": 3333,
-  "new_records": 0,
+  "pool_size": 3337,
+  "new_records": 4,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 63,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1507
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1511
   },
   "telegram": [
     {
@@ -32,15 +32,14 @@
       "status": "ok"
     },
     {
-      "url": "https://t.me/s/ardakaneemrooz_ir",
-      "pages": 240,
-      "records": 370,
-      "status": "ok"
+      "url": "https://t.me/s/Bso_ardakanuni?before=1468",
+      "error": "Remote end closed connection without response",
+      "pages": 167
     },
     {
-      "url": "https://t.me/s/Bso_ardakanuni",
-      "pages": 233,
-      "records": 350,
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "pages": 240,
+      "records": 374,
       "status": "ok"
     },
     {
@@ -51,8 +50,8 @@
     }
   ],
   "outbound_public_profiles": {
-    "instagram": 31,
-    "eitaa": 236
+    "instagram": 30,
+    "eitaa": 234
   },
   "platform_results": {
     "eitaa": 0,
@@ -63,11 +62,6 @@
       "platform": "instagram",
       "url": "http://Instagram.com/ardakanuni_tashkilat",
       "result": "no Ardakan signal in public metadata"
-    },
-    {
-      "platform": "eitaa",
-      "url": "http://eitaa.com/Bso_ardakanuni",
-      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -83,11 +77,6 @@
       "platform": "eitaa",
       "url": "http://eitaa.com/Pourdehghan_ir/4810",
       "result": "no person name in public metadata"
-    },
-    {
-      "platform": "eitaa",
-      "url": "http://eitaa.com/Rahianenoor_News",
-      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -147,11 +136,6 @@
     {
       "platform": "instagram",
       "url": "http://instagram.com/Pourdehghan_ir",
-      "result": "no Ardakan signal in public metadata"
-    },
-    {
-      "platform": "instagram",
-      "url": "http://instagram.com/_u/khamenei_ir",
       "result": "no Ardakan signal in public metadata"
     },
     {
@@ -992,7 +976,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4654",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
