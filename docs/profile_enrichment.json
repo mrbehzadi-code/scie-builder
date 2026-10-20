@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-19",
-  "candidate_count": 3337,
+  "generated_at": "2026-10-20",
+  "candidate_count": 3338,
   "metrics": {
     "with_organization": 815,
-    "with_location": 1620,
+    "with_location": 1621,
     "with_stable_source_id": 1716,
-    "ardakan_location_signal": 1617,
+    "ardakan_location_signal": 1618,
     "completeness_high": 815,
-    "completeness_medium": 2436,
+    "completeness_medium": 2437,
     "completeness_low": 86
   },
   "providers": {
     "OpenAlex": 1653,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1511,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1512,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub": 63,
@@ -134565,6 +134565,46 @@
       "evidence": [
         "public Telegram preview",
         "Ardakan keyword in same public post"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3337,
+      "name": "سعید جلیلی در دیدار",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
       ],
       "evidence_count": 2,
       "quality_score": 55,

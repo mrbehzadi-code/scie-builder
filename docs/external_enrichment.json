@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19",
-  "candidate_count": 3337,
+  "generated_at": "2026-10-20",
+  "candidate_count": 3338,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1621,
+    "unsupported_or_missing_id": 1622,
     "openalex_reused": 7,
     "github_reused": 63,
     "errors": 0,
     "enriched_total": 70,
-    "skipped_total": 3267
+    "skipped_total": 3268
   },
   "failures": {},
   "profiles": [
@@ -29324,6 +29324,13 @@
     {
       "candidate_index": 3336,
       "name": "محمدسعید کلانتری متخصص طب",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3337,
+      "name": "سعید جلیلی در دیدار",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

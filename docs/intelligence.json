@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-19",
-  "candidate_count": 3337,
+  "generated_at": "2026-10-20",
+  "candidate_count": 3338,
   "metrics": {
-    "unique_name_keys": 3241,
+    "unique_name_keys": 3242,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3245,
+    "quality_medium": 3246,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7842,
+    "evidence_items": 7844,
     "organizations_detected": 234,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1630,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1511,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1512,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 63,
@@ -52,7 +52,7 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 710,
+    "پزشکی و سلامت": 711,
     "مدیریت و جامعه": 105,
     "فرهنگ و هنر": 18,
     "فنی و مهندسی": 106,
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1500,
+    "public Telegram preview": 1501,
     "Ardakan keyword in same public post": 550,
     "public author profile": 1338,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 950
+    "professional name in an Ardakan-focused public channel": 951
   },
   "possible_duplicates": [
     {
@@ -53605,6 +53605,22 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3337,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -56550,9 +56566,10 @@
         3333,
         3334,
         3335,
-        3336
+        3336,
+        3337
       ],
-      "count": 1500
+      "count": 1501
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."
