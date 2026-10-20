@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-19",
+  "generated_at": "2026-10-20",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3337,
+    "people": 3338,
     "academic_candidates": 1653,
     "regional_evidence": 589,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1511
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1512
     },
-    "public_source_records": 2955,
-    "social_public_records": 1500
+    "public_source_records": 2959,
+    "social_public_records": 1501
   },
   "people": [
     {
@@ -74898,6 +74898,23 @@
       "verification": "needs_review",
       "confidence": "medium",
       "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "سعید جلیلی در دیدار",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ #فیلم | نماینده رهبر انقلاب در شورای عالی امنیت ملی: خیابان در تراز تمدنی عمل میکند نه در سطح بازی های سیاسی دکتر سعید جلیلی در دیدار با جمعی از فعالان میادین و تجمعات مردمی: 🔹 حضور در میادین یک خیز بلند تمدنی برای تبدیل شدن به قدرت برتر جهانی است. 🔸 امروز حضور خانواده ها در میادین یک الگوی جدید از نقش آفرینی سیاسی است. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
     }
