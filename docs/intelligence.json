@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-10-20",
-  "candidate_count": 3338,
+  "generated_at": "2026-10-21",
+  "candidate_count": 3340,
   "metrics": {
-    "unique_name_keys": 3242,
+    "unique_name_keys": 3244,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3246,
+    "quality_medium": 3248,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7844,
+    "evidence_items": 7848,
     "organizations_detected": 234,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1630,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1512,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1513,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "GitHub Discovery": 63,
+    "GitHub Discovery": 64,
     "دانشگاه‌های داخلی و خارجی": 1,
     "Lead-guided OpenAlex Discovery": 23
   },
@@ -40,7 +40,7 @@
     "فلسفه / علوم انسانی": 1,
     "دانشگاهی / پژوهشی": 5,
     "پروفایل وب": 5,
-    "پروفایل فنی": 58,
+    "پروفایل فنی": 59,
     "مدیریت / صنعتی": 1,
     "مدیریت / صنعت": 1,
     "مهندسی مکانیک / تولید": 1,
@@ -52,7 +52,7 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 711,
+    "پزشکی و سلامت": 712,
     "مدیریت و جامعه": 105,
     "فرهنگ و هنر": 18,
     "فنی و مهندسی": 106,
@@ -87,13 +87,13 @@
     "location: Ardakan": 5,
     "name signal": 1,
     "public GitHub profile": 5,
-    "GitHub user search": 58,
+    "GitHub user search": 59,
     "query: ardakani in:bio": 23,
     "Chadormalu public-relations report": 1,
     "Role and Ardakani identification": 1,
     "Public company/business interview": 1,
     "CEO role": 1,
-    "query: Ardakan in:bio": 35,
+    "query: Ardakan in:bio": 36,
     "Mechanical engineering and manufacturing experience": 1,
     "surname: Davari Ardakani": 3,
     "OpenAlex author record": 3,
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1501,
+    "public Telegram preview": 1502,
     "Ardakan keyword in same public post": 550,
     "public author profile": 1338,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 951
+    "professional name in an Ardakan-focused public channel": 952
   },
   "possible_duplicates": [
     {
@@ -53621,6 +53621,38 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3338,
+      "score": 58,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "structured_source"
+      ]
+    },
+    {
+      "candidate_index": 3339,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -55040,9 +55072,10 @@
         494,
         3178,
         3190,
-        3328
+        3328,
+        3338
       ],
-      "count": 75
+      "count": 76
     },
     {
       "location": "iran yazd ardakan",
@@ -56567,9 +56600,10 @@
         3334,
         3335,
         3336,
-        3337
+        3337,
+        3339
       ],
-      "count": 1501
+      "count": 1502
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."

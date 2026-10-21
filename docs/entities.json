@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-20",
+  "generated_at": "2026-10-21",
   "metrics": {
-    "candidate_records": 3338,
-    "canonical_entities": 3324,
+    "candidate_records": 3340,
+    "canonical_entities": 3326,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
-    "entities_with_external_data": 68
+    "entities_with_external_data": 69
   },
   "candidate_to_entity": {
     "0": "scie-entity-00001",
@@ -3346,7 +3346,9 @@
     "3334": "scie-entity-03321",
     "3335": "scie-entity-03322",
     "3336": "scie-entity-03323",
-    "3337": "scie-entity-03324"
+    "3337": "scie-entity-03324",
+    "3338": "scie-entity-03325",
+    "3339": "scie-entity-03326"
   },
   "entities": [
     {
@@ -101446,6 +101448,66 @@
       "primary_name": "سعید جلیلی در دیدار",
       "aliases": [
         "سعید جلیلی در دیدار"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03325",
+      "candidate_indexes": [
+        3338
+      ],
+      "record_count": 1,
+      "primary_name": "ardakan321-dev",
+      "aliases": [
+        "ardakan321-dev"
+      ],
+      "sources": [
+        "GitHub Discovery"
+      ],
+      "source_urls": [
+        "https://github.com/ardakan321-dev"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan signal"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [
+          "ardakan321-dev"
+        ],
+        "orcids": []
+      },
+      "external_enriched_records": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03326",
+      "candidate_indexes": [
+        3339
+      ],
+      "record_count": 1,
+      "primary_name": "احسان فرزانه",
+      "aliases": [
+        "احسان فرزانه"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

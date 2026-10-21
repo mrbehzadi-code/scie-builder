@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-10-20",
-  "candidate_count": 3338,
+  "generated_at": "2026-10-21",
+  "candidate_count": 3340,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1622,
+    "unsupported_or_missing_id": 1623,
     "openalex_reused": 7,
     "github_reused": 63,
+    "github_enriched": 1,
     "errors": 0,
-    "enriched_total": 70,
-    "skipped_total": 3268
+    "enriched_total": 71,
+    "skipped_total": 3269
   },
   "failures": {},
   "profiles": [
@@ -29331,6 +29332,34 @@
     {
       "candidate_index": 3337,
       "name": "سعید جلیلی در دیدار",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3338,
+      "name": "ardakan321-dev",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakan321-dev",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2025-12-31T10:53:57Z",
+        "updated_at": "2025-12-31T11:36:03Z",
+        "provider_url": "https://github.com/ardakan321-dev"
+      }
+    },
+    {
+      "candidate_index": 3339,
+      "name": "احسان فرزانه",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
