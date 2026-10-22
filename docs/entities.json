@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21",
+  "generated_at": "2026-10-22",
   "metrics": {
-    "candidate_records": 3340,
-    "canonical_entities": 3326,
+    "candidate_records": 3345,
+    "canonical_entities": 3331,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3348,7 +3348,12 @@
     "3336": "scie-entity-03323",
     "3337": "scie-entity-03324",
     "3338": "scie-entity-03325",
-    "3339": "scie-entity-03326"
+    "3339": "scie-entity-03326",
+    "3340": "scie-entity-03327",
+    "3341": "scie-entity-03328",
+    "3342": "scie-entity-03329",
+    "3343": "scie-entity-03330",
+    "3344": "scie-entity-03331"
   },
   "entities": [
     {
@@ -101508,6 +101513,151 @@
       "primary_name": "احسان فرزانه",
       "aliases": [
         "احسان فرزانه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03327",
+      "candidate_indexes": [
+        3340
+      ],
+      "record_count": 1,
+      "primary_name": "جلیل بهشتی",
+      "aliases": [
+        "جلیل بهشتی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03328",
+      "candidate_indexes": [
+        3341
+      ],
+      "record_count": 1,
+      "primary_name": "صلح‌‌میرزایی از محققین دفتر",
+      "aliases": [
+        "صلح‌‌میرزایی از محققین دفتر"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03329",
+      "candidate_indexes": [
+        3342
+      ],
+      "record_count": 1,
+      "primary_name": "عباس خلیلی فوق تخصص",
+      "aliases": [
+        "عباس خلیلی فوق تخصص"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03330",
+      "candidate_indexes": [
+        3343
+      ],
+      "record_count": 1,
+      "primary_name": "مهدی سلمانی متخصص چشم",
+      "aliases": [
+        "مهدی سلمانی متخصص چشم"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03331",
+      "candidate_indexes": [
+        3344
+      ],
+      "record_count": 1,
+      "primary_name": "والمسلمین صلح‌میرزایی درباره اظهارنظر",
+      "aliases": [
+        "والمسلمین صلح‌میرزایی درباره اظهارنظر"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

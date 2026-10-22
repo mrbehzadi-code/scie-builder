@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-10-21",
-  "candidate_count": 3340,
+  "generated_at": "2026-10-22",
+  "candidate_count": 3345,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1623,
+    "unsupported_or_missing_id": 1628,
     "openalex_reused": 7,
-    "github_reused": 63,
-    "github_enriched": 1,
+    "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3269
+    "skipped_total": 3274
   },
   "failures": {},
   "profiles": [
@@ -29360,6 +29359,41 @@
     {
       "candidate_index": 3339,
       "name": "احسان فرزانه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3340,
+      "name": "جلیل بهشتی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3341,
+      "name": "صلح‌‌میرزایی از محققین دفتر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3342,
+      "name": "عباس خلیلی فوق تخصص",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3343,
+      "name": "مهدی سلمانی متخصص چشم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3344,
+      "name": "والمسلمین صلح‌میرزایی درباره اظهارنظر",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
