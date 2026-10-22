@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21",
+  "generated_at": "2026-10-22",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3340,
+    "people": 3345,
     "academic_candidates": 1653,
     "regional_evidence": 590,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1513
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1518
     },
-    "public_source_records": 2960,
-    "social_public_records": 1502
+    "public_source_records": 2961,
+    "social_public_records": 1507
   },
   "people": [
     {
@@ -74937,6 +74937,91 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "دکتر احسان فرزانه: همتی پارسال به بهانه محدودیت منابع ارزی، ارز ترجیحی را حذف کرد ولی حالا ۲ میلیارد دلار از منابع ارزی کشور را بین یک اقلیت ثروتمند توزیع می‌کند! @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "جلیل بهشتی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": ". ✅ دعوت از بانوان اردکانی برای شرکت در جلسه آموزشی خودمراقبتی در پیشگیری و کنترل سرطان جلسه آموزشی رایگان و ویژه بانوان با موضوع «خودمراقبتی در پیشگیری و کنترل سرطان» با حضور دکتر جلیل بهشتی، روز پنجشنبه ۳۰ مهرماه، ساعت ۹:۱۵ صبح در سالن جلسات شبکه بهداشت و درمان شهرستان اردکان برگزار می‌شود. 📍 مکان برگزاری: اردکان، خیابان امام، جنب آزمایشگاه مرکزی، سالن جلسات شبکه بهداشت و درمان شهرستان اردکان #تیم_ملی_سلامت #اردکان",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "صلح‌‌میرزایی از محققین دفتر",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🎥 وصیت نامه رهبر شهید در بمباران بیت سوخته است 🔹 حجت‌الاسلام صلح‌‌میرزایی از محققین دفتر حفظ و نشر آثار رهبر شهید و عضو مجلس خبرگان می گوید که وصیت نامه رهبر شهید در بمباران بیت رهبری سوخته و نسخه دیگری هم در دسترس نیست! @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "عباس خلیلی فوق تخصص",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 پنج شنبه ۳۰ مهر 🔹 شیفت صبح 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸️ دکتر مهدی سلمانی متخصص چشم پزشکی ۱۰:۳۰ 🔸 دکتر امیر ولی عضد زاده متخصص اطفال ساعت ۸ 🔸 دکتر زینب دهقانی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر مهدی سلمانی متخصص چشم ساعت ۸:۳۰ 🔸 دکتر محمدرضا عمویی متخصص جراحی عمومی ساعت ۱۲:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود نوری متخصص ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "مهدی سلمانی متخصص چشم",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 پنج شنبه ۳۰ مهر 🔹 شیفت صبح 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸️ دکتر مهدی سلمانی متخصص چشم پزشکی ۱۰:۳۰ 🔸 دکتر امیر ولی عضد زاده متخصص اطفال ساعت ۸ 🔸 دکتر زینب دهقانی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر مهدی سلمانی متخصص چشم ساعت ۸:۳۰ 🔸 دکتر محمدرضا عمویی متخصص جراحی عمومی ساعت ۱۲:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود نوری متخصص ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "والمسلمین صلح‌میرزایی درباره اظهارنظر",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ توضیحات حجت‌الاسلام والمسلمین صلح‌میرزایی درباره اظهارنظر منتشر شده از ایشان درباره وصیت نامه امام شهید این عضو مجلس خبرگان طی توضیحاتی نوشته است: 🔹 اخیراً فیلمی مختصرشده از عرایضم درباره شهادت امام شهید (رضوان الله علیه) و مسائل پیرامونی آن منتشر شده است. 🔹 همانطور که در این فیلم نیز مشخص است درباره وصیتنامه امام شهید عرض کردم که تاکنون دسترسی به آن میسّر نشده است. 🔹 فلذا نقل اینکه وصیتنامه ایشان، از بین رفته یا ",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

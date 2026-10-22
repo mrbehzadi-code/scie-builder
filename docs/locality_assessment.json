@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3000,
-    "possible": 324,
+    "insufficient": 3004,
+    "possible": 325,
     "probable": 14,
     "confirmed_by_human": 1,
     "confirmed": 1
@@ -50900,6 +50900,75 @@
     {
       "candidate_index": 3339,
       "name": "احسان فرزانه",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3340,
+      "name": "جلیل بهشتی",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3341,
+      "name": "صلح‌‌میرزایی از محققین دفتر",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3342,
+      "name": "عباس خلیلی فوق تخصص",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3343,
+      "name": "مهدی سلمانی متخصص چشم",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3344,
+      "name": "والمسلمین صلح‌میرزایی درباره اظهارنظر",
       "score": 10,
       "status": "insufficient",
       "reasons": [
