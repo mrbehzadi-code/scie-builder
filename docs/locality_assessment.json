@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3004,
+    "insufficient": 3007,
     "possible": 325,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -50969,6 +50969,45 @@
     {
       "candidate_index": 3344,
       "name": "والمسلمین صلح‌میرزایی درباره اظهارنظر",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3345,
+      "name": "ابومحمدی نیز در حوزۀ",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3346,
+      "name": "رهبران برگزار شد",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3347,
+      "name": "محمود ابومحمدی",
       "score": 10,
       "status": "insufficient",
       "reasons": [

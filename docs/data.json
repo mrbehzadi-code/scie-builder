@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22",
+  "generated_at": "2026-10-23",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3345,
+    "people": 3348,
     "academic_candidates": 1653,
     "regional_evidence": 590,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1518
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1521
     },
-    "public_source_records": 2961,
-    "social_public_records": 1507
+    "public_source_records": 2966,
+    "social_public_records": 1510
   },
   "people": [
     {
@@ -75031,6 +75031,57 @@
       "verification": "needs_review",
       "confidence": "low",
       "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "ابومحمدی نیز در حوزۀ",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ نکوداشت زنده‌یاد استاد محمود ابومحمدی/ پوردهقان اردکان: نام و یاد او بخشی از سرمایۀ فرهنگی اردکان است نخستین آیین نکوداشت زنده‌یاد استاد محمود ابومحمدی اردکان، از استادان برجستۀ هنر خوشنویسی، با حضور دکتر مصطفی پوردهقان اردکان، جمعی از مسئولان استان و شهرستان، اهالی فرهنگ و هنر و استاد رهبران برگزار شد. دکتر پوردهقان اردکان در این مراسم با اشاره به پیشینۀ فرهنگی اردکان گفت: اردکان بزرگ، همواره محل پرورش استعدادهای ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "رهبران برگزار شد",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ نکوداشت زنده‌یاد استاد محمود ابومحمدی/ پوردهقان اردکان: نام و یاد او بخشی از سرمایۀ فرهنگی اردکان است نخستین آیین نکوداشت زنده‌یاد استاد محمود ابومحمدی اردکان، از استادان برجستۀ هنر خوشنویسی، با حضور دکتر مصطفی پوردهقان اردکان، جمعی از مسئولان استان و شهرستان، اهالی فرهنگ و هنر و استاد رهبران برگزار شد. دکتر پوردهقان اردکان در این مراسم با اشاره به پیشینۀ فرهنگی اردکان گفت: اردکان بزرگ، همواره محل پرورش استعدادهای ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "محمود ابومحمدی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ نکوداشت زنده‌یاد استاد محمود ابومحمدی/ پوردهقان اردکان: نام و یاد او بخشی از سرمایۀ فرهنگی اردکان است نخستین آیین نکوداشت زنده‌یاد استاد محمود ابومحمدی اردکان، از استادان برجستۀ هنر خوشنویسی، با حضور دکتر مصطفی پوردهقان اردکان، جمعی از مسئولان استان و شهرستان، اهالی فرهنگ و هنر و استاد رهبران برگزار شد. دکتر پوردهقان اردکان در این مراسم با اشاره به پیشینۀ فرهنگی اردکان گفت: اردکان بزرگ، همواره محل پرورش استعدادهای ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
     }
