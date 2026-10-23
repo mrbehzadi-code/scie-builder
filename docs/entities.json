@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22",
+  "generated_at": "2026-10-23",
   "metrics": {
-    "candidate_records": 3345,
-    "canonical_entities": 3331,
+    "candidate_records": 3348,
+    "canonical_entities": 3334,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3353,7 +3353,10 @@
     "3341": "scie-entity-03328",
     "3342": "scie-entity-03329",
     "3343": "scie-entity-03330",
-    "3344": "scie-entity-03331"
+    "3344": "scie-entity-03331",
+    "3345": "scie-entity-03332",
+    "3346": "scie-entity-03333",
+    "3347": "scie-entity-03334"
   },
   "entities": [
     {
@@ -101664,6 +101667,93 @@
       ],
       "source_urls": [
         "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03332",
+      "candidate_indexes": [
+        3345
+      ],
+      "record_count": 1,
+      "primary_name": "ابومحمدی نیز در حوزۀ",
+      "aliases": [
+        "ابومحمدی نیز در حوزۀ"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03333",
+      "candidate_indexes": [
+        3346
+      ],
+      "record_count": 1,
+      "primary_name": "رهبران برگزار شد",
+      "aliases": [
+        "رهبران برگزار شد"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03334",
+      "candidate_indexes": [
+        3347
+      ],
+      "record_count": 1,
+      "primary_name": "محمود ابومحمدی",
+      "aliases": [
+        "محمود ابومحمدی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
       ],
       "organizations": [],
       "locations": [

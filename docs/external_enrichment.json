@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-22",
-  "candidate_count": 3345,
+  "generated_at": "2026-10-23",
+  "candidate_count": 3348,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1628,
+    "unsupported_or_missing_id": 1631,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3274
+    "skipped_total": 3277
   },
   "failures": {},
   "profiles": [
@@ -29394,6 +29394,27 @@
     {
       "candidate_index": 3344,
       "name": "والمسلمین صلح‌میرزایی درباره اظهارنظر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3345,
+      "name": "ابومحمدی نیز در حوزۀ",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3346,
+      "name": "رهبران برگزار شد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3347,
+      "name": "محمود ابومحمدی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
