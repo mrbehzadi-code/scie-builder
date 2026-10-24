@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3007,
+    "insufficient": 3008,
     "possible": 325,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -51008,6 +51008,19 @@
     {
       "candidate_index": 3347,
       "name": "محمود ابومحمدی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3348,
+      "name": "مجید بهستانی",
       "score": 10,
       "status": "insufficient",
       "reasons": [

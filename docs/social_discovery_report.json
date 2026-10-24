@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T06:29:45Z",
+  "generated_at": "2026-10-24T06:24:39Z",
   "target": 5000,
-  "pool_size": 3348,
-  "new_records": 3,
+  "pool_size": 3349,
+  "new_records": 1,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1521
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1522
   },
   "telegram": [
     {
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 378,
+      "records": 379,
       "status": "ok"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "url": "https://t.me/s/Pourdehghan_ir",
-      "pages": 217,
+      "pages": 218,
       "records": 182,
       "status": "ok"
     }
@@ -62,7 +62,7 @@
     {
       "platform": "instagram",
       "url": "http://Instagram.com/ardakanuni_tashkilat",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -467,7 +467,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4278",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -572,7 +572,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4365",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -632,7 +632,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4430",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
@@ -742,7 +742,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4501",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -842,12 +842,12 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4546",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4553",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -947,12 +947,12 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4607",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4609",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1052,12 +1052,12 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4699",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4700",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1162,7 +1162,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4781",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1212,7 +1212,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/baray_ardakan",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
