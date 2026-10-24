@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23",
-  "candidate_count": 3348,
+  "generated_at": "2026-10-24",
+  "candidate_count": 3349,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1631,
+    "unsupported_or_missing_id": 1632,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3277
+    "skipped_total": 3278
   },
   "failures": {},
   "profiles": [
@@ -29415,6 +29415,13 @@
     {
       "candidate_index": 3347,
       "name": "محمود ابومحمدی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3348,
+      "name": "مجید بهستانی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

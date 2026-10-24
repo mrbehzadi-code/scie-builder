@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23",
+  "generated_at": "2026-10-24",
   "metrics": {
-    "candidate_records": 3348,
-    "canonical_entities": 3334,
+    "candidate_records": 3349,
+    "canonical_entities": 3335,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3356,7 +3356,8 @@
     "3344": "scie-entity-03331",
     "3345": "scie-entity-03332",
     "3346": "scie-entity-03333",
-    "3347": "scie-entity-03334"
+    "3347": "scie-entity-03334",
+    "3348": "scie-entity-03335"
   },
   "entities": [
     {
@@ -101754,6 +101755,35 @@
       ],
       "source_urls": [
         "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03335",
+      "candidate_indexes": [
+        3348
+      ],
+      "record_count": 1,
+      "primary_name": "مجید بهستانی",
+      "aliases": [
+        "مجید بهستانی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
       ],
       "organizations": [],
       "locations": [
