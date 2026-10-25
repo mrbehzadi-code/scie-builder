@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24",
-  "candidate_count": 3349,
+  "generated_at": "2026-10-25",
+  "candidate_count": 3353,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1632,
+    "unsupported_or_missing_id": 1636,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3278
+    "skipped_total": 3282
   },
   "failures": {},
   "profiles": [
@@ -29422,6 +29422,34 @@
     {
       "candidate_index": 3348,
       "name": "مجید بهستانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3349,
+      "name": "حمیدرضا مقصودی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3350,
+      "name": "صمصامی نماینده مجلس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3351,
+      "name": "والمسلمین محسنی اژه‌ای",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3352,
+      "name": "پزشکیان که خود را",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

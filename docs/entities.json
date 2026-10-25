@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24",
+  "generated_at": "2026-10-25",
   "metrics": {
-    "candidate_records": 3349,
-    "canonical_entities": 3335,
+    "candidate_records": 3353,
+    "canonical_entities": 3339,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3357,7 +3357,11 @@
     "3345": "scie-entity-03332",
     "3346": "scie-entity-03333",
     "3347": "scie-entity-03334",
-    "3348": "scie-entity-03335"
+    "3348": "scie-entity-03335",
+    "3349": "scie-entity-03336",
+    "3350": "scie-entity-03337",
+    "3351": "scie-entity-03338",
+    "3352": "scie-entity-03339"
   },
   "entities": [
     {
@@ -101778,6 +101782,122 @@
       "primary_name": "مجید بهستانی",
       "aliases": [
         "مجید بهستانی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03336",
+      "candidate_indexes": [
+        3349
+      ],
+      "record_count": 1,
+      "primary_name": "حمیدرضا مقصودی",
+      "aliases": [
+        "حمیدرضا مقصودی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03337",
+      "candidate_indexes": [
+        3350
+      ],
+      "record_count": 1,
+      "primary_name": "صمصامی نماینده مجلس",
+      "aliases": [
+        "صمصامی نماینده مجلس"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03338",
+      "candidate_indexes": [
+        3351
+      ],
+      "record_count": 1,
+      "primary_name": "والمسلمین محسنی اژه‌ای",
+      "aliases": [
+        "والمسلمین محسنی اژه‌ای"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03339",
+      "candidate_indexes": [
+        3352
+      ],
+      "record_count": 1,
+      "primary_name": "پزشکیان که خود را",
+      "aliases": [
+        "پزشکیان که خود را"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

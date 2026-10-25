@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-24",
-  "candidate_count": 3349,
+  "generated_at": "2026-10-25",
+  "candidate_count": 3353,
   "metrics": {
-    "unique_name_keys": 3253,
+    "unique_name_keys": 3257,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3257,
+    "quality_medium": 3261,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7866,
+    "evidence_items": 7874,
     "organizations_detected": 234,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1630,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1522,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1526,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 64,
@@ -52,8 +52,8 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 719,
-    "مدیریت و جامعه": 105,
+    "پزشکی و سلامت": 722,
+    "مدیریت و جامعه": 106,
     "فرهنگ و هنر": 18,
     "فنی و مهندسی": 106,
     "ظرفیت اجتماعی": 194,
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1511,
+    "public Telegram preview": 1515,
     "Ardakan keyword in same public post": 554,
     "public author profile": 1338,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 957
+    "professional name in an Ardakan-focused public channel": 961
   },
   "possible_duplicates": [
     {
@@ -53797,6 +53797,70 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3349,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3350,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3351,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3352,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -56754,9 +56818,13 @@
         3345,
         3346,
         3347,
-        3348
+        3348,
+        3349,
+        3350,
+        3351,
+        3352
       ],
-      "count": 1511
+      "count": 1515
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."
