@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3008,
+    "insufficient": 3012,
     "possible": 325,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -51021,6 +51021,58 @@
     {
       "candidate_index": 3348,
       "name": "مجید بهستانی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3349,
+      "name": "حمیدرضا مقصودی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3350,
+      "name": "صمصامی نماینده مجلس",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3351,
+      "name": "والمسلمین محسنی اژه‌ای",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3352,
+      "name": "پزشکیان که خود را",
       "score": 10,
       "status": "insufficient",
       "reasons": [
