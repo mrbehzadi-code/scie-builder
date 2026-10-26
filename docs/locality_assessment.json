@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3012,
+    "insufficient": 3013,
     "possible": 325,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -51073,6 +51073,19 @@
     {
       "candidate_index": 3352,
       "name": "پزشکیان که خود را",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3353,
+      "name": "مهدی خانعلی‌زاده در نشست",
       "score": 10,
       "status": "insufficient",
       "reasons": [
