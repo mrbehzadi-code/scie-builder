@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-25",
-  "candidate_count": 3353,
+  "generated_at": "2026-10-26",
+  "candidate_count": 3354,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1636,
+    "unsupported_or_missing_id": 1637,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3282
+    "skipped_total": 3283
   },
   "failures": {},
   "profiles": [
@@ -29450,6 +29450,13 @@
     {
       "candidate_index": 3352,
       "name": "پزشکیان که خود را",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3353,
+      "name": "مهدی خانعلی‌زاده در نشست",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
