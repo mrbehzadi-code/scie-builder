@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26",
+  "generated_at": "2026-10-27",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3354,
+    "people": 3357,
     "academic_candidates": 1653,
     "regional_evidence": 590,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1527
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1530
     },
-    "public_source_records": 2974,
-    "social_public_records": 1516
+    "public_source_records": 2975,
+    "social_public_records": 1519
   },
   "people": [
     {
@@ -75175,6 +75175,57 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🎥 ‌یک هفته طول کشید معاون وزیر از دبی به ایران برگردد! معاون اقتصادی وزارت خارجه جمعه برای پیگیری توافقات اقتصادی به دبی رفت؛ با شروع جنگ، یک هفته طول کشید تا به ایران برگردد! انگار واقعاً باور کرده بودند کار تمام شده و آمریکایی‌ها قرار است برای سرمایه‌گذاری بیایند! 🎙 دکتر مهدی خانعلی‌زاده در نشست رونمایی از جزوه «خطای محاسباتی» به قلم محمدصادق شهبازی، به همت مجموعه دانشجویی کنشگر. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "بتول فتاحی اردکانی",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "خانم بتول فتاحی اردکانی، فعال حوزه گردشگری، در دومین دوره «رویداد هم‌افزایی بانوان کنش‌گر در عرصه گردشگری ایرانی-اسلامی» که در استان قم برگزار شد، موفق شد برای دومین سال متوالی، رتبه برتر کشور را در حوزه «گردشگری آموزشی» از آن خود کند. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پاک‌نژاد برکنار شود که",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔥 افشاگری عجیب قربان‌زاده از فساد و ناکارآمدی محسن پاک‌نژاد/ رهبر شهید برای برکناری پاک‌نژاد با رئیس‌جمهور صحبت کرد 🔹 حسین قربان‌زاده: از سال ۹۷ تا شهریور ۱۴۰۳ حدود ۲۲۰ میلیارد دلار نفت فروختیم که ۴۸۰ میلیون دلار نکول داشتیم، یعنی این پول به کشور برنگشت که ۳۰۰ میلیون دلار آن مربوط به بانک پاسارگاد است. 🔹 اما در دوره محسن پاک‌نژاد در دولت چهاردهم در عرض فقط یکسال حدود ۳۰ میلیارد دلار نفت فروخته شد که ۴.۷ میلیارد دلار ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پزشکیان می‌گوید که رهبر",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔥 افشاگری عجیب قربان‌زاده از فساد و ناکارآمدی محسن پاک‌نژاد/ رهبر شهید برای برکناری پاک‌نژاد با رئیس‌جمهور صحبت کرد 🔹 حسین قربان‌زاده: از سال ۹۷ تا شهریور ۱۴۰۳ حدود ۲۲۰ میلیارد دلار نفت فروختیم که ۴۸۰ میلیون دلار نکول داشتیم، یعنی این پول به کشور برنگشت که ۳۰۰ میلیون دلار آن مربوط به بانک پاسارگاد است. 🔹 اما در دوره محسن پاک‌نژاد در دولت چهاردهم در عرض فقط یکسال حدود ۳۰ میلیارد دلار نفت فروخته شد که ۴.۷ میلیارد دلار ",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
