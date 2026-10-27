@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-26",
-  "candidate_count": 3354,
+  "generated_at": "2026-10-27",
+  "candidate_count": 3357,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1637,
+    "unsupported_or_missing_id": 1640,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3283
+    "skipped_total": 3286
   },
   "failures": {},
   "profiles": [
@@ -29457,6 +29457,27 @@
     {
       "candidate_index": 3353,
       "name": "مهدی خانعلی‌زاده در نشست",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3354,
+      "name": "بتول فتاحی اردکانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3355,
+      "name": "پاک‌نژاد برکنار شود که",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3356,
+      "name": "پزشکیان می‌گوید که رهبر",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

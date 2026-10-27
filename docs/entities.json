@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26",
+  "generated_at": "2026-10-27",
   "metrics": {
-    "candidate_records": 3354,
-    "canonical_entities": 3340,
+    "candidate_records": 3357,
+    "canonical_entities": 3343,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3362,7 +3362,10 @@
     "3350": "scie-entity-03337",
     "3351": "scie-entity-03338",
     "3352": "scie-entity-03339",
-    "3353": "scie-entity-03340"
+    "3353": "scie-entity-03340",
+    "3354": "scie-entity-03341",
+    "3355": "scie-entity-03342",
+    "3356": "scie-entity-03343"
   },
   "entities": [
     {
@@ -101928,6 +101931,93 @@
       "primary_name": "مهدی خانعلی‌زاده در نشست",
       "aliases": [
         "مهدی خانعلی‌زاده در نشست"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03341",
+      "candidate_indexes": [
+        3354
+      ],
+      "record_count": 1,
+      "primary_name": "بتول فتاحی اردکانی",
+      "aliases": [
+        "بتول فتاحی اردکانی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03342",
+      "candidate_indexes": [
+        3355
+      ],
+      "record_count": 1,
+      "primary_name": "پاک‌نژاد برکنار شود که",
+      "aliases": [
+        "پاک‌نژاد برکنار شود که"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03343",
+      "candidate_indexes": [
+        3356
+      ],
+      "record_count": 1,
+      "primary_name": "پزشکیان می‌گوید که رهبر",
+      "aliases": [
+        "پزشکیان می‌گوید که رهبر"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
