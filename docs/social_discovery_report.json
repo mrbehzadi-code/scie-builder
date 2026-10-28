@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T06:46:03Z",
+  "generated_at": "2026-10-28T07:23:26Z",
   "target": 5000,
-  "pool_size": 3357,
-  "new_records": 3,
+  "pool_size": 3374,
+  "new_records": 17,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1530
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1547
   },
   "telegram": [
     {
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 386,
+      "records": 402,
       "status": "ok"
     },
     {
@@ -46,7 +46,7 @@
     {
       "url": "https://t.me/s/Pourdehghan_ir",
       "pages": 218,
-      "records": 182,
+      "records": 184,
       "status": "ok"
     }
   ],
@@ -62,17 +62,17 @@
     {
       "platform": "instagram",
       "url": "http://Instagram.com/ardakanuni_tashkilat",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
       "url": "http://eitaa.com/Bso_ardakanuni",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "http://eitaa.com/Pourdehghan_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -92,7 +92,7 @@
     {
       "platform": "eitaa",
       "url": "http://eitaa.com/ardakanedu",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -132,62 +132,62 @@
     {
       "platform": "instagram",
       "url": "http://instagram.com/AZAR_MATNA7",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/Mostafa_Pourdehghan",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/Pourdehghan_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/_u/khamenei_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/ardakanedu",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/ardakanuni_tashkilat",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/bso.ardakanuni",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/fatemehh_f13",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/kalk_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/shohada_yazd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://Instagram.com/Mostafa_Pourdehghan",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Ardakan_law",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -202,987 +202,987 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/3760",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/3761",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/3766",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/3772",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/3777",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/3808",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4004",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4008",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4015",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4032",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4039",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4049",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4054",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4056",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4060",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4068",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4069",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4084",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4091",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4092",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4096",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4099",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4104",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4110",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4111",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4112",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4113",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4116",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4122",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4123",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4131",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4141",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4149",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4151",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4153",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4158",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4168",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4190",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4201",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4209",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4215",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4218",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4220",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4227",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4234",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4236",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4242",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4245",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4247",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4250",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4270",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4278",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4281",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4289",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4290",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4301",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4302",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4304",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4309",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4310",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4315",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4316",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4320",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4322",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4328",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4329",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4336",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4344",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4346",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4347",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4354",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4358",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4365",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4368",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4369",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4375",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4376",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4381",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4383",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4388",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4404",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4415",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4416",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4423",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4430",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4434",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4441",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4442",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4445",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4452",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4459",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4461",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4468",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4469",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4470",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4478",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4483",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4484",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4488",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4489",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4490",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4492",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4493",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4494",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4495",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4496",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4501",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4502",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4503",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4510",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4511",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4512",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4513",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4517",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4519",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4523",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4524",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4525",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4529",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4530",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4535",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4536",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4541",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4542",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4543",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4545",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4546",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4553",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4558",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4561",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4562",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4571",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4572",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4577",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4578",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4579",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4581",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4586",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4587",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4588",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4589",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4590",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4592",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4593",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4595",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4605",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4606",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4607",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4609",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4612",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4618",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4620",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4622",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4633",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4643",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4646",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4654",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4655",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4656",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4659",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4666",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4670",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4675",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4686",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4692",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4694",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4696",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4698",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4699",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4700",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4701",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4707",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4711",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4714",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4721",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4723",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4730",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4732",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4733",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4734",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4735",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4736",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4737",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4746",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4747",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4748",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4752",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4755",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4765",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4773",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4781",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4786",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4788",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4789",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4790",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4810",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1207,7 +1207,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/baray_ardakan",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1217,7 +1217,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/darmangahebuali",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1242,7 +1242,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/joinchat/153813700C138afcc236",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1257,7 +1257,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/joinchat/3227123757Ge6e62d0ea3",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1272,7 +1272,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/joinchat/735183619C6f027cb697",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1282,7 +1282,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/meshkaat1444",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1292,37 +1292,37 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/politicalscienceardakan",
-      "result": "no Ardakan signal in public metadata"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/Lms_tvuyazd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/Pourdehghan_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/ardakanuni_tashkilat",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/kajino.festival",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/mostafa_pourdehghan",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/p/B3zY3BUlmcu",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
@@ -1332,32 +1332,32 @@
     {
       "platform": "instagram",
       "url": "https://instagram.com/pourdehghan_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/shohada_yazd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/tvuyazd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/baray_ardakan",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/onnewsmedia",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/p/B3zY3BUlmcu/",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
@@ -1387,7 +1387,7 @@
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/tvelayat_tehran/",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     }
   ],
   "policy": "Public pages/metadata only; no login or private-content access."
