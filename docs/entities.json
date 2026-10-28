@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27",
+  "generated_at": "2026-10-28",
   "metrics": {
-    "candidate_records": 3357,
-    "canonical_entities": 3343,
+    "candidate_records": 3374,
+    "canonical_entities": 3360,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3365,7 +3365,24 @@
     "3353": "scie-entity-03340",
     "3354": "scie-entity-03341",
     "3355": "scie-entity-03342",
-    "3356": "scie-entity-03343"
+    "3356": "scie-entity-03343",
+    "3357": "scie-entity-03344",
+    "3358": "scie-entity-03345",
+    "3359": "scie-entity-03346",
+    "3360": "scie-entity-03347",
+    "3361": "scie-entity-03348",
+    "3362": "scie-entity-03349",
+    "3363": "scie-entity-03350",
+    "3364": "scie-entity-03351",
+    "3365": "scie-entity-03352",
+    "3366": "scie-entity-03353",
+    "3367": "scie-entity-03354",
+    "3368": "scie-entity-03355",
+    "3369": "scie-entity-03356",
+    "3370": "scie-entity-03357",
+    "3371": "scie-entity-03358",
+    "3372": "scie-entity-03359",
+    "3373": "scie-entity-03360"
   },
   "entities": [
     {
@@ -102018,6 +102035,499 @@
       "primary_name": "پزشکیان می‌گوید که رهبر",
       "aliases": [
         "پزشکیان می‌گوید که رهبر"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03344",
+      "candidate_indexes": [
+        3357
+      ],
+      "record_count": 1,
+      "primary_name": "دشتی اردکانی به عنوان",
+      "aliases": [
+        "دشتی اردکانی به عنوان"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03345",
+      "candidate_indexes": [
+        3358
+      ],
+      "record_count": 1,
+      "primary_name": "قالیباف رئیس مجلس آغاز",
+      "aliases": [
+        "قالیباف رئیس مجلس آغاز"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03346",
+      "candidate_indexes": [
+        3359
+      ],
+      "record_count": 1,
+      "primary_name": "همتی با سؤال فعلی",
+      "aliases": [
+        "همتی با سؤال فعلی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03347",
+      "candidate_indexes": [
+        3360
+      ],
+      "record_count": 1,
+      "primary_name": "وزیر به‌جای پاسخ مستقیم",
+      "aliases": [
+        "وزیر به‌جای پاسخ مستقیم"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03348",
+      "candidate_indexes": [
+        3361
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان از این اقدام",
+      "aliases": [
+        "پوردهقان از این اقدام"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03349",
+      "candidate_indexes": [
+        3362
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان از وزارت اقتصاد",
+      "aliases": [
+        "پوردهقان از وزارت اقتصاد"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03350",
+      "candidate_indexes": [
+        3363
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان خوش‌بین نیستیم",
+      "aliases": [
+        "پوردهقان خوش‌بین نیستیم"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03351",
+      "candidate_indexes": [
+        3364
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان رقیب آقای دشتی",
+      "aliases": [
+        "پوردهقان رقیب آقای دشتی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03352",
+      "candidate_indexes": [
+        3365
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان منتشر کرده",
+      "aliases": [
+        "پوردهقان منتشر کرده"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03353",
+      "candidate_indexes": [
+        3366
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان هم دقیقاً از",
+      "aliases": [
+        "پوردهقان هم دقیقاً از"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03354",
+      "candidate_indexes": [
+        3367
+      ],
+      "record_count": 1,
+      "primary_name": "محسن رضایی دبیر شورای‌عالی",
+      "aliases": [
+        "محسن رضایی دبیر شورای‌عالی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03355",
+      "candidate_indexes": [
+        3368
+      ],
+      "record_count": 1,
+      "primary_name": "محسن رضایی در گزارش",
+      "aliases": [
+        "محسن رضایی در گزارش"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03356",
+      "candidate_indexes": [
+        3369
+      ],
+      "record_count": 1,
+      "primary_name": "مدنی‌زاده برشمرد",
+      "aliases": [
+        "مدنی‌زاده برشمرد"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03357",
+      "candidate_indexes": [
+        3370
+      ],
+      "record_count": 1,
+      "primary_name": "همتی را پیش از",
+      "aliases": [
+        "همتی را پیش از"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03358",
+      "candidate_indexes": [
+        3371
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان در زمان استیضاح",
+      "aliases": [
+        "پوردهقان در زمان استیضاح"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03359",
+      "candidate_indexes": [
+        3372
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان در قبال این",
+      "aliases": [
+        "پوردهقان در قبال این"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03360",
+      "candidate_indexes": [
+        3373
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان در مجلس",
+      "aliases": [
+        "پوردهقان در مجلس"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

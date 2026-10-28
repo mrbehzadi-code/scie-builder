@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27",
-  "candidate_count": 3357,
+  "generated_at": "2026-10-28",
+  "candidate_count": 3374,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1640,
+    "unsupported_or_missing_id": 1657,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3286
+    "skipped_total": 3303
   },
   "failures": {},
   "profiles": [
@@ -29478,6 +29478,125 @@
     {
       "candidate_index": 3356,
       "name": "پزشکیان می‌گوید که رهبر",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3357,
+      "name": "دشتی اردکانی به عنوان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3358,
+      "name": "قالیباف رئیس مجلس آغاز",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3359,
+      "name": "همتی با سؤال فعلی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3360,
+      "name": "وزیر به‌جای پاسخ مستقیم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3361,
+      "name": "پوردهقان از این اقدام",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3362,
+      "name": "پوردهقان از وزارت اقتصاد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3363,
+      "name": "پوردهقان خوش‌بین نیستیم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3364,
+      "name": "پوردهقان رقیب آقای دشتی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3365,
+      "name": "پوردهقان منتشر کرده",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3366,
+      "name": "پوردهقان هم دقیقاً از",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3367,
+      "name": "محسن رضایی دبیر شورای‌عالی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3368,
+      "name": "محسن رضایی در گزارش",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3369,
+      "name": "مدنی‌زاده برشمرد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3370,
+      "name": "همتی را پیش از",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3371,
+      "name": "پوردهقان در زمان استیضاح",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3372,
+      "name": "پوردهقان در قبال این",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3373,
+      "name": "پوردهقان در مجلس",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

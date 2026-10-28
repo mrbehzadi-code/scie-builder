@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-27",
-  "candidate_count": 3357,
+  "generated_at": "2026-10-28",
+  "candidate_count": 3374,
   "metrics": {
-    "unique_name_keys": 3261,
+    "unique_name_keys": 3278,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3265,
+    "quality_medium": 3282,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7882,
+    "evidence_items": 7916,
     "organizations_detected": 234,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1630,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1530,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1547,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 64,
@@ -52,11 +52,11 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 725,
-    "مدیریت و جامعه": 106,
+    "پزشکی و سلامت": 728,
+    "مدیریت و جامعه": 111,
     "فرهنگ و هنر": 18,
-    "فنی و مهندسی": 106,
-    "ظرفیت اجتماعی": 195,
+    "فنی و مهندسی": 109,
+    "ظرفیت اجتماعی": 201,
     "دانش و دانشگاه": 369,
     "کاندیدای معرفی‌شده به اطلس": 1
   },
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1519,
-    "Ardakan keyword in same public post": 555,
+    "public Telegram preview": 1536,
+    "Ardakan keyword in same public post": 565,
     "public author profile": 1338,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 964
+    "professional name in an Ardakan-focused public channel": 971
   },
   "possible_duplicates": [
     {
@@ -53925,6 +53925,278 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3357,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3358,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3359,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3360,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3361,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3362,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3363,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3364,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3365,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3366,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3367,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3368,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3369,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3370,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3371,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3372,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3373,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -56890,9 +57162,26 @@
         3353,
         3354,
         3355,
-        3356
+        3356,
+        3357,
+        3358,
+        3359,
+        3360,
+        3361,
+        3362,
+        3363,
+        3364,
+        3365,
+        3366,
+        3367,
+        3368,
+        3369,
+        3370,
+        3371,
+        3372,
+        3373
       ],
-      "count": 1519
+      "count": 1536
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."
