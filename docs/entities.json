@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28",
+  "generated_at": "2026-10-29",
   "metrics": {
-    "candidate_records": 3374,
-    "canonical_entities": 3360,
+    "candidate_records": 3378,
+    "canonical_entities": 3364,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3382,7 +3382,11 @@
     "3370": "scie-entity-03357",
     "3371": "scie-entity-03358",
     "3372": "scie-entity-03359",
-    "3373": "scie-entity-03360"
+    "3373": "scie-entity-03360",
+    "3374": "scie-entity-03361",
+    "3375": "scie-entity-03362",
+    "3376": "scie-entity-03363",
+    "3377": "scie-entity-03364"
   },
   "entities": [
     {
@@ -102534,6 +102538,122 @@
       ],
       "source_urls": [
         "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03361",
+      "candidate_indexes": [
+        3374
+      ],
+      "record_count": 1,
+      "primary_name": "حکیم‌زاده معاون وزیر آموزش",
+      "aliases": [
+        "حکیم‌زاده معاون وزیر آموزش"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03362",
+      "candidate_indexes": [
+        3375
+      ],
+      "record_count": 1,
+      "primary_name": "حکیم‌زاده معاون وزیر شب",
+      "aliases": [
+        "حکیم‌زاده معاون وزیر شب"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03363",
+      "candidate_indexes": [
+        3376
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان در راستای حمایت",
+      "aliases": [
+        "پوردهقان در راستای حمایت"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03364",
+      "candidate_indexes": [
+        3377
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان محدودیت‌های آموزش",
+      "aliases": [
+        "پوردهقان محدودیت‌های آموزش"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
       ],
       "organizations": [],
       "locations": [

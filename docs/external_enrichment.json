@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-28",
-  "candidate_count": 3374,
+  "generated_at": "2026-10-29",
+  "candidate_count": 3378,
   "metrics": {
     "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1657,
+    "unsupported_or_missing_id": 1661,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3303
+    "skipped_total": 3307
   },
   "failures": {},
   "profiles": [
@@ -29597,6 +29597,34 @@
     {
       "candidate_index": 3373,
       "name": "پوردهقان در مجلس",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3374,
+      "name": "حکیم‌زاده معاون وزیر آموزش",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3375,
+      "name": "حکیم‌زاده معاون وزیر شب",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3376,
+      "name": "پوردهقان در راستای حمایت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3377,
+      "name": "پوردهقان محدودیت‌های آموزش",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
