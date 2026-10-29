@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28",
+  "generated_at": "2026-10-29",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3374,
+    "people": 3378,
     "academic_candidates": 1653,
     "regional_evidence": 590,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1547
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1551
     },
-    "public_source_records": 2978,
-    "social_public_records": 1536
+    "public_source_records": 2995,
+    "social_public_records": 1540
   },
   "people": [
     {
@@ -75524,6 +75524,74 @@
       "verification": "needs_review",
       "confidence": "low",
       "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "حکیم‌زاده معاون وزیر آموزش",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ دیدار و دلجویی از خانواده مرحوم صلاحی، دانش‌آموز جان‌باخته سانحه تصادف در اردکان با همراهی معاون وزیر آموزش و پرورش نمایندۀ مردم اردکان به همراه دکتر حکیم‌زاده معاون وزیر آموزش و پرورش و نمایندۀ ویژۀ وزیر، با حضور در منزل مرحوم حمیدرضا صلاحی، دانش‌آموز جان‌باختۀ سانحۀ تصادف سرویس مدرسه در اردکان، با این خانوادۀ داغدار دیدار و ابراز همدردی کرد. همچنین پوردهقان اردکان در تماس با دکتر کاظمی وزیر آموزش و پرورش، ضمن تسل",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "حکیم‌زاده معاون وزیر شب",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ نشست شورای منطقه‌ای آموزش و پرورش اردکان با حضور دکتر حکیم‌زاده معاون وزیر شب گذشته، نشست شورای منطقه‌ای آموزش و پرورش شهرستان اردکان با حضور حکیم‌زاده معاون وزیر آموزش و پرورش، نمایندۀ مردم اردکان، فرماندار ویژه و مدیرکل آموزش و پرورش برگزار شد. 🎙 مصطفی پوردهقان اردکان ، نمایندۀ مردم: 💬 برند اردکان، دانش و علم است و فرهنگ. سیاست‌گذاری‌ها و برنامه‌های توسعه‌ای اردکان باید با توجه به این هویت علمی و فرهنگی دنبال شود",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پوردهقان در راستای حمایت",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ نشست شورای منطقه‌ای آموزش و پرورش اردکان با حضور دکتر حکیم‌زاده معاون وزیر شب گذشته، نشست شورای منطقه‌ای آموزش و پرورش شهرستان اردکان با حضور حکیم‌زاده معاون وزیر آموزش و پرورش، نمایندۀ مردم اردکان، فرماندار ویژه و مدیرکل آموزش و پرورش برگزار شد. 🎙 مصطفی پوردهقان اردکان ، نمایندۀ مردم: 💬 برند اردکان، دانش و علم است و فرهنگ. سیاست‌گذاری‌ها و برنامه‌های توسعه‌ای اردکان باید با توجه به این هویت علمی و فرهنگی دنبال شود",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پوردهقان محدودیت‌های آموزش",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ نشست شورای منطقه‌ای آموزش و پرورش اردکان با حضور دکتر حکیم‌زاده معاون وزیر شب گذشته، نشست شورای منطقه‌ای آموزش و پرورش شهرستان اردکان با حضور حکیم‌زاده معاون وزیر آموزش و پرورش، نمایندۀ مردم اردکان، فرماندار ویژه و مدیرکل آموزش و پرورش برگزار شد. 🎙 مصطفی پوردهقان اردکان ، نمایندۀ مردم: 💬 برند اردکان، دانش و علم است و فرهنگ. سیاست‌گذاری‌ها و برنامه‌های توسعه‌ای اردکان باید با توجه به این هویت علمی و فرهنگی دنبال شود",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
     }
