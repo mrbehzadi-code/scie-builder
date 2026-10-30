@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-29",
-  "candidate_count": 3378,
+  "generated_at": "2026-10-30",
+  "candidate_count": 3381,
   "metrics": {
-    "openalex_skipped": 1646,
-    "unsupported_or_missing_id": 1661,
+    "openalex_skipped": 1647,
+    "unsupported_or_missing_id": 1663,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3307
+    "skipped_total": 3310
   },
   "failures": {},
   "profiles": [
@@ -29625,6 +29625,30 @@
     {
       "candidate_index": 3377,
       "name": "پوردهقان محدودیت‌های آموزش",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3378,
+      "name": "عبدالرحیم صفایی اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3379,
+      "name": "عارف معاون اول رئیس‌جمهور",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3380,
+      "name": "پاکنژاد نشان داده متوجه",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

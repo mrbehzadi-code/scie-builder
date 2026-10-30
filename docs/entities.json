@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29",
+  "generated_at": "2026-10-30",
   "metrics": {
-    "candidate_records": 3378,
-    "canonical_entities": 3364,
+    "candidate_records": 3381,
+    "canonical_entities": 3367,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3386,7 +3386,10 @@
     "3374": "scie-entity-03361",
     "3375": "scie-entity-03362",
     "3376": "scie-entity-03363",
-    "3377": "scie-entity-03364"
+    "3377": "scie-entity-03364",
+    "3378": "scie-entity-03365",
+    "3379": "scie-entity-03366",
+    "3380": "scie-entity-03367"
   },
   "entities": [
     {
@@ -102654,6 +102657,93 @@
       ],
       "source_urls": [
         "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03365",
+      "candidate_indexes": [
+        3378
+      ],
+      "record_count": 1,
+      "primary_name": "عبدالرحیم صفایی اردکانی",
+      "aliases": [
+        "عبدالرحیم صفایی اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5159310875"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5159310875"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03366",
+      "candidate_indexes": [
+        3379
+      ],
+      "record_count": 1,
+      "primary_name": "عارف معاون اول رئیس‌جمهور",
+      "aliases": [
+        "عارف معاون اول رئیس‌جمهور"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03367",
+      "candidate_indexes": [
+        3380
+      ],
+      "record_count": 1,
+      "primary_name": "پاکنژاد نشان داده متوجه",
+      "aliases": [
+        "پاکنژاد نشان داده متوجه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
       ],
       "organizations": [],
       "locations": [
