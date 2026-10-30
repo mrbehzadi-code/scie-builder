@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-29",
+  "generated_at": "2026-10-30",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3378,
-    "academic_candidates": 1653,
-    "regional_evidence": 590,
+    "people": 3381,
+    "academic_candidates": 1654,
+    "regional_evidence": 591,
     "sources": {
       "GitHub Discovery": 64,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1630,
+      "OpenAlex Discovery": 1631,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1551
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1553
     },
-    "public_source_records": 2995,
-    "social_public_records": 1540
+    "public_source_records": 3000,
+    "social_public_records": 1542
   },
   "people": [
     {
@@ -75592,6 +75592,57 @@
       "verification": "needs_review",
       "confidence": "medium",
       "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "عبدالرحیم صفایی اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5159310875",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "عارف معاون اول رئیس‌جمهور",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ تشریح آخرین پیگیری‌های ملی، استانی و شهرستانی پوردهقان اردکان در گفت‌وگو با برنامۀ رودررو از رادیو یزد 💬 مصطفی پوردهقان اردکان، نمایندۀ مردم اردکان در مجلس، در گفت‌وگویی رادیویی به تشریح محورهای سؤال اخیر از وزیر امور اقتصادی و دارایی و کارت زرد مجلس به مدنی‌زاده، نوسانات قیمت در بازار، آخرین وضعیت تعرفۀ واردات خودرو و پیگیری‌های انجام‌شده برای بازگشت سپرده‌های مردم اردکان نزد یکی از سرمایه‌گذاران پرداخت. 💬 بررسی م",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پاکنژاد نشان داده متوجه",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⛔️ واکنش مشاور قالیباف به فرافکنی مشاور پزشکیان: علت تورم شدید، حذف غیرعقلانی ارز ۲۸۵۰۰ تومانی بود و ربطی به جنگ نداشت مجید شاکری مشاور قالیباف در پاسخ به شفیعیان مشاور پزشکیان درباره تورم و زمینه افزایش آن در ۱۰ ماه گذشته نوشت:‌ بخش مهمی از تورم ناشی از جهش ارزی سال ۴۰۴ (بخاطر تغییر تیم فروش نفت در دولت چهاردهم که دولت محترم هم با برکناری آقای پاکنژاد نشان داده متوجه این اشکال شده) و آن شکل غیرعقلایی حذف ۲۸۵۰۰ است. ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
     }
