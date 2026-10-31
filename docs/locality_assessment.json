@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3037,
+    "insufficient": 3040,
     "possible": 328,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -51461,6 +51461,45 @@
     {
       "candidate_index": 3380,
       "name": "پاکنژاد نشان داده متوجه",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3381,
+      "name": "محمد صادق هاتفی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3382,
+      "name": "حاج علی اکبری",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3383,
+      "name": "مرتس از این حملات",
       "score": 10,
       "status": "insufficient",
       "reasons": [
