@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-30",
-  "candidate_count": 3381,
+  "generated_at": "2026-10-31",
+  "candidate_count": 3384,
   "metrics": {
     "openalex_skipped": 1647,
-    "unsupported_or_missing_id": 1663,
+    "unsupported_or_missing_id": 1666,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3310
+    "skipped_total": 3313
   },
   "failures": {},
   "profiles": [
@@ -29649,6 +29649,27 @@
     {
       "candidate_index": 3380,
       "name": "پاکنژاد نشان داده متوجه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3381,
+      "name": "محمد صادق هاتفی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3382,
+      "name": "حاج علی اکبری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3383,
+      "name": "مرتس از این حملات",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
