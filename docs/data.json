@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-31",
+  "generated_at": "2026-11-01",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3384,
-    "academic_candidates": 1654,
+    "people": 3387,
+    "academic_candidates": 1655,
     "regional_evidence": 591,
     "sources": {
       "GitHub Discovery": 64,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1631,
+      "OpenAlex Discovery": 1632,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1556
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1558
     },
-    "public_source_records": 3002,
-    "social_public_records": 1545
+    "public_source_records": 3006,
+    "social_public_records": 1547
   },
   "people": [
     {
@@ -75685,6 +75685,57 @@
       "type": "ظرفیت اجتماعی",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🔺 🔻 واکنش عراقچی به اظهارات اخیر صدراعظم آلمان: دیگر خط قرمزی وجود نخواهد داشت وزیر اموز خارجه: 🔹 هنگامی که سال گذشته حملات هوایی آمریکا و اسرائیل به ایران آغاز شد، آقای مرتس از این حملات استقبال کرد او گفت «آن‌ها دارند کار کثیف اروپا را انجام می‌دهند.» 🔹 ۱۰۰ میلیارد یورو در مقایسه با ضربه‌ای سهمگین و ویرانگر که نیروهای مسلح قدرتمند ایران به کسانی که جرئت تعرض به ملت ما را داشته باشند وارد خواهند کرد، هیچ است. 🔹 دیگر",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "Maryam Mohiti",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "28 اثر علمی · Chalmers University of Technology",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5082029810",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "استاندار از مسئولان بپرسید",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ آقای استاندار از مسئولان بپرسید چرا یزد گران ترین بلیت پروازی کشور را دارد؟ 🔹 بررسی موردی دیده‌بانی از قیمت بلیت پروازهای امروز، جمعه ۸ آبان، از مبدا تهران به شش شهر با فاصله های بیشتر تر از یزد در سایت علی‌بابا نشان می‌دهد یزد در میان مقاصد بررسی‌شده، گران‌ترین بلیت موجود را دارد. 🔹 کمترین قیمت بلیت یک‌طرفه برای یک بزرگسال: ▪️ شیراز: ۵ میلیون و ۹۲۱ هزار تومان ▪️ مشهد: ۶ میلیون تومان ▪️ اصفهان: ۶ میلیون و ۹۳۲ هزار",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "روح‌الامین سعیدی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "اگر بقای ایران برایمان مهم است در جنگ پیش رو باید وحشتناک و غیر قابل مقایسه به دشمن حمله کنیم و ضرباتی بزنیم که به آمریکا شوک وارد شود/ راهبرد ایران در جنگ پیش رو به آتش کشیدن منطقه است دکتر روح‌الامین سعیدی، عضو هیئت علمی دانشگاه و تحلیلگر مسائل بین‌الملل: محاسبه‌پذیر بودن و حملات معمولی ما در جنگ قبلی دشمن را جری کرد و موضع ما را پایین آورد، در جنگ پیش رو باید کارهای عجیب کنیم. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

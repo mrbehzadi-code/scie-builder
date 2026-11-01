@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3040,
+    "insufficient": 3043,
     "possible": 328,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -51500,6 +51500,45 @@
     {
       "candidate_index": 3383,
       "name": "مرتس از این حملات",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3384,
+      "name": "Maryam Mohiti",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3385,
+      "name": "استاندار از مسئولان بپرسید",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3386,
+      "name": "روح‌الامین سعیدی",
       "score": 10,
       "status": "insufficient",
       "reasons": [
