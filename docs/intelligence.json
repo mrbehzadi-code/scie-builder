@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-31",
-  "candidate_count": 3384,
+  "generated_at": "2026-11-01",
+  "candidate_count": 3387,
   "metrics": {
-    "unique_name_keys": 3288,
+    "unique_name_keys": 3291,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3292,
+    "quality_medium": 3295,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7937,
-    "organizations_detected": 234,
+    "evidence_items": 7944,
+    "organizations_detected": 235,
     "locations_detected": 11
   },
   "sources": {
-    "OpenAlex Discovery": 1631,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1556,
+    "OpenAlex Discovery": 1632,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1558,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 64,
@@ -25,7 +25,7 @@
     "Lead-guided OpenAlex Discovery": 23
   },
   "capacity_types": {
-    "کاندیدای پژوهشی": 1628,
+    "کاندیدای پژوهشی": 1629,
     "ورزش / والیبال": 8,
     "سایر": 86,
     "فنی / دانش‌بنیان": 1,
@@ -52,18 +52,18 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 736,
+    "پزشکی و سلامت": 737,
     "مدیریت و جامعه": 111,
     "فرهنگ و هنر": 18,
     "فنی و مهندسی": 109,
-    "ظرفیت اجتماعی": 202,
+    "ظرفیت اجتماعی": 203,
     "دانش و دانشگاه": 369,
     "کاندیدای معرفی‌شده به اطلس": 1
   },
   "evidence_types": {
-    "OpenAlex author search": 1628,
+    "OpenAlex author search": 1629,
     "query: ardakan": 59,
-    "query: ardakani": 1092,
+    "query: ardakani": 1093,
     "Public sports report": 10,
     "Ardakan tag in competition roster": 10,
     "Public LinkedIn profile": 2,
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1545,
+    "public Telegram preview": 1547,
     "Ardakan keyword in same public post": 571,
-    "public author profile": 1339,
+    "public author profile": 1340,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 974
+    "professional name in an Ardakan-focused public channel": 976
   },
   "possible_duplicates": [
     {
@@ -54356,6 +54356,54 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3384,
+      "score": 65,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 3,
+      "has_location": false,
+      "has_organization": true,
+      "reasons": [
+        "source_url",
+        "evidence:3",
+        "ardakan_signal",
+        "organization",
+        "structured_academic_source"
+      ]
+    },
+    {
+      "candidate_index": 3385,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3386,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -57347,9 +57395,11 @@
         3380,
         3381,
         3382,
-        3383
+        3383,
+        3385,
+        3386
       ],
-      "count": 1545
+      "count": 1547
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."

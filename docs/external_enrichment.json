@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-31",
-  "candidate_count": 3384,
+  "generated_at": "2026-11-01",
+  "candidate_count": 3387,
   "metrics": {
-    "openalex_skipped": 1647,
-    "unsupported_or_missing_id": 1666,
+    "openalex_skipped": 1648,
+    "unsupported_or_missing_id": 1668,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3313
+    "skipped_total": 3316
   },
   "failures": {},
   "profiles": [
@@ -29670,6 +29670,30 @@
     {
       "candidate_index": 3383,
       "name": "مرتس از این حملات",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3384,
+      "name": "Maryam Mohiti",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3385,
+      "name": "استاندار از مسئولان بپرسید",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3386,
+      "name": "روح‌الامین سعیدی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

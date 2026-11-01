@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31",
+  "generated_at": "2026-11-01",
   "metrics": {
-    "candidate_records": 3384,
-    "canonical_entities": 3370,
+    "candidate_records": 3387,
+    "canonical_entities": 3373,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3392,7 +3392,10 @@
     "3380": "scie-entity-03367",
     "3381": "scie-entity-03368",
     "3382": "scie-entity-03369",
-    "3383": "scie-entity-03370"
+    "3383": "scie-entity-03370",
+    "3384": "scie-entity-03371",
+    "3385": "scie-entity-03372",
+    "3386": "scie-entity-03373"
   },
   "entities": [
     {
@@ -102828,6 +102831,95 @@
       "primary_name": "مرتس از این حملات",
       "aliases": [
         "مرتس از این حملات"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03371",
+      "candidate_indexes": [
+        3384
+      ],
+      "record_count": 1,
+      "primary_name": "Maryam Mohiti",
+      "aliases": [
+        "Maryam Mohiti"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5082029810"
+      ],
+      "organizations": [
+        "Chalmers University of Technology"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5082029810"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03372",
+      "candidate_indexes": [
+        3385
+      ],
+      "record_count": 1,
+      "primary_name": "استاندار از مسئولان بپرسید",
+      "aliases": [
+        "استاندار از مسئولان بپرسید"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03373",
+      "candidate_indexes": [
+        3386
+      ],
+      "record_count": 1,
+      "primary_name": "روح‌الامین سعیدی",
+      "aliases": [
+        "روح‌الامین سعیدی"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
