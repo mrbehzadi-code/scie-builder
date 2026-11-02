@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01",
+  "generated_at": "2026-11-02",
   "metrics": {
-    "candidate_records": 3387,
-    "canonical_entities": 3373,
+    "candidate_records": 3396,
+    "canonical_entities": 3382,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3395,7 +3395,16 @@
     "3383": "scie-entity-03370",
     "3384": "scie-entity-03371",
     "3385": "scie-entity-03372",
-    "3386": "scie-entity-03373"
+    "3386": "scie-entity-03373",
+    "3387": "scie-entity-03374",
+    "3388": "scie-entity-03375",
+    "3389": "scie-entity-03376",
+    "3390": "scie-entity-03377",
+    "3391": "scie-entity-03378",
+    "3392": "scie-entity-03379",
+    "3393": "scie-entity-03380",
+    "3394": "scie-entity-03381",
+    "3395": "scie-entity-03382"
   },
   "entities": [
     {
@@ -102920,6 +102929,267 @@
       "primary_name": "روح‌الامین سعیدی",
       "aliases": [
         "روح‌الامین سعیدی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03374",
+      "candidate_indexes": [
+        3387
+      ],
+      "record_count": 1,
+      "primary_name": "روح الامینی نماینده دادستان",
+      "aliases": [
+        "روح الامینی نماینده دادستان"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03375",
+      "candidate_indexes": [
+        3388
+      ],
+      "record_count": 1,
+      "primary_name": "شاکر مسئول دفتر حوزه",
+      "aliases": [
+        "شاکر مسئول دفتر حوزه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03376",
+      "candidate_indexes": [
+        3389
+      ],
+      "record_count": 1,
+      "primary_name": "بالادستی کشور است",
+      "aliases": [
+        "بالادستی کشور است"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03377",
+      "candidate_indexes": [
+        3390
+      ],
+      "record_count": 1,
+      "primary_name": "دکتر قالیباف هستند",
+      "aliases": [
+        "دکتر قالیباف هستند"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03378",
+      "candidate_indexes": [
+        3391
+      ],
+      "record_count": 1,
+      "primary_name": "رضایی تأمل زیادی روی",
+      "aliases": [
+        "رضایی تأمل زیادی روی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03379",
+      "candidate_indexes": [
+        3392
+      ],
+      "record_count": 1,
+      "primary_name": "قالیباف هستند",
+      "aliases": [
+        "قالیباف هستند"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03380",
+      "candidate_indexes": [
+        3393
+      ],
+      "record_count": 1,
+      "primary_name": "محسن رضایی حمایت کامل",
+      "aliases": [
+        "محسن رضایی حمایت کامل"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03381",
+      "candidate_indexes": [
+        3394
+      ],
+      "record_count": 1,
+      "primary_name": "ونس تلاش کرده‌اند باب",
+      "aliases": [
+        "ونس تلاش کرده‌اند باب"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03382",
+      "candidate_indexes": [
+        3395
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان با چه توجیهی",
+      "aliases": [
+        "پوردهقان با چه توجیهی"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

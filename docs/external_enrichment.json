@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01",
-  "candidate_count": 3387,
+  "generated_at": "2026-11-02",
+  "candidate_count": 3396,
   "metrics": {
     "openalex_skipped": 1648,
-    "unsupported_or_missing_id": 1668,
+    "unsupported_or_missing_id": 1677,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3316
+    "skipped_total": 3325
   },
   "failures": {},
   "profiles": [
@@ -29694,6 +29694,69 @@
     {
       "candidate_index": 3386,
       "name": "روح‌الامین سعیدی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3387,
+      "name": "روح الامینی نماینده دادستان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3388,
+      "name": "شاکر مسئول دفتر حوزه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3389,
+      "name": "بالادستی کشور است",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3390,
+      "name": "دکتر قالیباف هستند",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3391,
+      "name": "رضایی تأمل زیادی روی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3392,
+      "name": "قالیباف هستند",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3393,
+      "name": "محسن رضایی حمایت کامل",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3394,
+      "name": "ونس تلاش کرده‌اند باب",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3395,
+      "name": "پوردهقان با چه توجیهی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
