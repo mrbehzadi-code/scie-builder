@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T08:04:08Z",
+  "generated_at": "2026-11-02T08:12:18Z",
   "target": 5000,
-  "pool_size": 3387,
-  "new_records": 2,
+  "pool_size": 3396,
+  "new_records": 9,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1558
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1567
   },
   "telegram": [
     {
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 399,
+      "records": 408,
       "status": "ok"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "url": "https://t.me/s/Pourdehghan_ir",
-      "pages": 220,
+      "pages": 221,
       "records": 189,
       "status": "ok"
     }
@@ -1342,7 +1342,7 @@
     {
       "platform": "instagram",
       "url": "https://instagram.com/tvuyazd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",

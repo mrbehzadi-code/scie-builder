@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3043,
-    "possible": 328,
+    "insufficient": 3050,
+    "possible": 330,
     "probable": 14,
     "confirmed_by_human": 1,
     "confirmed": 1
@@ -51539,6 +51539,131 @@
     {
       "candidate_index": 3386,
       "name": "روح‌الامین سعیدی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3387,
+      "name": "روح الامینی نماینده دادستان",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3388,
+      "name": "شاکر مسئول دفتر حوزه",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3389,
+      "name": "بالادستی کشور است",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3390,
+      "name": "دکتر قالیباف هستند",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3391,
+      "name": "رضایی تأمل زیادی روی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3392,
+      "name": "قالیباف هستند",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3393,
+      "name": "محسن رضایی حمایت کامل",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3394,
+      "name": "ونس تلاش کرده‌اند باب",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3395,
+      "name": "پوردهقان با چه توجیهی",
       "score": 10,
       "status": "insufficient",
       "reasons": [

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01",
+  "generated_at": "2026-11-02",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3387,
+    "people": 3396,
     "academic_candidates": 1655,
     "regional_evidence": 591,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1558
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1567
     },
-    "public_source_records": 3006,
-    "social_public_records": 1547
+    "public_source_records": 3008,
+    "social_public_records": 1556
   },
   "people": [
     {
@@ -75736,6 +75736,159 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "اگر بقای ایران برایمان مهم است در جنگ پیش رو باید وحشتناک و غیر قابل مقایسه به دشمن حمله کنیم و ضرباتی بزنیم که به آمریکا شوک وارد شود/ راهبرد ایران در جنگ پیش رو به آتش کشیدن منطقه است دکتر روح‌الامین سعیدی، عضو هیئت علمی دانشگاه و تحلیلگر مسائل بین‌الملل: محاسبه‌پذیر بودن و حملات معمولی ما در جنگ قبلی دشمن را جری کرد و موضع ما را پایین آورد، در جنگ پیش رو باید کارهای عجیب کنیم. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "روح الامینی نماینده دادستان",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ بررسی وضعیت عرضه و قیمت گوشت قرمز درشهرستان اردکان توسط کارشناسان تنظیم بازار 🔰 جهت حصول اطمینان از دسترسی بی‌دریغ مردم به پروتئین سالم و با قیمت مناسب، تیم کارشناسی تنظیم بازار، از زنجیره عرضه گوشت قرمز در سطح شهر بازدید کردند تا پایداری قیمت‌ها و استانداردهای بهداشتی را شخصاً ارزیابی کنند. ✍ به گزارش روابط عمومی مدیریت جهاد کشاورزی شهرستان اردکان صبح روز یکشنبه دهم آبان در راستای نظارت بر سلامت مواد غذایی و پایش ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "شاکر مسئول دفتر حوزه",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ بررسی وضعیت عرضه و قیمت گوشت قرمز درشهرستان اردکان توسط کارشناسان تنظیم بازار 🔰 جهت حصول اطمینان از دسترسی بی‌دریغ مردم به پروتئین سالم و با قیمت مناسب، تیم کارشناسی تنظیم بازار، از زنجیره عرضه گوشت قرمز در سطح شهر بازدید کردند تا پایداری قیمت‌ها و استانداردهای بهداشتی را شخصاً ارزیابی کنند. ✍ به گزارش روابط عمومی مدیریت جهاد کشاورزی شهرستان اردکان صبح روز یکشنبه دهم آبان در راستای نظارت بر سلامت مواد غذایی و پایش ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "بالادستی کشور است",
+      "type": "دانش و دانشگاه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ بازی کودکانه تیم مذاکراتی اسلام آباد؛ عراقچی: از نظر ما، مذاکره‌کننده ارشد همچنان آقای قالیباف هستند/ آقای عراقچی! نظر شما برخلاف نظر دبیر شعام و استاد بالادستی کشور است 🔹 اظهارات عجیب عراقچی در حالی مطرح می شود که محسن رضایی شب گذشته کاملا مشخص و شفاف اعلام کرد مسائل مربوط به سیاست خارجی در زمان جنگ زیرنظر دبیرخانه شعام قرار می‌گیرد. 🔹 مشخص نیست اصرار تیم مذاکراتی اسلام آباد بر مسئولیت قالیباف به عنوان مسئول مذاک",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "دکتر قالیباف هستند",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "عراقچی: از نظر ما، مذاکره‌کننده ارشد ما همچنان جناب آقای دکتر قالیباف هستند 🔴 آقای محسن رضایی حمایت کامل از این امر دارند و ما به اتفاق تصمیم می‌گیریم و به اتفاق هم اجرا می‌کنیم 🔴 اینکه آقای ونس تلاش کرده‌اند باب گفت‌وگو و باب مفاهمه بیشتر باز باشد، به نظر من حرکت مثبتی است؛ ولی اگر این نامه را به قصد اختلاف‌افکنی ارسال کرده‌اند، این یک اشتباه دیگر در ادامه اشتباهات آمریکایی‌هاست 🔴 دکتر رضایی تأمل زیادی روی نامه داشت",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "رضایی تأمل زیادی روی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "عراقچی: از نظر ما، مذاکره‌کننده ارشد ما همچنان جناب آقای دکتر قالیباف هستند 🔴 آقای محسن رضایی حمایت کامل از این امر دارند و ما به اتفاق تصمیم می‌گیریم و به اتفاق هم اجرا می‌کنیم 🔴 اینکه آقای ونس تلاش کرده‌اند باب گفت‌وگو و باب مفاهمه بیشتر باز باشد، به نظر من حرکت مثبتی است؛ ولی اگر این نامه را به قصد اختلاف‌افکنی ارسال کرده‌اند، این یک اشتباه دیگر در ادامه اشتباهات آمریکایی‌هاست 🔴 دکتر رضایی تأمل زیادی روی نامه داشت",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "قالیباف هستند",
+      "type": "دانش و دانشگاه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ بازی کودکانه تیم مذاکراتی اسلام آباد؛ عراقچی: از نظر ما، مذاکره‌کننده ارشد همچنان آقای قالیباف هستند/ آقای عراقچی! نظر شما برخلاف نظر دبیر شعام و استاد بالادستی کشور است 🔹 اظهارات عجیب عراقچی در حالی مطرح می شود که محسن رضایی شب گذشته کاملا مشخص و شفاف اعلام کرد مسائل مربوط به سیاست خارجی در زمان جنگ زیرنظر دبیرخانه شعام قرار می‌گیرد. 🔹 مشخص نیست اصرار تیم مذاکراتی اسلام آباد بر مسئولیت قالیباف به عنوان مسئول مذاک",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "محسن رضایی حمایت کامل",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "عراقچی: از نظر ما، مذاکره‌کننده ارشد ما همچنان جناب آقای دکتر قالیباف هستند 🔴 آقای محسن رضایی حمایت کامل از این امر دارند و ما به اتفاق تصمیم می‌گیریم و به اتفاق هم اجرا می‌کنیم 🔴 اینکه آقای ونس تلاش کرده‌اند باب گفت‌وگو و باب مفاهمه بیشتر باز باشد، به نظر من حرکت مثبتی است؛ ولی اگر این نامه را به قصد اختلاف‌افکنی ارسال کرده‌اند، این یک اشتباه دیگر در ادامه اشتباهات آمریکایی‌هاست 🔴 دکتر رضایی تأمل زیادی روی نامه داشت",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "ونس تلاش کرده‌اند باب",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "عراقچی: از نظر ما، مذاکره‌کننده ارشد ما همچنان جناب آقای دکتر قالیباف هستند 🔴 آقای محسن رضایی حمایت کامل از این امر دارند و ما به اتفاق تصمیم می‌گیریم و به اتفاق هم اجرا می‌کنیم 🔴 اینکه آقای ونس تلاش کرده‌اند باب گفت‌وگو و باب مفاهمه بیشتر باز باشد، به نظر من حرکت مثبتی است؛ ولی اگر این نامه را به قصد اختلاف‌افکنی ارسال کرده‌اند، این یک اشتباه دیگر در ادامه اشتباهات آمریکایی‌هاست 🔴 دکتر رضایی تأمل زیادی روی نامه داشت",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پوردهقان با چه توجیهی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "واو به واوِ همین حرف‌ها رو کمتر از یکسال قبل در ماجرای کالابرگ گفتید. نتیجه چه شد؟ یک‌چهارم شدنِ ارزش کالابرگ. و اعلام تلاش دولت برای حذف کالابرگ ۱۵ میلیون نفر. یکبار دیگه می‌خواهید با همین شعارها درباره بنزین و برق و گاز، ما رو بدبخت‌تر کنید؟ مگه یک جامعه چقدر تاب و توان و تحمّل فشار رو داره؟ چرا هیچکسی نیست جلوی شما رو بگیره؟ آقای پوردهقان با چه توجیهی مجددا می‌خواهید پزشکیان رای بیاورد؟ @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
