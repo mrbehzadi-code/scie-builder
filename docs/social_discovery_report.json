@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-03T08:31:07Z",
+  "generated_at": "2026-11-04T08:02:14Z",
   "target": 5000,
-  "pool_size": 3396,
+  "pool_size": 3397,
   "new_records": 0,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
-    "OpenAlex Discovery": 1632,
+    "OpenAlex Discovery": 1633,
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 405,
+      "records": 404,
       "status": "ok"
     },
     {
@@ -492,7 +492,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4304",
-      "result": "The read operation timed out"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -782,7 +782,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4523",
-      "result": "no person name in public metadata"
+      "result": "The read operation timed out"
     },
     {
       "platform": "eitaa",
@@ -857,7 +857,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4562",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -962,7 +962,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4620",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",

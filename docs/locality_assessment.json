@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3050,
+    "insufficient": 3051,
     "possible": 330,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -51667,6 +51667,23 @@
       "score": 10,
       "status": "insufficient",
       "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3396,
+      "name": "آبنوس مختاری اردکانی",
+      "score": 18,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
+          "weight": 8
+        },
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-03",
+  "generated_at": "2026-11-04",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3396,
-    "academic_candidates": 1655,
-    "regional_evidence": 591,
+    "people": 3397,
+    "academic_candidates": 1656,
+    "regional_evidence": 592,
     "sources": {
       "GitHub Discovery": 64,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1632,
+      "OpenAlex Discovery": 1633,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
       "کانال‌ها و گروه‌های عمومی تلگرام": 1567
     },
-    "public_source_records": 3017,
+    "public_source_records": 3018,
     "social_public_records": 1556
   },
   "people": [
@@ -75900,6 +75900,23 @@
       "public_evidence_score": 45,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
+    },
+    {
+      "name": "آبنوس مختاری اردکانی",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5160324473",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
     }
   ]
 }
