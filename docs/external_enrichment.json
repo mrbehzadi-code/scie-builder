@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-03",
-  "candidate_count": 3396,
+  "generated_at": "2026-11-04",
+  "candidate_count": 3397,
   "metrics": {
-    "openalex_skipped": 1648,
+    "openalex_skipped": 1649,
     "unsupported_or_missing_id": 1677,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3325
+    "skipped_total": 3326
   },
   "failures": {},
   "profiles": [
@@ -29760,6 +29760,16 @@
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
+    },
+    {
+      "candidate_index": 3396,
+      "name": "آبنوس مختاری اردکانی",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
     }
   ],
   "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."

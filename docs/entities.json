@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03",
+  "generated_at": "2026-11-04",
   "metrics": {
-    "candidate_records": 3396,
-    "canonical_entities": 3382,
+    "candidate_records": 3397,
+    "canonical_entities": 3383,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3404,7 +3404,8 @@
     "3392": "scie-entity-03379",
     "3393": "scie-entity-03380",
     "3394": "scie-entity-03381",
-    "3395": "scie-entity-03382"
+    "3395": "scie-entity-03382",
+    "3396": "scie-entity-03383"
   },
   "entities": [
     {
@@ -103203,6 +103204,35 @@
       ],
       "identifiers": {
         "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03383",
+      "candidate_indexes": [
+        3396
+      ],
+      "record_count": 1,
+      "primary_name": "آبنوس مختاری اردکانی",
+      "aliases": [
+        "آبنوس مختاری اردکانی"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5160324473"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5160324473"
+        ],
         "github_usernames": [],
         "orcids": []
       },

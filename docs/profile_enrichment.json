@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-03",
-  "candidate_count": 3396,
+  "generated_at": "2026-11-04",
+  "candidate_count": 3397,
   "metrics": {
     "with_organization": 816,
     "with_location": 1677,
-    "with_stable_source_id": 1719,
+    "with_stable_source_id": 1720,
     "ardakan_location_signal": 1674,
     "completeness_high": 816,
-    "completeness_medium": 2494,
+    "completeness_medium": 2495,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 1655,
+    "OpenAlex": 1656,
     "کانال‌ها و گروه‌های عمومی تلگرام": 1567,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
@@ -136940,6 +136940,47 @@
       "missing_fields": [
         "organization",
         "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3396,
+      "name": "آبنوس مختاری اردکانی",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5160324473",
+      "identifiers": {
+        "openalex_id": "A5160324473",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
         "work_count"
       ]
     }
