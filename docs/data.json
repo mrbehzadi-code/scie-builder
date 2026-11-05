@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-04",
+  "generated_at": "2026-11-05",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3397,
-    "academic_candidates": 1656,
-    "regional_evidence": 592,
+    "people": 3405,
+    "academic_candidates": 1660,
+    "regional_evidence": 594,
     "sources": {
       "GitHub Discovery": 64,
       "Lead-guided OpenAlex Discovery": 23,
-      "OpenAlex Discovery": 1633,
+      "OpenAlex Discovery": 1637,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1567
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1571
     },
-    "public_source_records": 3018,
-    "social_public_records": 1556
+    "public_source_records": 3022,
+    "social_public_records": 1560
   },
   "people": [
     {
@@ -75917,6 +75917,142 @@
       "confidence": "medium",
       "locality_claim": "surname_or_profile_signal_not_confirmed",
       "public_evidence_score": 35
+    },
+    {
+      "name": "Christian Jutten B",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "708 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5055562421",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Ali Afgar",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "87 اثر علمی · Kerman University of Medical Sciences",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5057060526",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "Samaneh Entezarian Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "6 اثر علمی · Shahid Sadoughi University of Medical Sciences and Health Services",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5036589653",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "M Mirabzadeh Ardekani",
+      "type": "کاندیدای پژوهشی",
+      "source": "OpenAlex Discovery",
+      "detail": "1 اثر علمی",
+      "location": "—",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "url": "https://openalex.org/A5071151661",
+      "verification": "needs_review",
+      "confidence": "low",
+      "locality_claim": "surname_or_profile_signal_not_confirmed",
+      "public_evidence_score": 35
+    },
+    {
+      "name": "بورد سرپرست وزارت نفت",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ بررسی آخرین وضعیت تأمین گاز و فروش نفت در دیدار پوردهقان اردکان و مهندس بورد سرپرست وزارت نفت/ پوردهقان اردکان: برنامۀ دشمن بعد از فشار نظامی حذف درآمدهای نفتی کشور و فروپاشی اقتصاد است/ جذب اعتبار ۲۰ میلیارد تومانی برای حوزه‌های بهداشتی و درمانی از محل مسئولیت‌های اجتماعی وزارت نفت ▪️ مصطفی پوردهقان اردکان نمایندۀ مردم اردکان در دیدار با مهندس بورد، سرپرست وزارت نفت، با اشاره به حملات دشمن به زیرساخت‌های انرژی کشو",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "زهرا دهقانی مجری",
+      "type": "فرهنگ و هنر",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "💧 ویژه کودکان/ آبانگان؛ قصه آب، قصه زندگی ▫️ خانه هنر و موسیقی اقبال با همکاری ویژه اداره میراث فرهنگی شهرستان اردکان و گروه هنری فیدا برگزار می کند 🔻 دعوتید به سفری کودکانه در دل فرهنگ و میراث ایرانی؛ سفری از اسطوره آناهیتا و آیین‌های باران‌خواهی تا قصه قنات و میراث ارزشمند آب در اردکان در این برنامه: 🌿 قصه‌گویی و آشنایی با آیین‌های‌ کهن 🎨 ساخت عروسک باران‌خواه 💧 آیین نمادین باران‌خواهی 🏺 بازدید از قنات و آشنایی با ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "فاطمه دهقانی",
+      "type": "فرهنگ و هنر",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "💧 ویژه کودکان/ آبانگان؛ قصه آب، قصه زندگی ▫️ خانه هنر و موسیقی اقبال با همکاری ویژه اداره میراث فرهنگی شهرستان اردکان و گروه هنری فیدا برگزار می کند 🔻 دعوتید به سفری کودکانه در دل فرهنگ و میراث ایرانی؛ سفری از اسطوره آناهیتا و آیین‌های باران‌خواهی تا قصه قنات و میراث ارزشمند آب در اردکان در این برنامه: 🌿 قصه‌گویی و آشنایی با آیین‌های‌ کهن 🎨 ساخت عروسک باران‌خواه 💧 آیین نمادین باران‌خواهی 🏺 بازدید از قنات و آشنایی با ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "فرماندار شما شیفت صبح",
+      "type": "فنی و مهندسی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#ارسالی ❌ امروز روز دانش آموز است در حالی امسال روز دانش آموز گرامی داشته می شود که ۲۷۰ نفر از دانش آموزان این شهر به خاطر انتخاب اشتباه مسئولین ودر ادامه تصمیمات غلط ،الان از کلاس حضوری محروم شده اند ومجبور هستند در فضای مجازی کلاس های خود را دنبال کنند ❌ سوال اساسی ما از ریاست اداره و شورای منطقه ای آموزش وپرورش به خصوص #امام_جمعه و #فرماندار این است: اولا آقای فرماندار شما شیفت صبح این مدرسه را بازدید داشتید وپای ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3051,
-    "possible": 330,
+    "insufficient": 3057,
+    "possible": 332,
     "probable": 14,
     "confirmed_by_human": 1,
     "confirmed": 1
@@ -51684,6 +51684,118 @@
           "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
           "weight": 8
         },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3397,
+      "name": "Christian Jutten B",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3398,
+      "name": "Ali Afgar",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3399,
+      "name": "Samaneh Entezarian Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3400,
+      "name": "M Mirabzadeh Ardekani",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3401,
+      "name": "بورد سرپرست وزارت نفت",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3402,
+      "name": "زهرا دهقانی مجری",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3403,
+      "name": "فاطمه دهقانی",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3404,
+      "name": "فرماندار شما شیفت صبح",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
