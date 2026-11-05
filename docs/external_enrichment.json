@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04",
-  "candidate_count": 3397,
+  "generated_at": "2026-11-05",
+  "candidate_count": 3405,
   "metrics": {
-    "openalex_skipped": 1649,
-    "unsupported_or_missing_id": 1677,
+    "openalex_skipped": 1653,
+    "unsupported_or_missing_id": 1681,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3326
+    "skipped_total": 3334
   },
   "failures": {},
   "profiles": [
@@ -29770,6 +29770,74 @@
         "provider": "OpenAlex",
         "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
       }
+    },
+    {
+      "candidate_index": 3397,
+      "name": "Christian Jutten B",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3398,
+      "name": "Ali Afgar",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3399,
+      "name": "Samaneh Entezarian Ardekani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3400,
+      "name": "M Mirabzadeh Ardekani",
+      "provider": "OpenAlex",
+      "status": "skipped",
+      "data": {
+        "provider": "OpenAlex",
+        "skipped": "OPENALEX_API_KEY not configured and no cached academic record"
+      }
+    },
+    {
+      "candidate_index": 3401,
+      "name": "بورد سرپرست وزارت نفت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3402,
+      "name": "زهرا دهقانی مجری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3403,
+      "name": "فاطمه دهقانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3404,
+      "name": "فرماندار شما شیفت صبح",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
     }
   ],
   "notice": "Public provider metadata only. External enrichment does not itself confirm identity or Ardakan affiliation."

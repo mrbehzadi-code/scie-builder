@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04",
+  "generated_at": "2026-11-05",
   "metrics": {
-    "candidate_records": 3397,
-    "canonical_entities": 3383,
+    "candidate_records": 3405,
+    "canonical_entities": 3391,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3405,7 +3405,15 @@
     "3393": "scie-entity-03380",
     "3394": "scie-entity-03381",
     "3395": "scie-entity-03382",
-    "3396": "scie-entity-03383"
+    "3396": "scie-entity-03383",
+    "3397": "scie-entity-03384",
+    "3398": "scie-entity-03385",
+    "3399": "scie-entity-03386",
+    "3400": "scie-entity-03387",
+    "3401": "scie-entity-03388",
+    "3402": "scie-entity-03389",
+    "3403": "scie-entity-03390",
+    "3404": "scie-entity-03391"
   },
   "entities": [
     {
@@ -103233,6 +103241,242 @@
         "openalex_ids": [
           "A5160324473"
         ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03384",
+      "candidate_indexes": [
+        3397
+      ],
+      "record_count": 1,
+      "primary_name": "Christian Jutten B",
+      "aliases": [
+        "Christian Jutten B"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5055562421"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5055562421"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03385",
+      "candidate_indexes": [
+        3398
+      ],
+      "record_count": 1,
+      "primary_name": "Ali Afgar",
+      "aliases": [
+        "Ali Afgar"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5057060526"
+      ],
+      "organizations": [
+        "Kerman University of Medical Sciences"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5057060526"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03386",
+      "candidate_indexes": [
+        3399
+      ],
+      "record_count": 1,
+      "primary_name": "Samaneh Entezarian Ardekani",
+      "aliases": [
+        "Samaneh Entezarian Ardekani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5036589653"
+      ],
+      "organizations": [
+        "Shahid Sadoughi University of Medical Sciences and Health Services"
+      ],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5036589653"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03387",
+      "candidate_indexes": [
+        3400
+      ],
+      "record_count": 1,
+      "primary_name": "M Mirabzadeh Ardekani",
+      "aliases": [
+        "M Mirabzadeh Ardekani"
+      ],
+      "sources": [
+        "OpenAlex Discovery"
+      ],
+      "source_urls": [
+        "https://openalex.org/A5071151661"
+      ],
+      "organizations": [],
+      "locations": [],
+      "identifiers": {
+        "openalex_ids": [
+          "A5071151661"
+        ],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03388",
+      "candidate_indexes": [
+        3401
+      ],
+      "record_count": 1,
+      "primary_name": "بورد سرپرست وزارت نفت",
+      "aliases": [
+        "بورد سرپرست وزارت نفت"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/Pourdehghan_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03389",
+      "candidate_indexes": [
+        3402
+      ],
+      "record_count": 1,
+      "primary_name": "زهرا دهقانی مجری",
+      "aliases": [
+        "زهرا دهقانی مجری"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03390",
+      "candidate_indexes": [
+        3403
+      ],
+      "record_count": 1,
+      "primary_name": "فاطمه دهقانی",
+      "aliases": [
+        "فاطمه دهقانی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03391",
+      "candidate_indexes": [
+        3404
+      ],
+      "record_count": 1,
+      "primary_name": "فرماندار شما شیفت صبح",
+      "aliases": [
+        "فرماندار شما شیفت صبح"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
         "github_usernames": [],
         "orcids": []
       },

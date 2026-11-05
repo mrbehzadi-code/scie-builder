@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-04",
-  "candidate_count": 3397,
+  "generated_at": "2026-11-05",
+  "candidate_count": 3405,
   "metrics": {
-    "with_organization": 816,
-    "with_location": 1677,
-    "with_stable_source_id": 1720,
-    "ardakan_location_signal": 1674,
-    "completeness_high": 816,
-    "completeness_medium": 2495,
+    "with_organization": 818,
+    "with_location": 1681,
+    "with_stable_source_id": 1724,
+    "ardakan_location_signal": 1678,
+    "completeness_high": 818,
+    "completeness_medium": 2501,
     "completeness_low": 86
   },
   "providers": {
-    "OpenAlex": 1656,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1567,
+    "OpenAlex": 1660,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1571,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub": 64,
@@ -136981,6 +136981,330 @@
       "missing_fields": [
         "organization",
         "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3397,
+      "name": "Christian Jutten B",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5055562421",
+      "identifiers": {
+        "openalex_id": "A5055562421",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakan",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3398,
+      "name": "Ali Afgar",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5057060526",
+      "identifiers": {
+        "openalex_id": "A5057060526",
+        "github_username": null
+      },
+      "organization": "Kerman University of Medical Sciences",
+      "work_count": 87,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: ardakani",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3399,
+      "name": "Samaneh Entezarian Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5036589653",
+      "identifiers": {
+        "openalex_id": "A5036589653",
+        "github_username": null
+      },
+      "organization": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "work_count": 6,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 65,
+      "evidence_strength": "medium",
+      "profile_completeness": 83,
+      "available_fields": [
+        "organization",
+        "stable_source_id",
+        "source_url",
+        "evidence",
+        "work_count"
+      ],
+      "missing_fields": [
+        "location"
+      ]
+    },
+    {
+      "candidate_index": 3400,
+      "name": "M Mirabzadeh Ardekani",
+      "provider": "OpenAlex",
+      "source": "OpenAlex Discovery",
+      "source_url": "https://openalex.org/A5071151661",
+      "identifiers": {
+        "openalex_id": "A5071151661",
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": null,
+        "city": null,
+        "province": null,
+        "country": null,
+        "ardakan_signal": false
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "OpenAlex author search",
+        "query: اردکانی",
+        "public author profile"
+      ],
+      "evidence_count": 3,
+      "quality_score": 50,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "stable_source_id",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "location",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3401,
+      "name": "بورد سرپرست وزارت نفت",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/Pourdehghan_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3402,
+      "name": "زهرا دهقانی مجری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3403,
+      "name": "فاطمه دهقانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "medium",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
+        "work_count"
+      ]
+    },
+    {
+      "candidate_index": 3404,
+      "name": "فرماندار شما شیفت صبح",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "source_url": "https://t.me/s/ardakaneemrooz_ir",
+      "identifiers": {
+        "openalex_id": null,
+        "github_username": null
+      },
+      "organization": null,
+      "work_count": null,
+      "location": {
+        "raw": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+        "city": "Ardakan",
+        "province": null,
+        "country": null,
+        "ardakan_signal": true
+      },
+      "verification": "needs_review",
+      "confidence": "low",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "evidence_count": 2,
+      "quality_score": 55,
+      "evidence_strength": "medium",
+      "profile_completeness": 50,
+      "available_fields": [
+        "location",
+        "source_url",
+        "evidence"
+      ],
+      "missing_fields": [
+        "organization",
+        "stable_source_id",
         "work_count"
       ]
     }
