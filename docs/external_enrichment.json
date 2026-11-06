@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-05",
-  "candidate_count": 3405,
+  "generated_at": "2026-11-06",
+  "candidate_count": 3410,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1681,
+    "unsupported_or_missing_id": 1686,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3334
+    "skipped_total": 3339
   },
   "failures": {},
   "profiles": [
@@ -29835,6 +29835,41 @@
     {
       "candidate_index": 3404,
       "name": "فرماندار شما شیفت صبح",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3405,
+      "name": "پوتین بر سر احداث",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3406,
+      "name": "پوتین بمباران سایت های",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3407,
+      "name": "پوتین تقدیم کنم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3408,
+      "name": "پوتین مشورت شد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3409,
+      "name": "پوتین گفت هر کمکی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

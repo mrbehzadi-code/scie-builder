@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05",
+  "generated_at": "2026-11-06",
   "metrics": {
-    "candidate_records": 3405,
-    "canonical_entities": 3391,
+    "candidate_records": 3410,
+    "canonical_entities": 3396,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3413,7 +3413,12 @@
     "3401": "scie-entity-03388",
     "3402": "scie-entity-03389",
     "3403": "scie-entity-03390",
-    "3404": "scie-entity-03391"
+    "3404": "scie-entity-03391",
+    "3405": "scie-entity-03392",
+    "3406": "scie-entity-03393",
+    "3407": "scie-entity-03394",
+    "3408": "scie-entity-03395",
+    "3409": "scie-entity-03396"
   },
   "entities": [
     {
@@ -103464,6 +103469,151 @@
       "primary_name": "فرماندار شما شیفت صبح",
       "aliases": [
         "فرماندار شما شیفت صبح"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03392",
+      "candidate_indexes": [
+        3405
+      ],
+      "record_count": 1,
+      "primary_name": "پوتین بر سر احداث",
+      "aliases": [
+        "پوتین بر سر احداث"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03393",
+      "candidate_indexes": [
+        3406
+      ],
+      "record_count": 1,
+      "primary_name": "پوتین بمباران سایت های",
+      "aliases": [
+        "پوتین بمباران سایت های"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03394",
+      "candidate_indexes": [
+        3407
+      ],
+      "record_count": 1,
+      "primary_name": "پوتین تقدیم کنم",
+      "aliases": [
+        "پوتین تقدیم کنم"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03395",
+      "candidate_indexes": [
+        3408
+      ],
+      "record_count": 1,
+      "primary_name": "پوتین مشورت شد",
+      "aliases": [
+        "پوتین مشورت شد"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03396",
+      "candidate_indexes": [
+        3409
+      ],
+      "record_count": 1,
+      "primary_name": "پوتین گفت هر کمکی",
+      "aliases": [
+        "پوتین گفت هر کمکی"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
