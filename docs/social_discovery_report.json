@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T08:32:46Z",
+  "generated_at": "2026-11-07T07:49:20Z",
   "target": 5000,
   "pool_size": 3410,
-  "new_records": 5,
+  "new_records": 0,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 410,
+      "records": 409,
       "status": "ok"
     },
     {
@@ -127,7 +127,7 @@
     {
       "platform": "eitaa",
       "url": "http://eitaa.com/mezmar_yazd",
-      "result": "The read operation timed out"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
