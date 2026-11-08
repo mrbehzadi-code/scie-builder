@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07",
+  "generated_at": "2026-11-08",
   "metrics": {
-    "candidate_records": 3410,
-    "canonical_entities": 3396,
+    "candidate_records": 3411,
+    "canonical_entities": 3397,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3418,7 +3418,8 @@
     "3406": "scie-entity-03393",
     "3407": "scie-entity-03394",
     "3408": "scie-entity-03395",
-    "3409": "scie-entity-03396"
+    "3409": "scie-entity-03396",
+    "3410": "scie-entity-03397"
   },
   "entities": [
     {
@@ -103614,6 +103615,35 @@
       "primary_name": "پوتین گفت هر کمکی",
       "aliases": [
         "پوتین گفت هر کمکی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03397",
+      "candidate_indexes": [
+        3410
+      ],
+      "record_count": 1,
+      "primary_name": "پوتین بود",
+      "aliases": [
+        "پوتین بود"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

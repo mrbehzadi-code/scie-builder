@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-07",
-  "candidate_count": 3410,
+  "generated_at": "2026-11-08",
+  "candidate_count": 3411,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1686,
+    "unsupported_or_missing_id": 1687,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3339
+    "skipped_total": 3340
   },
   "failures": {},
   "profiles": [
@@ -29870,6 +29870,13 @@
     {
       "candidate_index": 3409,
       "name": "پوتین گفت هر کمکی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3410,
+      "name": "پوتین بود",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
