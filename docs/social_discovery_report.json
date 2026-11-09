@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-08T07:57:11Z",
+  "generated_at": "2026-11-09T08:42:13Z",
   "target": 5000,
-  "pool_size": 3411,
+  "pool_size": 3412,
   "new_records": 1,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1577
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1578
   },
   "telegram": [
     {
@@ -1267,7 +1267,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/joinchat/4185849903C98b9462fbd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "The read operation timed out"
     },
     {
       "platform": "eitaa",

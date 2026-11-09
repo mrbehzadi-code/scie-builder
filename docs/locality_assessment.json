@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3063,
+    "insufficient": 3064,
     "possible": 332,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -51871,6 +51871,19 @@
     {
       "candidate_index": 3410,
       "name": "پوتین بود",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3411,
+      "name": "قالیباف رئیس مذاکره‌کنندگان در",
       "score": 10,
       "status": "insufficient",
       "reasons": [
