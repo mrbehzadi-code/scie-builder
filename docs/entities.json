@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09",
+  "generated_at": "2026-11-10",
   "metrics": {
-    "candidate_records": 3412,
-    "canonical_entities": 3398,
+    "candidate_records": 3417,
+    "canonical_entities": 3403,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3420,7 +3420,12 @@
     "3408": "scie-entity-03395",
     "3409": "scie-entity-03396",
     "3410": "scie-entity-03397",
-    "3411": "scie-entity-03398"
+    "3411": "scie-entity-03398",
+    "3412": "scie-entity-03399",
+    "3413": "scie-entity-03400",
+    "3414": "scie-entity-03401",
+    "3415": "scie-entity-03402",
+    "3416": "scie-entity-03403"
   },
   "entities": [
     {
@@ -103674,6 +103679,151 @@
       "primary_name": "قالیباف رئیس مذاکره‌کنندگان در",
       "aliases": [
         "قالیباف رئیس مذاکره‌کنندگان در"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03399",
+      "candidate_indexes": [
+        3412
+      ],
+      "record_count": 1,
+      "primary_name": "دکتر متالهی",
+      "aliases": [
+        "دکتر متالهی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03400",
+      "candidate_indexes": [
+        3413
+      ],
+      "record_count": 1,
+      "primary_name": "عیسی مولوی در کلینیک",
+      "aliases": [
+        "عیسی مولوی در کلینیک"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03401",
+      "candidate_indexes": [
+        3414
+      ],
+      "record_count": 1,
+      "primary_name": "جلیلی نوشته",
+      "aliases": [
+        "جلیلی نوشته"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03402",
+      "candidate_indexes": [
+        3415
+      ],
+      "record_count": 1,
+      "primary_name": "سعید احدیان اخیرا در",
+      "aliases": [
+        "سعید احدیان اخیرا در"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03403",
+      "candidate_indexes": [
+        3416
+      ],
+      "record_count": 1,
+      "primary_name": "منانِ رئیسی",
+      "aliases": [
+        "منانِ رئیسی"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

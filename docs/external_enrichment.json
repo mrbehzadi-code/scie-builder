@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-09",
-  "candidate_count": 3412,
+  "generated_at": "2026-11-10",
+  "candidate_count": 3417,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1688,
+    "unsupported_or_missing_id": 1693,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3341
+    "skipped_total": 3346
   },
   "failures": {},
   "profiles": [
@@ -29884,6 +29884,41 @@
     {
       "candidate_index": 3411,
       "name": "قالیباف رئیس مذاکره‌کنندگان در",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3412,
+      "name": "دکتر متالهی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3413,
+      "name": "عیسی مولوی در کلینیک",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3414,
+      "name": "جلیلی نوشته",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3415,
+      "name": "سعید احدیان اخیرا در",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3416,
+      "name": "منانِ رئیسی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

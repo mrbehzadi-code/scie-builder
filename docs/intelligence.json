@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-09",
-  "candidate_count": 3412,
+  "generated_at": "2026-11-10",
+  "candidate_count": 3417,
   "metrics": {
-    "unique_name_keys": 3316,
+    "unique_name_keys": 3321,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3320,
+    "quality_medium": 3325,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 7999,
+    "evidence_items": 8009,
     "organizations_detected": 235,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1637,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1578,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1583,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 64,
@@ -52,8 +52,8 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 745,
-    "مدیریت و جامعه": 118,
+    "پزشکی و سلامت": 748,
+    "مدیریت و جامعه": 120,
     "فرهنگ و هنر": 20,
     "فنی و مهندسی": 110,
     "ظرفیت اجتماعی": 203,
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1567,
-    "Ardakan keyword in same public post": 576,
+    "public Telegram preview": 1572,
+    "Ardakan keyword in same public post": 578,
     "public author profile": 1345,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 991
+    "professional name in an Ardakan-focused public channel": 994
   },
   "possible_duplicates": [
     {
@@ -54801,6 +54801,86 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3412,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3413,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3414,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3415,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3416,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -57816,9 +57896,14 @@
         3408,
         3409,
         3410,
-        3411
+        3411,
+        3412,
+        3413,
+        3414,
+        3415,
+        3416
       ],
-      "count": 1567
+      "count": 1572
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."
