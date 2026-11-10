@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09",
+  "generated_at": "2026-11-10",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3412,
+    "people": 3417,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1578
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1583
     },
-    "public_source_records": 3032,
-    "social_public_records": 1567
+    "public_source_records": 3033,
+    "social_public_records": 1572
   },
   "people": [
     {
@@ -76161,6 +76161,91 @@
       "type": "مدیریت و جامعه",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "⭕️ تاریخ عجیب زنده است 🔹 جالب است که: «بهزاد چریک» رئیس تیم مذاکره‌کننده در اولین «تجربه تاریک» مذاکره با آمریکا در جمهوری اس لامی (مذاکرات الجزایر) است و آقای قالیباف رئیس مذاکره‌کنندگان در آخرین «تجربه تاریک» مذاکره با آمریکا. 🔹 لذا کاملاً طبیعی است که کسی مثل «بهزاد» از عملکرد قالیباف در مذاکرات حمایت می‌کند. تاریخ عجیب زنده است و عجیب تکرار می‌شود و عجیب درس‌هایی برای ما دارد! 🔹 رهبر شهید بارها از مذاکرات الجزایر",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "دکتر متالهی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "# ارسالی \"پیاده‌روهای زیبا و امن اردکان\" ✍️ سعید برخورداری د ر ابتدا لازم می دانم با عنایت به نظرات منعکس شده شهروندان از طرفشان از شهردار محترم جناب آقای دکتر متالهی و اعضای محترم شورای اسلامی شهر اردکان بابت توجه به موضوع بهسازی مسیرهای پیاده‌روی و اقدامات انجام‌شده، از جمله نصب نیمکت و چراغ‌های روشنایی در خیابان صدرآباد، تشکر کنم. این اقدامات ارزشمند، فراموش نشدنی ، الگو مندانه و قابل تقدیر است. اما برای تکمیل زیب",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "عیسی مولوی در کلینیک",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🦷 آغاز ارائه خدمات دندانپزشکی در کلینیک ضیایی اردکان از روز سه‌شنبه ۱۹ آبان‌ماه، خدمات دندانپزشکی با حضور دکتر عیسی مولوی در کلینیک ضیایی اردکان آغاز می‌شود. خدمات قابل ارائه: 🔹 کشیدن دندان 🔹 ترمیم 🔹 عصب‌کشی 🔹 روکش 🔹 بلیچینگ 🔹 جرم‌گیری نوبت‌گیری جهت دریافت خدمات دندانپزشکی به‌صورت حضوری در کلینیک بیمارستان ضیایی اردکان و یا از طریق تماس با شماره 09981778586 امکان‌پذیر می باشد. ┄┄┅┅┅❅❁❅┅┅┅┄┄ ✅ روابط عمومی بیمارستان ضی",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "جلیلی نوشته",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ مشاوران قالیباف چرا تاریخ را تحریف می کنند؟ کیهان نوشت: 🔹 آقای سعید احدیان اخیرا در نقد آقای جلیلی نوشته: جناب آقای جلیلی! شاید کمتر کسی یادش باشد اما سوتفاهم، توافق‌نامه‌‌ای بود که شما بعنوان مسئول پرونده هسته‌ای در سال ١٣٨٩ با ترکیه و برزیل به نمایندگی از آمریکا نهایی کردید و ایران متعهد شد تا ١٢٠٠ کیلو اورانیوم‌هایش را امانت بدهد دست اردوغان! و اوباما! یک سال! بعد به ما اورانیوم ٢٠درصد بدهد! 🔹 از این بگذریم که ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "سعید احدیان اخیرا در",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ مشاوران قالیباف چرا تاریخ را تحریف می کنند؟ کیهان نوشت: 🔹 آقای سعید احدیان اخیرا در نقد آقای جلیلی نوشته: جناب آقای جلیلی! شاید کمتر کسی یادش باشد اما سوتفاهم، توافق‌نامه‌‌ای بود که شما بعنوان مسئول پرونده هسته‌ای در سال ١٣٨٩ با ترکیه و برزیل به نمایندگی از آمریکا نهایی کردید و ایران متعهد شد تا ١٢٠٠ کیلو اورانیوم‌هایش را امانت بدهد دست اردوغان! و اوباما! یک سال! بعد به ما اورانیوم ٢٠درصد بدهد! 🔹 از این بگذریم که ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "منانِ رئیسی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "آخر حلقه یا آخر حُقّه؟! اول می‌گویند برای حذف رانت، ارز ترجیحی را حذف می‌کنیم تا پولش را از اول حلقه به آخر حلقه منتقل کنیم و مستقیم به دست مردم و مصرف‌کننده نهایی برسانیم؛ اما حالا می‌خواهند دبّه کنند و بخش قابل توجهی از مردم را از همان پولی که وعده‌اش را داده بودند محروم کنند! آقایان محترم! این آخر حُقّه است و نه آخر حلقه! دکتر منانِ رئیسی @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
