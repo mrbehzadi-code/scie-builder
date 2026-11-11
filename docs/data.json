@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10",
+  "generated_at": "2026-11-11",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3417,
+    "people": 3419,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1583
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1585
     },
-    "public_source_records": 3033,
-    "social_public_records": 1572
+    "public_source_records": 3038,
+    "social_public_records": 1574
   },
   "people": [
     {
@@ -76255,6 +76255,40 @@
       "verification": "needs_review",
       "confidence": "low",
       "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "داوری اردکانی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ پوردهقان اردکان تأکید کرد: ضرورت تبدیل بزرگداشت مفاخر اردکان به یک جریان فرهنگی ماندگار ▪️ اعضای ستاد برگزاری آیین بزرگداشت دکتر رضا داوری اردکانی، فیلسوف برجسته و از چهره‌های شناخته‌شدۀ اندیشه و فلسفۀ معاصر ایران، با مصطفی پوردهقان اردکان نمایندۀ مردم اردکان دیدار و درخصوص برنامه‌ریزی و هماهنگی برای برگزاری این آیین در زادگاه وی گفت‌وگو کردند. در این نشست، نمایندۀ مردم اردکان با تأکید بر جایگاه علمی و فرهنگی دکتر ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "داوری اردکانی از مفاخری",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ پوردهقان اردکان تأکید کرد: ضرورت تبدیل بزرگداشت مفاخر اردکان به یک جریان فرهنگی ماندگار ▪️ اعضای ستاد برگزاری آیین بزرگداشت دکتر رضا داوری اردکانی، فیلسوف برجسته و از چهره‌های شناخته‌شدۀ اندیشه و فلسفۀ معاصر ایران، با مصطفی پوردهقان اردکان نمایندۀ مردم اردکان دیدار و درخصوص برنامه‌ریزی و هماهنگی برای برگزاری این آیین در زادگاه وی گفت‌وگو کردند. در این نشست، نمایندۀ مردم اردکان با تأکید بر جایگاه علمی و فرهنگی دکتر ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
       "locality_claim": "candidate_not_confirmed",
       "access_scope": "public_post"
     }
