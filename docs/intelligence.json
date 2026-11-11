@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-10",
-  "candidate_count": 3417,
+  "generated_at": "2026-11-11",
+  "candidate_count": 3419,
   "metrics": {
-    "unique_name_keys": 3321,
+    "unique_name_keys": 3323,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3325,
+    "quality_medium": 3327,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 8009,
+    "evidence_items": 8013,
     "organizations_detected": 235,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1637,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1583,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1585,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
     "GitHub Discovery": 64,
@@ -52,7 +52,7 @@
     "مهندسی / معماری": 1,
     "کارآفرینی / صنایع غذایی": 1,
     "کاندیدای کشف از سرنخ": 22,
-    "پزشکی و سلامت": 748,
+    "پزشکی و سلامت": 750,
     "مدیریت و جامعه": 120,
     "فرهنگ و هنر": 20,
     "فنی و مهندسی": 110,
@@ -125,8 +125,8 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1572,
-    "Ardakan keyword in same public post": 578,
+    "public Telegram preview": 1574,
+    "Ardakan keyword in same public post": 580,
     "public author profile": 1345,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
@@ -54881,6 +54881,38 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3417,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3418,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -57901,9 +57933,11 @@
         3413,
         3414,
         3415,
-        3416
+        3416,
+        3417,
+        3418
       ],
-      "count": 1572
+      "count": 1574
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."

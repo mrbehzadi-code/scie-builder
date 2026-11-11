@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10",
-  "candidate_count": 3417,
+  "generated_at": "2026-11-11",
+  "candidate_count": 3419,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1693,
+    "unsupported_or_missing_id": 1695,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3346
+    "skipped_total": 3348
   },
   "failures": {},
   "profiles": [
@@ -29919,6 +29919,20 @@
     {
       "candidate_index": 3416,
       "name": "منانِ رئیسی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3417,
+      "name": "داوری اردکانی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3418,
+      "name": "داوری اردکانی از مفاخری",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
