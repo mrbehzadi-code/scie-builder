@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11",
+  "generated_at": "2026-11-12",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
@@ -16,7 +16,7 @@
       "پایگاه‌های رسمی و سازمانی": 3,
       "کانال‌ها و گروه‌های عمومی تلگرام": 1585
     },
-    "public_source_records": 3038,
+    "public_source_records": 3040,
     "social_public_records": 1574
   },
   "people": [

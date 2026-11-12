@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T08:18:13Z",
+  "generated_at": "2026-11-12T08:56:03Z",
   "target": 5000,
   "pool_size": 3419,
-  "new_records": 2,
+  "new_records": 0,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -14,15 +14,15 @@
   },
   "telegram": [
     {
-      "url": "https://t.me/s/ardakanedu",
-      "pages": 49,
-      "records": 104,
-      "status": "ok"
-    },
-    {
       "url": "https://t.me/s/darmangahebualiardakan",
       "pages": 50,
       "records": 124,
+      "status": "ok"
+    },
+    {
+      "url": "https://t.me/s/ardakanedu",
+      "pages": 49,
+      "records": 104,
       "status": "ok"
     },
     {
@@ -32,15 +32,15 @@
       "status": "ok"
     },
     {
-      "url": "https://t.me/s/ardakaneemrooz_ir",
-      "pages": 240,
-      "records": 410,
+      "url": "https://t.me/s/Bso_ardakanuni",
+      "pages": 150,
+      "records": 254,
       "status": "ok"
     },
     {
-      "url": "https://t.me/s/Bso_ardakanuni",
-      "pages": 233,
-      "records": 350,
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "pages": 240,
+      "records": 409,
       "status": "ok"
     },
     {
@@ -51,8 +51,8 @@
     }
   ],
   "outbound_public_profiles": {
-    "instagram": 31,
-    "eitaa": 238
+    "instagram": 30,
+    "eitaa": 236
   },
   "platform_results": {
     "eitaa": 0,
@@ -63,11 +63,6 @@
       "platform": "instagram",
       "url": "http://Instagram.com/ardakanuni_tashkilat",
       "result": "<urlopen error [Errno 101] Network is unreachable>"
-    },
-    {
-      "platform": "eitaa",
-      "url": "http://eitaa.com/Bso_ardakanuni",
-      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -83,11 +78,6 @@
       "platform": "eitaa",
       "url": "http://eitaa.com/Pourdehghan_ir/4810",
       "result": "no person name in public metadata"
-    },
-    {
-      "platform": "eitaa",
-      "url": "http://eitaa.com/Rahianenoor_News",
-      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -142,11 +132,6 @@
     {
       "platform": "instagram",
       "url": "http://instagram.com/Pourdehghan_ir",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
-    },
-    {
-      "platform": "instagram",
-      "url": "http://instagram.com/_u/khamenei_ir",
       "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
@@ -577,7 +562,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4369",
-      "result": "no person name in public metadata"
+      "result": "The read operation timed out"
     },
     {
       "platform": "eitaa",
@@ -947,7 +932,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4609",
-      "result": "no person name in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "eitaa",
@@ -1312,67 +1297,67 @@
     {
       "platform": "instagram",
       "url": "https://instagram.com/Lms_tvuyazd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/Pourdehghan_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/ardakanuni_tashkilat",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/kajino.festival",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/mostafa_pourdehghan",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/p/B3zY3BUlmcu",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/p/CLeyo-bATmV",
-      "result": "no person name in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/pourdehghan_ir",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/shohada_yazd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/tvuyazd",
-      "result": "no Ardakan signal in public metadata"
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/baray_ardakan",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/onnewsmedia",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/p/B3zY3BUlmcu/",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     },
     {
       "platform": "instagram",
@@ -1402,7 +1387,7 @@
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/tvelayat_tehran/",
-      "result": "no Ardakan signal in public metadata"
+      "result": "HTTP Error 429: Too Many Requests"
     }
   ],
   "policy": "Public pages/metadata only; no login or private-content access."
