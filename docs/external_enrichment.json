@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12",
-  "candidate_count": 3419,
+  "generated_at": "2026-11-13",
+  "candidate_count": 3420,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1695,
+    "unsupported_or_missing_id": 1696,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3348
+    "skipped_total": 3349
   },
   "failures": {},
   "profiles": [
@@ -29933,6 +29933,13 @@
     {
       "candidate_index": 3418,
       "name": "داوری اردکانی از مفاخری",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3419,
+      "name": "حسن احمدیان کارشناس سیاسی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
