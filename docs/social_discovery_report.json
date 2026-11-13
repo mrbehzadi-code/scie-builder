@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T08:56:03Z",
+  "generated_at": "2026-11-13T08:43:45Z",
   "target": 5000,
-  "pool_size": 3419,
-  "new_records": 0,
+  "pool_size": 3420,
+  "new_records": 1,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1585
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1586
   },
   "telegram": [
     {
@@ -32,27 +32,27 @@
       "status": "ok"
     },
     {
-      "url": "https://t.me/s/Bso_ardakanuni",
-      "pages": 150,
-      "records": 254,
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "pages": 240,
+      "records": 408,
       "status": "ok"
     },
     {
-      "url": "https://t.me/s/ardakaneemrooz_ir",
-      "pages": 240,
-      "records": 409,
+      "url": "https://t.me/s/Bso_ardakanuni",
+      "pages": 233,
+      "records": 350,
       "status": "ok"
     },
     {
       "url": "https://t.me/s/Pourdehghan_ir",
-      "pages": 221,
+      "pages": 222,
       "records": 193,
       "status": "ok"
     }
   ],
   "outbound_public_profiles": {
-    "instagram": 30,
-    "eitaa": 236
+    "instagram": 31,
+    "eitaa": 238
   },
   "platform_results": {
     "eitaa": 0,
@@ -62,7 +62,12 @@
     {
       "platform": "instagram",
       "url": "http://Instagram.com/ardakanuni_tashkilat",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/Bso_ardakanuni",
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -78,6 +83,11 @@
       "platform": "eitaa",
       "url": "http://eitaa.com/Pourdehghan_ir/4810",
       "result": "no person name in public metadata"
+    },
+    {
+      "platform": "eitaa",
+      "url": "http://eitaa.com/Rahianenoor_News",
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -122,52 +132,57 @@
     {
       "platform": "instagram",
       "url": "http://instagram.com/AZAR_MATNA7",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/Mostafa_Pourdehghan",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/Pourdehghan_ir",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
+    },
+    {
+      "platform": "instagram",
+      "url": "http://instagram.com/_u/khamenei_ir",
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/ardakanedu",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/ardakanuni_tashkilat",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/bso.ardakanuni",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/fatemehh_f13",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/kalk_ir",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/shohada_yazd",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://Instagram.com/Mostafa_Pourdehghan",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -562,7 +577,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4369",
-      "result": "The read operation timed out"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -932,7 +947,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4609",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1297,67 +1312,67 @@
     {
       "platform": "instagram",
       "url": "https://instagram.com/Lms_tvuyazd",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/Pourdehghan_ir",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/ardakanuni_tashkilat",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/kajino.festival",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/mostafa_pourdehghan",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/p/B3zY3BUlmcu",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/p/CLeyo-bATmV",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/pourdehghan_ir",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/shohada_yazd",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/tvuyazd",
-      "result": "<urlopen error [Errno 101] Network is unreachable>"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/baray_ardakan",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/onnewsmedia",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/p/B3zY3BUlmcu/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
@@ -1387,7 +1402,7 @@
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/tvelayat_tehran/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     }
   ],
   "policy": "Public pages/metadata only; no login or private-content access."

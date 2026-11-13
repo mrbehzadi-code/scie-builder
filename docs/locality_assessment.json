@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3071,
+    "insufficient": 3072,
     "possible": 332,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -51986,6 +51986,19 @@
           "signal": "نام یا نام خانوادگی اردکانی (نشانهٔ ضعیف)",
           "weight": 8
         },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3419,
+      "name": "حسن احمدیان کارشناس سیاسی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
         {
           "signal": "حداقل سه میدان مستقل",
           "weight": 10
