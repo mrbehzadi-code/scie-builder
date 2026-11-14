@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13",
+  "generated_at": "2026-11-14",
   "metrics": {
-    "candidate_records": 3420,
-    "canonical_entities": 3406,
+    "candidate_records": 3424,
+    "canonical_entities": 3410,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3428,7 +3428,11 @@
     "3416": "scie-entity-03403",
     "3417": "scie-entity-03404",
     "3418": "scie-entity-03405",
-    "3419": "scie-entity-03406"
+    "3419": "scie-entity-03406",
+    "3420": "scie-entity-03407",
+    "3421": "scie-entity-03408",
+    "3422": "scie-entity-03409",
+    "3423": "scie-entity-03410"
   },
   "entities": [
     {
@@ -103914,6 +103918,122 @@
       "primary_name": "حسن احمدیان کارشناس سیاسی",
       "aliases": [
         "حسن احمدیان کارشناس سیاسی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03407",
+      "candidate_indexes": [
+        3420
+      ],
+      "record_count": 1,
+      "primary_name": "محمد علی ابراهیمی از",
+      "aliases": [
+        "محمد علی ابراهیمی از"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03408",
+      "candidate_indexes": [
+        3421
+      ],
+      "record_count": 1,
+      "primary_name": "حمیدرضا زارع متخصص کلیه",
+      "aliases": [
+        "حمیدرضا زارع متخصص کلیه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03409",
+      "candidate_indexes": [
+        3422
+      ],
+      "record_count": 1,
+      "primary_name": "سقاب بی غرض",
+      "aliases": [
+        "سقاب بی غرض"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03410",
+      "candidate_indexes": [
+        3423
+      ],
+      "record_count": 1,
+      "primary_name": "صمصامی نماینده تهران",
+      "aliases": [
+        "صمصامی نماینده تهران"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

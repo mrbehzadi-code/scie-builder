@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13",
-  "candidate_count": 3420,
+  "generated_at": "2026-11-14",
+  "candidate_count": 3424,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1696,
+    "unsupported_or_missing_id": 1700,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3349
+    "skipped_total": 3353
   },
   "failures": {},
   "profiles": [
@@ -29940,6 +29940,34 @@
     {
       "candidate_index": 3419,
       "name": "حسن احمدیان کارشناس سیاسی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3420,
+      "name": "محمد علی ابراهیمی از",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3421,
+      "name": "حمیدرضا زارع متخصص کلیه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3422,
+      "name": "سقاب بی غرض",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3423,
+      "name": "صمصامی نماینده تهران",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
