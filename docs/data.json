@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13",
+  "generated_at": "2026-11-14",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3420,
+    "people": 3424,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1586
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1590
     },
-    "public_source_records": 3040,
-    "social_public_records": 1575
+    "public_source_records": 3041,
+    "social_public_records": 1579
   },
   "people": [
     {
@@ -76297,6 +76297,74 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "صحبتهای مهم دکتر حسن احمدیان کارشناس سیاسی: اگر همان ابتدا یک ضربه به حیفا زده بودیم اسرائیل وارد جنگ بزرگتری با ایران نمیشد @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "محمد علی ابراهیمی از",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅️ اطلاعیه مراسم بزرگداشت و ختم شهید گمنام فرمانداری ویژه شهرستان اردکان از عموم مردم شهیدپرور و ولایتمدار شهرستان دعوت می‌نماید در مراسم بزرگداشت و ختم شهید گمنام حضور به هم رسانند و با حضور معنوی خود، یاد و خاطره شهدای والامقام و این شهید عزیز را گرامی بدارند. سخنران: حجت‌الاسلام والمسلمین سید اسماعیل شاکر، امام جمعه محترم اردکان مداح: آقای محمد علی ابراهیمی از یزد زمان: شنبه ۲۳ آبان‌ماه، بعد از نماز مغرب و عشا مکا",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "حمیدرضا زارع متخصص کلیه",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 شنبه ۲۳ آبان 🔹 شیفت صبح 🔸 دکتر مجید دهقانی متخصص طب فیزیک و توانبخشی ساعت ۱۰:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸 دکتر الهام مروتی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر رضا ذاکری متخصص جراحی عمومی ساعت ۱۰:۳۰ 🔸 دکتر شیماالسادات دهقانپور متخصص چشم ساعت ۸:۳۰ 🔸 دکتر مهدیه اسلامی متخصص مغز و اعصاب ساعت ۸:۳۰ 🔸 دک",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "سقاب بی غرض",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔹 وسطی جنگی که مستقیما تاب آوری مردم را هدف قرار داده ، مدام به خودم میگویم شاید آقای سقاب بی غرض و مرض روی روان مردم رژه میرود . 🔹 مدام سعی میکنم به خودم بقبولانم این حرفهای ناپخته ، این کنش‌های رسانه ای که دائم تکرار میشود ،و این دوربین بازی ها صرفا از بی حساب و کتابی در دولت پزشکیان است و نیت و انگیزه ی دیگری برای آن وجود ندارد. 🔹 مدام به خودم میگویم اینها یک سری بچه درسخوان بوده اند که عدد و رقم ریاضی را پای تخته",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "صمصامی نماینده تهران",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "دکتر صمصامی نماینده تهران: پزشکیان کفایت ندارد و باید استیضاح شود. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

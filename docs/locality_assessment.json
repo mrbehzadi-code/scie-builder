@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3072,
-    "possible": 332,
+    "insufficient": 3075,
+    "possible": 333,
     "probable": 14,
     "confirmed_by_human": 1,
     "confirmed": 1
@@ -51996,6 +51996,62 @@
     {
       "candidate_index": 3419,
       "name": "حسن احمدیان کارشناس سیاسی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3420,
+      "name": "محمد علی ابراهیمی از",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3421,
+      "name": "حمیدرضا زارع متخصص کلیه",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3422,
+      "name": "سقاب بی غرض",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3423,
+      "name": "صمصامی نماینده تهران",
       "score": 10,
       "status": "insufficient",
       "reasons": [
