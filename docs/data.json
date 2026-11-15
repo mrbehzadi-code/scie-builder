@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14",
+  "generated_at": "2026-11-15",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3424,
+    "people": 3428,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1590
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1594
     },
-    "public_source_records": 3041,
-    "social_public_records": 1579
+    "public_source_records": 3045,
+    "social_public_records": 1583
   },
   "people": [
     {
@@ -76365,6 +76365,74 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "دکتر صمصامی نماینده تهران: پزشکیان کفایت ندارد و باید استیضاح شود. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پزشکیان در دور بعدی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#ارسالی جناب اقای پوردهقان! با سلام و قبولی عزاداری‌ها اینکه خطاب ما به شماست از این جهت است که نماینده مردم شریف اردکان شمایید وگرنه دست ما به رئیس‌جمهور و رئیس‌مجلس و رئیس قوّه قضائیه و وزرا، رئیس بانک مرکزی و رئیس سازمان بهینه‌سازی سوخت نمی‌رسد! قبل از اینکه اصل مطلب را بنویسم یاداور شوم که: اگر قرار است به اسم جنگ و تحریم مسائل را توجیه کنیم که باب هر انتقادی بسته خواهد شد! اگر قرار است به اسم اینکه اگر دیگران بو",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پوردهقان در برابر این",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔷 چالش حذف کارت سوخت آزاد در یزد؛ از ضعف ناوگان عمومی تا سکوت مسئولان استانی! ▪️ چرا در حالی که هنوز در اکثر استان‌های کشور کارت سوخت جایگاه‌ها جمع‌آوری نشده، مردم استان یزد از این امکان محروم شده‌اند؟ ▪️ سقاب اصفهانی، معاون رئیس‌جمهور، اعلام کرده‌ که کارت سوخت در «استان‌های مرزی» جمع‌آوری شده است؛ اما سؤال اینجاست که چرا این طرح در استان یزد که در قلب و مرکز ایران قرار دارد و به هیچ وجه مرزی نیست، اجرا شده است؟ اگر ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "رمضانی از طرح بنزینی",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ انتقاد حجت‌الاسلام رمضانی از طرح بنزینی دولت: اگر مسئولی بخواهد کودتایی را پوشش بدهد و زمینه شورشی را فراهم کند، چه‌کار باید بکند؟ حجت‌الاسلام رمضانی: 🔹 بنا بر اعلام دو تن از معاونان رئیس‌جمهور، دولت محترم تصمیم گرفته است کارت سوخت جایگاه‌ها را حذف کند؛ یعنی فرد بعد از مصرف سهمیه ماهانه‌اش هیچ راهی برای تأمین بنزین ماشینش نداشته باشد. 🔹 از مسئولی در این مملکت سؤال می‌کنند اگر لازم بود مردم مسافرتی بروند، چطور؟ رو ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "مشاور را دیدید",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔺 این توییت آقای مشاور را دیدید؟! سخنان دیگر مشاور دولت (طباطبایی) در مورد تنگه هرمز هم یادتان هست؟! سخنان آقای معاون (قائم پناه) در مورد غنی‌سازی چه طور؟! «نمی‌توانیم» و «نداریم» هایی که هر چند وقت یکبار رئیس‌شان (پزشکیان) می‌گوید چه؟! ▪️ نرم افزار ذهنِ این دولتِ یک لا قبا با «ایران ضعیف» نوشته شده است. متاسفانه در وسط جنگِ وجودی چنین دولتِ یک لاقبایی در ایران بر سرِ کار است. با این دولت آیا می‌توان فکر ابرقدرتی ایر",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

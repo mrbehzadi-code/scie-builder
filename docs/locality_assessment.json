@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3075,
+    "insufficient": 3079,
     "possible": 333,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -52052,6 +52052,58 @@
     {
       "candidate_index": 3423,
       "name": "صمصامی نماینده تهران",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3424,
+      "name": "پزشکیان در دور بعدی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3425,
+      "name": "پوردهقان در برابر این",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3426,
+      "name": "رمضانی از طرح بنزینی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3427,
+      "name": "مشاور را دیدید",
       "score": 10,
       "status": "insufficient",
       "reasons": [
