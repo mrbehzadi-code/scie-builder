@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14",
+  "generated_at": "2026-11-15",
   "metrics": {
-    "candidate_records": 3424,
-    "canonical_entities": 3410,
+    "candidate_records": 3428,
+    "canonical_entities": 3414,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3432,7 +3432,11 @@
     "3420": "scie-entity-03407",
     "3421": "scie-entity-03408",
     "3422": "scie-entity-03409",
-    "3423": "scie-entity-03410"
+    "3423": "scie-entity-03410",
+    "3424": "scie-entity-03411",
+    "3425": "scie-entity-03412",
+    "3426": "scie-entity-03413",
+    "3427": "scie-entity-03414"
   },
   "entities": [
     {
@@ -104034,6 +104038,122 @@
       "primary_name": "صمصامی نماینده تهران",
       "aliases": [
         "صمصامی نماینده تهران"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03411",
+      "candidate_indexes": [
+        3424
+      ],
+      "record_count": 1,
+      "primary_name": "پزشکیان در دور بعدی",
+      "aliases": [
+        "پزشکیان در دور بعدی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03412",
+      "candidate_indexes": [
+        3425
+      ],
+      "record_count": 1,
+      "primary_name": "پوردهقان در برابر این",
+      "aliases": [
+        "پوردهقان در برابر این"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03413",
+      "candidate_indexes": [
+        3426
+      ],
+      "record_count": 1,
+      "primary_name": "رمضانی از طرح بنزینی",
+      "aliases": [
+        "رمضانی از طرح بنزینی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03414",
+      "candidate_indexes": [
+        3427
+      ],
+      "record_count": 1,
+      "primary_name": "مشاور را دیدید",
+      "aliases": [
+        "مشاور را دیدید"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

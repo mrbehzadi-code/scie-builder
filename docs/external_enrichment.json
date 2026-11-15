@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-14",
-  "candidate_count": 3424,
+  "generated_at": "2026-11-15",
+  "candidate_count": 3428,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1700,
+    "unsupported_or_missing_id": 1704,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3353
+    "skipped_total": 3357
   },
   "failures": {},
   "profiles": [
@@ -29968,6 +29968,34 @@
     {
       "candidate_index": 3423,
       "name": "صمصامی نماینده تهران",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3424,
+      "name": "پزشکیان در دور بعدی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3425,
+      "name": "پوردهقان در برابر این",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3426,
+      "name": "رمضانی از طرح بنزینی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3427,
+      "name": "مشاور را دیدید",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
