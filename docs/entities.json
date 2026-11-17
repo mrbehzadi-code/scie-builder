@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16",
+  "generated_at": "2026-11-17",
   "metrics": {
-    "candidate_records": 3428,
-    "canonical_entities": 3414,
+    "candidate_records": 3431,
+    "canonical_entities": 3417,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3436,7 +3436,10 @@
     "3424": "scie-entity-03411",
     "3425": "scie-entity-03412",
     "3426": "scie-entity-03413",
-    "3427": "scie-entity-03414"
+    "3427": "scie-entity-03414",
+    "3428": "scie-entity-03415",
+    "3429": "scie-entity-03416",
+    "3430": "scie-entity-03417"
   },
   "entities": [
     {
@@ -104154,6 +104157,93 @@
       "primary_name": "مشاور را دیدید",
       "aliases": [
         "مشاور را دیدید"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03415",
+      "candidate_indexes": [
+        3428
+      ],
+      "record_count": 1,
+      "primary_name": "والمسلمین سیداسماعیل شاکر در",
+      "aliases": [
+        "والمسلمین سیداسماعیل شاکر در"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakanedu"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03416",
+      "candidate_indexes": [
+        3429
+      ],
+      "record_count": 1,
+      "primary_name": "بزرگ حوزه های علمیه",
+      "aliases": [
+        "بزرگ حوزه های علمیه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03417",
+      "candidate_indexes": [
+        3430
+      ],
+      "record_count": 1,
+      "primary_name": "حسین راغفر اقتصاددان",
+      "aliases": [
+        "حسین راغفر اقتصاددان"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

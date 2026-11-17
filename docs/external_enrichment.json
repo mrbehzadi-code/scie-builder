@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16",
-  "candidate_count": 3428,
+  "generated_at": "2026-11-17",
+  "candidate_count": 3431,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1704,
+    "unsupported_or_missing_id": 1707,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3357
+    "skipped_total": 3360
   },
   "failures": {},
   "profiles": [
@@ -29996,6 +29996,27 @@
     {
       "candidate_index": 3427,
       "name": "مشاور را دیدید",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3428,
+      "name": "والمسلمین سیداسماعیل شاکر در",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3429,
+      "name": "بزرگ حوزه های علمیه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3430,
+      "name": "حسین راغفر اقتصاددان",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
