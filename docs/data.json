@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16",
+  "generated_at": "2026-11-17",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3428,
+    "people": 3431,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1594
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1597
     },
     "public_source_records": 3049,
-    "social_public_records": 1583
+    "social_public_records": 1586
   },
   "people": [
     {
@@ -76433,6 +76433,57 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🔺 این توییت آقای مشاور را دیدید؟! سخنان دیگر مشاور دولت (طباطبایی) در مورد تنگه هرمز هم یادتان هست؟! سخنان آقای معاون (قائم پناه) در مورد غنی‌سازی چه طور؟! «نمی‌توانیم» و «نداریم» هایی که هر چند وقت یکبار رئیس‌شان (پزشکیان) می‌گوید چه؟! ▪️ نرم افزار ذهنِ این دولتِ یک لا قبا با «ایران ضعیف» نوشته شده است. متاسفانه در وسط جنگِ وجودی چنین دولتِ یک لاقبایی در ایران بر سرِ کار است. با این دولت آیا می‌توان فکر ابرقدرتی ایر",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "والمسلمین سیداسماعیل شاکر در",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#گزارش_تصویری 🔺 اقامه نماز جماعت و پرسش و پاسخ امام جمعه اردکان حجت الاسلام والمسلمین سیداسماعیل شاکر در هنرستان ارفع ☫ روابط عمومی مدیریت آموزش و پرورش شهرستان اردکان سایت | ایتا | تلگرام | اینستاگرام 🌐 @ardakanedu",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakanedu",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "بزرگ حوزه های علمیه",
+      "type": "دانش و دانشگاه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔺 🔻 ارتحال آیت الله وحید خراسانی دفتر آیت الله وحید خراسانی: 🔹 با نهایت اندوه و تاثر، ارتحال فقیه اهل بیت علیهم السلام، مرجع عالیقدر جهان تشیع، عالم ربانی و استاد بزرگ حوزه های علمیه آیت الله العظمی وحید خراسانی (رضی) را به اطلاع می‌رسانیم. 🔹 ایرنا @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "حسین راغفر اقتصاددان",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "دولت پزشکیان در یکسال اخیر علیرغم شرایط جنگی، میلیاردها دلار خودرو وارد کشور کرده است/ همین کار دولت یکی از دلایل جهش نرخ ارز در ماه‌های اخیر است دکتر حسین راغفر اقتصاددان و استاد اقتصاد دانشگاه الزهرا: یکی از علل اصلی جهش قیمت ارز در چند ماه گذشته واردات بی‌رویه خودروهای لوکس است. دولت با هدف کسب درآمد به واردات خودرو روی آورده‌است. @Ardakaneemrooz",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

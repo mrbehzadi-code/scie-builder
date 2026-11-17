@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T08:34:00Z",
+  "generated_at": "2026-11-17T09:49:00Z",
   "target": 5000,
-  "pool_size": 3428,
-  "new_records": 0,
+  "pool_size": 3431,
+  "new_records": 3,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -10,7 +10,7 @@
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1594
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1597
   },
   "telegram": [
     {
@@ -21,8 +21,8 @@
     },
     {
       "url": "https://t.me/s/ardakanedu",
-      "pages": 50,
-      "records": 104,
+      "pages": 51,
+      "records": 103,
       "status": "ok"
     },
     {
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 411,
+      "records": 410,
       "status": "ok"
     },
     {
@@ -952,7 +952,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4612",
-      "result": "The read operation timed out"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",

@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3079,
-    "possible": 333,
+    "insufficient": 3081,
+    "possible": 334,
     "probable": 14,
     "confirmed_by_human": 1,
     "confirmed": 1
@@ -52104,6 +52104,49 @@
     {
       "candidate_index": 3427,
       "name": "مشاور را دیدید",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3428,
+      "name": "والمسلمین سیداسماعیل شاکر در",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3429,
+      "name": "بزرگ حوزه های علمیه",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3430,
+      "name": "حسین راغفر اقتصاددان",
       "score": 10,
       "status": "insufficient",
       "reasons": [
