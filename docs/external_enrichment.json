@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-18",
-  "candidate_count": 3431,
+  "generated_at": "2026-11-19",
+  "candidate_count": 3435,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1707,
+    "unsupported_or_missing_id": 1711,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3360
+    "skipped_total": 3364
   },
   "failures": {},
   "profiles": [
@@ -30017,6 +30017,34 @@
     {
       "candidate_index": 3430,
       "name": "حسین راغفر اقتصاددان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3431,
+      "name": "حمیدرضا زارع متخصص اورولوژی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3432,
+      "name": "سقاب اصفهانی درباره ذخیره",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3433,
+      "name": "عارف به برخی اعضای",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3434,
+      "name": "عباس خلیلی متخصص آسم",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

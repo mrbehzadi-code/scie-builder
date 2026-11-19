@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18",
+  "generated_at": "2026-11-19",
   "metrics": {
-    "candidate_records": 3431,
-    "canonical_entities": 3417,
+    "candidate_records": 3435,
+    "canonical_entities": 3421,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3439,7 +3439,11 @@
     "3427": "scie-entity-03414",
     "3428": "scie-entity-03415",
     "3429": "scie-entity-03416",
-    "3430": "scie-entity-03417"
+    "3430": "scie-entity-03417",
+    "3431": "scie-entity-03418",
+    "3432": "scie-entity-03419",
+    "3433": "scie-entity-03420",
+    "3434": "scie-entity-03421"
   },
   "entities": [
     {
@@ -104244,6 +104248,122 @@
       "primary_name": "حسین راغفر اقتصاددان",
       "aliases": [
         "حسین راغفر اقتصاددان"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03418",
+      "candidate_indexes": [
+        3431
+      ],
+      "record_count": 1,
+      "primary_name": "حمیدرضا زارع متخصص اورولوژی",
+      "aliases": [
+        "حمیدرضا زارع متخصص اورولوژی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03419",
+      "candidate_indexes": [
+        3432
+      ],
+      "record_count": 1,
+      "primary_name": "سقاب اصفهانی درباره ذخیره",
+      "aliases": [
+        "سقاب اصفهانی درباره ذخیره"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03420",
+      "candidate_indexes": [
+        3433
+      ],
+      "record_count": 1,
+      "primary_name": "عارف به برخی اعضای",
+      "aliases": [
+        "عارف به برخی اعضای"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03421",
+      "candidate_indexes": [
+        3434
+      ],
+      "record_count": 1,
+      "primary_name": "عباس خلیلی متخصص آسم",
+      "aliases": [
+        "عباس خلیلی متخصص آسم"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
