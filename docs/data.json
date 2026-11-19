@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18",
+  "generated_at": "2026-11-19",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3431,
+    "people": 3435,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1597
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1601
     },
     "public_source_records": 3052,
-    "social_public_records": 1586
+    "social_public_records": 1590
   },
   "people": [
     {
@@ -76484,6 +76484,74 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "دولت پزشکیان در یکسال اخیر علیرغم شرایط جنگی، میلیاردها دلار خودرو وارد کشور کرده است/ همین کار دولت یکی از دلایل جهش نرخ ارز در ماه‌های اخیر است دکتر حسین راغفر اقتصاددان و استاد اقتصاد دانشگاه الزهرا: یکی از علل اصلی جهش قیمت ارز در چند ماه گذشته واردات بی‌رویه خودروهای لوکس است. دولت با هدف کسب درآمد به واردات خودرو روی آورده‌است. @Ardakaneemrooz",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "حمیدرضا زارع متخصص اورولوژی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 پنج شنبه ۲۸ آبان 🔹 شیفت صبح 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸 دکتر امیر ولی عضد زاده متخصص اطفال ساعت ۸ 🔸 دکتر زینب دهقانی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر محمدرضا عمویی متخصص جراحی عمومی ساعت ۱۲:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود نوری متخصص اعصاب و روان ساعت ۱۱ 🔸 دکتر حمیدرضا زارع متخصص اورولوژی ساعت ۸:۳۰ 🔸 دکتر وجیهه ک",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "سقاب اصفهانی درباره ذخیره",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "📹 اعتراض نماینده میبد به دولت پیرامون حذف کارت سوخت جایگاه‌ها ▪️ میرمحمدی: ❌ اظهارنظر اخیر آقای سقاب اصفهانی درباره ذخیره سوخت توسط مردم، بسیار سخیف بود. 🔺 حذف کارت سوخت در جایگاه‌های عرضه سوخت ۱۲ استان، تصمیمی غیرکارشناسانه بود. بخش عمده قاچاق سوخت مربوط به گازوئیل است، نه بنزین. 🔺 این تصمیم باعث ایجاد صف‌های طولانی و اعتراض مردم شده و برای گروه‌هایی مانند معلمان، پزشکان و خانواده‌هایی که بیماران خود را به شهرهای دی",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "عارف به برخی اعضای",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔺 🔻 تکذیب شایعات اخیر درباره دولت؛ اختلاف نظری بین رئیس‌جمهور و‌ معاون اول وجود ندارد 🔹 دبیرخانه شورای اطلاع‌رسانی دولت : در پی انتشار برخی اخبار جعلی به اطلاع می‌رساند هیچ اختلاف نظری بین رئیس‌جمهور و معاون اول به ویژه در زمینه مدیریت مصرف سوخت و نیز تذکرات قاطع دکتر عارف به برخی اعضای کابینه در جلسه قبلی هیأت وزیران وجود ندارد. لذا این اخبار دروغ محض بوده و ساخته و پرداخته محافل خاص است و از اساس هیچ نسبتی با واقعی",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "عباس خلیلی متخصص آسم",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 پنج شنبه ۲۸ آبان 🔹 شیفت صبح 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸 دکتر امیر ولی عضد زاده متخصص اطفال ساعت ۸ 🔸 دکتر زینب دهقانی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر محمدرضا عمویی متخصص جراحی عمومی ساعت ۱۲:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود نوری متخصص اعصاب و روان ساعت ۱۱ 🔸 دکتر حمیدرضا زارع متخصص اورولوژی ساعت ۸:۳۰ 🔸 دکتر وجیهه ک",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

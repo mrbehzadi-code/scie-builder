@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3081,
+    "insufficient": 3085,
     "possible": 334,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -52147,6 +52147,58 @@
     {
       "candidate_index": 3430,
       "name": "حسین راغفر اقتصاددان",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3431,
+      "name": "حمیدرضا زارع متخصص اورولوژی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3432,
+      "name": "سقاب اصفهانی درباره ذخیره",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3433,
+      "name": "عارف به برخی اعضای",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3434,
+      "name": "عباس خلیلی متخصص آسم",
       "score": 10,
       "status": "insufficient",
       "reasons": [
