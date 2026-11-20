@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-19",
-  "candidate_count": 3435,
+  "generated_at": "2026-11-20",
+  "candidate_count": 3437,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1711,
+    "unsupported_or_missing_id": 1713,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3364
+    "skipped_total": 3366
   },
   "failures": {},
   "profiles": [
@@ -30045,6 +30045,20 @@
     {
       "candidate_index": 3434,
       "name": "عباس خلیلی متخصص آسم",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3435,
+      "name": "داوری تا سنگچین رودخانه",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3436,
+      "name": "عبدالکریمی استاد فلسفه به",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}

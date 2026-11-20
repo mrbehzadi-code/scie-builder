@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19",
+  "generated_at": "2026-11-20",
   "metrics": {
-    "candidate_records": 3435,
-    "canonical_entities": 3421,
+    "candidate_records": 3437,
+    "canonical_entities": 3423,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3443,7 +3443,9 @@
     "3431": "scie-entity-03418",
     "3432": "scie-entity-03419",
     "3433": "scie-entity-03420",
-    "3434": "scie-entity-03421"
+    "3434": "scie-entity-03421",
+    "3435": "scie-entity-03422",
+    "3436": "scie-entity-03423"
   },
   "entities": [
     {
@@ -104364,6 +104366,64 @@
       "primary_name": "عباس خلیلی متخصص آسم",
       "aliases": [
         "عباس خلیلی متخصص آسم"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03422",
+      "candidate_indexes": [
+        3435
+      ],
+      "record_count": 1,
+      "primary_name": "داوری تا سنگچین رودخانه",
+      "aliases": [
+        "داوری تا سنگچین رودخانه"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03423",
+      "candidate_indexes": [
+        3436
+      ],
+      "record_count": 1,
+      "primary_name": "عبدالکریمی استاد فلسفه به",
+      "aliases": [
+        "عبدالکریمی استاد فلسفه به"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"
