@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19",
+  "generated_at": "2026-11-20",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3435,
+    "people": 3437,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1601
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1603
     },
-    "public_source_records": 3052,
-    "social_public_records": 1590
+    "public_source_records": 3056,
+    "social_public_records": 1592
   },
   "people": [
     {
@@ -76552,6 +76552,40 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "✳️ برنامه حضور پزشکان و کارشناسان در پلی کلینیک تخصصی و فوق تخصصی ضیایی 🔗 پنج شنبه ۲۸ آبان 🔹 شیفت صبح 🔸 دکتر محمود تقی زاده متخصص اطفال ساعت ۹ 🔸 دکتر امیر ولی عضد زاده متخصص اطفال ساعت ۸ 🔸 دکتر زینب دهقانی متخصص اطفال ساعت ۸:۳۰ 🔸 دکتر محمدرضا عمویی متخصص جراحی عمومی ساعت ۱۲:۳۰ 🔸 دکتر مریم خلیلی متخصص داخلی ساعت ۱۰ 🔸 دکتر محمود نوری متخصص اعصاب و روان ساعت ۱۱ 🔸 دکتر حمیدرضا زارع متخصص اورولوژی ساعت ۸:۳۰ 🔸 دکتر وجیهه ک",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "داوری تا سنگچین رودخانه",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#ارسالی ✍️ درخواست مردمی به پاس بزرگداشت پروفسور داوری، از شهردار محترم و شورای اسلامی شهر اردکان درخواست داریم که فضای حدفاصل جدول بلوار پروفسور داوری تا سنگچین رودخانه را با کاشت درختان مناسب مثل نارون و سرو، به فضای سبز و چشم‌نوازی تبدیل کند. این محدوده، با توجه به موقعیت و طول بلوار، ظرفیت قابل‌توجهی برای زیباسازی و ایجاد چشم‌اندازی دلنشین دارد؛ اما در حال حاضر، فضای خالی میان بلوار و سنگچین رودخانه، از این زیبای",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "عبدالکریمی استاد فلسفه به",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "انتقاد صریح دکتر عبدالکریمی استاد فلسفه به اصلاح‌طلبان: اصلاح‌طلبان و لیبرال‌ها مسئول حوادث ۱۸ و ۱۹ دی‌ماه هستند، اما مسئولیت آن را نمی‌پذیرند وضعیت بحرانی امروز را مدیون سیاست‌های اصلاح‌طلبان هستیم که نام آزادی‌خواهی بر آن گذاشته‌اند @ardakaneemrooz_ir",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
