@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3437,
+    "people": 3442,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1603
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1608
     },
-    "public_source_records": 3056,
-    "social_public_records": 1592
+    "public_source_records": 3058,
+    "social_public_records": 1597
   },
   "people": [
     {
@@ -76586,6 +76586,91 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "انتقاد صریح دکتر عبدالکریمی استاد فلسفه به اصلاح‌طلبان: اصلاح‌طلبان و لیبرال‌ها مسئول حوادث ۱۸ و ۱۹ دی‌ماه هستند، اما مسئولیت آن را نمی‌پذیرند وضعیت بحرانی امروز را مدیون سیاست‌های اصلاح‌طلبان هستیم که نام آزادی‌خواهی بر آن گذاشته‌اند @ardakaneemrooz_ir",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "احسان رضایی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔴 🔴 قابل توجه مراجعین محترم 🔴 🔴 برنامه حضور هفتگی پزشکان درمانگاه امام سجاد(ع) 🧑‍⚕ 👩‍⚕ پزشکان عمومی شیفت صبح و عصر: 🔹 دکتر صفورا موسی بیکی .دکتر راضیه فداکار فرد .دکترغلامرضا افخمی.دکتر مریم فتاحی.دکتر علی فرزان 🦷 دندانپزشکان: 🔹 دکتر امیر رضا ملارحیمی.دکتر محمدمسعود مروتی.دکتر مهدی تقی زاده.دکتر فاطمه ابراهیم زاده.دکتر امین عابدیان.دکتر فائزه سادات رفیعی.دکتر فاطمه کریمی. دکتر زهرا شاکر .دکتر علی ابویی‌.دکتر محمد صاد",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "صابری به‌پاس سال‌ها خدمات",
+      "type": "فنی و مهندسی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "✅ پوردهقان‌اردکان در جمع نمازگزاران احمدآباد: مردم بزرگ‌ترین سرمایۀ کشورند/ هیچ مسئولی نباید به بهانه شرایط جنگی، از رفع مشکلات مردم غافل شود 👤 محورهای سخنان نمایندۀ مردم اردکان در نمازجمعۀ شهر احمدآباد: 1️⃣ احمدآباد شهر مردمان نیک، متدین و پای‌کار است. تقدیر از حجت‌الاسلام صابری به‌پاس سال‌ها خدمات در جایگاه امامت جمعۀ احمدآباد و تبریک انتصاب حجت‌الاسلام سبحانی، امام جمعۀ جدید این شهر. 2️⃣ حال‌وهوای این چند ماه کشور",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/Pourdehghan_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "عیسی مولوی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔴 🔴 قابل توجه مراجعین محترم 🔴 🔴 برنامه حضور هفتگی پزشکان درمانگاه امام سجاد(ع) 🧑‍⚕ 👩‍⚕ پزشکان عمومی شیفت صبح و عصر: 🔹 دکتر صفورا موسی بیکی .دکتر راضیه فداکار فرد .دکترغلامرضا افخمی.دکتر مریم فتاحی.دکتر علی فرزان 🦷 دندانپزشکان: 🔹 دکتر امیر رضا ملارحیمی.دکتر محمدمسعود مروتی.دکتر مهدی تقی زاده.دکتر فاطمه ابراهیم زاده.دکتر امین عابدیان.دکتر فائزه سادات رفیعی.دکتر فاطمه کریمی. دکتر زهرا شاکر .دکتر علی ابویی‌.دکتر محمد صاد",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "آدم حماوی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🔹 نماینده مسلمان مجلس آمریکا نمی‌خواهد ایران را دشمن اعلام کند! 🎥 بخشی از اظهارات دکتر آدم حماوی، جراح جنگی، کهنه‌سرباز ارتش و نماینده منتخب کنگره آمریکا 🔸 آدم حماوی در پاسخ به پرسش‌های مکرر درباره لزوم دشمن دانستن ایران و متحد نامیدن اسرائیل، از قرار گرفتن در این دوگانه خودداری می‌کند و تأکید دارد که واشنگتن تحت فشار اسرائیل به سمت این درگیری‌ها کشیده شده است؛ جنگی که به باور او غیرقانونی، غیراخلاقی و به ضرر منافع م",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "ناصر رفیعی",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🎥 حجت‌الاسلام ناصر رفیعی: فیلم حضور رهبر انقلاب در مراسم تدفین رهبر شهید وجود دارد اما شعام اجازه پخش نمی‌دهد! روایت حجت‌الاسلام ناصر رفیعی، منبری مشهور بیت رهبری از دیدار چند روز پیش فریدالدین حدادعادل با آیت‌الله سید مجتبی خامنه‌ای: 🔹️ آقا فرید گفتند که فرزندان آقا را خاله بچه‌ها نگهداری می‌کند. 🔹️ آقا در سلامت کامل هستند. @ardakaneemrooz_ir",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
