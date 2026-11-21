@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-20",
-  "candidate_count": 3437,
+  "generated_at": "2026-11-21",
+  "candidate_count": 3442,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1713,
+    "unsupported_or_missing_id": 1718,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3366
+    "skipped_total": 3371
   },
   "failures": {},
   "profiles": [
@@ -30059,6 +30059,41 @@
     {
       "candidate_index": 3436,
       "name": "عبدالکریمی استاد فلسفه به",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3437,
+      "name": "احسان رضایی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3438,
+      "name": "صابری به‌پاس سال‌ها خدمات",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3439,
+      "name": "عیسی مولوی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3440,
+      "name": "آدم حماوی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3441,
+      "name": "ناصر رفیعی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
