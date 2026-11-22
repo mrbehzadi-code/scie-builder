@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T08:51:27Z",
+  "generated_at": "2026-11-22T08:45:40Z",
   "target": 5000,
   "pool_size": 3442,
-  "new_records": 5,
+  "new_records": 0,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 414,
+      "records": 413,
       "status": "ok"
     },
     {
