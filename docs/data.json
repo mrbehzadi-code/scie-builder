@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22",
+  "generated_at": "2026-11-23",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3442,
+    "people": 3445,
     "academic_candidates": 1660,
     "regional_evidence": 594,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1608
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1611
     },
     "public_source_records": 3063,
-    "social_public_records": 1597
+    "social_public_records": 1600
   },
   "people": [
     {
@@ -76671,6 +76671,57 @@
       "type": "ظرفیت اجتماعی",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🎥 حجت‌الاسلام ناصر رفیعی: فیلم حضور رهبر انقلاب در مراسم تدفین رهبر شهید وجود دارد اما شعام اجازه پخش نمی‌دهد! روایت حجت‌الاسلام ناصر رفیعی، منبری مشهور بیت رهبری از دیدار چند روز پیش فریدالدین حدادعادل با آیت‌الله سید مجتبی خامنه‌ای: 🔹️ آقا فرید گفتند که فرزندان آقا را خاله بچه‌ها نگهداری می‌کند. 🔹️ آقا در سلامت کامل هستند. @ardakaneemrooz_ir",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "والمسلمین طلایی در دبیرستان",
+      "type": "مدیریت و جامعه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#گزارش_تصویری 🔺 اقامه نماز جماعت و پرسش و پاسخ امام جمعه عقدا حجت الاسلام والمسلمین طلایی در دبیرستان امیرکبیر ☫ روابط عمومی مدیریت آموزش و پرورش شهرستان اردکان سایت | ایتا | تلگرام | اینستاگرام 🌐 @ardakanedu",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakanedu",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "امیر سیاح تحلیلگر مسائل",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "⭕️ فیلم/ برخی از بخش‌های دولت اخیرا عامدانه فشار اقتصادی روی مردم وارد می‌کنند تا ثابت کنند تنها راه حل مشکلات مذاکره و توافق است/ اگر این دولت مو به مو به تمام بندهای برنامه هفتم عمل کند بدون مذاکره و توافق تمام مشکلات اقتصادی حل خواهد شد 👤 دکتر امیر سیاح تحلیلگر مسائل اقتصادی در گفت‌وگو با «اقتصاد۱۲۰»: سخنان کسانی که می‌گویند تنها راه حل مشکلات اقتصادی مذاکره و توافق است بسیار عجیب و از سر نفهمی است. @ardakaneemroo",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "پزشکیان در مخالفت برخی",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "با توجه به تصریح روزهای اخیر آقای پزشکیان در مخالفت برخی اعضای شعام با نظر رهبری \"در مقام عمل\" و تجربه پیام علی‌الاصول رهبری در چند ماه اخیر و هزینه شدن نهاد \"هیئت\" و \"منبر\" پای محافل و همچنین خطای محاسباتی برخی مداحان و واعظین در تحلیل وضعیت، برای چندمین بار اثبات شد که هریک از مردم باید ضمن شنیدن نظرات مختلف، چشم امیدی به خواص نداشته باشند؛ خودشان مطالعه کنند، بیندیشند، تحلیل کنند و تشخیص دهند و البته به جای خواص، ",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

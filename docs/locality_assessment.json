@@ -1,8 +1,8 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3092,
-    "possible": 334,
+    "insufficient": 3094,
+    "possible": 335,
     "probable": 14,
     "confirmed_by_human": 1,
     "confirmed": 1
@@ -52290,6 +52290,49 @@
     {
       "candidate_index": 3441,
       "name": "ناصر رفیعی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3442,
+      "name": "والمسلمین طلایی در دبیرستان",
+      "score": 35,
+      "status": "possible",
+      "reasons": [
+        {
+          "signal": "شهرستان اردکان",
+          "weight": 25
+        },
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3443,
+      "name": "امیر سیاح تحلیلگر مسائل",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3444,
+      "name": "پزشکیان در مخالفت برخی",
       "score": 10,
       "status": "insufficient",
       "reasons": [
