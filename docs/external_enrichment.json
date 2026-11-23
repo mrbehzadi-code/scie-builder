@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-22",
-  "candidate_count": 3442,
+  "generated_at": "2026-11-23",
+  "candidate_count": 3445,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1718,
+    "unsupported_or_missing_id": 1721,
     "openalex_reused": 7,
     "github_reused": 64,
     "errors": 0,
     "enriched_total": 71,
-    "skipped_total": 3371
+    "skipped_total": 3374
   },
   "failures": {},
   "profiles": [
@@ -30094,6 +30094,27 @@
     {
       "candidate_index": 3441,
       "name": "ناصر رفیعی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3442,
+      "name": "والمسلمین طلایی در دبیرستان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3443,
+      "name": "امیر سیاح تحلیلگر مسائل",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3444,
+      "name": "پزشکیان در مخالفت برخی",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
