@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T09:41:03Z",
+  "generated_at": "2026-11-24T11:38:33Z",
   "target": 5000,
   "pool_size": 3445,
-  "new_records": 3,
+  "new_records": 0,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 64,
     "Lead-guided OpenAlex Discovery": 23,
@@ -457,7 +457,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4270",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -672,7 +672,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4469",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -892,7 +892,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4586",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1027,7 +1027,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4692",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
