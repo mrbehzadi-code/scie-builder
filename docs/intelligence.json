@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-24",
-  "candidate_count": 3445,
+  "generated_at": "2026-11-25",
+  "candidate_count": 3448,
   "metrics": {
-    "unique_name_keys": 3349,
+    "unique_name_keys": 3352,
     "possible_duplicate_groups": 91,
     "variant_duplicate_groups": 21,
     "stable_identifier_duplicate_groups": 14,
     "quality_strong": 5,
-    "quality_medium": 3353,
+    "quality_medium": 3356,
     "quality_weak": 87,
     "shared_organization_groups": 101,
     "shared_location_groups": 7,
-    "evidence_items": 8065,
+    "evidence_items": 8071,
     "organizations_detected": 235,
     "locations_detected": 11
   },
   "sources": {
     "OpenAlex Discovery": 1637,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1611,
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1613,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "GitHub Discovery": 64,
+    "GitHub Discovery": 65,
     "دانشگاه‌های داخلی و خارجی": 1,
     "Lead-guided OpenAlex Discovery": 23
   },
@@ -40,7 +40,7 @@
     "فلسفه / علوم انسانی": 1,
     "دانشگاهی / پژوهشی": 5,
     "پروفایل وب": 5,
-    "پروفایل فنی": 59,
+    "پروفایل فنی": 60,
     "مدیریت / صنعتی": 1,
     "مدیریت / صنعت": 1,
     "مهندسی مکانیک / تولید": 1,
@@ -56,7 +56,7 @@
     "مدیریت و جامعه": 125,
     "فرهنگ و هنر": 20,
     "فنی و مهندسی": 111,
-    "ظرفیت اجتماعی": 205,
+    "ظرفیت اجتماعی": 207,
     "دانش و دانشگاه": 372,
     "کاندیدای معرفی‌شده به اطلس": 1
   },
@@ -87,13 +87,13 @@
     "location: Ardakan": 5,
     "name signal": 1,
     "public GitHub profile": 5,
-    "GitHub user search": 59,
+    "GitHub user search": 60,
     "query: ardakani in:bio": 23,
     "Chadormalu public-relations report": 1,
     "Role and Ardakani identification": 1,
     "Public company/business interview": 1,
     "CEO role": 1,
-    "query: Ardakan in:bio": 36,
+    "query: Ardakan in:bio": 37,
     "Mechanical engineering and manufacturing experience": 1,
     "surname: Davari Ardakani": 3,
     "OpenAlex author record": 3,
@@ -125,12 +125,12 @@
     "query: بهزادی مقدم": 5,
     "lead: محمود فرزان": 1,
     "query: محمود فرزان": 1,
-    "public Telegram preview": 1600,
+    "public Telegram preview": 1602,
     "Ardakan keyword in same public post": 589,
     "public author profile": 1345,
     "lead: دشتی اردکانی": 1,
     "query: دشتی اردکانی": 1,
-    "professional name in an Ardakan-focused public channel": 1011
+    "professional name in an Ardakan-focused public channel": 1013
   },
   "possible_duplicates": [
     {
@@ -55329,6 +55329,54 @@
         "location",
         "named_source"
       ]
+    },
+    {
+      "candidate_index": 3445,
+      "score": 58,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "structured_source"
+      ]
+    },
+    {
+      "candidate_index": 3446,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
+    },
+    {
+      "candidate_index": 3447,
+      "score": 55,
+      "evidence_strength": "medium",
+      "verification": "needs_review",
+      "evidence_count": 2,
+      "has_location": true,
+      "has_organization": false,
+      "reasons": [
+        "source_url",
+        "evidence:2",
+        "ardakan_signal",
+        "location",
+        "named_source"
+      ]
     }
   ],
   "organization_links": [
@@ -56751,9 +56799,10 @@
         3178,
         3190,
         3328,
-        3338
+        3338,
+        3445
       ],
-      "count": 76
+      "count": 77
     },
     {
       "location": "iran yazd ardakan",
@@ -58377,9 +58426,11 @@
         3441,
         3442,
         3443,
-        3444
+        3444,
+        3446,
+        3447
       ],
-      "count": 1600
+      "count": 1602
     }
   ],
   "notice": "Signals are analytical candidates, not verified identities or relationships."

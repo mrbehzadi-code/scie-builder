@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-24",
+  "generated_at": "2026-11-25",
   "metrics": {
-    "candidate_records": 3445,
-    "canonical_entities": 3431,
+    "candidate_records": 3448,
+    "canonical_entities": 3434,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
-    "entities_with_external_data": 69
+    "entities_with_external_data": 70
   },
   "candidate_to_entity": {
     "0": "scie-entity-00001",
@@ -3453,7 +3453,10 @@
     "3441": "scie-entity-03428",
     "3442": "scie-entity-03429",
     "3443": "scie-entity-03430",
-    "3444": "scie-entity-03431"
+    "3444": "scie-entity-03431",
+    "3445": "scie-entity-03432",
+    "3446": "scie-entity-03433",
+    "3447": "scie-entity-03434"
   },
   "entities": [
     {
@@ -104664,6 +104667,95 @@
       "primary_name": "پزشکیان در مخالفت برخی",
       "aliases": [
         "پزشکیان در مخالفت برخی"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03432",
+      "candidate_indexes": [
+        3445
+      ],
+      "record_count": 1,
+      "primary_name": "ardakanuni",
+      "aliases": [
+        "ardakanuni"
+      ],
+      "sources": [
+        "GitHub Discovery"
+      ],
+      "source_urls": [
+        "https://github.com/ardakanuni"
+      ],
+      "organizations": [],
+      "locations": [
+        "Ardakan signal"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [
+          "ardakanuni"
+        ],
+        "orcids": []
+      },
+      "external_enriched_records": 1,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03433",
+      "candidate_indexes": [
+        3446
+      ],
+      "record_count": 1,
+      "primary_name": "قالیباف برقرار شد",
+      "aliases": [
+        "قالیباف برقرار شد"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03434",
+      "candidate_indexes": [
+        3447
+      ],
+      "record_count": 1,
+      "primary_name": "قالیباف دعوا نداشتم",
+      "aliases": [
+        "قالیباف دعوا نداشتم"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

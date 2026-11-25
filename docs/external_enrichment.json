@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-11-24",
-  "candidate_count": 3445,
+  "generated_at": "2026-11-25",
+  "candidate_count": 3448,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1721,
+    "unsupported_or_missing_id": 1723,
     "openalex_reused": 7,
     "github_reused": 64,
+    "github_enriched": 1,
     "errors": 0,
-    "enriched_total": 71,
-    "skipped_total": 3374
+    "enriched_total": 72,
+    "skipped_total": 3376
   },
   "failures": {},
   "profiles": [
@@ -30115,6 +30116,41 @@
     {
       "candidate_index": 3444,
       "name": "پزشکیان در مخالفت برخی",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3445,
+      "name": "ardakanuni",
+      "provider": "GitHub",
+      "status": "enriched",
+      "data": {
+        "provider": "GitHub",
+        "login": "ardakanuni",
+        "display_name": null,
+        "company": null,
+        "blog": null,
+        "location": null,
+        "bio": null,
+        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2026-11-24T18:27:41Z",
+        "updated_at": "2026-11-24T18:28:03Z",
+        "provider_url": "https://github.com/ardakanuni"
+      }
+    },
+    {
+      "candidate_index": 3446,
+      "name": "قالیباف برقرار شد",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3447,
+      "name": "قالیباف دعوا نداشتم",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
