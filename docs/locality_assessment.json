@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3094,
+    "insufficient": 3097,
     "possible": 335,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -52333,6 +52333,45 @@
     {
       "candidate_index": 3444,
       "name": "پزشکیان در مخالفت برخی",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3445,
+      "name": "ardakanuni",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3446,
+      "name": "قالیباف برقرار شد",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3447,
+      "name": "قالیباف دعوا نداشتم",
       "score": 10,
       "status": "insufficient",
       "reasons": [

@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-24",
+  "generated_at": "2026-11-25",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3445,
+    "people": 3448,
     "academic_candidates": 1660,
-    "regional_evidence": 594,
+    "regional_evidence": 595,
     "sources": {
-      "GitHub Discovery": 64,
+      "GitHub Discovery": 65,
       "Lead-guided OpenAlex Discovery": 23,
       "OpenAlex Discovery": 1637,
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1611
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1613
     },
     "public_source_records": 3066,
-    "social_public_records": 1600
+    "social_public_records": 1602
   },
   "people": [
     {
@@ -76722,6 +76722,54 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "با توجه به تصریح روزهای اخیر آقای پزشکیان در مخالفت برخی اعضای شعام با نظر رهبری \"در مقام عمل\" و تجربه پیام علی‌الاصول رهبری در چند ماه اخیر و هزینه شدن نهاد \"هیئت\" و \"منبر\" پای محافل و همچنین خطای محاسباتی برخی مداحان و واعظین در تحلیل وضعیت، برای چندمین بار اثبات شد که هریک از مردم باید ضمن شنیدن نظرات مختلف، چشم امیدی به خواص نداشته باشند؛ خودشان مطالعه کنند، بیندیشند، تحلیل کنند و تشخیص دهند و البته به جای خواص، ",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "ardakanuni",
+      "type": "پروفایل فنی",
+      "source": "GitHub Discovery",
+      "detail": "public GitHub profile candidate",
+      "location": "Ardakan signal",
+      "evidence": [
+        "GitHub user search",
+        "query: Ardakan in:bio"
+      ],
+      "url": "https://github.com/ardakanuni",
+      "verification": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "name": "قالیباف برقرار شد",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🎥 رسایی: هیچ دلیلی برای عذرخواهی وجود ندارد نماینده مجلس: 🔹 امروز صبح سامانه نمایندگی بنده باز شد. 🔹 به دلیل مصالح کشور برخی نکات را بیان نمی‌کنم. 🔹 با آقای قالیباف دعوا نداشتم و قهر نبودم تا نیاز به آشتی باشد. 🔹 با اصرار نمایندگان مواجه شدم و مصافحه بین بنده و آقای قالیباف برقرار شد. 🔹 همانطور که قبلا اعلام کردم هیچ دلیلی برای عذرخواهی وجود ندارد. 🔹 تاکید کردم این مسیر باعث لطمه به اوست. 🔹 قرار شد در نشستی صحبت کنیم",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "قالیباف دعوا نداشتم",
+      "type": "ظرفیت اجتماعی",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🎥 رسایی: هیچ دلیلی برای عذرخواهی وجود ندارد نماینده مجلس: 🔹 امروز صبح سامانه نمایندگی بنده باز شد. 🔹 به دلیل مصالح کشور برخی نکات را بیان نمی‌کنم. 🔹 با آقای قالیباف دعوا نداشتم و قهر نبودم تا نیاز به آشتی باشد. 🔹 با اصرار نمایندگان مواجه شدم و مصافحه بین بنده و آقای قالیباف برقرار شد. 🔹 همانطور که قبلا اعلام کردم هیچ دلیلی برای عذرخواهی وجود ندارد. 🔹 تاکید کردم این مسیر باعث لطمه به اوست. 🔹 قرار شد در نشستی صحبت کنیم",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",

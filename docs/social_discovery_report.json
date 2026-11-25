@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-24T11:38:33Z",
+  "generated_at": "2026-11-25T10:23:05Z",
   "target": 5000,
-  "pool_size": 3445,
-  "new_records": 0,
+  "pool_size": 3448,
+  "new_records": 2,
   "records_in_snapshot_by_source": {
-    "GitHub Discovery": 64,
+    "GitHub Discovery": 65,
     "Lead-guided OpenAlex Discovery": 23,
     "OpenAlex Discovery": 1637,
     "دانشگاه‌های داخلی و خارجی": 1,
     "وب عمومی و رسانه‌ها": 106,
     "پایگاه‌های رسمی و سازمانی": 3,
-    "کانال‌ها و گروه‌های عمومی تلگرام": 1611
+    "کانال‌ها و گروه‌های عمومی تلگرام": 1613
   },
   "telegram": [
     {
@@ -34,7 +34,7 @@
     {
       "url": "https://t.me/s/ardakaneemrooz_ir",
       "pages": 240,
-      "records": 414,
+      "records": 417,
       "status": "ok"
     },
     {
