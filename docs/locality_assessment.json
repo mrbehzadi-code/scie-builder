@@ -1,7 +1,7 @@
 {
   "schema": "scie-locality-assessment-v1",
   "counts": {
-    "insufficient": 3097,
+    "insufficient": 3100,
     "possible": 335,
     "probable": 14,
     "confirmed_by_human": 1,
@@ -52372,6 +52372,45 @@
     {
       "candidate_index": 3447,
       "name": "قالیباف دعوا نداشتم",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3448,
+      "name": "دکتر اکبری مدیر کل",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3449,
+      "name": "قالیباف بود",
+      "score": 10,
+      "status": "insufficient",
+      "reasons": [
+        {
+          "signal": "حداقل سه میدان مستقل",
+          "weight": 10
+        }
+      ],
+      "needs_human_review": true
+    },
+    {
+      "candidate_index": 3450,
+      "name": "مهدی عباسی کارشناس مطالعات",
       "score": 10,
       "status": "insufficient",
       "reasons": [

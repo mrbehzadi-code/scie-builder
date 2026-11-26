@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25",
+  "generated_at": "2026-11-26",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3448,
+    "people": 3451,
     "academic_candidates": 1660,
     "regional_evidence": 595,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1613
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1616
     },
-    "public_source_records": 3066,
-    "social_public_records": 1602
+    "public_source_records": 3068,
+    "social_public_records": 1605
   },
   "people": [
     {
@@ -76770,6 +76770,57 @@
       "type": "ظرفیت اجتماعی",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "🎥 رسایی: هیچ دلیلی برای عذرخواهی وجود ندارد نماینده مجلس: 🔹 امروز صبح سامانه نمایندگی بنده باز شد. 🔹 به دلیل مصالح کشور برخی نکات را بیان نمی‌کنم. 🔹 با آقای قالیباف دعوا نداشتم و قهر نبودم تا نیاز به آشتی باشد. 🔹 با اصرار نمایندگان مواجه شدم و مصافحه بین بنده و آقای قالیباف برقرار شد. 🔹 همانطور که قبلا اعلام کردم هیچ دلیلی برای عذرخواهی وجود ندارد. 🔹 تاکید کردم این مسیر باعث لطمه به اوست. 🔹 قرار شد در نشستی صحبت کنیم",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "دکتر اکبری مدیر کل",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "#خبر 🔻 چالش های زیست محیطی اردکان با حضور جناب آقای دکتر اکبری مدیر کل محیط زیست استان یزد در صحن شورای شهر بررسی شد. از آلودگی هوا و ریزگردها تا مسئولیت صنایع 💠 روابط‌ عمومی‌شهرداری‌ و شورای اسلامی شهر اردکان @sh_ardakan @ardakaneemrooz_ir",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "Ardakan keyword in same public post"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "medium",
+      "public_evidence_score": 60,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "قالیباف بود",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "💠 برای جوان‌تر‌ها: کاندیدای اول دکتر قالیباف بود و کاندیدای دوم دکتر احمدی‌نژاد. [که بعداً به گونه دیگری عمل کرد!] ▪️ بله همین است واقعاً! برخی اعتقادشان به ولایت فقیه در حد همین است که «ولی فقیه نظری دارد و من هم نظری دیگر، و تا آنجا که بشود با او چانه میزنم و درنهایت اگر نپذیرفت، چون بلاخره یک نفر باید حرف آخر را بزند، می پذیرم، تازه آنهم اگر «امر» کرد!!» و برخی دیگر هم که مبادی حکمت و فکرت ولایت فقیه را می‌دانند و",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "مهدی عباسی کارشناس مطالعات",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "ترامپ تا پایان تعطیلات کریسمس جنگ را آغاز نخواهد کرد تا قیمت سوخت و انرژی برای مردم آمریکا در روزهای تعطیلات گران نشود/ باید هرطور شده تنش را افزایش دهیم تا جنگ تمام شود دکتر مهدی عباسی کارشناس مطالعات آمریکا: تنها هدف آیزنکوت، نتانیاهو و ترامپ در شرایط فعلی خارج کردن ۴۰۰ کیلوگرم اورانیوم از ایران است که ایران محکم ایستاده و به آن تن نمی‌دهد. @ardakaneemrooz_ir",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
