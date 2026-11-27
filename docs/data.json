@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26",
+  "generated_at": "2026-11-27",
   "notice": "Discovery snapshot: recall-first candidate pool. Candidates are not confirmed identities.",
   "target": 5000,
   "stats": {
     "web_records": 6,
-    "people": 3451,
+    "people": 3453,
     "academic_candidates": 1660,
     "regional_evidence": 595,
     "sources": {
@@ -14,10 +14,10 @@
       "دانشگاه‌های داخلی و خارجی": 1,
       "وب عمومی و رسانه‌ها": 106,
       "پایگاه‌های رسمی و سازمانی": 3,
-      "کانال‌ها و گروه‌های عمومی تلگرام": 1616
+      "کانال‌ها و گروه‌های عمومی تلگرام": 1618
     },
-    "public_source_records": 3068,
-    "social_public_records": 1605
+    "public_source_records": 3071,
+    "social_public_records": 1607
   },
   "people": [
     {
@@ -76821,6 +76821,40 @@
       "type": "پزشکی و سلامت",
       "source": "کانال‌ها و گروه‌های عمومی تلگرام",
       "detail": "ترامپ تا پایان تعطیلات کریسمس جنگ را آغاز نخواهد کرد تا قیمت سوخت و انرژی برای مردم آمریکا در روزهای تعطیلات گران نشود/ باید هرطور شده تنش را افزایش دهیم تا جنگ تمام شود دکتر مهدی عباسی کارشناس مطالعات آمریکا: تنها هدف آیزنکوت، نتانیاهو و ترامپ در شرایط فعلی خارج کردن ۴۰۰ کیلوگرم اورانیوم از ایران است که ایران محکم ایستاده و به آن تن نمی‌دهد. @ardakaneemrooz_ir",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "امید اخوان",
+      "type": "پزشکی و سلامت",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "احیای راکتور آب سنگین اراک، لازمه تغییر دکترین هسته‌ای ایران است دکتر امید اخوان، عضو هیات علمی دانشگاه شریف: 🔹 چه کسی گفته ایران باید تعهد بدهد تا ابد از راکتور آب سنگین استفاده نمی‌کند، راکتور اراک به ما کمک می‌کرد تا به فناوری استفاده از پسماند هسته‌ای به عنوان سوخت برسیم. 🔹 داشتن راکتور آب سنگین یکی از عوامل تولید قدرت ایران خواهد بود، دشمنان از راکتور آب سنگین وحشت دارند. 🔹 پذیرفتن تعلیق دائمی راکتور اراک در برج",
+      "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
+      "evidence": [
+        "public Telegram preview",
+        "professional name in an Ardakan-focused public channel"
+      ],
+      "url": "https://t.me/s/ardakaneemrooz_ir",
+      "verification": "needs_review",
+      "confidence": "low",
+      "public_evidence_score": 45,
+      "locality_claim": "candidate_not_confirmed",
+      "access_scope": "public_post"
+    },
+    {
+      "name": "فیزیک هسته‌ای",
+      "type": "دانش و دانشگاه",
+      "source": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "detail": "🎥 آقامیری، استاد فیزیک هسته‌ای: آژانس دارد از ما جاسوسی می‌کند؛ اگر قرار باشد NPT زمینهٔ جاسوسی را فراهم کند، باید به خروج از آن فکر کنیم @ardakaneemrooz_ir",
       "location": "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)",
       "evidence": [
         "public Telegram preview",
