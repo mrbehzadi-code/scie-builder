@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26",
+  "generated_at": "2026-11-27",
   "metrics": {
-    "candidate_records": 3451,
-    "canonical_entities": 3437,
+    "candidate_records": 3453,
+    "canonical_entities": 3439,
     "records_collapsed": 14,
     "same_person_pairs_applied": 14,
     "multi_record_entities": 14,
@@ -3459,7 +3459,9 @@
     "3447": "scie-entity-03434",
     "3448": "scie-entity-03435",
     "3449": "scie-entity-03436",
-    "3450": "scie-entity-03437"
+    "3450": "scie-entity-03437",
+    "3451": "scie-entity-03438",
+    "3452": "scie-entity-03439"
   },
   "entities": [
     {
@@ -104846,6 +104848,64 @@
       "primary_name": "مهدی عباسی کارشناس مطالعات",
       "aliases": [
         "مهدی عباسی کارشناس مطالعات"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03438",
+      "candidate_indexes": [
+        3451
+      ],
+      "record_count": 1,
+      "primary_name": "امید اخوان",
+      "aliases": [
+        "امید اخوان"
+      ],
+      "sources": [
+        "کانال‌ها و گروه‌های عمومی تلگرام"
+      ],
+      "source_urls": [
+        "https://t.me/s/ardakaneemrooz_ir"
+      ],
+      "organizations": [],
+      "locations": [
+        "اردکان (شاهد متنی؛ نیازمند راستی‌آزمایی)"
+      ],
+      "identifiers": {
+        "openalex_ids": [],
+        "github_usernames": [],
+        "orcids": []
+      },
+      "external_enriched_records": 0,
+      "identity_status": "SINGLE_CANDIDATE",
+      "human_review_required": true
+    },
+    {
+      "entity_id": "scie-entity-03439",
+      "candidate_indexes": [
+        3452
+      ],
+      "record_count": 1,
+      "primary_name": "فیزیک هسته‌ای",
+      "aliases": [
+        "فیزیک هسته‌ای"
       ],
       "sources": [
         "کانال‌ها و گروه‌های عمومی تلگرام"

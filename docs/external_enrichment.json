@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-26",
-  "candidate_count": 3451,
+  "generated_at": "2026-11-27",
+  "candidate_count": 3453,
   "metrics": {
     "openalex_skipped": 1653,
-    "unsupported_or_missing_id": 1726,
+    "unsupported_or_missing_id": 1728,
     "openalex_reused": 7,
     "github_reused": 65,
     "errors": 0,
     "enriched_total": 72,
-    "skipped_total": 3379
+    "skipped_total": 3381
   },
   "failures": {},
   "profiles": [
@@ -30171,6 +30171,20 @@
     {
       "candidate_index": 3450,
       "name": "مهدی عباسی کارشناس مطالعات",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3451,
+      "name": "امید اخوان",
+      "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
+      "status": "skipped",
+      "data": {}
+    },
+    {
+      "candidate_index": 3452,
+      "name": "فیزیک هسته‌ای",
       "provider": "کانال‌ها و گروه‌های عمومی تلگرام",
       "status": "skipped",
       "data": {}
