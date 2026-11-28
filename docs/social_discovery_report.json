@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T10:06:45Z",
+  "generated_at": "2026-11-28T09:25:52Z",
   "target": 5000,
   "pool_size": 3453,
-  "new_records": 2,
+  "new_records": 0,
   "records_in_snapshot_by_source": {
     "GitHub Discovery": 65,
     "Lead-guided OpenAlex Discovery": 23,
@@ -45,7 +45,7 @@
     },
     {
       "url": "https://t.me/s/Pourdehghan_ir",
-      "pages": 225,
+      "pages": 226,
       "records": 194,
       "status": "ok"
     }
@@ -62,7 +62,7 @@
     {
       "platform": "instagram",
       "url": "http://Instagram.com/ardakanuni_tashkilat",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -132,57 +132,57 @@
     {
       "platform": "instagram",
       "url": "http://instagram.com/AZAR_MATNA7",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/Mostafa_Pourdehghan",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/Pourdehghan_ir",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/_u/khamenei_ir",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/ardakanedu",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/ardakanuni_tashkilat",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/bso.ardakanuni",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/fatemehh_f13",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/kalk_ir",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "http://instagram.com/shohada_yazd",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://Instagram.com/Mostafa_Pourdehghan",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -662,7 +662,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4461",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -767,7 +767,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4513",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -917,7 +917,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4592",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1057,7 +1057,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/Pourdehghan_ir/4701",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no person name in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1212,7 +1212,7 @@
     {
       "platform": "eitaa",
       "url": "https://eitaa.com/basiratbesabkeshohada",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "eitaa",
@@ -1317,32 +1317,32 @@
     {
       "platform": "instagram",
       "url": "https://instagram.com/Lms_tvuyazd",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/Pourdehghan_ir",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/ardakanuni_tashkilat",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/kajino.festival",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/mostafa_pourdehghan",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/p/B3zY3BUlmcu",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
@@ -1352,32 +1352,32 @@
     {
       "platform": "instagram",
       "url": "https://instagram.com/pourdehghan_ir",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/shohada_yazd",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/tvuyazd",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/baray_ardakan",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/onnewsmedia",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/p/B3zY3BUlmcu/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     },
     {
       "platform": "instagram",
@@ -1407,7 +1407,7 @@
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/tvelayat_tehran/",
-      "result": "HTTP Error 429: Too Many Requests"
+      "result": "no Ardakan signal in public metadata"
     }
   ],
   "policy": "Public pages/metadata only; no login or private-content access."
